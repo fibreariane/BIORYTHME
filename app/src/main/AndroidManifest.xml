@@ -32,7 +32,19 @@
         <activity
             android:name="com.fibredariane.horoscope.chinois.biorythmeETRES.Activities.ViewElementActivity"
             android:theme="@style/AppTheme.NoActionBar" />
-        <!-- This meta-data tag is required to use Google Play Services. -->
+        <activity
+            android:name="com.fibredariane.horoscope.chinois.biorythmeETRES.Test.TestMain"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.fibredariane.horoscope.chinois.biorythmeETRES.Test.TestBinomeActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name="com.fibredariane.horoscope.chinois.biorythmeETRES.Test.TestBiorythmeActivity"
+            android:theme="@style/AppTheme.NoActionBar" />        <!-- This meta-data tag is required to use Google Play Services. -->
+        <activity
+            android:name="com.fibredariane.horoscope.chinois.biorythmeETRES.Test.TestHoroscopeActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
@@ -43,6 +55,9 @@
             android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
             android:theme="@android:style/Theme.Translucent" />
 
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="d11eb4ee7d04639817619fa8792f752981b4bd52" />
     </application>
 
 </manifest>

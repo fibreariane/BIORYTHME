@@ -1,7 +1,9 @@
 package com.fibredariane.horoscope.chinois.biorythmeETRES.Models;
 
 import android.content.Context;
+import android.database.Cursor;
 import android.util.Log;
+import android.widget.Toast;
 
 import com.fibredariane.horoscope.chinois.biorythmeETRES.R;
 
@@ -21,7 +23,6 @@ public class Binome implements Serializable {
     private int mNbBinome;
     private int mIntId;
     private int mIntIdMini;
-    private int mIntIdAccueil;
     private String mType;
     private Organe mOrganeTroncCeleste;
     private Organe mOrganeBrancheTerrestre;
@@ -30,6 +31,82 @@ public class Binome implements Serializable {
     private String mKey1;
     private String mKey2;
 
+
+    public Binome(Cursor cursor, Context c, String typeBinome){
+        if (cursor.moveToFirst()) {
+                mNom = cursor.getString(TableBinome.Constants.NAME_COLUMN);
+            mNbBinome = cursor.getInt(TableBinome.Constants.NB_BINOME_COLUMN);
+            mIdBinome = cursor.getString(TableBinome.Constants.ID_BINOME_COLUMN);
+            mIntId = c.getResources().getIdentifier(
+                    mIdBinome,
+                    "drawable",
+                    c.getPackageName());
+            mIntIdMini = c.getResources().getIdentifier(
+                    mIdBinome+"_mini",
+                    "drawable",
+                    c.getPackageName());
+            mDescription = cursor.getString(TableBinome.Constants.DESCRIPTION_COLUMN);
+            mType = typeBinome;
+            mPolarite = cursor.getString(TableBinome.Constants.POLARITE_COLUMN);
+            mElement = new Element(c,cursor.getString(TableBinome.Constants.ELEMENT_COLUMN));
+            mOrganeTroncCeleste = new Organe(c,
+                    cursor.getString(TableBinome.Constants.TRONC_ORGANE_COLUMN),
+                    cursor.getString(TableBinome.Constants.TRONC_POLARITE_COLUMN),
+                    cursor.getString(TableBinome.Constants.TRONC_ELEMENT_COLUMN));
+            mOrganeBrancheTerrestre = new Organe(c,
+                    cursor.getString(TableBinome.Constants.BRANCHE_ORGANE_COLUMN),
+                    cursor.getString(TableBinome.Constants.BRANCHE_POLARITE_COLUMN),
+                    cursor.getString(TableBinome.Constants.BRANCHE_ELEMENT_COLUMN));
+
+             if (mPolarite.equals("YANG")){
+                switch (mElement.getNom()){
+                    case "BOIS" :
+                        mKey1 = c.getResources().getString(R.string.key_creation);
+                        mKey2 = c.getResources().getString(R.string.key_action);
+                        break;
+                    case "FEU" :
+                        mKey1 = c.getResources().getString(R.string.key_communication);
+                        mKey2 = c.getResources().getString(R.string.key_partage);
+                        break;
+                    case "METAL" :
+                        mKey1 = c.getResources().getString(R.string.key_sensation);
+                        mKey2 = c.getResources().getString(R.string.key_instinct);
+                        break;
+                    case "EAU" :
+                        mKey1 = c.getResources().getString(R.string.key_Lucidite);
+                        mKey2 = c.getResources().getString(R.string.key_ecoute);
+                        break;
+                    case "TERRE" :
+                        mKey1 = c.getResources().getString(R.string.key_realisation);
+                        mKey2 = c.getResources().getString(R.string.key_concret);
+                        break;
+                }
+            }else{
+                switch (mElement.getNom()){
+                    case "BOIS" :
+                        mKey1 = c.getResources().getString(R.string.key_sensation);
+                        mKey2 = c.getResources().getString(R.string.key_instinct);
+                        break;
+                    case "FEU" :
+                        mKey1 = c.getResources().getString(R.string.key_Lucidite);
+                        mKey2 = c.getResources().getString(R.string.key_ecoute);
+                        break;
+                    case "METAL" :
+                        mKey1 = c.getResources().getString(R.string.key_communication);
+                        mKey2 = c.getResources().getString(R.string.key_partage);
+                        break;
+                    case "EAU" :
+                        mKey1 = c.getResources().getString(R.string.key_realisation);
+                        mKey2 = c.getResources().getString(R.string.key_concret);
+                        break;
+                    case "TERRE" :
+                        mKey1 = c.getResources().getString(R.string.key_creation);
+                        mKey2 = c.getResources().getString(R.string.key_action);
+                        break;
+                }
+            }
+        }
+    }
 
     public  Binome(Context c, String jsonString, String typeBinome) {
 
@@ -46,10 +123,7 @@ public class Binome implements Serializable {
                     mIdBinome+"_mini",
                     "drawable",
                     c.getPackageName());
-            mIntIdAccueil = c.getResources().getIdentifier(
-                    mIdBinome+"_accueil",
-                    "drawable",
-                    c.getPackageName());
+
             mDescription = json.getString("description");
             mType = typeBinome;
             mPolarite = json.getString("polarite");

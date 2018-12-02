@@ -1,6 +1,5 @@
 package com.fibredariane.horoscope.chinois.biorythmeETRES.Activities;
 
-import android.app.Dialog;
 import android.content.Context;
 import android.content.Intent;
 import android.support.annotation.NonNull;
@@ -14,24 +13,30 @@ import android.support.v4.view.ViewPager;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-import com.fibredariane.horoscope.chinois.biorythmeETRES.Models.Element;
+import com.crashlytics.android.Crashlytics;
 
+import com.fibredariane.horoscope.chinois.biorythmeETRES.Models.Binome;
 import com.fibredariane.horoscope.chinois.biorythmeETRES.Models.Biorythme;
 import com.fibredariane.horoscope.chinois.biorythmeETRES.Models.Horoscope;
 import com.fibredariane.horoscope.chinois.biorythmeETRES.R;
+import com.fibredariane.horoscope.chinois.biorythmeETRES.Test.TestBinomeActivity;
+import com.fibredariane.horoscope.chinois.biorythmeETRES.Test.TestMain;
 import com.fibredariane.horoscope.chinois.biorythmeETRES.Utils.AdInterstitial;
-import com.fibredariane.horoscope.chinois.biorythmeETRES.Utils.AdVideo;
 import com.fibredariane.horoscope.chinois.biorythmeETRES.Utils.CalculBinomes;
 import com.fibredariane.horoscope.chinois.biorythmeETRES.Utils.Preferences;
 import com.fibredariane.horoscope.chinois.biorythmeETRES.Utils.ZoomOutPageTransformer;
+import io.fabric.sdk.android.Fabric;
+
+import com.fibredariane.horoscope.chinois.biorythmeETRES.Utils.ManageRecordDB;
+
+import java.io.Serializable;
 
 //public class MainActivity extends AppCompatActivity implements View.OnClickListener,RewardedVideoAdListener {
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
-    private SectionsPagerAdapter mSectionsPagerAdapter;
+   private SectionsPagerAdapter mSectionsPagerAdapter;
     private ViewPager mViewPager;
 
     private BottomNavigationView mNavigation;
@@ -39,7 +44,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private BottomNavigationView mNavigationBiorythme;
     private BottomNavigationView mNavigationSynthese;
     private Context mContext;
-    private AdInterstitial mAdInterstitial;
     private LinearLayout mLinearLayoutCredit;
     private TextView mTextViewCredit;
     private Preferences mPreferences;
@@ -49,17 +53,26 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private Horoscope mHoroscopeYear;
     private Horoscope mHoroscopeMonth;
     private Horoscope mHoroscopeDay;
+    //
+    private ManageRecordDB db;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
+        Fabric.with(this, new Crashlytics());
         setContentView(R.layout.activity_main);
         mContext = this;
+        mLinearLayoutCredit = (LinearLayout) findViewById(R.id.linear_layout_credit);
+        mLinearLayoutCredit.setOnClickListener(this);
+
         mPreferences = new Preferences(mContext);
 
         mPreferences.isFirstTimeApplication();
+
+    //    db = new ManageRecordDB();
+     //   db.initTables(mContext);
 
         String date_biorythme = mPreferences.getStringDatePref();
         if (date_biorythme == ""){
@@ -78,8 +91,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
             mTextViewCredit = (TextView) findViewById(R.id.text_view_credit);
 
-            mAdInterstitial = new AdInterstitial(this, mPreferences);
-
             mLinearLayoutCredit = (LinearLayout) findViewById(R.id.linear_layout_credit);
             mLinearLayoutCredit.setOnClickListener(this);
 
@@ -95,9 +106,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             mBiorythmeUser = mPreferences.getBiorythmePref();
             mHoroscopeYear = new Horoscope(mContext, mBiorythmeUser, mBiorythmeOfTheDay.getBinomeAnnee(), "A");
             mHoroscopeMonth = new Horoscope(mContext, mBiorythmeUser, mBiorythmeOfTheDay.getBinomeMois(), "M");
-            ;
+
             mHoroscopeDay = new Horoscope(mContext, mBiorythmeUser, mBiorythmeOfTheDay.getBinomeJour(), "J");
-            ;
+
 
             //
             mViewPager.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
@@ -219,14 +230,18 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 mViewPager.setCurrentItem(1);
                 break;
             case R.id.linear_layout_credit:
-               // mAdInterstitial.setAd();
+                //mAdInterstitial.setAd();
+               // Binome test = db.getBinome("59","");
+               // Binome test = db.getBinome("59","");
                 break;
+
             default:
                 break;
         }
 
     }
-    public class SectionsPagerAdapter extends FragmentStatePagerAdapter {
+
+   public class SectionsPagerAdapter extends FragmentStatePagerAdapter {
 
         public SectionsPagerAdapter(FragmentManager fm) {
             super(fm);
@@ -386,5 +401,17 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         };
         mNavigationSynthese.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+  //      db.openDBs();
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+    //    db.closeDBs();
     }
 }

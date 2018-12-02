@@ -1,6 +1,7 @@
 package com.fibredariane.horoscope.chinois.biorythmeETRES.Models;
 
 import android.content.Context;
+import android.database.Cursor;
 import android.util.Log;
 
 import com.fibredariane.horoscope.chinois.biorythmeETRES.R;
@@ -30,6 +31,31 @@ public class Horoscope implements Serializable {
 
     private String mPolarite;
     private String mElement;
+
+    public Horoscope(Context context,Cursor cursorAnnee, Cursor cursorMois,Cursor cursorJour,Cursor cursorHeure,Binome binomeHoroscope){
+        mElement = binomeHoroscope.getElement().getNom();
+        mPolarite = binomeHoroscope.getPolarite();
+        mContext = context;
+
+        mIdImageElement = getId(mElement.toLowerCase());
+
+        if (cursorAnnee.moveToFirst()) {
+            mTextInfluenceAnnee =  cursorAnnee.getString(TableHoroscope.Constants.TEXTE_ANNEE_COLUMN);
+            mIdImageInfluenceAnnee = getId("meteo_"+cursorAnnee.getString(TableHoroscope.Constants.INFLUENCE_COLUMN).toLowerCase());
+        }
+        if (cursorMois.moveToFirst()) {
+            mTextInfluenceMois = cursorMois.getString(TableHoroscope.Constants.TEXTE_MOIS_COLUMN);
+            mIdImageInfluenceMois = getId("meteo_"+cursorMois.getString(TableHoroscope.Constants.INFLUENCE_COLUMN).toLowerCase());
+        }
+        if (cursorJour.moveToFirst()) {
+            mTextInfluenceJour= cursorJour.getString(TableHoroscope.Constants.TEXTE_JOUR_COLUMN);
+            mIdImageInfluenceJour = getId("meteo_"+cursorJour.getString(TableHoroscope.Constants.INFLUENCE_COLUMN).toLowerCase());
+        }
+        if (cursorHeure.moveToFirst()) {
+            mTextInfluenceHeure= cursorHeure.getString(TableHoroscope.Constants.TEXTE_HEURE_COLUMN);
+            mIdImageInfluenceHeure = getId("meteo_"+cursorHeure.getString(TableHoroscope.Constants.INFLUENCE_COLUMN).toLowerCase());
+        }
+    }
 
     public Horoscope(Context context, Biorythme biorythmePerso, Binome binomeCourant,String typeHoro){
         try {

@@ -10,7 +10,6 @@ import java.io.Serializable;
 
 public class Organe implements Serializable {
     public String mNom;
-    public String mValeur;
     public String mPolarite;
     public Element mElement;
 
@@ -23,4 +22,5 @@ public class Organe implements Serializable {
         return mElement;
     }
     public String getNom(){ return mNom;}
+    public String getPolarite(){ return mPolarite;}
 }

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context="com.fibredariane.horoscope.chinois.biorythmeETRES.Activities.MainActivity"
+    android:background="@color/colorWhite">
+
+
+    <Button
+        android:id="@+id/btn_binome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:text="Test Binome" />
+
+    <Button
+        android:id="@+id/btn_biorythme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:text="Test Biorythme" />
+
+    <Button
+        android:id="@+id/btn_synthese"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:text="Test Synthèse Element" />
+
+    <Button
+        android:id="@+id/btn_horoscope"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:text="Test Horoscope" />
+
+</LinearLayout>

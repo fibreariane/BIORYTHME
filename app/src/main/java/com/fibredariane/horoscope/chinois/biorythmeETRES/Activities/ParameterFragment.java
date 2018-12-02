@@ -8,9 +8,13 @@ import android.support.v4.app.FragmentManager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.LinearLayout;
 
+import com.fibredariane.horoscope.chinois.biorythmeETRES.BuildConfig;
 import com.fibredariane.horoscope.chinois.biorythmeETRES.R;
+import com.fibredariane.horoscope.chinois.biorythmeETRES.Test.TestBinomeActivity;
+import com.fibredariane.horoscope.chinois.biorythmeETRES.Test.TestMain;
 
 
 public class ParameterFragment extends Fragment implements View.OnClickListener {
@@ -29,6 +33,7 @@ public class ParameterFragment extends Fragment implements View.OnClickListener 
     private LinearLayout mLinearLayoutAchat;
     private LinearLayout mLinearLayoutGlossaire;
     private LinearLayout mLinearLayoutEvaluation;
+    private Button mButtonTest;
 
     public ParameterFragment() {
     }
@@ -63,6 +68,11 @@ public class ParameterFragment extends Fragment implements View.OnClickListener 
             mLinearLayoutGlossaire.setOnClickListener(this);
             mLinearLayoutEvaluation = (LinearLayout) rootView.findViewById(R.id.linear_layout_evaluation);
             mLinearLayoutEvaluation.setOnClickListener(this);
+            mButtonTest= (Button) rootView.findViewById(R.id.btn_test);
+            if (BuildConfig.DEBUG) {
+                mButtonTest.setVisibility(View.VISIBLE);
+                mButtonTest.setOnClickListener(this);
+            }
 
             mFragmentManager = getFragmentManager();
             mDialogueOuiNon = new DialogOuiNonFragment();
@@ -78,12 +88,13 @@ public class ParameterFragment extends Fragment implements View.OnClickListener 
 
     @Override
     public void onClick(View v) {
+        Intent intent;
         switch (v.getId()) {
             case R.id.linear_layout_reset:
                 mDialogueOuiNon.show(mFragmentManager, "Sample Fragment");
                 break;
             case R.id.linear_layout_switch :
-                Intent intent = new Intent(mContext, SwitchBiorythmeActivity.class);
+                 intent = new Intent(mContext, SwitchBiorythmeActivity.class);
                 startActivity(intent);
                 break;
             case R.id.linear_layout_langue :
@@ -92,6 +103,10 @@ public class ParameterFragment extends Fragment implements View.OnClickListener 
             case R.id.linear_layout_evaluation :
                 mDialogueInformation.show(mFragmentManager, "Sample Fragment");
                break;
+            case R.id.btn_test:
+                intent = new Intent(mContext, TestMain.class);
+                startActivity(intent);
+                break;
             default:
                 break;
         }

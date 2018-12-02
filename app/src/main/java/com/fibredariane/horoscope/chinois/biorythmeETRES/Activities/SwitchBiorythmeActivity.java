@@ -62,7 +62,7 @@ public class SwitchBiorythmeActivity extends AppCompatActivity implements TimePi
         mButtonValider.setOnClickListener(this);
 
         initDialog();
-        initTimezone();
+       // initTimezone();
 
         setCurrentTimeOnView();
         setCurrentDateOnView();
@@ -196,46 +196,6 @@ public class SwitchBiorythmeActivity extends AppCompatActivity implements TimePi
         titre.setText(R.string.erreur);
         text.setText(R.string.date_hors_limite);
     }
-    private void initTimezone(){
-        Spinner dynamicSpinner = (Spinner) findViewById(R.id.dynamic_spinner);
-        String[] myarray = new String[85];
 
-
-     /*   for(int i = 1; i <= 85; i++){
-           TimeZone tz = TimeZone.getTimeZone(mContext.getResources().getString(
-                    mContext.getResources().getIdentifier(
-                            "timezone" + i,
-                            "string",
-                            mContext.getPackageName())));
-
-            int hours = Math.abs(tz.getRawOffset()) / 3600000;
-            int minutes = Math.abs(tz.getRawOffset() / 60000) % 60;
-            String sign = tz.getRawOffset() >= 0 ? "+" : "-";
-
-            String region2 = tz.getDisplayName().replaceAll("heure", "").replaceAll("_", " ");
-            String timeZonePretty = String.format("(%s%02d:%02d) %s", sign, hours, minutes, region2);
-            myarray[i-1] = timeZonePretty;
-            Log.v("TAG",region+" "+tz.getID()+" "+timeZonePretty);
-        }*/
-        String[] planets = getResources().getStringArray(R.array.timezone);
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,
-                android.R.layout.simple_spinner_item, planets);
-
-        dynamicSpinner.setAdapter(adapter);
-
-
-
-        dynamicSpinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
-            @Override
-            public void onItemSelected(AdapterView<?> parent, View view,
-                                       int position, long id) {
-                Log.v("item", (String) parent.getItemAtPosition(position));
-            }
-
-            @Override
-            public void onNothingSelected(AdapterView<?> parent) {
-                // TODO Auto-generated method stub
-            }
-        });
-    }
 }
+
