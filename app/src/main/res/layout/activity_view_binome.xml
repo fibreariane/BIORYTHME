@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:overScrollMode="always"
+    android:isScrollContainer="true"
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+    android:background="@color/colorWhite"
+    android:scrollbars="vertical">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.fibredariane.horoscope.chinois.biorythmeETRES.Activities.ViewBinomeActivity"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:padding="@dimen/fab_margin"
+        android:orientation="vertical">
+    <TextView
+        android:id="@+id/text_view_year"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BINOME DE L'ANNEE 2017"
+        android:layout_marginTop="@dimen/fab_margin"
+        android:layout_gravity="center"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+    <TextView
+        android:id="@+id/text_view_year_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Du 10 Février 2016 au 3 Janvier 2017 "
+        android:layout_gravity="center"
+        android:textColor="@color/colorWhite"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/text_view_name_binome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="test"
+        android:layout_gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+    <ImageView
+        android:id="@+id/image_view_binome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+    <TextView
+        android:id="@+id/text_view_desc_binome"
+        android:padding="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="test"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+        <Button
+            android:id="@+id/button_suivant"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_gravity="left"
+            android:text="@string/retour"
+            android:background="@drawable/customborder"
+            android:onClick="onClickRetour"/>
+        <Button
+            android:id="@+id/button_sauvegarder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_gravity="right"
+            android:text="@string/suivant"
+
+            android:background="@drawable/customborder"
+            android:onClick="onClickSauv"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
+    </ScrollView>

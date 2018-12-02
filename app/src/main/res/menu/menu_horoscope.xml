@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_jour"
+        android:icon="@drawable/menu_jour"
+        android:state_selected="true"
+        android:title="@string/day" />
+
+    <item
+        android:id="@+id/navigation_mois"
+        android:icon="@drawable/menu_mois"
+        android:title="@string/month" />
+
+    <item
+        android:id="@+id/navigation_annee"
+        android:icon="@drawable/menu_annee"
+        android:title="@string/year" />
+
+</menu>

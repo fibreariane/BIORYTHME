@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_synthese_accueil"
+        android:icon="@drawable/menu_synthese"
+        android:title="Ma Synthese" />
+
+    <item
+        android:id="@+id/navigation_synthese_vide"
+        android:icon="@drawable/menu_vide"
+        android:title="Mes Vides" />
+    <item
+        android:id="@+id/navigation_synthese_neutre"
+        android:icon="@drawable/menu_neutre"
+        android:state_selected="true"
+        android:title="Mes Neutres" />
+
+    <item
+        android:id="@+id/navigation_synthese_dominant"
+        android:icon="@drawable/menu_dominant"
+        android:title="Mes Dominants" />
+
+
+
+</menu>

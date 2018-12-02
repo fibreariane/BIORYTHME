@@ -1,0 +1,2668 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<item name="binome13_a" type="string">"{
+		\"bois_yang\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Une bonne année placée sous le signe de l'écoute.\",
+		\"mois\": \"Une année placée sous le signe de l'écoute.\",
+		\"jour\": \"Restez à l'écoute pour de futurs opportunités.\",
+		\"heure\": \"Vous êtes à l'écoute de votre corps et il vous dit que tout va bien.\"
+		},
+		\"bois_yin\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ecoutez bien avant d’agir, cela évitera les erreurs dans vos projets et de vous énerver.\",
+		\"mois\": \"Soyez attentif à l'élu de votre coeur, il a peut être des choses à vous confier.\",
+		\"jour\": \"Une écoute attentive sera nécessaire pour contrebalancer la chance.\",
+		\"heure\": \"Faites attention à vous et restez receptive aux messages que vous envoie votre corps.\"
+		},
+		\"feu_yang\": {
+		\"influence\":\"tf\",
+		\"annee\": \"Cette année vous êtes le confident idéal, profitez-en !\",
+		\"mois\": \"C'est l'année idéale pour être à l'écoute de votre partenaire.\",
+		\"jour\": \"La chance vous sourit, restez à l'écoute.\",
+		\"heure\": \"Une excellente année où tout le monde sera à votre écoute.\"
+		},
+		\"feu_yin\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Avant d'avancer sur vos projets prenez le temps d'écouter vos proches.\",
+		\"mois\": \"Avant d'avancer sur vos projets prenez le temps d'écouter votre partenaire.\",
+		\"jour\": \"Soyez à l'écoute pour provoquer la chance.\",
+		\"heure\": \"Avec un peu d'écoute l'année devrait bien se passer.\"
+		},
+		\"terre_yang\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Restez à l'écoute pour éviter de froisser vos proches.\",
+		\"mois\": \"Faites preuve de patience avec votre moitié et restez à l'écoute.\",
+		\"jour\": \"Un peu de patience et restez à l'écoute.\",
+		\"heure\": \"Vous êtes lucide, ce n'est pas la meilleure des années pour vous.\"
+		},
+		\"terre_yin\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Une bonne année placée sous le signe de l'écoute.\",
+		\"mois\": \"Une année placée sous le signe de l'écoute.\",
+		\"jour\": \"Restez à l'écoute pour de futurs opportunités.\",
+		\"heure\": \"Vous êtes à l'écoute de votre corps et il vous dit que tout va bien.\"
+		},
+		\"metal_yang\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ecoutez bien avant d’agir, cela évitera les erreurs dans vos projets et de vous énerver.\",
+		\"mois\": \"Soyez attentif à l'élu de votre coeur, il a peut être des choses à vous confier.\",
+		\"jour\": \"Une écoute attentive sera nécessaire pour contrebalancer la chance.\",
+		\"heure\": \"Faites attention à vous et restez receptive aux messages que vous envoie votre corps.\"
+		},
+		\"metal_yin\": {
+		\"influence\":\"tf\",
+		\"annee\": \"Cette année vous êtes le confident idéal, profitez-en !\",
+		\"mois\": \"C'est l'année idéale pour être à l'écoute de votre partenaire.\",
+		\"jour\": \"La chance vous sourit, restez à l'écoute.\",
+		\"heure\": \"Une excellente année où tout le monde sera à votre écoute.\"
+		},
+		\"eau_yang\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Avant d'avancer sur vos projets prenez le temps d'écouter vos proches.\",
+		\"mois\": \"Avant d'avancer sur vos projets prenez le temps d'écouter votre partenaire.\",
+		\"jour\": \"Soyez à l'écoute pour provoquer la chance.\",
+		\"heure\": \"Avec un peu d'écoute l'année devrait bien se passer.\"
+		},
+		\"eau_yin\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Restez à l'écoute pour éviter de froisser vos proches.\",
+		\"mois\": \"Faites preuve de patience avec votre moitié et restez à l'écoute.\",
+		\"jour\": \"Un peu de patience et restez à l'écoute.\",
+		\"heure\": \"Vous êtes lucide, ce n'est pas la meilleure des années pour vous.\"
+		}
+		}
+	"</item>
+
+	<item name="binome13_m" type="string">"{
+		\"bois_yang\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Un bon mois placé sous le signe de l'écoute.\",
+		\"mois\": \"Un mois placée sous le signe de l'écoute.\",
+		\"jour\": \"Restez à l'écoute pour de futurs opportunités.\",
+		\"heure\": \"Vous êtes à l'écoute de votre corps et il vous dit que tout va bien.\"
+		},
+		\"bois_yin\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ecoutez bien avant d’agir, cela évitera les erreurs dans vos projets et de vous énerver.\",
+		\"mois\": \"Soyez attentif à l'élu de votre coeur, il a peut être des choses à vous confier.\",
+		\"jour\": \"Une écoute attentive sera nécessaire pour contrebalancer la chance.\",
+		\"heure\": \"Faites attention à vous et restez receptive aux messages que vous envoie votre corps.\"
+		},
+		\"feu_yang\": {
+		\"influence\":\"tf\",
+		\"annee\": \"Ce mois ci vous êtes le confident idéal, profitez-en !\",
+		\"mois\": \"C'est le mois idéal pour être à l'écoute de votre partenaire.\",
+		\"jour\": \"La chance vous sourit, restez à l'écoute.\",
+		\"heure\": \"Un excellent mois où tout le monde sera à votre écoute.\"
+		},
+		\"feu_yin\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Avant d'avancer sur vos projets prenez le temps d'écouter vos proches.\",
+		\"mois\": \"Avant d'avancer sur vos projets prenez le temps d'écouter votre partenaire.\",
+		\"jour\": \"Soyez à l'écoute pour provoquer la chance.\",
+		\"heure\": \"Avec un peu d'écoute l'année devrait bien se passer.\"
+		},
+		\"terre_yang\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Restez à l'écoute pour éviter de froisser vos proches.\",
+		\"mois\": \"Faites preuve de patience avec votre moitié et restez à l'écoute.\",
+		\"jour\": \"Un peu de patience et restez à l'écoute.\",
+		\"heure\": \"Vous êtes lucide, ce n'est pas le meilleur des mois pour vous.\"
+		},
+		\"terre_yin\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Un bon mois placé sous le signe de l'écoute.\",
+		\"mois\": \"Un mois placée sous le signe de l'écoute.\",
+		\"jour\": \"Restez à l'écoute pour de futurs opportunités.\",
+		\"heure\": \"Vous êtes à l'écoute de votre corps et il vous dit que tout va bien.\"
+		},
+		\"metal_yang\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ecoutez bien avant d’agir, cela évitera les erreurs dans vos projets et de vous énerver.\",
+		\"mois\": \"Soyez attentif à l'élu de votre coeur, il a peut être des choses à vous confier.\",
+		\"jour\": \"Une écoute attentive sera nécessaire pour contrebalancer la chance.\",
+		\"heure\": \"Faites attention à vous et restez receptive aux messages que vous envoie votre corps.\"
+		},
+		\"metal_yin\": {
+		\"influence\":\"tf\",
+		\"annee\": \"Ce mois ci vous êtes le confident idéal, profitez-en !\",
+		\"mois\": \"C'est le mois idéal pour être à l'écoute de votre partenaire.\",
+		\"jour\": \"La chance vous sourit, restez à l'écoute.\",
+		\"heure\": \"Un excellent mois où tout le monde sera à votre écoute.\"
+		},
+		\"eau_yang\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Avant d'avancer sur vos projets prenez le temps d'écouter vos proches.\",
+		\"mois\": \"Avant d'avancer sur vos projets prenez le temps d'écouter votre partenaire.\",
+		\"jour\": \"Soyez à l'écoute pour provoquer la chance.\",
+		\"heure\": \"Avec un peu d'écoute l'année devrait bien se passer.\"
+		},
+		\"eau_yin\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Restez à l'écoute pour éviter de froisser vos proches.\",
+		\"mois\": \"Faites preuve de patience avec votre moitié et restez à l'écoute.\",
+		\"jour\": \"Un peu de patience et restez à l'écoute.\",
+		\"heure\": \"Vous êtes lucide, ce n'est pas le meilleur des mois pour vous.\"
+		}
+		}
+	"</item>
+
+	<item name="binome13_j" type="string">"{
+		\"bois_yang\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Les idées que vous aurez aujourd’hui seront ambitieuses et pour le bien de tous.\",
+		\"mois\": \"Une journée placée sous le signe de l'écoute.\",
+		\"jour\": \"Restez à l'écoute pour de futurs opportunités.\",
+		\"heure\": \"Vous êtes à l'écoute de votre corps et il vous dit que tout va bien.\"
+		},
+		\"bois_yin\": {
+		\"influence\":\"d\",
+		\"annee\": \"Il est possible que l’on vous reproche de ne pas avoir pensé à tout dans votre projet…\",
+		\"mois\": \"Soyez attentif à l'élu de votre coeur, il a peut être des choses à vous confier.\",
+		\"jour\": \"Une écoute attentive sera nécessaire pour contrebalancer la chance.\",
+		\"heure\": \"Faites attention à vous et restez receptive aux messages que vous envoie votre corps.\"
+		},
+		\"feu_yang\": {
+		\"influence\":\"tf\",
+		\"annee\": \"Aujourd'hui vous êtes le confident idéal, profitez-en !\",
+		\"mois\": \"C'est la journée idéale pour être à l'écoute de votre partenaire.\",
+		\"jour\": \"La chance vous sourit, restez à l'écoute.\",
+		\"heure\": \"Une excellente journée où tout le monde sera à votre écoute.\"
+		},
+		\"feu_yin\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Avant d'avancer sur vos projets prenez le temps d'écouter vos proches.\",
+		\"mois\": \"Avant d'avancer sur vos projets prenez le temps d'écouter votre partenaire.\",
+		\"jour\": \"Soyez à l'écoute pour provoquer la chance.\",
+		\"heure\": \"Avec un peu d'écoute la journée devrait bien se passer.\"
+		},
+		\"terre_yang\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Restez à l'écoute pour éviter de froisser vos proches.\",
+		\"mois\": \"Faites preuve de patience avec votre moitié et restez à l'écoute.\",
+		\"jour\": \"Un peu de patience et restez à l'écoute.\",
+		\"heure\": \"Vous êtes lucide, ce n'est pas la meilleure des journées pour vous.\"
+		},
+		\"terre_yin\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Une bonne journée placée sous le signe de l'écoute.\",
+		\"mois\": \"Une journée placée sous le signe de l'écoute.\",
+		\"jour\": \"Restez à l'écoute pour de futurs opportunités.\",
+		\"heure\": \"Vous êtes à l'écoute de votre corps et il vous dit que tout va bien.\"
+		},
+		\"metal_yang\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ecoutez bien avant d’agir, cela évitera les erreurs dans vos projets et de vous énerver.\",
+		\"mois\": \"Soyez attentif à l'élu de votre coeur, il a peut être des choses à vous confier.\",
+		\"jour\": \"Une écoute attentive sera nécessaire pour contrebalancer la chance.\",
+		\"heure\": \"Faites attention à vous et restez receptive aux messages que vous envoie votre corps.\"
+		},
+		\"metal_yin\": {
+		\"influence\":\"tf\",
+		\"annee\": \"Aujourd'hui vous êtes le confident idéal, profitez-en !\",
+		\"mois\": \"C'est la journée idéale pour être à l'écoute de votre partenaire.\",
+		\"jour\": \"La chance vous sourit, restez à l'écoute.\",
+		\"heure\": \"Une excellente journée où tout le monde sera à votre écoute.\"
+		},
+		\"eau_yang\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Avant d'avancer sur vos projets prenez le temps d'écouter vos proches.\",
+		\"mois\": \"Avant d'avancer sur vos projets prenez le temps d'écouter votre partenaire.\",
+		\"jour\": \"Soyez à l'écoute pour provoquer la chance.\",
+		\"heure\": \"Avec un peu d'écoute la journée devrait bien se passer.\"
+		},
+		\"eau_yin\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Restez à l'écoute pour éviter de froisser vos proches.\",
+		\"mois\": \"Faites preuve de patience avec votre moitié et restez à l'écoute.\",
+		\"jour\": \"Un peu de patience et restez à l'écoute.\",
+		\"heure\": \"Vous êtes lucide, ce n'est pas la meilleure des journées pour vous.\"
+		}
+		}
+	"</item>
+
+	<item name="binome14_a" type="string">"{
+		\"bois_yang\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Une bonne année placée sous le signe de l'écoute.\",
+		\"mois\": \"Une année placée sous le signe de l'écoute.\",
+		\"jour\": \"Restez à l'écoute pour de futurs opportunités.\",
+		\"heure\": \"Vous êtes à l'écoute de votre corps et il vous dit que tout va bien.\"
+		},
+		\"bois_yin\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ecoutez bien avant d’agir, cela évitera les erreurs dans vos projets et de vous énerver.\",
+		\"mois\": \"Soyez attentif à l'élu de votre coeur, il a peut être des choses à vous confier.\",
+		\"jour\": \"Une écoute attentive sera nécessaire pour contrebalancer la chance.\",
+		\"heure\": \"Faites attention à vous et restez receptive aux messages que vous envoie votre corps.\"
+		},
+		\"feu_yang\": {
+		\"influence\":\"tf\",
+		\"annee\": \"Cette année vous êtes le confident idéal, profitez-en !\",
+		\"mois\": \"C'est l'année idéale pour être à l'écoute de votre partenaire.\",
+		\"jour\": \"La chance vous sourit, restez à l'écoute.\",
+		\"heure\": \"Une excellente année où tout le monde sera à votre écoute.\"
+		},
+		\"feu_yin\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Avant d'avancer sur vos projets prenez le temps d'écouter vos proches.\",
+		\"mois\": \"Avant d'avancer sur vos projets prenez le temps d'écouter votre partenaire.\",
+		\"jour\": \"Soyez à l'écoute pour provoquer la chance.\",
+		\"heure\": \"Avec un peu d'écoute l'année devrait bien se passer.\"
+		},
+		\"terre_yang\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Restez à l'écoute pour éviter de froisser vos proches.\",
+		\"mois\": \"Faites preuve de patience avec votre moitié et restez à l'écoute.\",
+		\"jour\": \"Un peu de patience et restez à l'écoute.\",
+		\"heure\": \"Vous êtes lucide, ce n'est pas la meilleure des années pour vous.\"
+		},
+		\"terre_yin\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Une bonne année placée sous le signe de l'écoute.\",
+		\"mois\": \"Une année placée sous le signe de l'écoute.\",
+		\"jour\": \"Restez à l'écoute pour de futurs opportunités.\",
+		\"heure\": \"Vous êtes à l'écoute de votre corps et il vous dit que tout va bien.\"
+		},
+		\"metal_yang\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ecoutez bien avant d’agir, cela évitera les erreurs dans vos projets et de vous énerver.\",
+		\"mois\": \"Soyez attentif à l'élu de votre coeur, il a peut être des choses à vous confier.\",
+		\"jour\": \"Une écoute attentive sera nécessaire pour contrebalancer la chance.\",
+		\"heure\": \"Faites attention à vous et restez receptive aux messages que vous envoie votre corps.\"
+		},
+		\"metal_yin\": {
+		\"influence\":\"tf\",
+		\"annee\": \"Cette année vous êtes le confident idéal, profitez-en !\",
+		\"mois\": \"C'est l'année idéale pour être à l'écoute de votre partenaire.\",
+		\"jour\": \"La chance vous sourit, restez à l'écoute.\",
+		\"heure\": \"Une excellente année où tout le monde sera à votre écoute.\"
+		},
+		\"eau_yang\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Avant d'avancer sur vos projets prenez le temps d'écouter vos proches.\",
+		\"mois\": \"Avant d'avancer sur vos projets prenez le temps d'écouter votre partenaire.\",
+		\"jour\": \"Soyez à l'écoute pour provoquer la chance.\",
+		\"heure\": \"Avec un peu d'écoute l'année devrait bien se passer.\"
+		},
+		\"eau_yin\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Restez à l'écoute pour éviter de froisser vos proches.\",
+		\"mois\": \"Faites preuve de patience avec votre moitié et restez à l'écoute.\",
+		\"jour\": \"Un peu de patience et restez à l'écoute.\",
+		\"heure\": \"Vous êtes lucide, ce n'est pas la meilleure des années pour vous.\"
+		}
+		}
+	"</item>
+
+	<item name="binome14_m" type="string">"{
+		\"bois_yang\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Un bon mois placé sous le signe de l'écoute.\",
+		\"mois\": \"Un mois placée sous le signe de l'écoute.\",
+		\"jour\": \"Restez à l'écoute pour de futurs opportunités.\",
+		\"heure\": \"Vous êtes à l'écoute de votre corps et il vous dit que tout va bien.\"
+		},
+		\"bois_yin\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ecoutez bien avant d’agir, cela évitera les erreurs dans vos projets et de vous énerver.\",
+		\"mois\": \"Soyez attentif à l'élu de votre coeur, il a peut être des choses à vous confier.\",
+		\"jour\": \"Une écoute attentive sera nécessaire pour contrebalancer la chance.\",
+		\"heure\": \"Faites attention à vous et restez receptive aux messages que vous envoie votre corps.\"
+		},
+		\"feu_yang\": {
+		\"influence\":\"tf\",
+		\"annee\": \"Ce mois ci vous êtes le confident idéal, profitez-en !\",
+		\"mois\": \"C'est le mois idéal pour être à l'écoute de votre partenaire.\",
+		\"jour\": \"La chance vous sourit, restez à l'écoute.\",
+		\"heure\": \"Un excellent mois où tout le monde sera à votre écoute.\"
+		},
+		\"feu_yin\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Avant d'avancer sur vos projets prenez le temps d'écouter vos proches.\",
+		\"mois\": \"Avant d'avancer sur vos projets prenez le temps d'écouter votre partenaire.\",
+		\"jour\": \"Soyez à l'écoute pour provoquer la chance.\",
+		\"heure\": \"Avec un peu d'écoute l'année devrait bien se passer.\"
+		},
+		\"terre_yang\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Restez à l'écoute pour éviter de froisser vos proches.\",
+		\"mois\": \"Faites preuve de patience avec votre moitié et restez à l'écoute.\",
+		\"jour\": \"Un peu de patience et restez à l'écoute.\",
+		\"heure\": \"Vous êtes lucide, ce n'est pas le meilleur des mois pour vous.\"
+		},
+		\"terre_yin\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Un bon mois placé sous le signe de l'écoute.\",
+		\"mois\": \"Un mois placée sous le signe de l'écoute.\",
+		\"jour\": \"Restez à l'écoute pour de futurs opportunités.\",
+		\"heure\": \"Vous êtes à l'écoute de votre corps et il vous dit que tout va bien.\"
+		},
+		\"metal_yang\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ecoutez bien avant d’agir, cela évitera les erreurs dans vos projets et de vous énerver.\",
+		\"mois\": \"Soyez attentif à l'élu de votre coeur, il a peut être des choses à vous confier.\",
+		\"jour\": \"Une écoute attentive sera nécessaire pour contrebalancer la chance.\",
+		\"heure\": \"Faites attention à vous et restez receptive aux messages que vous envoie votre corps.\"
+		},
+		\"metal_yin\": {
+		\"influence\":\"tf\",
+		\"annee\": \"Ce mois ci vous êtes le confident idéal, profitez-en !\",
+		\"mois\": \"C'est le mois idéal pour être à l'écoute de votre partenaire.\",
+		\"jour\": \"La chance vous sourit, restez à l'écoute.\",
+		\"heure\": \"Un excellent mois où tout le monde sera à votre écoute.\"
+		},
+		\"eau_yang\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Avant d'avancer sur vos projets prenez le temps d'écouter vos proches.\",
+		\"mois\": \"Avant d'avancer sur vos projets prenez le temps d'écouter votre partenaire.\",
+		\"jour\": \"Soyez à l'écoute pour provoquer la chance.\",
+		\"heure\": \"Avec un peu d'écoute l'année devrait bien se passer.\"
+		},
+		\"eau_yin\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Restez à l'écoute pour éviter de froisser vos proches.\",
+		\"mois\": \"Faites preuve de patience avec votre moitié et restez à l'écoute.\",
+		\"jour\": \"Un peu de patience et restez à l'écoute.\",
+		\"heure\": \"Vous êtes lucide, ce n'est pas le meilleur des mois pour vous.\"
+		}
+		}
+	"</item>
+
+	<item name="binome14_j" type="string">"{
+		\"bois_yang\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Des projets généreux peuvent éclairer votre journée.\",
+		\"mois\": \"Une journée placée sous le signe de l'écoute.\",
+		\"jour\": \"Restez à l'écoute pour de futurs opportunités.\",
+		\"heure\": \"Vous êtes à l'écoute de votre corps et il vous dit que tout va bien.\"
+		},
+		\"bois_yin\": {
+		\"influence\":\"d\",
+		\"annee\": \"L’ambition et l’altruisme de vos projets risquent de ne pas être compris aujourd’hui.\",
+		\"mois\": \"Soyez attentif à l'élu de votre coeur, il a peut être des choses à vous confier.\",
+		\"jour\": \"Une écoute attentive sera nécessaire pour contrebalancer la chance.\",
+		\"heure\": \"Faites attention à vous et restez receptive aux messages que vous envoie votre corps.\"
+		},
+		\"feu_yang\": {
+		\"influence\":\"tf\",
+		\"annee\": \"Aujourd'hui vous êtes le confident idéal, profitez-en !\",
+		\"mois\": \"C'est la journée idéale pour être à l'écoute de votre partenaire.\",
+		\"jour\": \"La chance vous sourit, restez à l'écoute.\",
+		\"heure\": \"Une excellente journée où tout le monde sera à votre écoute.\"
+		},
+		\"feu_yin\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Avant d'avancer sur vos projets prenez le temps d'écouter vos proches.\",
+		\"mois\": \"Avant d'avancer sur vos projets prenez le temps d'écouter votre partenaire.\",
+		\"jour\": \"Soyez à l'écoute pour provoquer la chance.\",
+		\"heure\": \"Avec un peu d'écoute la journée devrait bien se passer.\"
+		},
+		\"terre_yang\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Restez à l'écoute pour éviter de froisser vos proches.\",
+		\"mois\": \"Faites preuve de patience avec votre moitié et restez à l'écoute.\",
+		\"jour\": \"Un peu de patience et restez à l'écoute.\",
+		\"heure\": \"Vous êtes lucide, ce n'est pas la meilleure des journées pour vous.\"
+		},
+		\"terre_yin\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Une bonne journée placée sous le signe de l'écoute.\",
+		\"mois\": \"Une journée placée sous le signe de l'écoute.\",
+		\"jour\": \"Restez à l'écoute pour de futurs opportunités.\",
+		\"heure\": \"Vous êtes à l'écoute de votre corps et il vous dit que tout va bien.\"
+		},
+		\"metal_yang\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ecoutez bien avant d’agir, cela évitera les erreurs dans vos projets et de vous énerver.\",
+		\"mois\": \"Soyez attentif à l'élu de votre coeur, il a peut être des choses à vous confier.\",
+		\"jour\": \"Une écoute attentive sera nécessaire pour contrebalancer la chance.\",
+		\"heure\": \"Faites attention à vous et restez receptive aux messages que vous envoie votre corps.\"
+		},
+		\"metal_yin\": {
+		\"influence\":\"tf\",
+		\"annee\": \"Aujourd'hui vous êtes le confident idéal, profitez-en !\",
+		\"mois\": \"C'est la journée idéale pour être à l'écoute de votre partenaire.\",
+		\"jour\": \"La chance vous sourit, restez à l'écoute.\",
+		\"heure\": \"Une excellente journée où tout le monde sera à votre écoute.\"
+		},
+		\"eau_yang\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Avant d'avancer sur vos projets prenez le temps d'écouter vos proches.\",
+		\"mois\": \"Avant d'avancer sur vos projets prenez le temps d'écouter votre partenaire.\",
+		\"jour\": \"Soyez à l'écoute pour provoquer la chance.\",
+		\"heure\": \"Avec un peu d'écoute la journée devrait bien se passer.\"
+		},
+		\"eau_yin\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Restez à l'écoute pour éviter de froisser vos proches.\",
+		\"mois\": \"Faites preuve de patience avec votre moitié et restez à l'écoute.\",
+		\"jour\": \"Un peu de patience et restez à l'écoute.\",
+		\"heure\": \"Vous êtes lucide, ce n'est pas la meilleure des journées pour vous.\"
+		}
+		}
+	"</item>
+
+	<item name="binome21_a" type="string">"{
+		\"bois_yang\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Une bonne année placée sous le signe de l'écoute.\",
+		\"mois\": \"Une année placée sous le signe de l'écoute.\",
+		\"jour\": \"Restez à l'écoute pour de futurs opportunités.\",
+		\"heure\": \"Vous êtes à l'écoute de votre corps et il vous dit que tout va bien.\"
+		},
+		\"bois_yin\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ecoutez bien avant d’agir, cela évitera les erreurs dans vos projets et de vous énerver.\",
+		\"mois\": \"Soyez attentif à l'élu de votre coeur, il a peut être des choses à vous confier.\",
+		\"jour\": \"Une écoute attentive sera nécessaire pour contrebalancer la chance.\",
+		\"heure\": \"Faites attention à vous et restez receptive aux messages que vous envoie votre corps.\"
+		},
+		\"feu_yang\": {
+		\"influence\":\"tf\",
+		\"annee\": \"Cette année vous êtes le confident idéal, profitez-en !\",
+		\"mois\": \"C'est l'année idéale pour être à l'écoute de votre partenaire.\",
+		\"jour\": \"La chance vous sourit, restez à l'écoute.\",
+		\"heure\": \"Une excellente année où tout le monde sera à votre écoute.\"
+		},
+		\"feu_yin\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Avant d'avancer sur vos projets prenez le temps d'écouter vos proches.\",
+		\"mois\": \"Avant d'avancer sur vos projets prenez le temps d'écouter votre partenaire.\",
+		\"jour\": \"Soyez à l'écoute pour provoquer la chance.\",
+		\"heure\": \"Avec un peu d'écoute l'année devrait bien se passer.\"
+		},
+		\"terre_yang\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Restez à l'écoute pour éviter de froisser vos proches.\",
+		\"mois\": \"Faites preuve de patience avec votre moitié et restez à l'écoute.\",
+		\"jour\": \"Un peu de patience et restez à l'écoute.\",
+		\"heure\": \"Vous êtes lucide, ce n'est pas la meilleure des années pour vous.\"
+		},
+		\"terre_yin\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Une bonne année placée sous le signe de l'écoute.\",
+		\"mois\": \"Une année placée sous le signe de l'écoute.\",
+		\"jour\": \"Restez à l'écoute pour de futurs opportunités.\",
+		\"heure\": \"Vous êtes à l'écoute de votre corps et il vous dit que tout va bien.\"
+		},
+		\"metal_yang\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ecoutez bien avant d’agir, cela évitera les erreurs dans vos projets et de vous énerver.\",
+		\"mois\": \"Soyez attentif à l'élu de votre coeur, il a peut être des choses à vous confier.\",
+		\"jour\": \"Une écoute attentive sera nécessaire pour contrebalancer la chance.\",
+		\"heure\": \"Faites attention à vous et restez receptive aux messages que vous envoie votre corps.\"
+		},
+		\"metal_yin\": {
+		\"influence\":\"tf\",
+		\"annee\": \"Cette année vous êtes le confident idéal, profitez-en !\",
+		\"mois\": \"C'est l'année idéale pour être à l'écoute de votre partenaire.\",
+		\"jour\": \"La chance vous sourit, restez à l'écoute.\",
+		\"heure\": \"Une excellente année où tout le monde sera à votre écoute.\"
+		},
+		\"eau_yang\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Avant d'avancer sur vos projets prenez le temps d'écouter vos proches.\",
+		\"mois\": \"Avant d'avancer sur vos projets prenez le temps d'écouter votre partenaire.\",
+		\"jour\": \"Soyez à l'écoute pour provoquer la chance.\",
+		\"heure\": \"Avec un peu d'écoute l'année devrait bien se passer.\"
+		},
+		\"eau_yin\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Restez à l'écoute pour éviter de froisser vos proches.\",
+		\"mois\": \"Faites preuve de patience avec votre moitié et restez à l'écoute.\",
+		\"jour\": \"Un peu de patience et restez à l'écoute.\",
+		\"heure\": \"Vous êtes lucide, ce n'est pas la meilleure des années pour vous.\"
+		}
+		}
+	"</item>
+
+	<item name="binome21_m" type="string">"{
+		\"bois_yang\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Un bon mois placé sous le signe de l'écoute.\",
+		\"mois\": \"Un mois placée sous le signe de l'écoute.\",
+		\"jour\": \"Restez à l'écoute pour de futurs opportunités.\",
+		\"heure\": \"Vous êtes à l'écoute de votre corps et il vous dit que tout va bien.\"
+		},
+		\"bois_yin\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ecoutez bien avant d’agir, cela évitera les erreurs dans vos projets et de vous énerver.\",
+		\"mois\": \"Soyez attentif à l'élu de votre coeur, il a peut être des choses à vous confier.\",
+		\"jour\": \"Une écoute attentive sera nécessaire pour contrebalancer la chance.\",
+		\"heure\": \"Faites attention à vous et restez receptive aux messages que vous envoie votre corps.\"
+		},
+		\"feu_yang\": {
+		\"influence\":\"tf\",
+		\"annee\": \"Ce mois ci vous êtes le confident idéal, profitez-en !\",
+		\"mois\": \"C'est le mois idéal pour être à l'écoute de votre partenaire.\",
+		\"jour\": \"La chance vous sourit, restez à l'écoute.\",
+		\"heure\": \"Un excellent mois où tout le monde sera à votre écoute.\"
+		},
+		\"feu_yin\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Avant d'avancer sur vos projets prenez le temps d'écouter vos proches.\",
+		\"mois\": \"Avant d'avancer sur vos projets prenez le temps d'écouter votre partenaire.\",
+		\"jour\": \"Soyez à l'écoute pour provoquer la chance.\",
+		\"heure\": \"Avec un peu d'écoute l'année devrait bien se passer.\"
+		},
+		\"terre_yang\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Restez à l'écoute pour éviter de froisser vos proches.\",
+		\"mois\": \"Faites preuve de patience avec votre moitié et restez à l'écoute.\",
+		\"jour\": \"Un peu de patience et restez à l'écoute.\",
+		\"heure\": \"Vous êtes lucide, ce n'est pas le meilleur des mois pour vous.\"
+		},
+		\"terre_yin\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Un bon mois placé sous le signe de l'écoute.\",
+		\"mois\": \"Un mois placée sous le signe de l'écoute.\",
+		\"jour\": \"Restez à l'écoute pour de futurs opportunités.\",
+		\"heure\": \"Vous êtes à l'écoute de votre corps et il vous dit que tout va bien.\"
+		},
+		\"metal_yang\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ecoutez bien avant d’agir, cela évitera les erreurs dans vos projets et de vous énerver.\",
+		\"mois\": \"Soyez attentif à l'élu de votre coeur, il a peut être des choses à vous confier.\",
+		\"jour\": \"Une écoute attentive sera nécessaire pour contrebalancer la chance.\",
+		\"heure\": \"Faites attention à vous et restez receptive aux messages que vous envoie votre corps.\"
+		},
+		\"metal_yin\": {
+		\"influence\":\"tf\",
+		\"annee\": \"Ce mois ci vous êtes le confident idéal, profitez-en !\",
+		\"mois\": \"C'est le mois idéal pour être à l'écoute de votre partenaire.\",
+		\"jour\": \"La chance vous sourit, restez à l'écoute.\",
+		\"heure\": \"Un excellent mois où tout le monde sera à votre écoute.\"
+		},
+		\"eau_yang\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Avant d'avancer sur vos projets prenez le temps d'écouter vos proches.\",
+		\"mois\": \"Avant d'avancer sur vos projets prenez le temps d'écouter votre partenaire.\",
+		\"jour\": \"Soyez à l'écoute pour provoquer la chance.\",
+		\"heure\": \"Avec un peu d'écoute l'année devrait bien se passer.\"
+		},
+		\"eau_yin\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Restez à l'écoute pour éviter de froisser vos proches.\",
+		\"mois\": \"Faites preuve de patience avec votre moitié et restez à l'écoute.\",
+		\"jour\": \"Un peu de patience et restez à l'écoute.\",
+		\"heure\": \"Vous êtes lucide, ce n'est pas le meilleur des mois pour vous.\"
+		}
+		}
+	"</item>
+
+	<item name="binome21_j" type="string">"{
+		\"bois_yang\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Votre imagination fertile restera confidentielle aujourd’hui…Vous n’avez pas envie de partager, si ?\",
+		\"mois\": \"Une journée placée sous le signe de l'écoute.\",
+		\"jour\": \"Restez à l'écoute pour de futurs opportunités.\",
+		\"heure\": \"Vous êtes à l'écoute de votre corps et il vous dit que tout va bien.\"
+		},
+		\"bois_yin\": {
+		\"influence\":\"d\",
+		\"annee\": \"Une grande sagesse dans vos idées alors que l’on attend de l’originalité… Le timing n’est pas optimum.\",
+		\"mois\": \"Soyez attentif à l'élu de votre coeur, il a peut être des choses à vous confier.\",
+		\"jour\": \"Une écoute attentive sera nécessaire pour contrebalancer la chance.\",
+		\"heure\": \"Faites attention à vous et restez receptive aux messages que vous envoie votre corps.\"
+		},
+		\"feu_yang\": {
+		\"influence\":\"tf\",
+		\"annee\": \"Aujourd'hui vous êtes le confident idéal, profitez-en !\",
+		\"mois\": \"C'est la journée idéale pour être à l'écoute de votre partenaire.\",
+		\"jour\": \"La chance vous sourit, restez à l'écoute.\",
+		\"heure\": \"Une excellente journée où tout le monde sera à votre écoute.\"
+		},
+		\"feu_yin\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Avant d'avancer sur vos projets prenez le temps d'écouter vos proches.\",
+		\"mois\": \"Avant d'avancer sur vos projets prenez le temps d'écouter votre partenaire.\",
+		\"jour\": \"Soyez à l'écoute pour provoquer la chance.\",
+		\"heure\": \"Avec un peu d'écoute la journée devrait bien se passer.\"
+		},
+		\"terre_yang\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Restez à l'écoute pour éviter de froisser vos proches.\",
+		\"mois\": \"Faites preuve de patience avec votre moitié et restez à l'écoute.\",
+		\"jour\": \"Un peu de patience et restez à l'écoute.\",
+		\"heure\": \"Vous êtes lucide, ce n'est pas la meilleure des journées pour vous.\"
+		},
+		\"terre_yin\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Une bonne journée placée sous le signe de l'écoute.\",
+		\"mois\": \"Une journée placée sous le signe de l'écoute.\",
+		\"jour\": \"Restez à l'écoute pour de futurs opportunités.\",
+		\"heure\": \"Vous êtes à l'écoute de votre corps et il vous dit que tout va bien.\"
+		},
+		\"metal_yang\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ecoutez bien avant d’agir, cela évitera les erreurs dans vos projets et de vous énerver.\",
+		\"mois\": \"Soyez attentif à l'élu de votre coeur, il a peut être des choses à vous confier.\",
+		\"jour\": \"Une écoute attentive sera nécessaire pour contrebalancer la chance.\",
+		\"heure\": \"Faites attention à vous et restez receptive aux messages que vous envoie votre corps.\"
+		},
+		\"metal_yin\": {
+		\"influence\":\"tf\",
+		\"annee\": \"Aujourd'hui vous êtes le confident idéal, profitez-en !\",
+		\"mois\": \"C'est la journée idéale pour être à l'écoute de votre partenaire.\",
+		\"jour\": \"La chance vous sourit, restez à l'écoute.\",
+		\"heure\": \"Une excellente journée où tout le monde sera à votre écoute.\"
+		},
+		\"eau_yang\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Avant d'avancer sur vos projets prenez le temps d'écouter vos proches.\",
+		\"mois\": \"Avant d'avancer sur vos projets prenez le temps d'écouter votre partenaire.\",
+		\"jour\": \"Soyez à l'écoute pour provoquer la chance.\",
+		\"heure\": \"Avec un peu d'écoute la journée devrait bien se passer.\"
+		},
+		\"eau_yin\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Restez à l'écoute pour éviter de froisser vos proches.\",
+		\"mois\": \"Faites preuve de patience avec votre moitié et restez à l'écoute.\",
+		\"jour\": \"Un peu de patience et restez à l'écoute.\",
+		\"heure\": \"Vous êtes lucide, ce n'est pas la meilleure des journées pour vous.\"
+		}
+		}
+	"</item>
+
+	<item name="binome22_a" type="string">"{
+		\"bois_yang\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Une bonne année placée sous le signe de l'écoute.\",
+		\"mois\": \"Une année placée sous le signe de l'écoute.\",
+		\"jour\": \"Restez à l'écoute pour de futurs opportunités.\",
+		\"heure\": \"Vous êtes à l'écoute de votre corps et il vous dit que tout va bien.\"
+		},
+		\"bois_yin\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ecoutez bien avant d’agir, cela évitera les erreurs dans vos projets et de vous énerver.\",
+		\"mois\": \"Soyez attentif à l'élu de votre coeur, il a peut être des choses à vous confier.\",
+		\"jour\": \"Une écoute attentive sera nécessaire pour contrebalancer la chance.\",
+		\"heure\": \"Faites attention à vous et restez receptive aux messages que vous envoie votre corps.\"
+		},
+		\"feu_yang\": {
+		\"influence\":\"tf\",
+		\"annee\": \"Cette année vous êtes le confident idéal, profitez-en !\",
+		\"mois\": \"C'est l'année idéale pour être à l'écoute de votre partenaire.\",
+		\"jour\": \"La chance vous sourit, restez à l'écoute.\",
+		\"heure\": \"Une excellente année où tout le monde sera à votre écoute.\"
+		},
+		\"feu_yin\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Avant d'avancer sur vos projets prenez le temps d'écouter vos proches.\",
+		\"mois\": \"Avant d'avancer sur vos projets prenez le temps d'écouter votre partenaire.\",
+		\"jour\": \"Soyez à l'écoute pour provoquer la chance.\",
+		\"heure\": \"Avec un peu d'écoute l'année devrait bien se passer.\"
+		},
+		\"terre_yang\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Restez à l'écoute pour éviter de froisser vos proches.\",
+		\"mois\": \"Faites preuve de patience avec votre moitié et restez à l'écoute.\",
+		\"jour\": \"Un peu de patience et restez à l'écoute.\",
+		\"heure\": \"Vous êtes lucide, ce n'est pas la meilleure des années pour vous.\"
+		},
+		\"terre_yin\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Une bonne année placée sous le signe de l'écoute.\",
+		\"mois\": \"Une année placée sous le signe de l'écoute.\",
+		\"jour\": \"Restez à l'écoute pour de futurs opportunités.\",
+		\"heure\": \"Vous êtes à l'écoute de votre corps et il vous dit que tout va bien.\"
+		},
+		\"metal_yang\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ecoutez bien avant d’agir, cela évitera les erreurs dans vos projets et de vous énerver.\",
+		\"mois\": \"Soyez attentif à l'élu de votre coeur, il a peut être des choses à vous confier.\",
+		\"jour\": \"Une écoute attentive sera nécessaire pour contrebalancer la chance.\",
+		\"heure\": \"Faites attention à vous et restez receptive aux messages que vous envoie votre corps.\"
+		},
+		\"metal_yin\": {
+		\"influence\":\"tf\",
+		\"annee\": \"Cette année vous êtes le confident idéal, profitez-en !\",
+		\"mois\": \"C'est l'année idéale pour être à l'écoute de votre partenaire.\",
+		\"jour\": \"La chance vous sourit, restez à l'écoute.\",
+		\"heure\": \"Une excellente année où tout le monde sera à votre écoute.\"
+		},
+		\"eau_yang\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Avant d'avancer sur vos projets prenez le temps d'écouter vos proches.\",
+		\"mois\": \"Avant d'avancer sur vos projets prenez le temps d'écouter votre partenaire.\",
+		\"jour\": \"Soyez à l'écoute pour provoquer la chance.\",
+		\"heure\": \"Avec un peu d'écoute l'année devrait bien se passer.\"
+		},
+		\"eau_yin\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Restez à l'écoute pour éviter de froisser vos proches.\",
+		\"mois\": \"Faites preuve de patience avec votre moitié et restez à l'écoute.\",
+		\"jour\": \"Un peu de patience et restez à l'écoute.\",
+		\"heure\": \"Vous êtes lucide, ce n'est pas la meilleure des années pour vous.\"
+		}
+		}
+	"</item>
+
+	<item name="binome22_m" type="string">"{
+		\"bois_yang\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Un bon mois placé sous le signe de l'écoute.\",
+		\"mois\": \"Un mois placée sous le signe de l'écoute.\",
+		\"jour\": \"Restez à l'écoute pour de futurs opportunités.\",
+		\"heure\": \"Vous êtes à l'écoute de votre corps et il vous dit que tout va bien.\"
+		},
+		\"bois_yin\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ecoutez bien avant d’agir, cela évitera les erreurs dans vos projets et de vous énerver.\",
+		\"mois\": \"Soyez attentif à l'élu de votre coeur, il a peut être des choses à vous confier.\",
+		\"jour\": \"Une écoute attentive sera nécessaire pour contrebalancer la chance.\",
+		\"heure\": \"Faites attention à vous et restez receptive aux messages que vous envoie votre corps.\"
+		},
+		\"feu_yang\": {
+		\"influence\":\"tf\",
+		\"annee\": \"Ce mois ci vous êtes le confident idéal, profitez-en !\",
+		\"mois\": \"C'est le mois idéal pour être à l'écoute de votre partenaire.\",
+		\"jour\": \"La chance vous sourit, restez à l'écoute.\",
+		\"heure\": \"Un excellent mois où tout le monde sera à votre écoute.\"
+		},
+		\"feu_yin\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Avant d'avancer sur vos projets prenez le temps d'écouter vos proches.\",
+		\"mois\": \"Avant d'avancer sur vos projets prenez le temps d'écouter votre partenaire.\",
+		\"jour\": \"Soyez à l'écoute pour provoquer la chance.\",
+		\"heure\": \"Avec un peu d'écoute l'année devrait bien se passer.\"
+		},
+		\"terre_yang\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Restez à l'écoute pour éviter de froisser vos proches.\",
+		\"mois\": \"Faites preuve de patience avec votre moitié et restez à l'écoute.\",
+		\"jour\": \"Un peu de patience et restez à l'écoute.\",
+		\"heure\": \"Vous êtes lucide, ce n'est pas le meilleur des mois pour vous.\"
+		},
+		\"terre_yin\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Un bon mois placé sous le signe de l'écoute.\",
+		\"mois\": \"Un mois placée sous le signe de l'écoute.\",
+		\"jour\": \"Restez à l'écoute pour de futurs opportunités.\",
+		\"heure\": \"Vous êtes à l'écoute de votre corps et il vous dit que tout va bien.\"
+		},
+		\"metal_yang\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ecoutez bien avant d’agir, cela évitera les erreurs dans vos projets et de vous énerver.\",
+		\"mois\": \"Soyez attentif à l'élu de votre coeur, il a peut être des choses à vous confier.\",
+		\"jour\": \"Une écoute attentive sera nécessaire pour contrebalancer la chance.\",
+		\"heure\": \"Faites attention à vous et restez receptive aux messages que vous envoie votre corps.\"
+		},
+		\"metal_yin\": {
+		\"influence\":\"tf\",
+		\"annee\": \"Ce mois ci vous êtes le confident idéal, profitez-en !\",
+		\"mois\": \"C'est le mois idéal pour être à l'écoute de votre partenaire.\",
+		\"jour\": \"La chance vous sourit, restez à l'écoute.\",
+		\"heure\": \"Un excellent mois où tout le monde sera à votre écoute.\"
+		},
+		\"eau_yang\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Avant d'avancer sur vos projets prenez le temps d'écouter vos proches.\",
+		\"mois\": \"Avant d'avancer sur vos projets prenez le temps d'écouter votre partenaire.\",
+		\"jour\": \"Soyez à l'écoute pour provoquer la chance.\",
+		\"heure\": \"Avec un peu d'écoute l'année devrait bien se passer.\"
+		},
+		\"eau_yin\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Restez à l'écoute pour éviter de froisser vos proches.\",
+		\"mois\": \"Faites preuve de patience avec votre moitié et restez à l'écoute.\",
+		\"jour\": \"Un peu de patience et restez à l'écoute.\",
+		\"heure\": \"Vous êtes lucide, ce n'est pas le meilleur des mois pour vous.\"
+		}
+		}
+	"</item>
+
+	<item name="binome22_j" type="string">"{
+		\"bois_yang\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Journée dédiée à la sagesse et la justesse, idéale pour exposer vos idées sans risques.\",
+		\"mois\": \"Une journée placée sous le signe de l'écoute.\",
+		\"jour\": \"Restez à l'écoute pour de futurs opportunités.\",
+		\"heure\": \"Vous êtes à l'écoute de votre corps et il vous dit que tout va bien.\"
+		},
+		\"bois_yin\": {
+		\"influence\":\"d\",
+		\"annee\": \"Votre volonté profonde de vouloir enrichir votre projet risque d’être prise pour de l’indifférence…\",
+		\"mois\": \"Soyez attentif à l'élu de votre coeur, il a peut être des choses à vous confier.\",
+		\"jour\": \"Une écoute attentive sera nécessaire pour contrebalancer la chance.\",
+		\"heure\": \"Faites attention à vous et restez receptive aux messages que vous envoie votre corps.\"
+		},
+		\"feu_yang\": {
+		\"influence\":\"tf\",
+		\"annee\": \"Aujourd'hui vous êtes le confident idéal, profitez-en !\",
+		\"mois\": \"C'est la journée idéale pour être à l'écoute de votre partenaire.\",
+		\"jour\": \"La chance vous sourit, restez à l'écoute.\",
+		\"heure\": \"Une excellente journée où tout le monde sera à votre écoute.\"
+		},
+		\"feu_yin\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Avant d'avancer sur vos projets prenez le temps d'écouter vos proches.\",
+		\"mois\": \"Avant d'avancer sur vos projets prenez le temps d'écouter votre partenaire.\",
+		\"jour\": \"Soyez à l'écoute pour provoquer la chance.\",
+		\"heure\": \"Avec un peu d'écoute la journée devrait bien se passer.\"
+		},
+		\"terre_yang\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Restez à l'écoute pour éviter de froisser vos proches.\",
+		\"mois\": \"Faites preuve de patience avec votre moitié et restez à l'écoute.\",
+		\"jour\": \"Un peu de patience et restez à l'écoute.\",
+		\"heure\": \"Vous êtes lucide, ce n'est pas la meilleure des journées pour vous.\"
+		},
+		\"terre_yin\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Une bonne journée placée sous le signe de l'écoute.\",
+		\"mois\": \"Une journée placée sous le signe de l'écoute.\",
+		\"jour\": \"Restez à l'écoute pour de futurs opportunités.\",
+		\"heure\": \"Vous êtes à l'écoute de votre corps et il vous dit que tout va bien.\"
+		},
+		\"metal_yang\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ecoutez bien avant d’agir, cela évitera les erreurs dans vos projets et de vous énerver.\",
+		\"mois\": \"Soyez attentif à l'élu de votre coeur, il a peut être des choses à vous confier.\",
+		\"jour\": \"Une écoute attentive sera nécessaire pour contrebalancer la chance.\",
+		\"heure\": \"Faites attention à vous et restez receptive aux messages que vous envoie votre corps.\"
+		},
+		\"metal_yin\": {
+		\"influence\":\"tf\",
+		\"annee\": \"Aujourd'hui vous êtes le confident idéal, profitez-en !\",
+		\"mois\": \"C'est la journée idéale pour être à l'écoute de votre partenaire.\",
+		\"jour\": \"La chance vous sourit, restez à l'écoute.\",
+		\"heure\": \"Une excellente journée où tout le monde sera à votre écoute.\"
+		},
+		\"eau_yang\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Avant d'avancer sur vos projets prenez le temps d'écouter vos proches.\",
+		\"mois\": \"Avant d'avancer sur vos projets prenez le temps d'écouter votre partenaire.\",
+		\"jour\": \"Soyez à l'écoute pour provoquer la chance.\",
+		\"heure\": \"Avec un peu d'écoute la journée devrait bien se passer.\"
+		},
+		\"eau_yin\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Restez à l'écoute pour éviter de froisser vos proches.\",
+		\"mois\": \"Faites preuve de patience avec votre moitié et restez à l'écoute.\",
+		\"jour\": \"Un peu de patience et restez à l'écoute.\",
+		\"heure\": \"Vous êtes lucide, ce n'est pas la meilleure des journées pour vous.\"
+		}
+		}
+	"</item>
+
+	<item name="binome29_a" type="string">"{
+		\"bois_yang\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Une bonne année placée sous le signe de l'écoute.\",
+		\"mois\": \"Une année placée sous le signe de l'écoute.\",
+		\"jour\": \"Restez à l'écoute pour de futurs opportunités.\",
+		\"heure\": \"Vous êtes à l'écoute de votre corps et il vous dit que tout va bien.\"
+		},
+		\"bois_yin\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ecoutez bien avant d’agir, cela évitera les erreurs dans vos projets et de vous énerver.\",
+		\"mois\": \"Soyez attentif à l'élu de votre coeur, il a peut être des choses à vous confier.\",
+		\"jour\": \"Une écoute attentive sera nécessaire pour contrebalancer la chance.\",
+		\"heure\": \"Faites attention à vous et restez receptive aux messages que vous envoie votre corps.\"
+		},
+		\"feu_yang\": {
+		\"influence\":\"tf\",
+		\"annee\": \"Cette année vous êtes le confident idéal, profitez-en !\",
+		\"mois\": \"C'est l'année idéale pour être à l'écoute de votre partenaire.\",
+		\"jour\": \"La chance vous sourit, restez à l'écoute.\",
+		\"heure\": \"Une excellente année où tout le monde sera à votre écoute.\"
+		},
+		\"feu_yin\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Avant d'avancer sur vos projets prenez le temps d'écouter vos proches.\",
+		\"mois\": \"Avant d'avancer sur vos projets prenez le temps d'écouter votre partenaire.\",
+		\"jour\": \"Soyez à l'écoute pour provoquer la chance.\",
+		\"heure\": \"Avec un peu d'écoute l'année devrait bien se passer.\"
+		},
+		\"terre_yang\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Restez à l'écoute pour éviter de froisser vos proches.\",
+		\"mois\": \"Faites preuve de patience avec votre moitié et restez à l'écoute.\",
+		\"jour\": \"Un peu de patience et restez à l'écoute.\",
+		\"heure\": \"Vous êtes lucide, ce n'est pas la meilleure des années pour vous.\"
+		},
+		\"terre_yin\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Une bonne année placée sous le signe de l'écoute.\",
+		\"mois\": \"Une année placée sous le signe de l'écoute.\",
+		\"jour\": \"Restez à l'écoute pour de futurs opportunités.\",
+		\"heure\": \"Vous êtes à l'écoute de votre corps et il vous dit que tout va bien.\"
+		},
+		\"metal_yang\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ecoutez bien avant d’agir, cela évitera les erreurs dans vos projets et de vous énerver.\",
+		\"mois\": \"Soyez attentif à l'élu de votre coeur, il a peut être des choses à vous confier.\",
+		\"jour\": \"Une écoute attentive sera nécessaire pour contrebalancer la chance.\",
+		\"heure\": \"Faites attention à vous et restez receptive aux messages que vous envoie votre corps.\"
+		},
+		\"metal_yin\": {
+		\"influence\":\"tf\",
+		\"annee\": \"Cette année vous êtes le confident idéal, profitez-en !\",
+		\"mois\": \"C'est l'année idéale pour être à l'écoute de votre partenaire.\",
+		\"jour\": \"La chance vous sourit, restez à l'écoute.\",
+		\"heure\": \"Une excellente année où tout le monde sera à votre écoute.\"
+		},
+		\"eau_yang\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Avant d'avancer sur vos projets prenez le temps d'écouter vos proches.\",
+		\"mois\": \"Avant d'avancer sur vos projets prenez le temps d'écouter votre partenaire.\",
+		\"jour\": \"Soyez à l'écoute pour provoquer la chance.\",
+		\"heure\": \"Avec un peu d'écoute l'année devrait bien se passer.\"
+		},
+		\"eau_yin\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Restez à l'écoute pour éviter de froisser vos proches.\",
+		\"mois\": \"Faites preuve de patience avec votre moitié et restez à l'écoute.\",
+		\"jour\": \"Un peu de patience et restez à l'écoute.\",
+		\"heure\": \"Vous êtes lucide, ce n'est pas la meilleure des années pour vous.\"
+		}
+		}
+	"</item>
+
+	<item name="binome29_m" type="string">"{
+		\"bois_yang\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Un bon mois placé sous le signe de l'écoute.\",
+		\"mois\": \"Un mois placée sous le signe de l'écoute.\",
+		\"jour\": \"Restez à l'écoute pour de futurs opportunités.\",
+		\"heure\": \"Vous êtes à l'écoute de votre corps et il vous dit que tout va bien.\"
+		},
+		\"bois_yin\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ecoutez bien avant d’agir, cela évitera les erreurs dans vos projets et de vous énerver.\",
+		\"mois\": \"Soyez attentif à l'élu de votre coeur, il a peut être des choses à vous confier.\",
+		\"jour\": \"Une écoute attentive sera nécessaire pour contrebalancer la chance.\",
+		\"heure\": \"Faites attention à vous et restez receptive aux messages que vous envoie votre corps.\"
+		},
+		\"feu_yang\": {
+		\"influence\":\"tf\",
+		\"annee\": \"Ce mois ci vous êtes le confident idéal, profitez-en !\",
+		\"mois\": \"C'est le mois idéal pour être à l'écoute de votre partenaire.\",
+		\"jour\": \"La chance vous sourit, restez à l'écoute.\",
+		\"heure\": \"Un excellent mois où tout le monde sera à votre écoute.\"
+		},
+		\"feu_yin\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Avant d'avancer sur vos projets prenez le temps d'écouter vos proches.\",
+		\"mois\": \"Avant d'avancer sur vos projets prenez le temps d'écouter votre partenaire.\",
+		\"jour\": \"Soyez à l'écoute pour provoquer la chance.\",
+		\"heure\": \"Avec un peu d'écoute l'année devrait bien se passer.\"
+		},
+		\"terre_yang\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Restez à l'écoute pour éviter de froisser vos proches.\",
+		\"mois\": \"Faites preuve de patience avec votre moitié et restez à l'écoute.\",
+		\"jour\": \"Un peu de patience et restez à l'écoute.\",
+		\"heure\": \"Vous êtes lucide, ce n'est pas le meilleur des mois pour vous.\"
+		},
+		\"terre_yin\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Un bon mois placé sous le signe de l'écoute.\",
+		\"mois\": \"Un mois placée sous le signe de l'écoute.\",
+		\"jour\": \"Restez à l'écoute pour de futurs opportunités.\",
+		\"heure\": \"Vous êtes à l'écoute de votre corps et il vous dit que tout va bien.\"
+		},
+		\"metal_yang\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ecoutez bien avant d’agir, cela évitera les erreurs dans vos projets et de vous énerver.\",
+		\"mois\": \"Soyez attentif à l'élu de votre coeur, il a peut être des choses à vous confier.\",
+		\"jour\": \"Une écoute attentive sera nécessaire pour contrebalancer la chance.\",
+		\"heure\": \"Faites attention à vous et restez receptive aux messages que vous envoie votre corps.\"
+		},
+		\"metal_yin\": {
+		\"influence\":\"tf\",
+		\"annee\": \"Ce mois ci vous êtes le confident idéal, profitez-en !\",
+		\"mois\": \"C'est le mois idéal pour être à l'écoute de votre partenaire.\",
+		\"jour\": \"La chance vous sourit, restez à l'écoute.\",
+		\"heure\": \"Un excellent mois où tout le monde sera à votre écoute.\"
+		},
+		\"eau_yang\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Avant d'avancer sur vos projets prenez le temps d'écouter vos proches.\",
+		\"mois\": \"Avant d'avancer sur vos projets prenez le temps d'écouter votre partenaire.\",
+		\"jour\": \"Soyez à l'écoute pour provoquer la chance.\",
+		\"heure\": \"Avec un peu d'écoute l'année devrait bien se passer.\"
+		},
+		\"eau_yin\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Restez à l'écoute pour éviter de froisser vos proches.\",
+		\"mois\": \"Faites preuve de patience avec votre moitié et restez à l'écoute.\",
+		\"jour\": \"Un peu de patience et restez à l'écoute.\",
+		\"heure\": \"Vous êtes lucide, ce n'est pas le meilleur des mois pour vous.\"
+		}
+		}
+	"</item>
+
+	<item name="binome29_j" type="string">"{
+		\"bois_yang\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Une bonne dose de volonté et de réalisme va vous aider à concrétiser votre projet aujourd’hui.\",
+		\"mois\": \"Une journée placée sous le signe de l'écoute.\",
+		\"jour\": \"Restez à l'écoute pour de futurs opportunités.\",
+		\"heure\": \"Vous êtes à l'écoute de votre corps et il vous dit que tout va bien.\"
+		},
+		\"bois_yin\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ecoutez bien avant d’agir, cela évitera les erreurs dans vos projets et de vous énerver.\",
+		\"mois\": \"Soyez attentif à l'élu de votre coeur, il a peut être des choses à vous confier.\",
+		\"jour\": \"Une écoute attentive sera nécessaire pour contrebalancer la chance.\",
+		\"heure\": \"Faites attention à vous et restez receptive aux messages que vous envoie votre corps.\"
+		},
+		\"feu_yang\": {
+		\"influence\":\"tf\",
+		\"annee\": \"Aujourd'hui vous êtes le confident idéal, profitez-en !\",
+		\"mois\": \"C'est la journée idéale pour être à l'écoute de votre partenaire.\",
+		\"jour\": \"La chance vous sourit, restez à l'écoute.\",
+		\"heure\": \"Une excellente journée où tout le monde sera à votre écoute.\"
+		},
+		\"feu_yin\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Avant d'avancer sur vos projets prenez le temps d'écouter vos proches.\",
+		\"mois\": \"Avant d'avancer sur vos projets prenez le temps d'écouter votre partenaire.\",
+		\"jour\": \"Soyez à l'écoute pour provoquer la chance.\",
+		\"heure\": \"Avec un peu d'écoute la journée devrait bien se passer.\"
+		},
+		\"terre_yang\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Restez à l'écoute pour éviter de froisser vos proches.\",
+		\"mois\": \"Faites preuve de patience avec votre moitié et restez à l'écoute.\",
+		\"jour\": \"Un peu de patience et restez à l'écoute.\",
+		\"heure\": \"Vous êtes lucide, ce n'est pas la meilleure des journées pour vous.\"
+		},
+		\"terre_yin\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Une bonne journée placée sous le signe de l'écoute.\",
+		\"mois\": \"Une journée placée sous le signe de l'écoute.\",
+		\"jour\": \"Restez à l'écoute pour de futurs opportunités.\",
+		\"heure\": \"Vous êtes à l'écoute de votre corps et il vous dit que tout va bien.\"
+		},
+		\"metal_yang\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ecoutez bien avant d’agir, cela évitera les erreurs dans vos projets et de vous énerver.\",
+		\"mois\": \"Soyez attentif à l'élu de votre coeur, il a peut être des choses à vous confier.\",
+		\"jour\": \"Une écoute attentive sera nécessaire pour contrebalancer la chance.\",
+		\"heure\": \"Faites attention à vous et restez receptive aux messages que vous envoie votre corps.\"
+		},
+		\"metal_yin\": {
+		\"influence\":\"tf\",
+		\"annee\": \"Aujourd'hui vous êtes le confident idéal, profitez-en !\",
+		\"mois\": \"C'est la journée idéale pour être à l'écoute de votre partenaire.\",
+		\"jour\": \"La chance vous sourit, restez à l'écoute.\",
+		\"heure\": \"Une excellente journée où tout le monde sera à votre écoute.\"
+		},
+		\"eau_yang\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Avant d'avancer sur vos projets prenez le temps d'écouter vos proches.\",
+		\"mois\": \"Avant d'avancer sur vos projets prenez le temps d'écouter votre partenaire.\",
+		\"jour\": \"Soyez à l'écoute pour provoquer la chance.\",
+		\"heure\": \"Avec un peu d'écoute la journée devrait bien se passer.\"
+		},
+		\"eau_yin\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Restez à l'écoute pour éviter de froisser vos proches.\",
+		\"mois\": \"Faites preuve de patience avec votre moitié et restez à l'écoute.\",
+		\"jour\": \"Un peu de patience et restez à l'écoute.\",
+		\"heure\": \"Vous êtes lucide, ce n'est pas la meilleure des journées pour vous.\"
+		}
+		}
+	"</item>
+
+	<item name="binome30_a" type="string">"{
+		\"bois_yang\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Une bonne année placée sous le signe de l'écoute.\",
+		\"mois\": \"Une année placée sous le signe de l'écoute.\",
+		\"jour\": \"Restez à l'écoute pour de futurs opportunités.\",
+		\"heure\": \"Vous êtes à l'écoute de votre corps et il vous dit que tout va bien.\"
+		},
+		\"bois_yin\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ecoutez bien avant d’agir, cela évitera les erreurs dans vos projets et de vous énerver.\",
+		\"mois\": \"Soyez attentif à l'élu de votre coeur, il a peut être des choses à vous confier.\",
+		\"jour\": \"Une écoute attentive sera nécessaire pour contrebalancer la chance.\",
+		\"heure\": \"Faites attention à vous et restez receptive aux messages que vous envoie votre corps.\"
+		},
+		\"feu_yang\": {
+		\"influence\":\"tf\",
+		\"annee\": \"Cette année vous êtes le confident idéal, profitez-en !\",
+		\"mois\": \"C'est l'année idéale pour être à l'écoute de votre partenaire.\",
+		\"jour\": \"La chance vous sourit, restez à l'écoute.\",
+		\"heure\": \"Une excellente année où tout le monde sera à votre écoute.\"
+		},
+		\"feu_yin\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Avant d'avancer sur vos projets prenez le temps d'écouter vos proches.\",
+		\"mois\": \"Avant d'avancer sur vos projets prenez le temps d'écouter votre partenaire.\",
+		\"jour\": \"Soyez à l'écoute pour provoquer la chance.\",
+		\"heure\": \"Avec un peu d'écoute l'année devrait bien se passer.\"
+		},
+		\"terre_yang\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Restez à l'écoute pour éviter de froisser vos proches.\",
+		\"mois\": \"Faites preuve de patience avec votre moitié et restez à l'écoute.\",
+		\"jour\": \"Un peu de patience et restez à l'écoute.\",
+		\"heure\": \"Vous êtes lucide, ce n'est pas la meilleure des années pour vous.\"
+		},
+		\"terre_yin\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Une bonne année placée sous le signe de l'écoute.\",
+		\"mois\": \"Une année placée sous le signe de l'écoute.\",
+		\"jour\": \"Restez à l'écoute pour de futurs opportunités.\",
+		\"heure\": \"Vous êtes à l'écoute de votre corps et il vous dit que tout va bien.\"
+		},
+		\"metal_yang\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ecoutez bien avant d’agir, cela évitera les erreurs dans vos projets et de vous énerver.\",
+		\"mois\": \"Soyez attentif à l'élu de votre coeur, il a peut être des choses à vous confier.\",
+		\"jour\": \"Une écoute attentive sera nécessaire pour contrebalancer la chance.\",
+		\"heure\": \"Faites attention à vous et restez receptive aux messages que vous envoie votre corps.\"
+		},
+		\"metal_yin\": {
+		\"influence\":\"tf\",
+		\"annee\": \"Cette année vous êtes le confident idéal, profitez-en !\",
+		\"mois\": \"C'est l'année idéale pour être à l'écoute de votre partenaire.\",
+		\"jour\": \"La chance vous sourit, restez à l'écoute.\",
+		\"heure\": \"Une excellente année où tout le monde sera à votre écoute.\"
+		},
+		\"eau_yang\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Avant d'avancer sur vos projets prenez le temps d'écouter vos proches.\",
+		\"mois\": \"Avant d'avancer sur vos projets prenez le temps d'écouter votre partenaire.\",
+		\"jour\": \"Soyez à l'écoute pour provoquer la chance.\",
+		\"heure\": \"Avec un peu d'écoute l'année devrait bien se passer.\"
+		},
+		\"eau_yin\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Restez à l'écoute pour éviter de froisser vos proches.\",
+		\"mois\": \"Faites preuve de patience avec votre moitié et restez à l'écoute.\",
+		\"jour\": \"Un peu de patience et restez à l'écoute.\",
+		\"heure\": \"Vous êtes lucide, ce n'est pas la meilleure des années pour vous.\"
+		}
+		}
+	"</item>
+
+	<item name="binome30_m" type="string">"{
+		\"bois_yang\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Un bon mois placé sous le signe de l'écoute.\",
+		\"mois\": \"Un mois placée sous le signe de l'écoute.\",
+		\"jour\": \"Restez à l'écoute pour de futurs opportunités.\",
+		\"heure\": \"Vous êtes à l'écoute de votre corps et il vous dit que tout va bien.\"
+		},
+		\"bois_yin\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ecoutez bien avant d’agir, cela évitera les erreurs dans vos projets et de vous énerver.\",
+		\"mois\": \"Soyez attentif à l'élu de votre coeur, il a peut être des choses à vous confier.\",
+		\"jour\": \"Une écoute attentive sera nécessaire pour contrebalancer la chance.\",
+		\"heure\": \"Faites attention à vous et restez receptive aux messages que vous envoie votre corps.\"
+		},
+		\"feu_yang\": {
+		\"influence\":\"tf\",
+		\"annee\": \"Ce mois ci vous êtes le confident idéal, profitez-en !\",
+		\"mois\": \"C'est le mois idéal pour être à l'écoute de votre partenaire.\",
+		\"jour\": \"La chance vous sourit, restez à l'écoute.\",
+		\"heure\": \"Un excellent mois où tout le monde sera à votre écoute.\"
+		},
+		\"feu_yin\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Avant d'avancer sur vos projets prenez le temps d'écouter vos proches.\",
+		\"mois\": \"Avant d'avancer sur vos projets prenez le temps d'écouter votre partenaire.\",
+		\"jour\": \"Soyez à l'écoute pour provoquer la chance.\",
+		\"heure\": \"Avec un peu d'écoute l'année devrait bien se passer.\"
+		},
+		\"terre_yang\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Restez à l'écoute pour éviter de froisser vos proches.\",
+		\"mois\": \"Faites preuve de patience avec votre moitié et restez à l'écoute.\",
+		\"jour\": \"Un peu de patience et restez à l'écoute.\",
+		\"heure\": \"Vous êtes lucide, ce n'est pas le meilleur des mois pour vous.\"
+		},
+		\"terre_yin\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Un bon mois placé sous le signe de l'écoute.\",
+		\"mois\": \"Un mois placée sous le signe de l'écoute.\",
+		\"jour\": \"Restez à l'écoute pour de futurs opportunités.\",
+		\"heure\": \"Vous êtes à l'écoute de votre corps et il vous dit que tout va bien.\"
+		},
+		\"metal_yang\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ecoutez bien avant d’agir, cela évitera les erreurs dans vos projets et de vous énerver.\",
+		\"mois\": \"Soyez attentif à l'élu de votre coeur, il a peut être des choses à vous confier.\",
+		\"jour\": \"Une écoute attentive sera nécessaire pour contrebalancer la chance.\",
+		\"heure\": \"Faites attention à vous et restez receptive aux messages que vous envoie votre corps.\"
+		},
+		\"metal_yin\": {
+		\"influence\":\"tf\",
+		\"annee\": \"Ce mois ci vous êtes le confident idéal, profitez-en !\",
+		\"mois\": \"C'est le mois idéal pour être à l'écoute de votre partenaire.\",
+		\"jour\": \"La chance vous sourit, restez à l'écoute.\",
+		\"heure\": \"Un excellent mois où tout le monde sera à votre écoute.\"
+		},
+		\"eau_yang\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Avant d'avancer sur vos projets prenez le temps d'écouter vos proches.\",
+		\"mois\": \"Avant d'avancer sur vos projets prenez le temps d'écouter votre partenaire.\",
+		\"jour\": \"Soyez à l'écoute pour provoquer la chance.\",
+		\"heure\": \"Avec un peu d'écoute l'année devrait bien se passer.\"
+		},
+		\"eau_yin\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Restez à l'écoute pour éviter de froisser vos proches.\",
+		\"mois\": \"Faites preuve de patience avec votre moitié et restez à l'écoute.\",
+		\"jour\": \"Un peu de patience et restez à l'écoute.\",
+		\"heure\": \"Vous êtes lucide, ce n'est pas le meilleur des mois pour vous.\"
+		}
+		}
+	"</item>
+
+	<item name="binome30_j" type="string">"{
+		\"bois_yang\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Ne réfléchissez pas trop au tenants et aboutissants de vos idées, cela risque de les bloquer !\",
+		\"mois\": \"Une journée placée sous le signe de l'écoute.\",
+		\"jour\": \"Restez à l'écoute pour de futurs opportunités.\",
+		\"heure\": \"Vous êtes à l'écoute de votre corps et il vous dit que tout va bien.\"
+		},
+		\"bois_yin\": {
+		\"influence\":\"d\",
+		\"annee\": \"Une journée où la réflexion et l’écoute d’autrui sont à l’honneur, faites le plein !\",
+		\"mois\": \"Soyez attentif à l'élu de votre coeur, il a peut être des choses à vous confier.\",
+		\"jour\": \"Une écoute attentive sera nécessaire pour contrebalancer la chance.\",
+		\"heure\": \"Faites attention à vous et restez receptive aux messages que vous envoie votre corps.\"
+		},
+		\"feu_yang\": {
+		\"influence\":\"tf\",
+		\"annee\": \"Aujourd'hui vous êtes le confident idéal, profitez-en !\",
+		\"mois\": \"C'est la journée idéale pour être à l'écoute de votre partenaire.\",
+		\"jour\": \"La chance vous sourit, restez à l'écoute.\",
+		\"heure\": \"Une excellente journée où tout le monde sera à votre écoute.\"
+		},
+		\"feu_yin\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Avant d'avancer sur vos projets prenez le temps d'écouter vos proches.\",
+		\"mois\": \"Avant d'avancer sur vos projets prenez le temps d'écouter votre partenaire.\",
+		\"jour\": \"Soyez à l'écoute pour provoquer la chance.\",
+		\"heure\": \"Avec un peu d'écoute la journée devrait bien se passer.\"
+		},
+		\"terre_yang\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Restez à l'écoute pour éviter de froisser vos proches.\",
+		\"mois\": \"Faites preuve de patience avec votre moitié et restez à l'écoute.\",
+		\"jour\": \"Un peu de patience et restez à l'écoute.\",
+		\"heure\": \"Vous êtes lucide, ce n'est pas la meilleure des journées pour vous.\"
+		},
+		\"terre_yin\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Une bonne journée placée sous le signe de l'écoute.\",
+		\"mois\": \"Une journée placée sous le signe de l'écoute.\",
+		\"jour\": \"Restez à l'écoute pour de futurs opportunités.\",
+		\"heure\": \"Vous êtes à l'écoute de votre corps et il vous dit que tout va bien.\"
+		},
+		\"metal_yang\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ecoutez bien avant d’agir, cela évitera les erreurs dans vos projets et de vous énerver.\",
+		\"mois\": \"Soyez attentif à l'élu de votre coeur, il a peut être des choses à vous confier.\",
+		\"jour\": \"Une écoute attentive sera nécessaire pour contrebalancer la chance.\",
+		\"heure\": \"Faites attention à vous et restez receptive aux messages que vous envoie votre corps.\"
+		},
+		\"metal_yin\": {
+		\"influence\":\"tf\",
+		\"annee\": \"Aujourd'hui vous êtes le confident idéal, profitez-en !\",
+		\"mois\": \"C'est la journée idéale pour être à l'écoute de votre partenaire.\",
+		\"jour\": \"La chance vous sourit, restez à l'écoute.\",
+		\"heure\": \"Une excellente journée où tout le monde sera à votre écoute.\"
+		},
+		\"eau_yang\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Avant d'avancer sur vos projets prenez le temps d'écouter vos proches.\",
+		\"mois\": \"Avant d'avancer sur vos projets prenez le temps d'écouter votre partenaire.\",
+		\"jour\": \"Soyez à l'écoute pour provoquer la chance.\",
+		\"heure\": \"Avec un peu d'écoute la journée devrait bien se passer.\"
+		},
+		\"eau_yin\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Restez à l'écoute pour éviter de froisser vos proches.\",
+		\"mois\": \"Faites preuve de patience avec votre moitié et restez à l'écoute.\",
+		\"jour\": \"Un peu de patience et restez à l'écoute.\",
+		\"heure\": \"Vous êtes lucide, ce n'est pas la meilleure des journées pour vous.\"
+		}
+		}
+	"</item>
+
+	<item name="binome43_a" type="string">"{
+		\"bois_yang\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Une bonne année placée sous le signe de l'écoute.\",
+		\"mois\": \"Une année placée sous le signe de l'écoute.\",
+		\"jour\": \"Restez à l'écoute pour de futurs opportunités.\",
+		\"heure\": \"Vous êtes à l'écoute de votre corps et il vous dit que tout va bien.\"
+		},
+		\"bois_yin\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ecoutez bien avant d’agir, cela évitera les erreurs dans vos projets et de vous énerver.\",
+		\"mois\": \"Soyez attentif à l'élu de votre coeur, il a peut être des choses à vous confier.\",
+		\"jour\": \"Une écoute attentive sera nécessaire pour contrebalancer la chance.\",
+		\"heure\": \"Faites attention à vous et restez receptive aux messages que vous envoie votre corps.\"
+		},
+		\"feu_yang\": {
+		\"influence\":\"tf\",
+		\"annee\": \"Cette année vous êtes le confident idéal, profitez-en !\",
+		\"mois\": \"C'est l'année idéale pour être à l'écoute de votre partenaire.\",
+		\"jour\": \"La chance vous sourit, restez à l'écoute.\",
+		\"heure\": \"Une excellente année où tout le monde sera à votre écoute.\"
+		},
+		\"feu_yin\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Avant d'avancer sur vos projets prenez le temps d'écouter vos proches.\",
+		\"mois\": \"Avant d'avancer sur vos projets prenez le temps d'écouter votre partenaire.\",
+		\"jour\": \"Soyez à l'écoute pour provoquer la chance.\",
+		\"heure\": \"Avec un peu d'écoute l'année devrait bien se passer.\"
+		},
+		\"terre_yang\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Restez à l'écoute pour éviter de froisser vos proches.\",
+		\"mois\": \"Faites preuve de patience avec votre moitié et restez à l'écoute.\",
+		\"jour\": \"Un peu de patience et restez à l'écoute.\",
+		\"heure\": \"Vous êtes lucide, ce n'est pas la meilleure des années pour vous.\"
+		},
+		\"terre_yin\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Une bonne année placée sous le signe de l'écoute.\",
+		\"mois\": \"Une année placée sous le signe de l'écoute.\",
+		\"jour\": \"Restez à l'écoute pour de futurs opportunités.\",
+		\"heure\": \"Vous êtes à l'écoute de votre corps et il vous dit que tout va bien.\"
+		},
+		\"metal_yang\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ecoutez bien avant d’agir, cela évitera les erreurs dans vos projets et de vous énerver.\",
+		\"mois\": \"Soyez attentif à l'élu de votre coeur, il a peut être des choses à vous confier.\",
+		\"jour\": \"Une écoute attentive sera nécessaire pour contrebalancer la chance.\",
+		\"heure\": \"Faites attention à vous et restez receptive aux messages que vous envoie votre corps.\"
+		},
+		\"metal_yin\": {
+		\"influence\":\"tf\",
+		\"annee\": \"Cette année vous êtes le confident idéal, profitez-en !\",
+		\"mois\": \"C'est l'année idéale pour être à l'écoute de votre partenaire.\",
+		\"jour\": \"La chance vous sourit, restez à l'écoute.\",
+		\"heure\": \"Une excellente année où tout le monde sera à votre écoute.\"
+		},
+		\"eau_yang\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Avant d'avancer sur vos projets prenez le temps d'écouter vos proches.\",
+		\"mois\": \"Avant d'avancer sur vos projets prenez le temps d'écouter votre partenaire.\",
+		\"jour\": \"Soyez à l'écoute pour provoquer la chance.\",
+		\"heure\": \"Avec un peu d'écoute l'année devrait bien se passer.\"
+		},
+		\"eau_yin\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Restez à l'écoute pour éviter de froisser vos proches.\",
+		\"mois\": \"Faites preuve de patience avec votre moitié et restez à l'écoute.\",
+		\"jour\": \"Un peu de patience et restez à l'écoute.\",
+		\"heure\": \"Vous êtes lucide, ce n'est pas la meilleure des années pour vous.\"
+		}
+		}
+	"</item>
+
+	<item name="binome43_m" type="string">"{
+		\"bois_yang\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Un bon mois placé sous le signe de l'écoute.\",
+		\"mois\": \"Un mois placée sous le signe de l'écoute.\",
+		\"jour\": \"Restez à l'écoute pour de futurs opportunités.\",
+		\"heure\": \"Vous êtes à l'écoute de votre corps et il vous dit que tout va bien.\"
+		},
+		\"bois_yin\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ecoutez bien avant d’agir, cela évitera les erreurs dans vos projets et de vous énerver.\",
+		\"mois\": \"Soyez attentif à l'élu de votre coeur, il a peut être des choses à vous confier.\",
+		\"jour\": \"Une écoute attentive sera nécessaire pour contrebalancer la chance.\",
+		\"heure\": \"Faites attention à vous et restez receptive aux messages que vous envoie votre corps.\"
+		},
+		\"feu_yang\": {
+		\"influence\":\"tf\",
+		\"annee\": \"Ce mois ci vous êtes le confident idéal, profitez-en !\",
+		\"mois\": \"C'est le mois idéal pour être à l'écoute de votre partenaire.\",
+		\"jour\": \"La chance vous sourit, restez à l'écoute.\",
+		\"heure\": \"Un excellent mois où tout le monde sera à votre écoute.\"
+		},
+		\"feu_yin\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Avant d'avancer sur vos projets prenez le temps d'écouter vos proches.\",
+		\"mois\": \"Avant d'avancer sur vos projets prenez le temps d'écouter votre partenaire.\",
+		\"jour\": \"Soyez à l'écoute pour provoquer la chance.\",
+		\"heure\": \"Avec un peu d'écoute l'année devrait bien se passer.\"
+		},
+		\"terre_yang\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Restez à l'écoute pour éviter de froisser vos proches.\",
+		\"mois\": \"Faites preuve de patience avec votre moitié et restez à l'écoute.\",
+		\"jour\": \"Un peu de patience et restez à l'écoute.\",
+		\"heure\": \"Vous êtes lucide, ce n'est pas le meilleur des mois pour vous.\"
+		},
+		\"terre_yin\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Un bon mois placé sous le signe de l'écoute.\",
+		\"mois\": \"Un mois placée sous le signe de l'écoute.\",
+		\"jour\": \"Restez à l'écoute pour de futurs opportunités.\",
+		\"heure\": \"Vous êtes à l'écoute de votre corps et il vous dit que tout va bien.\"
+		},
+		\"metal_yang\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ecoutez bien avant d’agir, cela évitera les erreurs dans vos projets et de vous énerver.\",
+		\"mois\": \"Soyez attentif à l'élu de votre coeur, il a peut être des choses à vous confier.\",
+		\"jour\": \"Une écoute attentive sera nécessaire pour contrebalancer la chance.\",
+		\"heure\": \"Faites attention à vous et restez receptive aux messages que vous envoie votre corps.\"
+		},
+		\"metal_yin\": {
+		\"influence\":\"tf\",
+		\"annee\": \"Ce mois ci vous êtes le confident idéal, profitez-en !\",
+		\"mois\": \"C'est le mois idéal pour être à l'écoute de votre partenaire.\",
+		\"jour\": \"La chance vous sourit, restez à l'écoute.\",
+		\"heure\": \"Un excellent mois où tout le monde sera à votre écoute.\"
+		},
+		\"eau_yang\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Avant d'avancer sur vos projets prenez le temps d'écouter vos proches.\",
+		\"mois\": \"Avant d'avancer sur vos projets prenez le temps d'écouter votre partenaire.\",
+		\"jour\": \"Soyez à l'écoute pour provoquer la chance.\",
+		\"heure\": \"Avec un peu d'écoute l'année devrait bien se passer.\"
+		},
+		\"eau_yin\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Restez à l'écoute pour éviter de froisser vos proches.\",
+		\"mois\": \"Faites preuve de patience avec votre moitié et restez à l'écoute.\",
+		\"jour\": \"Un peu de patience et restez à l'écoute.\",
+		\"heure\": \"Vous êtes lucide, ce n'est pas le meilleur des mois pour vous.\"
+		}
+		}
+	"</item>
+
+	<item name="binome43_j" type="string">"{
+		\"bois_yang\": {
+		\"influence\":\"fc\",
+		\"annee\": \"De la passion, du courage mais aussi beaucoup de rigueur aujourd’hui. Attention à l’intransigeance.\",
+		\"mois\": \"Une journée placée sous le signe de l'écoute.\",
+		\"jour\": \"Restez à l'écoute pour de futurs opportunités.\",
+		\"heure\": \"Vous êtes à l'écoute de votre corps et il vous dit que tout va bien.\"
+		},
+		\"bois_yin\": {
+		\"influence\":\"d\",
+		\"annee\": \"Attention à la raideur de vos jugements dans votre façon d’appréhender les projets.\",
+		\"mois\": \"Soyez attentif à l'élu de votre coeur, il a peut être des choses à vous confier.\",
+		\"jour\": \"Une écoute attentive sera nécessaire pour contrebalancer la chance.\",
+		\"heure\": \"Faites attention à vous et restez receptive aux messages que vous envoie votre corps.\"
+		},
+		\"feu_yang\": {
+		\"influence\":\"tf\",
+		\"annee\": \"Aujourd'hui vous êtes le confident idéal, profitez-en !\",
+		\"mois\": \"C'est la journée idéale pour être à l'écoute de votre partenaire.\",
+		\"jour\": \"La chance vous sourit, restez à l'écoute.\",
+		\"heure\": \"Une excellente journée où tout le monde sera à votre écoute.\"
+		},
+		\"feu_yin\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Avant d'avancer sur vos projets prenez le temps d'écouter vos proches.\",
+		\"mois\": \"Avant d'avancer sur vos projets prenez le temps d'écouter votre partenaire.\",
+		\"jour\": \"Soyez à l'écoute pour provoquer la chance.\",
+		\"heure\": \"Avec un peu d'écoute la journée devrait bien se passer.\"
+		},
+		\"terre_yang\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Restez à l'écoute pour éviter de froisser vos proches.\",
+		\"mois\": \"Faites preuve de patience avec votre moitié et restez à l'écoute.\",
+		\"jour\": \"Un peu de patience et restez à l'écoute.\",
+		\"heure\": \"Vous êtes lucide, ce n'est pas la meilleure des journées pour vous.\"
+		},
+		\"terre_yin\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Une bonne journée placée sous le signe de l'écoute.\",
+		\"mois\": \"Une journée placée sous le signe de l'écoute.\",
+		\"jour\": \"Restez à l'écoute pour de futurs opportunités.\",
+		\"heure\": \"Vous êtes à l'écoute de votre corps et il vous dit que tout va bien.\"
+		},
+		\"metal_yang\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ecoutez bien avant d’agir, cela évitera les erreurs dans vos projets et de vous énerver.\",
+		\"mois\": \"Soyez attentif à l'élu de votre coeur, il a peut être des choses à vous confier.\",
+		\"jour\": \"Une écoute attentive sera nécessaire pour contrebalancer la chance.\",
+		\"heure\": \"Faites attention à vous et restez receptive aux messages que vous envoie votre corps.\"
+		},
+		\"metal_yin\": {
+		\"influence\":\"tf\",
+		\"annee\": \"Aujourd'hui vous êtes le confident idéal, profitez-en !\",
+		\"mois\": \"C'est la journée idéale pour être à l'écoute de votre partenaire.\",
+		\"jour\": \"La chance vous sourit, restez à l'écoute.\",
+		\"heure\": \"Une excellente journée où tout le monde sera à votre écoute.\"
+		},
+		\"eau_yang\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Avant d'avancer sur vos projets prenez le temps d'écouter vos proches.\",
+		\"mois\": \"Avant d'avancer sur vos projets prenez le temps d'écouter votre partenaire.\",
+		\"jour\": \"Soyez à l'écoute pour provoquer la chance.\",
+		\"heure\": \"Avec un peu d'écoute la journée devrait bien se passer.\"
+		},
+		\"eau_yin\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Restez à l'écoute pour éviter de froisser vos proches.\",
+		\"mois\": \"Faites preuve de patience avec votre moitié et restez à l'écoute.\",
+		\"jour\": \"Un peu de patience et restez à l'écoute.\",
+		\"heure\": \"Vous êtes lucide, ce n'est pas la meilleure des journées pour vous.\"
+		}
+		}
+	"</item>
+
+	<item name="binome44_a" type="string">"{
+		\"bois_yang\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Une bonne année placée sous le signe de l'écoute.\",
+		\"mois\": \"Une année placée sous le signe de l'écoute.\",
+		\"jour\": \"Restez à l'écoute pour de futurs opportunités.\",
+		\"heure\": \"Vous êtes à l'écoute de votre corps et il vous dit que tout va bien.\"
+		},
+		\"bois_yin\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ecoutez bien avant d’agir, cela évitera les erreurs dans vos projets et de vous énerver.\",
+		\"mois\": \"Soyez attentif à l'élu de votre coeur, il a peut être des choses à vous confier.\",
+		\"jour\": \"Une écoute attentive sera nécessaire pour contrebalancer la chance.\",
+		\"heure\": \"Faites attention à vous et restez receptive aux messages que vous envoie votre corps.\"
+		},
+		\"feu_yang\": {
+		\"influence\":\"tf\",
+		\"annee\": \"Cette année vous êtes le confident idéal, profitez-en !\",
+		\"mois\": \"C'est l'année idéale pour être à l'écoute de votre partenaire.\",
+		\"jour\": \"La chance vous sourit, restez à l'écoute.\",
+		\"heure\": \"Une excellente année où tout le monde sera à votre écoute.\"
+		},
+		\"feu_yin\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Avant d'avancer sur vos projets prenez le temps d'écouter vos proches.\",
+		\"mois\": \"Avant d'avancer sur vos projets prenez le temps d'écouter votre partenaire.\",
+		\"jour\": \"Soyez à l'écoute pour provoquer la chance.\",
+		\"heure\": \"Avec un peu d'écoute l'année devrait bien se passer.\"
+		},
+		\"terre_yang\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Restez à l'écoute pour éviter de froisser vos proches.\",
+		\"mois\": \"Faites preuve de patience avec votre moitié et restez à l'écoute.\",
+		\"jour\": \"Un peu de patience et restez à l'écoute.\",
+		\"heure\": \"Vous êtes lucide, ce n'est pas la meilleure des années pour vous.\"
+		},
+		\"terre_yin\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Une bonne année placée sous le signe de l'écoute.\",
+		\"mois\": \"Une année placée sous le signe de l'écoute.\",
+		\"jour\": \"Restez à l'écoute pour de futurs opportunités.\",
+		\"heure\": \"Vous êtes à l'écoute de votre corps et il vous dit que tout va bien.\"
+		},
+		\"metal_yang\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ecoutez bien avant d’agir, cela évitera les erreurs dans vos projets et de vous énerver.\",
+		\"mois\": \"Soyez attentif à l'élu de votre coeur, il a peut être des choses à vous confier.\",
+		\"jour\": \"Une écoute attentive sera nécessaire pour contrebalancer la chance.\",
+		\"heure\": \"Faites attention à vous et restez receptive aux messages que vous envoie votre corps.\"
+		},
+		\"metal_yin\": {
+		\"influence\":\"tf\",
+		\"annee\": \"Cette année vous êtes le confident idéal, profitez-en !\",
+		\"mois\": \"C'est l'année idéale pour être à l'écoute de votre partenaire.\",
+		\"jour\": \"La chance vous sourit, restez à l'écoute.\",
+		\"heure\": \"Une excellente année où tout le monde sera à votre écoute.\"
+		},
+		\"eau_yang\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Avant d'avancer sur vos projets prenez le temps d'écouter vos proches.\",
+		\"mois\": \"Avant d'avancer sur vos projets prenez le temps d'écouter votre partenaire.\",
+		\"jour\": \"Soyez à l'écoute pour provoquer la chance.\",
+		\"heure\": \"Avec un peu d'écoute l'année devrait bien se passer.\"
+		},
+		\"eau_yin\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Restez à l'écoute pour éviter de froisser vos proches.\",
+		\"mois\": \"Faites preuve de patience avec votre moitié et restez à l'écoute.\",
+		\"jour\": \"Un peu de patience et restez à l'écoute.\",
+		\"heure\": \"Vous êtes lucide, ce n'est pas la meilleure des années pour vous.\"
+		}
+		}
+	"</item>
+
+	<item name="binome44_m" type="string">"{
+		\"bois_yang\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Un bon mois placé sous le signe de l'écoute.\",
+		\"mois\": \"Un mois placée sous le signe de l'écoute.\",
+		\"jour\": \"Restez à l'écoute pour de futurs opportunités.\",
+		\"heure\": \"Vous êtes à l'écoute de votre corps et il vous dit que tout va bien.\"
+		},
+		\"bois_yin\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ecoutez bien avant d’agir, cela évitera les erreurs dans vos projets et de vous énerver.\",
+		\"mois\": \"Soyez attentif à l'élu de votre coeur, il a peut être des choses à vous confier.\",
+		\"jour\": \"Une écoute attentive sera nécessaire pour contrebalancer la chance.\",
+		\"heure\": \"Faites attention à vous et restez receptive aux messages que vous envoie votre corps.\"
+		},
+		\"feu_yang\": {
+		\"influence\":\"tf\",
+		\"annee\": \"Ce mois ci vous êtes le confident idéal, profitez-en !\",
+		\"mois\": \"C'est le mois idéal pour être à l'écoute de votre partenaire.\",
+		\"jour\": \"La chance vous sourit, restez à l'écoute.\",
+		\"heure\": \"Un excellent mois où tout le monde sera à votre écoute.\"
+		},
+		\"feu_yin\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Avant d'avancer sur vos projets prenez le temps d'écouter vos proches.\",
+		\"mois\": \"Avant d'avancer sur vos projets prenez le temps d'écouter votre partenaire.\",
+		\"jour\": \"Soyez à l'écoute pour provoquer la chance.\",
+		\"heure\": \"Avec un peu d'écoute l'année devrait bien se passer.\"
+		},
+		\"terre_yang\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Restez à l'écoute pour éviter de froisser vos proches.\",
+		\"mois\": \"Faites preuve de patience avec votre moitié et restez à l'écoute.\",
+		\"jour\": \"Un peu de patience et restez à l'écoute.\",
+		\"heure\": \"Vous êtes lucide, ce n'est pas le meilleur des mois pour vous.\"
+		},
+		\"terre_yin\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Un bon mois placé sous le signe de l'écoute.\",
+		\"mois\": \"Un mois placée sous le signe de l'écoute.\",
+		\"jour\": \"Restez à l'écoute pour de futurs opportunités.\",
+		\"heure\": \"Vous êtes à l'écoute de votre corps et il vous dit que tout va bien.\"
+		},
+		\"metal_yang\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ecoutez bien avant d’agir, cela évitera les erreurs dans vos projets et de vous énerver.\",
+		\"mois\": \"Soyez attentif à l'élu de votre coeur, il a peut être des choses à vous confier.\",
+		\"jour\": \"Une écoute attentive sera nécessaire pour contrebalancer la chance.\",
+		\"heure\": \"Faites attention à vous et restez receptive aux messages que vous envoie votre corps.\"
+		},
+		\"metal_yin\": {
+		\"influence\":\"tf\",
+		\"annee\": \"Ce mois ci vous êtes le confident idéal, profitez-en !\",
+		\"mois\": \"C'est le mois idéal pour être à l'écoute de votre partenaire.\",
+		\"jour\": \"La chance vous sourit, restez à l'écoute.\",
+		\"heure\": \"Un excellent mois où tout le monde sera à votre écoute.\"
+		},
+		\"eau_yang\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Avant d'avancer sur vos projets prenez le temps d'écouter vos proches.\",
+		\"mois\": \"Avant d'avancer sur vos projets prenez le temps d'écouter votre partenaire.\",
+		\"jour\": \"Soyez à l'écoute pour provoquer la chance.\",
+		\"heure\": \"Avec un peu d'écoute l'année devrait bien se passer.\"
+		},
+		\"eau_yin\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Restez à l'écoute pour éviter de froisser vos proches.\",
+		\"mois\": \"Faites preuve de patience avec votre moitié et restez à l'écoute.\",
+		\"jour\": \"Un peu de patience et restez à l'écoute.\",
+		\"heure\": \"Vous êtes lucide, ce n'est pas le meilleur des mois pour vous.\"
+		}
+		}
+	"</item>
+
+	<item name="binome44_j" type="string">"{
+		\"bois_yang\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Vous avez le sens aigu de la droiture, cela se ressent dans vos projets.\",
+		\"mois\": \"Une journée placée sous le signe de l'écoute.\",
+		\"jour\": \"Restez à l'écoute pour de futurs opportunités.\",
+		\"heure\": \"Vous êtes à l'écoute de votre corps et il vous dit que tout va bien.\"
+		},
+		\"bois_yin\": {
+		\"influence\":\"d\",
+		\"annee\": \"Vous pouvez vous laisser porter par la loyauté et la droiture de cette journée, mais n’en abusez pas.\",
+		\"mois\": \"Soyez attentif à l'élu de votre coeur, il a peut être des choses à vous confier.\",
+		\"jour\": \"Une écoute attentive sera nécessaire pour contrebalancer la chance.\",
+		\"heure\": \"Faites attention à vous et restez receptive aux messages que vous envoie votre corps.\"
+		},
+		\"feu_yang\": {
+		\"influence\":\"tf\",
+		\"annee\": \"Aujourd'hui vous êtes le confident idéal, profitez-en !\",
+		\"mois\": \"C'est la journée idéale pour être à l'écoute de votre partenaire.\",
+		\"jour\": \"La chance vous sourit, restez à l'écoute.\",
+		\"heure\": \"Une excellente journée où tout le monde sera à votre écoute.\"
+		},
+		\"feu_yin\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Avant d'avancer sur vos projets prenez le temps d'écouter vos proches.\",
+		\"mois\": \"Avant d'avancer sur vos projets prenez le temps d'écouter votre partenaire.\",
+		\"jour\": \"Soyez à l'écoute pour provoquer la chance.\",
+		\"heure\": \"Avec un peu d'écoute la journée devrait bien se passer.\"
+		},
+		\"terre_yang\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Restez à l'écoute pour éviter de froisser vos proches.\",
+		\"mois\": \"Faites preuve de patience avec votre moitié et restez à l'écoute.\",
+		\"jour\": \"Un peu de patience et restez à l'écoute.\",
+		\"heure\": \"Vous êtes lucide, ce n'est pas la meilleure des journées pour vous.\"
+		},
+		\"terre_yin\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Une bonne journée placée sous le signe de l'écoute.\",
+		\"mois\": \"Une journée placée sous le signe de l'écoute.\",
+		\"jour\": \"Restez à l'écoute pour de futurs opportunités.\",
+		\"heure\": \"Vous êtes à l'écoute de votre corps et il vous dit que tout va bien.\"
+		},
+		\"metal_yang\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ecoutez bien avant d’agir, cela évitera les erreurs dans vos projets et de vous énerver.\",
+		\"mois\": \"Soyez attentif à l'élu de votre coeur, il a peut être des choses à vous confier.\",
+		\"jour\": \"Une écoute attentive sera nécessaire pour contrebalancer la chance.\",
+		\"heure\": \"Faites attention à vous et restez receptive aux messages que vous envoie votre corps.\"
+		},
+		\"metal_yin\": {
+		\"influence\":\"tf\",
+		\"annee\": \"Aujourd'hui vous êtes le confident idéal, profitez-en !\",
+		\"mois\": \"C'est la journée idéale pour être à l'écoute de votre partenaire.\",
+		\"jour\": \"La chance vous sourit, restez à l'écoute.\",
+		\"heure\": \"Une excellente journée où tout le monde sera à votre écoute.\"
+		},
+		\"eau_yang\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Avant d'avancer sur vos projets prenez le temps d'écouter vos proches.\",
+		\"mois\": \"Avant d'avancer sur vos projets prenez le temps d'écouter votre partenaire.\",
+		\"jour\": \"Soyez à l'écoute pour provoquer la chance.\",
+		\"heure\": \"Avec un peu d'écoute la journée devrait bien se passer.\"
+		},
+		\"eau_yin\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Restez à l'écoute pour éviter de froisser vos proches.\",
+		\"mois\": \"Faites preuve de patience avec votre moitié et restez à l'écoute.\",
+		\"jour\": \"Un peu de patience et restez à l'écoute.\",
+		\"heure\": \"Vous êtes lucide, ce n'est pas la meilleure des journées pour vous.\"
+		}
+		}
+	"</item>
+
+	<item name="binome51_a" type="string">"{
+		\"bois_yang\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Une bonne année placée sous le signe de l'écoute.\",
+		\"mois\": \"Une année placée sous le signe de l'écoute.\",
+		\"jour\": \"Restez à l'écoute pour de futurs opportunités.\",
+		\"heure\": \"Vous êtes à l'écoute de votre corps et il vous dit que tout va bien.\"
+		},
+		\"bois_yin\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ecoutez bien avant d’agir, cela évitera les erreurs dans vos projets et de vous énerver.\",
+		\"mois\": \"Soyez attentif à l'élu de votre coeur, il a peut être des choses à vous confier.\",
+		\"jour\": \"Une écoute attentive sera nécessaire pour contrebalancer la chance.\",
+		\"heure\": \"Faites attention à vous et restez receptive aux messages que vous envoie votre corps.\"
+		},
+		\"feu_yang\": {
+		\"influence\":\"tf\",
+		\"annee\": \"Cette année vous êtes le confident idéal, profitez-en !\",
+		\"mois\": \"C'est l'année idéale pour être à l'écoute de votre partenaire.\",
+		\"jour\": \"La chance vous sourit, restez à l'écoute.\",
+		\"heure\": \"Une excellente année où tout le monde sera à votre écoute.\"
+		},
+		\"feu_yin\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Avant d'avancer sur vos projets prenez le temps d'écouter vos proches.\",
+		\"mois\": \"Avant d'avancer sur vos projets prenez le temps d'écouter votre partenaire.\",
+		\"jour\": \"Soyez à l'écoute pour provoquer la chance.\",
+		\"heure\": \"Avec un peu d'écoute l'année devrait bien se passer.\"
+		},
+		\"terre_yang\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Restez à l'écoute pour éviter de froisser vos proches.\",
+		\"mois\": \"Faites preuve de patience avec votre moitié et restez à l'écoute.\",
+		\"jour\": \"Un peu de patience et restez à l'écoute.\",
+		\"heure\": \"Vous êtes lucide, ce n'est pas la meilleure des années pour vous.\"
+		},
+		\"terre_yin\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Une bonne année placée sous le signe de l'écoute.\",
+		\"mois\": \"Une année placée sous le signe de l'écoute.\",
+		\"jour\": \"Restez à l'écoute pour de futurs opportunités.\",
+		\"heure\": \"Vous êtes à l'écoute de votre corps et il vous dit que tout va bien.\"
+		},
+		\"metal_yang\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ecoutez bien avant d’agir, cela évitera les erreurs dans vos projets et de vous énerver.\",
+		\"mois\": \"Soyez attentif à l'élu de votre coeur, il a peut être des choses à vous confier.\",
+		\"jour\": \"Une écoute attentive sera nécessaire pour contrebalancer la chance.\",
+		\"heure\": \"Faites attention à vous et restez receptive aux messages que vous envoie votre corps.\"
+		},
+		\"metal_yin\": {
+		\"influence\":\"tf\",
+		\"annee\": \"Cette année vous êtes le confident idéal, profitez-en !\",
+		\"mois\": \"C'est l'année idéale pour être à l'écoute de votre partenaire.\",
+		\"jour\": \"La chance vous sourit, restez à l'écoute.\",
+		\"heure\": \"Une excellente année où tout le monde sera à votre écoute.\"
+		},
+		\"eau_yang\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Avant d'avancer sur vos projets prenez le temps d'écouter vos proches.\",
+		\"mois\": \"Avant d'avancer sur vos projets prenez le temps d'écouter votre partenaire.\",
+		\"jour\": \"Soyez à l'écoute pour provoquer la chance.\",
+		\"heure\": \"Avec un peu d'écoute l'année devrait bien se passer.\"
+		},
+		\"eau_yin\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Restez à l'écoute pour éviter de froisser vos proches.\",
+		\"mois\": \"Faites preuve de patience avec votre moitié et restez à l'écoute.\",
+		\"jour\": \"Un peu de patience et restez à l'écoute.\",
+		\"heure\": \"Vous êtes lucide, ce n'est pas la meilleure des années pour vous.\"
+		}
+		}
+	"</item>
+
+	<item name="binome51_m" type="string">"{
+		\"bois_yang\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Un bon mois placé sous le signe de l'écoute.\",
+		\"mois\": \"Un mois placée sous le signe de l'écoute.\",
+		\"jour\": \"Restez à l'écoute pour de futurs opportunités.\",
+		\"heure\": \"Vous êtes à l'écoute de votre corps et il vous dit que tout va bien.\"
+		},
+		\"bois_yin\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ecoutez bien avant d’agir, cela évitera les erreurs dans vos projets et de vous énerver.\",
+		\"mois\": \"Soyez attentif à l'élu de votre coeur, il a peut être des choses à vous confier.\",
+		\"jour\": \"Une écoute attentive sera nécessaire pour contrebalancer la chance.\",
+		\"heure\": \"Faites attention à vous et restez receptive aux messages que vous envoie votre corps.\"
+		},
+		\"feu_yang\": {
+		\"influence\":\"tf\",
+		\"annee\": \"Ce mois ci vous êtes le confident idéal, profitez-en !\",
+		\"mois\": \"C'est le mois idéal pour être à l'écoute de votre partenaire.\",
+		\"jour\": \"La chance vous sourit, restez à l'écoute.\",
+		\"heure\": \"Un excellent mois où tout le monde sera à votre écoute.\"
+		},
+		\"feu_yin\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Avant d'avancer sur vos projets prenez le temps d'écouter vos proches.\",
+		\"mois\": \"Avant d'avancer sur vos projets prenez le temps d'écouter votre partenaire.\",
+		\"jour\": \"Soyez à l'écoute pour provoquer la chance.\",
+		\"heure\": \"Avec un peu d'écoute l'année devrait bien se passer.\"
+		},
+		\"terre_yang\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Restez à l'écoute pour éviter de froisser vos proches.\",
+		\"mois\": \"Faites preuve de patience avec votre moitié et restez à l'écoute.\",
+		\"jour\": \"Un peu de patience et restez à l'écoute.\",
+		\"heure\": \"Vous êtes lucide, ce n'est pas le meilleur des mois pour vous.\"
+		},
+		\"terre_yin\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Un bon mois placé sous le signe de l'écoute.\",
+		\"mois\": \"Un mois placée sous le signe de l'écoute.\",
+		\"jour\": \"Restez à l'écoute pour de futurs opportunités.\",
+		\"heure\": \"Vous êtes à l'écoute de votre corps et il vous dit que tout va bien.\"
+		},
+		\"metal_yang\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ecoutez bien avant d’agir, cela évitera les erreurs dans vos projets et de vous énerver.\",
+		\"mois\": \"Soyez attentif à l'élu de votre coeur, il a peut être des choses à vous confier.\",
+		\"jour\": \"Une écoute attentive sera nécessaire pour contrebalancer la chance.\",
+		\"heure\": \"Faites attention à vous et restez receptive aux messages que vous envoie votre corps.\"
+		},
+		\"metal_yin\": {
+		\"influence\":\"tf\",
+		\"annee\": \"Ce mois ci vous êtes le confident idéal, profitez-en !\",
+		\"mois\": \"C'est le mois idéal pour être à l'écoute de votre partenaire.\",
+		\"jour\": \"La chance vous sourit, restez à l'écoute.\",
+		\"heure\": \"Un excellent mois où tout le monde sera à votre écoute.\"
+		},
+		\"eau_yang\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Avant d'avancer sur vos projets prenez le temps d'écouter vos proches.\",
+		\"mois\": \"Avant d'avancer sur vos projets prenez le temps d'écouter votre partenaire.\",
+		\"jour\": \"Soyez à l'écoute pour provoquer la chance.\",
+		\"heure\": \"Avec un peu d'écoute l'année devrait bien se passer.\"
+		},
+		\"eau_yin\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Restez à l'écoute pour éviter de froisser vos proches.\",
+		\"mois\": \"Faites preuve de patience avec votre moitié et restez à l'écoute.\",
+		\"jour\": \"Un peu de patience et restez à l'écoute.\",
+		\"heure\": \"Vous êtes lucide, ce n'est pas le meilleur des mois pour vous.\"
+		}
+		}
+	"</item>
+
+	<item name="binome51_j" type="string">"{
+		\"bois_yang\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Des obstacles pour la mise en place de vos projets ? Pas de soucis c’est la journée pour trouver une solution.\",
+		\"mois\": \"Une journée placée sous le signe de l'écoute.\",
+		\"jour\": \"Restez à l'écoute pour de futurs opportunités.\",
+		\"heure\": \"Vous êtes à l'écoute de votre corps et il vous dit que tout va bien.\"
+		},
+		\"bois_yin\": {
+		\"influence\":\"d\",
+		\"annee\": \"Votre volonté de trouver des solutions à tout risque de vous rendre moins clair aujourd’hui sur l’objectif de votre projet.\",
+		\"mois\": \"Soyez attentif à l'élu de votre coeur, il a peut être des choses à vous confier.\",
+		\"jour\": \"Une écoute attentive sera nécessaire pour contrebalancer la chance.\",
+		\"heure\": \"Faites attention à vous et restez receptive aux messages que vous envoie votre corps.\"
+		},
+		\"feu_yang\": {
+		\"influence\":\"tf\",
+		\"annee\": \"Aujourd'hui vous êtes le confident idéal, profitez-en !\",
+		\"mois\": \"C'est la journée idéale pour être à l'écoute de votre partenaire.\",
+		\"jour\": \"La chance vous sourit, restez à l'écoute.\",
+		\"heure\": \"Une excellente journée où tout le monde sera à votre écoute.\"
+		},
+		\"feu_yin\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Avant d'avancer sur vos projets prenez le temps d'écouter vos proches.\",
+		\"mois\": \"Avant d'avancer sur vos projets prenez le temps d'écouter votre partenaire.\",
+		\"jour\": \"Soyez à l'écoute pour provoquer la chance.\",
+		\"heure\": \"Avec un peu d'écoute la journée devrait bien se passer.\"
+		},
+		\"terre_yang\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Restez à l'écoute pour éviter de froisser vos proches.\",
+		\"mois\": \"Faites preuve de patience avec votre moitié et restez à l'écoute.\",
+		\"jour\": \"Un peu de patience et restez à l'écoute.\",
+		\"heure\": \"Vous êtes lucide, ce n'est pas la meilleure des journées pour vous.\"
+		},
+		\"terre_yin\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Une bonne journée placée sous le signe de l'écoute.\",
+		\"mois\": \"Une journée placée sous le signe de l'écoute.\",
+		\"jour\": \"Restez à l'écoute pour de futurs opportunités.\",
+		\"heure\": \"Vous êtes à l'écoute de votre corps et il vous dit que tout va bien.\"
+		},
+		\"metal_yang\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ecoutez bien avant d’agir, cela évitera les erreurs dans vos projets et de vous énerver.\",
+		\"mois\": \"Soyez attentif à l'élu de votre coeur, il a peut être des choses à vous confier.\",
+		\"jour\": \"Une écoute attentive sera nécessaire pour contrebalancer la chance.\",
+		\"heure\": \"Faites attention à vous et restez receptive aux messages que vous envoie votre corps.\"
+		},
+		\"metal_yin\": {
+		\"influence\":\"tf\",
+		\"annee\": \"Aujourd'hui vous êtes le confident idéal, profitez-en !\",
+		\"mois\": \"C'est la journée idéale pour être à l'écoute de votre partenaire.\",
+		\"jour\": \"La chance vous sourit, restez à l'écoute.\",
+		\"heure\": \"Une excellente journée où tout le monde sera à votre écoute.\"
+		},
+		\"eau_yang\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Avant d'avancer sur vos projets prenez le temps d'écouter vos proches.\",
+		\"mois\": \"Avant d'avancer sur vos projets prenez le temps d'écouter votre partenaire.\",
+		\"jour\": \"Soyez à l'écoute pour provoquer la chance.\",
+		\"heure\": \"Avec un peu d'écoute la journée devrait bien se passer.\"
+		},
+		\"eau_yin\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Restez à l'écoute pour éviter de froisser vos proches.\",
+		\"mois\": \"Faites preuve de patience avec votre moitié et restez à l'écoute.\",
+		\"jour\": \"Un peu de patience et restez à l'écoute.\",
+		\"heure\": \"Vous êtes lucide, ce n'est pas la meilleure des journées pour vous.\"
+		}
+		}
+	"</item>
+
+	<item name="binome52_a" type="string">"{
+		\"bois_yang\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Une bonne année placée sous le signe de l'écoute.\",
+		\"mois\": \"Une année placée sous le signe de l'écoute.\",
+		\"jour\": \"Restez à l'écoute pour de futurs opportunités.\",
+		\"heure\": \"Vous êtes à l'écoute de votre corps et il vous dit que tout va bien.\"
+		},
+		\"bois_yin\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ecoutez bien avant d’agir, cela évitera les erreurs dans vos projets et de vous énerver.\",
+		\"mois\": \"Soyez attentif à l'élu de votre coeur, il a peut être des choses à vous confier.\",
+		\"jour\": \"Une écoute attentive sera nécessaire pour contrebalancer la chance.\",
+		\"heure\": \"Faites attention à vous et restez receptive aux messages que vous envoie votre corps.\"
+		},
+		\"feu_yang\": {
+		\"influence\":\"tf\",
+		\"annee\": \"Cette année vous êtes le confident idéal, profitez-en !\",
+		\"mois\": \"C'est l'année idéale pour être à l'écoute de votre partenaire.\",
+		\"jour\": \"La chance vous sourit, restez à l'écoute.\",
+		\"heure\": \"Une excellente année où tout le monde sera à votre écoute.\"
+		},
+		\"feu_yin\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Avant d'avancer sur vos projets prenez le temps d'écouter vos proches.\",
+		\"mois\": \"Avant d'avancer sur vos projets prenez le temps d'écouter votre partenaire.\",
+		\"jour\": \"Soyez à l'écoute pour provoquer la chance.\",
+		\"heure\": \"Avec un peu d'écoute l'année devrait bien se passer.\"
+		},
+		\"terre_yang\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Restez à l'écoute pour éviter de froisser vos proches.\",
+		\"mois\": \"Faites preuve de patience avec votre moitié et restez à l'écoute.\",
+		\"jour\": \"Un peu de patience et restez à l'écoute.\",
+		\"heure\": \"Vous êtes lucide, ce n'est pas la meilleure des années pour vous.\"
+		},
+		\"terre_yin\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Une bonne année placée sous le signe de l'écoute.\",
+		\"mois\": \"Une année placée sous le signe de l'écoute.\",
+		\"jour\": \"Restez à l'écoute pour de futurs opportunités.\",
+		\"heure\": \"Vous êtes à l'écoute de votre corps et il vous dit que tout va bien.\"
+		},
+		\"metal_yang\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ecoutez bien avant d’agir, cela évitera les erreurs dans vos projets et de vous énerver.\",
+		\"mois\": \"Soyez attentif à l'élu de votre coeur, il a peut être des choses à vous confier.\",
+		\"jour\": \"Une écoute attentive sera nécessaire pour contrebalancer la chance.\",
+		\"heure\": \"Faites attention à vous et restez receptive aux messages que vous envoie votre corps.\"
+		},
+		\"metal_yin\": {
+		\"influence\":\"tf\",
+		\"annee\": \"Cette année vous êtes le confident idéal, profitez-en !\",
+		\"mois\": \"C'est l'année idéale pour être à l'écoute de votre partenaire.\",
+		\"jour\": \"La chance vous sourit, restez à l'écoute.\",
+		\"heure\": \"Une excellente année où tout le monde sera à votre écoute.\"
+		},
+		\"eau_yang\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Avant d'avancer sur vos projets prenez le temps d'écouter vos proches.\",
+		\"mois\": \"Avant d'avancer sur vos projets prenez le temps d'écouter votre partenaire.\",
+		\"jour\": \"Soyez à l'écoute pour provoquer la chance.\",
+		\"heure\": \"Avec un peu d'écoute l'année devrait bien se passer.\"
+		},
+		\"eau_yin\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Restez à l'écoute pour éviter de froisser vos proches.\",
+		\"mois\": \"Faites preuve de patience avec votre moitié et restez à l'écoute.\",
+		\"jour\": \"Un peu de patience et restez à l'écoute.\",
+		\"heure\": \"Vous êtes lucide, ce n'est pas la meilleure des années pour vous.\"
+		}
+		}
+	"</item>
+
+	<item name="binome52_m" type="string">"{
+		\"bois_yang\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Un bon mois placé sous le signe de l'écoute.\",
+		\"mois\": \"Un mois placée sous le signe de l'écoute.\",
+		\"jour\": \"Restez à l'écoute pour de futurs opportunités.\",
+		\"heure\": \"Vous êtes à l'écoute de votre corps et il vous dit que tout va bien.\"
+		},
+		\"bois_yin\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ecoutez bien avant d’agir, cela évitera les erreurs dans vos projets et de vous énerver.\",
+		\"mois\": \"Soyez attentif à l'élu de votre coeur, il a peut être des choses à vous confier.\",
+		\"jour\": \"Une écoute attentive sera nécessaire pour contrebalancer la chance.\",
+		\"heure\": \"Faites attention à vous et restez receptive aux messages que vous envoie votre corps.\"
+		},
+		\"feu_yang\": {
+		\"influence\":\"tf\",
+		\"annee\": \"Ce mois ci vous êtes le confident idéal, profitez-en !\",
+		\"mois\": \"C'est le mois idéal pour être à l'écoute de votre partenaire.\",
+		\"jour\": \"La chance vous sourit, restez à l'écoute.\",
+		\"heure\": \"Un excellent mois où tout le monde sera à votre écoute.\"
+		},
+		\"feu_yin\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Avant d'avancer sur vos projets prenez le temps d'écouter vos proches.\",
+		\"mois\": \"Avant d'avancer sur vos projets prenez le temps d'écouter votre partenaire.\",
+		\"jour\": \"Soyez à l'écoute pour provoquer la chance.\",
+		\"heure\": \"Avec un peu d'écoute l'année devrait bien se passer.\"
+		},
+		\"terre_yang\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Restez à l'écoute pour éviter de froisser vos proches.\",
+		\"mois\": \"Faites preuve de patience avec votre moitié et restez à l'écoute.\",
+		\"jour\": \"Un peu de patience et restez à l'écoute.\",
+		\"heure\": \"Vous êtes lucide, ce n'est pas le meilleur des mois pour vous.\"
+		},
+		\"terre_yin\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Un bon mois placé sous le signe de l'écoute.\",
+		\"mois\": \"Un mois placée sous le signe de l'écoute.\",
+		\"jour\": \"Restez à l'écoute pour de futurs opportunités.\",
+		\"heure\": \"Vous êtes à l'écoute de votre corps et il vous dit que tout va bien.\"
+		},
+		\"metal_yang\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ecoutez bien avant d’agir, cela évitera les erreurs dans vos projets et de vous énerver.\",
+		\"mois\": \"Soyez attentif à l'élu de votre coeur, il a peut être des choses à vous confier.\",
+		\"jour\": \"Une écoute attentive sera nécessaire pour contrebalancer la chance.\",
+		\"heure\": \"Faites attention à vous et restez receptive aux messages que vous envoie votre corps.\"
+		},
+		\"metal_yin\": {
+		\"influence\":\"tf\",
+		\"annee\": \"Ce mois ci vous êtes le confident idéal, profitez-en !\",
+		\"mois\": \"C'est le mois idéal pour être à l'écoute de votre partenaire.\",
+		\"jour\": \"La chance vous sourit, restez à l'écoute.\",
+		\"heure\": \"Un excellent mois où tout le monde sera à votre écoute.\"
+		},
+		\"eau_yang\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Avant d'avancer sur vos projets prenez le temps d'écouter vos proches.\",
+		\"mois\": \"Avant d'avancer sur vos projets prenez le temps d'écouter votre partenaire.\",
+		\"jour\": \"Soyez à l'écoute pour provoquer la chance.\",
+		\"heure\": \"Avec un peu d'écoute l'année devrait bien se passer.\"
+		},
+		\"eau_yin\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Restez à l'écoute pour éviter de froisser vos proches.\",
+		\"mois\": \"Faites preuve de patience avec votre moitié et restez à l'écoute.\",
+		\"jour\": \"Un peu de patience et restez à l'écoute.\",
+		\"heure\": \"Vous êtes lucide, ce n'est pas le meilleur des mois pour vous.\"
+		}
+		}
+	"</item>
+
+	<item name="binome52_j" type="string">"{
+		\"bois_yang\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Des idées futées et intéressantes peuvent voir le jour aujourd’hui !\",
+		\"mois\": \"Une journée placée sous le signe de l'écoute.\",
+		\"jour\": \"Restez à l'écoute pour de futurs opportunités.\",
+		\"heure\": \"Vous êtes à l'écoute de votre corps et il vous dit que tout va bien.\"
+		},
+		\"bois_yin\": {
+		\"influence\":\"d\",
+		\"annee\": \"Journée parfaite pour trouver des solutions mais ne cherchez pas midi à 14 h !\",
+		\"mois\": \"Soyez attentif à l'élu de votre coeur, il a peut être des choses à vous confier.\",
+		\"jour\": \"Une écoute attentive sera nécessaire pour contrebalancer la chance.\",
+		\"heure\": \"Faites attention à vous et restez receptive aux messages que vous envoie votre corps.\"
+		},
+		\"feu_yang\": {
+		\"influence\":\"tf\",
+		\"annee\": \"Aujourd'hui vous êtes le confident idéal, profitez-en !\",
+		\"mois\": \"C'est la journée idéale pour être à l'écoute de votre partenaire.\",
+		\"jour\": \"La chance vous sourit, restez à l'écoute.\",
+		\"heure\": \"Une excellente journée où tout le monde sera à votre écoute.\"
+		},
+		\"feu_yin\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Avant d'avancer sur vos projets prenez le temps d'écouter vos proches.\",
+		\"mois\": \"Avant d'avancer sur vos projets prenez le temps d'écouter votre partenaire.\",
+		\"jour\": \"Soyez à l'écoute pour provoquer la chance.\",
+		\"heure\": \"Avec un peu d'écoute la journée devrait bien se passer.\"
+		},
+		\"terre_yang\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Restez à l'écoute pour éviter de froisser vos proches.\",
+		\"mois\": \"Faites preuve de patience avec votre moitié et restez à l'écoute.\",
+		\"jour\": \"Un peu de patience et restez à l'écoute.\",
+		\"heure\": \"Vous êtes lucide, ce n'est pas la meilleure des journées pour vous.\"
+		},
+		\"terre_yin\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Une bonne journée placée sous le signe de l'écoute.\",
+		\"mois\": \"Une journée placée sous le signe de l'écoute.\",
+		\"jour\": \"Restez à l'écoute pour de futurs opportunités.\",
+		\"heure\": \"Vous êtes à l'écoute de votre corps et il vous dit que tout va bien.\"
+		},
+		\"metal_yang\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ecoutez bien avant d’agir, cela évitera les erreurs dans vos projets et de vous énerver.\",
+		\"mois\": \"Soyez attentif à l'élu de votre coeur, il a peut être des choses à vous confier.\",
+		\"jour\": \"Une écoute attentive sera nécessaire pour contrebalancer la chance.\",
+		\"heure\": \"Faites attention à vous et restez receptive aux messages que vous envoie votre corps.\"
+		},
+		\"metal_yin\": {
+		\"influence\":\"tf\",
+		\"annee\": \"Aujourd'hui vous êtes le confident idéal, profitez-en !\",
+		\"mois\": \"C'est la journée idéale pour être à l'écoute de votre partenaire.\",
+		\"jour\": \"La chance vous sourit, restez à l'écoute.\",
+		\"heure\": \"Une excellente journée où tout le monde sera à votre écoute.\"
+		},
+		\"eau_yang\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Avant d'avancer sur vos projets prenez le temps d'écouter vos proches.\",
+		\"mois\": \"Avant d'avancer sur vos projets prenez le temps d'écouter votre partenaire.\",
+		\"jour\": \"Soyez à l'écoute pour provoquer la chance.\",
+		\"heure\": \"Avec un peu d'écoute la journée devrait bien se passer.\"
+		},
+		\"eau_yin\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Restez à l'écoute pour éviter de froisser vos proches.\",
+		\"mois\": \"Faites preuve de patience avec votre moitié et restez à l'écoute.\",
+		\"jour\": \"Un peu de patience et restez à l'écoute.\",
+		\"heure\": \"Vous êtes lucide, ce n'est pas la meilleure des journées pour vous.\"
+		}
+		}
+	"</item>
+
+	<item name="binome59_a" type="string">"{
+		\"bois_yang\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Une bonne année placée sous le signe de l'écoute.\",
+		\"mois\": \"Une année placée sous le signe de l'écoute.\",
+		\"jour\": \"Restez à l'écoute pour de futurs opportunités.\",
+		\"heure\": \"Vous êtes à l'écoute de votre corps et il vous dit que tout va bien.\"
+		},
+		\"bois_yin\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ecoutez bien avant d’agir, cela évitera les erreurs dans vos projets et de vous énerver.\",
+		\"mois\": \"Soyez attentif à l'élu de votre coeur, il a peut être des choses à vous confier.\",
+		\"jour\": \"Une écoute attentive sera nécessaire pour contrebalancer la chance.\",
+		\"heure\": \"Faites attention à vous et restez receptive aux messages que vous envoie votre corps.\"
+		},
+		\"feu_yang\": {
+		\"influence\":\"tf\",
+		\"annee\": \"Cette année vous êtes le confident idéal, profitez-en !\",
+		\"mois\": \"C'est l'année idéale pour être à l'écoute de votre partenaire.\",
+		\"jour\": \"La chance vous sourit, restez à l'écoute.\",
+		\"heure\": \"Une excellente année où tout le monde sera à votre écoute.\"
+		},
+		\"feu_yin\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Avant d'avancer sur vos projets prenez le temps d'écouter vos proches.\",
+		\"mois\": \"Avant d'avancer sur vos projets prenez le temps d'écouter votre partenaire.\",
+		\"jour\": \"Soyez à l'écoute pour provoquer la chance.\",
+		\"heure\": \"Avec un peu d'écoute l'année devrait bien se passer.\"
+		},
+		\"terre_yang\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Restez à l'écoute pour éviter de froisser vos proches.\",
+		\"mois\": \"Faites preuve de patience avec votre moitié et restez à l'écoute.\",
+		\"jour\": \"Un peu de patience et restez à l'écoute.\",
+		\"heure\": \"Vous êtes lucide, ce n'est pas la meilleure des années pour vous.\"
+		},
+		\"terre_yin\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Une bonne année placée sous le signe de l'écoute.\",
+		\"mois\": \"Une année placée sous le signe de l'écoute.\",
+		\"jour\": \"Restez à l'écoute pour de futurs opportunités.\",
+		\"heure\": \"Vous êtes à l'écoute de votre corps et il vous dit que tout va bien.\"
+		},
+		\"metal_yang\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ecoutez bien avant d’agir, cela évitera les erreurs dans vos projets et de vous énerver.\",
+		\"mois\": \"Soyez attentif à l'élu de votre coeur, il a peut être des choses à vous confier.\",
+		\"jour\": \"Une écoute attentive sera nécessaire pour contrebalancer la chance.\",
+		\"heure\": \"Faites attention à vous et restez receptive aux messages que vous envoie votre corps.\"
+		},
+		\"metal_yin\": {
+		\"influence\":\"tf\",
+		\"annee\": \"Cette année vous êtes le confident idéal, profitez-en !\",
+		\"mois\": \"C'est l'année idéale pour être à l'écoute de votre partenaire.\",
+		\"jour\": \"La chance vous sourit, restez à l'écoute.\",
+		\"heure\": \"Une excellente année où tout le monde sera à votre écoute.\"
+		},
+		\"eau_yang\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Avant d'avancer sur vos projets prenez le temps d'écouter vos proches.\",
+		\"mois\": \"Avant d'avancer sur vos projets prenez le temps d'écouter votre partenaire.\",
+		\"jour\": \"Soyez à l'écoute pour provoquer la chance.\",
+		\"heure\": \"Avec un peu d'écoute l'année devrait bien se passer.\"
+		},
+		\"eau_yin\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Restez à l'écoute pour éviter de froisser vos proches.\",
+		\"mois\": \"Faites preuve de patience avec votre moitié et restez à l'écoute.\",
+		\"jour\": \"Un peu de patience et restez à l'écoute.\",
+		\"heure\": \"Vous êtes lucide, ce n'est pas la meilleure des années pour vous.\"
+		}
+		}
+	"</item>
+
+	<item name="binome59_m" type="string">"{
+		\"bois_yang\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Un bon mois placé sous le signe de l'écoute.\",
+		\"mois\": \"Un mois placée sous le signe de l'écoute.\",
+		\"jour\": \"Restez à l'écoute pour de futurs opportunités.\",
+		\"heure\": \"Vous êtes à l'écoute de votre corps et il vous dit que tout va bien.\"
+		},
+		\"bois_yin\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ecoutez bien avant d’agir, cela évitera les erreurs dans vos projets et de vous énerver.\",
+		\"mois\": \"Soyez attentif à l'élu de votre coeur, il a peut être des choses à vous confier.\",
+		\"jour\": \"Une écoute attentive sera nécessaire pour contrebalancer la chance.\",
+		\"heure\": \"Faites attention à vous et restez receptive aux messages que vous envoie votre corps.\"
+		},
+		\"feu_yang\": {
+		\"influence\":\"tf\",
+		\"annee\": \"Ce mois ci vous êtes le confident idéal, profitez-en !\",
+		\"mois\": \"C'est le mois idéal pour être à l'écoute de votre partenaire.\",
+		\"jour\": \"La chance vous sourit, restez à l'écoute.\",
+		\"heure\": \"Un excellent mois où tout le monde sera à votre écoute.\"
+		},
+		\"feu_yin\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Avant d'avancer sur vos projets prenez le temps d'écouter vos proches.\",
+		\"mois\": \"Avant d'avancer sur vos projets prenez le temps d'écouter votre partenaire.\",
+		\"jour\": \"Soyez à l'écoute pour provoquer la chance.\",
+		\"heure\": \"Avec un peu d'écoute l'année devrait bien se passer.\"
+		},
+		\"terre_yang\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Restez à l'écoute pour éviter de froisser vos proches.\",
+		\"mois\": \"Faites preuve de patience avec votre moitié et restez à l'écoute.\",
+		\"jour\": \"Un peu de patience et restez à l'écoute.\",
+		\"heure\": \"Vous êtes lucide, ce n'est pas le meilleur des mois pour vous.\"
+		},
+		\"terre_yin\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Un bon mois placé sous le signe de l'écoute.\",
+		\"mois\": \"Un mois placée sous le signe de l'écoute.\",
+		\"jour\": \"Restez à l'écoute pour de futurs opportunités.\",
+		\"heure\": \"Vous êtes à l'écoute de votre corps et il vous dit que tout va bien.\"
+		},
+		\"metal_yang\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ecoutez bien avant d’agir, cela évitera les erreurs dans vos projets et de vous énerver.\",
+		\"mois\": \"Soyez attentif à l'élu de votre coeur, il a peut être des choses à vous confier.\",
+		\"jour\": \"Une écoute attentive sera nécessaire pour contrebalancer la chance.\",
+		\"heure\": \"Faites attention à vous et restez receptive aux messages que vous envoie votre corps.\"
+		},
+		\"metal_yin\": {
+		\"influence\":\"tf\",
+		\"annee\": \"Ce mois ci vous êtes le confident idéal, profitez-en !\",
+		\"mois\": \"C'est le mois idéal pour être à l'écoute de votre partenaire.\",
+		\"jour\": \"La chance vous sourit, restez à l'écoute.\",
+		\"heure\": \"Un excellent mois où tout le monde sera à votre écoute.\"
+		},
+		\"eau_yang\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Avant d'avancer sur vos projets prenez le temps d'écouter vos proches.\",
+		\"mois\": \"Avant d'avancer sur vos projets prenez le temps d'écouter votre partenaire.\",
+		\"jour\": \"Soyez à l'écoute pour provoquer la chance.\",
+		\"heure\": \"Avec un peu d'écoute l'année devrait bien se passer.\"
+		},
+		\"eau_yin\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Restez à l'écoute pour éviter de froisser vos proches.\",
+		\"mois\": \"Faites preuve de patience avec votre moitié et restez à l'écoute.\",
+		\"jour\": \"Un peu de patience et restez à l'écoute.\",
+		\"heure\": \"Vous êtes lucide, ce n'est pas le meilleur des mois pour vous.\"
+		}
+		}
+	"</item>
+
+	<item name="binome59_j" type="string">"{
+		\"bois_yang\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Des milliers d’idées, beaucoup d’agitation mais une grande difficulté à y voir clair…Récoltez calmement votre moisson.\",
+		\"mois\": \"Une journée placée sous le signe de l'écoute.\",
+		\"jour\": \"Restez à l'écoute pour de futurs opportunités.\",
+		\"heure\": \"Vous êtes à l'écoute de votre corps et il vous dit que tout va bien.\"
+		},
+		\"bois_yin\": {
+		\"influence\":\"d\",
+		\"annee\": \"On ne vous écoute pas comme vous le voudriez et cela vous rend irritable ? Ecoutez à votre tour !\",
+		\"mois\": \"Soyez attentif à l'élu de votre coeur, il a peut être des choses à vous confier.\",
+		\"jour\": \"Une écoute attentive sera nécessaire pour contrebalancer la chance.\",
+		\"heure\": \"Faites attention à vous et restez receptive aux messages que vous envoie votre corps.\"
+		},
+		\"feu_yang\": {
+		\"influence\":\"tf\",
+		\"annee\": \"Aujourd'hui vous êtes le confident idéal, profitez-en !\",
+		\"mois\": \"C'est la journée idéale pour être à l'écoute de votre partenaire.\",
+		\"jour\": \"La chance vous sourit, restez à l'écoute.\",
+		\"heure\": \"Une excellente journée où tout le monde sera à votre écoute.\"
+		},
+		\"feu_yin\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Avant d'avancer sur vos projets prenez le temps d'écouter vos proches.\",
+		\"mois\": \"Avant d'avancer sur vos projets prenez le temps d'écouter votre partenaire.\",
+		\"jour\": \"Soyez à l'écoute pour provoquer la chance.\",
+		\"heure\": \"Avec un peu d'écoute la journée devrait bien se passer.\"
+		},
+		\"terre_yang\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Restez à l'écoute pour éviter de froisser vos proches.\",
+		\"mois\": \"Faites preuve de patience avec votre moitié et restez à l'écoute.\",
+		\"jour\": \"Un peu de patience et restez à l'écoute.\",
+		\"heure\": \"Vous êtes lucide, ce n'est pas la meilleure des journées pour vous.\"
+		},
+		\"terre_yin\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Une bonne journée placée sous le signe de l'écoute.\",
+		\"mois\": \"Une journée placée sous le signe de l'écoute.\",
+		\"jour\": \"Restez à l'écoute pour de futurs opportunités.\",
+		\"heure\": \"Vous êtes à l'écoute de votre corps et il vous dit que tout va bien.\"
+		},
+		\"metal_yang\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ecoutez bien avant d’agir, cela évitera les erreurs dans vos projets et de vous énerver.\",
+		\"mois\": \"Soyez attentif à l'élu de votre coeur, il a peut être des choses à vous confier.\",
+		\"jour\": \"Une écoute attentive sera nécessaire pour contrebalancer la chance.\",
+		\"heure\": \"Faites attention à vous et restez receptive aux messages que vous envoie votre corps.\"
+		},
+		\"metal_yin\": {
+		\"influence\":\"tf\",
+		\"annee\": \"Aujourd'hui vous êtes le confident idéal, profitez-en !\",
+		\"mois\": \"C'est la journée idéale pour être à l'écoute de votre partenaire.\",
+		\"jour\": \"La chance vous sourit, restez à l'écoute.\",
+		\"heure\": \"Une excellente journée où tout le monde sera à votre écoute.\"
+		},
+		\"eau_yang\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Avant d'avancer sur vos projets prenez le temps d'écouter vos proches.\",
+		\"mois\": \"Avant d'avancer sur vos projets prenez le temps d'écouter votre partenaire.\",
+		\"jour\": \"Soyez à l'écoute pour provoquer la chance.\",
+		\"heure\": \"Avec un peu d'écoute la journée devrait bien se passer.\"
+		},
+		\"eau_yin\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Restez à l'écoute pour éviter de froisser vos proches.\",
+		\"mois\": \"Faites preuve de patience avec votre moitié et restez à l'écoute.\",
+		\"jour\": \"Un peu de patience et restez à l'écoute.\",
+		\"heure\": \"Vous êtes lucide, ce n'est pas la meilleure des journées pour vous.\"
+		}
+		}
+	"</item>
+
+	<item name="binome60_a" type="string">"{
+		\"bois_yang\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Une bonne année placée sous le signe de l'écoute.\",
+		\"mois\": \"Une année placée sous le signe de l'écoute.\",
+		\"jour\": \"Restez à l'écoute pour de futurs opportunités.\",
+		\"heure\": \"Vous êtes à l'écoute de votre corps et il vous dit que tout va bien.\"
+		},
+		\"bois_yin\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ecoutez bien avant d’agir, cela évitera les erreurs dans vos projets et de vous énerver.\",
+		\"mois\": \"Soyez attentif à l'élu de votre coeur, il a peut être des choses à vous confier.\",
+		\"jour\": \"Une écoute attentive sera nécessaire pour contrebalancer la chance.\",
+		\"heure\": \"Faites attention à vous et restez receptive aux messages que vous envoie votre corps.\"
+		},
+		\"feu_yang\": {
+		\"influence\":\"tf\",
+		\"annee\": \"Cette année vous êtes le confident idéal, profitez-en !\",
+		\"mois\": \"C'est l'année idéale pour être à l'écoute de votre partenaire.\",
+		\"jour\": \"La chance vous sourit, restez à l'écoute.\",
+		\"heure\": \"Une excellente année où tout le monde sera à votre écoute.\"
+		},
+		\"feu_yin\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Avant d'avancer sur vos projets prenez le temps d'écouter vos proches.\",
+		\"mois\": \"Avant d'avancer sur vos projets prenez le temps d'écouter votre partenaire.\",
+		\"jour\": \"Soyez à l'écoute pour provoquer la chance.\",
+		\"heure\": \"Avec un peu d'écoute l'année devrait bien se passer.\"
+		},
+		\"terre_yang\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Restez à l'écoute pour éviter de froisser vos proches.\",
+		\"mois\": \"Faites preuve de patience avec votre moitié et restez à l'écoute.\",
+		\"jour\": \"Un peu de patience et restez à l'écoute.\",
+		\"heure\": \"Vous êtes lucide, ce n'est pas la meilleure des années pour vous.\"
+		},
+		\"terre_yin\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Une bonne année placée sous le signe de l'écoute.\",
+		\"mois\": \"Une année placée sous le signe de l'écoute.\",
+		\"jour\": \"Restez à l'écoute pour de futurs opportunités.\",
+		\"heure\": \"Vous êtes à l'écoute de votre corps et il vous dit que tout va bien.\"
+		},
+		\"metal_yang\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ecoutez bien avant d’agir, cela évitera les erreurs dans vos projets et de vous énerver.\",
+		\"mois\": \"Soyez attentif à l'élu de votre coeur, il a peut être des choses à vous confier.\",
+		\"jour\": \"Une écoute attentive sera nécessaire pour contrebalancer la chance.\",
+		\"heure\": \"Faites attention à vous et restez receptive aux messages que vous envoie votre corps.\"
+		},
+		\"metal_yin\": {
+		\"influence\":\"tf\",
+		\"annee\": \"Cette année vous êtes le confident idéal, profitez-en !\",
+		\"mois\": \"C'est l'année idéale pour être à l'écoute de votre partenaire.\",
+		\"jour\": \"La chance vous sourit, restez à l'écoute.\",
+		\"heure\": \"Une excellente année où tout le monde sera à votre écoute.\"
+		},
+		\"eau_yang\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Avant d'avancer sur vos projets prenez le temps d'écouter vos proches.\",
+		\"mois\": \"Avant d'avancer sur vos projets prenez le temps d'écouter votre partenaire.\",
+		\"jour\": \"Soyez à l'écoute pour provoquer la chance.\",
+		\"heure\": \"Avec un peu d'écoute l'année devrait bien se passer.\"
+		},
+		\"eau_yin\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Restez à l'écoute pour éviter de froisser vos proches.\",
+		\"mois\": \"Faites preuve de patience avec votre moitié et restez à l'écoute.\",
+		\"jour\": \"Un peu de patience et restez à l'écoute.\",
+		\"heure\": \"Vous êtes lucide, ce n'est pas la meilleure des années pour vous.\"
+		}
+		}
+	"</item>
+
+	<item name="binome60_m" type="string">"{
+		\"bois_yang\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Un bon mois placé sous le signe de l'écoute.\",
+		\"mois\": \"Un mois placée sous le signe de l'écoute.\",
+		\"jour\": \"Restez à l'écoute pour de futurs opportunités.\",
+		\"heure\": \"Vous êtes à l'écoute de votre corps et il vous dit que tout va bien.\"
+		},
+		\"bois_yin\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ecoutez bien avant d’agir, cela évitera les erreurs dans vos projets et de vous énerver.\",
+		\"mois\": \"Soyez attentif à l'élu de votre coeur, il a peut être des choses à vous confier.\",
+		\"jour\": \"Une écoute attentive sera nécessaire pour contrebalancer la chance.\",
+		\"heure\": \"Faites attention à vous et restez receptive aux messages que vous envoie votre corps.\"
+		},
+		\"feu_yang\": {
+		\"influence\":\"tf\",
+		\"annee\": \"Ce mois ci vous êtes le confident idéal, profitez-en !\",
+		\"mois\": \"C'est le mois idéal pour être à l'écoute de votre partenaire.\",
+		\"jour\": \"La chance vous sourit, restez à l'écoute.\",
+		\"heure\": \"Un excellent mois où tout le monde sera à votre écoute.\"
+		},
+		\"feu_yin\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Avant d'avancer sur vos projets prenez le temps d'écouter vos proches.\",
+		\"mois\": \"Avant d'avancer sur vos projets prenez le temps d'écouter votre partenaire.\",
+		\"jour\": \"Soyez à l'écoute pour provoquer la chance.\",
+		\"heure\": \"Avec un peu d'écoute l'année devrait bien se passer.\"
+		},
+		\"terre_yang\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Restez à l'écoute pour éviter de froisser vos proches.\",
+		\"mois\": \"Faites preuve de patience avec votre moitié et restez à l'écoute.\",
+		\"jour\": \"Un peu de patience et restez à l'écoute.\",
+		\"heure\": \"Vous êtes lucide, ce n'est pas le meilleur des mois pour vous.\"
+		},
+		\"terre_yin\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Un bon mois placé sous le signe de l'écoute.\",
+		\"mois\": \"Un mois placée sous le signe de l'écoute.\",
+		\"jour\": \"Restez à l'écoute pour de futurs opportunités.\",
+		\"heure\": \"Vous êtes à l'écoute de votre corps et il vous dit que tout va bien.\"
+		},
+		\"metal_yang\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ecoutez bien avant d’agir, cela évitera les erreurs dans vos projets et de vous énerver.\",
+		\"mois\": \"Soyez attentif à l'élu de votre coeur, il a peut être des choses à vous confier.\",
+		\"jour\": \"Une écoute attentive sera nécessaire pour contrebalancer la chance.\",
+		\"heure\": \"Faites attention à vous et restez receptive aux messages que vous envoie votre corps.\"
+		},
+		\"metal_yin\": {
+		\"influence\":\"tf\",
+		\"annee\": \"Ce mois ci vous êtes le confident idéal, profitez-en !\",
+		\"mois\": \"C'est le mois idéal pour être à l'écoute de votre partenaire.\",
+		\"jour\": \"La chance vous sourit, restez à l'écoute.\",
+		\"heure\": \"Un excellent mois où tout le monde sera à votre écoute.\"
+		},
+		\"eau_yang\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Avant d'avancer sur vos projets prenez le temps d'écouter vos proches.\",
+		\"mois\": \"Avant d'avancer sur vos projets prenez le temps d'écouter votre partenaire.\",
+		\"jour\": \"Soyez à l'écoute pour provoquer la chance.\",
+		\"heure\": \"Avec un peu d'écoute l'année devrait bien se passer.\"
+		},
+		\"eau_yin\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Restez à l'écoute pour éviter de froisser vos proches.\",
+		\"mois\": \"Faites preuve de patience avec votre moitié et restez à l'écoute.\",
+		\"jour\": \"Un peu de patience et restez à l'écoute.\",
+		\"heure\": \"Vous êtes lucide, ce n'est pas le meilleur des mois pour vous.\"
+		}
+		}
+	"</item>
+
+	<item name="binome60_j" type="string">"{
+		\"bois_yang\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Cette journée risque d’être propice aux idées géniales… Il faut juste rester un peu raisonnable !\",
+		\"mois\": \"Une journée placée sous le signe de l'écoute.\",
+		\"jour\": \"Restez à l'écoute pour de futurs opportunités.\",
+		\"heure\": \"Vous êtes à l'écoute de votre corps et il vous dit que tout va bien.\"
+		},
+		\"bois_yin\": {
+		\"influence\":\"d\",
+		\"annee\": \"Trop d’idées à la fois tuent l’idée… Organisez le flux de vos projets !\",
+		\"mois\": \"Soyez attentif à l'élu de votre coeur, il a peut être des choses à vous confier.\",
+		\"jour\": \"Une écoute attentive sera nécessaire pour contrebalancer la chance.\",
+		\"heure\": \"Faites attention à vous et restez receptive aux messages que vous envoie votre corps.\"
+		},
+		\"feu_yang\": {
+		\"influence\":\"tf\",
+		\"annee\": \"Aujourd'hui vous êtes le confident idéal, profitez-en !\",
+		\"mois\": \"C'est la journée idéale pour être à l'écoute de votre partenaire.\",
+		\"jour\": \"La chance vous sourit, restez à l'écoute.\",
+		\"heure\": \"Une excellente journée où tout le monde sera à votre écoute.\"
+		},
+		\"feu_yin\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Avant d'avancer sur vos projets prenez le temps d'écouter vos proches.\",
+		\"mois\": \"Avant d'avancer sur vos projets prenez le temps d'écouter votre partenaire.\",
+		\"jour\": \"Soyez à l'écoute pour provoquer la chance.\",
+		\"heure\": \"Avec un peu d'écoute la journée devrait bien se passer.\"
+		},
+		\"terre_yang\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Restez à l'écoute pour éviter de froisser vos proches.\",
+		\"mois\": \"Faites preuve de patience avec votre moitié et restez à l'écoute.\",
+		\"jour\": \"Un peu de patience et restez à l'écoute.\",
+		\"heure\": \"Vous êtes lucide, ce n'est pas la meilleure des journées pour vous.\"
+		},
+		\"terre_yin\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Une bonne journée placée sous le signe de l'écoute.\",
+		\"mois\": \"Une journée placée sous le signe de l'écoute.\",
+		\"jour\": \"Restez à l'écoute pour de futurs opportunités.\",
+		\"heure\": \"Vous êtes à l'écoute de votre corps et il vous dit que tout va bien.\"
+		},
+		\"metal_yang\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ecoutez bien avant d’agir, cela évitera les erreurs dans vos projets et de vous énerver.\",
+		\"mois\": \"Soyez attentif à l'élu de votre coeur, il a peut être des choses à vous confier.\",
+		\"jour\": \"Une écoute attentive sera nécessaire pour contrebalancer la chance.\",
+		\"heure\": \"Faites attention à vous et restez receptive aux messages que vous envoie votre corps.\"
+		},
+		\"metal_yin\": {
+		\"influence\":\"tf\",
+		\"annee\": \"Aujourd'hui vous êtes le confident idéal, profitez-en !\",
+		\"mois\": \"C'est la journée idéale pour être à l'écoute de votre partenaire.\",
+		\"jour\": \"La chance vous sourit, restez à l'écoute.\",
+		\"heure\": \"Une excellente journée où tout le monde sera à votre écoute.\"
+		},
+		\"eau_yang\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Avant d'avancer sur vos projets prenez le temps d'écouter vos proches.\",
+		\"mois\": \"Avant d'avancer sur vos projets prenez le temps d'écouter votre partenaire.\",
+		\"jour\": \"Soyez à l'écoute pour provoquer la chance.\",
+		\"heure\": \"Avec un peu d'écoute la journée devrait bien se passer.\"
+		},
+		\"eau_yin\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Restez à l'écoute pour éviter de froisser vos proches.\",
+		\"mois\": \"Faites preuve de patience avec votre moitié et restez à l'écoute.\",
+		\"jour\": \"Un peu de patience et restez à l'écoute.\",
+		\"heure\": \"Vous êtes lucide, ce n'est pas la meilleure des journées pour vous.\"
+		}
+		}
+	"</item>
+
+</resources>

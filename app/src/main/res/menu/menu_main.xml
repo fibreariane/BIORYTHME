@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/menu_accueil"
+        android:state_selected="true"
+        android:title="@string/accueil" />
+
+    <item
+        android:id="@+id/navigation_horoscope"
+        android:icon="@drawable/menu_horoscope"
+        android:title="@string/mon_horoscope" />
+
+    <item
+        android:id="@+id/navigation_biorythme"
+        android:icon="@drawable/menu_biorythme"
+        android:title="@string/mon_energie" />
+    <item
+        android:id="@+id/navigation_synthese"
+        android:icon="@drawable/menu_synthese"
+        android:title="@string/ma_synthese" />
+    <item
+        android:id="@+id/navigation_param"
+        android:icon="@drawable/menu_parametre"
+        android:title="@string/parametres"
+        />
+</menu>

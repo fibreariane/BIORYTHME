@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context="com.fibredariane.horoscope.chinois.biorythmeETRES.Activities.MainActivity"
+    android:background="@color/colorWhite">
+
+    <LinearLayout
+        android:id="@+id/linear_layout_credit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_alignParentRight="true"
+        android:layout_margin="@dimen/fab_margin"
+        android:background="@drawable/customborder">
+
+        <TextView
+            android:id="@+id/text_view_credit"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:gravity="center"
+            android:text="000"></TextView>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/plus" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linear_layout_menu_secondaire"
+        android:layout_below="@id/linear_layout_credit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.design.widget.BottomNavigationView
+            android:id="@+id/menu_horoscope"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:menu="@menu/menu_horoscope"
+            android:visibility="invisible"/>
+
+        <android.support.design.widget.BottomNavigationView
+            android:id="@+id/menu_biorythme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:menu="@menu/menu_biorythme"
+            android:visibility="gone"/>
+
+        <android.support.design.widget.BottomNavigationView
+            android:id="@+id/menu_synthese"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:menu="@menu/menu_synthese"
+            android:visibility="gone"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="3"
+        android:orientation="vertical"
+        android:visibility="gone">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_margin="@dimen/activity_horizontal_margin"
+            android:text="@string/plus_de_credit"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+        <Button
+            android:id="@+id/button_add_credit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/ajout_credit"
+            android:padding="10dp"
+            android:background="@drawable/customborder"/>
+    </LinearLayout>
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/container"
+        android:layout_weight="3"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/colorPrimary"></LinearLayout>
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/menu_main"
+        android:layout_width="match_parent"
+
+        android:minHeight="100dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/colorWhite"
+
+        app:menu="@menu/menu_main" />
+
+</LinearLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="feu" type="string">{
+        \"valeur\": \"Feu\",
+        \"saison\" : \"Eté\",
+        \"desc\" : \"L\'Amour et la Passion\",
+        \"couleur\" : \"Rouge\",
+        \"texte_neutre\": \" L\'élément Feu confère énergie, sens de l\'initiative et audace.\",
+        \"texte_dominant\": \"Les natifs de cet élément sont dynamiques, agiles et peuvent être agressifs pour faire sortir les autres de leur réserve. Ils savent mieux que personne donner de l\'énergie, de la passion, de la fécondité. Éloignés des préoccupations matérielles, ils aiment être des gens supérieurs, être des concepteurs. Comme le Feu, l’individu est pétillant et chaleureux. Il est joyeux et a toujours un mot pour faire rire. C’est une personne qui adore parler et raconter des histoires. Il n’est pas rare dans les soirées entre famille et amis que ce genre de personnalité se fasse remarquer. Ils ont tendance à parler plus fort que les autres, coupent la parole, ou manquent de sérieux selon les sitations. Quoiqu’il en soit ces personnes sont très appréciées et mettent de la joie dans leur entourage.
+        Le type Feu devra éviter de s’enflamer inutilement et tenter de trouver des moments de tranquilité dans sa journée pour se ressourcer.\",
+        \"texte_vide\": \"Feu vide\"
+        }</item>
+    <item name="eau" type="string">{
+        \"valeur\": \"Eau\",
+        \"saison\" : \"Hiver\",
+        \"desc\" : \"La Lucidité et la Clairvoyance\",
+        \"couleur\" : \"Noir\",
+        \"texte_neutre\": \"L’Eau est associée à l’hiver, par sa neige et les pluies. Cette saison est le moment le plus yin de l’année, celle où la nature est repliée sur elle-même, dans un instinct de protection et d’attente pour la renaissance du printemps. La nature sommeille, dort et combat le froid et l’absence de lumière ressenti pendant l’hiver. Notre corps et la nature toute entière fait des réserves en prévisions et fonctionne au ralentit pour préserver au maximum son énergie. Il est important pour nous de faire de même
+        L\’eau est une force tranquille. Calme et silencieuse.\",
+        \"texte_dominant\": \"Les personnes de type Eau sont parfois difficiles à cerner. Le type Eau cultive le charme, la plupart du temps à son propre insu. Il est mystérieux, a une gestuelle fluide et sensuelle, un regard profond, une voix douce et apaisante. Il aime philosopher et se plait à réfléchir sur l’essence profonde des choses et de la vie. Selon la MTC, l’Eau est associé aux Reins; la base de l’Énergie Yin et Yang de l’organisme. Les personnes de type Eau auront donc tendance à se fatiguer rapidement et à souffrir de dépression. Elles peuvent également avoir la vessie sensible, souffrir de douleurs lombaires, être frileuses ou avoir au contraire des bouffées de chaleur. Ces personnes devront prendre le temps de bien se reposer et de consulter en psychologie si le besoin se présente.
+        Les personnes nées sous cet élément sont douces, elles adorent communiquer avec les autres. Leur intuition naturelle les aide à comprendre les autres sans trop de difficulté. Ce sont des êtres sympathiques et doux qui sont dotés d\'un grand pouvoir de communication, qui sont faciles à vivre et qui s\'adaptent facilement à différentes situations. Ils sont observateurs, savent prendre du recul et savent agir sur les évènements en douceur, mais en profondeur à la fois.\",
+        \"texte_vide\": \"Eau vide\"
+        }</item>
+    <item name="metal" type="string">{
+        \"valeur\": \"Métal\",
+        \"saison\" : \"Automne\",
+        \"desc\" : \"La Volonté et l\'Ambition\",
+        \"couleur\" : \"Bleu\",
+        \"texte_neutre\": \"L\'élément Métal , lié à l\'automne, confère beaucoup de magnétisme et de la force de persuasion.Les natifs de l\'élément Métal aiment la droiture, ils ont un esprit puissant, ils aiment le progrès, ils sont extrêmement déterminés et volontaires. Ils ont du mal à trouver un équilibre de vie qui soit exempt d\'excès. Ils peuvent éprouver des difficultés dans leur vie relationnelle, par un certain manque de tact.\",
+        \"texte_dominant\": \"Le Métal est tranchant. C’est noir ou blanc. Pas de zone grise. Le bien ou le mal. Le mode de pensé de l’individu Métal est clair et bien délimité. Il s’est créé son propre mode de fonctionnement et personne ne peut le faire plier; il est solide comme du titane. Chez lui tout est ordonné.. Il fait des listes… C’est le plus organisé. Studieux, ces individus ont acquis de grandes connaissances et sont parfois même sur-doués. Ils sont durs envers les autres, mais surtout envers eux-mêmes. Du point de vu de la MTC, les types Métal ont une faiblesse au niveau pulmonaire; ce qui englobe les problèmes d’asthme, d’allergies et de déficience du système immunitaire, mais également les problèmes de peau comme l’eczéma, l’urticaire et le psoriasis. Le type Métal devra faire attention à son immunité: manger de l’ail et des oignons est une bonne façon de stimuler le système immunitaire préventivement. Il aura également avantage à assouplir ses modes de pensées et à tenter de comprendre l’opinion de son interlocuteur… Qu’il ait raison ou non.\",
+        \"texte_vide\": \"Metal vide\"
+        }</item>
+    <item name="bois" type="string">{
+        \"valeur\": \"Bois\",
+        \"saison\" : \"Printemps\",
+        \"desc\" : \"La force Créative et l\Imagination\",
+        \"couleur\" : \"Vert\",
+        \"texte_neutre\": \"L’élément bois est situé à l’Est, comme le lever du soleil qui révèle la lumière du jour de son éclat. Il est également associé au Vent, capable de traverser ou de surmonter les obstacles. Il peut être soudain et violent, imprévisible et destructeur. Dans le même temps, le vent emporte avec lui les graines de vie et engendre la vie nouvelle là où il les dépose. C’est également le paradoxe du bois, qui peut à la fois créer ou détruire.
+        Considéré comme la naissance de l’énergie yang, le bois a pour mouvement l’expansion et engendre l’activité. Le bois fournit la force de changer et aller de l’avant. Il est à l’origine de nouvelles idées, de nouvelles pensées, de changement et d’espoir. Il est lié à l’imagination et à la créativité.\",
+        \"texte_dominant\": \"Le bois est associé à la fonction hépatique et à la colère. Bien que cette émotion soit généralement considérée comme négative, il faut la voir aussi comme le moteur de nos changements. Lorsque la colère nous gagne car elle atteint quelque chose auquel nous tenons, elle nous donne la force de nous battre afin de conserver ou au contraire, de changer pour aspirer à quelque chose que nous aimons. Bien sûr, hors de contrôle et sans possibilité de s’exprimer, la colère est nous ronge de l’intérieur et nous détruit à petit feu. Le foie nous donne le pouvoir de planifier les choses et de mettre en place des stratégies, et la vésicule biliaire nous donne le pouvoir de prendre des décisions. Ils sont également associés aux yeux, aux tendons et aux nerfs.\",
+        \"texte_vide\": \"Bois vide\"
+        }</item>
+    <item name="terre" type="string">{
+        \"valeur\": \"Terre\",
+        \"saison\" : \"Intersaison\",
+        \"desc\" : \"Le Réalisme et la Concrétisation\",
+        \"couleur\" : \"Jaune\",
+        \"texte_neutre\": \"L’élément terre est associé la réflexion, l’inquiétude et la sympathie. Il nous donne notre capacité à prendre soin des autres et aussi de nous-mêmes. Même si à première vue, la sympathie à l’égard des autres est perçue comme une qualité, trop de sympathie peut se révéler négatif, surtout lorsque nous nous oublions pour autrui. De même, la réflexion amenée par cet élément peut très vite tourner à l’inquiétude si l’environnement et le corps ne sont pas en équilibre. \",
+        \"texte_dominant\": \"La Terre est nourricière et donne en abondance. On peut donc dire que l’individu de ce type est très généreux, parfois même un peu trop! Ce sont des personnes qui sont toujours prêtes à rendre service. Elles n’aiment pas les conflits et sont conciliantes, même au détriment de leurs propres intérêts. Les types Terre sont également de grands épicuriens; ils adorent manger et partager de bons moments entre amis. D’un point de vue santé, ils ont un système digestif fragile; embonpoint, digestion lente, dent sucrée, ballonnements, gazs, parfois selles molles ou constipation, brûlures d’estomac, reflux gastriques… Ils sont également soucieux de nature et pensent beaucoup trop.\",
+        \"texte_vide\": \"Terre vide\"
+        }</item>
+</resources>

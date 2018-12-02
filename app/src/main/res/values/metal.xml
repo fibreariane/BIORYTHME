@@ -1,0 +1,2667 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<item name="binome1_a" type="string">"{
+		\"bois_yang\": {
+			\"influence\":\"tf\",
+			\"annee\": \"Une douce dynamique et une belle endurance vont vous guider vers la réussite de votre projet cette année.\",
+			\"mois\": \"C'est le moment idéal pour suivre votre instinct.\",
+			\"jour\": \"Chance et instinct seront les mots clés de cette année.\",
+			\"heure\": \"Vous avez le sentiment que cette année est votre année.\"  
+		},
+		\"bois_yin\": {
+			\"influence\":\"cc\",
+			\"annee\": \"Vous allez réussir à convaincre si vous restez réceptif et bienveillant.\",
+			\"mois\": \"Soyez prudent avec votre instinct.\",
+			\"jour\": \"La chance ne suffira pas cette année mais votre instinct vous guidera.\",
+			\"heure\": \"Soyez à l'écoute de vos sensations.\" 
+		},
+		\"feu_yang\": {
+			\"influence\":\"pc\",
+			\"annee\": \"Attention à ne pas être trop insistant pour convaincre vos proches.\",
+			\"mois\": \"Un peu de patience, faites confiance à votre instinct.\",
+			\"jour\": \"Votre instinct vous dit d'attendre un peu.\",
+			\"heure\": \"Prenez le temps de la réflexion pour mettre de l'ordre dans vos sentiments.\"
+		},
+		\"feu_yin\": {
+			\"influence\":\"fc\",
+			\"annee\": \"C'est l'année idéale pour convaincre vos proches de la réussite de vos proches.\",
+			\"mois\": \"Une année placée sous le signe de l'instinct.\",
+			\"jour\": \"Profitez de votre chance et suivez votre instinct.\",
+			\"heure\": \"Une bonne année pour suivre son instinct.\"  
+		},
+		\"terre_yang\": {
+			\"influence\":\"d\",
+			\"annee\": \"Ne confondez pas ambition et agressivité cette année, vous pourriez froisser vos proches.\",
+			\"mois\": \"Attention à vos sentiments, ce n'est pas la bonne année pour prendre de grandes décisions.\",
+			\"jour\": \"Ne comptez pas sur la chance cette année.\",
+			\"heure\": \"Ce n'est pas la bonne année pour suivre votre instinct.\"  
+		},
+		\"terre_yin\": {
+			\"influence\":\"tf\",
+			\"annee\": \"Une douce dynamique et une belle endurance vont vous guider vers la réussite de votre projet cette année.\",
+			\"mois\": \"C'est le moment idéal pour suivre votre instinct.\",
+			\"jour\": \"Chance et instinct seront les mots clés de cette année.\",
+			\"heure\": \"Vous avez le sentiment que cette année est votre année.\"  
+		},
+		\"metal_yang\": {
+			\"influence\":\"cc\",
+			\"annee\": \"Vous allez réussir à convaincre si vous restez réceptif et bienveillant.\",
+			\"mois\": \"Soyez prudent avec votre instinct.\",
+			\"jour\": \"La chance ne suffira pas cette année mais votre instinct vous guidera.\",
+			\"heure\": \"Soyez à l'écoute de vos sensations.\" 
+		},
+		\"metal_yin\": {
+			\"influence\":\"pc\",
+			\"annee\": \"Attention à ne pas être trop insistant pour convaincre vos proches.\",
+			\"mois\": \"Un peu de patience, faites confiance à votre instinct.\",
+			\"jour\": \"Votre instinct vous dit d'attendre un peu.\",
+			\"heure\": \"Prenez le temps de la réflexion pour mettre de l'ordre dans vos sentiments.\"
+		},
+		\"eau_yang\": {
+			\"influence\":\"fc\",
+			\"annee\": \"C'est l'année idéale pour convaincre vos proches de la réussite de vos proches.\",
+			\"mois\": \"Une année placée sous le signe de l'instinct.\",
+			\"jour\": \"Profitez de votre chance et suivez votre instinct.\",
+			\"heure\": \"Une bonne année pour suivre son instinct.\"  
+		},
+		\"eau_yin\": {
+			\"influence\":\"d\",
+			\"annee\": \"Ne confondez pas ambition et agressivité cette année, vous pourriez froisser vos proches.\",
+			\"mois\": \"Attention à vos sentiments, ce n'est pas la bonne année pour prendre de grandes décisions.\",
+			\"jour\": \"Ne comptez pas sur la chance cette année.\",
+			\"heure\": \"Ce n'est pas la bonne année pour suivre votre instinct.\"  
+		}
+	}
+	"</item>
+   
+	<item name="binome1_m" type="string">"{
+		\"bois_yang\": {
+			\"influence\":\"tf\",
+			\"annee\": \"Une douce dynamique et une belle endurance vont vous guider vers la réussite de votre projet ce mois ci.\",
+			\"mois\": \"C'est le moment idéal pour suivre votre instinct.\",
+			\"jour\": \"Chance et instinct seront les mots clés de ce mois ci.\",
+			\"heure\": \"Vous avez le sentiment que ce mois ci est votre mois.\"  
+		},
+		\"bois_yin\": {
+			\"influence\":\"cc\",
+			\"annee\": \"Vous allez réussir à convaincre si vous restez réceptif et bienveillant.\",
+			\"mois\": \"Soyez prudent avec votre instinct.\",
+			\"jour\": \"La chance ne suffira pas ce mois ci mais votre instinct vous guidera.\",
+			\"heure\": \"Soyez à l'écoute de vos sensations.\" 
+		},
+		\"feu_yang\": {
+			\"influence\":\"pc\",
+			\"annee\": \"Attention à ne pas être trop insistant pour convaincre vos proches.\",
+			\"mois\": \"Un peu de patience, faites confiance à votre instinct.\",
+			\"jour\": \"Votre instinct vous dit d'attendre un peu.\",
+			\"heure\": \"Prenez le temps de la réflexion pour mettre de l'ordre dans vos sentiments.\"
+		},
+		\"feu_yin\": {
+			\"influence\":\"fc\",
+			\"annee\": \"C'est le mois idéal pour convaincre vos proches de la réussite de vos proches.\",
+			\"mois\": \"Un mois placé sous le signe de l'instinct.\",
+			\"jour\": \"Profitez de votre chance et suivez votre instinct.\",
+			\"heure\": \"Un bon mois pour suivre son instinct.\"  
+		},
+		\"terre_yang\": {
+			\"influence\":\"d\",
+			\"annee\": \"Ne confondez pas ambition et agressivité ce mois ci, vous pourriez froisser vos proches.\",
+			\"mois\": \"Attention à vos sentiments, ce n'est pas le bon mois pour prendre de grandes décisions.\",
+			\"jour\": \"Ne comptez pas sur la chance pour ce mois.\",
+			\"heure\": \"Ce n'est pas le bon mois pour suivre votre instinct.\"  
+		},
+		\"terre_yin\": {
+			\"influence\":\"tf\",
+			\"annee\": \"Une douce dynamique et une belle endurance vont vous guider vers la réussite de votre projet ce mois ci.\",
+			\"mois\": \"C'est le moment idéal pour suivre votre instinct.\",
+			\"jour\": \"Chance et instinct seront les mots clés de ce mois ci.\",
+			\"heure\": \"Vous avez le sentiment que ce mois ci est votre mois.\"  
+		},
+		\"metal_yang\": {
+			\"influence\":\"cc\",
+			\"annee\": \"Vous allez réussir à convaincre si vous restez réceptif et bienveillant.\",
+			\"mois\": \"Soyez prudent avec votre instinct.\",
+			\"jour\": \"La chance ne suffira pas ce mois ci mais votre instinct vous guidera.\",
+			\"heure\": \"Soyez à l'écoute de vos sensations.\" 
+		},
+		\"metal_yin\": {
+			\"influence\":\"pc\",
+			\"annee\": \"Attention à ne pas être trop insistant pour convaincre vos proches.\",
+			\"mois\": \"Un peu de patience, faites confiance à votre instinct.\",
+			\"jour\": \"Votre instinct vous dit d'attendre un peu.\",
+			\"heure\": \"Prenez le temps de la réflexion pour mettre de l'ordre dans vos sentiments.\"
+		},
+		\"eau_yang\": {
+			\"influence\":\"fc\",
+			\"annee\": \"C'est le mois idéal pour convaincre vos proches de la réussite de vos proches.\",
+			\"mois\": \"Un mois placé sous le signe de l'instinct.\",
+			\"jour\": \"Profitez de votre chance et suivez votre instinct.\",
+			\"heure\": \"Un bon mois pour suivre son instinct.\"  
+		},
+		\"eau_yin\": {
+			\"influence\":\"d\",
+			\"annee\": \"Ne confondez pas ambition et agressivité ce mois ci, vous pourriez froisser vos proches.\",
+			\"mois\": \"Attention à vos sentiments, ce n'est pas le bon mois pour prendre de grandes décisions.\",
+			\"jour\": \"Ne comptez pas sur la chance pour ce mois.\",
+			\"heure\": \"Ce n'est pas le bon mois pour suivre votre instinct.\"  
+		}
+	}
+	"</item>
+	
+	<item name="binome1_j" type="string">"{
+		\"bois_yang\": {
+			\"influence\":\"tf\",
+			\"annee\": \"vous aurez l’impression de ramer un peu aujourd’hui pour vous faire comprendre, mais ténacité et endurance vaincront à la fin.\",
+			\"mois\": \"C'est le moment idéal pour suivre votre instinct.\",
+			\"jour\": \"Chance et instinct seront les mots clés de cette journée.\",
+			\"heure\": \"Vous avez le sentiment que cette journée est votre journée.\"  
+		},
+		\"bois_yin\": {
+			\"influence\":\"cc\",
+			\"annee\": \"vous vous sentirez moins fluides dans vos idées, mais continuez vos créations c’est un conseil…\",
+			\"mois\": \"Soyez prudent avec votre instinct.\",
+			\"jour\": \"La chance ne suffira pas aujourd'hui mais votre instinct vous guidera.\",
+			\"heure\": \"Soyez à l'écoute de vos sensations.\" 
+		},
+		\"feu_yang\": {
+			\"influence\":\"pc\",
+			\"annee\": \"Attention à ne pas être trop insistant pour convaincre vos proches.\",
+			\"mois\": \"Un peu de patience, faites confiance à votre instinct.\",
+			\"jour\": \"Votre instinct vous dit d'attendre un peu.\",
+			\"heure\": \"Prenez le temps de la réflexion pour mettre de l'ordre dans vos sentiments.\"
+		},
+		\"feu_yin\": {
+			\"influence\":\"fc\",
+			\"annee\": \"C'est la journée idéale pour convaincre vos proches de la réussite de vos proches.\",
+			\"mois\": \"Une journée placée sous le signe de l'instinct.\",
+			\"jour\": \"Profitez de votre chance et suivez votre instinct.\",
+			\"heure\": \"Une bonne journée pour suivre son instinct.\"  
+		},
+		\"terre_yang\": {
+			\"influence\":\"d\",
+			\"annee\": \"Ne confondez pas ambition et agressivité aujourd'hui, vous pourriez froisser vos proches.\",
+			\"mois\": \"Attention à vos sentiments, ce n'est pas la bonne journée pour prendre de grandes décisions.\",
+			\"jour\": \"Ne comptez pas sur la chance aujourd'hui.\",
+			\"heure\": \"Ce n'est pas la bonne journée pour suivre votre instinct.\"  
+		},
+		\"terre_yin\": {
+			\"influence\":\"tf\",
+			\"annee\": \"Une douce dynamique et une belle endurance vont vous guider vers la réussite de votre projet aujourd’hui.\",
+			\"mois\": \"C'est le moment idéal pour suivre votre instinct.\",
+			\"jour\": \"Chance et instinct seront les mots clés de cette journée.\",
+			\"heure\": \"Vous avez le sentiment que cette journée est votre journée.\"  
+		},
+		\"metal_yang\": {
+			\"influence\":\"cc\",
+			\"annee\": \"Vous allez réussir à convaincre si vous restez réceptif et bienveillant.\",
+			\"mois\": \"Soyez prudent avec votre instinct.\",
+			\"jour\": \"La chance ne suffira pas aujourd'hui mais votre instinct vous guidera.\",
+			\"heure\": \"Soyez à l'écoute de vos sensations.\" 
+		},
+		\"metal_yin\": {
+			\"influence\":\"pc\",
+			\"annee\": \"Attention à ne pas être trop insistant pour convaincre vos proches.\",
+			\"mois\": \"Un peu de patience, faites confiance à votre instinct.\",
+			\"jour\": \"Votre instinct vous dit d'attendre un peu.\",
+			\"heure\": \"Prenez le temps de la réflexion pour mettre de l'ordre dans vos sentiments.\"
+		},
+		\"eau_yang\": {
+			\"influence\":\"fc\",
+			\"annee\": \"C'est la journée idéale pour convaincre vos proches de la réussite de vos proches.\",
+			\"mois\": \"Une journée placée sous le signe de l'instinct.\",
+			\"jour\": \"Profitez de votre chance et suivez votre instinct.\",
+			\"heure\": \"Une bonne journée pour suivre son instinct.\"  
+		},
+		\"eau_yin\": {
+			\"influence\":\"d\",
+			\"annee\": \"Ne confondez pas ambition et agressivité aujourd'hui, vous pourriez froisser vos proches.\",
+			\"mois\": \"Attention à vos sentiments, ce n'est pas la bonne journée pour prendre de grandes décisions.\",
+			\"jour\": \"Ne comptez pas sur la chance aujourd'hui.\",
+			\"heure\": \"Ce n'est pas la bonne journée pour suivre votre instinct.\"  
+		}
+	}
+	"</item>
+
+	<item name="binome2_a" type="string">"{
+		\"bois_yang\": {
+			\"influence\":\"tf\",
+			\"annee\": \"Une douce dynamique et une belle endurance vont vous guider vers la réussite de votre projet cette année.\",
+			\"mois\": \"C'est le moment idéal pour suivre votre instinct.\",
+			\"jour\": \"Chance et instinct seront les mots clés de cette année.\",
+			\"heure\": \"Vous avez le sentiment que cette année est votre année.\"  
+		},
+		\"bois_yin\": {
+			\"influence\":\"cc\",
+			\"annee\": \"Vous allez réussir à convaincre si vous restez réceptif et bienveillant.\",
+			\"mois\": \"Soyez prudent avec votre instinct.\",
+			\"jour\": \"La chance ne suffira pas cette année mais votre instinct vous guidera.\",
+			\"heure\": \"Soyez à l'écoute de vos sensations.\" 
+		},
+		\"feu_yang\": {
+			\"influence\":\"pc\",
+			\"annee\": \"Attention à ne pas être trop insistant pour convaincre vos proches.\",
+			\"mois\": \"Un peu de patience, faites confiance à votre instinct.\",
+			\"jour\": \"Votre instinct vous dit d'attendre un peu.\",
+			\"heure\": \"Prenez le temps de la réflexion pour mettre de l'ordre dans vos sentiments.\"
+		},
+		\"feu_yin\": {
+			\"influence\":\"fc\",
+			\"annee\": \"C'est l'année idéale pour convaincre vos proches de la réussite de vos proches.\",
+			\"mois\": \"Une année placée sous le signe de l'instinct.\",
+			\"jour\": \"Profitez de votre chance et suivez votre instinct.\",
+			\"heure\": \"Une bonne année pour suivre son instinct.\"  
+		},
+		\"terre_yang\": {
+			\"influence\":\"d\",
+			\"annee\": \"Ne confondez pas ambition et agressivité cette année, vous pourriez froisser vos proches.\",
+			\"mois\": \"Attention à vos sentiments, ce n'est pas la bonne année pour prendre de grandes décisions.\",
+			\"jour\": \"Ne comptez pas sur la chance cette année.\",
+			\"heure\": \"Ce n'est pas la bonne année pour suivre votre instinct.\"  
+		},
+		\"terre_yin\": {
+			\"influence\":\"tf\",
+			\"annee\": \"Une douce dynamique et une belle endurance vont vous guider vers la réussite de votre projet cette année.\",
+			\"mois\": \"C'est le moment idéal pour suivre votre instinct.\",
+			\"jour\": \"Chance et instinct seront les mots clés de cette année.\",
+			\"heure\": \"Vous avez le sentiment que cette année est votre année.\"  
+		},
+		\"metal_yang\": {
+			\"influence\":\"cc\",
+			\"annee\": \"Vous allez réussir à convaincre si vous restez réceptif et bienveillant.\",
+			\"mois\": \"Soyez prudent avec votre instinct.\",
+			\"jour\": \"La chance ne suffira pas cette année mais votre instinct vous guidera.\",
+			\"heure\": \"Soyez à l'écoute de vos sensations.\" 
+		},
+		\"metal_yin\": {
+			\"influence\":\"pc\",
+			\"annee\": \"Attention à ne pas être trop insistant pour convaincre vos proches.\",
+			\"mois\": \"Un peu de patience, faites confiance à votre instinct.\",
+			\"jour\": \"Votre instinct vous dit d'attendre un peu.\",
+			\"heure\": \"Prenez le temps de la réflexion pour mettre de l'ordre dans vos sentiments.\"
+		},
+		\"eau_yang\": {
+			\"influence\":\"fc\",
+			\"annee\": \"C'est l'année idéale pour convaincre vos proches de la réussite de vos proches.\",
+			\"mois\": \"Une année placée sous le signe de l'instinct.\",
+			\"jour\": \"Profitez de votre chance et suivez votre instinct.\",
+			\"heure\": \"Une bonne année pour suivre son instinct.\"  
+		},
+		\"eau_yin\": {
+			\"influence\":\"d\",
+			\"annee\": \"Ne confondez pas ambition et agressivité cette année, vous pourriez froisser vos proches.\",
+			\"mois\": \"Attention à vos sentiments, ce n'est pas la bonne année pour prendre de grandes décisions.\",
+			\"jour\": \"Ne comptez pas sur la chance cette année.\",
+			\"heure\": \"Ce n'est pas la bonne année pour suivre votre instinct.\"  
+		}
+	}
+	"</item>
+   
+	<item name="binome2_m" type="string">"{
+		\"bois_yang\": {
+			\"influence\":\"tf\",
+			\"annee\": \"Une douce dynamique et une belle endurance vont vous guider vers la réussite de votre projet ce mois ci.\",
+			\"mois\": \"C'est le moment idéal pour suivre votre instinct.\",
+			\"jour\": \"Chance et instinct seront les mots clés de ce mois ci.\",
+			\"heure\": \"Vous avez le sentiment que ce mois ci est votre mois.\"  
+		},
+		\"bois_yin\": {
+			\"influence\":\"cc\",
+			\"annee\": \"Vous allez réussir à convaincre si vous restez réceptif et bienveillant.\",
+			\"mois\": \"Soyez prudent avec votre instinct.\",
+			\"jour\": \"La chance ne suffira pas ce mois ci mais votre instinct vous guidera.\",
+			\"heure\": \"Soyez à l'écoute de vos sensations.\" 
+		},
+		\"feu_yang\": {
+			\"influence\":\"pc\",
+			\"annee\": \"Attention à ne pas être trop insistant pour convaincre vos proches.\",
+			\"mois\": \"Un peu de patience, faites confiance à votre instinct.\",
+			\"jour\": \"Votre instinct vous dit d'attendre un peu.\",
+			\"heure\": \"Prenez le temps de la réflexion pour mettre de l'ordre dans vos sentiments.\"
+		},
+		\"feu_yin\": {
+			\"influence\":\"fc\",
+			\"annee\": \"C'est le mois idéal pour convaincre vos proches de la réussite de vos proches.\",
+			\"mois\": \"Un mois placé sous le signe de l'instinct.\",
+			\"jour\": \"Profitez de votre chance et suivez votre instinct.\",
+			\"heure\": \"Un bon mois pour suivre son instinct.\"  
+		},
+		\"terre_yang\": {
+			\"influence\":\"d\",
+			\"annee\": \"Ne confondez pas ambition et agressivité ce mois ci, vous pourriez froisser vos proches.\",
+			\"mois\": \"Attention à vos sentiments, ce n'est pas le bon mois pour prendre de grandes décisions.\",
+			\"jour\": \"Ne comptez pas sur la chance pour ce mois.\",
+			\"heure\": \"Ce n'est pas le bon mois pour suivre votre instinct.\"  
+		},
+		\"terre_yin\": {
+			\"influence\":\"tf\",
+			\"annee\": \"Une douce dynamique et une belle endurance vont vous guider vers la réussite de votre projet ce mois ci.\",
+			\"mois\": \"C'est le moment idéal pour suivre votre instinct.\",
+			\"jour\": \"Chance et instinct seront les mots clés de ce mois ci.\",
+			\"heure\": \"Vous avez le sentiment que ce mois ci est votre mois.\"  
+		},
+		\"metal_yang\": {
+			\"influence\":\"cc\",
+			\"annee\": \"Vous allez réussir à convaincre si vous restez réceptif et bienveillant.\",
+			\"mois\": \"Soyez prudent avec votre instinct.\",
+			\"jour\": \"La chance ne suffira pas ce mois ci mais votre instinct vous guidera.\",
+			\"heure\": \"Soyez à l'écoute de vos sensations.\" 
+		},
+		\"metal_yin\": {
+			\"influence\":\"pc\",
+			\"annee\": \"Attention à ne pas être trop insistant pour convaincre vos proches.\",
+			\"mois\": \"Un peu de patience, faites confiance à votre instinct.\",
+			\"jour\": \"Votre instinct vous dit d'attendre un peu.\",
+			\"heure\": \"Prenez le temps de la réflexion pour mettre de l'ordre dans vos sentiments.\"
+		},
+		\"eau_yang\": {
+			\"influence\":\"fc\",
+			\"annee\": \"C'est le mois idéal pour convaincre vos proches de la réussite de vos proches.\",
+			\"mois\": \"Un mois placé sous le signe de l'instinct.\",
+			\"jour\": \"Profitez de votre chance et suivez votre instinct.\",
+			\"heure\": \"Un bon mois pour suivre son instinct.\"  
+		},
+		\"eau_yin\": {
+			\"influence\":\"d\",
+			\"annee\": \"Ne confondez pas ambition et agressivité ce mois ci, vous pourriez froisser vos proches.\",
+			\"mois\": \"Attention à vos sentiments, ce n'est pas le bon mois pour prendre de grandes décisions.\",
+			\"jour\": \"Ne comptez pas sur la chance pour ce mois.\",
+			\"heure\": \"Ce n'est pas le bon mois pour suivre votre instinct.\"  
+		}
+	}
+	"</item>
+	
+	<item name="binome2_j" type="string">"{
+		\"bois_yang\": {
+			\"influence\":\"tf\",
+			\"annee\": \"une douce dynamique et une belle endurance vont vous guider vers la réussite de votre projet aujourd’hui.\",
+			\"mois\": \"C'est le moment idéal pour suivre votre instinct.\",
+			\"jour\": \"Chance et instinct seront les mots clés de cette journée.\",
+			\"heure\": \"Vous avez le sentiment que cette journée est votre journée.\"  
+		},
+		\"bois_yin\": {
+			\"influence\":\"cc\",
+			\"annee\": \"ne cédez pas à la colère et l’impatience si tout ne va pas comme vous voulez, demain est un autre jour.\",
+			\"mois\": \"Soyez prudent avec votre instinct.\",
+			\"jour\": \"La chance ne suffira pas aujourd'hui mais votre instinct vous guidera.\",
+			\"heure\": \"Soyez à l'écoute de vos sensations.\" 
+		},
+		\"feu_yang\": {
+			\"influence\":\"pc\",
+			\"annee\": \"Attention à ne pas être trop insistant pour convaincre vos proches.\",
+			\"mois\": \"Un peu de patience, faites confiance à votre instinct.\",
+			\"jour\": \"Votre instinct vous dit d'attendre un peu.\",
+			\"heure\": \"Prenez le temps de la réflexion pour mettre de l'ordre dans vos sentiments.\"
+		},
+		\"feu_yin\": {
+			\"influence\":\"fc\",
+			\"annee\": \"C'est la journée idéale pour convaincre vos proches de la réussite de vos proches.\",
+			\"mois\": \"Une journée placée sous le signe de l'instinct.\",
+			\"jour\": \"Profitez de votre chance et suivez votre instinct.\",
+			\"heure\": \"Une bonne journée pour suivre son instinct.\"  
+		},
+		\"terre_yang\": {
+			\"influence\":\"d\",
+			\"annee\": \"Ne confondez pas ambition et agressivité aujourd'hui, vous pourriez froisser vos proches.\",
+			\"mois\": \"Attention à vos sentiments, ce n'est pas la bonne journée pour prendre de grandes décisions.\",
+			\"jour\": \"Ne comptez pas sur la chance aujourd'hui.\",
+			\"heure\": \"Ce n'est pas la bonne journée pour suivre votre instinct.\"  
+		},
+		\"terre_yin\": {
+			\"influence\":\"tf\",
+			\"annee\": \"Une douce dynamique et une belle endurance vont vous guider vers la réussite de votre projet aujourd’hui.\",
+			\"mois\": \"C'est le moment idéal pour suivre votre instinct.\",
+			\"jour\": \"Chance et instinct seront les mots clés de cette journée.\",
+			\"heure\": \"Vous avez le sentiment que cette journée est votre journée.\"  
+		},
+		\"metal_yang\": {
+			\"influence\":\"cc\",
+			\"annee\": \"Vous allez réussir à convaincre si vous restez réceptif et bienveillant.\",
+			\"mois\": \"Soyez prudent avec votre instinct.\",
+			\"jour\": \"La chance ne suffira pas aujourd'hui mais votre instinct vous guidera.\",
+			\"heure\": \"Soyez à l'écoute de vos sensations.\" 
+		},
+		\"metal_yin\": {
+			\"influence\":\"pc\",
+			\"annee\": \"Attention à ne pas être trop insistant pour convaincre vos proches.\",
+			\"mois\": \"Un peu de patience, faites confiance à votre instinct.\",
+			\"jour\": \"Votre instinct vous dit d'attendre un peu.\",
+			\"heure\": \"Prenez le temps de la réflexion pour mettre de l'ordre dans vos sentiments.\"
+		},
+		\"eau_yang\": {
+			\"influence\":\"fc\",
+			\"annee\": \"C'est la journée idéale pour convaincre vos proches de la réussite de vos proches.\",
+			\"mois\": \"Une journée placée sous le signe de l'instinct.\",
+			\"jour\": \"Profitez de votre chance et suivez votre instinct.\",
+			\"heure\": \"Une bonne journée pour suivre son instinct.\"  
+		},
+		\"eau_yin\": {
+			\"influence\":\"d\",
+			\"annee\": \"Ne confondez pas ambition et agressivité aujourd'hui, vous pourriez froisser vos proches.\",
+			\"mois\": \"Attention à vos sentiments, ce n'est pas la bonne journée pour prendre de grandes décisions.\",
+			\"jour\": \"Ne comptez pas sur la chance aujourd'hui.\",
+			\"heure\": \"Ce n'est pas la bonne journée pour suivre votre instinct.\"  
+		}
+	}
+	"</item>
+
+	<item name="binome9_a" type="string">"{
+		\"bois_yang\": {
+			\"influence\":\"tf\",
+			\"annee\": \"Une douce dynamique et une belle endurance vont vous guider vers la réussite de votre projet cette année.\",
+			\"mois\": \"C'est le moment idéal pour suivre votre instinct.\",
+			\"jour\": \"Chance et instinct seront les mots clés de cette année.\",
+			\"heure\": \"Vous avez le sentiment que cette année est votre année.\"  
+		},
+		\"bois_yin\": {
+			\"influence\":\"cc\",
+			\"annee\": \"Vous allez réussir à convaincre si vous restez réceptif et bienveillant.\",
+			\"mois\": \"Soyez prudent avec votre instinct.\",
+			\"jour\": \"La chance ne suffira pas cette année mais votre instinct vous guidera.\",
+			\"heure\": \"Soyez à l'écoute de vos sensations.\" 
+		},
+		\"feu_yang\": {
+			\"influence\":\"pc\",
+			\"annee\": \"Attention à ne pas être trop insistant pour convaincre vos proches.\",
+			\"mois\": \"Un peu de patience, faites confiance à votre instinct.\",
+			\"jour\": \"Votre instinct vous dit d'attendre un peu.\",
+			\"heure\": \"Prenez le temps de la réflexion pour mettre de l'ordre dans vos sentiments.\"
+		},
+		\"feu_yin\": {
+			\"influence\":\"fc\",
+			\"annee\": \"C'est l'année idéale pour convaincre vos proches de la réussite de vos proches.\",
+			\"mois\": \"Une année placée sous le signe de l'instinct.\",
+			\"jour\": \"Profitez de votre chance et suivez votre instinct.\",
+			\"heure\": \"Une bonne année pour suivre son instinct.\"  
+		},
+		\"terre_yang\": {
+			\"influence\":\"d\",
+			\"annee\": \"Ne confondez pas ambition et agressivité cette année, vous pourriez froisser vos proches.\",
+			\"mois\": \"Attention à vos sentiments, ce n'est pas la bonne année pour prendre de grandes décisions.\",
+			\"jour\": \"Ne comptez pas sur la chance cette année.\",
+			\"heure\": \"Ce n'est pas la bonne année pour suivre votre instinct.\"  
+		},
+		\"terre_yin\": {
+			\"influence\":\"tf\",
+			\"annee\": \"Une douce dynamique et une belle endurance vont vous guider vers la réussite de votre projet cette année.\",
+			\"mois\": \"C'est le moment idéal pour suivre votre instinct.\",
+			\"jour\": \"Chance et instinct seront les mots clés de cette année.\",
+			\"heure\": \"Vous avez le sentiment que cette année est votre année.\"  
+		},
+		\"metal_yang\": {
+			\"influence\":\"cc\",
+			\"annee\": \"Vous allez réussir à convaincre si vous restez réceptif et bienveillant.\",
+			\"mois\": \"Soyez prudent avec votre instinct.\",
+			\"jour\": \"La chance ne suffira pas cette année mais votre instinct vous guidera.\",
+			\"heure\": \"Soyez à l'écoute de vos sensations.\" 
+		},
+		\"metal_yin\": {
+			\"influence\":\"pc\",
+			\"annee\": \"Attention à ne pas être trop insistant pour convaincre vos proches.\",
+			\"mois\": \"Un peu de patience, faites confiance à votre instinct.\",
+			\"jour\": \"Votre instinct vous dit d'attendre un peu.\",
+			\"heure\": \"Prenez le temps de la réflexion pour mettre de l'ordre dans vos sentiments.\"
+		},
+		\"eau_yang\": {
+			\"influence\":\"fc\",
+			\"annee\": \"C'est l'année idéale pour convaincre vos proches de la réussite de vos proches.\",
+			\"mois\": \"Une année placée sous le signe de l'instinct.\",
+			\"jour\": \"Profitez de votre chance et suivez votre instinct.\",
+			\"heure\": \"Une bonne année pour suivre son instinct.\"  
+		},
+		\"eau_yin\": {
+			\"influence\":\"d\",
+			\"annee\": \"Ne confondez pas ambition et agressivité cette année, vous pourriez froisser vos proches.\",
+			\"mois\": \"Attention à vos sentiments, ce n'est pas la bonne année pour prendre de grandes décisions.\",
+			\"jour\": \"Ne comptez pas sur la chance cette année.\",
+			\"heure\": \"Ce n'est pas la bonne année pour suivre votre instinct.\"  
+		}
+	}
+	"</item>
+   
+	<item name="binome9_m" type="string">"{
+		\"bois_yang\": {
+			\"influence\":\"tf\",
+			\"annee\": \"Une douce dynamique et une belle endurance vont vous guider vers la réussite de votre projet ce mois ci.\",
+			\"mois\": \"C'est le moment idéal pour suivre votre instinct.\",
+			\"jour\": \"Chance et instinct seront les mots clés de ce mois ci.\",
+			\"heure\": \"Vous avez le sentiment que ce mois ci est votre mois.\"  
+		},
+		\"bois_yin\": {
+			\"influence\":\"cc\",
+			\"annee\": \"Vous allez réussir à convaincre si vous restez réceptif et bienveillant.\",
+			\"mois\": \"Soyez prudent avec votre instinct.\",
+			\"jour\": \"La chance ne suffira pas ce mois ci mais votre instinct vous guidera.\",
+			\"heure\": \"Soyez à l'écoute de vos sensations.\" 
+		},
+		\"feu_yang\": {
+			\"influence\":\"pc\",
+			\"annee\": \"Attention à ne pas être trop insistant pour convaincre vos proches.\",
+			\"mois\": \"Un peu de patience, faites confiance à votre instinct.\",
+			\"jour\": \"Votre instinct vous dit d'attendre un peu.\",
+			\"heure\": \"Prenez le temps de la réflexion pour mettre de l'ordre dans vos sentiments.\"
+		},
+		\"feu_yin\": {
+			\"influence\":\"fc\",
+			\"annee\": \"C'est le mois idéal pour convaincre vos proches de la réussite de vos proches.\",
+			\"mois\": \"Un mois placé sous le signe de l'instinct.\",
+			\"jour\": \"Profitez de votre chance et suivez votre instinct.\",
+			\"heure\": \"Un bon mois pour suivre son instinct.\"  
+		},
+		\"terre_yang\": {
+			\"influence\":\"d\",
+			\"annee\": \"Ne confondez pas ambition et agressivité ce mois ci, vous pourriez froisser vos proches.\",
+			\"mois\": \"Attention à vos sentiments, ce n'est pas le bon mois pour prendre de grandes décisions.\",
+			\"jour\": \"Ne comptez pas sur la chance pour ce mois.\",
+			\"heure\": \"Ce n'est pas le bon mois pour suivre votre instinct.\"  
+		},
+		\"terre_yin\": {
+			\"influence\":\"tf\",
+			\"annee\": \"Une douce dynamique et une belle endurance vont vous guider vers la réussite de votre projet ce mois ci.\",
+			\"mois\": \"C'est le moment idéal pour suivre votre instinct.\",
+			\"jour\": \"Chance et instinct seront les mots clés de ce mois ci.\",
+			\"heure\": \"Vous avez le sentiment que ce mois ci est votre mois.\"  
+		},
+		\"metal_yang\": {
+			\"influence\":\"cc\",
+			\"annee\": \"Vous allez réussir à convaincre si vous restez réceptif et bienveillant.\",
+			\"mois\": \"Soyez prudent avec votre instinct.\",
+			\"jour\": \"La chance ne suffira pas ce mois ci mais votre instinct vous guidera.\",
+			\"heure\": \"Soyez à l'écoute de vos sensations.\" 
+		},
+		\"metal_yin\": {
+			\"influence\":\"pc\",
+			\"annee\": \"Attention à ne pas être trop insistant pour convaincre vos proches.\",
+			\"mois\": \"Un peu de patience, faites confiance à votre instinct.\",
+			\"jour\": \"Votre instinct vous dit d'attendre un peu.\",
+			\"heure\": \"Prenez le temps de la réflexion pour mettre de l'ordre dans vos sentiments.\"
+		},
+		\"eau_yang\": {
+			\"influence\":\"fc\",
+			\"annee\": \"C'est le mois idéal pour convaincre vos proches de la réussite de vos proches.\",
+			\"mois\": \"Un mois placé sous le signe de l'instinct.\",
+			\"jour\": \"Profitez de votre chance et suivez votre instinct.\",
+			\"heure\": \"Un bon mois pour suivre son instinct.\"  
+		},
+		\"eau_yin\": {
+			\"influence\":\"d\",
+			\"annee\": \"Ne confondez pas ambition et agressivité ce mois ci, vous pourriez froisser vos proches.\",
+			\"mois\": \"Attention à vos sentiments, ce n'est pas le bon mois pour prendre de grandes décisions.\",
+			\"jour\": \"Ne comptez pas sur la chance pour ce mois.\",
+			\"heure\": \"Ce n'est pas le bon mois pour suivre votre instinct.\"  
+		}
+	}
+	"</item>
+	
+	<item name="binome9_j" type="string">"{
+		\"bois_yang\": {
+			\"influence\":\"tf\",
+			\"annee\": \"Un grand sens de la décision et de la conviction devraient vous accompagner aujourd’hui… Journée idéale pour convaincre.\",
+			\"mois\": \"C'est le moment idéal pour suivre votre instinct.\",
+			\"jour\": \"Chance et instinct seront les mots clés de cette journée.\",
+			\"heure\": \"Vous avez le sentiment que cette journée est votre journée.\"  
+		},
+		\"bois_yin\": {
+			\"influence\":\"cc\",
+			\"annee\": \"La grande énergie décisionnaire du jour risque de vous faire passer pour autoritaire, restez prudent.\",
+			\"mois\": \"Soyez prudent avec votre instinct.\",
+			\"jour\": \"La chance ne suffira pas aujourd'hui mais votre instinct vous guidera.\",
+			\"heure\": \"Soyez à l'écoute de vos sensations.\" 
+		},
+		\"feu_yang\": {
+			\"influence\":\"pc\",
+			\"annee\": \"Attention à ne pas être trop insistant pour convaincre vos proches.\",
+			\"mois\": \"Un peu de patience, faites confiance à votre instinct.\",
+			\"jour\": \"Votre instinct vous dit d'attendre un peu.\",
+			\"heure\": \"Prenez le temps de la réflexion pour mettre de l'ordre dans vos sentiments.\"
+		},
+		\"feu_yin\": {
+			\"influence\":\"fc\",
+			\"annee\": \"C'est la journée idéale pour convaincre vos proches de la réussite de vos proches.\",
+			\"mois\": \"Une journée placée sous le signe de l'instinct.\",
+			\"jour\": \"Profitez de votre chance et suivez votre instinct.\",
+			\"heure\": \"Une bonne journée pour suivre son instinct.\"  
+		},
+		\"terre_yang\": {
+			\"influence\":\"d\",
+			\"annee\": \"Ne confondez pas ambition et agressivité aujourd'hui, vous pourriez froisser vos proches.\",
+			\"mois\": \"Attention à vos sentiments, ce n'est pas la bonne journée pour prendre de grandes décisions.\",
+			\"jour\": \"Ne comptez pas sur la chance aujourd'hui.\",
+			\"heure\": \"Ce n'est pas la bonne journée pour suivre votre instinct.\"  
+		},
+		\"terre_yin\": {
+			\"influence\":\"tf\",
+			\"annee\": \"Une douce dynamique et une belle endurance vont vous guider vers la réussite de votre projet aujourd’hui.\",
+			\"mois\": \"C'est le moment idéal pour suivre votre instinct.\",
+			\"jour\": \"Chance et instinct seront les mots clés de cette journée.\",
+			\"heure\": \"Vous avez le sentiment que cette journée est votre journée.\"  
+		},
+		\"metal_yang\": {
+			\"influence\":\"cc\",
+			\"annee\": \"Vous allez réussir à convaincre si vous restez réceptif et bienveillant.\",
+			\"mois\": \"Soyez prudent avec votre instinct.\",
+			\"jour\": \"La chance ne suffira pas aujourd'hui mais votre instinct vous guidera.\",
+			\"heure\": \"Soyez à l'écoute de vos sensations.\" 
+		},
+		\"metal_yin\": {
+			\"influence\":\"pc\",
+			\"annee\": \"Attention à ne pas être trop insistant pour convaincre vos proches.\",
+			\"mois\": \"Un peu de patience, faites confiance à votre instinct.\",
+			\"jour\": \"Votre instinct vous dit d'attendre un peu.\",
+			\"heure\": \"Prenez le temps de la réflexion pour mettre de l'ordre dans vos sentiments.\"
+		},
+		\"eau_yang\": {
+			\"influence\":\"fc\",
+			\"annee\": \"C'est la journée idéale pour convaincre vos proches de la réussite de vos proches.\",
+			\"mois\": \"Une journée placée sous le signe de l'instinct.\",
+			\"jour\": \"Profitez de votre chance et suivez votre instinct.\",
+			\"heure\": \"Une bonne journée pour suivre son instinct.\"  
+		},
+		\"eau_yin\": {
+			\"influence\":\"d\",
+			\"annee\": \"Ne confondez pas ambition et agressivité aujourd'hui, vous pourriez froisser vos proches.\",
+			\"mois\": \"Attention à vos sentiments, ce n'est pas la bonne journée pour prendre de grandes décisions.\",
+			\"jour\": \"Ne comptez pas sur la chance aujourd'hui.\",
+			\"heure\": \"Ce n'est pas la bonne journée pour suivre votre instinct.\"  
+		}
+	}
+	"</item>
+
+	<item name="binome10_a" type="string">"{
+		\"bois_yang\": {
+			\"influence\":\"tf\",
+			\"annee\": \"Une douce dynamique et une belle endurance vont vous guider vers la réussite de votre projet cette année.\",
+			\"mois\": \"C'est le moment idéal pour suivre votre instinct.\",
+			\"jour\": \"Chance et instinct seront les mots clés de cette année.\",
+			\"heure\": \"Vous avez le sentiment que cette année est votre année.\"  
+		},
+		\"bois_yin\": {
+			\"influence\":\"cc\",
+			\"annee\": \"Vous allez réussir à convaincre si vous restez réceptif et bienveillant.\",
+			\"mois\": \"Soyez prudent avec votre instinct.\",
+			\"jour\": \"La chance ne suffira pas cette année mais votre instinct vous guidera.\",
+			\"heure\": \"Soyez à l'écoute de vos sensations.\" 
+		},
+		\"feu_yang\": {
+			\"influence\":\"pc\",
+			\"annee\": \"Attention à ne pas être trop insistant pour convaincre vos proches.\",
+			\"mois\": \"Un peu de patience, faites confiance à votre instinct.\",
+			\"jour\": \"Votre instinct vous dit d'attendre un peu.\",
+			\"heure\": \"Prenez le temps de la réflexion pour mettre de l'ordre dans vos sentiments.\"
+		},
+		\"feu_yin\": {
+			\"influence\":\"fc\",
+			\"annee\": \"C'est l'année idéale pour convaincre vos proches de la réussite de vos proches.\",
+			\"mois\": \"Une année placée sous le signe de l'instinct.\",
+			\"jour\": \"Profitez de votre chance et suivez votre instinct.\",
+			\"heure\": \"Une bonne année pour suivre son instinct.\"  
+		},
+		\"terre_yang\": {
+			\"influence\":\"d\",
+			\"annee\": \"Ne confondez pas ambition et agressivité cette année, vous pourriez froisser vos proches.\",
+			\"mois\": \"Attention à vos sentiments, ce n'est pas la bonne année pour prendre de grandes décisions.\",
+			\"jour\": \"Ne comptez pas sur la chance cette année.\",
+			\"heure\": \"Ce n'est pas la bonne année pour suivre votre instinct.\"  
+		},
+		\"terre_yin\": {
+			\"influence\":\"tf\",
+			\"annee\": \"Une douce dynamique et une belle endurance vont vous guider vers la réussite de votre projet cette année.\",
+			\"mois\": \"C'est le moment idéal pour suivre votre instinct.\",
+			\"jour\": \"Chance et instinct seront les mots clés de cette année.\",
+			\"heure\": \"Vous avez le sentiment que cette année est votre année.\"  
+		},
+		\"metal_yang\": {
+			\"influence\":\"cc\",
+			\"annee\": \"Vous allez réussir à convaincre si vous restez réceptif et bienveillant.\",
+			\"mois\": \"Soyez prudent avec votre instinct.\",
+			\"jour\": \"La chance ne suffira pas cette année mais votre instinct vous guidera.\",
+			\"heure\": \"Soyez à l'écoute de vos sensations.\" 
+		},
+		\"metal_yin\": {
+			\"influence\":\"pc\",
+			\"annee\": \"Attention à ne pas être trop insistant pour convaincre vos proches.\",
+			\"mois\": \"Un peu de patience, faites confiance à votre instinct.\",
+			\"jour\": \"Votre instinct vous dit d'attendre un peu.\",
+			\"heure\": \"Prenez le temps de la réflexion pour mettre de l'ordre dans vos sentiments.\"
+		},
+		\"eau_yang\": {
+			\"influence\":\"fc\",
+			\"annee\": \"C'est l'année idéale pour convaincre vos proches de la réussite de vos proches.\",
+			\"mois\": \"Une année placée sous le signe de l'instinct.\",
+			\"jour\": \"Profitez de votre chance et suivez votre instinct.\",
+			\"heure\": \"Une bonne année pour suivre son instinct.\"  
+		},
+		\"eau_yin\": {
+			\"influence\":\"d\",
+			\"annee\": \"Ne confondez pas ambition et agressivité cette année, vous pourriez froisser vos proches.\",
+			\"mois\": \"Attention à vos sentiments, ce n'est pas la bonne année pour prendre de grandes décisions.\",
+			\"jour\": \"Ne comptez pas sur la chance cette année.\",
+			\"heure\": \"Ce n'est pas la bonne année pour suivre votre instinct.\"  
+		}
+	}
+	"</item>
+   
+	<item name="binome10_m" type="string">"{
+		\"bois_yang\": {
+			\"influence\":\"tf\",
+			\"annee\": \"Une douce dynamique et une belle endurance vont vous guider vers la réussite de votre projet ce mois ci.\",
+			\"mois\": \"C'est le moment idéal pour suivre votre instinct.\",
+			\"jour\": \"Chance et instinct seront les mots clés de ce mois ci.\",
+			\"heure\": \"Vous avez le sentiment que ce mois ci est votre mois.\"  
+		},
+		\"bois_yin\": {
+			\"influence\":\"cc\",
+			\"annee\": \"Vous allez réussir à convaincre si vous restez réceptif et bienveillant.\",
+			\"mois\": \"Soyez prudent avec votre instinct.\",
+			\"jour\": \"La chance ne suffira pas ce mois ci mais votre instinct vous guidera.\",
+			\"heure\": \"Soyez à l'écoute de vos sensations.\" 
+		},
+		\"feu_yang\": {
+			\"influence\":\"pc\",
+			\"annee\": \"Attention à ne pas être trop insistant pour convaincre vos proches.\",
+			\"mois\": \"Un peu de patience, faites confiance à votre instinct.\",
+			\"jour\": \"Votre instinct vous dit d'attendre un peu.\",
+			\"heure\": \"Prenez le temps de la réflexion pour mettre de l'ordre dans vos sentiments.\"
+		},
+		\"feu_yin\": {
+			\"influence\":\"fc\",
+			\"annee\": \"C'est le mois idéal pour convaincre vos proches de la réussite de vos proches.\",
+			\"mois\": \"Un mois placé sous le signe de l'instinct.\",
+			\"jour\": \"Profitez de votre chance et suivez votre instinct.\",
+			\"heure\": \"Un bon mois pour suivre son instinct.\"  
+		},
+		\"terre_yang\": {
+			\"influence\":\"d\",
+			\"annee\": \"Ne confondez pas ambition et agressivité ce mois ci, vous pourriez froisser vos proches.\",
+			\"mois\": \"Attention à vos sentiments, ce n'est pas le bon mois pour prendre de grandes décisions.\",
+			\"jour\": \"Ne comptez pas sur la chance pour ce mois.\",
+			\"heure\": \"Ce n'est pas le bon mois pour suivre votre instinct.\"  
+		},
+		\"terre_yin\": {
+			\"influence\":\"tf\",
+			\"annee\": \"Une douce dynamique et une belle endurance vont vous guider vers la réussite de votre projet ce mois ci.\",
+			\"mois\": \"C'est le moment idéal pour suivre votre instinct.\",
+			\"jour\": \"Chance et instinct seront les mots clés de ce mois ci.\",
+			\"heure\": \"Vous avez le sentiment que ce mois ci est votre mois.\"  
+		},
+		\"metal_yang\": {
+			\"influence\":\"cc\",
+			\"annee\": \"Vous allez réussir à convaincre si vous restez réceptif et bienveillant.\",
+			\"mois\": \"Soyez prudent avec votre instinct.\",
+			\"jour\": \"La chance ne suffira pas ce mois ci mais votre instinct vous guidera.\",
+			\"heure\": \"Soyez à l'écoute de vos sensations.\" 
+		},
+		\"metal_yin\": {
+			\"influence\":\"pc\",
+			\"annee\": \"Attention à ne pas être trop insistant pour convaincre vos proches.\",
+			\"mois\": \"Un peu de patience, faites confiance à votre instinct.\",
+			\"jour\": \"Votre instinct vous dit d'attendre un peu.\",
+			\"heure\": \"Prenez le temps de la réflexion pour mettre de l'ordre dans vos sentiments.\"
+		},
+		\"eau_yang\": {
+			\"influence\":\"fc\",
+			\"annee\": \"C'est le mois idéal pour convaincre vos proches de la réussite de vos proches.\",
+			\"mois\": \"Un mois placé sous le signe de l'instinct.\",
+			\"jour\": \"Profitez de votre chance et suivez votre instinct.\",
+			\"heure\": \"Un bon mois pour suivre son instinct.\"  
+		},
+		\"eau_yin\": {
+			\"influence\":\"d\",
+			\"annee\": \"Ne confondez pas ambition et agressivité ce mois ci, vous pourriez froisser vos proches.\",
+			\"mois\": \"Attention à vos sentiments, ce n'est pas le bon mois pour prendre de grandes décisions.\",
+			\"jour\": \"Ne comptez pas sur la chance pour ce mois.\",
+			\"heure\": \"Ce n'est pas le bon mois pour suivre votre instinct.\"  
+		}
+	}
+	"</item>
+	
+	<item name="binome10_j" type="string">"{
+		\"bois_yang\": {
+			\"influence\":\"tf\",
+			\"annee\": \"Ne vous bloquez pas si vous sentez de l’opposition…Appuyez vous sur l’énergie volontaire et décisionnaire de cette journée.\",
+			\"mois\": \"C'est le moment idéal pour suivre votre instinct.\",
+			\"jour\": \"Chance et instinct seront les mots clés de cette journée.\",
+			\"heure\": \"Vous avez le sentiment que cette journée est votre journée.\"  
+		},
+		\"bois_yin\": {
+			\"influence\":\"cc\",
+			\"annee\": \"Tout peut arriver aujourd’hui, le pire comme le meilleur, restez créatif, sensible mais volontaire !\",
+			\"mois\": \"Soyez prudent avec votre instinct.\",
+			\"jour\": \"La chance ne suffira pas aujourd'hui mais votre instinct vous guidera.\",
+			\"heure\": \"Soyez à l'écoute de vos sensations.\" 
+		},
+		\"feu_yang\": {
+			\"influence\":\"pc\",
+			\"annee\": \"Attention à ne pas être trop insistant pour convaincre vos proches.\",
+			\"mois\": \"Un peu de patience, faites confiance à votre instinct.\",
+			\"jour\": \"Votre instinct vous dit d'attendre un peu.\",
+			\"heure\": \"Prenez le temps de la réflexion pour mettre de l'ordre dans vos sentiments.\"
+		},
+		\"feu_yin\": {
+			\"influence\":\"fc\",
+			\"annee\": \"C'est la journée idéale pour convaincre vos proches de la réussite de vos proches.\",
+			\"mois\": \"Une journée placée sous le signe de l'instinct.\",
+			\"jour\": \"Profitez de votre chance et suivez votre instinct.\",
+			\"heure\": \"Une bonne journée pour suivre son instinct.\"  
+		},
+		\"terre_yang\": {
+			\"influence\":\"d\",
+			\"annee\": \"Ne confondez pas ambition et agressivité aujourd'hui, vous pourriez froisser vos proches.\",
+			\"mois\": \"Attention à vos sentiments, ce n'est pas la bonne journée pour prendre de grandes décisions.\",
+			\"jour\": \"Ne comptez pas sur la chance aujourd'hui.\",
+			\"heure\": \"Ce n'est pas la bonne journée pour suivre votre instinct.\"  
+		},
+		\"terre_yin\": {
+			\"influence\":\"tf\",
+			\"annee\": \"Une douce dynamique et une belle endurance vont vous guider vers la réussite de votre projet aujourd’hui.\",
+			\"mois\": \"C'est le moment idéal pour suivre votre instinct.\",
+			\"jour\": \"Chance et instinct seront les mots clés de cette journée.\",
+			\"heure\": \"Vous avez le sentiment que cette journée est votre journée.\"  
+		},
+		\"metal_yang\": {
+			\"influence\":\"cc\",
+			\"annee\": \"Vous allez réussir à convaincre si vous restez réceptif et bienveillant.\",
+			\"mois\": \"Soyez prudent avec votre instinct.\",
+			\"jour\": \"La chance ne suffira pas aujourd'hui mais votre instinct vous guidera.\",
+			\"heure\": \"Soyez à l'écoute de vos sensations.\" 
+		},
+		\"metal_yin\": {
+			\"influence\":\"pc\",
+			\"annee\": \"Attention à ne pas être trop insistant pour convaincre vos proches.\",
+			\"mois\": \"Un peu de patience, faites confiance à votre instinct.\",
+			\"jour\": \"Votre instinct vous dit d'attendre un peu.\",
+			\"heure\": \"Prenez le temps de la réflexion pour mettre de l'ordre dans vos sentiments.\"
+		},
+		\"eau_yang\": {
+			\"influence\":\"fc\",
+			\"annee\": \"C'est la journée idéale pour convaincre vos proches de la réussite de vos proches.\",
+			\"mois\": \"Une journée placée sous le signe de l'instinct.\",
+			\"jour\": \"Profitez de votre chance et suivez votre instinct.\",
+			\"heure\": \"Une bonne journée pour suivre son instinct.\"  
+		},
+		\"eau_yin\": {
+			\"influence\":\"d\",
+			\"annee\": \"Ne confondez pas ambition et agressivité aujourd'hui, vous pourriez froisser vos proches.\",
+			\"mois\": \"Attention à vos sentiments, ce n'est pas la bonne journée pour prendre de grandes décisions.\",
+			\"jour\": \"Ne comptez pas sur la chance aujourd'hui.\",
+			\"heure\": \"Ce n'est pas la bonne journée pour suivre votre instinct.\"  
+		}
+	}
+	"</item>
+
+	<item name="binome17_a" type="string">"{
+		\"bois_yang\": {
+			\"influence\":\"tf\",
+			\"annee\": \"Une douce dynamique et une belle endurance vont vous guider vers la réussite de votre projet cette année.\",
+			\"mois\": \"C'est le moment idéal pour suivre votre instinct.\",
+			\"jour\": \"Chance et instinct seront les mots clés de cette année.\",
+			\"heure\": \"Vous avez le sentiment que cette année est votre année.\"  
+		},
+		\"bois_yin\": {
+			\"influence\":\"cc\",
+			\"annee\": \"Vous allez réussir à convaincre si vous restez réceptif et bienveillant.\",
+			\"mois\": \"Soyez prudent avec votre instinct.\",
+			\"jour\": \"La chance ne suffira pas cette année mais votre instinct vous guidera.\",
+			\"heure\": \"Soyez à l'écoute de vos sensations.\" 
+		},
+		\"feu_yang\": {
+			\"influence\":\"pc\",
+			\"annee\": \"Attention à ne pas être trop insistant pour convaincre vos proches.\",
+			\"mois\": \"Un peu de patience, faites confiance à votre instinct.\",
+			\"jour\": \"Votre instinct vous dit d'attendre un peu.\",
+			\"heure\": \"Prenez le temps de la réflexion pour mettre de l'ordre dans vos sentiments.\"
+		},
+		\"feu_yin\": {
+			\"influence\":\"fc\",
+			\"annee\": \"C'est l'année idéale pour convaincre vos proches de la réussite de vos proches.\",
+			\"mois\": \"Une année placée sous le signe de l'instinct.\",
+			\"jour\": \"Profitez de votre chance et suivez votre instinct.\",
+			\"heure\": \"Une bonne année pour suivre son instinct.\"  
+		},
+		\"terre_yang\": {
+			\"influence\":\"d\",
+			\"annee\": \"Ne confondez pas ambition et agressivité cette année, vous pourriez froisser vos proches.\",
+			\"mois\": \"Attention à vos sentiments, ce n'est pas la bonne année pour prendre de grandes décisions.\",
+			\"jour\": \"Ne comptez pas sur la chance cette année.\",
+			\"heure\": \"Ce n'est pas la bonne année pour suivre votre instinct.\"  
+		},
+		\"terre_yin\": {
+			\"influence\":\"tf\",
+			\"annee\": \"Une douce dynamique et une belle endurance vont vous guider vers la réussite de votre projet cette année.\",
+			\"mois\": \"C'est le moment idéal pour suivre votre instinct.\",
+			\"jour\": \"Chance et instinct seront les mots clés de cette année.\",
+			\"heure\": \"Vous avez le sentiment que cette année est votre année.\"  
+		},
+		\"metal_yang\": {
+			\"influence\":\"cc\",
+			\"annee\": \"Vous allez réussir à convaincre si vous restez réceptif et bienveillant.\",
+			\"mois\": \"Soyez prudent avec votre instinct.\",
+			\"jour\": \"La chance ne suffira pas cette année mais votre instinct vous guidera.\",
+			\"heure\": \"Soyez à l'écoute de vos sensations.\" 
+		},
+		\"metal_yin\": {
+			\"influence\":\"pc\",
+			\"annee\": \"Attention à ne pas être trop insistant pour convaincre vos proches.\",
+			\"mois\": \"Un peu de patience, faites confiance à votre instinct.\",
+			\"jour\": \"Votre instinct vous dit d'attendre un peu.\",
+			\"heure\": \"Prenez le temps de la réflexion pour mettre de l'ordre dans vos sentiments.\"
+		},
+		\"eau_yang\": {
+			\"influence\":\"fc\",
+			\"annee\": \"C'est l'année idéale pour convaincre vos proches de la réussite de vos proches.\",
+			\"mois\": \"Une année placée sous le signe de l'instinct.\",
+			\"jour\": \"Profitez de votre chance et suivez votre instinct.\",
+			\"heure\": \"Une bonne année pour suivre son instinct.\"  
+		},
+		\"eau_yin\": {
+			\"influence\":\"d\",
+			\"annee\": \"Ne confondez pas ambition et agressivité cette année, vous pourriez froisser vos proches.\",
+			\"mois\": \"Attention à vos sentiments, ce n'est pas la bonne année pour prendre de grandes décisions.\",
+			\"jour\": \"Ne comptez pas sur la chance cette année.\",
+			\"heure\": \"Ce n'est pas la bonne année pour suivre votre instinct.\"  
+		}
+	}
+	"</item>
+   
+	<item name="binome17_m" type="string">"{
+		\"bois_yang\": {
+			\"influence\":\"tf\",
+			\"annee\": \"Une douce dynamique et une belle endurance vont vous guider vers la réussite de votre projet ce mois ci.\",
+			\"mois\": \"C'est le moment idéal pour suivre votre instinct.\",
+			\"jour\": \"Chance et instinct seront les mots clés de ce mois ci.\",
+			\"heure\": \"Vous avez le sentiment que ce mois ci est votre mois.\"  
+		},
+		\"bois_yin\": {
+			\"influence\":\"cc\",
+			\"annee\": \"Vous allez réussir à convaincre si vous restez réceptif et bienveillant.\",
+			\"mois\": \"Soyez prudent avec votre instinct.\",
+			\"jour\": \"La chance ne suffira pas ce mois ci mais votre instinct vous guidera.\",
+			\"heure\": \"Soyez à l'écoute de vos sensations.\" 
+		},
+		\"feu_yang\": {
+			\"influence\":\"pc\",
+			\"annee\": \"Attention à ne pas être trop insistant pour convaincre vos proches.\",
+			\"mois\": \"Un peu de patience, faites confiance à votre instinct.\",
+			\"jour\": \"Votre instinct vous dit d'attendre un peu.\",
+			\"heure\": \"Prenez le temps de la réflexion pour mettre de l'ordre dans vos sentiments.\"
+		},
+		\"feu_yin\": {
+			\"influence\":\"fc\",
+			\"annee\": \"C'est le mois idéal pour convaincre vos proches de la réussite de vos proches.\",
+			\"mois\": \"Un mois placé sous le signe de l'instinct.\",
+			\"jour\": \"Profitez de votre chance et suivez votre instinct.\",
+			\"heure\": \"Un bon mois pour suivre son instinct.\"  
+		},
+		\"terre_yang\": {
+			\"influence\":\"d\",
+			\"annee\": \"Ne confondez pas ambition et agressivité ce mois ci, vous pourriez froisser vos proches.\",
+			\"mois\": \"Attention à vos sentiments, ce n'est pas le bon mois pour prendre de grandes décisions.\",
+			\"jour\": \"Ne comptez pas sur la chance pour ce mois.\",
+			\"heure\": \"Ce n'est pas le bon mois pour suivre votre instinct.\"  
+		},
+		\"terre_yin\": {
+			\"influence\":\"tf\",
+			\"annee\": \"Une douce dynamique et une belle endurance vont vous guider vers la réussite de votre projet ce mois ci.\",
+			\"mois\": \"C'est le moment idéal pour suivre votre instinct.\",
+			\"jour\": \"Chance et instinct seront les mots clés de ce mois ci.\",
+			\"heure\": \"Vous avez le sentiment que ce mois ci est votre mois.\"  
+		},
+		\"metal_yang\": {
+			\"influence\":\"cc\",
+			\"annee\": \"Vous allez réussir à convaincre si vous restez réceptif et bienveillant.\",
+			\"mois\": \"Soyez prudent avec votre instinct.\",
+			\"jour\": \"La chance ne suffira pas ce mois ci mais votre instinct vous guidera.\",
+			\"heure\": \"Soyez à l'écoute de vos sensations.\" 
+		},
+		\"metal_yin\": {
+			\"influence\":\"pc\",
+			\"annee\": \"Attention à ne pas être trop insistant pour convaincre vos proches.\",
+			\"mois\": \"Un peu de patience, faites confiance à votre instinct.\",
+			\"jour\": \"Votre instinct vous dit d'attendre un peu.\",
+			\"heure\": \"Prenez le temps de la réflexion pour mettre de l'ordre dans vos sentiments.\"
+		},
+		\"eau_yang\": {
+			\"influence\":\"fc\",
+			\"annee\": \"C'est le mois idéal pour convaincre vos proches de la réussite de vos proches.\",
+			\"mois\": \"Un mois placé sous le signe de l'instinct.\",
+			\"jour\": \"Profitez de votre chance et suivez votre instinct.\",
+			\"heure\": \"Un bon mois pour suivre son instinct.\"  
+		},
+		\"eau_yin\": {
+			\"influence\":\"d\",
+			\"annee\": \"Ne confondez pas ambition et agressivité ce mois ci, vous pourriez froisser vos proches.\",
+			\"mois\": \"Attention à vos sentiments, ce n'est pas le bon mois pour prendre de grandes décisions.\",
+			\"jour\": \"Ne comptez pas sur la chance pour ce mois.\",
+			\"heure\": \"Ce n'est pas le bon mois pour suivre votre instinct.\"  
+		}
+	}
+	"</item>
+	
+	<item name="binome17_j" type="string">"{
+		\"bois_yang\": {
+			\"influence\":\"tf\",
+			\"annee\": \"Journée riche en synthèse et charisme, vous devriez avoir la bonne idée et en convaincre votre entourage !\",
+			\"mois\": \"C'est le moment idéal pour suivre votre instinct.\",
+			\"jour\": \"Chance et instinct seront les mots clés de cette journée.\",
+			\"heure\": \"Vous avez le sentiment que cette journée est votre journée.\"  
+		},
+		\"bois_yin\": {
+			\"influence\":\"cc\",
+			\"annee\": \"Journée propice pour convaincre du bien-fondé de vos idées si vous savez y mettre les formes.\",
+			\"mois\": \"Soyez prudent avec votre instinct.\",
+			\"jour\": \"La chance ne suffira pas aujourd'hui mais votre instinct vous guidera.\",
+			\"heure\": \"Soyez à l'écoute de vos sensations.\" 
+		},
+		\"feu_yang\": {
+			\"influence\":\"pc\",
+			\"annee\": \"Attention à ne pas être trop insistant pour convaincre vos proches.\",
+			\"mois\": \"Un peu de patience, faites confiance à votre instinct.\",
+			\"jour\": \"Votre instinct vous dit d'attendre un peu.\",
+			\"heure\": \"Prenez le temps de la réflexion pour mettre de l'ordre dans vos sentiments.\"
+		},
+		\"feu_yin\": {
+			\"influence\":\"fc\",
+			\"annee\": \"C'est la journée idéale pour convaincre vos proches de la réussite de vos proches.\",
+			\"mois\": \"Une journée placée sous le signe de l'instinct.\",
+			\"jour\": \"Profitez de votre chance et suivez votre instinct.\",
+			\"heure\": \"Une bonne journée pour suivre son instinct.\"  
+		},
+		\"terre_yang\": {
+			\"influence\":\"d\",
+			\"annee\": \"Ne confondez pas ambition et agressivité aujourd'hui, vous pourriez froisser vos proches.\",
+			\"mois\": \"Attention à vos sentiments, ce n'est pas la bonne journée pour prendre de grandes décisions.\",
+			\"jour\": \"Ne comptez pas sur la chance aujourd'hui.\",
+			\"heure\": \"Ce n'est pas la bonne journée pour suivre votre instinct.\"  
+		},
+		\"terre_yin\": {
+			\"influence\":\"tf\",
+			\"annee\": \"Une douce dynamique et une belle endurance vont vous guider vers la réussite de votre projet aujourd’hui.\",
+			\"mois\": \"C'est le moment idéal pour suivre votre instinct.\",
+			\"jour\": \"Chance et instinct seront les mots clés de cette journée.\",
+			\"heure\": \"Vous avez le sentiment que cette journée est votre journée.\"  
+		},
+		\"metal_yang\": {
+			\"influence\":\"cc\",
+			\"annee\": \"Vous allez réussir à convaincre si vous restez réceptif et bienveillant.\",
+			\"mois\": \"Soyez prudent avec votre instinct.\",
+			\"jour\": \"La chance ne suffira pas aujourd'hui mais votre instinct vous guidera.\",
+			\"heure\": \"Soyez à l'écoute de vos sensations.\" 
+		},
+		\"metal_yin\": {
+			\"influence\":\"pc\",
+			\"annee\": \"Attention à ne pas être trop insistant pour convaincre vos proches.\",
+			\"mois\": \"Un peu de patience, faites confiance à votre instinct.\",
+			\"jour\": \"Votre instinct vous dit d'attendre un peu.\",
+			\"heure\": \"Prenez le temps de la réflexion pour mettre de l'ordre dans vos sentiments.\"
+		},
+		\"eau_yang\": {
+			\"influence\":\"fc\",
+			\"annee\": \"C'est la journée idéale pour convaincre vos proches de la réussite de vos proches.\",
+			\"mois\": \"Une journée placée sous le signe de l'instinct.\",
+			\"jour\": \"Profitez de votre chance et suivez votre instinct.\",
+			\"heure\": \"Une bonne journée pour suivre son instinct.\"  
+		},
+		\"eau_yin\": {
+			\"influence\":\"d\",
+			\"annee\": \"Ne confondez pas ambition et agressivité aujourd'hui, vous pourriez froisser vos proches.\",
+			\"mois\": \"Attention à vos sentiments, ce n'est pas la bonne journée pour prendre de grandes décisions.\",
+			\"jour\": \"Ne comptez pas sur la chance aujourd'hui.\",
+			\"heure\": \"Ce n'est pas la bonne journée pour suivre votre instinct.\"  
+		}
+	}
+	"</item>
+
+	<item name="binome18_a" type="string">"{
+		\"bois_yang\": {
+			\"influence\":\"tf\",
+			\"annee\": \"Une douce dynamique et une belle endurance vont vous guider vers la réussite de votre projet cette année.\",
+			\"mois\": \"C'est le moment idéal pour suivre votre instinct.\",
+			\"jour\": \"Chance et instinct seront les mots clés de cette année.\",
+			\"heure\": \"Vous avez le sentiment que cette année est votre année.\"  
+		},
+		\"bois_yin\": {
+			\"influence\":\"cc\",
+			\"annee\": \"Vous allez réussir à convaincre si vous restez réceptif et bienveillant.\",
+			\"mois\": \"Soyez prudent avec votre instinct.\",
+			\"jour\": \"La chance ne suffira pas cette année mais votre instinct vous guidera.\",
+			\"heure\": \"Soyez à l'écoute de vos sensations.\" 
+		},
+		\"feu_yang\": {
+			\"influence\":\"pc\",
+			\"annee\": \"Attention à ne pas être trop insistant pour convaincre vos proches.\",
+			\"mois\": \"Un peu de patience, faites confiance à votre instinct.\",
+			\"jour\": \"Votre instinct vous dit d'attendre un peu.\",
+			\"heure\": \"Prenez le temps de la réflexion pour mettre de l'ordre dans vos sentiments.\"
+		},
+		\"feu_yin\": {
+			\"influence\":\"fc\",
+			\"annee\": \"C'est l'année idéale pour convaincre vos proches de la réussite de vos proches.\",
+			\"mois\": \"Une année placée sous le signe de l'instinct.\",
+			\"jour\": \"Profitez de votre chance et suivez votre instinct.\",
+			\"heure\": \"Une bonne année pour suivre son instinct.\"  
+		},
+		\"terre_yang\": {
+			\"influence\":\"d\",
+			\"annee\": \"Ne confondez pas ambition et agressivité cette année, vous pourriez froisser vos proches.\",
+			\"mois\": \"Attention à vos sentiments, ce n'est pas la bonne année pour prendre de grandes décisions.\",
+			\"jour\": \"Ne comptez pas sur la chance cette année.\",
+			\"heure\": \"Ce n'est pas la bonne année pour suivre votre instinct.\"  
+		},
+		\"terre_yin\": {
+			\"influence\":\"tf\",
+			\"annee\": \"Une douce dynamique et une belle endurance vont vous guider vers la réussite de votre projet cette année.\",
+			\"mois\": \"C'est le moment idéal pour suivre votre instinct.\",
+			\"jour\": \"Chance et instinct seront les mots clés de cette année.\",
+			\"heure\": \"Vous avez le sentiment que cette année est votre année.\"  
+		},
+		\"metal_yang\": {
+			\"influence\":\"cc\",
+			\"annee\": \"Vous allez réussir à convaincre si vous restez réceptif et bienveillant.\",
+			\"mois\": \"Soyez prudent avec votre instinct.\",
+			\"jour\": \"La chance ne suffira pas cette année mais votre instinct vous guidera.\",
+			\"heure\": \"Soyez à l'écoute de vos sensations.\" 
+		},
+		\"metal_yin\": {
+			\"influence\":\"pc\",
+			\"annee\": \"Attention à ne pas être trop insistant pour convaincre vos proches.\",
+			\"mois\": \"Un peu de patience, faites confiance à votre instinct.\",
+			\"jour\": \"Votre instinct vous dit d'attendre un peu.\",
+			\"heure\": \"Prenez le temps de la réflexion pour mettre de l'ordre dans vos sentiments.\"
+		},
+		\"eau_yang\": {
+			\"influence\":\"fc\",
+			\"annee\": \"C'est l'année idéale pour convaincre vos proches de la réussite de vos proches.\",
+			\"mois\": \"Une année placée sous le signe de l'instinct.\",
+			\"jour\": \"Profitez de votre chance et suivez votre instinct.\",
+			\"heure\": \"Une bonne année pour suivre son instinct.\"  
+		},
+		\"eau_yin\": {
+			\"influence\":\"d\",
+			\"annee\": \"Ne confondez pas ambition et agressivité cette année, vous pourriez froisser vos proches.\",
+			\"mois\": \"Attention à vos sentiments, ce n'est pas la bonne année pour prendre de grandes décisions.\",
+			\"jour\": \"Ne comptez pas sur la chance cette année.\",
+			\"heure\": \"Ce n'est pas la bonne année pour suivre votre instinct.\"  
+		}
+	}
+	"</item>
+   
+	<item name="binome18_m" type="string">"{
+		\"bois_yang\": {
+			\"influence\":\"tf\",
+			\"annee\": \"Une douce dynamique et une belle endurance vont vous guider vers la réussite de votre projet ce mois ci.\",
+			\"mois\": \"C'est le moment idéal pour suivre votre instinct.\",
+			\"jour\": \"Chance et instinct seront les mots clés de ce mois ci.\",
+			\"heure\": \"Vous avez le sentiment que ce mois ci est votre mois.\"  
+		},
+		\"bois_yin\": {
+			\"influence\":\"cc\",
+			\"annee\": \"Vous allez réussir à convaincre si vous restez réceptif et bienveillant.\",
+			\"mois\": \"Soyez prudent avec votre instinct.\",
+			\"jour\": \"La chance ne suffira pas ce mois ci mais votre instinct vous guidera.\",
+			\"heure\": \"Soyez à l'écoute de vos sensations.\" 
+		},
+		\"feu_yang\": {
+			\"influence\":\"pc\",
+			\"annee\": \"Attention à ne pas être trop insistant pour convaincre vos proches.\",
+			\"mois\": \"Un peu de patience, faites confiance à votre instinct.\",
+			\"jour\": \"Votre instinct vous dit d'attendre un peu.\",
+			\"heure\": \"Prenez le temps de la réflexion pour mettre de l'ordre dans vos sentiments.\"
+		},
+		\"feu_yin\": {
+			\"influence\":\"fc\",
+			\"annee\": \"C'est le mois idéal pour convaincre vos proches de la réussite de vos proches.\",
+			\"mois\": \"Un mois placé sous le signe de l'instinct.\",
+			\"jour\": \"Profitez de votre chance et suivez votre instinct.\",
+			\"heure\": \"Un bon mois pour suivre son instinct.\"  
+		},
+		\"terre_yang\": {
+			\"influence\":\"d\",
+			\"annee\": \"Ne confondez pas ambition et agressivité ce mois ci, vous pourriez froisser vos proches.\",
+			\"mois\": \"Attention à vos sentiments, ce n'est pas le bon mois pour prendre de grandes décisions.\",
+			\"jour\": \"Ne comptez pas sur la chance pour ce mois.\",
+			\"heure\": \"Ce n'est pas le bon mois pour suivre votre instinct.\"  
+		},
+		\"terre_yin\": {
+			\"influence\":\"tf\",
+			\"annee\": \"Une douce dynamique et une belle endurance vont vous guider vers la réussite de votre projet ce mois ci.\",
+			\"mois\": \"C'est le moment idéal pour suivre votre instinct.\",
+			\"jour\": \"Chance et instinct seront les mots clés de ce mois ci.\",
+			\"heure\": \"Vous avez le sentiment que ce mois ci est votre mois.\"  
+		},
+		\"metal_yang\": {
+			\"influence\":\"cc\",
+			\"annee\": \"Vous allez réussir à convaincre si vous restez réceptif et bienveillant.\",
+			\"mois\": \"Soyez prudent avec votre instinct.\",
+			\"jour\": \"La chance ne suffira pas ce mois ci mais votre instinct vous guidera.\",
+			\"heure\": \"Soyez à l'écoute de vos sensations.\" 
+		},
+		\"metal_yin\": {
+			\"influence\":\"pc\",
+			\"annee\": \"Attention à ne pas être trop insistant pour convaincre vos proches.\",
+			\"mois\": \"Un peu de patience, faites confiance à votre instinct.\",
+			\"jour\": \"Votre instinct vous dit d'attendre un peu.\",
+			\"heure\": \"Prenez le temps de la réflexion pour mettre de l'ordre dans vos sentiments.\"
+		},
+		\"eau_yang\": {
+			\"influence\":\"fc\",
+			\"annee\": \"C'est le mois idéal pour convaincre vos proches de la réussite de vos proches.\",
+			\"mois\": \"Un mois placé sous le signe de l'instinct.\",
+			\"jour\": \"Profitez de votre chance et suivez votre instinct.\",
+			\"heure\": \"Un bon mois pour suivre son instinct.\"  
+		},
+		\"eau_yin\": {
+			\"influence\":\"d\",
+			\"annee\": \"Ne confondez pas ambition et agressivité ce mois ci, vous pourriez froisser vos proches.\",
+			\"mois\": \"Attention à vos sentiments, ce n'est pas le bon mois pour prendre de grandes décisions.\",
+			\"jour\": \"Ne comptez pas sur la chance pour ce mois.\",
+			\"heure\": \"Ce n'est pas le bon mois pour suivre votre instinct.\"  
+		}
+	}
+	"</item>
+	
+	<item name="binome18_j" type="string">"{
+		\"bois_yang\": {
+			\"influence\":\"tf\",
+			\"annee\": \"Vous devriez remporter une belle adhésion sur tout ce que vous proposez aujourd’hui.\",
+			\"mois\": \"C'est le moment idéal pour suivre votre instinct.\",
+			\"jour\": \"Chance et instinct seront les mots clés de cette journée.\",
+			\"heure\": \"Vous avez le sentiment que cette journée est votre journée.\"  
+		},
+		\"bois_yin\": {
+			\"influence\":\"cc\",
+			\"annee\": \"Vous allez réussir à convaincre si vous restez réceptif et bienveillant.\",
+			\"mois\": \"Soyez prudent avec votre instinct.\",
+			\"jour\": \"La chance ne suffira pas aujourd'hui mais votre instinct vous guidera.\",
+			\"heure\": \"Soyez à l'écoute de vos sensations.\" 
+		},
+		\"feu_yang\": {
+			\"influence\":\"pc\",
+			\"annee\": \"Attention à ne pas être trop insistant pour convaincre vos proches.\",
+			\"mois\": \"Un peu de patience, faites confiance à votre instinct.\",
+			\"jour\": \"Votre instinct vous dit d'attendre un peu.\",
+			\"heure\": \"Prenez le temps de la réflexion pour mettre de l'ordre dans vos sentiments.\"
+		},
+		\"feu_yin\": {
+			\"influence\":\"fc\",
+			\"annee\": \"C'est la journée idéale pour convaincre vos proches de la réussite de vos proches.\",
+			\"mois\": \"Une journée placée sous le signe de l'instinct.\",
+			\"jour\": \"Profitez de votre chance et suivez votre instinct.\",
+			\"heure\": \"Une bonne journée pour suivre son instinct.\"  
+		},
+		\"terre_yang\": {
+			\"influence\":\"d\",
+			\"annee\": \"Ne confondez pas ambition et agressivité aujourd'hui, vous pourriez froisser vos proches.\",
+			\"mois\": \"Attention à vos sentiments, ce n'est pas la bonne journée pour prendre de grandes décisions.\",
+			\"jour\": \"Ne comptez pas sur la chance aujourd'hui.\",
+			\"heure\": \"Ce n'est pas la bonne journée pour suivre votre instinct.\"  
+		},
+		\"terre_yin\": {
+			\"influence\":\"tf\",
+			\"annee\": \"Une douce dynamique et une belle endurance vont vous guider vers la réussite de votre projet aujourd’hui.\",
+			\"mois\": \"C'est le moment idéal pour suivre votre instinct.\",
+			\"jour\": \"Chance et instinct seront les mots clés de cette journée.\",
+			\"heure\": \"Vous avez le sentiment que cette journée est votre journée.\"  
+		},
+		\"metal_yang\": {
+			\"influence\":\"cc\",
+			\"annee\": \"Vous allez réussir à convaincre si vous restez réceptif et bienveillant.\",
+			\"mois\": \"Soyez prudent avec votre instinct.\",
+			\"jour\": \"La chance ne suffira pas aujourd'hui mais votre instinct vous guidera.\",
+			\"heure\": \"Soyez à l'écoute de vos sensations.\" 
+		},
+		\"metal_yin\": {
+			\"influence\":\"pc\",
+			\"annee\": \"Attention à ne pas être trop insistant pour convaincre vos proches.\",
+			\"mois\": \"Un peu de patience, faites confiance à votre instinct.\",
+			\"jour\": \"Votre instinct vous dit d'attendre un peu.\",
+			\"heure\": \"Prenez le temps de la réflexion pour mettre de l'ordre dans vos sentiments.\"
+		},
+		\"eau_yang\": {
+			\"influence\":\"fc\",
+			\"annee\": \"C'est la journée idéale pour convaincre vos proches de la réussite de vos proches.\",
+			\"mois\": \"Une journée placée sous le signe de l'instinct.\",
+			\"jour\": \"Profitez de votre chance et suivez votre instinct.\",
+			\"heure\": \"Une bonne journée pour suivre son instinct.\"  
+		},
+		\"eau_yin\": {
+			\"influence\":\"d\",
+			\"annee\": \"Ne confondez pas ambition et agressivité aujourd'hui, vous pourriez froisser vos proches.\",
+			\"mois\": \"Attention à vos sentiments, ce n'est pas la bonne journée pour prendre de grandes décisions.\",
+			\"jour\": \"Ne comptez pas sur la chance aujourd'hui.\",
+			\"heure\": \"Ce n'est pas la bonne journée pour suivre votre instinct.\"  
+		}
+	}
+	"</item>
+
+	<item name="binome31_a" type="string">"{
+		\"bois_yang\": {
+			\"influence\":\"tf\",
+			\"annee\": \"Une douce dynamique et une belle endurance vont vous guider vers la réussite de votre projet cette année.\",
+			\"mois\": \"C'est le moment idéal pour suivre votre instinct.\",
+			\"jour\": \"Chance et instinct seront les mots clés de cette année.\",
+			\"heure\": \"Vous avez le sentiment que cette année est votre année.\"  
+		},
+		\"bois_yin\": {
+			\"influence\":\"cc\",
+			\"annee\": \"Vous allez réussir à convaincre si vous restez réceptif et bienveillant.\",
+			\"mois\": \"Soyez prudent avec votre instinct.\",
+			\"jour\": \"La chance ne suffira pas cette année mais votre instinct vous guidera.\",
+			\"heure\": \"Soyez à l'écoute de vos sensations.\" 
+		},
+		\"feu_yang\": {
+			\"influence\":\"pc\",
+			\"annee\": \"Attention à ne pas être trop insistant pour convaincre vos proches.\",
+			\"mois\": \"Un peu de patience, faites confiance à votre instinct.\",
+			\"jour\": \"Votre instinct vous dit d'attendre un peu.\",
+			\"heure\": \"Prenez le temps de la réflexion pour mettre de l'ordre dans vos sentiments.\"
+		},
+		\"feu_yin\": {
+			\"influence\":\"fc\",
+			\"annee\": \"C'est l'année idéale pour convaincre vos proches de la réussite de vos proches.\",
+			\"mois\": \"Une année placée sous le signe de l'instinct.\",
+			\"jour\": \"Profitez de votre chance et suivez votre instinct.\",
+			\"heure\": \"Une bonne année pour suivre son instinct.\"  
+		},
+		\"terre_yang\": {
+			\"influence\":\"d\",
+			\"annee\": \"Ne confondez pas ambition et agressivité cette année, vous pourriez froisser vos proches.\",
+			\"mois\": \"Attention à vos sentiments, ce n'est pas la bonne année pour prendre de grandes décisions.\",
+			\"jour\": \"Ne comptez pas sur la chance cette année.\",
+			\"heure\": \"Ce n'est pas la bonne année pour suivre votre instinct.\"  
+		},
+		\"terre_yin\": {
+			\"influence\":\"tf\",
+			\"annee\": \"Une douce dynamique et une belle endurance vont vous guider vers la réussite de votre projet cette année.\",
+			\"mois\": \"C'est le moment idéal pour suivre votre instinct.\",
+			\"jour\": \"Chance et instinct seront les mots clés de cette année.\",
+			\"heure\": \"Vous avez le sentiment que cette année est votre année.\"  
+		},
+		\"metal_yang\": {
+			\"influence\":\"cc\",
+			\"annee\": \"Vous allez réussir à convaincre si vous restez réceptif et bienveillant.\",
+			\"mois\": \"Soyez prudent avec votre instinct.\",
+			\"jour\": \"La chance ne suffira pas cette année mais votre instinct vous guidera.\",
+			\"heure\": \"Soyez à l'écoute de vos sensations.\" 
+		},
+		\"metal_yin\": {
+			\"influence\":\"pc\",
+			\"annee\": \"Attention à ne pas être trop insistant pour convaincre vos proches.\",
+			\"mois\": \"Un peu de patience, faites confiance à votre instinct.\",
+			\"jour\": \"Votre instinct vous dit d'attendre un peu.\",
+			\"heure\": \"Prenez le temps de la réflexion pour mettre de l'ordre dans vos sentiments.\"
+		},
+		\"eau_yang\": {
+			\"influence\":\"fc\",
+			\"annee\": \"C'est l'année idéale pour convaincre vos proches de la réussite de vos proches.\",
+			\"mois\": \"Une année placée sous le signe de l'instinct.\",
+			\"jour\": \"Profitez de votre chance et suivez votre instinct.\",
+			\"heure\": \"Une bonne année pour suivre son instinct.\"  
+		},
+		\"eau_yin\": {
+			\"influence\":\"d\",
+			\"annee\": \"Ne confondez pas ambition et agressivité cette année, vous pourriez froisser vos proches.\",
+			\"mois\": \"Attention à vos sentiments, ce n'est pas la bonne année pour prendre de grandes décisions.\",
+			\"jour\": \"Ne comptez pas sur la chance cette année.\",
+			\"heure\": \"Ce n'est pas la bonne année pour suivre votre instinct.\"  
+		}
+	}
+	"</item>
+   
+	<item name="binome31_m" type="string">"{
+		\"bois_yang\": {
+			\"influence\":\"tf\",
+			\"annee\": \"Une douce dynamique et une belle endurance vont vous guider vers la réussite de votre projet ce mois ci.\",
+			\"mois\": \"C'est le moment idéal pour suivre votre instinct.\",
+			\"jour\": \"Chance et instinct seront les mots clés de ce mois ci.\",
+			\"heure\": \"Vous avez le sentiment que ce mois ci est votre mois.\"  
+		},
+		\"bois_yin\": {
+			\"influence\":\"cc\",
+			\"annee\": \"Vous allez réussir à convaincre si vous restez réceptif et bienveillant.\",
+			\"mois\": \"Soyez prudent avec votre instinct.\",
+			\"jour\": \"La chance ne suffira pas ce mois ci mais votre instinct vous guidera.\",
+			\"heure\": \"Soyez à l'écoute de vos sensations.\" 
+		},
+		\"feu_yang\": {
+			\"influence\":\"pc\",
+			\"annee\": \"Attention à ne pas être trop insistant pour convaincre vos proches.\",
+			\"mois\": \"Un peu de patience, faites confiance à votre instinct.\",
+			\"jour\": \"Votre instinct vous dit d'attendre un peu.\",
+			\"heure\": \"Prenez le temps de la réflexion pour mettre de l'ordre dans vos sentiments.\"
+		},
+		\"feu_yin\": {
+			\"influence\":\"fc\",
+			\"annee\": \"C'est le mois idéal pour convaincre vos proches de la réussite de vos proches.\",
+			\"mois\": \"Un mois placé sous le signe de l'instinct.\",
+			\"jour\": \"Profitez de votre chance et suivez votre instinct.\",
+			\"heure\": \"Un bon mois pour suivre son instinct.\"  
+		},
+		\"terre_yang\": {
+			\"influence\":\"d\",
+			\"annee\": \"Ne confondez pas ambition et agressivité ce mois ci, vous pourriez froisser vos proches.\",
+			\"mois\": \"Attention à vos sentiments, ce n'est pas le bon mois pour prendre de grandes décisions.\",
+			\"jour\": \"Ne comptez pas sur la chance pour ce mois.\",
+			\"heure\": \"Ce n'est pas le bon mois pour suivre votre instinct.\"  
+		},
+		\"terre_yin\": {
+			\"influence\":\"tf\",
+			\"annee\": \"Une douce dynamique et une belle endurance vont vous guider vers la réussite de votre projet ce mois ci.\",
+			\"mois\": \"C'est le moment idéal pour suivre votre instinct.\",
+			\"jour\": \"Chance et instinct seront les mots clés de ce mois ci.\",
+			\"heure\": \"Vous avez le sentiment que ce mois ci est votre mois.\"  
+		},
+		\"metal_yang\": {
+			\"influence\":\"cc\",
+			\"annee\": \"Vous allez réussir à convaincre si vous restez réceptif et bienveillant.\",
+			\"mois\": \"Soyez prudent avec votre instinct.\",
+			\"jour\": \"La chance ne suffira pas ce mois ci mais votre instinct vous guidera.\",
+			\"heure\": \"Soyez à l'écoute de vos sensations.\" 
+		},
+		\"metal_yin\": {
+			\"influence\":\"pc\",
+			\"annee\": \"Attention à ne pas être trop insistant pour convaincre vos proches.\",
+			\"mois\": \"Un peu de patience, faites confiance à votre instinct.\",
+			\"jour\": \"Votre instinct vous dit d'attendre un peu.\",
+			\"heure\": \"Prenez le temps de la réflexion pour mettre de l'ordre dans vos sentiments.\"
+		},
+		\"eau_yang\": {
+			\"influence\":\"fc\",
+			\"annee\": \"C'est le mois idéal pour convaincre vos proches de la réussite de vos proches.\",
+			\"mois\": \"Un mois placé sous le signe de l'instinct.\",
+			\"jour\": \"Profitez de votre chance et suivez votre instinct.\",
+			\"heure\": \"Un bon mois pour suivre son instinct.\"  
+		},
+		\"eau_yin\": {
+			\"influence\":\"d\",
+			\"annee\": \"Ne confondez pas ambition et agressivité ce mois ci, vous pourriez froisser vos proches.\",
+			\"mois\": \"Attention à vos sentiments, ce n'est pas le bon mois pour prendre de grandes décisions.\",
+			\"jour\": \"Ne comptez pas sur la chance pour ce mois.\",
+			\"heure\": \"Ce n'est pas le bon mois pour suivre votre instinct.\"  
+		}
+	}
+	"</item>
+	
+	<item name="binome31_j" type="string">"{
+		\"bois_yang\": {
+			\"influence\":\"tf\",
+			\"annee\": \"Ecoutez vraiment votre intuition, elle vous portera chance aujourd’hui.\",
+			\"mois\": \"C'est le moment idéal pour suivre votre instinct.\",
+			\"jour\": \"Chance et instinct seront les mots clés de cette journée.\",
+			\"heure\": \"Vous avez le sentiment que cette journée est votre journée.\"  
+		},
+		\"bois_yin\": {
+			\"influence\":\"cc\",
+			\"annee\": \"Aujourd’hui tout vous semblera facile sur le plan professionnel, ne faites pas de gaffe !\",
+			\"mois\": \"Soyez prudent avec votre instinct.\",
+			\"jour\": \"La chance ne suffira pas aujourd'hui mais votre instinct vous guidera.\",
+			\"heure\": \"Soyez à l'écoute de vos sensations.\" 
+		},
+		\"feu_yang\": {
+			\"influence\":\"pc\",
+			\"annee\": \"Attention à ne pas être trop insistant pour convaincre vos proches.\",
+			\"mois\": \"Un peu de patience, faites confiance à votre instinct.\",
+			\"jour\": \"Votre instinct vous dit d'attendre un peu.\",
+			\"heure\": \"Prenez le temps de la réflexion pour mettre de l'ordre dans vos sentiments.\"
+		},
+		\"feu_yin\": {
+			\"influence\":\"fc\",
+			\"annee\": \"C'est la journée idéale pour convaincre vos proches de la réussite de vos proches.\",
+			\"mois\": \"Une journée placée sous le signe de l'instinct.\",
+			\"jour\": \"Profitez de votre chance et suivez votre instinct.\",
+			\"heure\": \"Une bonne journée pour suivre son instinct.\"  
+		},
+		\"terre_yang\": {
+			\"influence\":\"d\",
+			\"annee\": \"Ne confondez pas ambition et agressivité aujourd'hui, vous pourriez froisser vos proches.\",
+			\"mois\": \"Attention à vos sentiments, ce n'est pas la bonne journée pour prendre de grandes décisions.\",
+			\"jour\": \"Ne comptez pas sur la chance aujourd'hui.\",
+			\"heure\": \"Ce n'est pas la bonne journée pour suivre votre instinct.\"  
+		},
+		\"terre_yin\": {
+			\"influence\":\"tf\",
+			\"annee\": \"Une douce dynamique et une belle endurance vont vous guider vers la réussite de votre projet aujourd’hui.\",
+			\"mois\": \"C'est le moment idéal pour suivre votre instinct.\",
+			\"jour\": \"Chance et instinct seront les mots clés de cette journée.\",
+			\"heure\": \"Vous avez le sentiment que cette journée est votre journée.\"  
+		},
+		\"metal_yang\": {
+			\"influence\":\"cc\",
+			\"annee\": \"Vous allez réussir à convaincre si vous restez réceptif et bienveillant.\",
+			\"mois\": \"Soyez prudent avec votre instinct.\",
+			\"jour\": \"La chance ne suffira pas aujourd'hui mais votre instinct vous guidera.\",
+			\"heure\": \"Soyez à l'écoute de vos sensations.\" 
+		},
+		\"metal_yin\": {
+			\"influence\":\"pc\",
+			\"annee\": \"Attention à ne pas être trop insistant pour convaincre vos proches.\",
+			\"mois\": \"Un peu de patience, faites confiance à votre instinct.\",
+			\"jour\": \"Votre instinct vous dit d'attendre un peu.\",
+			\"heure\": \"Prenez le temps de la réflexion pour mettre de l'ordre dans vos sentiments.\"
+		},
+		\"eau_yang\": {
+			\"influence\":\"fc\",
+			\"annee\": \"C'est la journée idéale pour convaincre vos proches de la réussite de vos proches.\",
+			\"mois\": \"Une journée placée sous le signe de l'instinct.\",
+			\"jour\": \"Profitez de votre chance et suivez votre instinct.\",
+			\"heure\": \"Une bonne journée pour suivre son instinct.\"  
+		},
+		\"eau_yin\": {
+			\"influence\":\"d\",
+			\"annee\": \"Ne confondez pas ambition et agressivité aujourd'hui, vous pourriez froisser vos proches.\",
+			\"mois\": \"Attention à vos sentiments, ce n'est pas la bonne journée pour prendre de grandes décisions.\",
+			\"jour\": \"Ne comptez pas sur la chance aujourd'hui.\",
+			\"heure\": \"Ce n'est pas la bonne journée pour suivre votre instinct.\"  
+		}
+	}
+	"</item>
+
+	<item name="binome32_a" type="string">"{
+		\"bois_yang\": {
+			\"influence\":\"tf\",
+			\"annee\": \"Une douce dynamique et une belle endurance vont vous guider vers la réussite de votre projet cette année.\",
+			\"mois\": \"C'est le moment idéal pour suivre votre instinct.\",
+			\"jour\": \"Chance et instinct seront les mots clés de cette année.\",
+			\"heure\": \"Vous avez le sentiment que cette année est votre année.\"  
+		},
+		\"bois_yin\": {
+			\"influence\":\"cc\",
+			\"annee\": \"Vous allez réussir à convaincre si vous restez réceptif et bienveillant.\",
+			\"mois\": \"Soyez prudent avec votre instinct.\",
+			\"jour\": \"La chance ne suffira pas cette année mais votre instinct vous guidera.\",
+			\"heure\": \"Soyez à l'écoute de vos sensations.\" 
+		},
+		\"feu_yang\": {
+			\"influence\":\"pc\",
+			\"annee\": \"Attention à ne pas être trop insistant pour convaincre vos proches.\",
+			\"mois\": \"Un peu de patience, faites confiance à votre instinct.\",
+			\"jour\": \"Votre instinct vous dit d'attendre un peu.\",
+			\"heure\": \"Prenez le temps de la réflexion pour mettre de l'ordre dans vos sentiments.\"
+		},
+		\"feu_yin\": {
+			\"influence\":\"fc\",
+			\"annee\": \"C'est l'année idéale pour convaincre vos proches de la réussite de vos proches.\",
+			\"mois\": \"Une année placée sous le signe de l'instinct.\",
+			\"jour\": \"Profitez de votre chance et suivez votre instinct.\",
+			\"heure\": \"Une bonne année pour suivre son instinct.\"  
+		},
+		\"terre_yang\": {
+			\"influence\":\"d\",
+			\"annee\": \"Ne confondez pas ambition et agressivité cette année, vous pourriez froisser vos proches.\",
+			\"mois\": \"Attention à vos sentiments, ce n'est pas la bonne année pour prendre de grandes décisions.\",
+			\"jour\": \"Ne comptez pas sur la chance cette année.\",
+			\"heure\": \"Ce n'est pas la bonne année pour suivre votre instinct.\"  
+		},
+		\"terre_yin\": {
+			\"influence\":\"tf\",
+			\"annee\": \"Une douce dynamique et une belle endurance vont vous guider vers la réussite de votre projet cette année.\",
+			\"mois\": \"C'est le moment idéal pour suivre votre instinct.\",
+			\"jour\": \"Chance et instinct seront les mots clés de cette année.\",
+			\"heure\": \"Vous avez le sentiment que cette année est votre année.\"  
+		},
+		\"metal_yang\": {
+			\"influence\":\"cc\",
+			\"annee\": \"Vous allez réussir à convaincre si vous restez réceptif et bienveillant.\",
+			\"mois\": \"Soyez prudent avec votre instinct.\",
+			\"jour\": \"La chance ne suffira pas cette année mais votre instinct vous guidera.\",
+			\"heure\": \"Soyez à l'écoute de vos sensations.\" 
+		},
+		\"metal_yin\": {
+			\"influence\":\"pc\",
+			\"annee\": \"Attention à ne pas être trop insistant pour convaincre vos proches.\",
+			\"mois\": \"Un peu de patience, faites confiance à votre instinct.\",
+			\"jour\": \"Votre instinct vous dit d'attendre un peu.\",
+			\"heure\": \"Prenez le temps de la réflexion pour mettre de l'ordre dans vos sentiments.\"
+		},
+		\"eau_yang\": {
+			\"influence\":\"fc\",
+			\"annee\": \"C'est l'année idéale pour convaincre vos proches de la réussite de vos proches.\",
+			\"mois\": \"Une année placée sous le signe de l'instinct.\",
+			\"jour\": \"Profitez de votre chance et suivez votre instinct.\",
+			\"heure\": \"Une bonne année pour suivre son instinct.\"  
+		},
+		\"eau_yin\": {
+			\"influence\":\"d\",
+			\"annee\": \"Ne confondez pas ambition et agressivité cette année, vous pourriez froisser vos proches.\",
+			\"mois\": \"Attention à vos sentiments, ce n'est pas la bonne année pour prendre de grandes décisions.\",
+			\"jour\": \"Ne comptez pas sur la chance cette année.\",
+			\"heure\": \"Ce n'est pas la bonne année pour suivre votre instinct.\"  
+		}
+	}
+	"</item>
+   
+	<item name="binome32_m" type="string">"{
+		\"bois_yang\": {
+			\"influence\":\"tf\",
+			\"annee\": \"Une douce dynamique et une belle endurance vont vous guider vers la réussite de votre projet ce mois ci.\",
+			\"mois\": \"C'est le moment idéal pour suivre votre instinct.\",
+			\"jour\": \"Chance et instinct seront les mots clés de ce mois ci.\",
+			\"heure\": \"Vous avez le sentiment que ce mois ci est votre mois.\"  
+		},
+		\"bois_yin\": {
+			\"influence\":\"cc\",
+			\"annee\": \"Vous allez réussir à convaincre si vous restez réceptif et bienveillant.\",
+			\"mois\": \"Soyez prudent avec votre instinct.\",
+			\"jour\": \"La chance ne suffira pas ce mois ci mais votre instinct vous guidera.\",
+			\"heure\": \"Soyez à l'écoute de vos sensations.\" 
+		},
+		\"feu_yang\": {
+			\"influence\":\"pc\",
+			\"annee\": \"Attention à ne pas être trop insistant pour convaincre vos proches.\",
+			\"mois\": \"Un peu de patience, faites confiance à votre instinct.\",
+			\"jour\": \"Votre instinct vous dit d'attendre un peu.\",
+			\"heure\": \"Prenez le temps de la réflexion pour mettre de l'ordre dans vos sentiments.\"
+		},
+		\"feu_yin\": {
+			\"influence\":\"fc\",
+			\"annee\": \"C'est le mois idéal pour convaincre vos proches de la réussite de vos proches.\",
+			\"mois\": \"Un mois placé sous le signe de l'instinct.\",
+			\"jour\": \"Profitez de votre chance et suivez votre instinct.\",
+			\"heure\": \"Un bon mois pour suivre son instinct.\"  
+		},
+		\"terre_yang\": {
+			\"influence\":\"d\",
+			\"annee\": \"Ne confondez pas ambition et agressivité ce mois ci, vous pourriez froisser vos proches.\",
+			\"mois\": \"Attention à vos sentiments, ce n'est pas le bon mois pour prendre de grandes décisions.\",
+			\"jour\": \"Ne comptez pas sur la chance pour ce mois.\",
+			\"heure\": \"Ce n'est pas le bon mois pour suivre votre instinct.\"  
+		},
+		\"terre_yin\": {
+			\"influence\":\"tf\",
+			\"annee\": \"Une douce dynamique et une belle endurance vont vous guider vers la réussite de votre projet ce mois ci.\",
+			\"mois\": \"C'est le moment idéal pour suivre votre instinct.\",
+			\"jour\": \"Chance et instinct seront les mots clés de ce mois ci.\",
+			\"heure\": \"Vous avez le sentiment que ce mois ci est votre mois.\"  
+		},
+		\"metal_yang\": {
+			\"influence\":\"cc\",
+			\"annee\": \"Vous allez réussir à convaincre si vous restez réceptif et bienveillant.\",
+			\"mois\": \"Soyez prudent avec votre instinct.\",
+			\"jour\": \"La chance ne suffira pas ce mois ci mais votre instinct vous guidera.\",
+			\"heure\": \"Soyez à l'écoute de vos sensations.\" 
+		},
+		\"metal_yin\": {
+			\"influence\":\"pc\",
+			\"annee\": \"Attention à ne pas être trop insistant pour convaincre vos proches.\",
+			\"mois\": \"Un peu de patience, faites confiance à votre instinct.\",
+			\"jour\": \"Votre instinct vous dit d'attendre un peu.\",
+			\"heure\": \"Prenez le temps de la réflexion pour mettre de l'ordre dans vos sentiments.\"
+		},
+		\"eau_yang\": {
+			\"influence\":\"fc\",
+			\"annee\": \"C'est le mois idéal pour convaincre vos proches de la réussite de vos proches.\",
+			\"mois\": \"Un mois placé sous le signe de l'instinct.\",
+			\"jour\": \"Profitez de votre chance et suivez votre instinct.\",
+			\"heure\": \"Un bon mois pour suivre son instinct.\"  
+		},
+		\"eau_yin\": {
+			\"influence\":\"d\",
+			\"annee\": \"Ne confondez pas ambition et agressivité ce mois ci, vous pourriez froisser vos proches.\",
+			\"mois\": \"Attention à vos sentiments, ce n'est pas le bon mois pour prendre de grandes décisions.\",
+			\"jour\": \"Ne comptez pas sur la chance pour ce mois.\",
+			\"heure\": \"Ce n'est pas le bon mois pour suivre votre instinct.\"  
+		}
+	}
+	"</item>
+	
+	<item name="binome32_j" type="string">"{
+		\"bois_yang\": {
+			\"influence\":\"tf\",
+			\"annee\": \"Laissez votre intuition guider votre journée…C’est favorable.\",
+			\"mois\": \"C'est le moment idéal pour suivre votre instinct.\",
+			\"jour\": \"Chance et instinct seront les mots clés de cette journée.\",
+			\"heure\": \"Vous avez le sentiment que cette journée est votre journée.\"  
+		},
+		\"bois_yin\": {
+			\"influence\":\"cc\",
+			\"annee\": \"Encore une journée favorable pour vos projets, profitez en pour faire le plein d’énergies positives !\",
+			\"mois\": \"Soyez prudent avec votre instinct.\",
+			\"jour\": \"La chance ne suffira pas aujourd'hui mais votre instinct vous guidera.\",
+			\"heure\": \"Soyez à l'écoute de vos sensations.\" 
+		},
+		\"feu_yang\": {
+			\"influence\":\"pc\",
+			\"annee\": \"Attention à ne pas être trop insistant pour convaincre vos proches.\",
+			\"mois\": \"Un peu de patience, faites confiance à votre instinct.\",
+			\"jour\": \"Votre instinct vous dit d'attendre un peu.\",
+			\"heure\": \"Prenez le temps de la réflexion pour mettre de l'ordre dans vos sentiments.\"
+		},
+		\"feu_yin\": {
+			\"influence\":\"fc\",
+			\"annee\": \"C'est la journée idéale pour convaincre vos proches de la réussite de vos proches.\",
+			\"mois\": \"Une journée placée sous le signe de l'instinct.\",
+			\"jour\": \"Profitez de votre chance et suivez votre instinct.\",
+			\"heure\": \"Une bonne journée pour suivre son instinct.\"  
+		},
+		\"terre_yang\": {
+			\"influence\":\"d\",
+			\"annee\": \"Ne confondez pas ambition et agressivité aujourd'hui, vous pourriez froisser vos proches.\",
+			\"mois\": \"Attention à vos sentiments, ce n'est pas la bonne journée pour prendre de grandes décisions.\",
+			\"jour\": \"Ne comptez pas sur la chance aujourd'hui.\",
+			\"heure\": \"Ce n'est pas la bonne journée pour suivre votre instinct.\"  
+		},
+		\"terre_yin\": {
+			\"influence\":\"tf\",
+			\"annee\": \"Une douce dynamique et une belle endurance vont vous guider vers la réussite de votre projet aujourd’hui.\",
+			\"mois\": \"C'est le moment idéal pour suivre votre instinct.\",
+			\"jour\": \"Chance et instinct seront les mots clés de cette journée.\",
+			\"heure\": \"Vous avez le sentiment que cette journée est votre journée.\"  
+		},
+		\"metal_yang\": {
+			\"influence\":\"cc\",
+			\"annee\": \"Vous allez réussir à convaincre si vous restez réceptif et bienveillant.\",
+			\"mois\": \"Soyez prudent avec votre instinct.\",
+			\"jour\": \"La chance ne suffira pas aujourd'hui mais votre instinct vous guidera.\",
+			\"heure\": \"Soyez à l'écoute de vos sensations.\" 
+		},
+		\"metal_yin\": {
+			\"influence\":\"pc\",
+			\"annee\": \"Attention à ne pas être trop insistant pour convaincre vos proches.\",
+			\"mois\": \"Un peu de patience, faites confiance à votre instinct.\",
+			\"jour\": \"Votre instinct vous dit d'attendre un peu.\",
+			\"heure\": \"Prenez le temps de la réflexion pour mettre de l'ordre dans vos sentiments.\"
+		},
+		\"eau_yang\": {
+			\"influence\":\"fc\",
+			\"annee\": \"C'est la journée idéale pour convaincre vos proches de la réussite de vos proches.\",
+			\"mois\": \"Une journée placée sous le signe de l'instinct.\",
+			\"jour\": \"Profitez de votre chance et suivez votre instinct.\",
+			\"heure\": \"Une bonne journée pour suivre son instinct.\"  
+		},
+		\"eau_yin\": {
+			\"influence\":\"d\",
+			\"annee\": \"Ne confondez pas ambition et agressivité aujourd'hui, vous pourriez froisser vos proches.\",
+			\"mois\": \"Attention à vos sentiments, ce n'est pas la bonne journée pour prendre de grandes décisions.\",
+			\"jour\": \"Ne comptez pas sur la chance aujourd'hui.\",
+			\"heure\": \"Ce n'est pas la bonne journée pour suivre votre instinct.\"  
+		}
+	}
+	"</item>
+
+	<item name="binome39_a" type="string">"{
+		\"bois_yang\": {
+			\"influence\":\"tf\",
+			\"annee\": \"Une douce dynamique et une belle endurance vont vous guider vers la réussite de votre projet cette année.\",
+			\"mois\": \"C'est le moment idéal pour suivre votre instinct.\",
+			\"jour\": \"Chance et instinct seront les mots clés de cette année.\",
+			\"heure\": \"Vous avez le sentiment que cette année est votre année.\"  
+		},
+		\"bois_yin\": {
+			\"influence\":\"cc\",
+			\"annee\": \"Vous allez réussir à convaincre si vous restez réceptif et bienveillant.\",
+			\"mois\": \"Soyez prudent avec votre instinct.\",
+			\"jour\": \"La chance ne suffira pas cette année mais votre instinct vous guidera.\",
+			\"heure\": \"Soyez à l'écoute de vos sensations.\" 
+		},
+		\"feu_yang\": {
+			\"influence\":\"pc\",
+			\"annee\": \"Attention à ne pas être trop insistant pour convaincre vos proches.\",
+			\"mois\": \"Un peu de patience, faites confiance à votre instinct.\",
+			\"jour\": \"Votre instinct vous dit d'attendre un peu.\",
+			\"heure\": \"Prenez le temps de la réflexion pour mettre de l'ordre dans vos sentiments.\"
+		},
+		\"feu_yin\": {
+			\"influence\":\"fc\",
+			\"annee\": \"C'est l'année idéale pour convaincre vos proches de la réussite de vos proches.\",
+			\"mois\": \"Une année placée sous le signe de l'instinct.\",
+			\"jour\": \"Profitez de votre chance et suivez votre instinct.\",
+			\"heure\": \"Une bonne année pour suivre son instinct.\"  
+		},
+		\"terre_yang\": {
+			\"influence\":\"d\",
+			\"annee\": \"Ne confondez pas ambition et agressivité cette année, vous pourriez froisser vos proches.\",
+			\"mois\": \"Attention à vos sentiments, ce n'est pas la bonne année pour prendre de grandes décisions.\",
+			\"jour\": \"Ne comptez pas sur la chance cette année.\",
+			\"heure\": \"Ce n'est pas la bonne année pour suivre votre instinct.\"  
+		},
+		\"terre_yin\": {
+			\"influence\":\"tf\",
+			\"annee\": \"Une douce dynamique et une belle endurance vont vous guider vers la réussite de votre projet cette année.\",
+			\"mois\": \"C'est le moment idéal pour suivre votre instinct.\",
+			\"jour\": \"Chance et instinct seront les mots clés de cette année.\",
+			\"heure\": \"Vous avez le sentiment que cette année est votre année.\"  
+		},
+		\"metal_yang\": {
+			\"influence\":\"cc\",
+			\"annee\": \"Vous allez réussir à convaincre si vous restez réceptif et bienveillant.\",
+			\"mois\": \"Soyez prudent avec votre instinct.\",
+			\"jour\": \"La chance ne suffira pas cette année mais votre instinct vous guidera.\",
+			\"heure\": \"Soyez à l'écoute de vos sensations.\" 
+		},
+		\"metal_yin\": {
+			\"influence\":\"pc\",
+			\"annee\": \"Attention à ne pas être trop insistant pour convaincre vos proches.\",
+			\"mois\": \"Un peu de patience, faites confiance à votre instinct.\",
+			\"jour\": \"Votre instinct vous dit d'attendre un peu.\",
+			\"heure\": \"Prenez le temps de la réflexion pour mettre de l'ordre dans vos sentiments.\"
+		},
+		\"eau_yang\": {
+			\"influence\":\"fc\",
+			\"annee\": \"C'est l'année idéale pour convaincre vos proches de la réussite de vos proches.\",
+			\"mois\": \"Une année placée sous le signe de l'instinct.\",
+			\"jour\": \"Profitez de votre chance et suivez votre instinct.\",
+			\"heure\": \"Une bonne année pour suivre son instinct.\"  
+		},
+		\"eau_yin\": {
+			\"influence\":\"d\",
+			\"annee\": \"Ne confondez pas ambition et agressivité cette année, vous pourriez froisser vos proches.\",
+			\"mois\": \"Attention à vos sentiments, ce n'est pas la bonne année pour prendre de grandes décisions.\",
+			\"jour\": \"Ne comptez pas sur la chance cette année.\",
+			\"heure\": \"Ce n'est pas la bonne année pour suivre votre instinct.\"  
+		}
+	}
+	"</item>
+   
+	<item name="binome39_m" type="string">"{
+		\"bois_yang\": {
+			\"influence\":\"tf\",
+			\"annee\": \"Une douce dynamique et une belle endurance vont vous guider vers la réussite de votre projet ce mois ci.\",
+			\"mois\": \"C'est le moment idéal pour suivre votre instinct.\",
+			\"jour\": \"Chance et instinct seront les mots clés de ce mois ci.\",
+			\"heure\": \"Vous avez le sentiment que ce mois ci est votre mois.\"  
+		},
+		\"bois_yin\": {
+			\"influence\":\"cc\",
+			\"annee\": \"Vous allez réussir à convaincre si vous restez réceptif et bienveillant.\",
+			\"mois\": \"Soyez prudent avec votre instinct.\",
+			\"jour\": \"La chance ne suffira pas ce mois ci mais votre instinct vous guidera.\",
+			\"heure\": \"Soyez à l'écoute de vos sensations.\" 
+		},
+		\"feu_yang\": {
+			\"influence\":\"pc\",
+			\"annee\": \"Attention à ne pas être trop insistant pour convaincre vos proches.\",
+			\"mois\": \"Un peu de patience, faites confiance à votre instinct.\",
+			\"jour\": \"Votre instinct vous dit d'attendre un peu.\",
+			\"heure\": \"Prenez le temps de la réflexion pour mettre de l'ordre dans vos sentiments.\"
+		},
+		\"feu_yin\": {
+			\"influence\":\"fc\",
+			\"annee\": \"C'est le mois idéal pour convaincre vos proches de la réussite de vos proches.\",
+			\"mois\": \"Un mois placé sous le signe de l'instinct.\",
+			\"jour\": \"Profitez de votre chance et suivez votre instinct.\",
+			\"heure\": \"Un bon mois pour suivre son instinct.\"  
+		},
+		\"terre_yang\": {
+			\"influence\":\"d\",
+			\"annee\": \"Ne confondez pas ambition et agressivité ce mois ci, vous pourriez froisser vos proches.\",
+			\"mois\": \"Attention à vos sentiments, ce n'est pas le bon mois pour prendre de grandes décisions.\",
+			\"jour\": \"Ne comptez pas sur la chance pour ce mois.\",
+			\"heure\": \"Ce n'est pas le bon mois pour suivre votre instinct.\"  
+		},
+		\"terre_yin\": {
+			\"influence\":\"tf\",
+			\"annee\": \"Une douce dynamique et une belle endurance vont vous guider vers la réussite de votre projet ce mois ci.\",
+			\"mois\": \"C'est le moment idéal pour suivre votre instinct.\",
+			\"jour\": \"Chance et instinct seront les mots clés de ce mois ci.\",
+			\"heure\": \"Vous avez le sentiment que ce mois ci est votre mois.\"  
+		},
+		\"metal_yang\": {
+			\"influence\":\"cc\",
+			\"annee\": \"Vous allez réussir à convaincre si vous restez réceptif et bienveillant.\",
+			\"mois\": \"Soyez prudent avec votre instinct.\",
+			\"jour\": \"La chance ne suffira pas ce mois ci mais votre instinct vous guidera.\",
+			\"heure\": \"Soyez à l'écoute de vos sensations.\" 
+		},
+		\"metal_yin\": {
+			\"influence\":\"pc\",
+			\"annee\": \"Attention à ne pas être trop insistant pour convaincre vos proches.\",
+			\"mois\": \"Un peu de patience, faites confiance à votre instinct.\",
+			\"jour\": \"Votre instinct vous dit d'attendre un peu.\",
+			\"heure\": \"Prenez le temps de la réflexion pour mettre de l'ordre dans vos sentiments.\"
+		},
+		\"eau_yang\": {
+			\"influence\":\"fc\",
+			\"annee\": \"C'est le mois idéal pour convaincre vos proches de la réussite de vos proches.\",
+			\"mois\": \"Un mois placé sous le signe de l'instinct.\",
+			\"jour\": \"Profitez de votre chance et suivez votre instinct.\",
+			\"heure\": \"Un bon mois pour suivre son instinct.\"  
+		},
+		\"eau_yin\": {
+			\"influence\":\"d\",
+			\"annee\": \"Ne confondez pas ambition et agressivité ce mois ci, vous pourriez froisser vos proches.\",
+			\"mois\": \"Attention à vos sentiments, ce n'est pas le bon mois pour prendre de grandes décisions.\",
+			\"jour\": \"Ne comptez pas sur la chance pour ce mois.\",
+			\"heure\": \"Ce n'est pas le bon mois pour suivre votre instinct.\"  
+		}
+	}
+	"</item>
+	
+	<item name="binome39_j" type="string">"{
+		\"bois_yang\": {
+			\"influence\":\"tf\",
+			\"annee\": \"Du réalisme et du concret assorti d’un bon feeling aujourd’hui…Exposez vos idées avec franchise.\",
+			\"mois\": \"C'est le moment idéal pour suivre votre instinct.\",
+			\"jour\": \"Chance et instinct seront les mots clés de cette journée.\",
+			\"heure\": \"Vous avez le sentiment que cette journée est votre journée.\"  
+		},
+		\"bois_yin\": {
+			\"influence\":\"cc\",
+			\"annee\": \"Vous ressentez beaucoup les choses aujourd’hui mais cela peut freiner votre créativité... Décrispez vous !\",
+			\"mois\": \"Soyez prudent avec votre instinct.\",
+			\"jour\": \"La chance ne suffira pas aujourd'hui mais votre instinct vous guidera.\",
+			\"heure\": \"Soyez à l'écoute de vos sensations.\" 
+		},
+		\"feu_yang\": {
+			\"influence\":\"pc\",
+			\"annee\": \"Attention à ne pas être trop insistant pour convaincre vos proches.\",
+			\"mois\": \"Un peu de patience, faites confiance à votre instinct.\",
+			\"jour\": \"Votre instinct vous dit d'attendre un peu.\",
+			\"heure\": \"Prenez le temps de la réflexion pour mettre de l'ordre dans vos sentiments.\"
+		},
+		\"feu_yin\": {
+			\"influence\":\"fc\",
+			\"annee\": \"C'est la journée idéale pour convaincre vos proches de la réussite de vos proches.\",
+			\"mois\": \"Une journée placée sous le signe de l'instinct.\",
+			\"jour\": \"Profitez de votre chance et suivez votre instinct.\",
+			\"heure\": \"Une bonne journée pour suivre son instinct.\"  
+		},
+		\"terre_yang\": {
+			\"influence\":\"d\",
+			\"annee\": \"Ne confondez pas ambition et agressivité aujourd'hui, vous pourriez froisser vos proches.\",
+			\"mois\": \"Attention à vos sentiments, ce n'est pas la bonne journée pour prendre de grandes décisions.\",
+			\"jour\": \"Ne comptez pas sur la chance aujourd'hui.\",
+			\"heure\": \"Ce n'est pas la bonne journée pour suivre votre instinct.\"  
+		},
+		\"terre_yin\": {
+			\"influence\":\"tf\",
+			\"annee\": \"Une douce dynamique et une belle endurance vont vous guider vers la réussite de votre projet aujourd’hui.\",
+			\"mois\": \"C'est le moment idéal pour suivre votre instinct.\",
+			\"jour\": \"Chance et instinct seront les mots clés de cette journée.\",
+			\"heure\": \"Vous avez le sentiment que cette journée est votre journée.\"  
+		},
+		\"metal_yang\": {
+			\"influence\":\"cc\",
+			\"annee\": \"Vous allez réussir à convaincre si vous restez réceptif et bienveillant.\",
+			\"mois\": \"Soyez prudent avec votre instinct.\",
+			\"jour\": \"La chance ne suffira pas aujourd'hui mais votre instinct vous guidera.\",
+			\"heure\": \"Soyez à l'écoute de vos sensations.\" 
+		},
+		\"metal_yin\": {
+			\"influence\":\"pc\",
+			\"annee\": \"Attention à ne pas être trop insistant pour convaincre vos proches.\",
+			\"mois\": \"Un peu de patience, faites confiance à votre instinct.\",
+			\"jour\": \"Votre instinct vous dit d'attendre un peu.\",
+			\"heure\": \"Prenez le temps de la réflexion pour mettre de l'ordre dans vos sentiments.\"
+		},
+		\"eau_yang\": {
+			\"influence\":\"fc\",
+			\"annee\": \"C'est la journée idéale pour convaincre vos proches de la réussite de vos proches.\",
+			\"mois\": \"Une journée placée sous le signe de l'instinct.\",
+			\"jour\": \"Profitez de votre chance et suivez votre instinct.\",
+			\"heure\": \"Une bonne journée pour suivre son instinct.\"  
+		},
+		\"eau_yin\": {
+			\"influence\":\"d\",
+			\"annee\": \"Ne confondez pas ambition et agressivité aujourd'hui, vous pourriez froisser vos proches.\",
+			\"mois\": \"Attention à vos sentiments, ce n'est pas la bonne journée pour prendre de grandes décisions.\",
+			\"jour\": \"Ne comptez pas sur la chance aujourd'hui.\",
+			\"heure\": \"Ce n'est pas la bonne journée pour suivre votre instinct.\"  
+		}
+	}
+	"</item>
+
+	<item name="binome40_a" type="string">"{
+		\"bois_yang\": {
+			\"influence\":\"tf\",
+			\"annee\": \"Une douce dynamique et une belle endurance vont vous guider vers la réussite de votre projet cette année.\",
+			\"mois\": \"C'est le moment idéal pour suivre votre instinct.\",
+			\"jour\": \"Chance et instinct seront les mots clés de cette année.\",
+			\"heure\": \"Vous avez le sentiment que cette année est votre année.\"  
+		},
+		\"bois_yin\": {
+			\"influence\":\"cc\",
+			\"annee\": \"Vous allez réussir à convaincre si vous restez réceptif et bienveillant.\",
+			\"mois\": \"Soyez prudent avec votre instinct.\",
+			\"jour\": \"La chance ne suffira pas cette année mais votre instinct vous guidera.\",
+			\"heure\": \"Soyez à l'écoute de vos sensations.\" 
+		},
+		\"feu_yang\": {
+			\"influence\":\"pc\",
+			\"annee\": \"Attention à ne pas être trop insistant pour convaincre vos proches.\",
+			\"mois\": \"Un peu de patience, faites confiance à votre instinct.\",
+			\"jour\": \"Votre instinct vous dit d'attendre un peu.\",
+			\"heure\": \"Prenez le temps de la réflexion pour mettre de l'ordre dans vos sentiments.\"
+		},
+		\"feu_yin\": {
+			\"influence\":\"fc\",
+			\"annee\": \"C'est l'année idéale pour convaincre vos proches de la réussite de vos proches.\",
+			\"mois\": \"Une année placée sous le signe de l'instinct.\",
+			\"jour\": \"Profitez de votre chance et suivez votre instinct.\",
+			\"heure\": \"Une bonne année pour suivre son instinct.\"  
+		},
+		\"terre_yang\": {
+			\"influence\":\"d\",
+			\"annee\": \"Ne confondez pas ambition et agressivité cette année, vous pourriez froisser vos proches.\",
+			\"mois\": \"Attention à vos sentiments, ce n'est pas la bonne année pour prendre de grandes décisions.\",
+			\"jour\": \"Ne comptez pas sur la chance cette année.\",
+			\"heure\": \"Ce n'est pas la bonne année pour suivre votre instinct.\"  
+		},
+		\"terre_yin\": {
+			\"influence\":\"tf\",
+			\"annee\": \"Une douce dynamique et une belle endurance vont vous guider vers la réussite de votre projet cette année.\",
+			\"mois\": \"C'est le moment idéal pour suivre votre instinct.\",
+			\"jour\": \"Chance et instinct seront les mots clés de cette année.\",
+			\"heure\": \"Vous avez le sentiment que cette année est votre année.\"  
+		},
+		\"metal_yang\": {
+			\"influence\":\"cc\",
+			\"annee\": \"Vous allez réussir à convaincre si vous restez réceptif et bienveillant.\",
+			\"mois\": \"Soyez prudent avec votre instinct.\",
+			\"jour\": \"La chance ne suffira pas cette année mais votre instinct vous guidera.\",
+			\"heure\": \"Soyez à l'écoute de vos sensations.\" 
+		},
+		\"metal_yin\": {
+			\"influence\":\"pc\",
+			\"annee\": \"Attention à ne pas être trop insistant pour convaincre vos proches.\",
+			\"mois\": \"Un peu de patience, faites confiance à votre instinct.\",
+			\"jour\": \"Votre instinct vous dit d'attendre un peu.\",
+			\"heure\": \"Prenez le temps de la réflexion pour mettre de l'ordre dans vos sentiments.\"
+		},
+		\"eau_yang\": {
+			\"influence\":\"fc\",
+			\"annee\": \"C'est l'année idéale pour convaincre vos proches de la réussite de vos proches.\",
+			\"mois\": \"Une année placée sous le signe de l'instinct.\",
+			\"jour\": \"Profitez de votre chance et suivez votre instinct.\",
+			\"heure\": \"Une bonne année pour suivre son instinct.\"  
+		},
+		\"eau_yin\": {
+			\"influence\":\"d\",
+			\"annee\": \"Ne confondez pas ambition et agressivité cette année, vous pourriez froisser vos proches.\",
+			\"mois\": \"Attention à vos sentiments, ce n'est pas la bonne année pour prendre de grandes décisions.\",
+			\"jour\": \"Ne comptez pas sur la chance cette année.\",
+			\"heure\": \"Ce n'est pas la bonne année pour suivre votre instinct.\"  
+		}
+	}
+	"</item>
+   
+	<item name="binome40_m" type="string">"{
+		\"bois_yang\": {
+			\"influence\":\"tf\",
+			\"annee\": \"Une douce dynamique et une belle endurance vont vous guider vers la réussite de votre projet ce mois ci.\",
+			\"mois\": \"C'est le moment idéal pour suivre votre instinct.\",
+			\"jour\": \"Chance et instinct seront les mots clés de ce mois ci.\",
+			\"heure\": \"Vous avez le sentiment que ce mois ci est votre mois.\"  
+		},
+		\"bois_yin\": {
+			\"influence\":\"cc\",
+			\"annee\": \"Vous allez réussir à convaincre si vous restez réceptif et bienveillant.\",
+			\"mois\": \"Soyez prudent avec votre instinct.\",
+			\"jour\": \"La chance ne suffira pas ce mois ci mais votre instinct vous guidera.\",
+			\"heure\": \"Soyez à l'écoute de vos sensations.\" 
+		},
+		\"feu_yang\": {
+			\"influence\":\"pc\",
+			\"annee\": \"Attention à ne pas être trop insistant pour convaincre vos proches.\",
+			\"mois\": \"Un peu de patience, faites confiance à votre instinct.\",
+			\"jour\": \"Votre instinct vous dit d'attendre un peu.\",
+			\"heure\": \"Prenez le temps de la réflexion pour mettre de l'ordre dans vos sentiments.\"
+		},
+		\"feu_yin\": {
+			\"influence\":\"fc\",
+			\"annee\": \"C'est le mois idéal pour convaincre vos proches de la réussite de vos proches.\",
+			\"mois\": \"Un mois placé sous le signe de l'instinct.\",
+			\"jour\": \"Profitez de votre chance et suivez votre instinct.\",
+			\"heure\": \"Un bon mois pour suivre son instinct.\"  
+		},
+		\"terre_yang\": {
+			\"influence\":\"d\",
+			\"annee\": \"Ne confondez pas ambition et agressivité ce mois ci, vous pourriez froisser vos proches.\",
+			\"mois\": \"Attention à vos sentiments, ce n'est pas le bon mois pour prendre de grandes décisions.\",
+			\"jour\": \"Ne comptez pas sur la chance pour ce mois.\",
+			\"heure\": \"Ce n'est pas le bon mois pour suivre votre instinct.\"  
+		},
+		\"terre_yin\": {
+			\"influence\":\"tf\",
+			\"annee\": \"Une douce dynamique et une belle endurance vont vous guider vers la réussite de votre projet ce mois ci.\",
+			\"mois\": \"C'est le moment idéal pour suivre votre instinct.\",
+			\"jour\": \"Chance et instinct seront les mots clés de ce mois ci.\",
+			\"heure\": \"Vous avez le sentiment que ce mois ci est votre mois.\"  
+		},
+		\"metal_yang\": {
+			\"influence\":\"cc\",
+			\"annee\": \"Vous allez réussir à convaincre si vous restez réceptif et bienveillant.\",
+			\"mois\": \"Soyez prudent avec votre instinct.\",
+			\"jour\": \"La chance ne suffira pas ce mois ci mais votre instinct vous guidera.\",
+			\"heure\": \"Soyez à l'écoute de vos sensations.\" 
+		},
+		\"metal_yin\": {
+			\"influence\":\"pc\",
+			\"annee\": \"Attention à ne pas être trop insistant pour convaincre vos proches.\",
+			\"mois\": \"Un peu de patience, faites confiance à votre instinct.\",
+			\"jour\": \"Votre instinct vous dit d'attendre un peu.\",
+			\"heure\": \"Prenez le temps de la réflexion pour mettre de l'ordre dans vos sentiments.\"
+		},
+		\"eau_yang\": {
+			\"influence\":\"fc\",
+			\"annee\": \"C'est le mois idéal pour convaincre vos proches de la réussite de vos proches.\",
+			\"mois\": \"Un mois placé sous le signe de l'instinct.\",
+			\"jour\": \"Profitez de votre chance et suivez votre instinct.\",
+			\"heure\": \"Un bon mois pour suivre son instinct.\"  
+		},
+		\"eau_yin\": {
+			\"influence\":\"d\",
+			\"annee\": \"Ne confondez pas ambition et agressivité ce mois ci, vous pourriez froisser vos proches.\",
+			\"mois\": \"Attention à vos sentiments, ce n'est pas le bon mois pour prendre de grandes décisions.\",
+			\"jour\": \"Ne comptez pas sur la chance pour ce mois.\",
+			\"heure\": \"Ce n'est pas le bon mois pour suivre votre instinct.\"  
+		}
+	}
+	"</item>
+	
+	<item name="binome40_j" type="string">"{
+		\"bois_yang\": {
+			\"influence\":\"tf\",
+			\"annee\": \"Beaucoup de sensibilité et de rigueur devraient vous aider à faire passer vos idées.\",
+			\"mois\": \"C'est le moment idéal pour suivre votre instinct.\",
+			\"jour\": \"Chance et instinct seront les mots clés de cette journée.\",
+			\"heure\": \"Vous avez le sentiment que cette journée est votre journée.\"  
+		},
+		\"bois_yin\": {
+			\"influence\":\"cc\",
+			\"annee\": \"Ne vous laissez pas décourager par ce que vous ressentez, restez rigoureux et créatif.\",
+			\"mois\": \"Soyez prudent avec votre instinct.\",
+			\"jour\": \"La chance ne suffira pas aujourd'hui mais votre instinct vous guidera.\",
+			\"heure\": \"Soyez à l'écoute de vos sensations.\" 
+		},
+		\"feu_yang\": {
+			\"influence\":\"pc\",
+			\"annee\": \"Attention à ne pas être trop insistant pour convaincre vos proches.\",
+			\"mois\": \"Un peu de patience, faites confiance à votre instinct.\",
+			\"jour\": \"Votre instinct vous dit d'attendre un peu.\",
+			\"heure\": \"Prenez le temps de la réflexion pour mettre de l'ordre dans vos sentiments.\"
+		},
+		\"feu_yin\": {
+			\"influence\":\"fc\",
+			\"annee\": \"C'est la journée idéale pour convaincre vos proches de la réussite de vos proches.\",
+			\"mois\": \"Une journée placée sous le signe de l'instinct.\",
+			\"jour\": \"Profitez de votre chance et suivez votre instinct.\",
+			\"heure\": \"Une bonne journée pour suivre son instinct.\"  
+		},
+		\"terre_yang\": {
+			\"influence\":\"d\",
+			\"annee\": \"Ne confondez pas ambition et agressivité aujourd'hui, vous pourriez froisser vos proches.\",
+			\"mois\": \"Attention à vos sentiments, ce n'est pas la bonne journée pour prendre de grandes décisions.\",
+			\"jour\": \"Ne comptez pas sur la chance aujourd'hui.\",
+			\"heure\": \"Ce n'est pas la bonne journée pour suivre votre instinct.\"  
+		},
+		\"terre_yin\": {
+			\"influence\":\"tf\",
+			\"annee\": \"Une douce dynamique et une belle endurance vont vous guider vers la réussite de votre projet aujourd’hui.\",
+			\"mois\": \"C'est le moment idéal pour suivre votre instinct.\",
+			\"jour\": \"Chance et instinct seront les mots clés de cette journée.\",
+			\"heure\": \"Vous avez le sentiment que cette journée est votre journée.\"  
+		},
+		\"metal_yang\": {
+			\"influence\":\"cc\",
+			\"annee\": \"Vous allez réussir à convaincre si vous restez réceptif et bienveillant.\",
+			\"mois\": \"Soyez prudent avec votre instinct.\",
+			\"jour\": \"La chance ne suffira pas aujourd'hui mais votre instinct vous guidera.\",
+			\"heure\": \"Soyez à l'écoute de vos sensations.\" 
+		},
+		\"metal_yin\": {
+			\"influence\":\"pc\",
+			\"annee\": \"Attention à ne pas être trop insistant pour convaincre vos proches.\",
+			\"mois\": \"Un peu de patience, faites confiance à votre instinct.\",
+			\"jour\": \"Votre instinct vous dit d'attendre un peu.\",
+			\"heure\": \"Prenez le temps de la réflexion pour mettre de l'ordre dans vos sentiments.\"
+		},
+		\"eau_yang\": {
+			\"influence\":\"fc\",
+			\"annee\": \"C'est la journée idéale pour convaincre vos proches de la réussite de vos proches.\",
+			\"mois\": \"Une journée placée sous le signe de l'instinct.\",
+			\"jour\": \"Profitez de votre chance et suivez votre instinct.\",
+			\"heure\": \"Une bonne journée pour suivre son instinct.\"  
+		},
+		\"eau_yin\": {
+			\"influence\":\"d\",
+			\"annee\": \"Ne confondez pas ambition et agressivité aujourd'hui, vous pourriez froisser vos proches.\",
+			\"mois\": \"Attention à vos sentiments, ce n'est pas la bonne journée pour prendre de grandes décisions.\",
+			\"jour\": \"Ne comptez pas sur la chance aujourd'hui.\",
+			\"heure\": \"Ce n'est pas la bonne journée pour suivre votre instinct.\"  
+		}
+	}
+	"</item>
+
+	<item name="binome47_a" type="string">"{
+		\"bois_yang\": {
+			\"influence\":\"tf\",
+			\"annee\": \"Une douce dynamique et une belle endurance vont vous guider vers la réussite de votre projet cette année.\",
+			\"mois\": \"C'est le moment idéal pour suivre votre instinct.\",
+			\"jour\": \"Chance et instinct seront les mots clés de cette année.\",
+			\"heure\": \"Vous avez le sentiment que cette année est votre année.\"  
+		},
+		\"bois_yin\": {
+			\"influence\":\"cc\",
+			\"annee\": \"Vous allez réussir à convaincre si vous restez réceptif et bienveillant.\",
+			\"mois\": \"Soyez prudent avec votre instinct.\",
+			\"jour\": \"La chance ne suffira pas cette année mais votre instinct vous guidera.\",
+			\"heure\": \"Soyez à l'écoute de vos sensations.\" 
+		},
+		\"feu_yang\": {
+			\"influence\":\"pc\",
+			\"annee\": \"Attention à ne pas être trop insistant pour convaincre vos proches.\",
+			\"mois\": \"Un peu de patience, faites confiance à votre instinct.\",
+			\"jour\": \"Votre instinct vous dit d'attendre un peu.\",
+			\"heure\": \"Prenez le temps de la réflexion pour mettre de l'ordre dans vos sentiments.\"
+		},
+		\"feu_yin\": {
+			\"influence\":\"fc\",
+			\"annee\": \"C'est l'année idéale pour convaincre vos proches de la réussite de vos proches.\",
+			\"mois\": \"Une année placée sous le signe de l'instinct.\",
+			\"jour\": \"Profitez de votre chance et suivez votre instinct.\",
+			\"heure\": \"Une bonne année pour suivre son instinct.\"  
+		},
+		\"terre_yang\": {
+			\"influence\":\"d\",
+			\"annee\": \"Ne confondez pas ambition et agressivité cette année, vous pourriez froisser vos proches.\",
+			\"mois\": \"Attention à vos sentiments, ce n'est pas la bonne année pour prendre de grandes décisions.\",
+			\"jour\": \"Ne comptez pas sur la chance cette année.\",
+			\"heure\": \"Ce n'est pas la bonne année pour suivre votre instinct.\"  
+		},
+		\"terre_yin\": {
+			\"influence\":\"tf\",
+			\"annee\": \"Une douce dynamique et une belle endurance vont vous guider vers la réussite de votre projet cette année.\",
+			\"mois\": \"C'est le moment idéal pour suivre votre instinct.\",
+			\"jour\": \"Chance et instinct seront les mots clés de cette année.\",
+			\"heure\": \"Vous avez le sentiment que cette année est votre année.\"  
+		},
+		\"metal_yang\": {
+			\"influence\":\"cc\",
+			\"annee\": \"Vous allez réussir à convaincre si vous restez réceptif et bienveillant.\",
+			\"mois\": \"Soyez prudent avec votre instinct.\",
+			\"jour\": \"La chance ne suffira pas cette année mais votre instinct vous guidera.\",
+			\"heure\": \"Soyez à l'écoute de vos sensations.\" 
+		},
+		\"metal_yin\": {
+			\"influence\":\"pc\",
+			\"annee\": \"Attention à ne pas être trop insistant pour convaincre vos proches.\",
+			\"mois\": \"Un peu de patience, faites confiance à votre instinct.\",
+			\"jour\": \"Votre instinct vous dit d'attendre un peu.\",
+			\"heure\": \"Prenez le temps de la réflexion pour mettre de l'ordre dans vos sentiments.\"
+		},
+		\"eau_yang\": {
+			\"influence\":\"fc\",
+			\"annee\": \"C'est l'année idéale pour convaincre vos proches de la réussite de vos proches.\",
+			\"mois\": \"Une année placée sous le signe de l'instinct.\",
+			\"jour\": \"Profitez de votre chance et suivez votre instinct.\",
+			\"heure\": \"Une bonne année pour suivre son instinct.\"  
+		},
+		\"eau_yin\": {
+			\"influence\":\"d\",
+			\"annee\": \"Ne confondez pas ambition et agressivité cette année, vous pourriez froisser vos proches.\",
+			\"mois\": \"Attention à vos sentiments, ce n'est pas la bonne année pour prendre de grandes décisions.\",
+			\"jour\": \"Ne comptez pas sur la chance cette année.\",
+			\"heure\": \"Ce n'est pas la bonne année pour suivre votre instinct.\"  
+		}
+	}
+	"</item>
+   
+	<item name="binome47_m" type="string">"{
+		\"bois_yang\": {
+			\"influence\":\"tf\",
+			\"annee\": \"Une douce dynamique et une belle endurance vont vous guider vers la réussite de votre projet ce mois ci.\",
+			\"mois\": \"C'est le moment idéal pour suivre votre instinct.\",
+			\"jour\": \"Chance et instinct seront les mots clés de ce mois ci.\",
+			\"heure\": \"Vous avez le sentiment que ce mois ci est votre mois.\"  
+		},
+		\"bois_yin\": {
+			\"influence\":\"cc\",
+			\"annee\": \"Vous allez réussir à convaincre si vous restez réceptif et bienveillant.\",
+			\"mois\": \"Soyez prudent avec votre instinct.\",
+			\"jour\": \"La chance ne suffira pas ce mois ci mais votre instinct vous guidera.\",
+			\"heure\": \"Soyez à l'écoute de vos sensations.\" 
+		},
+		\"feu_yang\": {
+			\"influence\":\"pc\",
+			\"annee\": \"Attention à ne pas être trop insistant pour convaincre vos proches.\",
+			\"mois\": \"Un peu de patience, faites confiance à votre instinct.\",
+			\"jour\": \"Votre instinct vous dit d'attendre un peu.\",
+			\"heure\": \"Prenez le temps de la réflexion pour mettre de l'ordre dans vos sentiments.\"
+		},
+		\"feu_yin\": {
+			\"influence\":\"fc\",
+			\"annee\": \"C'est le mois idéal pour convaincre vos proches de la réussite de vos proches.\",
+			\"mois\": \"Un mois placé sous le signe de l'instinct.\",
+			\"jour\": \"Profitez de votre chance et suivez votre instinct.\",
+			\"heure\": \"Un bon mois pour suivre son instinct.\"  
+		},
+		\"terre_yang\": {
+			\"influence\":\"d\",
+			\"annee\": \"Ne confondez pas ambition et agressivité ce mois ci, vous pourriez froisser vos proches.\",
+			\"mois\": \"Attention à vos sentiments, ce n'est pas le bon mois pour prendre de grandes décisions.\",
+			\"jour\": \"Ne comptez pas sur la chance pour ce mois.\",
+			\"heure\": \"Ce n'est pas le bon mois pour suivre votre instinct.\"  
+		},
+		\"terre_yin\": {
+			\"influence\":\"tf\",
+			\"annee\": \"Une douce dynamique et une belle endurance vont vous guider vers la réussite de votre projet ce mois ci.\",
+			\"mois\": \"C'est le moment idéal pour suivre votre instinct.\",
+			\"jour\": \"Chance et instinct seront les mots clés de ce mois ci.\",
+			\"heure\": \"Vous avez le sentiment que ce mois ci est votre mois.\"  
+		},
+		\"metal_yang\": {
+			\"influence\":\"cc\",
+			\"annee\": \"Vous allez réussir à convaincre si vous restez réceptif et bienveillant.\",
+			\"mois\": \"Soyez prudent avec votre instinct.\",
+			\"jour\": \"La chance ne suffira pas ce mois ci mais votre instinct vous guidera.\",
+			\"heure\": \"Soyez à l'écoute de vos sensations.\" 
+		},
+		\"metal_yin\": {
+			\"influence\":\"pc\",
+			\"annee\": \"Attention à ne pas être trop insistant pour convaincre vos proches.\",
+			\"mois\": \"Un peu de patience, faites confiance à votre instinct.\",
+			\"jour\": \"Votre instinct vous dit d'attendre un peu.\",
+			\"heure\": \"Prenez le temps de la réflexion pour mettre de l'ordre dans vos sentiments.\"
+		},
+		\"eau_yang\": {
+			\"influence\":\"fc\",
+			\"annee\": \"C'est le mois idéal pour convaincre vos proches de la réussite de vos proches.\",
+			\"mois\": \"Un mois placé sous le signe de l'instinct.\",
+			\"jour\": \"Profitez de votre chance et suivez votre instinct.\",
+			\"heure\": \"Un bon mois pour suivre son instinct.\"  
+		},
+		\"eau_yin\": {
+			\"influence\":\"d\",
+			\"annee\": \"Ne confondez pas ambition et agressivité ce mois ci, vous pourriez froisser vos proches.\",
+			\"mois\": \"Attention à vos sentiments, ce n'est pas le bon mois pour prendre de grandes décisions.\",
+			\"jour\": \"Ne comptez pas sur la chance pour ce mois.\",
+			\"heure\": \"Ce n'est pas le bon mois pour suivre votre instinct.\"  
+		}
+	}
+	"</item>
+	
+	<item name="binome47_j" type="string">"{
+		\"bois_yang\": {
+			\"influence\":\"tf\",
+			\"annee\": \"Vous pouvez vous appuyer sur cette journée pour présenter vos projets même les plus sophistiqués ou difficiles…\",
+			\"mois\": \"C'est le moment idéal pour suivre votre instinct.\",
+			\"jour\": \"Chance et instinct seront les mots clés de cette journée.\",
+			\"heure\": \"Vous avez le sentiment que cette journée est votre journée.\"  
+		},
+		\"bois_yin\": {
+			\"influence\":\"cc\",
+			\"annee\": \"Journée idéale pour présenter des idées osées et originales mais gare à l’approximation.\",
+			\"mois\": \"Soyez prudent avec votre instinct.\",
+			\"jour\": \"La chance ne suffira pas aujourd'hui mais votre instinct vous guidera.\",
+			\"heure\": \"Soyez à l'écoute de vos sensations.\" 
+		},
+		\"feu_yang\": {
+			\"influence\":\"pc\",
+			\"annee\": \"Attention à ne pas être trop insistant pour convaincre vos proches.\",
+			\"mois\": \"Un peu de patience, faites confiance à votre instinct.\",
+			\"jour\": \"Votre instinct vous dit d'attendre un peu.\",
+			\"heure\": \"Prenez le temps de la réflexion pour mettre de l'ordre dans vos sentiments.\"
+		},
+		\"feu_yin\": {
+			\"influence\":\"fc\",
+			\"annee\": \"C'est la journée idéale pour convaincre vos proches de la réussite de vos proches.\",
+			\"mois\": \"Une journée placée sous le signe de l'instinct.\",
+			\"jour\": \"Profitez de votre chance et suivez votre instinct.\",
+			\"heure\": \"Une bonne journée pour suivre son instinct.\"  
+		},
+		\"terre_yang\": {
+			\"influence\":\"d\",
+			\"annee\": \"Ne confondez pas ambition et agressivité aujourd'hui, vous pourriez froisser vos proches.\",
+			\"mois\": \"Attention à vos sentiments, ce n'est pas la bonne journée pour prendre de grandes décisions.\",
+			\"jour\": \"Ne comptez pas sur la chance aujourd'hui.\",
+			\"heure\": \"Ce n'est pas la bonne journée pour suivre votre instinct.\"  
+		},
+		\"terre_yin\": {
+			\"influence\":\"tf\",
+			\"annee\": \"Une douce dynamique et une belle endurance vont vous guider vers la réussite de votre projet aujourd’hui.\",
+			\"mois\": \"C'est le moment idéal pour suivre votre instinct.\",
+			\"jour\": \"Chance et instinct seront les mots clés de cette journée.\",
+			\"heure\": \"Vous avez le sentiment que cette journée est votre journée.\"  
+		},
+		\"metal_yang\": {
+			\"influence\":\"cc\",
+			\"annee\": \"Vous allez réussir à convaincre si vous restez réceptif et bienveillant.\",
+			\"mois\": \"Soyez prudent avec votre instinct.\",
+			\"jour\": \"La chance ne suffira pas aujourd'hui mais votre instinct vous guidera.\",
+			\"heure\": \"Soyez à l'écoute de vos sensations.\" 
+		},
+		\"metal_yin\": {
+			\"influence\":\"pc\",
+			\"annee\": \"Attention à ne pas être trop insistant pour convaincre vos proches.\",
+			\"mois\": \"Un peu de patience, faites confiance à votre instinct.\",
+			\"jour\": \"Votre instinct vous dit d'attendre un peu.\",
+			\"heure\": \"Prenez le temps de la réflexion pour mettre de l'ordre dans vos sentiments.\"
+		},
+		\"eau_yang\": {
+			\"influence\":\"fc\",
+			\"annee\": \"C'est la journée idéale pour convaincre vos proches de la réussite de vos proches.\",
+			\"mois\": \"Une journée placée sous le signe de l'instinct.\",
+			\"jour\": \"Profitez de votre chance et suivez votre instinct.\",
+			\"heure\": \"Une bonne journée pour suivre son instinct.\"  
+		},
+		\"eau_yin\": {
+			\"influence\":\"d\",
+			\"annee\": \"Ne confondez pas ambition et agressivité aujourd'hui, vous pourriez froisser vos proches.\",
+			\"mois\": \"Attention à vos sentiments, ce n'est pas la bonne journée pour prendre de grandes décisions.\",
+			\"jour\": \"Ne comptez pas sur la chance aujourd'hui.\",
+			\"heure\": \"Ce n'est pas la bonne journée pour suivre votre instinct.\"  
+		}
+	}
+	"</item>
+
+	<item name="binome48_a" type="string">"{
+		\"bois_yang\": {
+			\"influence\":\"tf\",
+			\"annee\": \"Une douce dynamique et une belle endurance vont vous guider vers la réussite de votre projet cette année.\",
+			\"mois\": \"C'est le moment idéal pour suivre votre instinct.\",
+			\"jour\": \"Chance et instinct seront les mots clés de cette année.\",
+			\"heure\": \"Vous avez le sentiment que cette année est votre année.\"  
+		},
+		\"bois_yin\": {
+			\"influence\":\"cc\",
+			\"annee\": \"Vous allez réussir à convaincre si vous restez réceptif et bienveillant.\",
+			\"mois\": \"Soyez prudent avec votre instinct.\",
+			\"jour\": \"La chance ne suffira pas cette année mais votre instinct vous guidera.\",
+			\"heure\": \"Soyez à l'écoute de vos sensations.\" 
+		},
+		\"feu_yang\": {
+			\"influence\":\"pc\",
+			\"annee\": \"Attention à ne pas être trop insistant pour convaincre vos proches.\",
+			\"mois\": \"Un peu de patience, faites confiance à votre instinct.\",
+			\"jour\": \"Votre instinct vous dit d'attendre un peu.\",
+			\"heure\": \"Prenez le temps de la réflexion pour mettre de l'ordre dans vos sentiments.\"
+		},
+		\"feu_yin\": {
+			\"influence\":\"fc\",
+			\"annee\": \"C'est l'année idéale pour convaincre vos proches de la réussite de vos proches.\",
+			\"mois\": \"Une année placée sous le signe de l'instinct.\",
+			\"jour\": \"Profitez de votre chance et suivez votre instinct.\",
+			\"heure\": \"Une bonne année pour suivre son instinct.\"  
+		},
+		\"terre_yang\": {
+			\"influence\":\"d\",
+			\"annee\": \"Ne confondez pas ambition et agressivité cette année, vous pourriez froisser vos proches.\",
+			\"mois\": \"Attention à vos sentiments, ce n'est pas la bonne année pour prendre de grandes décisions.\",
+			\"jour\": \"Ne comptez pas sur la chance cette année.\",
+			\"heure\": \"Ce n'est pas la bonne année pour suivre votre instinct.\"  
+		},
+		\"terre_yin\": {
+			\"influence\":\"tf\",
+			\"annee\": \"Une douce dynamique et une belle endurance vont vous guider vers la réussite de votre projet cette année.\",
+			\"mois\": \"C'est le moment idéal pour suivre votre instinct.\",
+			\"jour\": \"Chance et instinct seront les mots clés de cette année.\",
+			\"heure\": \"Vous avez le sentiment que cette année est votre année.\"  
+		},
+		\"metal_yang\": {
+			\"influence\":\"cc\",
+			\"annee\": \"Vous allez réussir à convaincre si vous restez réceptif et bienveillant.\",
+			\"mois\": \"Soyez prudent avec votre instinct.\",
+			\"jour\": \"La chance ne suffira pas cette année mais votre instinct vous guidera.\",
+			\"heure\": \"Soyez à l'écoute de vos sensations.\" 
+		},
+		\"metal_yin\": {
+			\"influence\":\"pc\",
+			\"annee\": \"Attention à ne pas être trop insistant pour convaincre vos proches.\",
+			\"mois\": \"Un peu de patience, faites confiance à votre instinct.\",
+			\"jour\": \"Votre instinct vous dit d'attendre un peu.\",
+			\"heure\": \"Prenez le temps de la réflexion pour mettre de l'ordre dans vos sentiments.\"
+		},
+		\"eau_yang\": {
+			\"influence\":\"fc\",
+			\"annee\": \"C'est l'année idéale pour convaincre vos proches de la réussite de vos proches.\",
+			\"mois\": \"Une année placée sous le signe de l'instinct.\",
+			\"jour\": \"Profitez de votre chance et suivez votre instinct.\",
+			\"heure\": \"Une bonne année pour suivre son instinct.\"  
+		},
+		\"eau_yin\": {
+			\"influence\":\"d\",
+			\"annee\": \"Ne confondez pas ambition et agressivité cette année, vous pourriez froisser vos proches.\",
+			\"mois\": \"Attention à vos sentiments, ce n'est pas la bonne année pour prendre de grandes décisions.\",
+			\"jour\": \"Ne comptez pas sur la chance cette année.\",
+			\"heure\": \"Ce n'est pas la bonne année pour suivre votre instinct.\"  
+		}
+	}
+	"</item>
+   
+	<item name="binome48_m" type="string">"{
+		\"bois_yang\": {
+			\"influence\":\"tf\",
+			\"annee\": \"Une douce dynamique et une belle endurance vont vous guider vers la réussite de votre projet ce mois ci.\",
+			\"mois\": \"C'est le moment idéal pour suivre votre instinct.\",
+			\"jour\": \"Chance et instinct seront les mots clés de ce mois ci.\",
+			\"heure\": \"Vous avez le sentiment que ce mois ci est votre mois.\"  
+		},
+		\"bois_yin\": {
+			\"influence\":\"cc\",
+			\"annee\": \"Vous allez réussir à convaincre si vous restez réceptif et bienveillant.\",
+			\"mois\": \"Soyez prudent avec votre instinct.\",
+			\"jour\": \"La chance ne suffira pas ce mois ci mais votre instinct vous guidera.\",
+			\"heure\": \"Soyez à l'écoute de vos sensations.\" 
+		},
+		\"feu_yang\": {
+			\"influence\":\"pc\",
+			\"annee\": \"Attention à ne pas être trop insistant pour convaincre vos proches.\",
+			\"mois\": \"Un peu de patience, faites confiance à votre instinct.\",
+			\"jour\": \"Votre instinct vous dit d'attendre un peu.\",
+			\"heure\": \"Prenez le temps de la réflexion pour mettre de l'ordre dans vos sentiments.\"
+		},
+		\"feu_yin\": {
+			\"influence\":\"fc\",
+			\"annee\": \"C'est le mois idéal pour convaincre vos proches de la réussite de vos proches.\",
+			\"mois\": \"Un mois placé sous le signe de l'instinct.\",
+			\"jour\": \"Profitez de votre chance et suivez votre instinct.\",
+			\"heure\": \"Un bon mois pour suivre son instinct.\"  
+		},
+		\"terre_yang\": {
+			\"influence\":\"d\",
+			\"annee\": \"Ne confondez pas ambition et agressivité ce mois ci, vous pourriez froisser vos proches.\",
+			\"mois\": \"Attention à vos sentiments, ce n'est pas le bon mois pour prendre de grandes décisions.\",
+			\"jour\": \"Ne comptez pas sur la chance pour ce mois.\",
+			\"heure\": \"Ce n'est pas le bon mois pour suivre votre instinct.\"  
+		},
+		\"terre_yin\": {
+			\"influence\":\"tf\",
+			\"annee\": \"Une douce dynamique et une belle endurance vont vous guider vers la réussite de votre projet ce mois ci.\",
+			\"mois\": \"C'est le moment idéal pour suivre votre instinct.\",
+			\"jour\": \"Chance et instinct seront les mots clés de ce mois ci.\",
+			\"heure\": \"Vous avez le sentiment que ce mois ci est votre mois.\"  
+		},
+		\"metal_yang\": {
+			\"influence\":\"cc\",
+			\"annee\": \"Vous allez réussir à convaincre si vous restez réceptif et bienveillant.\",
+			\"mois\": \"Soyez prudent avec votre instinct.\",
+			\"jour\": \"La chance ne suffira pas ce mois ci mais votre instinct vous guidera.\",
+			\"heure\": \"Soyez à l'écoute de vos sensations.\" 
+		},
+		\"metal_yin\": {
+			\"influence\":\"pc\",
+			\"annee\": \"Attention à ne pas être trop insistant pour convaincre vos proches.\",
+			\"mois\": \"Un peu de patience, faites confiance à votre instinct.\",
+			\"jour\": \"Votre instinct vous dit d'attendre un peu.\",
+			\"heure\": \"Prenez le temps de la réflexion pour mettre de l'ordre dans vos sentiments.\"
+		},
+		\"eau_yang\": {
+			\"influence\":\"fc\",
+			\"annee\": \"C'est le mois idéal pour convaincre vos proches de la réussite de vos proches.\",
+			\"mois\": \"Un mois placé sous le signe de l'instinct.\",
+			\"jour\": \"Profitez de votre chance et suivez votre instinct.\",
+			\"heure\": \"Un bon mois pour suivre son instinct.\"  
+		},
+		\"eau_yin\": {
+			\"influence\":\"d\",
+			\"annee\": \"Ne confondez pas ambition et agressivité ce mois ci, vous pourriez froisser vos proches.\",
+			\"mois\": \"Attention à vos sentiments, ce n'est pas le bon mois pour prendre de grandes décisions.\",
+			\"jour\": \"Ne comptez pas sur la chance pour ce mois.\",
+			\"heure\": \"Ce n'est pas le bon mois pour suivre votre instinct.\"  
+		}
+	}
+	"</item>
+	
+	<item name="binome48_j" type="string">"{
+		\"bois_yang\": {
+			\"influence\":\"tf\",
+			\"annee\": \"Une séduction certaine et beaucoup de générosité dans vos créations aujourd’hui.\",
+			\"mois\": \"C'est le moment idéal pour suivre votre instinct.\",
+			\"jour\": \"Chance et instinct seront les mots clés de cette journée.\",
+			\"heure\": \"Vous avez le sentiment que cette journée est votre journée.\"  
+		},
+		\"bois_yin\": {
+			\"influence\":\"cc\",
+			\"annee\": \"Une once de douceur et de créativité aujourd’hui, cela fait du bien mais ne vous emballez pas sur toute chose !\",
+			\"mois\": \"Soyez prudent avec votre instinct.\",
+			\"jour\": \"La chance ne suffira pas aujourd'hui mais votre instinct vous guidera.\",
+			\"heure\": \"Soyez à l'écoute de vos sensations.\" 
+		},
+		\"feu_yang\": {
+			\"influence\":\"pc\",
+			\"annee\": \"Attention à ne pas être trop insistant pour convaincre vos proches.\",
+			\"mois\": \"Un peu de patience, faites confiance à votre instinct.\",
+			\"jour\": \"Votre instinct vous dit d'attendre un peu.\",
+			\"heure\": \"Prenez le temps de la réflexion pour mettre de l'ordre dans vos sentiments.\"
+		},
+		\"feu_yin\": {
+			\"influence\":\"fc\",
+			\"annee\": \"C'est la journée idéale pour convaincre vos proches de la réussite de vos proches.\",
+			\"mois\": \"Une journée placée sous le signe de l'instinct.\",
+			\"jour\": \"Profitez de votre chance et suivez votre instinct.\",
+			\"heure\": \"Une bonne journée pour suivre son instinct.\"  
+		},
+		\"terre_yang\": {
+			\"influence\":\"d\",
+			\"annee\": \"Ne confondez pas ambition et agressivité aujourd'hui, vous pourriez froisser vos proches.\",
+			\"mois\": \"Attention à vos sentiments, ce n'est pas la bonne journée pour prendre de grandes décisions.\",
+			\"jour\": \"Ne comptez pas sur la chance aujourd'hui.\",
+			\"heure\": \"Ce n'est pas la bonne journée pour suivre votre instinct.\"  
+		},
+		\"terre_yin\": {
+			\"influence\":\"tf\",
+			\"annee\": \"Une douce dynamique et une belle endurance vont vous guider vers la réussite de votre projet aujourd’hui.\",
+			\"mois\": \"C'est le moment idéal pour suivre votre instinct.\",
+			\"jour\": \"Chance et instinct seront les mots clés de cette journée.\",
+			\"heure\": \"Vous avez le sentiment que cette journée est votre journée.\"  
+		},
+		\"metal_yang\": {
+			\"influence\":\"cc\",
+			\"annee\": \"Vous allez réussir à convaincre si vous restez réceptif et bienveillant.\",
+			\"mois\": \"Soyez prudent avec votre instinct.\",
+			\"jour\": \"La chance ne suffira pas aujourd'hui mais votre instinct vous guidera.\",
+			\"heure\": \"Soyez à l'écoute de vos sensations.\" 
+		},
+		\"metal_yin\": {
+			\"influence\":\"pc\",
+			\"annee\": \"Attention à ne pas être trop insistant pour convaincre vos proches.\",
+			\"mois\": \"Un peu de patience, faites confiance à votre instinct.\",
+			\"jour\": \"Votre instinct vous dit d'attendre un peu.\",
+			\"heure\": \"Prenez le temps de la réflexion pour mettre de l'ordre dans vos sentiments.\"
+		},
+		\"eau_yang\": {
+			\"influence\":\"fc\",
+			\"annee\": \"C'est la journée idéale pour convaincre vos proches de la réussite de vos proches.\",
+			\"mois\": \"Une journée placée sous le signe de l'instinct.\",
+			\"jour\": \"Profitez de votre chance et suivez votre instinct.\",
+			\"heure\": \"Une bonne journée pour suivre son instinct.\"  
+		},
+		\"eau_yin\": {
+			\"influence\":\"d\",
+			\"annee\": \"Ne confondez pas ambition et agressivité aujourd'hui, vous pourriez froisser vos proches.\",
+			\"mois\": \"Attention à vos sentiments, ce n'est pas la bonne journée pour prendre de grandes décisions.\",
+			\"jour\": \"Ne comptez pas sur la chance aujourd'hui.\",
+			\"heure\": \"Ce n'est pas la bonne journée pour suivre votre instinct.\"  
+		}
+	}
+	"</item>
+
+</resources>	

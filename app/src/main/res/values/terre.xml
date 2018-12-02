@@ -1,0 +1,2666 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<item name="binome7_a" type="string">"{
+		"bois_yang": {
+		\"influence\":\"pc\",
+		\"annee\": \"Prenez le temps de la réflexion avant de concrétiser vos projets.\",
+		\"mois\": \"Prenez le temps de la réflexion avant de vous engager dans de grands projets.\",
+		\"jour\": \"Prenez le temps de la réfléxion, la chance n'est pas avec vous.\",
+		\"heure\": \"Vous devriez temporiser un peu vos projets.\"
+		},
+		\"bois_yin\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Une bonne année pour avancer sur vos projets.\",
+		\"mois\": \"C'est le moment de concrétiser votre amour !\",
+		\"jour\": \"Une bonne année pour concrétiser votre chance.\",
+		\"heure\": \"Vos projets n'attendent que vous !\"
+		},
+		\"feu_yang\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ce n'est pas une bonne année pour concrétiser vos projets, temporisez un peu.\",
+		\"mois\": \"Ne vous attendez pas à de grands engagements cette année.\",
+		\"jour\": \"Il serait préférable d'attendre un peu avant de concrétiser vos projets.\",
+		\"heure\": \"Soyez prudent, le temps n'est pas à la concrétisation.\"
+		},
+		\"feu_yin\": {
+		\"influence\":\"tf\",
+		\"annee\": \"C'est l'année idéale pour concrétiser vos projets, foncez !\",
+		\"mois\": \"Cette année est votre année, profitez en pour concrétiser tous vos projets !\",
+		\"jour\": \"La chance est avec vous, la concrétisation de vos projets est à portée de main !\",
+		\"heure\": \"C'est le moment de concrétiser vos projets !\"
+		},
+		\"terre_yang\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Tant que vous serez prudent cette année ne devrait pas avoir trop d'impact sur vos projets.\",
+		\"mois\": \"Soyez prudent avant de foncer tête baissée sur vos projet.\",
+		\"jour\": \"Ne comptez pas sur la chance pour concrétiser vos projets.\",
+		\"heure\": \"Pensez à vous avant de pensez à vos projets.\"
+		},
+		\"terre_yin\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Prenez le temps de la réflexion avant de concrétiser vos projets.\",
+		\"mois\": \"Prenez le temps de la réflexion avant de vous engager dans de grands projets.\",
+		\"jour\": \"Prenez le temps de la réfléxion, la chance n'est pas avec vous.\",
+		\"heure\": \"Vous devriez temporiser un peu vos projets.\"
+		},
+		\"metal_yang\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Une bonne année pour avancer sur vos projets.\",
+		\"mois\": \"C'est le moment de concrétiser votre amour !\",
+		\"jour\": \"Une bonne année pour concrétiser votre chance.\",
+		\"heure\": \"Vos projets n'attendent que vous !\"
+		},
+		\"metal_yin\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ce n'est pas une bonne année pour concrétiser vos projets, temporisez un peu.\",
+		\"mois\": \"Ne vous attendez pas à de grands engagements cette année.\",
+		\"jour\": \"Il serait préférable d'attendre un peu avant de concrétiser vos projets.\",
+		\"heure\": \"Soyez prudent, le temps n'est pas à la concrétisation.\"
+		},
+		\"eau_yang\": {
+		\"influence\":\"tf\",
+		\"annee\": \"C'est l'année idéale pour concrétiser vos projets, foncez !\",
+		\"mois\": \"Cette année est votre année, profitez en pour concrétiser tous vos projets !\",
+		\"jour\": \"La chance est avec vous, la concrétisation de vos projets est à portée de main !\",
+		\"heure\": \"C'est le moment de concrétiser vos projets !\"
+		},
+		\"eau_yin\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Tant que vous serez prudent cette année ne devrait pas avoir trop d'impact sur vos projets.\",
+		\"mois\": \"Soyez prudent avant de foncer tête baissée sur vos projet.\",
+		\"jour\": \"Ne comptez pas sur la chance pour concrétiser vos projets.\",
+		\"heure\": \"Pensez à vous avant de pensez à vos projets.\"
+		}
+		}
+		"</item>
+
+	<item name="binome7_m" type="string">"{
+		\"bois_yang\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Prenez le temps de la réflexion avant de concrétiser vos projets.\",
+		\"mois\": \"Prenez le temps de la réflexion avant de vous engager dans de grands projets.\",
+		\"jour\": \"Prenez le temps de la réfléxion, la chance n'est pas avec vous.\",
+		\"heure\": \"Vous devriez temporiser un peu vos projets.\"
+		},
+		\"bois_yin\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Un bon mois pour avancer sur vos projets.\",
+		\"mois\": \"C'est le moment de concrétiser votre amour !\",
+		\"jour\": \"Un bon mois pour concrétiser votre chance.\",
+		\"heure\": \"Vos projets n'attendent que vous !\"
+		},
+		\"feu_yang\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ce n'est pas un bon mois pour concrétiser vos projets, temporisez un peu.\",
+		\"mois\": \"Ne vous attendez pas à de grands engagements ce mois ci.\",
+		\"jour\": \"Il serait préférable d'attendre un peu avant de concrétiser vos projets.\",
+		\"heure\": \"Soyez prudent, le temps n'est pas à la concrétisation.\"
+		},
+		\"feu_yin\": {
+		\"influence\":\"tf\",
+		\"annee\": \"C'est le mois idéal pour concrétiser vos projets, foncez !\",
+		\"mois\": \"Ce mois ci est votre mois, profitez en pour concrétiser tous vos projets !\",
+		\"jour\": \"La chance est avec vous, la concrétisation de vos projets est à portée de main !\",
+		\"heure\": \"C'est le moment de concrétiser vos projets !\"
+		},
+		\"terre_yang\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Tant que vous serez prudent ce mois ci ne devrait pas avoir trop d'impact sur vos projets.\",
+		\"mois\": \"Soyez prudent avant de foncer tête baissée sur vos projet.\",
+		\"jour\": \"Ne comptez pas sur la chance pour concrétiser vos projets.\",
+		\"heure\": \"Pensez à vous avant de pensez à vos projets.\"
+		},
+		\"terre_yin\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Prenez le temps de la réflexion avant de concrétiser vos projets.\",
+		\"mois\": \"Prenez le temps de la réflexion avant de vous engager dans de grands projets.\",
+		\"jour\": \"Prenez le temps de la réfléxion, la chance n'est pas avec vous.\",
+		\"heure\": \"Vous devriez temporiser un peu vos projets.\"
+		},
+		\"metal_yang\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Un bon mois pour avancer sur vos projets.\",
+		\"mois\": \"C'est le moment de concrétiser votre amour !\",
+		\"jour\": \"Un bon mois pour concrétiser votre chance.\",
+		\"heure\": \"Vos projets n'attendent que vous !\"
+		},
+		\"metal_yin\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ce n'est pas un bon mois pour concrétiser vos projets, temporisez un peu.\",
+		\"mois\": \"Ne vous attendez pas à de grands engagements ce mois ci.\",
+		\"jour\": \"Il serait préférable d'attendre un peu avant de concrétiser vos projets.\",
+		\"heure\": \"Soyez prudent, le temps n'est pas à la concrétisation.\"
+		},
+		\"eau_yang\": {
+		\"influence\":\"tf\",
+		\"annee\": \"C'est le mois idéal pour concrétiser vos projets, foncez !\",
+		\"mois\": \"Ce mois ci est votre mois, profitez en pour concrétiser tous vos projets !\",
+		\"jour\": \"La chance est avec vous, la concrétisation de vos projets est à portée de main !\",
+		\"heure\": \"C'est le moment de concrétiser vos projets !\"
+		},
+		\"eau_yin\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Tant que vous serez prudent ce mois ci ne devrait pas avoir trop d'impact sur vos projets.\",
+		\"mois\": \"Soyez prudent avant de foncer tête baissée sur vos projet.\",
+		\"jour\": \"Ne comptez pas sur la chance pour concrétiser vos projets.\",
+		\"heure\": \"Pensez à vous avant de pensez à vos projets.\"
+		}
+		}
+		"</item>
+
+	<item name="binome7_j" type="string">"{
+		\"bois_yang\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Il peut y avoir un retard dans la concrétisation du projet mais c’est pour mieux le concevoir.\",
+		\"mois\": \"Prenez le temps de la réflexion avant de vous engager dans de grands projets.\",
+		\"jour\": \"Prenez le temps de la réfléxion, la chance n'est pas avec vous.\",
+		\"heure\": \"Vous devriez temporiser un peu vos projets.\"
+		},
+		\"bois_yin\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Il est possible que la concrétisation de vos idées prenne un peu de retard, étudiez tous les aspects avec calme.\",
+		\"mois\": \"C'est le moment de concrétiser votre amour !\",
+		\"jour\": \"Une bonne journée pour concrétiser votre chance.\",
+		\"heure\": \"Vos projets n'attendent que vous !\"
+		},
+		\"feu_yang\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ce n'est pas une bonne journée pour concrétiser vos projets, temporisez un peu.\",
+		\"mois\": \"Ne vous attendez pas à de grands engagements aujourd'hui.\",
+		\"jour\": \"Il serait préférable d'attendre un peu avant de concrétiser vos projets.\",
+		\"heure\": \"Soyez prudent, le temps n'est pas à la concrétisation.\"
+		},
+		\"feu_yin\": {
+		\"influence\":\"tf\",
+		\"annee\": \"Aujourd'hui est votre journée, profitez en pour concrétiser tous vos projets !\",
+		\"mois\": \"Ce mois ci est votre mois, profitez en pour concrétiser tous vos projets !\",
+		\"jour\": \"La chance est avec vous, la concrétisation de vos projets est à portée de main !\",
+		\"heure\": \"C'est le moment de concrétiser vos projets !\"
+		},
+		\"terre_yang\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Tant que vous serez prudent cette journée ne devrait pas avoir trop d'impact sur vos projets.\",
+		\"mois\": \"Soyez prudent avant de foncer tête baissée sur vos projet.\",
+		\"jour\": \"Ne comptez pas sur la chance pour concrétiser vos projets.\",
+		\"heure\": \"Pensez à vous avant de pensez à vos projets.\"
+		},
+		\"terre_yin\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Prenez le temps de la réflexion avant de concrétiser vos projets.\",
+		\"mois\": \"Prenez le temps de la réflexion avant de vous engager dans de grands projets.\",
+		\"jour\": \"Prenez le temps de la réfléxion, la chance n'est pas avec vous.\",
+		\"heure\": \"Vous devriez temporiser un peu vos projets.\"
+		},
+		\"metal_yang\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Une bonne journée pour avancer sur vos projets.\",
+		\"mois\": \"C'est le moment de concrétiser votre amour !\",
+		\"jour\": \"Une bonne journée pour concrétiser votre chance.\",
+		\"heure\": \"Vos projets n'attendent que vous !\"
+		},
+		\"metal_yin\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ce n'est pas une bonne journée pour concrétiser vos projets, temporisez un peu.\",
+		\"mois\": \"Ne vous attendez pas à de grands engagements aujourd'hui.\",
+		\"jour\": \"Il serait préférable d'attendre un peu avant de concrétiser vos projets.\",
+		\"heure\": \"Soyez prudent, le temps n'est pas à la concrétisation.\"
+		},
+		\"eau_yang\": {
+		\"influence\":\"tf\",
+		\"annee\": \"Aujourd'hui est votre journée, profitez en pour concrétiser tous vos projets !\",
+		\"mois\": \"Ce mois ci est votre mois, profitez en pour concrétiser tous vos projets !\",
+		\"jour\": \"La chance est avec vous, la concrétisation de vos projets est à portée de main !\",
+		\"heure\": \"C'est le moment de concrétiser vos projets !\"
+		},
+		\"eau_yin\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Tant que vous serez prudent cette journée ne devrait pas avoir trop d'impact sur vos projets.\",
+		\"mois\": \"Soyez prudent avant de foncer tête baissée sur vos projet.\",
+		\"jour\": \"Ne comptez pas sur la chance pour concrétiser vos projets.\",
+		\"heure\": \"Pensez à vous avant de pensez à vos projets.\"
+		}
+		}
+		"</item>
+
+	<item name="binome8_a" type="string">"{
+		\"bois_yang\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Prenez le temps de la réflexion avant de concrétiser vos projets.\",
+		\"mois\": \"Prenez le temps de la réflexion avant de vous engager dans de grands projets.\",
+		\"jour\": \"Prenez le temps de la réfléxion, la chance n'est pas avec vous.\",
+		\"heure\": \"Vous devriez temporiser un peu vos projets.\"
+		},
+		\"bois_yin\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Une bonne année pour avancer sur vos projets.\",
+		\"mois\": \"C'est le moment de concrétiser votre amour !\",
+		\"jour\": \"Une bonne année pour concrétiser votre chance.\",
+		\"heure\": \"Vos projets n'attendent que vous !\"
+		},
+		\"feu_yang\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ce n'est pas une bonne année pour concrétiser vos projets, temporisez un peu.\",
+		\"mois\": \"Ne vous attendez pas à de grands engagements cette année.\",
+		\"jour\": \"Il serait préférable d'attendre un peu avant de concrétiser vos projets.\",
+		\"heure\": \"Soyez prudent, le temps n'est pas à la concrétisation.\"
+		},
+		\"feu_yin\": {
+		\"influence\":\"tf\",
+		\"annee\": \"C'est l'année idéale pour concrétiser vos projets, foncez !\",
+		\"mois\": \"Cette année est votre année, profitez en pour concrétiser tous vos projets !\",
+		\"jour\": \"La chance est avec vous, la concrétisation de vos projets est à portée de main !\",
+		\"heure\": \"C'est le moment de concrétiser vos projets !\"
+		},
+		\"terre_yang\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Tant que vous serez prudent cette année ne devrait pas avoir trop d'impact sur vos projets.\",
+		\"mois\": \"Soyez prudent avant de foncer tête baissée sur vos projet.\",
+		\"jour\": \"Ne comptez pas sur la chance pour concrétiser vos projets.\",
+		\"heure\": \"Pensez à vous avant de pensez à vos projets.\"
+		},
+		\"terre_yin\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Prenez le temps de la réflexion avant de concrétiser vos projets.\",
+		\"mois\": \"Prenez le temps de la réflexion avant de vous engager dans de grands projets.\",
+		\"jour\": \"Prenez le temps de la réfléxion, la chance n'est pas avec vous.\",
+		\"heure\": \"Vous devriez temporiser un peu vos projets.\"
+		},
+		\"metal_yang\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Une bonne année pour avancer sur vos projets.\",
+		\"mois\": \"C'est le moment de concrétiser votre amour !\",
+		\"jour\": \"Une bonne année pour concrétiser votre chance.\",
+		\"heure\": \"Vos projets n'attendent que vous !\"
+		},
+		\"metal_yin\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ce n'est pas une bonne année pour concrétiser vos projets, temporisez un peu.\",
+		\"mois\": \"Ne vous attendez pas à de grands engagements cette année.\",
+		\"jour\": \"Il serait préférable d'attendre un peu avant de concrétiser vos projets.\",
+		\"heure\": \"Soyez prudent, le temps n'est pas à la concrétisation.\"
+		},
+		\"eau_yang\": {
+		\"influence\":\"tf\",
+		\"annee\": \"C'est l'année idéale pour concrétiser vos projets, foncez !\",
+		\"mois\": \"Cette année est votre année, profitez en pour concrétiser tous vos projets !\",
+		\"jour\": \"La chance est avec vous, la concrétisation de vos projets est à portée de main !\",
+		\"heure\": \"C'est le moment de concrétiser vos projets !\"
+		},
+		\"eau_yin\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Tant que vous serez prudent cette année ne devrait pas avoir trop d'impact sur vos projets.\",
+		\"mois\": \"Soyez prudent avant de foncer tête baissée sur vos projet.\",
+		\"jour\": \"Ne comptez pas sur la chance pour concrétiser vos projets.\",
+		\"heure\": \"Pensez à vous avant de pensez à vos projets.\"
+		}
+		}"
+		"</item>
+
+	<item name="binome8_m" type="string">"{
+		\"bois_yang\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Prenez le temps de la réflexion avant de concrétiser vos projets.\",
+		\"mois\": \"Prenez le temps de la réflexion avant de vous engager dans de grands projets.\",
+		\"jour\": \"Prenez le temps de la réfléxion, la chance n'est pas avec vous.\",
+		\"heure\": \"Vous devriez temporiser un peu vos projets.\"
+		},
+		\"bois_yin\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Un bon mois pour avancer sur vos projets.\",
+		\"mois\": \"C'est le moment de concrétiser votre amour !\",
+		\"jour\": \"Un bon mois pour concrétiser votre chance.\",
+		\"heure\": \"Vos projets n'attendent que vous !\"
+		},
+		\"feu_yang\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ce n'est pas un bon mois pour concrétiser vos projets, temporisez un peu.\",
+		\"mois\": \"Ne vous attendez pas à de grands engagements ce mois ci.\",
+		\"jour\": \"Il serait préférable d'attendre un peu avant de concrétiser vos projets.\",
+		\"heure\": \"Soyez prudent, le temps n'est pas à la concrétisation.\"
+		},
+		\"feu_yin\": {
+		\"influence\":\"tf\",
+		\"annee\": \"C'est le mois idéal pour concrétiser vos projets, foncez !\",
+		\"mois\": \"Ce mois ci est votre mois, profitez en pour concrétiser tous vos projets !\",
+		\"jour\": \"La chance est avec vous, la concrétisation de vos projets est à portée de main !\",
+		\"heure\": \"C'est le moment de concrétiser vos projets !\"
+		},
+		\"terre_yang\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Tant que vous serez prudent ce mois ci ne devrait pas avoir trop d'impact sur vos projets.\",
+		\"mois\": \"Soyez prudent avant de foncer tête baissée sur vos projet.\",
+		\"jour\": \"Ne comptez pas sur la chance pour concrétiser vos projets.\",
+		\"heure\": \"Pensez à vous avant de pensez à vos projets.\"
+		},
+		\"terre_yin\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Prenez le temps de la réflexion avant de concrétiser vos projets.\",
+		\"mois\": \"Prenez le temps de la réflexion avant de vous engager dans de grands projets.\",
+		\"jour\": \"Prenez le temps de la réfléxion, la chance n'est pas avec vous.\",
+		\"heure\": \"Vous devriez temporiser un peu vos projets.\"
+		},
+		\"metal_yang\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Un bon mois pour avancer sur vos projets.\",
+		\"mois\": \"C'est le moment de concrétiser votre amour !\",
+		\"jour\": \"Un bon mois pour concrétiser votre chance.\",
+		\"heure\": \"Vos projets n'attendent que vous !\"
+		},
+		\"metal_yin\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ce n'est pas un bon mois pour concrétiser vos projets, temporisez un peu.\",
+		\"mois\": \"Ne vous attendez pas à de grands engagements ce mois ci.\",
+		\"jour\": \"Il serait préférable d'attendre un peu avant de concrétiser vos projets.\",
+		\"heure\": \"Soyez prudent, le temps n'est pas à la concrétisation.\"
+		},
+		\"eau_yang\": {
+		\"influence\":\"tf\",
+		\"annee\": \"C'est le mois idéal pour concrétiser vos projets, foncez !\",
+		\"mois\": \"Ce mois ci est votre mois, profitez en pour concrétiser tous vos projets !\",
+		\"jour\": \"La chance est avec vous, la concrétisation de vos projets est à portée de main !\",
+		\"heure\": \"C'est le moment de concrétiser vos projets !\"
+		},
+		\"eau_yin\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Tant que vous serez prudent ce mois ci ne devrait pas avoir trop d'impact sur vos projets.\",
+		\"mois\": \"Soyez prudent avant de foncer tête baissée sur vos projet.\",
+		\"jour\": \"Ne comptez pas sur la chance pour concrétiser vos projets.\",
+		\"heure\": \"Pensez à vous avant de pensez à vos projets.\"
+		}
+		}
+		"</item>
+
+	<item name="binome8_j" type="string">"{
+		\"bois_yang\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Une journée propice à la réflexion de vos projets pour les faire aboutir avec sérénité et pérennité.\",
+		\"mois\": \"Prenez le temps de la réflexion avant de vous engager dans de grands projets.\",
+		\"jour\": \"Prenez le temps de la réfléxion, la chance n'est pas avec vous.\",
+		\"heure\": \"Vous devriez temporiser un peu vos projets.\"
+		},
+		\"bois_yin\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Un ralentissement certain pour la concrétisation de votre projet aujourd’hui. Un peu de patience…\",
+		\"mois\": \"C'est le moment de concrétiser votre amour !\",
+		\"jour\": \"Une bonne journée pour concrétiser votre chance.\",
+		\"heure\": \"Vos projets n'attendent que vous !\"
+		},
+		\"feu_yang\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ce n'est pas une bonne journée pour concrétiser vos projets, temporisez un peu.\",
+		\"mois\": \"Ne vous attendez pas à de grands engagements aujourd'hui.\",
+		\"jour\": \"Il serait préférable d'attendre un peu avant de concrétiser vos projets.\",
+		\"heure\": \"Soyez prudent, le temps n'est pas à la concrétisation.\"
+		},
+		\"feu_yin\": {
+		\"influence\":\"tf\",
+		\"annee\": \"Aujourd'hui est votre journée, profitez en pour concrétiser tous vos projets !\",
+		\"mois\": \"Ce mois ci est votre mois, profitez en pour concrétiser tous vos projets !\",
+		\"jour\": \"La chance est avec vous, la concrétisation de vos projets est à portée de main !\",
+		\"heure\": \"C'est le moment de concrétiser vos projets !\"
+		},
+		\"terre_yang\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Tant que vous serez prudent cette journée ne devrait pas avoir trop d'impact sur vos projets.\",
+		\"mois\": \"Soyez prudent avant de foncer tête baissée sur vos projet.\",
+		\"jour\": \"Ne comptez pas sur la chance pour concrétiser vos projets.\",
+		\"heure\": \"Pensez à vous avant de pensez à vos projets.\"
+		},
+		\"terre_yin\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Prenez le temps de la réflexion avant de concrétiser vos projets.\",
+		\"mois\": \"Prenez le temps de la réflexion avant de vous engager dans de grands projets.\",
+		\"jour\": \"Prenez le temps de la réfléxion, la chance n'est pas avec vous.\",
+		\"heure\": \"Vous devriez temporiser un peu vos projets.\"
+		},
+		\"metal_yang\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Une bonne journée pour avancer sur vos projets.\",
+		\"mois\": \"C'est le moment de concrétiser votre amour !\",
+		\"jour\": \"Une bonne journée pour concrétiser votre chance.\",
+		\"heure\": \"Vos projets n'attendent que vous !\"
+		},
+		\"metal_yin\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ce n'est pas une bonne journée pour concrétiser vos projets, temporisez un peu.\",
+		\"mois\": \"Ne vous attendez pas à de grands engagements aujourd'hui.\",
+		\"jour\": \"Il serait préférable d'attendre un peu avant de concrétiser vos projets.\",
+		\"heure\": \"Soyez prudent, le temps n'est pas à la concrétisation.\"
+		},
+		\"eau_yang\": {
+		\"influence\":\"tf\",
+		\"annee\": \"Aujourd'hui est votre journée, profitez en pour concrétiser tous vos projets !\",
+		\"mois\": \"Ce mois ci est votre mois, profitez en pour concrétiser tous vos projets !\",
+		\"jour\": \"La chance est avec vous, la concrétisation de vos projets est à portée de main !\",
+		\"heure\": \"C'est le moment de concrétiser vos projets !\"
+		},
+		\"eau_yin\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Tant que vous serez prudent cette journée ne devrait pas avoir trop d'impact sur vos projets.\",
+		\"mois\": \"Soyez prudent avant de foncer tête baissée sur vos projet.\",
+		\"jour\": \"Ne comptez pas sur la chance pour concrétiser vos projets.\",
+		\"heure\": \"Pensez à vous avant de pensez à vos projets.\"
+		}
+		}
+		"</item>
+
+	<item name="binome15_a" type="string">"{
+		\"bois_yang\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Prenez le temps de la réflexion avant de concrétiser vos projets.\",
+		\"mois\": \"Prenez le temps de la réflexion avant de vous engager dans de grands projets.\",
+		\"jour\": \"Prenez le temps de la réfléxion, la chance n'est pas avec vous.\",
+		\"heure\": \"Vous devriez temporiser un peu vos projets.\"
+		},
+		\"bois_yin\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Une bonne année pour avancer sur vos projets.\",
+		\"mois\": \"C'est le moment de concrétiser votre amour !\",
+		\"jour\": \"Une bonne année pour concrétiser votre chance.\",
+		\"heure\": \"Vos projets n'attendent que vous !\"
+		},
+		\"feu_yang\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ce n'est pas une bonne année pour concrétiser vos projets, temporisez un peu.\",
+		\"mois\": \"Ne vous attendez pas à de grands engagements cette année.\",
+		\"jour\": \"Il serait préférable d'attendre un peu avant de concrétiser vos projets.\",
+		\"heure\": \"Soyez prudent, le temps n'est pas à la concrétisation.\"
+		},
+		\"feu_yin\": {
+		\"influence\":\"tf\",
+		\"annee\": \"C'est l'année idéale pour concrétiser vos projets, foncez !\",
+		\"mois\": \"Cette année est votre année, profitez en pour concrétiser tous vos projets !\",
+		\"jour\": \"La chance est avec vous, la concrétisation de vos projets est à portée de main !\",
+		\"heure\": \"C'est le moment de concrétiser vos projets !\"
+		},
+		\"terre_yang\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Tant que vous serez prudent cette année ne devrait pas avoir trop d'impact sur vos projets.\",
+		\"mois\": \"Soyez prudent avant de foncer tête baissée sur vos projet.\",
+		\"jour\": \"Ne comptez pas sur la chance pour concrétiser vos projets.\",
+		\"heure\": \"Pensez à vous avant de pensez à vos projets.\"
+		},
+		\"terre_yin\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Prenez le temps de la réflexion avant de concrétiser vos projets.\",
+		\"mois\": \"Prenez le temps de la réflexion avant de vous engager dans de grands projets.\",
+		\"jour\": \"Prenez le temps de la réfléxion, la chance n'est pas avec vous.\",
+		\"heure\": \"Vous devriez temporiser un peu vos projets.\"
+		},
+		\"metal_yang\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Une bonne année pour avancer sur vos projets.\",
+		\"mois\": \"C'est le moment de concrétiser votre amour !\",
+		\"jour\": \"Une bonne année pour concrétiser votre chance.\",
+		\"heure\": \"Vos projets n'attendent que vous !\"
+		},
+		\"metal_yin\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ce n'est pas une bonne année pour concrétiser vos projets, temporisez un peu.\",
+		\"mois\": \"Ne vous attendez pas à de grands engagements cette année.\",
+		\"jour\": \"Il serait préférable d'attendre un peu avant de concrétiser vos projets.\",
+		\"heure\": \"Soyez prudent, le temps n'est pas à la concrétisation.\"
+		},
+		\"eau_yang\": {
+		\"influence\":\"tf\",
+		\"annee\": \"C'est l'année idéale pour concrétiser vos projets, foncez !\",
+		\"mois\": \"Cette année est votre année, profitez en pour concrétiser tous vos projets !\",
+		\"jour\": \"La chance est avec vous, la concrétisation de vos projets est à portée de main !\",
+		\"heure\": \"C'est le moment de concrétiser vos projets !\"
+		},
+		\"eau_yin\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Tant que vous serez prudent cette année ne devrait pas avoir trop d'impact sur vos projets.\",
+		\"mois\": \"Soyez prudent avant de foncer tête baissée sur vos projet.\",
+		\"jour\": \"Ne comptez pas sur la chance pour concrétiser vos projets.\",
+		\"heure\": \"Pensez à vous avant de pensez à vos projets.\"
+		}
+		}
+		"</item>
+	<item name="binome15_m" type="string">"{
+		\"bois_yang\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Prenez le temps de la réflexion avant de concrétiser vos projets.\",
+		\"mois\": \"Prenez le temps de la réflexion avant de vous engager dans de grands projets.\",
+		\"jour\": \"Prenez le temps de la réfléxion, la chance n'est pas avec vous.\",
+		\"heure\": \"Vous devriez temporiser un peu vos projets.\"
+		},
+		\"bois_yin\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Un bon mois pour avancer sur vos projets.\",
+		\"mois\": \"C'est le moment de concrétiser votre amour !\",
+		\"jour\": \"Un bon mois pour concrétiser votre chance.\",
+		\"heure\": \"Vos projets n'attendent que vous !\"
+		},
+		\"feu_yang\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ce n'est pas un bon mois pour concrétiser vos projets, temporisez un peu.\",
+		\"mois\": \"Ne vous attendez pas à de grands engagements ce mois ci.\",
+		\"jour\": \"Il serait préférable d'attendre un peu avant de concrétiser vos projets.\",
+		\"heure\": \"Soyez prudent, le temps n'est pas à la concrétisation.\"
+		},
+		\"feu_yin\": {
+		\"influence\":\"tf\",
+		\"annee\": \"C'est le mois idéal pour concrétiser vos projets, foncez !\",
+		\"mois\": \"Ce mois ci est votre mois, profitez en pour concrétiser tous vos projets !\",
+		\"jour\": \"La chance est avec vous, la concrétisation de vos projets est à portée de main !\",
+		\"heure\": \"C'est le moment de concrétiser vos projets !\"
+		},
+		\"terre_yang\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Tant que vous serez prudent ce mois ci ne devrait pas avoir trop d'impact sur vos projets.\",
+		\"mois\": \"Soyez prudent avant de foncer tête baissée sur vos projet.\",
+		\"jour\": \"Ne comptez pas sur la chance pour concrétiser vos projets.\",
+		\"heure\": \"Pensez à vous avant de pensez à vos projets.\"
+		},
+		\"terre_yin\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Prenez le temps de la réflexion avant de concrétiser vos projets.\",
+		\"mois\": \"Prenez le temps de la réflexion avant de vous engager dans de grands projets.\",
+		\"jour\": \"Prenez le temps de la réfléxion, la chance n'est pas avec vous.\",
+		\"heure\": \"Vous devriez temporiser un peu vos projets.\"
+		},
+		\"metal_yang\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Un bon mois pour avancer sur vos projets.\",
+		\"mois\": \"C'est le moment de concrétiser votre amour !\",
+		\"jour\": \"Un bon mois pour concrétiser votre chance.\",
+		\"heure\": \"Vos projets n'attendent que vous !\"
+		},
+		\"metal_yin\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ce n'est pas un bon mois pour concrétiser vos projets, temporisez un peu.\",
+		\"mois\": \"Ne vous attendez pas à de grands engagements ce mois ci.\",
+		\"jour\": \"Il serait préférable d'attendre un peu avant de concrétiser vos projets.\",
+		\"heure\": \"Soyez prudent, le temps n'est pas à la concrétisation.\"
+		},
+		\"eau_yang\": {
+		\"influence\":\"tf\",
+		\"annee\": \"C'est le mois idéal pour concrétiser vos projets, foncez !\",
+		\"mois\": \"Ce mois ci est votre mois, profitez en pour concrétiser tous vos projets !\",
+		\"jour\": \"La chance est avec vous, la concrétisation de vos projets est à portée de main !\",
+		\"heure\": \"C'est le moment de concrétiser vos projets !\"
+		},
+		\"eau_yin\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Tant que vous serez prudent ce mois ci ne devrait pas avoir trop d'impact sur vos projets.\",
+		\"mois\": \"Soyez prudent avant de foncer tête baissée sur vos projet.\",
+		\"jour\": \"Ne comptez pas sur la chance pour concrétiser vos projets.\",
+		\"heure\": \"Pensez à vous avant de pensez à vos projets.\"
+		}
+		}
+		"</item>
+
+	<item name="binome15_j" type="string">"{
+		\"bois_yang\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Vos idées ont l’air de séduire, mais méfiez vous qu’elles ne soient pas à l’encontre des intérêts de vos partenaires.\",
+		\"mois\": \"Prenez le temps de la réflexion avant de vous engager dans de grands projets.\",
+		\"jour\": \"Prenez le temps de la réfléxion, la chance n'est pas avec vous.\",
+		\"heure\": \"Vous devriez temporiser un peu vos projets.\"
+		},
+		\"bois_yin\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Journée décisive pour se faire des alliés et des supporters de vos idées.\",
+		\"mois\": \"C'est le moment de concrétiser votre amour !\",
+		\"jour\": \"Une bonne journée pour concrétiser votre chance.\",
+		\"heure\": \"Vos projets n'attendent que vous !\"
+		},
+		\"feu_yang\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ce n'est pas une bonne journée pour concrétiser vos projets, temporisez un peu.\",
+		\"mois\": \"Ne vous attendez pas à de grands engagements aujourd'hui.\",
+		\"jour\": \"Il serait préférable d'attendre un peu avant de concrétiser vos projets.\",
+		\"heure\": \"Soyez prudent, le temps n'est pas à la concrétisation.\"
+		},
+		\"feu_yin\": {
+		\"influence\":\"tf\",
+		\"annee\": \"Aujourd'hui est votre journée, profitez en pour concrétiser tous vos projets !\",
+		\"mois\": \"Ce mois ci est votre mois, profitez en pour concrétiser tous vos projets !\",
+		\"jour\": \"La chance est avec vous, la concrétisation de vos projets est à portée de main !\",
+		\"heure\": \"C'est le moment de concrétiser vos projets !\"
+		},
+		\"terre_yang\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Tant que vous serez prudent cette journée ne devrait pas avoir trop d'impact sur vos projets.\",
+		\"mois\": \"Soyez prudent avant de foncer tête baissée sur vos projet.\",
+		\"jour\": \"Ne comptez pas sur la chance pour concrétiser vos projets.\",
+		\"heure\": \"Pensez à vous avant de pensez à vos projets.\"
+		},
+		\"terre_yin\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Prenez le temps de la réflexion avant de concrétiser vos projets.\",
+		\"mois\": \"Prenez le temps de la réflexion avant de vous engager dans de grands projets.\",
+		\"jour\": \"Prenez le temps de la réfléxion, la chance n'est pas avec vous.\",
+		\"heure\": \"Vous devriez temporiser un peu vos projets.\"
+		},
+		\"metal_yang\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Une bonne journée pour avancer sur vos projets.\",
+		\"mois\": \"C'est le moment de concrétiser votre amour !\",
+		\"jour\": \"Une bonne journée pour concrétiser votre chance.\",
+		\"heure\": \"Vos projets n'attendent que vous !\"
+		},
+		\"metal_yin\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ce n'est pas une bonne journée pour concrétiser vos projets, temporisez un peu.\",
+		\"mois\": \"Ne vous attendez pas à de grands engagements aujourd'hui.\",
+		\"jour\": \"Il serait préférable d'attendre un peu avant de concrétiser vos projets.\",
+		\"heure\": \"Soyez prudent, le temps n'est pas à la concrétisation.\"
+		},
+		\"eau_yang\": {
+		\"influence\":\"tf\",
+		\"annee\": \"Aujourd'hui est votre journée, profitez en pour concrétiser tous vos projets !\",
+		\"mois\": \"Ce mois ci est votre mois, profitez en pour concrétiser tous vos projets !\",
+		\"jour\": \"La chance est avec vous, la concrétisation de vos projets est à portée de main !\",
+		\"heure\": \"C'est le moment de concrétiser vos projets !\"
+		},
+		\"eau_yin\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Tant que vous serez prudent cette journée ne devrait pas avoir trop d'impact sur vos projets.\",
+		\"mois\": \"Soyez prudent avant de foncer tête baissée sur vos projet.\",
+		\"jour\": \"Ne comptez pas sur la chance pour concrétiser vos projets.\",
+		\"heure\": \"Pensez à vous avant de pensez à vos projets.\"
+		}
+		}
+		"</item>
+
+	<item name="binome16_a" type="string">"{
+		\"bois_yang\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Prenez le temps de la réflexion avant de concrétiser vos projets.\",
+		\"mois\": \"Prenez le temps de la réflexion avant de vous engager dans de grands projets.\",
+		\"jour\": \"Prenez le temps de la réfléxion, la chance n'est pas avec vous.\",
+		\"heure\": \"Vous devriez temporiser un peu vos projets.\"
+		},
+		\"bois_yin\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Une bonne année pour avancer sur vos projets.\",
+		\"mois\": \"C'est le moment de concrétiser votre amour !\",
+		\"jour\": \"Une bonne année pour concrétiser votre chance.\",
+		\"heure\": \"Vos projets n'attendent que vous !\"
+		},
+		\"feu_yang\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ce n'est pas une bonne année pour concrétiser vos projets, temporisez un peu.\",
+		\"mois\": \"Ne vous attendez pas à de grands engagements cette année.\",
+		\"jour\": \"Il serait préférable d'attendre un peu avant de concrétiser vos projets.\",
+		\"heure\": \"Soyez prudent, le temps n'est pas à la concrétisation.\"
+		},
+		\"feu_yin\": {
+		\"influence\":\"tf\",
+		\"annee\": \"C'est l'année idéale pour concrétiser vos projets, foncez !\",
+		\"mois\": \"Cette année est votre année, profitez en pour concrétiser tous vos projets !\",
+		\"jour\": \"La chance est avec vous, la concrétisation de vos projets est à portée de main !\",
+		\"heure\": \"C'est le moment de concrétiser vos projets !\"
+		},
+		\"terre_yang\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Tant que vous serez prudent cette année ne devrait pas avoir trop d'impact sur vos projets.\",
+		\"mois\": \"Soyez prudent avant de foncer tête baissée sur vos projet.\",
+		\"jour\": \"Ne comptez pas sur la chance pour concrétiser vos projets.\",
+		\"heure\": \"Pensez à vous avant de pensez à vos projets.\"
+		},
+		\"terre_yin\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Prenez le temps de la réflexion avant de concrétiser vos projets.\",
+		\"mois\": \"Prenez le temps de la réflexion avant de vous engager dans de grands projets.\",
+		\"jour\": \"Prenez le temps de la réfléxion, la chance n'est pas avec vous.\",
+		\"heure\": \"Vous devriez temporiser un peu vos projets.\"
+		},
+		\"metal_yang\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Une bonne année pour avancer sur vos projets.\",
+		\"mois\": \"C'est le moment de concrétiser votre amour !\",
+		\"jour\": \"Une bonne année pour concrétiser votre chance.\",
+		\"heure\": \"Vos projets n'attendent que vous !\"
+		},
+		\"metal_yin\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ce n'est pas une bonne année pour concrétiser vos projets, temporisez un peu.\",
+		\"mois\": \"Ne vous attendez pas à de grands engagements cette année.\",
+		\"jour\": \"Il serait préférable d'attendre un peu avant de concrétiser vos projets.\",
+		\"heure\": \"Soyez prudent, le temps n'est pas à la concrétisation.\"
+		},
+		\"eau_yang\": {
+		\"influence\":\"tf\",
+		\"annee\": \"C'est l'année idéale pour concrétiser vos projets, foncez !\",
+		\"mois\": \"Cette année est votre année, profitez en pour concrétiser tous vos projets !\",
+		\"jour\": \"La chance est avec vous, la concrétisation de vos projets est à portée de main !\",
+		\"heure\": \"C'est le moment de concrétiser vos projets !\"
+		},
+		\"eau_yin\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Tant que vous serez prudent cette année ne devrait pas avoir trop d'impact sur vos projets.\",
+		\"mois\": \"Soyez prudent avant de foncer tête baissée sur vos projet.\",
+		\"jour\": \"Ne comptez pas sur la chance pour concrétiser vos projets.\",
+		\"heure\": \"Pensez à vous avant de pensez à vos projets.\"
+		}
+		}
+		"</item>
+
+	<item name="binome16_m" type="string">"{
+		\"bois_yang\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Prenez le temps de la réflexion avant de concrétiser vos projets.\",
+		\"mois\": \"Prenez le temps de la réflexion avant de vous engager dans de grands projets.\",
+		\"jour\": \"Prenez le temps de la réfléxion, la chance n'est pas avec vous.\",
+		\"heure\": \"Vous devriez temporiser un peu vos projets.\"
+		},
+		\"bois_yin\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Un bon mois pour avancer sur vos projets.\",
+		\"mois\": \"C'est le moment de concrétiser votre amour !\",
+		\"jour\": \"Un bon mois pour concrétiser votre chance.\",
+		\"heure\": \"Vos projets n'attendent que vous !\"
+		},
+		\"feu_yang\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ce n'est pas un bon mois pour concrétiser vos projets, temporisez un peu.\",
+		\"mois\": \"Ne vous attendez pas à de grands engagements ce mois ci.\",
+		\"jour\": \"Il serait préférable d'attendre un peu avant de concrétiser vos projets.\",
+		\"heure\": \"Soyez prudent, le temps n'est pas à la concrétisation.\"
+		},
+		\"feu_yin\": {
+		\"influence\":\"tf\",
+		\"annee\": \"C'est le mois idéal pour concrétiser vos projets, foncez !\",
+		\"mois\": \"Ce mois ci est votre mois, profitez en pour concrétiser tous vos projets !\",
+		\"jour\": \"La chance est avec vous, la concrétisation de vos projets est à portée de main !\",
+		\"heure\": \"C'est le moment de concrétiser vos projets !\"
+		},
+		\"terre_yang\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Tant que vous serez prudent ce mois ci ne devrait pas avoir trop d'impact sur vos projets.\",
+		\"mois\": \"Soyez prudent avant de foncer tête baissée sur vos projet.\",
+		\"jour\": \"Ne comptez pas sur la chance pour concrétiser vos projets.\",
+		\"heure\": \"Pensez à vous avant de pensez à vos projets.\"
+		},
+		\"terre_yin\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Prenez le temps de la réflexion avant de concrétiser vos projets.\",
+		\"mois\": \"Prenez le temps de la réflexion avant de vous engager dans de grands projets.\",
+		\"jour\": \"Prenez le temps de la réfléxion, la chance n'est pas avec vous.\",
+		\"heure\": \"Vous devriez temporiser un peu vos projets.\"
+		},
+		\"metal_yang\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Un bon mois pour avancer sur vos projets.\",
+		\"mois\": \"C'est le moment de concrétiser votre amour !\",
+		\"jour\": \"Un bon mois pour concrétiser votre chance.\",
+		\"heure\": \"Vos projets n'attendent que vous !\"
+		},
+		\"metal_yin\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ce n'est pas un bon mois pour concrétiser vos projets, temporisez un peu.\",
+		\"mois\": \"Ne vous attendez pas à de grands engagements ce mois ci.\",
+		\"jour\": \"Il serait préférable d'attendre un peu avant de concrétiser vos projets.\",
+		\"heure\": \"Soyez prudent, le temps n'est pas à la concrétisation.\"
+		},
+		\"eau_yang\": {
+		\"influence\":\"tf\",
+		\"annee\": \"C'est le mois idéal pour concrétiser vos projets, foncez !\",
+		\"mois\": \"Ce mois ci est votre mois, profitez en pour concrétiser tous vos projets !\",
+		\"jour\": \"La chance est avec vous, la concrétisation de vos projets est à portée de main !\",
+		\"heure\": \"C'est le moment de concrétiser vos projets !\"
+		},
+		\"eau_yin\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Tant que vous serez prudent ce mois ci ne devrait pas avoir trop d'impact sur vos projets.\",
+		\"mois\": \"Soyez prudent avant de foncer tête baissée sur vos projet.\",
+		\"jour\": \"Ne comptez pas sur la chance pour concrétiser vos projets.\",
+		\"heure\": \"Pensez à vous avant de pensez à vos projets.\"
+		}
+		}
+		"</item>
+
+	<item name="binome16_j" type="string">"{
+		\"bois_yang\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Tant que votre projet n’est pas signé , ne vous fiez pas aux belles apparences.\",
+		\"mois\": \"Prenez le temps de la réflexion avant de vous engager dans de grands projets.\",
+		\"jour\": \"Prenez le temps de la réfléxion, la chance n'est pas avec vous.\",
+		\"heure\": \"Vous devriez temporiser un peu vos projets.\"
+		},
+		\"bois_yin\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Vous arriverez à faire baisser les défenses si votre projet si vos idées sont bien conçues.\",
+		\"mois\": \"C'est le moment de concrétiser votre amour !\",
+		\"jour\": \"Une bonne journée pour concrétiser votre chance.\",
+		\"heure\": \"Vos projets n'attendent que vous !\"
+		},
+		\"feu_yang\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ce n'est pas une bonne journée pour concrétiser vos projets, temporisez un peu.\",
+		\"mois\": \"Ne vous attendez pas à de grands engagements aujourd'hui.\",
+		\"jour\": \"Il serait préférable d'attendre un peu avant de concrétiser vos projets.\",
+		\"heure\": \"Soyez prudent, le temps n'est pas à la concrétisation.\"
+		},
+		\"feu_yin\": {
+		\"influence\":\"tf\",
+		\"annee\": \"Aujourd'hui est votre journée, profitez en pour concrétiser tous vos projets !\",
+		\"mois\": \"Ce mois ci est votre mois, profitez en pour concrétiser tous vos projets !\",
+		\"jour\": \"La chance est avec vous, la concrétisation de vos projets est à portée de main !\",
+		\"heure\": \"C'est le moment de concrétiser vos projets !\"
+		},
+		\"terre_yang\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Tant que vous serez prudent cette journée ne devrait pas avoir trop d'impact sur vos projets.\",
+		\"mois\": \"Soyez prudent avant de foncer tête baissée sur vos projet.\",
+		\"jour\": \"Ne comptez pas sur la chance pour concrétiser vos projets.\",
+		\"heure\": \"Pensez à vous avant de pensez à vos projets.\"
+		},
+		\"terre_yin\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Prenez le temps de la réflexion avant de concrétiser vos projets.\",
+		\"mois\": \"Prenez le temps de la réflexion avant de vous engager dans de grands projets.\",
+		\"jour\": \"Prenez le temps de la réfléxion, la chance n'est pas avec vous.\",
+		\"heure\": \"Vous devriez temporiser un peu vos projets.\"
+		},
+		\"metal_yang\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Une bonne journée pour avancer sur vos projets.\",
+		\"mois\": \"C'est le moment de concrétiser votre amour !\",
+		\"jour\": \"Une bonne journée pour concrétiser votre chance.\",
+		\"heure\": \"Vos projets n'attendent que vous !\"
+		},
+		\"metal_yin\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ce n'est pas une bonne journée pour concrétiser vos projets, temporisez un peu.\",
+		\"mois\": \"Ne vous attendez pas à de grands engagements aujourd'hui.\",
+		\"jour\": \"Il serait préférable d'attendre un peu avant de concrétiser vos projets.\",
+		\"heure\": \"Soyez prudent, le temps n'est pas à la concrétisation.\"
+		},
+		\"eau_yang\": {
+		\"influence\":\"tf\",
+		\"annee\": \"Aujourd'hui est votre journée, profitez en pour concrétiser tous vos projets !\",
+		\"mois\": \"Ce mois ci est votre mois, profitez en pour concrétiser tous vos projets !\",
+		\"jour\": \"La chance est avec vous, la concrétisation de vos projets est à portée de main !\",
+		\"heure\": \"C'est le moment de concrétiser vos projets !\"
+		},
+		\"eau_yin\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Tant que vous serez prudent cette journée ne devrait pas avoir trop d'impact sur vos projets.\",
+		\"mois\": \"Soyez prudent avant de foncer tête baissée sur vos projet.\",
+		\"jour\": \"Ne comptez pas sur la chance pour concrétiser vos projets.\",
+		\"heure\": \"Pensez à vous avant de pensez à vos projets.\"
+		}
+		}
+		"</item>
+
+	<item name="binome23_a" type="string">"{
+		\"bois_yang\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Prenez le temps de la réflexion avant de concrétiser vos projets.\",
+		\"mois\": \"Prenez le temps de la réflexion avant de vous engager dans de grands projets.\",
+		\"jour\": \"Prenez le temps de la réfléxion, la chance n'est pas avec vous.\",
+		\"heure\": \"Vous devriez temporiser un peu vos projets.\"
+		},
+		\"bois_yin\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Une bonne année pour avancer sur vos projets.\",
+		\"mois\": \"C'est le moment de concrétiser votre amour !\",
+		\"jour\": \"Une bonne année pour concrétiser votre chance.\",
+		\"heure\": \"Vos projets n'attendent que vous !\"
+		},
+		\"feu_yang\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ce n'est pas une bonne année pour concrétiser vos projets, temporisez un peu.\",
+		\"mois\": \"Ne vous attendez pas à de grands engagements cette année.\",
+		\"jour\": \"Il serait préférable d'attendre un peu avant de concrétiser vos projets.\",
+		\"heure\": \"Soyez prudent, le temps n'est pas à la concrétisation.\"
+		},
+		\"feu_yin\": {
+		\"influence\":\"tf\",
+		\"annee\": \"C'est l'année idéale pour concrétiser vos projets, foncez !\",
+		\"mois\": \"Cette année est votre année, profitez en pour concrétiser tous vos projets !\",
+		\"jour\": \"La chance est avec vous, la concrétisation de vos projets est à portée de main !\",
+		\"heure\": \"C'est le moment de concrétiser vos projets !\"
+		},
+		\"terre_yang\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Tant que vous serez prudent cette année ne devrait pas avoir trop d'impact sur vos projets.\",
+		\"mois\": \"Soyez prudent avant de foncer tête baissée sur vos projet.\",
+		\"jour\": \"Ne comptez pas sur la chance pour concrétiser vos projets.\",
+		\"heure\": \"Pensez à vous avant de pensez à vos projets.\"
+		},
+		\"terre_yin\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Prenez le temps de la réflexion avant de concrétiser vos projets.\",
+		\"mois\": \"Prenez le temps de la réflexion avant de vous engager dans de grands projets.\",
+		\"jour\": \"Prenez le temps de la réfléxion, la chance n'est pas avec vous.\",
+		\"heure\": \"Vous devriez temporiser un peu vos projets.\"
+		},
+		\"metal_yang\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Une bonne année pour avancer sur vos projets.\",
+		\"mois\": \"C'est le moment de concrétiser votre amour !\",
+		\"jour\": \"Une bonne année pour concrétiser votre chance.\",
+		\"heure\": \"Vos projets n'attendent que vous !\"
+		},
+		\"metal_yin\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ce n'est pas une bonne année pour concrétiser vos projets, temporisez un peu.\",
+		\"mois\": \"Ne vous attendez pas à de grands engagements cette année.\",
+		\"jour\": \"Il serait préférable d'attendre un peu avant de concrétiser vos projets.\",
+		\"heure\": \"Soyez prudent, le temps n'est pas à la concrétisation.\"
+		},
+		\"eau_yang\": {
+		\"influence\":\"tf\",
+		\"annee\": \"C'est l'année idéale pour concrétiser vos projets, foncez !\",
+		\"mois\": \"Cette année est votre année, profitez en pour concrétiser tous vos projets !\",
+		\"jour\": \"La chance est avec vous, la concrétisation de vos projets est à portée de main !\",
+		\"heure\": \"C'est le moment de concrétiser vos projets !\"
+		},
+		\"eau_yin\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Tant que vous serez prudent cette année ne devrait pas avoir trop d'impact sur vos projets.\",
+		\"mois\": \"Soyez prudent avant de foncer tête baissée sur vos projet.\",
+		\"jour\": \"Ne comptez pas sur la chance pour concrétiser vos projets.\",
+		\"heure\": \"Pensez à vous avant de pensez à vos projets.\"
+		}
+		}
+		"</item>
+
+	<item name="binome23_m" type="string">"{
+		\"bois_yang\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Prenez le temps de la réflexion avant de concrétiser vos projets.\",
+		\"mois\": \"Prenez le temps de la réflexion avant de vous engager dans de grands projets.\",
+		\"jour\": \"Prenez le temps de la réfléxion, la chance n'est pas avec vous.\",
+		\"heure\": \"Vous devriez temporiser un peu vos projets.\"
+		},
+		\"bois_yin\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Un bon mois pour avancer sur vos projets.\",
+		\"mois\": \"C'est le moment de concrétiser votre amour !\",
+		\"jour\": \"Un bon mois pour concrétiser votre chance.\",
+		\"heure\": \"Vos projets n'attendent que vous !\"
+		},
+		\"feu_yang\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ce n'est pas un bon mois pour concrétiser vos projets, temporisez un peu.\",
+		\"mois\": \"Ne vous attendez pas à de grands engagements ce mois ci.\",
+		\"jour\": \"Il serait préférable d'attendre un peu avant de concrétiser vos projets.\",
+		\"heure\": \"Soyez prudent, le temps n'est pas à la concrétisation.\"
+		},
+		\"feu_yin\": {
+		\"influence\":\"tf\",
+		\"annee\": \"C'est le mois idéal pour concrétiser vos projets, foncez !\",
+		\"mois\": \"Ce mois ci est votre mois, profitez en pour concrétiser tous vos projets !\",
+		\"jour\": \"La chance est avec vous, la concrétisation de vos projets est à portée de main !\",
+		\"heure\": \"C'est le moment de concrétiser vos projets !\"
+		},
+		\"terre_yang\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Tant que vous serez prudent ce mois ci ne devrait pas avoir trop d'impact sur vos projets.\",
+		\"mois\": \"Soyez prudent avant de foncer tête baissée sur vos projet.\",
+		\"jour\": \"Ne comptez pas sur la chance pour concrétiser vos projets.\",
+		\"heure\": \"Pensez à vous avant de pensez à vos projets.\"
+		},
+		\"terre_yin\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Prenez le temps de la réflexion avant de concrétiser vos projets.\",
+		\"mois\": \"Prenez le temps de la réflexion avant de vous engager dans de grands projets.\",
+		\"jour\": \"Prenez le temps de la réfléxion, la chance n'est pas avec vous.\",
+		\"heure\": \"Vous devriez temporiser un peu vos projets.\"
+		},
+		\"metal_yang\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Un bon mois pour avancer sur vos projets.\",
+		\"mois\": \"C'est le moment de concrétiser votre amour !\",
+		\"jour\": \"Un bon mois pour concrétiser votre chance.\",
+		\"heure\": \"Vos projets n'attendent que vous !\"
+		},
+		\"metal_yin\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ce n'est pas un bon mois pour concrétiser vos projets, temporisez un peu.\",
+		\"mois\": \"Ne vous attendez pas à de grands engagements ce mois ci.\",
+		\"jour\": \"Il serait préférable d'attendre un peu avant de concrétiser vos projets.\",
+		\"heure\": \"Soyez prudent, le temps n'est pas à la concrétisation.\"
+		},
+		\"eau_yang\": {
+		\"influence\":\"tf\",
+		\"annee\": \"C'est le mois idéal pour concrétiser vos projets, foncez !\",
+		\"mois\": \"Ce mois ci est votre mois, profitez en pour concrétiser tous vos projets !\",
+		\"jour\": \"La chance est avec vous, la concrétisation de vos projets est à portée de main !\",
+		\"heure\": \"C'est le moment de concrétiser vos projets !\"
+		},
+		\"eau_yin\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Tant que vous serez prudent ce mois ci ne devrait pas avoir trop d'impact sur vos projets.\",
+		\"mois\": \"Soyez prudent avant de foncer tête baissée sur vos projet.\",
+		\"jour\": \"Ne comptez pas sur la chance pour concrétiser vos projets.\",
+		\"heure\": \"Pensez à vous avant de pensez à vos projets.\"
+		}
+		}
+		"</item>
+
+	<item name="binome23_j" type="string">"{
+		\"bois_yang\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Vous risquez de vous heurter à un excès de prudence face à vos projets…Attention au conflit !\",
+		\"mois\": \"Prenez le temps de la réflexion avant de vous engager dans de grands projets.\",
+		\"jour\": \"Prenez le temps de la réfléxion, la chance n'est pas avec vous.\",
+		\"heure\": \"Vous devriez temporiser un peu vos projets.\"
+		},
+		\"bois_yin\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Vous devriez avoir toutes les garanties et assurances pour votre projet mais tenez bon si vous rencontrez des réticences !\",
+		\"mois\": \"C'est le moment de concrétiser votre amour !\",
+		\"jour\": \"Une bonne journée pour concrétiser votre chance.\",
+		\"heure\": \"Vos projets n'attendent que vous !\"
+		},
+		\"feu_yang\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ce n'est pas une bonne journée pour concrétiser vos projets, temporisez un peu.\",
+		\"mois\": \"Ne vous attendez pas à de grands engagements aujourd'hui.\",
+		\"jour\": \"Il serait préférable d'attendre un peu avant de concrétiser vos projets.\",
+		\"heure\": \"Soyez prudent, le temps n'est pas à la concrétisation.\"
+		},
+		\"feu_yin\": {
+		\"influence\":\"tf\",
+		\"annee\": \"Aujourd'hui est votre journée, profitez en pour concrétiser tous vos projets !\",
+		\"mois\": \"Ce mois ci est votre mois, profitez en pour concrétiser tous vos projets !\",
+		\"jour\": \"La chance est avec vous, la concrétisation de vos projets est à portée de main !\",
+		\"heure\": \"C'est le moment de concrétiser vos projets !\"
+		},
+		\"terre_yang\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Tant que vous serez prudent cette journée ne devrait pas avoir trop d'impact sur vos projets.\",
+		\"mois\": \"Soyez prudent avant de foncer tête baissée sur vos projet.\",
+		\"jour\": \"Ne comptez pas sur la chance pour concrétiser vos projets.\",
+		\"heure\": \"Pensez à vous avant de pensez à vos projets.\"
+		},
+		\"terre_yin\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Prenez le temps de la réflexion avant de concrétiser vos projets.\",
+		\"mois\": \"Prenez le temps de la réflexion avant de vous engager dans de grands projets.\",
+		\"jour\": \"Prenez le temps de la réfléxion, la chance n'est pas avec vous.\",
+		\"heure\": \"Vous devriez temporiser un peu vos projets.\"
+		},
+		\"metal_yang\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Une bonne journée pour avancer sur vos projets.\",
+		\"mois\": \"C'est le moment de concrétiser votre amour !\",
+		\"jour\": \"Une bonne journée pour concrétiser votre chance.\",
+		\"heure\": \"Vos projets n'attendent que vous !\"
+		},
+		\"metal_yin\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ce n'est pas une bonne journée pour concrétiser vos projets, temporisez un peu.\",
+		\"mois\": \"Ne vous attendez pas à de grands engagements aujourd'hui.\",
+		\"jour\": \"Il serait préférable d'attendre un peu avant de concrétiser vos projets.\",
+		\"heure\": \"Soyez prudent, le temps n'est pas à la concrétisation.\"
+		},
+		\"eau_yang\": {
+		\"influence\":\"tf\",
+		\"annee\": \"Aujourd'hui est votre journée, profitez en pour concrétiser tous vos projets !\",
+		\"mois\": \"Ce mois ci est votre mois, profitez en pour concrétiser tous vos projets !\",
+		\"jour\": \"La chance est avec vous, la concrétisation de vos projets est à portée de main !\",
+		\"heure\": \"C'est le moment de concrétiser vos projets !\"
+		},
+		\"eau_yin\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Tant que vous serez prudent cette journée ne devrait pas avoir trop d'impact sur vos projets.\",
+		\"mois\": \"Soyez prudent avant de foncer tête baissée sur vos projet.\",
+		\"jour\": \"Ne comptez pas sur la chance pour concrétiser vos projets.\",
+		\"heure\": \"Pensez à vous avant de pensez à vos projets.\"
+		}
+		}
+		"</item>
+
+	<item name="binome24_a" type="string">"{
+		\"bois_yang\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Prenez le temps de la réflexion avant de concrétiser vos projets.\",
+		\"mois\": \"Prenez le temps de la réflexion avant de vous engager dans de grands projets.\",
+		\"jour\": \"Prenez le temps de la réfléxion, la chance n'est pas avec vous.\",
+		\"heure\": \"Vous devriez temporiser un peu vos projets.\"
+		},
+		\"bois_yin\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Une bonne année pour avancer sur vos projets.\",
+		\"mois\": \"C'est le moment de concrétiser votre amour !\",
+		\"jour\": \"Une bonne année pour concrétiser votre chance.\",
+		\"heure\": \"Vos projets n'attendent que vous !\"
+		},
+		\"feu_yang\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ce n'est pas une bonne année pour concrétiser vos projets, temporisez un peu.\",
+		\"mois\": \"Ne vous attendez pas à de grands engagements cette année.\",
+		\"jour\": \"Il serait préférable d'attendre un peu avant de concrétiser vos projets.\",
+		\"heure\": \"Soyez prudent, le temps n'est pas à la concrétisation.\"
+		},
+		\"feu_yin\": {
+		\"influence\":\"tf\",
+		\"annee\": \"C'est l'année idéale pour concrétiser vos projets, foncez !\",
+		\"mois\": \"Cette année est votre année, profitez en pour concrétiser tous vos projets !\",
+		\"jour\": \"La chance est avec vous, la concrétisation de vos projets est à portée de main !\",
+		\"heure\": \"C'est le moment de concrétiser vos projets !\"
+		},
+		\"terre_yang\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Tant que vous serez prudent cette année ne devrait pas avoir trop d'impact sur vos projets.\",
+		\"mois\": \"Soyez prudent avant de foncer tête baissée sur vos projet.\",
+		\"jour\": \"Ne comptez pas sur la chance pour concrétiser vos projets.\",
+		\"heure\": \"Pensez à vous avant de pensez à vos projets.\"
+		},
+		\"terre_yin\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Prenez le temps de la réflexion avant de concrétiser vos projets.\",
+		\"mois\": \"Prenez le temps de la réflexion avant de vous engager dans de grands projets.\",
+		\"jour\": \"Prenez le temps de la réfléxion, la chance n'est pas avec vous.\",
+		\"heure\": \"Vous devriez temporiser un peu vos projets.\"
+		},
+		\"metal_yang\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Une bonne année pour avancer sur vos projets.\",
+		\"mois\": \"C'est le moment de concrétiser votre amour !\",
+		\"jour\": \"Une bonne année pour concrétiser votre chance.\",
+		\"heure\": \"Vos projets n'attendent que vous !\"
+		},
+		\"metal_yin\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ce n'est pas une bonne année pour concrétiser vos projets, temporisez un peu.\",
+		\"mois\": \"Ne vous attendez pas à de grands engagements cette année.\",
+		\"jour\": \"Il serait préférable d'attendre un peu avant de concrétiser vos projets.\",
+		\"heure\": \"Soyez prudent, le temps n'est pas à la concrétisation.\"
+		},
+		\"eau_yang\": {
+		\"influence\":\"tf\",
+		\"annee\": \"C'est l'année idéale pour concrétiser vos projets, foncez !\",
+		\"mois\": \"Cette année est votre année, profitez en pour concrétiser tous vos projets !\",
+		\"jour\": \"La chance est avec vous, la concrétisation de vos projets est à portée de main !\",
+		\"heure\": \"C'est le moment de concrétiser vos projets !\"
+		},
+		\"eau_yin\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Tant que vous serez prudent cette année ne devrait pas avoir trop d'impact sur vos projets.\",
+		\"mois\": \"Soyez prudent avant de foncer tête baissée sur vos projet.\",
+		\"jour\": \"Ne comptez pas sur la chance pour concrétiser vos projets.\",
+		\"heure\": \"Pensez à vous avant de pensez à vos projets.\"
+		}
+		}
+		"</item>
+
+	<item name="binome24_m" type="string">"{
+		\"bois_yang\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Prenez le temps de la réflexion avant de concrétiser vos projets.\",
+		\"mois\": \"Prenez le temps de la réflexion avant de vous engager dans de grands projets.\",
+		\"jour\": \"Prenez le temps de la réfléxion, la chance n'est pas avec vous.\",
+		\"heure\": \"Vous devriez temporiser un peu vos projets.\"
+		},
+		\"bois_yin\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Un bon mois pour avancer sur vos projets.\",
+		\"mois\": \"C'est le moment de concrétiser votre amour !\",
+		\"jour\": \"Un bon mois pour concrétiser votre chance.\",
+		\"heure\": \"Vos projets n'attendent que vous !\"
+		},
+		\"feu_yang\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ce n'est pas un bon mois pour concrétiser vos projets, temporisez un peu.\",
+		\"mois\": \"Ne vous attendez pas à de grands engagements ce mois ci.\",
+		\"jour\": \"Il serait préférable d'attendre un peu avant de concrétiser vos projets.\",
+		\"heure\": \"Soyez prudent, le temps n'est pas à la concrétisation.\"
+		},
+		\"feu_yin\": {
+		\"influence\":\"tf\",
+		\"annee\": \"C'est le mois idéal pour concrétiser vos projets, foncez !\",
+		\"mois\": \"Ce mois ci est votre mois, profitez en pour concrétiser tous vos projets !\",
+		\"jour\": \"La chance est avec vous, la concrétisation de vos projets est à portée de main !\",
+		\"heure\": \"C'est le moment de concrétiser vos projets !\"
+		},
+		\"terre_yang\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Tant que vous serez prudent ce mois ci ne devrait pas avoir trop d'impact sur vos projets.\",
+		\"mois\": \"Soyez prudent avant de foncer tête baissée sur vos projet.\",
+		\"jour\": \"Ne comptez pas sur la chance pour concrétiser vos projets.\",
+		\"heure\": \"Pensez à vous avant de pensez à vos projets.\"
+		},
+		\"terre_yin\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Prenez le temps de la réflexion avant de concrétiser vos projets.\",
+		\"mois\": \"Prenez le temps de la réflexion avant de vous engager dans de grands projets.\",
+		\"jour\": \"Prenez le temps de la réfléxion, la chance n'est pas avec vous.\",
+		\"heure\": \"Vous devriez temporiser un peu vos projets.\"
+		},
+		\"metal_yang\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Un bon mois pour avancer sur vos projets.\",
+		\"mois\": \"C'est le moment de concrétiser votre amour !\",
+		\"jour\": \"Un bon mois pour concrétiser votre chance.\",
+		\"heure\": \"Vos projets n'attendent que vous !\"
+		},
+		\"metal_yin\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ce n'est pas un bon mois pour concrétiser vos projets, temporisez un peu.\",
+		\"mois\": \"Ne vous attendez pas à de grands engagements ce mois ci.\",
+		\"jour\": \"Il serait préférable d'attendre un peu avant de concrétiser vos projets.\",
+		\"heure\": \"Soyez prudent, le temps n'est pas à la concrétisation.\"
+		},
+		\"eau_yang\": {
+		\"influence\":\"tf\",
+		\"annee\": \"C'est le mois idéal pour concrétiser vos projets, foncez !\",
+		\"mois\": \"Ce mois ci est votre mois, profitez en pour concrétiser tous vos projets !\",
+		\"jour\": \"La chance est avec vous, la concrétisation de vos projets est à portée de main !\",
+		\"heure\": \"C'est le moment de concrétiser vos projets !\"
+		},
+		\"eau_yin\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Tant que vous serez prudent ce mois ci ne devrait pas avoir trop d'impact sur vos projets.\",
+		\"mois\": \"Soyez prudent avant de foncer tête baissée sur vos projet.\",
+		\"jour\": \"Ne comptez pas sur la chance pour concrétiser vos projets.\",
+		\"heure\": \"Pensez à vous avant de pensez à vos projets.\"
+		}
+		}
+		"</item>
+
+	<item name="binome24_j" type="string">"{
+		\"bois_yang\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Une grande énergie constructive aujourd’hui, mais zéro place à l’à peu près !\",
+		\"mois\": \"Prenez le temps de la réflexion avant de vous engager dans de grands projets.\",
+		\"jour\": \"Prenez le temps de la réfléxion, la chance n'est pas avec vous.\",
+		\"heure\": \"Vous devriez temporiser un peu vos projets.\"
+		},
+		\"bois_yin\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Restez rassurant sur les tenants et aboutissants de vos projets et vous gagnerez la partie !\",
+		\"mois\": \"C'est le moment de concrétiser votre amour !\",
+		\"jour\": \"Une bonne journée pour concrétiser votre chance.\",
+		\"heure\": \"Vos projets n'attendent que vous !\"
+		},
+		\"feu_yang\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ce n'est pas une bonne journée pour concrétiser vos projets, temporisez un peu.\",
+		\"mois\": \"Ne vous attendez pas à de grands engagements aujourd'hui.\",
+		\"jour\": \"Il serait préférable d'attendre un peu avant de concrétiser vos projets.\",
+		\"heure\": \"Soyez prudent, le temps n'est pas à la concrétisation.\"
+		},
+		\"feu_yin\": {
+		\"influence\":\"tf\",
+		\"annee\": \"Aujourd'hui est votre journée, profitez en pour concrétiser tous vos projets !\",
+		\"mois\": \"Ce mois ci est votre mois, profitez en pour concrétiser tous vos projets !\",
+		\"jour\": \"La chance est avec vous, la concrétisation de vos projets est à portée de main !\",
+		\"heure\": \"C'est le moment de concrétiser vos projets !\"
+		},
+		\"terre_yang\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Tant que vous serez prudent cette journée ne devrait pas avoir trop d'impact sur vos projets.\",
+		\"mois\": \"Soyez prudent avant de foncer tête baissée sur vos projet.\",
+		\"jour\": \"Ne comptez pas sur la chance pour concrétiser vos projets.\",
+		\"heure\": \"Pensez à vous avant de pensez à vos projets.\"
+		},
+		\"terre_yin\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Prenez le temps de la réflexion avant de concrétiser vos projets.\",
+		\"mois\": \"Prenez le temps de la réflexion avant de vous engager dans de grands projets.\",
+		\"jour\": \"Prenez le temps de la réfléxion, la chance n'est pas avec vous.\",
+		\"heure\": \"Vous devriez temporiser un peu vos projets.\"
+		},
+		\"metal_yang\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Une bonne journée pour avancer sur vos projets.\",
+		\"mois\": \"C'est le moment de concrétiser votre amour !\",
+		\"jour\": \"Une bonne journée pour concrétiser votre chance.\",
+		\"heure\": \"Vos projets n'attendent que vous !\"
+		},
+		\"metal_yin\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ce n'est pas une bonne journée pour concrétiser vos projets, temporisez un peu.\",
+		\"mois\": \"Ne vous attendez pas à de grands engagements aujourd'hui.\",
+		\"jour\": \"Il serait préférable d'attendre un peu avant de concrétiser vos projets.\",
+		\"heure\": \"Soyez prudent, le temps n'est pas à la concrétisation.\"
+		},
+		\"eau_yang\": {
+		\"influence\":\"tf\",
+		\"annee\": \"Aujourd'hui est votre journée, profitez en pour concrétiser tous vos projets !\",
+		\"mois\": \"Ce mois ci est votre mois, profitez en pour concrétiser tous vos projets !\",
+		\"jour\": \"La chance est avec vous, la concrétisation de vos projets est à portée de main !\",
+		\"heure\": \"C'est le moment de concrétiser vos projets !\"
+		},
+		\"eau_yin\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Tant que vous serez prudent cette journée ne devrait pas avoir trop d'impact sur vos projets.\",
+		\"mois\": \"Soyez prudent avant de foncer tête baissée sur vos projet.\",
+		\"jour\": \"Ne comptez pas sur la chance pour concrétiser vos projets.\",
+		\"heure\": \"Pensez à vous avant de pensez à vos projets.\"
+		}
+		}
+		"</item>
+
+	<item name="binome37_a" type="string">"{
+		\"bois_yang\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Prenez le temps de la réflexion avant de concrétiser vos projets.\",
+		\"mois\": \"Prenez le temps de la réflexion avant de vous engager dans de grands projets.\",
+		\"jour\": \"Prenez le temps de la réfléxion, la chance n'est pas avec vous.\",
+		\"heure\": \"Vous devriez temporiser un peu vos projets.\"
+		},
+		\"bois_yin\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Une bonne année pour avancer sur vos projets.\",
+		\"mois\": \"C'est le moment de concrétiser votre amour !\",
+		\"jour\": \"Une bonne année pour concrétiser votre chance.\",
+		\"heure\": \"Vos projets n'attendent que vous !\"
+		},
+		\"feu_yang\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ce n'est pas une bonne année pour concrétiser vos projets, temporisez un peu.\",
+		\"mois\": \"Ne vous attendez pas à de grands engagements cette année.\",
+		\"jour\": \"Il serait préférable d'attendre un peu avant de concrétiser vos projets.\",
+		\"heure\": \"Soyez prudent, le temps n'est pas à la concrétisation.\"
+		},
+		\"feu_yin\": {
+		\"influence\":\"tf\",
+		\"annee\": \"C'est l'année idéale pour concrétiser vos projets, foncez !\",
+		\"mois\": \"Cette année est votre année, profitez en pour concrétiser tous vos projets !\",
+		\"jour\": \"La chance est avec vous, la concrétisation de vos projets est à portée de main !\",
+		\"heure\": \"C'est le moment de concrétiser vos projets !\"
+		},
+		\"terre_yang\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Tant que vous serez prudent cette année ne devrait pas avoir trop d'impact sur vos projets.\",
+		\"mois\": \"Soyez prudent avant de foncer tête baissée sur vos projet.\",
+		\"jour\": \"Ne comptez pas sur la chance pour concrétiser vos projets.\",
+		\"heure\": \"Pensez à vous avant de pensez à vos projets.\"
+		},
+		\"terre_yin\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Prenez le temps de la réflexion avant de concrétiser vos projets.\",
+		\"mois\": \"Prenez le temps de la réflexion avant de vous engager dans de grands projets.\",
+		\"jour\": \"Prenez le temps de la réfléxion, la chance n'est pas avec vous.\",
+		\"heure\": \"Vous devriez temporiser un peu vos projets.\"
+		},
+		\"metal_yang\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Une bonne année pour avancer sur vos projets.\",
+		\"mois\": \"C'est le moment de concrétiser votre amour !\",
+		\"jour\": \"Une bonne année pour concrétiser votre chance.\",
+		\"heure\": \"Vos projets n'attendent que vous !\"
+		},
+		\"metal_yin\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ce n'est pas une bonne année pour concrétiser vos projets, temporisez un peu.\",
+		\"mois\": \"Ne vous attendez pas à de grands engagements cette année.\",
+		\"jour\": \"Il serait préférable d'attendre un peu avant de concrétiser vos projets.\",
+		\"heure\": \"Soyez prudent, le temps n'est pas à la concrétisation.\"
+		},
+		\"eau_yang\": {
+		\"influence\":\"tf\",
+		\"annee\": \"C'est l'année idéale pour concrétiser vos projets, foncez !\",
+		\"mois\": \"Cette année est votre année, profitez en pour concrétiser tous vos projets !\",
+		\"jour\": \"La chance est avec vous, la concrétisation de vos projets est à portée de main !\",
+		\"heure\": \"C'est le moment de concrétiser vos projets !\"
+		},
+		\"eau_yin\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Tant que vous serez prudent cette année ne devrait pas avoir trop d'impact sur vos projets.\",
+		\"mois\": \"Soyez prudent avant de foncer tête baissée sur vos projet.\",
+		\"jour\": \"Ne comptez pas sur la chance pour concrétiser vos projets.\",
+		\"heure\": \"Pensez à vous avant de pensez à vos projets.\"
+		}
+		}
+		"</item>
+
+	<item name="binome37_m" type="string">"{
+		\"bois_yang\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Prenez le temps de la réflexion avant de concrétiser vos projets.\",
+		\"mois\": \"Prenez le temps de la réflexion avant de vous engager dans de grands projets.\",
+		\"jour\": \"Prenez le temps de la réfléxion, la chance n'est pas avec vous.\",
+		\"heure\": \"Vous devriez temporiser un peu vos projets.\"
+		},
+		\"bois_yin\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Un bon mois pour avancer sur vos projets.\",
+		\"mois\": \"C'est le moment de concrétiser votre amour !\",
+		\"jour\": \"Un bon mois pour concrétiser votre chance.\",
+		\"heure\": \"Vos projets n'attendent que vous !\"
+		},
+		\"feu_yang\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ce n'est pas un bon mois pour concrétiser vos projets, temporisez un peu.\",
+		\"mois\": \"Ne vous attendez pas à de grands engagements ce mois ci.\",
+		\"jour\": \"Il serait préférable d'attendre un peu avant de concrétiser vos projets.\",
+		\"heure\": \"Soyez prudent, le temps n'est pas à la concrétisation.\"
+		},
+		\"feu_yin\": {
+		\"influence\":\"tf\",
+		\"annee\": \"C'est le mois idéal pour concrétiser vos projets, foncez !\",
+		\"mois\": \"Ce mois ci est votre mois, profitez en pour concrétiser tous vos projets !\",
+		\"jour\": \"La chance est avec vous, la concrétisation de vos projets est à portée de main !\",
+		\"heure\": \"C'est le moment de concrétiser vos projets !\"
+		},
+		\"terre_yang\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Tant que vous serez prudent ce mois ci ne devrait pas avoir trop d'impact sur vos projets.\",
+		\"mois\": \"Soyez prudent avant de foncer tête baissée sur vos projet.\",
+		\"jour\": \"Ne comptez pas sur la chance pour concrétiser vos projets.\",
+		\"heure\": \"Pensez à vous avant de pensez à vos projets.\"
+		},
+		\"terre_yin\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Prenez le temps de la réflexion avant de concrétiser vos projets.\",
+		\"mois\": \"Prenez le temps de la réflexion avant de vous engager dans de grands projets.\",
+		\"jour\": \"Prenez le temps de la réfléxion, la chance n'est pas avec vous.\",
+		\"heure\": \"Vous devriez temporiser un peu vos projets.\"
+		},
+		\"metal_yang\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Un bon mois pour avancer sur vos projets.\",
+		\"mois\": \"C'est le moment de concrétiser votre amour !\",
+		\"jour\": \"Un bon mois pour concrétiser votre chance.\",
+		\"heure\": \"Vos projets n'attendent que vous !\"
+		},
+		\"metal_yin\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ce n'est pas un bon mois pour concrétiser vos projets, temporisez un peu.\",
+		\"mois\": \"Ne vous attendez pas à de grands engagements ce mois ci.\",
+		\"jour\": \"Il serait préférable d'attendre un peu avant de concrétiser vos projets.\",
+		\"heure\": \"Soyez prudent, le temps n'est pas à la concrétisation.\"
+		},
+		\"eau_yang\": {
+		\"influence\":\"tf\",
+		\"annee\": \"C'est le mois idéal pour concrétiser vos projets, foncez !\",
+		\"mois\": \"Ce mois ci est votre mois, profitez en pour concrétiser tous vos projets !\",
+		\"jour\": \"La chance est avec vous, la concrétisation de vos projets est à portée de main !\",
+		\"heure\": \"C'est le moment de concrétiser vos projets !\"
+		},
+		\"eau_yin\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Tant que vous serez prudent ce mois ci ne devrait pas avoir trop d'impact sur vos projets.\",
+		\"mois\": \"Soyez prudent avant de foncer tête baissée sur vos projet.\",
+		\"jour\": \"Ne comptez pas sur la chance pour concrétiser vos projets.\",
+		\"heure\": \"Pensez à vous avant de pensez à vos projets.\"
+		}
+		}
+		"</item>
+
+	<item name="binome37_j" type="string">"{
+		\"bois_yang\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Les projets doivent être parfaitement bien ficelés pour aboutir aujourd’hui.\",
+		\"mois\": \"Prenez le temps de la réflexion avant de vous engager dans de grands projets.\",
+		\"jour\": \"Prenez le temps de la réfléxion, la chance n'est pas avec vous.\",
+		\"heure\": \"Vous devriez temporiser un peu vos projets.\"
+		},
+		\"bois_yin\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Un peu d’effort aujourd’hui pour forcer les barrières et obstacles à votre projet.\",
+		\"mois\": \"C'est le moment de concrétiser votre amour !\",
+		\"jour\": \"Une bonne journée pour concrétiser votre chance.\",
+		\"heure\": \"Vos projets n'attendent que vous !\"
+		},
+		\"feu_yang\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ce n'est pas une bonne journée pour concrétiser vos projets, temporisez un peu.\",
+		\"mois\": \"Ne vous attendez pas à de grands engagements aujourd'hui.\",
+		\"jour\": \"Il serait préférable d'attendre un peu avant de concrétiser vos projets.\",
+		\"heure\": \"Soyez prudent, le temps n'est pas à la concrétisation.\"
+		},
+		\"feu_yin\": {
+		\"influence\":\"tf\",
+		\"annee\": \"Aujourd'hui est votre journée, profitez en pour concrétiser tous vos projets !\",
+		\"mois\": \"Ce mois ci est votre mois, profitez en pour concrétiser tous vos projets !\",
+		\"jour\": \"La chance est avec vous, la concrétisation de vos projets est à portée de main !\",
+		\"heure\": \"C'est le moment de concrétiser vos projets !\"
+		},
+		\"terre_yang\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Tant que vous serez prudent cette journée ne devrait pas avoir trop d'impact sur vos projets.\",
+		\"mois\": \"Soyez prudent avant de foncer tête baissée sur vos projet.\",
+		\"jour\": \"Ne comptez pas sur la chance pour concrétiser vos projets.\",
+		\"heure\": \"Pensez à vous avant de pensez à vos projets.\"
+		},
+		\"terre_yin\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Prenez le temps de la réflexion avant de concrétiser vos projets.\",
+		\"mois\": \"Prenez le temps de la réflexion avant de vous engager dans de grands projets.\",
+		\"jour\": \"Prenez le temps de la réfléxion, la chance n'est pas avec vous.\",
+		\"heure\": \"Vous devriez temporiser un peu vos projets.\"
+		},
+		\"metal_yang\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Une bonne journée pour avancer sur vos projets.\",
+		\"mois\": \"C'est le moment de concrétiser votre amour !\",
+		\"jour\": \"Une bonne journée pour concrétiser votre chance.\",
+		\"heure\": \"Vos projets n'attendent que vous !\"
+		},
+		\"metal_yin\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ce n'est pas une bonne journée pour concrétiser vos projets, temporisez un peu.\",
+		\"mois\": \"Ne vous attendez pas à de grands engagements aujourd'hui.\",
+		\"jour\": \"Il serait préférable d'attendre un peu avant de concrétiser vos projets.\",
+		\"heure\": \"Soyez prudent, le temps n'est pas à la concrétisation.\"
+		},
+		\"eau_yang\": {
+		\"influence\":\"tf\",
+		\"annee\": \"Aujourd'hui est votre journée, profitez en pour concrétiser tous vos projets !\",
+		\"mois\": \"Ce mois ci est votre mois, profitez en pour concrétiser tous vos projets !\",
+		\"jour\": \"La chance est avec vous, la concrétisation de vos projets est à portée de main !\",
+		\"heure\": \"C'est le moment de concrétiser vos projets !\"
+		},
+		\"eau_yin\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Tant que vous serez prudent cette journée ne devrait pas avoir trop d'impact sur vos projets.\",
+		\"mois\": \"Soyez prudent avant de foncer tête baissée sur vos projet.\",
+		\"jour\": \"Ne comptez pas sur la chance pour concrétiser vos projets.\",
+		\"heure\": \"Pensez à vous avant de pensez à vos projets.\"
+		}
+		}
+		"</item>
+
+	<item name="binome38_a" type="string">"{
+		\"bois_yang\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Prenez le temps de la réflexion avant de concrétiser vos projets.\",
+		\"mois\": \"Prenez le temps de la réflexion avant de vous engager dans de grands projets.\",
+		\"jour\": \"Prenez le temps de la réfléxion, la chance n'est pas avec vous.\",
+		\"heure\": \"Vous devriez temporiser un peu vos projets.\"
+		},
+		\"bois_yin\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Une bonne année pour avancer sur vos projets.\",
+		\"mois\": \"C'est le moment de concrétiser votre amour !\",
+		\"jour\": \"Une bonne année pour concrétiser votre chance.\",
+		\"heure\": \"Vos projets n'attendent que vous !\"
+		},
+		\"feu_yang\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ce n'est pas une bonne année pour concrétiser vos projets, temporisez un peu.\",
+		\"mois\": \"Ne vous attendez pas à de grands engagements cette année.\",
+		\"jour\": \"Il serait préférable d'attendre un peu avant de concrétiser vos projets.\",
+		\"heure\": \"Soyez prudent, le temps n'est pas à la concrétisation.\"
+		},
+		\"feu_yin\": {
+		\"influence\":\"tf\",
+		\"annee\": \"C'est l'année idéale pour concrétiser vos projets, foncez !\",
+		\"mois\": \"Cette année est votre année, profitez en pour concrétiser tous vos projets !\",
+		\"jour\": \"La chance est avec vous, la concrétisation de vos projets est à portée de main !\",
+		\"heure\": \"C'est le moment de concrétiser vos projets !\"
+		},
+		\"terre_yang\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Tant que vous serez prudent cette année ne devrait pas avoir trop d'impact sur vos projets.\",
+		\"mois\": \"Soyez prudent avant de foncer tête baissée sur vos projet.\",
+		\"jour\": \"Ne comptez pas sur la chance pour concrétiser vos projets.\",
+		\"heure\": \"Pensez à vous avant de pensez à vos projets.\"
+		},
+		\"terre_yin\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Prenez le temps de la réflexion avant de concrétiser vos projets.\",
+		\"mois\": \"Prenez le temps de la réflexion avant de vous engager dans de grands projets.\",
+		\"jour\": \"Prenez le temps de la réfléxion, la chance n'est pas avec vous.\",
+		\"heure\": \"Vous devriez temporiser un peu vos projets.\"
+		},
+		\"metal_yang\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Une bonne année pour avancer sur vos projets.\",
+		\"mois\": \"C'est le moment de concrétiser votre amour !\",
+		\"jour\": \"Une bonne année pour concrétiser votre chance.\",
+		\"heure\": \"Vos projets n'attendent que vous !\"
+		},
+		\"metal_yin\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ce n'est pas une bonne année pour concrétiser vos projets, temporisez un peu.\",
+		\"mois\": \"Ne vous attendez pas à de grands engagements cette année.\",
+		\"jour\": \"Il serait préférable d'attendre un peu avant de concrétiser vos projets.\",
+		\"heure\": \"Soyez prudent, le temps n'est pas à la concrétisation.\"
+		},
+		\"eau_yang\": {
+		\"influence\":\"tf\",
+		\"annee\": \"C'est l'année idéale pour concrétiser vos projets, foncez !\",
+		\"mois\": \"Cette année est votre année, profitez en pour concrétiser tous vos projets !\",
+		\"jour\": \"La chance est avec vous, la concrétisation de vos projets est à portée de main !\",
+		\"heure\": \"C'est le moment de concrétiser vos projets !\"
+		},
+		\"eau_yin\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Tant que vous serez prudent cette année ne devrait pas avoir trop d'impact sur vos projets.\",
+		\"mois\": \"Soyez prudent avant de foncer tête baissée sur vos projet.\",
+		\"jour\": \"Ne comptez pas sur la chance pour concrétiser vos projets.\",
+		\"heure\": \"Pensez à vous avant de pensez à vos projets.\"
+		}
+		}
+		"</item>
+
+	<item name="binome38_m" type="string">"{
+		\"bois_yang\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Prenez le temps de la réflexion avant de concrétiser vos projets.\",
+		\"mois\": \"Prenez le temps de la réflexion avant de vous engager dans de grands projets.\",
+		\"jour\": \"Prenez le temps de la réfléxion, la chance n'est pas avec vous.\",
+		\"heure\": \"Vous devriez temporiser un peu vos projets.\"
+		},
+		\"bois_yin\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Un bon mois pour avancer sur vos projets.\",
+		\"mois\": \"C'est le moment de concrétiser votre amour !\",
+		\"jour\": \"Un bon mois pour concrétiser votre chance.\",
+		\"heure\": \"Vos projets n'attendent que vous !\"
+		},
+		\"feu_yang\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ce n'est pas un bon mois pour concrétiser vos projets, temporisez un peu.\",
+		\"mois\": \"Ne vous attendez pas à de grands engagements ce mois ci.\",
+		\"jour\": \"Il serait préférable d'attendre un peu avant de concrétiser vos projets.\",
+		\"heure\": \"Soyez prudent, le temps n'est pas à la concrétisation.\"
+		},
+		\"feu_yin\": {
+		\"influence\":\"tf\",
+		\"annee\": \"C'est le mois idéal pour concrétiser vos projets, foncez !\",
+		\"mois\": \"Ce mois ci est votre mois, profitez en pour concrétiser tous vos projets !\",
+		\"jour\": \"La chance est avec vous, la concrétisation de vos projets est à portée de main !\",
+		\"heure\": \"C'est le moment de concrétiser vos projets !\"
+		},
+		\"terre_yang\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Tant que vous serez prudent ce mois ci ne devrait pas avoir trop d'impact sur vos projets.\",
+		\"mois\": \"Soyez prudent avant de foncer tête baissée sur vos projet.\",
+		\"jour\": \"Ne comptez pas sur la chance pour concrétiser vos projets.\",
+		\"heure\": \"Pensez à vous avant de pensez à vos projets.\"
+		},
+		\"terre_yin\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Prenez le temps de la réflexion avant de concrétiser vos projets.\",
+		\"mois\": \"Prenez le temps de la réflexion avant de vous engager dans de grands projets.\",
+		\"jour\": \"Prenez le temps de la réfléxion, la chance n'est pas avec vous.\",
+		\"heure\": \"Vous devriez temporiser un peu vos projets.\"
+		},
+		\"metal_yang\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Un bon mois pour avancer sur vos projets.\",
+		\"mois\": \"C'est le moment de concrétiser votre amour !\",
+		\"jour\": \"Un bon mois pour concrétiser votre chance.\",
+		\"heure\": \"Vos projets n'attendent que vous !\"
+		},
+		\"metal_yin\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ce n'est pas un bon mois pour concrétiser vos projets, temporisez un peu.\",
+		\"mois\": \"Ne vous attendez pas à de grands engagements ce mois ci.\",
+		\"jour\": \"Il serait préférable d'attendre un peu avant de concrétiser vos projets.\",
+		\"heure\": \"Soyez prudent, le temps n'est pas à la concrétisation.\"
+		},
+		\"eau_yang\": {
+		\"influence\":\"tf\",
+		\"annee\": \"C'est le mois idéal pour concrétiser vos projets, foncez !\",
+		\"mois\": \"Ce mois ci est votre mois, profitez en pour concrétiser tous vos projets !\",
+		\"jour\": \"La chance est avec vous, la concrétisation de vos projets est à portée de main !\",
+		\"heure\": \"C'est le moment de concrétiser vos projets !\"
+		},
+		\"eau_yin\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Tant que vous serez prudent ce mois ci ne devrait pas avoir trop d'impact sur vos projets.\",
+		\"mois\": \"Soyez prudent avant de foncer tête baissée sur vos projet.\",
+		\"jour\": \"Ne comptez pas sur la chance pour concrétiser vos projets.\",
+		\"heure\": \"Pensez à vous avant de pensez à vos projets.\"
+		}
+		}
+		"</item>
+
+	<item name="binome38_j" type="string">"{
+		\"bois_yang\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Si vos idées ne passent pas aujourd’hui, ne restez pas bloqué(e), retravaillez la forme !\",
+		\"mois\": \"Prenez le temps de la réflexion avant de vous engager dans de grands projets.\",
+		\"jour\": \"Prenez le temps de la réfléxion, la chance n'est pas avec vous.\",
+		\"heure\": \"Vous devriez temporiser un peu vos projets.\"
+		},
+		\"bois_yin\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Vos idées peuvent être bienvenues, mais il faut qu’elles le restent, soyez concret !\",
+		\"mois\": \"C'est le moment de concrétiser votre amour !\",
+		\"jour\": \"Une bonne journée pour concrétiser votre chance.\",
+		\"heure\": \"Vos projets n'attendent que vous !\"
+		},
+		\"feu_yang\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ce n'est pas une bonne journée pour concrétiser vos projets, temporisez un peu.\",
+		\"mois\": \"Ne vous attendez pas à de grands engagements aujourd'hui.\",
+		\"jour\": \"Il serait préférable d'attendre un peu avant de concrétiser vos projets.\",
+		\"heure\": \"Soyez prudent, le temps n'est pas à la concrétisation.\"
+		},
+		\"feu_yin\": {
+		\"influence\":\"tf\",
+		\"annee\": \"Aujourd'hui est votre journée, profitez en pour concrétiser tous vos projets !\",
+		\"mois\": \"Ce mois ci est votre mois, profitez en pour concrétiser tous vos projets !\",
+		\"jour\": \"La chance est avec vous, la concrétisation de vos projets est à portée de main !\",
+		\"heure\": \"C'est le moment de concrétiser vos projets !\"
+		},
+		\"terre_yang\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Tant que vous serez prudent cette journée ne devrait pas avoir trop d'impact sur vos projets.\",
+		\"mois\": \"Soyez prudent avant de foncer tête baissée sur vos projet.\",
+		\"jour\": \"Ne comptez pas sur la chance pour concrétiser vos projets.\",
+		\"heure\": \"Pensez à vous avant de pensez à vos projets.\"
+		},
+		\"terre_yin\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Prenez le temps de la réflexion avant de concrétiser vos projets.\",
+		\"mois\": \"Prenez le temps de la réflexion avant de vous engager dans de grands projets.\",
+		\"jour\": \"Prenez le temps de la réfléxion, la chance n'est pas avec vous.\",
+		\"heure\": \"Vous devriez temporiser un peu vos projets.\"
+		},
+		\"metal_yang\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Une bonne journée pour avancer sur vos projets.\",
+		\"mois\": \"C'est le moment de concrétiser votre amour !\",
+		\"jour\": \"Une bonne journée pour concrétiser votre chance.\",
+		\"heure\": \"Vos projets n'attendent que vous !\"
+		},
+		\"metal_yin\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ce n'est pas une bonne journée pour concrétiser vos projets, temporisez un peu.\",
+		\"mois\": \"Ne vous attendez pas à de grands engagements aujourd'hui.\",
+		\"jour\": \"Il serait préférable d'attendre un peu avant de concrétiser vos projets.\",
+		\"heure\": \"Soyez prudent, le temps n'est pas à la concrétisation.\"
+		},
+		\"eau_yang\": {
+		\"influence\":\"tf\",
+		\"annee\": \"Aujourd'hui est votre journée, profitez en pour concrétiser tous vos projets !\",
+		\"mois\": \"Ce mois ci est votre mois, profitez en pour concrétiser tous vos projets !\",
+		\"jour\": \"La chance est avec vous, la concrétisation de vos projets est à portée de main !\",
+		\"heure\": \"C'est le moment de concrétiser vos projets !\"
+		},
+		\"eau_yin\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Tant que vous serez prudent cette journée ne devrait pas avoir trop d'impact sur vos projets.\",
+		\"mois\": \"Soyez prudent avant de foncer tête baissée sur vos projet.\",
+		\"jour\": \"Ne comptez pas sur la chance pour concrétiser vos projets.\",
+		\"heure\": \"Pensez à vous avant de pensez à vos projets.\"
+		}
+		}
+		"</item>
+
+	<item name="binome45_a" type="string">"{
+		\"bois_yang\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Prenez le temps de la réflexion avant de concrétiser vos projets.\",
+		\"mois\": \"Prenez le temps de la réflexion avant de vous engager dans de grands projets.\",
+		\"jour\": \"Prenez le temps de la réfléxion, la chance n'est pas avec vous.\",
+		\"heure\": \"Vous devriez temporiser un peu vos projets.\"
+		},
+		\"bois_yin\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Une bonne année pour avancer sur vos projets.\",
+		\"mois\": \"C'est le moment de concrétiser votre amour !\",
+		\"jour\": \"Une bonne année pour concrétiser votre chance.\",
+		\"heure\": \"Vos projets n'attendent que vous !\"
+		},
+		\"feu_yang\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ce n'est pas une bonne année pour concrétiser vos projets, temporisez un peu.\",
+		\"mois\": \"Ne vous attendez pas à de grands engagements cette année.\",
+		\"jour\": \"Il serait préférable d'attendre un peu avant de concrétiser vos projets.\",
+		\"heure\": \"Soyez prudent, le temps n'est pas à la concrétisation.\"
+		},
+		\"feu_yin\": {
+		\"influence\":\"tf\",
+		\"annee\": \"C'est l'année idéale pour concrétiser vos projets, foncez !\",
+		\"mois\": \"Cette année est votre année, profitez en pour concrétiser tous vos projets !\",
+		\"jour\": \"La chance est avec vous, la concrétisation de vos projets est à portée de main !\",
+		\"heure\": \"C'est le moment de concrétiser vos projets !\"
+		},
+		\"terre_yang\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Tant que vous serez prudent cette année ne devrait pas avoir trop d'impact sur vos projets.\",
+		\"mois\": \"Soyez prudent avant de foncer tête baissée sur vos projet.\",
+		\"jour\": \"Ne comptez pas sur la chance pour concrétiser vos projets.\",
+		\"heure\": \"Pensez à vous avant de pensez à vos projets.\"
+		},
+		\"terre_yin\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Prenez le temps de la réflexion avant de concrétiser vos projets.\",
+		\"mois\": \"Prenez le temps de la réflexion avant de vous engager dans de grands projets.\",
+		\"jour\": \"Prenez le temps de la réfléxion, la chance n'est pas avec vous.\",
+		\"heure\": \"Vous devriez temporiser un peu vos projets.\"
+		},
+		\"metal_yang\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Une bonne année pour avancer sur vos projets.\",
+		\"mois\": \"C'est le moment de concrétiser votre amour !\",
+		\"jour\": \"Une bonne année pour concrétiser votre chance.\",
+		\"heure\": \"Vos projets n'attendent que vous !\"
+		},
+		\"metal_yin\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ce n'est pas une bonne année pour concrétiser vos projets, temporisez un peu.\",
+		\"mois\": \"Ne vous attendez pas à de grands engagements cette année.\",
+		\"jour\": \"Il serait préférable d'attendre un peu avant de concrétiser vos projets.\",
+		\"heure\": \"Soyez prudent, le temps n'est pas à la concrétisation.\"
+		},
+		\"eau_yang\": {
+		\"influence\":\"tf\",
+		\"annee\": \"C'est l'année idéale pour concrétiser vos projets, foncez !\",
+		\"mois\": \"Cette année est votre année, profitez en pour concrétiser tous vos projets !\",
+		\"jour\": \"La chance est avec vous, la concrétisation de vos projets est à portée de main !\",
+		\"heure\": \"C'est le moment de concrétiser vos projets !\"
+		},
+		\"eau_yin\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Tant que vous serez prudent cette année ne devrait pas avoir trop d'impact sur vos projets.\",
+		\"mois\": \"Soyez prudent avant de foncer tête baissée sur vos projet.\",
+		\"jour\": \"Ne comptez pas sur la chance pour concrétiser vos projets.\",
+		\"heure\": \"Pensez à vous avant de pensez à vos projets.\"
+		}
+		}
+		"</item>
+
+	<item name="binome45_m" type="string">"{
+		\"bois_yang\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Prenez le temps de la réflexion avant de concrétiser vos projets.\",
+		\"mois\": \"Prenez le temps de la réflexion avant de vous engager dans de grands projets.\",
+		\"jour\": \"Prenez le temps de la réfléxion, la chance n'est pas avec vous.\",
+		\"heure\": \"Vous devriez temporiser un peu vos projets.\"
+		},
+		\"bois_yin\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Un bon mois pour avancer sur vos projets.\",
+		\"mois\": \"C'est le moment de concrétiser votre amour !\",
+		\"jour\": \"Un bon mois pour concrétiser votre chance.\",
+		\"heure\": \"Vos projets n'attendent que vous !\"
+		},
+		\"feu_yang\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ce n'est pas un bon mois pour concrétiser vos projets, temporisez un peu.\",
+		\"mois\": \"Ne vous attendez pas à de grands engagements ce mois ci.\",
+		\"jour\": \"Il serait préférable d'attendre un peu avant de concrétiser vos projets.\",
+		\"heure\": \"Soyez prudent, le temps n'est pas à la concrétisation.\"
+		},
+		\"feu_yin\": {
+		\"influence\":\"tf\",
+		\"annee\": \"C'est le mois idéal pour concrétiser vos projets, foncez !\",
+		\"mois\": \"Ce mois ci est votre mois, profitez en pour concrétiser tous vos projets !\",
+		\"jour\": \"La chance est avec vous, la concrétisation de vos projets est à portée de main !\",
+		\"heure\": \"C'est le moment de concrétiser vos projets !\"
+		},
+		\"terre_yang\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Tant que vous serez prudent ce mois ci ne devrait pas avoir trop d'impact sur vos projets.\",
+		\"mois\": \"Soyez prudent avant de foncer tête baissée sur vos projet.\",
+		\"jour\": \"Ne comptez pas sur la chance pour concrétiser vos projets.\",
+		\"heure\": \"Pensez à vous avant de pensez à vos projets.\"
+		},
+		\"terre_yin\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Prenez le temps de la réflexion avant de concrétiser vos projets.\",
+		\"mois\": \"Prenez le temps de la réflexion avant de vous engager dans de grands projets.\",
+		\"jour\": \"Prenez le temps de la réfléxion, la chance n'est pas avec vous.\",
+		\"heure\": \"Vous devriez temporiser un peu vos projets.\"
+		},
+		\"metal_yang\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Un bon mois pour avancer sur vos projets.\",
+		\"mois\": \"C'est le moment de concrétiser votre amour !\",
+		\"jour\": \"Un bon mois pour concrétiser votre chance.\",
+		\"heure\": \"Vos projets n'attendent que vous !\"
+		},
+		\"metal_yin\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ce n'est pas un bon mois pour concrétiser vos projets, temporisez un peu.\",
+		\"mois\": \"Ne vous attendez pas à de grands engagements ce mois ci.\",
+		\"jour\": \"Il serait préférable d'attendre un peu avant de concrétiser vos projets.\",
+		\"heure\": \"Soyez prudent, le temps n'est pas à la concrétisation.\"
+		},
+		\"eau_yang\": {
+		\"influence\":\"tf\",
+		\"annee\": \"C'est le mois idéal pour concrétiser vos projets, foncez !\",
+		\"mois\": \"Ce mois ci est votre mois, profitez en pour concrétiser tous vos projets !\",
+		\"jour\": \"La chance est avec vous, la concrétisation de vos projets est à portée de main !\",
+		\"heure\": \"C'est le moment de concrétiser vos projets !\"
+		},
+		\"eau_yin\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Tant que vous serez prudent ce mois ci ne devrait pas avoir trop d'impact sur vos projets.\",
+		\"mois\": \"Soyez prudent avant de foncer tête baissée sur vos projet.\",
+		\"jour\": \"Ne comptez pas sur la chance pour concrétiser vos projets.\",
+		\"heure\": \"Pensez à vous avant de pensez à vos projets.\"
+		}
+		}
+		"</item>
+
+	<item name="binome45_j" type="string">"{
+		\"bois_yang\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Vous allez sans doute rencontrer de l’enthousiasme face à vos idées, veillez à ce que cela ne parte pas dans tous les sens !\",
+		\"mois\": \"Prenez le temps de la réflexion avant de vous engager dans de grands projets.\",
+		\"jour\": \"Prenez le temps de la réfléxion, la chance n'est pas avec vous.\",
+		\"heure\": \"Vous devriez temporiser un peu vos projets.\"
+		},
+		\"bois_yin\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Une journée qui pourrait vous ouvrir de nouveaux horizons et de nouvelles idées si vous restez attentif.\",
+		\"mois\": \"C'est le moment de concrétiser votre amour !\",
+		\"jour\": \"Une bonne journée pour concrétiser votre chance.\",
+		\"heure\": \"Vos projets n'attendent que vous !\"
+		},
+		\"feu_yang\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ce n'est pas une bonne journée pour concrétiser vos projets, temporisez un peu.\",
+		\"mois\": \"Ne vous attendez pas à de grands engagements aujourd'hui.\",
+		\"jour\": \"Il serait préférable d'attendre un peu avant de concrétiser vos projets.\",
+		\"heure\": \"Soyez prudent, le temps n'est pas à la concrétisation.\"
+		},
+		\"feu_yin\": {
+		\"influence\":\"tf\",
+		\"annee\": \"Aujourd'hui est votre journée, profitez en pour concrétiser tous vos projets !\",
+		\"mois\": \"Ce mois ci est votre mois, profitez en pour concrétiser tous vos projets !\",
+		\"jour\": \"La chance est avec vous, la concrétisation de vos projets est à portée de main !\",
+		\"heure\": \"C'est le moment de concrétiser vos projets !\"
+		},
+		\"terre_yang\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Tant que vous serez prudent cette journée ne devrait pas avoir trop d'impact sur vos projets.\",
+		\"mois\": \"Soyez prudent avant de foncer tête baissée sur vos projet.\",
+		\"jour\": \"Ne comptez pas sur la chance pour concrétiser vos projets.\",
+		\"heure\": \"Pensez à vous avant de pensez à vos projets.\"
+		},
+		\"terre_yin\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Prenez le temps de la réflexion avant de concrétiser vos projets.\",
+		\"mois\": \"Prenez le temps de la réflexion avant de vous engager dans de grands projets.\",
+		\"jour\": \"Prenez le temps de la réfléxion, la chance n'est pas avec vous.\",
+		\"heure\": \"Vous devriez temporiser un peu vos projets.\"
+		},
+		\"metal_yang\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Une bonne journée pour avancer sur vos projets.\",
+		\"mois\": \"C'est le moment de concrétiser votre amour !\",
+		\"jour\": \"Une bonne journée pour concrétiser votre chance.\",
+		\"heure\": \"Vos projets n'attendent que vous !\"
+		},
+		\"metal_yin\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ce n'est pas une bonne journée pour concrétiser vos projets, temporisez un peu.\",
+		\"mois\": \"Ne vous attendez pas à de grands engagements aujourd'hui.\",
+		\"jour\": \"Il serait préférable d'attendre un peu avant de concrétiser vos projets.\",
+		\"heure\": \"Soyez prudent, le temps n'est pas à la concrétisation.\"
+		},
+		\"eau_yang\": {
+		\"influence\":\"tf\",
+		\"annee\": \"Aujourd'hui est votre journée, profitez en pour concrétiser tous vos projets !\",
+		\"mois\": \"Ce mois ci est votre mois, profitez en pour concrétiser tous vos projets !\",
+		\"jour\": \"La chance est avec vous, la concrétisation de vos projets est à portée de main !\",
+		\"heure\": \"C'est le moment de concrétiser vos projets !\"
+		},
+		\"eau_yin\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Tant que vous serez prudent cette journée ne devrait pas avoir trop d'impact sur vos projets.\",
+		\"mois\": \"Soyez prudent avant de foncer tête baissée sur vos projet.\",
+		\"jour\": \"Ne comptez pas sur la chance pour concrétiser vos projets.\",
+		\"heure\": \"Pensez à vous avant de pensez à vos projets.\"
+		}
+		}
+		"</item>
+
+	<item name="binome46_a" type="string">"{
+		\"bois_yang\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Prenez le temps de la réflexion avant de concrétiser vos projets.\",
+		\"mois\": \"Prenez le temps de la réflexion avant de vous engager dans de grands projets.\",
+		\"jour\": \"Prenez le temps de la réfléxion, la chance n'est pas avec vous.\",
+		\"heure\": \"Vous devriez temporiser un peu vos projets.\"
+		},
+		\"bois_yin\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Une bonne année pour avancer sur vos projets.\",
+		\"mois\": \"C'est le moment de concrétiser votre amour !\",
+		\"jour\": \"Une bonne année pour concrétiser votre chance.\",
+		\"heure\": \"Vos projets n'attendent que vous !\"
+		},
+		\"feu_yang\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ce n'est pas une bonne année pour concrétiser vos projets, temporisez un peu.\",
+		\"mois\": \"Ne vous attendez pas à de grands engagements cette année.\",
+		\"jour\": \"Il serait préférable d'attendre un peu avant de concrétiser vos projets.\",
+		\"heure\": \"Soyez prudent, le temps n'est pas à la concrétisation.\"
+		},
+		\"feu_yin\": {
+		\"influence\":\"tf\",
+		\"annee\": \"C'est l'année idéale pour concrétiser vos projets, foncez !\",
+		\"mois\": \"Cette année est votre année, profitez en pour concrétiser tous vos projets !\",
+		\"jour\": \"La chance est avec vous, la concrétisation de vos projets est à portée de main !\",
+		\"heure\": \"C'est le moment de concrétiser vos projets !\"
+		},
+		\"terre_yang\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Tant que vous serez prudent cette année ne devrait pas avoir trop d'impact sur vos projets.\",
+		\"mois\": \"Soyez prudent avant de foncer tête baissée sur vos projet.\",
+		\"jour\": \"Ne comptez pas sur la chance pour concrétiser vos projets.\",
+		\"heure\": \"Pensez à vous avant de pensez à vos projets.\"
+		},
+		\"terre_yin\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Prenez le temps de la réflexion avant de concrétiser vos projets.\",
+		\"mois\": \"Prenez le temps de la réflexion avant de vous engager dans de grands projets.\",
+		\"jour\": \"Prenez le temps de la réfléxion, la chance n'est pas avec vous.\",
+		\"heure\": \"Vous devriez temporiser un peu vos projets.\"
+		},
+		\"metal_yang\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Une bonne année pour avancer sur vos projets.\",
+		\"mois\": \"C'est le moment de concrétiser votre amour !\",
+		\"jour\": \"Une bonne année pour concrétiser votre chance.\",
+		\"heure\": \"Vos projets n'attendent que vous !\"
+		},
+		\"metal_yin\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ce n'est pas une bonne année pour concrétiser vos projets, temporisez un peu.\",
+		\"mois\": \"Ne vous attendez pas à de grands engagements cette année.\",
+		\"jour\": \"Il serait préférable d'attendre un peu avant de concrétiser vos projets.\",
+		\"heure\": \"Soyez prudent, le temps n'est pas à la concrétisation.\"
+		},
+		\"eau_yang\": {
+		\"influence\":\"tf\",
+		\"annee\": \"C'est l'année idéale pour concrétiser vos projets, foncez !\",
+		\"mois\": \"Cette année est votre année, profitez en pour concrétiser tous vos projets !\",
+		\"jour\": \"La chance est avec vous, la concrétisation de vos projets est à portée de main !\",
+		\"heure\": \"C'est le moment de concrétiser vos projets !\"
+		},
+		\"eau_yin\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Tant que vous serez prudent cette année ne devrait pas avoir trop d'impact sur vos projets.\",
+		\"mois\": \"Soyez prudent avant de foncer tête baissée sur vos projet.\",
+		\"jour\": \"Ne comptez pas sur la chance pour concrétiser vos projets.\",
+		\"heure\": \"Pensez à vous avant de pensez à vos projets.\"
+		}
+		}
+		"</item>
+
+	<item name="binome46_m" type="string">"{
+		\"bois_yang\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Prenez le temps de la réflexion avant de concrétiser vos projets.\",
+		\"mois\": \"Prenez le temps de la réflexion avant de vous engager dans de grands projets.\",
+		\"jour\": \"Prenez le temps de la réfléxion, la chance n'est pas avec vous.\",
+		\"heure\": \"Vous devriez temporiser un peu vos projets.\"
+		},
+		\"bois_yin\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Un bon mois pour avancer sur vos projets.\",
+		\"mois\": \"C'est le moment de concrétiser votre amour !\",
+		\"jour\": \"Un bon mois pour concrétiser votre chance.\",
+		\"heure\": \"Vos projets n'attendent que vous !\"
+		},
+		\"feu_yang\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ce n'est pas un bon mois pour concrétiser vos projets, temporisez un peu.\",
+		\"mois\": \"Ne vous attendez pas à de grands engagements ce mois ci.\",
+		\"jour\": \"Il serait préférable d'attendre un peu avant de concrétiser vos projets.\",
+		\"heure\": \"Soyez prudent, le temps n'est pas à la concrétisation.\"
+		},
+		\"feu_yin\": {
+		\"influence\":\"tf\",
+		\"annee\": \"C'est le mois idéal pour concrétiser vos projets, foncez !\",
+		\"mois\": \"Ce mois ci est votre mois, profitez en pour concrétiser tous vos projets !\",
+		\"jour\": \"La chance est avec vous, la concrétisation de vos projets est à portée de main !\",
+		\"heure\": \"C'est le moment de concrétiser vos projets !\"
+		},
+		\"terre_yang\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Tant que vous serez prudent ce mois ci ne devrait pas avoir trop d'impact sur vos projets.\",
+		\"mois\": \"Soyez prudent avant de foncer tête baissée sur vos projet.\",
+		\"jour\": \"Ne comptez pas sur la chance pour concrétiser vos projets.\",
+		\"heure\": \"Pensez à vous avant de pensez à vos projets.\"
+		},
+		\"terre_yin\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Prenez le temps de la réflexion avant de concrétiser vos projets.\",
+		\"mois\": \"Prenez le temps de la réflexion avant de vous engager dans de grands projets.\",
+		\"jour\": \"Prenez le temps de la réfléxion, la chance n'est pas avec vous.\",
+		\"heure\": \"Vous devriez temporiser un peu vos projets.\"
+		},
+		\"metal_yang\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Un bon mois pour avancer sur vos projets.\",
+		\"mois\": \"C'est le moment de concrétiser votre amour !\",
+		\"jour\": \"Un bon mois pour concrétiser votre chance.\",
+		\"heure\": \"Vos projets n'attendent que vous !\"
+		},
+		\"metal_yin\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ce n'est pas un bon mois pour concrétiser vos projets, temporisez un peu.\",
+		\"mois\": \"Ne vous attendez pas à de grands engagements ce mois ci.\",
+		\"jour\": \"Il serait préférable d'attendre un peu avant de concrétiser vos projets.\",
+		\"heure\": \"Soyez prudent, le temps n'est pas à la concrétisation.\"
+		},
+		\"eau_yang\": {
+		\"influence\":\"tf\",
+		\"annee\": \"C'est le mois idéal pour concrétiser vos projets, foncez !\",
+		\"mois\": \"Ce mois ci est votre mois, profitez en pour concrétiser tous vos projets !\",
+		\"jour\": \"La chance est avec vous, la concrétisation de vos projets est à portée de main !\",
+		\"heure\": \"C'est le moment de concrétiser vos projets !\"
+		},
+		\"eau_yin\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Tant que vous serez prudent ce mois ci ne devrait pas avoir trop d'impact sur vos projets.\",
+		\"mois\": \"Soyez prudent avant de foncer tête baissée sur vos projet.\",
+		\"jour\": \"Ne comptez pas sur la chance pour concrétiser vos projets.\",
+		\"heure\": \"Pensez à vous avant de pensez à vos projets.\"
+		}
+		}
+		"</item>
+
+	<item name="binome46_j" type="string">"{
+		\"bois_yang\": {
+		\"influence\":\"pc\",
+		\"annee\": \"C’est la journée pour tenter de nouvelles idées et expériences… Avec sérieux !\",
+		\"mois\": \"Prenez le temps de la réflexion avant de vous engager dans de grands projets.\",
+		\"jour\": \"Prenez le temps de la réfléxion, la chance n'est pas avec vous.\",
+		\"heure\": \"Vous devriez temporiser un peu vos projets.\"
+		},
+		\"bois_yin\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Réalisme et ouverture d’esprit vous accompagnent aujourd’hui, profitez en !\",
+		\"mois\": \"C'est le moment de concrétiser votre amour !\",
+		\"jour\": \"Une bonne journée pour concrétiser votre chance.\",
+		\"heure\": \"Vos projets n'attendent que vous !\"
+		},
+		\"feu_yang\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ce n'est pas une bonne journée pour concrétiser vos projets, temporisez un peu.\",
+		\"mois\": \"Ne vous attendez pas à de grands engagements aujourd'hui.\",
+		\"jour\": \"Il serait préférable d'attendre un peu avant de concrétiser vos projets.\",
+		\"heure\": \"Soyez prudent, le temps n'est pas à la concrétisation.\"
+		},
+		\"feu_yin\": {
+		\"influence\":\"tf\",
+		\"annee\": \"Aujourd'hui est votre journée, profitez en pour concrétiser tous vos projets !\",
+		\"mois\": \"Ce mois ci est votre mois, profitez en pour concrétiser tous vos projets !\",
+		\"jour\": \"La chance est avec vous, la concrétisation de vos projets est à portée de main !\",
+		\"heure\": \"C'est le moment de concrétiser vos projets !\"
+		},
+		\"terre_yang\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Tant que vous serez prudent cette journée ne devrait pas avoir trop d'impact sur vos projets.\",
+		\"mois\": \"Soyez prudent avant de foncer tête baissée sur vos projet.\",
+		\"jour\": \"Ne comptez pas sur la chance pour concrétiser vos projets.\",
+		\"heure\": \"Pensez à vous avant de pensez à vos projets.\"
+		},
+		\"terre_yin\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Prenez le temps de la réflexion avant de concrétiser vos projets.\",
+		\"mois\": \"Prenez le temps de la réflexion avant de vous engager dans de grands projets.\",
+		\"jour\": \"Prenez le temps de la réfléxion, la chance n'est pas avec vous.\",
+		\"heure\": \"Vous devriez temporiser un peu vos projets.\"
+		},
+		\"metal_yang\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Une bonne journée pour avancer sur vos projets.\",
+		\"mois\": \"C'est le moment de concrétiser votre amour !\",
+		\"jour\": \"Une bonne journée pour concrétiser votre chance.\",
+		\"heure\": \"Vos projets n'attendent que vous !\"
+		},
+		\"metal_yin\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ce n'est pas une bonne journée pour concrétiser vos projets, temporisez un peu.\",
+		\"mois\": \"Ne vous attendez pas à de grands engagements aujourd'hui.\",
+		\"jour\": \"Il serait préférable d'attendre un peu avant de concrétiser vos projets.\",
+		\"heure\": \"Soyez prudent, le temps n'est pas à la concrétisation.\"
+		},
+		\"eau_yang\": {
+		\"influence\":\"tf\",
+		\"annee\": \"Aujourd'hui est votre journée, profitez en pour concrétiser tous vos projets !\",
+		\"mois\": \"Ce mois ci est votre mois, profitez en pour concrétiser tous vos projets !\",
+		\"jour\": \"La chance est avec vous, la concrétisation de vos projets est à portée de main !\",
+		\"heure\": \"C'est le moment de concrétiser vos projets !\"
+		},
+		\"eau_yin\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Tant que vous serez prudent cette journée ne devrait pas avoir trop d'impact sur vos projets.\",
+		\"mois\": \"Soyez prudent avant de foncer tête baissée sur vos projet.\",
+		\"jour\": \"Ne comptez pas sur la chance pour concrétiser vos projets.\",
+		\"heure\": \"Pensez à vous avant de pensez à vos projets.\"
+		}
+		}
+		"</item>
+
+	<item name="binome53_a" type="string">"{
+		\"bois_yang\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Prenez le temps de la réflexion avant de concrétiser vos projets.\",
+		\"mois\": \"Prenez le temps de la réflexion avant de vous engager dans de grands projets.\",
+		\"jour\": \"Prenez le temps de la réfléxion, la chance n'est pas avec vous.\",
+		\"heure\": \"Vous devriez temporiser un peu vos projets.\"
+		},
+		\"bois_yin\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Une bonne année pour avancer sur vos projets.\",
+		\"mois\": \"C'est le moment de concrétiser votre amour !\",
+		\"jour\": \"Une bonne année pour concrétiser votre chance.\",
+		\"heure\": \"Vos projets n'attendent que vous !\"
+		},
+		\"feu_yang\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ce n'est pas une bonne année pour concrétiser vos projets, temporisez un peu.\",
+		\"mois\": \"Ne vous attendez pas à de grands engagements cette année.\",
+		\"jour\": \"Il serait préférable d'attendre un peu avant de concrétiser vos projets.\",
+		\"heure\": \"Soyez prudent, le temps n'est pas à la concrétisation.\"
+		},
+		\"feu_yin\": {
+		\"influence\":\"tf\",
+		\"annee\": \"C'est l'année idéale pour concrétiser vos projets, foncez !\",
+		\"mois\": \"Cette année est votre année, profitez en pour concrétiser tous vos projets !\",
+		\"jour\": \"La chance est avec vous, la concrétisation de vos projets est à portée de main !\",
+		\"heure\": \"C'est le moment de concrétiser vos projets !\"
+		},
+		\"terre_yang\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Tant que vous serez prudent cette année ne devrait pas avoir trop d'impact sur vos projets.\",
+		\"mois\": \"Soyez prudent avant de foncer tête baissée sur vos projet.\",
+		\"jour\": \"Ne comptez pas sur la chance pour concrétiser vos projets.\",
+		\"heure\": \"Pensez à vous avant de pensez à vos projets.\"
+		},
+		\"terre_yin\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Prenez le temps de la réflexion avant de concrétiser vos projets.\",
+		\"mois\": \"Prenez le temps de la réflexion avant de vous engager dans de grands projets.\",
+		\"jour\": \"Prenez le temps de la réfléxion, la chance n'est pas avec vous.\",
+		\"heure\": \"Vous devriez temporiser un peu vos projets.\"
+		},
+		\"metal_yang\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Une bonne année pour avancer sur vos projets.\",
+		\"mois\": \"C'est le moment de concrétiser votre amour !\",
+		\"jour\": \"Une bonne année pour concrétiser votre chance.\",
+		\"heure\": \"Vos projets n'attendent que vous !\"
+		},
+		\"metal_yin\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ce n'est pas une bonne année pour concrétiser vos projets, temporisez un peu.\",
+		\"mois\": \"Ne vous attendez pas à de grands engagements cette année.\",
+		\"jour\": \"Il serait préférable d'attendre un peu avant de concrétiser vos projets.\",
+		\"heure\": \"Soyez prudent, le temps n'est pas à la concrétisation.\"
+		},
+		\"eau_yang\": {
+		\"influence\":\"tf\",
+		\"annee\": \"C'est l'année idéale pour concrétiser vos projets, foncez !\",
+		\"mois\": \"Cette année est votre année, profitez en pour concrétiser tous vos projets !\",
+		\"jour\": \"La chance est avec vous, la concrétisation de vos projets est à portée de main !\",
+		\"heure\": \"C'est le moment de concrétiser vos projets !\"
+		},
+		\"eau_yin\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Tant que vous serez prudent cette année ne devrait pas avoir trop d'impact sur vos projets.\",
+		\"mois\": \"Soyez prudent avant de foncer tête baissée sur vos projet.\",
+		\"jour\": \"Ne comptez pas sur la chance pour concrétiser vos projets.\",
+		\"heure\": \"Pensez à vous avant de pensez à vos projets.\"
+		}
+		}
+		"</item>
+
+	<item name="binome53_m" type="string">"{
+		\"bois_yang\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Prenez le temps de la réflexion avant de concrétiser vos projets.\",
+		\"mois\": \"Prenez le temps de la réflexion avant de vous engager dans de grands projets.\",
+		\"jour\": \"Prenez le temps de la réfléxion, la chance n'est pas avec vous.\",
+		\"heure\": \"Vous devriez temporiser un peu vos projets.\"
+		},
+		\"bois_yin\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Un bon mois pour avancer sur vos projets.\",
+		\"mois\": \"C'est le moment de concrétiser votre amour !\",
+		\"jour\": \"Un bon mois pour concrétiser votre chance.\",
+		\"heure\": \"Vos projets n'attendent que vous !\"
+		},
+		\"feu_yang\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ce n'est pas un bon mois pour concrétiser vos projets, temporisez un peu.\",
+		\"mois\": \"Ne vous attendez pas à de grands engagements ce mois ci.\",
+		\"jour\": \"Il serait préférable d'attendre un peu avant de concrétiser vos projets.\",
+		\"heure\": \"Soyez prudent, le temps n'est pas à la concrétisation.\"
+		},
+		\"feu_yin\": {
+		\"influence\":\"tf\",
+		\"annee\": \"C'est le mois idéal pour concrétiser vos projets, foncez !\",
+		\"mois\": \"Ce mois ci est votre mois, profitez en pour concrétiser tous vos projets !\",
+		\"jour\": \"La chance est avec vous, la concrétisation de vos projets est à portée de main !\",
+		\"heure\": \"C'est le moment de concrétiser vos projets !\"
+		},
+		\"terre_yang\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Tant que vous serez prudent ce mois ci ne devrait pas avoir trop d'impact sur vos projets.\",
+		\"mois\": \"Soyez prudent avant de foncer tête baissée sur vos projet.\",
+		\"jour\": \"Ne comptez pas sur la chance pour concrétiser vos projets.\",
+		\"heure\": \"Pensez à vous avant de pensez à vos projets.\"
+		},
+		\"terre_yin\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Prenez le temps de la réflexion avant de concrétiser vos projets.\",
+		\"mois\": \"Prenez le temps de la réflexion avant de vous engager dans de grands projets.\",
+		\"jour\": \"Prenez le temps de la réfléxion, la chance n'est pas avec vous.\",
+		\"heure\": \"Vous devriez temporiser un peu vos projets.\"
+		},
+		\"metal_yang\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Un bon mois pour avancer sur vos projets.\",
+		\"mois\": \"C'est le moment de concrétiser votre amour !\",
+		\"jour\": \"Un bon mois pour concrétiser votre chance.\",
+		\"heure\": \"Vos projets n'attendent que vous !\"
+		},
+		\"metal_yin\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ce n'est pas un bon mois pour concrétiser vos projets, temporisez un peu.\",
+		\"mois\": \"Ne vous attendez pas à de grands engagements ce mois ci.\",
+		\"jour\": \"Il serait préférable d'attendre un peu avant de concrétiser vos projets.\",
+		\"heure\": \"Soyez prudent, le temps n'est pas à la concrétisation.\"
+		},
+		\"eau_yang\": {
+		\"influence\":\"tf\",
+		\"annee\": \"C'est le mois idéal pour concrétiser vos projets, foncez !\",
+		\"mois\": \"Ce mois ci est votre mois, profitez en pour concrétiser tous vos projets !\",
+		\"jour\": \"La chance est avec vous, la concrétisation de vos projets est à portée de main !\",
+		\"heure\": \"C'est le moment de concrétiser vos projets !\"
+		},
+		\"eau_yin\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Tant que vous serez prudent ce mois ci ne devrait pas avoir trop d'impact sur vos projets.\",
+		\"mois\": \"Soyez prudent avant de foncer tête baissée sur vos projet.\",
+		\"jour\": \"Ne comptez pas sur la chance pour concrétiser vos projets.\",
+		\"heure\": \"Pensez à vous avant de pensez à vos projets.\"
+		}
+		}
+		"</item>
+
+	<item name="binome53_j" type="string">"{
+		\"bois_yang\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Ne vous laissez pas décourager par un trop plein d’idées, agissez méthodiquement.\",
+		\"mois\": \"Prenez le temps de la réflexion avant de vous engager dans de grands projets.\",
+		\"jour\": \"Prenez le temps de la réfléxion, la chance n'est pas avec vous.\",
+		\"heure\": \"Vous devriez temporiser un peu vos projets.\"
+		},
+		\"bois_yin\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Si vos idées n’aboutissent pas aujourd’hui c’est pas excès de pensée !\",
+		\"mois\": \"C'est le moment de concrétiser votre amour !\",
+		\"jour\": \"Une bonne journée pour concrétiser votre chance.\",
+		\"heure\": \"Vos projets n'attendent que vous !\"
+		},
+		\"feu_yang\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ce n'est pas une bonne journée pour concrétiser vos projets, temporisez un peu.\",
+		\"mois\": \"Ne vous attendez pas à de grands engagements aujourd'hui.\",
+		\"jour\": \"Il serait préférable d'attendre un peu avant de concrétiser vos projets.\",
+		\"heure\": \"Soyez prudent, le temps n'est pas à la concrétisation.\"
+		},
+		\"feu_yin\": {
+		\"influence\":\"tf\",
+		\"annee\": \"Aujourd'hui est votre journée, profitez en pour concrétiser tous vos projets !\",
+		\"mois\": \"Ce mois ci est votre mois, profitez en pour concrétiser tous vos projets !\",
+		\"jour\": \"La chance est avec vous, la concrétisation de vos projets est à portée de main !\",
+		\"heure\": \"C'est le moment de concrétiser vos projets !\"
+		},
+		\"terre_yang\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Tant que vous serez prudent cette journée ne devrait pas avoir trop d'impact sur vos projets.\",
+		\"mois\": \"Soyez prudent avant de foncer tête baissée sur vos projet.\",
+		\"jour\": \"Ne comptez pas sur la chance pour concrétiser vos projets.\",
+		\"heure\": \"Pensez à vous avant de pensez à vos projets.\"
+		},
+		\"terre_yin\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Prenez le temps de la réflexion avant de concrétiser vos projets.\",
+		\"mois\": \"Prenez le temps de la réflexion avant de vous engager dans de grands projets.\",
+		\"jour\": \"Prenez le temps de la réfléxion, la chance n'est pas avec vous.\",
+		\"heure\": \"Vous devriez temporiser un peu vos projets.\"
+		},
+		\"metal_yang\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Une bonne journée pour avancer sur vos projets.\",
+		\"mois\": \"C'est le moment de concrétiser votre amour !\",
+		\"jour\": \"Une bonne journée pour concrétiser votre chance.\",
+		\"heure\": \"Vos projets n'attendent que vous !\"
+		},
+		\"metal_yin\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ce n'est pas une bonne journée pour concrétiser vos projets, temporisez un peu.\",
+		\"mois\": \"Ne vous attendez pas à de grands engagements aujourd'hui.\",
+		\"jour\": \"Il serait préférable d'attendre un peu avant de concrétiser vos projets.\",
+		\"heure\": \"Soyez prudent, le temps n'est pas à la concrétisation.\"
+		},
+		\"eau_yang\": {
+		\"influence\":\"tf\",
+		\"annee\": \"Aujourd'hui est votre journée, profitez en pour concrétiser tous vos projets !\",
+		\"mois\": \"Ce mois ci est votre mois, profitez en pour concrétiser tous vos projets !\",
+		\"jour\": \"La chance est avec vous, la concrétisation de vos projets est à portée de main !\",
+		\"heure\": \"C'est le moment de concrétiser vos projets !\"
+		},
+		\"eau_yin\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Tant que vous serez prudent cette journée ne devrait pas avoir trop d'impact sur vos projets.\",
+		\"mois\": \"Soyez prudent avant de foncer tête baissée sur vos projet.\",
+		\"jour\": \"Ne comptez pas sur la chance pour concrétiser vos projets.\",
+		\"heure\": \"Pensez à vous avant de pensez à vos projets.\"
+		}
+		}
+		"</item>
+
+	<item name="binome54_a" type="string">"{
+		\"bois_yang\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Prenez le temps de la réflexion avant de concrétiser vos projets.\",
+		\"mois\": \"Prenez le temps de la réflexion avant de vous engager dans de grands projets.\",
+		\"jour\": \"Prenez le temps de la réfléxion, la chance n'est pas avec vous.\",
+		\"heure\": \"Vous devriez temporiser un peu vos projets.\"
+		},
+		\"bois_yin\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Une bonne année pour avancer sur vos projets.\",
+		\"mois\": \"C'est le moment de concrétiser votre amour !\",
+		\"jour\": \"Une bonne année pour concrétiser votre chance.\",
+		\"heure\": \"Vos projets n'attendent que vous !\"
+		},
+		\"feu_yang\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ce n'est pas une bonne année pour concrétiser vos projets, temporisez un peu.\",
+		\"mois\": \"Ne vous attendez pas à de grands engagements cette année.\",
+		\"jour\": \"Il serait préférable d'attendre un peu avant de concrétiser vos projets.\",
+		\"heure\": \"Soyez prudent, le temps n'est pas à la concrétisation.\"
+		},
+		\"feu_yin\": {
+		\"influence\":\"tf\",
+		\"annee\": \"C'est l'année idéale pour concrétiser vos projets, foncez !\",
+		\"mois\": \"Cette année est votre année, profitez en pour concrétiser tous vos projets !\",
+		\"jour\": \"La chance est avec vous, la concrétisation de vos projets est à portée de main !\",
+		\"heure\": \"C'est le moment de concrétiser vos projets !\"
+		},
+		\"terre_yang\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Tant que vous serez prudent cette année ne devrait pas avoir trop d'impact sur vos projets.\",
+		\"mois\": \"Soyez prudent avant de foncer tête baissée sur vos projet.\",
+		\"jour\": \"Ne comptez pas sur la chance pour concrétiser vos projets.\",
+		\"heure\": \"Pensez à vous avant de pensez à vos projets.\"
+		},
+		\"terre_yin\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Prenez le temps de la réflexion avant de concrétiser vos projets.\",
+		\"mois\": \"Prenez le temps de la réflexion avant de vous engager dans de grands projets.\",
+		\"jour\": \"Prenez le temps de la réfléxion, la chance n'est pas avec vous.\",
+		\"heure\": \"Vous devriez temporiser un peu vos projets.\"
+		},
+		\"metal_yang\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Une bonne année pour avancer sur vos projets.\",
+		\"mois\": \"C'est le moment de concrétiser votre amour !\",
+		\"jour\": \"Une bonne année pour concrétiser votre chance.\",
+		\"heure\": \"Vos projets n'attendent que vous !\"
+		},
+		\"metal_yin\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ce n'est pas une bonne année pour concrétiser vos projets, temporisez un peu.\",
+		\"mois\": \"Ne vous attendez pas à de grands engagements cette année.\",
+		\"jour\": \"Il serait préférable d'attendre un peu avant de concrétiser vos projets.\",
+		\"heure\": \"Soyez prudent, le temps n'est pas à la concrétisation.\"
+		},
+		\"eau_yang\": {
+		\"influence\":\"tf\",
+		\"annee\": \"C'est l'année idéale pour concrétiser vos projets, foncez !\",
+		\"mois\": \"Cette année est votre année, profitez en pour concrétiser tous vos projets !\",
+		\"jour\": \"La chance est avec vous, la concrétisation de vos projets est à portée de main !\",
+		\"heure\": \"C'est le moment de concrétiser vos projets !\"
+		},
+		\"eau_yin\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Tant que vous serez prudent cette année ne devrait pas avoir trop d'impact sur vos projets.\",
+		\"mois\": \"Soyez prudent avant de foncer tête baissée sur vos projet.\",
+		\"jour\": \"Ne comptez pas sur la chance pour concrétiser vos projets.\",
+		\"heure\": \"Pensez à vous avant de pensez à vos projets.\"
+		}
+		}
+		"</item>
+
+	<item name="binome54_m" type="string">"{
+		\"bois_yang\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Prenez le temps de la réflexion avant de concrétiser vos projets.\",
+		\"mois\": \"Prenez le temps de la réflexion avant de vous engager dans de grands projets.\",
+		\"jour\": \"Prenez le temps de la réfléxion, la chance n'est pas avec vous.\",
+		\"heure\": \"Vous devriez temporiser un peu vos projets.\"
+		},
+		\"bois_yin\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Un bon mois pour avancer sur vos projets.\",
+		\"mois\": \"C'est le moment de concrétiser votre amour !\",
+		\"jour\": \"Un bon mois pour concrétiser votre chance.\",
+		\"heure\": \"Vos projets n'attendent que vous !\"
+		},
+		\"feu_yang\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ce n'est pas un bon mois pour concrétiser vos projets, temporisez un peu.\",
+		\"mois\": \"Ne vous attendez pas à de grands engagements ce mois ci.\",
+		\"jour\": \"Il serait préférable d'attendre un peu avant de concrétiser vos projets.\",
+		\"heure\": \"Soyez prudent, le temps n'est pas à la concrétisation.\"
+		},
+		\"feu_yin\": {
+		\"influence\":\"tf\",
+		\"annee\": \"C'est le mois idéal pour concrétiser vos projets, foncez !\",
+		\"mois\": \"Ce mois ci est votre mois, profitez en pour concrétiser tous vos projets !\",
+		\"jour\": \"La chance est avec vous, la concrétisation de vos projets est à portée de main !\",
+		\"heure\": \"C'est le moment de concrétiser vos projets !\"
+		},
+		\"terre_yang\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Tant que vous serez prudent ce mois ci ne devrait pas avoir trop d'impact sur vos projets.\",
+		\"mois\": \"Soyez prudent avant de foncer tête baissée sur vos projet.\",
+		\"jour\": \"Ne comptez pas sur la chance pour concrétiser vos projets.\",
+		\"heure\": \"Pensez à vous avant de pensez à vos projets.\"
+		},
+		\"terre_yin\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Prenez le temps de la réflexion avant de concrétiser vos projets.\",
+		\"mois\": \"Prenez le temps de la réflexion avant de vous engager dans de grands projets.\",
+		\"jour\": \"Prenez le temps de la réfléxion, la chance n'est pas avec vous.\",
+		\"heure\": \"Vous devriez temporiser un peu vos projets.\"
+		},
+		\"metal_yang\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Un bon mois pour avancer sur vos projets.\",
+		\"mois\": \"C'est le moment de concrétiser votre amour !\",
+		\"jour\": \"Un bon mois pour concrétiser votre chance.\",
+		\"heure\": \"Vos projets n'attendent que vous !\"
+		},
+		\"metal_yin\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ce n'est pas un bon mois pour concrétiser vos projets, temporisez un peu.\",
+		\"mois\": \"Ne vous attendez pas à de grands engagements ce mois ci.\",
+		\"jour\": \"Il serait préférable d'attendre un peu avant de concrétiser vos projets.\",
+		\"heure\": \"Soyez prudent, le temps n'est pas à la concrétisation.\"
+		},
+		\"eau_yang\": {
+		\"influence\":\"tf\",
+		\"annee\": \"C'est le mois idéal pour concrétiser vos projets, foncez !\",
+		\"mois\": \"Ce mois ci est votre mois, profitez en pour concrétiser tous vos projets !\",
+		\"jour\": \"La chance est avec vous, la concrétisation de vos projets est à portée de main !\",
+		\"heure\": \"C'est le moment de concrétiser vos projets !\"
+		},
+		\"eau_yin\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Tant que vous serez prudent ce mois ci ne devrait pas avoir trop d'impact sur vos projets.\",
+		\"mois\": \"Soyez prudent avant de foncer tête baissée sur vos projet.\",
+		\"jour\": \"Ne comptez pas sur la chance pour concrétiser vos projets.\",
+		\"heure\": \"Pensez à vous avant de pensez à vos projets.\"
+		}
+		}
+		"</item>
+
+	<item name="binome54_j" type="string">"{
+		\"bois_yang\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Journée difficile pour la concrétisation de vos idées…Beaucoup de petits grains de sable.\",
+		\"mois\": \"Prenez le temps de la réflexion avant de vous engager dans de grands projets.\",
+		\"jour\": \"Prenez le temps de la réfléxion, la chance n'est pas avec vous.\",
+		\"heure\": \"Vous devriez temporiser un peu vos projets.\"
+		},
+		\"bois_yin\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Ne mettez pas de difficultés là où il n’y en a pas, restez positif et confiant sur l’issue de votre projet.\",
+		\"mois\": \"C'est le moment de concrétiser votre amour !\",
+		\"jour\": \"Une bonne journée pour concrétiser votre chance.\",
+		\"heure\": \"Vos projets n'attendent que vous !\"
+		},
+		\"feu_yang\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ce n'est pas une bonne journée pour concrétiser vos projets, temporisez un peu.\",
+		\"mois\": \"Ne vous attendez pas à de grands engagements aujourd'hui.\",
+		\"jour\": \"Il serait préférable d'attendre un peu avant de concrétiser vos projets.\",
+		\"heure\": \"Soyez prudent, le temps n'est pas à la concrétisation.\"
+		},
+		\"feu_yin\": {
+		\"influence\":\"tf\",
+		\"annee\": \"Aujourd'hui est votre journée, profitez en pour concrétiser tous vos projets !\",
+		\"mois\": \"Ce mois ci est votre mois, profitez en pour concrétiser tous vos projets !\",
+		\"jour\": \"La chance est avec vous, la concrétisation de vos projets est à portée de main !\",
+		\"heure\": \"C'est le moment de concrétiser vos projets !\"
+		},
+		\"terre_yang\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Tant que vous serez prudent cette journée ne devrait pas avoir trop d'impact sur vos projets.\",
+		\"mois\": \"Soyez prudent avant de foncer tête baissée sur vos projet.\",
+		\"jour\": \"Ne comptez pas sur la chance pour concrétiser vos projets.\",
+		\"heure\": \"Pensez à vous avant de pensez à vos projets.\"
+		},
+		\"terre_yin\": {
+		\"influence\":\"pc\",
+		\"annee\": \"Prenez le temps de la réflexion avant de concrétiser vos projets.\",
+		\"mois\": \"Prenez le temps de la réflexion avant de vous engager dans de grands projets.\",
+		\"jour\": \"Prenez le temps de la réfléxion, la chance n'est pas avec vous.\",
+		\"heure\": \"Vous devriez temporiser un peu vos projets.\"
+		},
+		\"metal_yang\": {
+		\"influence\":\"fc\",
+		\"annee\": \"Une bonne journée pour avancer sur vos projets.\",
+		\"mois\": \"C'est le moment de concrétiser votre amour !\",
+		\"jour\": \"Une bonne journée pour concrétiser votre chance.\",
+		\"heure\": \"Vos projets n'attendent que vous !\"
+		},
+		\"metal_yin\": {
+		\"influence\":\"d\",
+		\"annee\": \"Ce n'est pas une bonne journée pour concrétiser vos projets, temporisez un peu.\",
+		\"mois\": \"Ne vous attendez pas à de grands engagements aujourd'hui.\",
+		\"jour\": \"Il serait préférable d'attendre un peu avant de concrétiser vos projets.\",
+		\"heure\": \"Soyez prudent, le temps n'est pas à la concrétisation.\"
+		},
+		\"eau_yang\": {
+		\"influence\":\"tf\",
+		\"annee\": \"Aujourd'hui est votre journée, profitez en pour concrétiser tous vos projets !\",
+		\"mois\": \"Ce mois ci est votre mois, profitez en pour concrétiser tous vos projets !\",
+		\"jour\": \"La chance est avec vous, la concrétisation de vos projets est à portée de main !\",
+		\"heure\": \"C'est le moment de concrétiser vos projets !\"
+		},
+		\"eau_yin\": {
+		\"influence\":\"cc\",
+		\"annee\": \"Tant que vous serez prudent cette journée ne devrait pas avoir trop d'impact sur vos projets.\",
+		\"mois\": \"Soyez prudent avant de foncer tête baissée sur vos projet.\",
+		\"jour\": \"Ne comptez pas sur la chance pour concrétiser vos projets.\",
+		\"heure\": \"Pensez à vous avant de pensez à vos projets.\"
+		}
+		}
+		"</item>
+
+</resources>

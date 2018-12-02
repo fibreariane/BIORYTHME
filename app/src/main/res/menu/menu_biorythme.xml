@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_switch"
+        android:icon="@drawable/menu_switch"
+        android:title="@string/changer_biorythme" />
+    <item
+        android:id="@+id/navigation_binome_annee"
+        android:icon="@drawable/menu_social"
+        android:state_selected="true"
+        android:title="@string/moi_social" />
+
+    <item
+        android:id="@+id/navigation_binome_mois"
+        android:icon="@drawable/menu_affectif"
+        android:title="@string/moi_affectif" />
+
+    <item
+        android:id="@+id/navigation_binome_jour"
+        android:icon="@drawable/menu_enfance"
+        android:title="Moi Enfance" />
+    <item
+        android:id="@+id/navigation_binome_heure"
+        android:icon="@drawable/menu_profond"
+        android:title="Moi Profond" />
+
+</menu>

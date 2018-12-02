@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="VBYANG" type="string">
+        {\"organe\": \"Vésicule Biliaire\",
+    \"polarite\": \"YANG\",
+    \"element\": \"BOIS\"}</item>
+</resources>
