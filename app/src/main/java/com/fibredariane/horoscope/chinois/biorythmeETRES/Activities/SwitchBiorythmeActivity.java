@@ -56,7 +56,7 @@ public class SwitchBiorythmeActivity extends AppCompatActivity implements TimePi
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_switch_biorythme);
         mContext = this;
-        mPreferences = new Preferences(mContext);
+        mPreferences = new Preferences();
 
         mButtonValider = (Button) findViewById(R.id.button_valider_anniv);
         mButtonValider.setOnClickListener(this);

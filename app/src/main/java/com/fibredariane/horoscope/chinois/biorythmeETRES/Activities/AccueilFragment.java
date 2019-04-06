@@ -70,7 +70,7 @@ public class AccueilFragment extends Fragment implements View.OnClickListener{
         rootView = inflater.inflate(R.layout.fragment_accueil, container, false);
         mContext = this.getActivity();
         if(mContext != null){
-            mPreference = new Preferences(mContext);
+            mPreference = new Preferences();
             String date_biorythme = mPreference.getStringDatePref();
 
             Bundle args = this.getArguments();

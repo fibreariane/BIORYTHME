@@ -1,13 +1,10 @@
 package com.fibredariane.horoscope.chinois.biorythmeETRES.Utils;
 
-import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
-import android.database.DatabaseUtils;
-import android.widget.Toast;
-
 import android.database.sqlite.SQLiteDatabase;
 
+import com.fibredariane.horoscope.chinois.biorythmeETRES.Models.App;
 import com.fibredariane.horoscope.chinois.biorythmeETRES.Models.Binome;
 import com.fibredariane.horoscope.chinois.biorythmeETRES.Models.Biorythme;
 import com.fibredariane.horoscope.chinois.biorythmeETRES.Models.Horoscope;
@@ -24,27 +21,25 @@ public class ManageRecordDB {
     private SQLiteDatabase dbHoroscope;
     TableBinome tableBinome;
     TableHoroscope tableHoroscope;
-    Context mContext;
 
-    public void initTables(Context context){
-        mContext = context;
-
-        tableBinome = new TableBinome(mContext, TableBinome.Constants.DATABASE_NAME, null,
+    public void initTables(){
+        Context c = App.getContext();
+        tableBinome = new TableBinome(c,TableBinome.Constants.DATABASE_NAME, null,
                 TableBinome.Constants.DATABASE_VERSION);
         dbBinome = tableBinome.openDB();
 
 
-        tableHoroscope = new TableHoroscope(mContext, TableHoroscope.Constants.DATABASE_NAME, null,
+        tableHoroscope = new TableHoroscope(c,TableHoroscope.Constants.DATABASE_NAME, null,
                 TableHoroscope.Constants.DATABASE_VERSION);
         dbHoroscope = tableHoroscope.openDB();
     }
 
     public void updateTableBinome(){
-        tableBinome.initTable(dbBinome, mContext);
+        tableBinome.initTable(dbBinome);
     }
 
     public void updateTableHoroscope(){
-        tableHoroscope.initTable(dbHoroscope, mContext);
+        tableHoroscope.initTable(dbHoroscope);
     }
 
     public void openDBs(){
@@ -59,7 +54,7 @@ public class ManageRecordDB {
 
     public Binome getBinome(String idBinome,String typeBinome){
         Cursor cursor = tableBinome.getBinome(dbBinome, idBinome);
-        Binome binome = new Binome(cursor,mContext,typeBinome);
+        Binome binome = new Binome(cursor,typeBinome);
 
         return binome;
     }
@@ -89,7 +84,7 @@ public class ManageRecordDB {
                 biorythmeUser.getBinomeHeure().getElement().getNom(),
                 biorythmeUser.getBinomeHeure().getPolarite());
 
-        Horoscope horoscope = new Horoscope(mContext,cursorAnnee,cursorMois,cursorJour,cursorHeure,binomeHoroscope);
+        Horoscope horoscope = new Horoscope(cursorAnnee,cursorMois,cursorJour,cursorHeure,binomeHoroscope);
 
         return horoscope;
     }

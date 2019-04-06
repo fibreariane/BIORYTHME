@@ -3,6 +3,7 @@ package com.fibredariane.horoscope.chinois.biorythmeETRES.Utils;
 import android.content.Context;
 import android.content.SharedPreferences;
 
+import com.fibredariane.horoscope.chinois.biorythmeETRES.Models.App;
 import com.fibredariane.horoscope.chinois.biorythmeETRES.Models.Biorythme;
 import com.fibredariane.horoscope.chinois.biorythmeETRES.R;
 
@@ -15,9 +16,10 @@ import java.util.Date;
 public class Preferences {
     SharedPreferences mSharedPreferences;
     Context mContext;
-    public Preferences(Context c){
-        mSharedPreferences = c.getSharedPreferences(c.getString(R.string.file_pref), Context.MODE_PRIVATE);
-        mContext = c;
+    public Preferences(){
+        mContext =  App.getContext();
+        mSharedPreferences = mContext.getSharedPreferences(mContext.getString(R.string.file_pref), Context.MODE_PRIVATE);
+
     }
 
     public Biorythme getBiorythmePref() {

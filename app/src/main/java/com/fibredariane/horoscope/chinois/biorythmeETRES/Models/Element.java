@@ -29,8 +29,9 @@ public class Element implements Serializable {
     private String mDesc;
     private int mIdColor;
 
-    public Element(Context c, String nom) {
+    public Element(String nom) {
         mNom = nom;
+        Context c = App.getContext();
         int idElement = c.getResources().getIdentifier(
                 getNom().toLowerCase(),
                 "string",

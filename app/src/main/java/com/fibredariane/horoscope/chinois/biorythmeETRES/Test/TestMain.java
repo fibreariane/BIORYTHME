@@ -11,6 +11,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.crashlytics.android.Crashlytics;
+import com.fibredariane.horoscope.chinois.biorythmeETRES.Models.App;
 import com.fibredariane.horoscope.chinois.biorythmeETRES.Models.Biorythme;
 import com.fibredariane.horoscope.chinois.biorythmeETRES.Models.Horoscope;
 import com.fibredariane.horoscope.chinois.biorythmeETRES.R;
@@ -32,7 +33,6 @@ public class TestMain  extends AppCompatActivity implements View.OnClickListener
     private BottomNavigationView mNavigationHoroscope;
     private BottomNavigationView mNavigationBiorythme;
     private BottomNavigationView mNavigationSynthese;
-    private Context mContext;
     private LinearLayout mLinearLayoutCredit;
     private TextView mTextViewCredit;
     private Preferences mPreferences;
@@ -52,25 +52,24 @@ public class TestMain  extends AppCompatActivity implements View.OnClickListener
         super.onCreate(savedInstanceState);
         Fabric.with(this, new Crashlytics());
         setContentView(R.layout.test_activity_main);
-        mContext = this;
-
-    }
+     }
 
     @Override
     public void onClick(View v) {
+        Context c = App.getContext();
         switch (v.getId()) {
 
             case R.id.btn_binome:
-                Intent intent = new Intent(mContext, TestBinomeActivity.class);
+                Intent intent = new Intent(c, TestBinomeActivity.class);
                 startActivity(intent);
                 break;
 
             case R.id.btn_biorythme:
-                Intent intent2 = new Intent(mContext, TestBiorythmeActivity.class);
+                Intent intent2 = new Intent(c, TestBiorythmeActivity.class);
                 startActivity(intent2);
                 break;
             case R.id.btn_horoscope:
-                Intent intent3 = new Intent(mContext, TestHoroscopeActivity.class);
+                Intent intent3 = new Intent(c, TestHoroscopeActivity.class);
                 startActivity(intent3);
                 break;
             default:

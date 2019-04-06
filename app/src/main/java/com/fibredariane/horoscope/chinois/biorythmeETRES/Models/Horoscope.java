@@ -15,7 +15,6 @@ import java.io.Serializable;
  */
 
 public class Horoscope implements Serializable {
-    private Context mContext;
 
     private String mTextInfluenceAnnee;
     private String mTextInfluenceMois;
@@ -32,10 +31,9 @@ public class Horoscope implements Serializable {
     private String mPolarite;
     private String mElement;
 
-    public Horoscope(Context context,Cursor cursorAnnee, Cursor cursorMois,Cursor cursorJour,Cursor cursorHeure,Binome binomeHoroscope){
+    public Horoscope(Cursor cursorAnnee, Cursor cursorMois,Cursor cursorJour,Cursor cursorHeure,Binome binomeHoroscope){
         mElement = binomeHoroscope.getElement().getNom();
         mPolarite = binomeHoroscope.getPolarite();
-        mContext = context;
 
         mIdImageElement = getId(mElement.toLowerCase());
 
@@ -57,16 +55,16 @@ public class Horoscope implements Serializable {
         }
     }
 
-    public Horoscope(Context context, Biorythme biorythmePerso, Binome binomeCourant,String typeHoro){
+    public Horoscope( Biorythme biorythmePerso, Binome binomeCourant,String typeHoro){
         try {
-            mContext = context;
+            Context c = App.getContext();
           /*  Binome b = new Binome(context, context.getResources().getString(R.string.binome5), typeHoro);
             binomeCourant = b;*/
-            JSONObject json = new JSONObject(context.getResources().getString(
-                    context.getResources().getIdentifier(
+            JSONObject json = new JSONObject(c.getResources().getString(
+                    c.getResources().getIdentifier(
                             "binome"+binomeCourant.getNbBinome()+"_"+typeHoro.toLowerCase(),
                             "string",
-                            context.getPackageName())));
+                            c.getPackageName())));
 
             JSONObject jsonAnnee = new JSONObject(json.getString(getStringJson(biorythmePerso.getBinomeAnnee())));
             JSONObject jsonMois = new JSONObject(json.getString(getStringJson(biorythmePerso.getBinomeMois())));
@@ -98,10 +96,10 @@ public class Horoscope implements Serializable {
         return binome.getElement().getNom().toLowerCase()+"_"+binome.getPolarite().toLowerCase();
     }
     private int getId(String texte){
-      return  mContext.getResources().getIdentifier(
+      return  App.getContext().getResources().getIdentifier(
                 texte,
                 "drawable",
-              mContext.getPackageName());
+              App.getContext().getPackageName());
     }
     public String getTextInfluenceAnnee(){return mTextInfluenceAnnee;}
     public String getTextInfluenceMois(){return mTextInfluenceMois;}

@@ -27,7 +27,7 @@ public class AdVideo implements RewardedVideoAdListener {
 
     public AdVideo(Activity activity){
         mActivity = activity;
-        mPreferences = new Preferences(mActivity);
+        mPreferences = new Preferences();
         mTextViewCredit = (TextView) activity.findViewById(R.id.text_view_credit);
 
         mTextViewCredit.setText("" + mPreferences.getCreditPref());

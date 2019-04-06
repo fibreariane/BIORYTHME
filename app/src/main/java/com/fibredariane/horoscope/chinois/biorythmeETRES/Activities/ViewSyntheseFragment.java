@@ -58,7 +58,7 @@ public class ViewSyntheseFragment extends Fragment implements View.OnClickListen
         rootView = inflater.inflate(R.layout.fragment_view_synthese, container, false);
         mContext = this.getActivity();
         if (mContext != null) {
-            mPreferences = new Preferences(mContext);
+            mPreferences = new Preferences();
             String date_biorythme = mPreferences.getStringDatePref();
 
             if (date_biorythme == ""){
@@ -98,7 +98,7 @@ public class ViewSyntheseFragment extends Fragment implements View.OnClickListen
         setElement("BOIS",mImageViewBois);
     }
     private void setElement(String stringElement,ImageView imageView) {
-        Element element = new Element(mContext, stringElement);
+        Element element = new Element(stringElement);
         int nbElement = mSynthese.getNbElement(stringElement);
         int idImage = element.getIntId();
         if (nbElement <= 1) {

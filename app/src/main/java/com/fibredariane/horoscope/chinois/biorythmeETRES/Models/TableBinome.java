@@ -62,13 +62,13 @@ public class TableBinome extends SQLiteOpenHelper {
                 + " vers la version " + newVersion
                 + ", les anciennes données seront détruites ");
 
-        deleteDB(db);
-        onCreate(db);
+        initTable(db);
     }
 
-    public void initTable(SQLiteDatabase db, Context c) {
+    public void initTable(SQLiteDatabase db) {
         deleteDB(db);
         onCreate(db);
+        Context c = App.getContext();
         for (int i = 1; i <= 60; i++) {
             String string_binome = c.getResources().getString(
                     c.getResources().getIdentifier(

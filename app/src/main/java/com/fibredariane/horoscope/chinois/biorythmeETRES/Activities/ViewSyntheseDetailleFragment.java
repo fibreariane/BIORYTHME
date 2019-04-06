@@ -89,7 +89,7 @@ public class ViewSyntheseDetailleFragment extends Fragment {
         rootView = inflater.inflate(R.layout.fragment_view_synthese_detaille, container, false);
         mContext = this.getActivity();
         if (mContext != null) {
-            mPreferences = new Preferences(mContext);
+            mPreferences = new Preferences();
             String date_biorythme = mPreferences.getStringDatePref();
             Bundle args = this.getArguments();
             mTypeDetail = args.getString(ARG_TYPE_DETAIL);
@@ -286,7 +286,7 @@ public class ViewSyntheseDetailleFragment extends Fragment {
     }
 
     private void setDetailElement(String stringElement,String type, ImageView imageView, TextView textViewNom, TextView textViewDesc, TextView textViewDescDetail,LinearLayout linearLayout) {
-        Element element = new Element(mContext, stringElement);
+        Element element = new Element(stringElement);
         int nbElement = mSynthese.getNbElement(stringElement);
 
         int idImage = element.getIntId();

@@ -13,10 +13,10 @@ public class Organe implements Serializable {
     public String mPolarite;
     public Element mElement;
 
-    public Organe(Context c, String nom, String polarite, String element) {
+    public Organe(String nom, String polarite, String element) {
         mNom = nom;
         mPolarite = polarite;
-        mElement = new Element(c,element);
+        mElement = new Element(element);
     }
     public Element getElement(){
         return mElement;

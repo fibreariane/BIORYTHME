@@ -59,22 +59,21 @@ public class TableHoroscope extends SQLiteOpenHelper {
                 + " vers la version " + newVersion
                 + ", les anciennes données seront détruites ");
 
-        deleteDB(db);
-        onCreate(db);
+        initTable(db);
     }
 
-    public void initTable(SQLiteDatabase db, Context c) {
-        long numRows = DatabaseUtils.queryNumEntries(db, Constants.MY_TABLE);
+    public void initTable(SQLiteDatabase db) {
 
         deleteDB(db);
         onCreate(db);
 
-        initHoroscope(db, c, "A");
-        initHoroscope(db, c, "M");
-        initHoroscope(db, c, "J");
+        initHoroscope(db,"A");
+        initHoroscope(db,"M");
+        initHoroscope(db,"J");
     }
 
-    public void initHoroscope(SQLiteDatabase db, Context c, String typeHoroscope) {
+    public void initHoroscope(SQLiteDatabase db, String typeHoroscope) {
+        Context c = App.getContext();
        for (int i = 1; i <= 60; i++) {
             String string_binome = c.getResources().getString(
                     c.getResources().getIdentifier(

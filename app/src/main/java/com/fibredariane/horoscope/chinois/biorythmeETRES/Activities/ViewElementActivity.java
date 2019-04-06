@@ -19,11 +19,9 @@ public class ViewElementActivity extends AppCompatActivity {
     private ImageView mImageViewElement;
     private ImageView mImageViewElementSaison;
     private ImageView mImageViewElementCouleur;
-    private Context mContext;
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        mContext = this;
 
         Intent intent = getIntent();
         String nomElement = intent.getStringExtra("ELEMENT");
@@ -35,7 +33,7 @@ public class ViewElementActivity extends AppCompatActivity {
     }
 
     private void initElementLayout(String nomElement) {
-        Element element = new Element(mContext,nomElement);
+        Element element = new Element(nomElement);
         mTextViewElementMotCle = (TextView) findViewById(R.id.text_view_element_mot_cle);
         mTextViewElementDesc = (TextView) findViewById(R.id.text_view_element_desc);
         mTextViewNomElement = (TextView) findViewById(R.id.text_view_nom_element);

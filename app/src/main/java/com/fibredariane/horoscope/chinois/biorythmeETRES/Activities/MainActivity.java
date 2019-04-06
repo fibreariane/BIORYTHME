@@ -67,7 +67,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         mLinearLayoutCredit = (LinearLayout) findViewById(R.id.linear_layout_credit);
         mLinearLayoutCredit.setOnClickListener(this);
 
-        mPreferences = new Preferences(mContext);
+        mPreferences = new Preferences();
 
         mPreferences.isFirstTimeApplication();
 
@@ -104,10 +104,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             // Initialisation des variables globales
             mBiorythmeOfTheDay = CalculBinomes.getCurrentBiorythme(mContext, mPreferences);
             mBiorythmeUser = mPreferences.getBiorythmePref();
-            mHoroscopeYear = new Horoscope(mContext, mBiorythmeUser, mBiorythmeOfTheDay.getBinomeAnnee(), "A");
-            mHoroscopeMonth = new Horoscope(mContext, mBiorythmeUser, mBiorythmeOfTheDay.getBinomeMois(), "M");
+            mHoroscopeYear = new Horoscope(mBiorythmeUser, mBiorythmeOfTheDay.getBinomeAnnee(), "A");
+            mHoroscopeMonth = new Horoscope(mBiorythmeUser, mBiorythmeOfTheDay.getBinomeMois(), "M");
 
-            mHoroscopeDay = new Horoscope(mContext, mBiorythmeUser, mBiorythmeOfTheDay.getBinomeJour(), "J");
+            mHoroscopeDay = new Horoscope(mBiorythmeUser, mBiorythmeOfTheDay.getBinomeJour(), "J");
 
 
             //

@@ -62,7 +62,7 @@ public class ViewBiorythmeFragment extends Fragment implements View.OnClickListe
         rootView = inflater.inflate(R.layout.fragment_view_biorythme, container, false);
         mContext = this.getActivity();
         if (mContext != null) {
-            mPreferences = new Preferences(mContext);
+            mPreferences = new Preferences();
             String date_biorythme = mPreferences.getStringDatePref();
             Bundle args = this.getArguments();
            // mStringTypeBio = args.getString(ARG_TYPE_BIO);

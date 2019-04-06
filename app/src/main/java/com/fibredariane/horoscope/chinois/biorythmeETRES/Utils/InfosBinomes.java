@@ -176,7 +176,7 @@ public class InfosBinomes {
     }
 
     public static int getIdImageElement(Context context, String typeCurrent) {
-        Biorythme currentBiorythme = CalculBinomes.getCurrentBiorythme(context,new Preferences(context));
+        Biorythme currentBiorythme = CalculBinomes.getCurrentBiorythme(context,new Preferences());
         Binome currentBinome = currentBiorythme.getBinomeAnnee();
 
         switch (typeCurrent) {
@@ -201,7 +201,7 @@ public class InfosBinomes {
     }
 
     public static String getInfluence(Context context, String typeCurrent, String typePersonal) {
-        Preferences preferences = new Preferences(context);
+        Preferences preferences = new Preferences();
         String date_biorythme = preferences.getStringDatePref();
 
         Biorythme currentBiorythme = CalculBinomes.getCurrentBiorythme(context,preferences);

@@ -57,7 +57,7 @@ public class TestHoroscopeActivity extends AppCompatActivity  implements TimePic
         mContext = this;
 
         db = new ManageRecordDB();
-        db.initTables(mContext);
+        db.initTables();
 
         mTextViewBinomeAnnee =   (TextView) findViewById(R.id.text_view_name_binome_annee);
         mTextViewBinomeMois =   (TextView) findViewById(R.id.text_view_name_binome_mois);

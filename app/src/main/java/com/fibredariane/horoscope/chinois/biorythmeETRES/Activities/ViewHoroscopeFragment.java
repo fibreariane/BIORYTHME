@@ -75,7 +75,7 @@ public class ViewHoroscopeFragment extends Fragment implements View.OnClickListe
         rootView = inflater.inflate(R.layout.fragment_view_horoscope, container, false);
         mContext = this.getContext();
         if (mContext != null) {
-            mPreferences = new Preferences(mContext);
+            mPreferences = new Preferences();
             String date_biorythme = mPreferences.getStringDatePref();
             Bundle args = this.getArguments();
            // mStringTypeHoro = args.getString(ARG_TYPE_HORO);

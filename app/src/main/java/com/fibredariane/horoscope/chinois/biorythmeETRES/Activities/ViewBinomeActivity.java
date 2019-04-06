@@ -35,7 +35,7 @@ public class ViewBinomeActivity extends AppCompatActivity {
         setContentView(R.layout.activity_view_binome);
 
         mContext = this;
-        mPreferences = new Preferences(mContext);
+        mPreferences = new Preferences();
 
         mTextViewNomBinome =   (TextView) findViewById(R.id.text_view_name_binome);
         mTextViewDescBinome =   (TextView) findViewById(R.id.text_view_desc_binome);

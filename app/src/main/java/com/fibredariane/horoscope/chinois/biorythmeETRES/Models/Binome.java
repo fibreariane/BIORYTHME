@@ -3,8 +3,6 @@ package com.fibredariane.horoscope.chinois.biorythmeETRES.Models;
 import android.content.Context;
 import android.database.Cursor;
 import android.util.Log;
-import android.widget.Toast;
-
 import com.fibredariane.horoscope.chinois.biorythmeETRES.R;
 
 import org.json.JSONObject;
@@ -32,7 +30,8 @@ public class Binome implements Serializable {
     private String mKey2;
 
 
-    public Binome(Cursor cursor, Context c, String typeBinome){
+    public Binome(Cursor cursor, String typeBinome){
+        Context c = App.getContext();
         if (cursor.moveToFirst()) {
                 mNom = cursor.getString(TableBinome.Constants.NAME_COLUMN);
             mNbBinome = cursor.getInt(TableBinome.Constants.NB_BINOME_COLUMN);
@@ -48,12 +47,12 @@ public class Binome implements Serializable {
             mDescription = cursor.getString(TableBinome.Constants.DESCRIPTION_COLUMN);
             mType = typeBinome;
             mPolarite = cursor.getString(TableBinome.Constants.POLARITE_COLUMN);
-            mElement = new Element(c,cursor.getString(TableBinome.Constants.ELEMENT_COLUMN));
-            mOrganeTroncCeleste = new Organe(c,
+            mElement = new Element(cursor.getString(TableBinome.Constants.ELEMENT_COLUMN));
+            mOrganeTroncCeleste = new Organe(
                     cursor.getString(TableBinome.Constants.TRONC_ORGANE_COLUMN),
                     cursor.getString(TableBinome.Constants.TRONC_POLARITE_COLUMN),
                     cursor.getString(TableBinome.Constants.TRONC_ELEMENT_COLUMN));
-            mOrganeBrancheTerrestre = new Organe(c,
+            mOrganeBrancheTerrestre = new Organe(
                     cursor.getString(TableBinome.Constants.BRANCHE_ORGANE_COLUMN),
                     cursor.getString(TableBinome.Constants.BRANCHE_POLARITE_COLUMN),
                     cursor.getString(TableBinome.Constants.BRANCHE_ELEMENT_COLUMN));
@@ -127,12 +126,12 @@ public class Binome implements Serializable {
             mDescription = json.getString("description");
             mType = typeBinome;
             mPolarite = json.getString("polarite");
-            mElement = new Element(c,json.getString("element"));
+            mElement = new Element(json.getString("element"));
 
             JSONObject jsonTroncCeleste = new JSONObject(json.getString("tronc_celeste"));
-            mOrganeTroncCeleste = new Organe(c,jsonTroncCeleste.getString("organe"),jsonTroncCeleste.getString("polarite"),jsonTroncCeleste.getString("element"));
+            mOrganeTroncCeleste = new Organe(jsonTroncCeleste.getString("organe"),jsonTroncCeleste.getString("polarite"),jsonTroncCeleste.getString("element"));
             JSONObject jsonBrancheTerrestre = new JSONObject(json.getString("branche_terrestre"));
-            mOrganeBrancheTerrestre = new Organe(c,jsonBrancheTerrestre.getString("organe"),jsonBrancheTerrestre.getString("polarite"),jsonBrancheTerrestre.getString("element"));
+            mOrganeBrancheTerrestre = new Organe(jsonBrancheTerrestre.getString("organe"),jsonBrancheTerrestre.getString("polarite"),jsonBrancheTerrestre.getString("element"));
 
             if (mPolarite.equals("YANG")){
                 switch (mElement.getNom()){

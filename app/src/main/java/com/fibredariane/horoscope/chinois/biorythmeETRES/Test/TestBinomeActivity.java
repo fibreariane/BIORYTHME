@@ -50,7 +50,7 @@ public class TestBinomeActivity extends AppCompatActivity  implements View.OnCli
         mContext = this;
 
         db = new ManageRecordDB();
-        db.initTables(mContext);
+        db.initTables();
 
         mTextViewNomBinome =   (TextView) findViewById(R.id.text_view_name_binome);
         mTextViewDescBinome =   (TextView) findViewById(R.id.text_view_desc_binome);

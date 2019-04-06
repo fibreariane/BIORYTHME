@@ -50,7 +50,7 @@ public class DialogOuiNonFragment extends DialogFragment implements View.OnClick
             case R.id.button_ok:
                 switch (mType){
                     case "reinit" :
-                        new Preferences(mContext).resetBiorythmePref();
+                        new Preferences().resetBiorythmePref();
                         dismiss();
                     break;
                     default:
