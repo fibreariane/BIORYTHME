@@ -13,6 +13,12 @@ import com.fibredariane.horoscope.chinois.biorythmeETRES.R;
 
 import org.json.JSONObject;
 
+import java.io.IOException;
+import java.io.InputStream;
+import java.util.List;
+
+import com.fibredariane.horoscope.chinois.biorythmeETRES.Utils.ParseJSON;
+
 
 /**
  * Created by Carlotina on 04/12/2018.
@@ -69,40 +75,31 @@ public class TableBinome extends SQLiteOpenHelper {
         deleteDB(db);
         onCreate(db);
         Context c = App.getContext();
-        for (int i = 1; i <= 60; i++) {
-            String string_binome = c.getResources().getString(
-                    c.getResources().getIdentifier(
-                            "binome" + i,
-                            "string",
-                            c.getPackageName()));
-            if (string_binome != "") {
-                try {
-                    JSONObject json = new JSONObject(string_binome);
-                    JSONObject jsonTroncCeleste = new JSONObject(json.getString("tronc_celeste"));
-                    JSONObject jsonBrancheTerrestre = new JSONObject(json.getString("branche_terrestre"));
-                    //
-                    ContentValues contentValues = new ContentValues();
-                    contentValues.put(Constants.KEY_COL_ID_BINOME, json.getString("id_binome"));
-                    contentValues.put(Constants.KEY_COL_NB_BINOME, json.getInt("nb_binome"));
-                    contentValues.put(Constants.KEY_COL_NAME, json.getString("name"));
-                    contentValues.put(Constants.KEY_COL_DESCRIPTION, json.getString("description"));
-                    contentValues.put(Constants.KEY_COL_ELEMENT, json.getString("element"));
-                    contentValues.put(Constants.KEY_COL_POLARITE, json.getString("polarite"));
-                    contentValues.put(Constants.KEY_COL_TRONC_ORGANE, jsonTroncCeleste.getString("organe"));
-                    contentValues.put(Constants.KEY_COL_TRONC_ELEMENT, jsonTroncCeleste.getString("element"));
-                    contentValues.put(Constants.KEY_COL_TRONC_POLARITE, jsonTroncCeleste.getString("polarite"));
-                    contentValues.put(Constants.KEY_COL_BRANCHE_ORGANE, jsonBrancheTerrestre.getString("organe"));
-                    contentValues.put(Constants.KEY_COL_BRANCHE_ELEMENT, jsonBrancheTerrestre.getString("element"));
-                    contentValues.put(Constants.KEY_COL_BRANCHE_POLARITE, jsonBrancheTerrestre.getString("polarite"));
-                    //
-                    insertRecord(db, contentValues);
+        InputStream inputStream = c.getResources().openRawResource(R.raw.binomes);
+        List<Binome> listBinome=null;
+        try {
+            listBinome = ParseJSON.readJsonStreamBinome(inputStream);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
 
-                } catch (Exception e) {
-                    Log.v("TAG", "Binome - JSON - erreur");
-                    e.printStackTrace();
-                }
-            }
-
+        for (int i = 0; i < listBinome.size(); i++) {
+            Binome binome = listBinome.get(i);
+            ContentValues contentValues = new ContentValues();
+            contentValues.put(Constants.KEY_COL_ID_BINOME, binome.getIdBinome());
+            contentValues.put(Constants.KEY_COL_NB_BINOME, binome.getNbBinome());
+            contentValues.put(Constants.KEY_COL_NAME, binome.getNom());
+            contentValues.put(Constants.KEY_COL_DESCRIPTION, binome.getDescription());
+            contentValues.put(Constants.KEY_COL_ELEMENT, binome.getElement().getNom());
+            contentValues.put(Constants.KEY_COL_POLARITE, binome.getPolarite());
+            contentValues.put(Constants.KEY_COL_TRONC_ORGANE, binome.getOrganeTroncCeleste().getNom());
+            contentValues.put(Constants.KEY_COL_TRONC_ELEMENT, binome.getOrganeTroncCeleste().getElement().getNom());
+            contentValues.put(Constants.KEY_COL_TRONC_POLARITE, binome.getOrganeTroncCeleste().getPolarite());
+            contentValues.put(Constants.KEY_COL_BRANCHE_ORGANE, binome.getOrganeBrancheTerrestre().getNom());
+            contentValues.put(Constants.KEY_COL_BRANCHE_ELEMENT, binome.getOrganeBrancheTerrestre().getElement().getNom());
+            contentValues.put(Constants.KEY_COL_BRANCHE_POLARITE, binome.getOrganeBrancheTerrestre().getPolarite());
+            //
+            insertRecord(db, contentValues);
         }
     }
 

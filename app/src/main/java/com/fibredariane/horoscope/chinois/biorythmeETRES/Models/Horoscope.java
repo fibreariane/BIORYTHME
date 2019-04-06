@@ -31,6 +31,22 @@ public class Horoscope implements Serializable {
     private String mPolarite;
     private String mElement;
 
+    private String mInfluence;
+    private int  mNbBinome;
+    private String mTypeHoroscope;
+
+    public Horoscope(int nbBinome, String typeHoroscope, String element, String polarite, String influence, String texteAnnee, String texteMois, String texteJour, String texteHeure){
+        mNbBinome=nbBinome;
+        mTypeHoroscope=typeHoroscope;
+        mElement = element;
+        mPolarite = polarite;
+        mInfluence = influence;
+        mTextInfluenceAnnee = texteAnnee;
+        mTextInfluenceMois = texteMois;
+        mTextInfluenceJour = texteJour;
+        mTextInfluenceHeure = texteHeure;
+    }
+
     public Horoscope(Cursor cursorAnnee, Cursor cursorMois,Cursor cursorJour,Cursor cursorHeure,Binome binomeHoroscope){
         mElement = binomeHoroscope.getElement().getNom();
         mPolarite = binomeHoroscope.getPolarite();
@@ -101,6 +117,10 @@ public class Horoscope implements Serializable {
                 "drawable",
               App.getContext().getPackageName());
     }
+
+    public int getNbBinome(){return mNbBinome;}
+    public String getTypeHoroscope(){return mTypeHoroscope;}
+    public String getInfluence(){return mInfluence;}
     public String getTextInfluenceAnnee(){return mTextInfluenceAnnee;}
     public String getTextInfluenceMois(){return mTextInfluenceMois;}
     public String getTextInfluenceJour(){return mTextInfluenceJour;}

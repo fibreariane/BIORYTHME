@@ -2,6 +2,7 @@ package com.fibredariane.horoscope.chinois.biorythmeETRES.Utils;
 
 import android.content.Context;
 import android.database.Cursor;
+import android.database.DatabaseUtils;
 import android.database.sqlite.SQLiteDatabase;
 
 import com.fibredariane.horoscope.chinois.biorythmeETRES.Models.App;
@@ -27,19 +28,16 @@ public class ManageRecordDB {
         tableBinome = new TableBinome(c,TableBinome.Constants.DATABASE_NAME, null,
                 TableBinome.Constants.DATABASE_VERSION);
         dbBinome = tableBinome.openDB();
-
+        if ( DatabaseUtils.queryNumEntries(dbBinome, TableBinome.Constants.MY_TABLE) == 0){
+            tableBinome.initTable(dbBinome);
+        }
 
         tableHoroscope = new TableHoroscope(c,TableHoroscope.Constants.DATABASE_NAME, null,
                 TableHoroscope.Constants.DATABASE_VERSION);
         dbHoroscope = tableHoroscope.openDB();
-    }
-
-    public void updateTableBinome(){
-        tableBinome.initTable(dbBinome);
-    }
-
-    public void updateTableHoroscope(){
-        tableHoroscope.initTable(dbHoroscope);
+        if ( DatabaseUtils.queryNumEntries(dbHoroscope, TableHoroscope.Constants.MY_TABLE) == 0){
+            tableHoroscope.initTable(dbHoroscope);
+        }
     }
 
     public void openDBs(){

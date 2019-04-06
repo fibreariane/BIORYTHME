@@ -30,6 +30,17 @@ public class Binome implements Serializable {
     private String mKey2;
 
 
+    public Binome(String idBinome,int nbBinome, String nom, String description, String element, Organe troncCeleste,Organe brancheTerrestre, String polarite){
+        mNom = nom;
+        mIdBinome = idBinome;
+        mDescription = description;
+        mNbBinome = nbBinome;
+        mOrganeTroncCeleste = troncCeleste;
+        mOrganeBrancheTerrestre= brancheTerrestre;
+        mPolarite= polarite;
+        mElement=new Element(element);
+    }
+
     public Binome(Cursor cursor, String typeBinome){
         Context c = App.getContext();
         if (cursor.moveToFirst()) {

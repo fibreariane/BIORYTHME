@@ -14,8 +14,13 @@ package com.fibredariane.horoscope.chinois.biorythmeETRES.Models;
         import android.widget.Toast;
 
         import com.fibredariane.horoscope.chinois.biorythmeETRES.R;
+        import com.fibredariane.horoscope.chinois.biorythmeETRES.Utils.ParseJSON;
 
         import org.json.JSONObject;
+
+        import java.io.IOException;
+        import java.io.InputStream;
+        import java.util.List;
 
 
 public class TableHoroscope extends SQLiteOpenHelper {
@@ -73,106 +78,45 @@ public class TableHoroscope extends SQLiteOpenHelper {
     }
 
     public void initHoroscope(SQLiteDatabase db, String typeHoroscope) {
+        deleteDB(db);
+        onCreate(db);
         Context c = App.getContext();
-       for (int i = 1; i <= 60; i++) {
-            String string_binome = c.getResources().getString(
-                    c.getResources().getIdentifier(
-                            "binome" + i +"_"+typeHoroscope.toLowerCase(),
-                            "string",
-                            c.getPackageName()));
-            if (string_binome != "") {
-                try {
-                    JSONObject json = new JSONObject(string_binome);
+        InputStream inputStream = null;
+        if(typeHoroscope == "A"){
+            inputStream = c.getResources().openRawResource(R.raw.horoscopes_annee);
+        }
+        if(typeHoroscope == "M"){
+            inputStream = c.getResources().openRawResource(R.raw.horoscopes_mois);
+        }
+        if(typeHoroscope == "J"){
+            inputStream = c.getResources().openRawResource(R.raw.horoscopes_journee);
+        }
+        List<Horoscope> listHoroscope=null;
+        try {
+            listHoroscope = ParseJSON.readJsonStreamHoroscope(inputStream);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
 
-                    JSONObject jsonFils = new JSONObject(json.getString("bois_yin"));
-                    insertHoroscope(db, i, typeHoroscope, "BOIS","YIN",
-                            jsonFils.getString("influence"),jsonFils.getString("annee"),
-                            jsonFils.getString("mois"),jsonFils.getString("jour"),
-                            jsonFils.getString("heure"));
 
-                    jsonFils = new JSONObject(json.getString("bois_yang"));
-                    insertHoroscope(db, i, typeHoroscope, "BOIS","YANG",
-                            jsonFils.getString("influence"),jsonFils.getString("annee"),
-                            jsonFils.getString("mois"),jsonFils.getString("jour"),
-                            jsonFils.getString("heure"));
-
-                    jsonFils = new JSONObject(json.getString("feu_yin"));
-                    insertHoroscope(db, i, typeHoroscope, "FEU","YIN",
-                            jsonFils.getString("influence"),jsonFils.getString("annee"),
-                            jsonFils.getString("mois"),jsonFils.getString("jour"),
-                            jsonFils.getString("heure"));
-
-                    jsonFils = new JSONObject(json.getString("feu_yang"));
-                    insertHoroscope(db, i, typeHoroscope, "FEU","YANG",
-                            jsonFils.getString("influence"),jsonFils.getString("annee"),
-                            jsonFils.getString("mois"),jsonFils.getString("jour"),
-                            jsonFils.getString("heure"));
-
-                    jsonFils = new JSONObject(json.getString("eau_yin"));
-                    insertHoroscope(db, i, typeHoroscope, "EAU","YIN",
-                            jsonFils.getString("influence"),jsonFils.getString("annee"),
-                            jsonFils.getString("mois"),jsonFils.getString("jour"),
-                            jsonFils.getString("heure"));
-
-                    jsonFils = new JSONObject(json.getString("eau_yang"));
-                    insertHoroscope(db, i, typeHoroscope, "EAU","YANG",
-                            jsonFils.getString("influence"),jsonFils.getString("annee"),
-                            jsonFils.getString("mois"),jsonFils.getString("jour"),
-                            jsonFils.getString("heure"));
-
-                    jsonFils = new JSONObject(json.getString("terre_yin"));
-                    insertHoroscope(db, i, typeHoroscope, "TERRE","YIN",
-                            jsonFils.getString("influence"),jsonFils.getString("annee"),
-                            jsonFils.getString("mois"),jsonFils.getString("jour"),
-                            jsonFils.getString("heure"));
-
-                    jsonFils = new JSONObject(json.getString("terre_yang"));
-                    insertHoroscope(db, i, typeHoroscope, "TERRE","YANG",
-                            jsonFils.getString("influence"),jsonFils.getString("annee"),
-                            jsonFils.getString("mois"),jsonFils.getString("jour"),
-                            jsonFils.getString("heure"));
-
-                    jsonFils = new JSONObject(json.getString("metal_yin"));
-                    insertHoroscope(db, i, typeHoroscope, "METAL","YIN",
-                            jsonFils.getString("influence"),jsonFils.getString("annee"),
-                            jsonFils.getString("mois"),jsonFils.getString("jour"),
-                            jsonFils.getString("heure"));
-
-                    jsonFils = new JSONObject(json.getString("metal_yang"));
-                    insertHoroscope(db, i, typeHoroscope, "METAL","YANG",
-                            jsonFils.getString("influence"),jsonFils.getString("annee"),
-                            jsonFils.getString("mois"),jsonFils.getString("jour"),
-                            jsonFils.getString("heure"));
-
-                } catch (Exception e) {
-                    Log.v("TAG", "Horoscope - JSON - erreur"+i
-                    +"  "+
-                            string_binome);
-                    e.printStackTrace();
-                }
-            }
+        for (int i = 0; i < listHoroscope.size(); i++) {
+            Horoscope horoscope = listHoroscope.get(i);
+            ContentValues contentValues = new ContentValues();
+            contentValues.put(Constants.KEY_COL_NB_BINOME, horoscope.getNbBinome());
+            contentValues.put(Constants.KEY_COL_TYPE_HOROSCOPE, horoscope.getTypeHoroscope());
+            contentValues.put(Constants.KEY_COL_ELEMENT, horoscope.getElement());
+            contentValues.put(Constants.KEY_COL_POLARITE, horoscope.getPolarite());
+            contentValues.put(Constants.KEY_COL_INFLUENCE, horoscope.getInfluence());
+            contentValues.put(Constants.KEY_COL_TEXTE_ANNEE, horoscope.getTextInfluenceAnnee());
+            contentValues.put(Constants.KEY_COL_TEXTE_MOIS, horoscope.getTextInfluenceMois());
+            contentValues.put(Constants.KEY_COL_TEXTE_JOUR, horoscope.getTextInfluenceJour());
+            contentValues.put(Constants.KEY_COL_TEXTE_HEURE, horoscope.getTextInfluenceHeure());
+            //
+            insertRecord(db, contentValues);
         }
     }
 
-    public void insertHoroscope(SQLiteDatabase db, int nbBinome, String typeHoroscope, String element,
-                                String polarite, String influence,String texteAnnee, String texteMois,
-                                String texteJour, String texteHeure) {
-
-        ContentValues contentValues = new ContentValues();
-        contentValues.put(Constants.KEY_COL_NB_BINOME, nbBinome);
-        contentValues.put(Constants.KEY_COL_TYPE_HOROSCOPE, typeHoroscope);
-        contentValues.put(Constants.KEY_COL_ELEMENT, element);
-        contentValues.put(Constants.KEY_COL_POLARITE, polarite);
-        contentValues.put(Constants.KEY_COL_INFLUENCE, influence);
-        contentValues.put(Constants.KEY_COL_TEXTE_ANNEE, texteAnnee);
-        contentValues.put(Constants.KEY_COL_TEXTE_MOIS, texteMois);
-        contentValues.put(Constants.KEY_COL_TEXTE_JOUR, texteJour);
-        contentValues.put(Constants.KEY_COL_TEXTE_HEURE, texteHeure);
-        //
-        insertRecord(db, contentValues);
-    }
-
-    public long insertRecord(SQLiteDatabase db, ContentValues contentValues) {
+     public long insertRecord(SQLiteDatabase db, ContentValues contentValues) {
         long rowId = db.insert(Constants.MY_TABLE, null, contentValues);
         return rowId;
     }
