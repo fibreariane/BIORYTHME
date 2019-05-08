@@ -180,8 +180,8 @@ public class SwitchBiorythmeActivity extends AppCompatActivity implements TimePi
         }
         if(ok){
             Biorythme biorythme = CalculBinomes.calcBiorythme(this, year, month, day, mHour, mMinute);
-            Intent intent = new Intent(mContext, ViewBinomeActivity.class);
-            intent.putExtra("BIORYTHME", biorythme); //second param is Serializable
+            mPreferences.setBiorythmePref(biorythme);
+            Intent intent = new Intent(mContext, MainActivity.class);
             startActivity(intent);
         }else{
             mDialog.show();

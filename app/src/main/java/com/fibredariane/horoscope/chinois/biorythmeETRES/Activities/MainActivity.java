@@ -13,6 +13,7 @@ import android.support.v4.view.ViewPager;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.ImageButton;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import com.crashlytics.android.Crashlytics;
@@ -21,40 +22,31 @@ import com.fibredariane.horoscope.chinois.biorythmeETRES.Models.Binome;
 import com.fibredariane.horoscope.chinois.biorythmeETRES.Models.Biorythme;
 import com.fibredariane.horoscope.chinois.biorythmeETRES.Models.Horoscope;
 import com.fibredariane.horoscope.chinois.biorythmeETRES.R;
-import com.fibredariane.horoscope.chinois.biorythmeETRES.Test.TestBinomeActivity;
-import com.fibredariane.horoscope.chinois.biorythmeETRES.Test.TestMain;
-import com.fibredariane.horoscope.chinois.biorythmeETRES.Utils.AdInterstitial;
 import com.fibredariane.horoscope.chinois.biorythmeETRES.Utils.CalculBinomes;
 import com.fibredariane.horoscope.chinois.biorythmeETRES.Utils.Preferences;
-import com.fibredariane.horoscope.chinois.biorythmeETRES.Utils.ZoomOutPageTransformer;
 import io.fabric.sdk.android.Fabric;
 
 import com.fibredariane.horoscope.chinois.biorythmeETRES.Utils.ManageRecordDB;
+import com.fibredariane.horoscope.chinois.biorythmeETRES.Utils.ZoomOutPageTransformer;
 
 import java.io.Serializable;
 
-//public class MainActivity extends AppCompatActivity implements View.OnClickListener,RewardedVideoAdListener {
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
-   private SectionsPagerAdapter mSectionsPagerAdapter;
+
+    private Context mContext;
+    private SectionsPagerAdapter mSectionsPagerAdapter;
     private ViewPager mViewPager;
 
-    private BottomNavigationView mNavigation;
-    private BottomNavigationView mNavigationHoroscope;
-    private BottomNavigationView mNavigationBiorythme;
-    private BottomNavigationView mNavigationSynthese;
-    private Context mContext;
-    private LinearLayout mLinearLayoutCredit;
-    private TextView mTextViewCredit;
     private Preferences mPreferences;
     //
     private Biorythme mBiorythmeUser;
     private Biorythme mBiorythmeOfTheDay;
-    private Horoscope mHoroscopeYear;
-    private Horoscope mHoroscopeMonth;
     private Horoscope mHoroscopeDay;
     //
     private ManageRecordDB db;
+    //
+    private ImageButton mBtnAccueil;
 
 
     @Override
@@ -64,15 +56,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Fabric.with(this, new Crashlytics());
         setContentView(R.layout.activity_main);
         mContext = this;
-        mLinearLayoutCredit = (LinearLayout) findViewById(R.id.linear_layout_credit);
-        mLinearLayoutCredit.setOnClickListener(this);
 
         mPreferences = new Preferences();
 
         mPreferences.isFirstTimeApplication();
 
-    //    db = new ManageRecordDB();
-     //   db.initTables(mContext);
+        db = new ManageRecordDB();
+        db.initTables();
 
         String date_biorythme = mPreferences.getStringDatePref();
         if (date_biorythme == ""){
@@ -84,33 +74,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             mViewPager = (ViewPager) findViewById(R.id.container);
             mViewPager.setAdapter(mSectionsPagerAdapter);
             mViewPager.setPageTransformer(true, new ZoomOutPageTransformer());
-            mNavigation = (BottomNavigationView) findViewById(R.id.menu_main);
-            mNavigationHoroscope = (BottomNavigationView) findViewById(R.id.menu_horoscope);
-            mNavigationBiorythme = (BottomNavigationView) findViewById(R.id.menu_biorythme);
-            mNavigationSynthese = (BottomNavigationView) findViewById(R.id.menu_synthese);
 
-            mTextViewCredit = (TextView) findViewById(R.id.text_view_credit);
-
-            mLinearLayoutCredit = (LinearLayout) findViewById(R.id.linear_layout_credit);
-            mLinearLayoutCredit.setOnClickListener(this);
-
-            // Initialisation des menus
-            initMenuMain();
-            initMenuHoroscope();
-            initMenuBiorythme();
-            initMenuSynthese();
-
+             mBtnAccueil = (ImageButton) findViewById(R.id.btn_accueil);
 
             // Initialisation des variables globales
             mBiorythmeOfTheDay = CalculBinomes.getCurrentBiorythme(mContext, mPreferences);
             mBiorythmeUser = mPreferences.getBiorythmePref();
-            mHoroscopeYear = new Horoscope(mBiorythmeUser, mBiorythmeOfTheDay.getBinomeAnnee(), "A");
-            mHoroscopeMonth = new Horoscope(mBiorythmeUser, mBiorythmeOfTheDay.getBinomeMois(), "M");
-
             mHoroscopeDay = new Horoscope(mBiorythmeUser, mBiorythmeOfTheDay.getBinomeJour(), "J");
-
-
-            //
             mViewPager.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
                 @Override
                 public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
@@ -118,98 +88,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
                 @Override
                 public void onPageSelected(int position) {
-                    mTextViewCredit.setText("" + mPreferences.getCreditPref());
                     switch (position) {
-                        case 0:
-                            mNavigation.getMenu().findItem(R.id.navigation_home).setChecked(true);
-                            mNavigationHoroscope.setVisibility(View.INVISIBLE);
-                            mNavigationBiorythme.setVisibility(View.GONE);
-                            mNavigationSynthese.setVisibility(View.GONE);
-                            break;
-                        case 1:
-                            mNavigation.getMenu().findItem(R.id.navigation_horoscope).setChecked(true);
-                            mNavigationHoroscope.getMenu().findItem(R.id.navigation_jour).setChecked(true);
-                            mNavigationHoroscope.setVisibility(View.VISIBLE);
-                            mNavigationBiorythme.setVisibility(View.GONE);
-                            mNavigationSynthese.setVisibility(View.GONE);
-
-                            break;
-                        case 2:
-                            mNavigation.getMenu().findItem(R.id.navigation_horoscope).setChecked(true);
-                            mNavigationHoroscope.getMenu().findItem(R.id.navigation_mois).setChecked(true);
-                            mNavigationHoroscope.setVisibility(View.VISIBLE);
-                            mNavigationBiorythme.setVisibility(View.GONE);
-                            mNavigationSynthese.setVisibility(View.GONE);
-                            break;
-                        case 3:
-                            mNavigation.getMenu().findItem(R.id.navigation_horoscope).setChecked(true);
-                            mNavigationHoroscope.getMenu().findItem(R.id.navigation_annee).setChecked(true);
-                            mNavigationHoroscope.setVisibility(View.VISIBLE);
-                            mNavigationBiorythme.setVisibility(View.GONE);
-                            mNavigationSynthese.setVisibility(View.GONE);
-                            break;
-                        case 4:
-                            mNavigation.getMenu().findItem(R.id.navigation_biorythme).setChecked(true);
-                            mNavigationBiorythme.getMenu().findItem(R.id.navigation_binome_annee).setChecked(true);
-                            mNavigationHoroscope.setVisibility(View.GONE);
-                            mNavigationBiorythme.setVisibility(View.VISIBLE);
-                            mNavigationSynthese.setVisibility(View.GONE);
-                            break;
-                        case 5:
-                            mNavigation.getMenu().findItem(R.id.navigation_biorythme).setChecked(true);
-                            mNavigationBiorythme.getMenu().findItem(R.id.navigation_binome_mois).setChecked(true);
-                            mNavigationHoroscope.setVisibility(View.GONE);
-                            mNavigationBiorythme.setVisibility(View.VISIBLE);
-                            mNavigationSynthese.setVisibility(View.GONE);
-                            break;
-                        case 6:
-                            mNavigation.getMenu().findItem(R.id.navigation_biorythme).setChecked(true);
-                            mNavigationBiorythme.getMenu().findItem(R.id.navigation_binome_jour).setChecked(true);
-                            mNavigationHoroscope.setVisibility(View.GONE);
-                            mNavigationBiorythme.setVisibility(View.VISIBLE);
-                            mNavigationSynthese.setVisibility(View.GONE);
-                            break;
-                        case 7:
-                            mNavigation.getMenu().findItem(R.id.navigation_biorythme).setChecked(true);
-                            mNavigationBiorythme.getMenu().findItem(R.id.navigation_binome_heure).setChecked(true);
-                            mNavigationHoroscope.setVisibility(View.GONE);
-                            mNavigationBiorythme.setVisibility(View.VISIBLE);
-                            mNavigationSynthese.setVisibility(View.GONE);
-                            break;
-                        case 8:
-                            mNavigation.getMenu().findItem(R.id.navigation_synthese).setChecked(true);
-                            mNavigationSynthese.getMenu().findItem(R.id.navigation_synthese_accueil).setChecked(true);
-                            mNavigationHoroscope.setVisibility(View.GONE);
-                            mNavigationBiorythme.setVisibility(View.GONE);
-                            mNavigationSynthese.setVisibility(View.VISIBLE);
-                            break;
-                        case 9:
-                            mNavigation.getMenu().findItem(R.id.navigation_synthese).setChecked(true);
-                            mNavigationSynthese.getMenu().findItem(R.id.navigation_synthese_vide).setChecked(true);
-                            mNavigationHoroscope.setVisibility(View.GONE);
-                            mNavigationBiorythme.setVisibility(View.GONE);
-                            mNavigationSynthese.setVisibility(View.VISIBLE);
-                            break;
-                        case 10:
-                            mNavigation.getMenu().findItem(R.id.navigation_synthese).setChecked(true);
-                            mNavigationSynthese.getMenu().findItem(R.id.navigation_synthese_neutre).setChecked(true);
-                            mNavigationHoroscope.setVisibility(View.GONE);
-                            mNavigationBiorythme.setVisibility(View.GONE);
-                            mNavigationSynthese.setVisibility(View.VISIBLE);
-                            break;
-                        case 11:
-                            mNavigation.getMenu().findItem(R.id.navigation_synthese).setChecked(true);
-                            mNavigationSynthese.getMenu().findItem(R.id.navigation_synthese_dominant).setChecked(true);
-                            mNavigationHoroscope.setVisibility(View.GONE);
-                            mNavigationBiorythme.setVisibility(View.GONE);
-                            mNavigationSynthese.setVisibility(View.VISIBLE);
-                            break;
-                        case 12:
-                            mNavigation.getMenu().findItem(R.id.navigation_param).setChecked(true);
-                            mNavigationHoroscope.setVisibility(View.INVISIBLE);
-                            mNavigationBiorythme.setVisibility(View.GONE);
-                            mNavigationSynthese.setVisibility(View.GONE);
-                            break;
                         default:
                             break;
                     }
@@ -220,28 +99,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 }
 
             });
-        }
+
+         }
     }
-
-    @Override
-    public void onClick(View v) {
-        switch (v.getId()) {
-            case R.id.linear_layout_horoscope:
-                mViewPager.setCurrentItem(1);
-                break;
-            case R.id.linear_layout_credit:
-                //mAdInterstitial.setAd();
-               // Binome test = db.getBinome("59","");
-               // Binome test = db.getBinome("59","");
-                break;
-
-            default:
-                break;
-        }
-
-    }
-
-   public class SectionsPagerAdapter extends FragmentStatePagerAdapter {
+    public class SectionsPagerAdapter extends FragmentStatePagerAdapter {
 
         public SectionsPagerAdapter(FragmentManager fm) {
             super(fm);
@@ -250,168 +111,56 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         @Override
         public Fragment getItem(int position) {
 
-                switch (position) {
-                    case 0:
-                        AccueilFragment accueilFragment = AccueilFragment.newInstance(position,mBiorythmeOfTheDay.getBinomeJour());
-                        accueilFragment.setViewPager(mViewPager);
-                        return accueilFragment;
-                    case 1: // Horoscope Jour
-                        return ViewHoroscopeFragment.newInstance(position, mHoroscopeDay);
-                    case 2: // Horoscope Mois
-                        return ViewHoroscopeFragment.newInstance(position, mHoroscopeMonth);
-                    case 3: // Horoscope Année
-                        return ViewHoroscopeFragment.newInstance(position, mHoroscopeYear);
-                    case 4: // Biorythme Année
-                        return ViewBiorythmeFragment.newInstance(position, mBiorythmeUser.getBinomeAnnee());
-                    case 5: // Biorythme Mois
-                        return ViewBiorythmeFragment.newInstance(position, mBiorythmeUser.getBinomeMois());
-                    case 6: // Biorythme Jour
-                        return ViewBiorythmeFragment.newInstance(position, mBiorythmeUser.getBinomeJour());
-                    case 7: // Biorythme Heure
-                        return ViewBiorythmeFragment.newInstance(position, mBiorythmeUser.getBinomeHeure());
-                    case 8:
-                        return ViewSyntheseFragment.newInstance(position);
-                    case 9:
-                        return ViewSyntheseDetailleFragment.newInstance(position, "VIDE");
-                    case 10:
-                        return ViewSyntheseDetailleFragment.newInstance(position, "NEUTRE");
-                    case 11:
-                        return ViewSyntheseDetailleFragment.newInstance(position, "DOMINANT");
-                    case 12:
-                        return ParameterFragment.newInstance(position);
-                }
+            switch (position) {
+                case 0:
+                    AccueilFragment accueilFragment = AccueilFragment.newInstance(position,mBiorythmeOfTheDay.getBinomeJour(),mBiorythmeUser);
+                    accueilFragment.setViewPager(mViewPager);
+                    return accueilFragment;
+                case 1: // Biorythme
+                    return ViewBiorythmeFragment.newInstance(position, mBiorythmeOfTheDay.getBinomeJour());
+                case 2: // Horoscope Jour
+                    return ViewHoroscopeFragment.newInstance(position, mHoroscopeDay);
+                case 3: // Biorythme
+                    return ViewBiorythmeFragment.newInstance(position, mBiorythmeUser.getBinomeAnnee());
+                case 4:
+                    return ParameterFragment.newInstance(position);
+            }
 
-            return AccueilFragment.newInstance(position,mBiorythmeOfTheDay.getBinomeJour());
+            return AccueilFragment.newInstance(position,mBiorythmeOfTheDay.getBinomeJour(),mBiorythmeUser);
         }
 
         @Override
         public int getCount() {
-            return 13;
+            return 5;
         }
     }
+    @Override
+    public void onClick(View v) {
 
+        switch (v.getId()) {
+            case R.id.btn_accueil:
+                mViewPager.setCurrentItem(0);
+                break;
+            case R.id.btn_parametre:
+                mViewPager.setCurrentItem(4);
+                break;
+            default:
+                break;
+        }
 
-    public void initMenuMain() {
-        BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
-                = new BottomNavigationView.OnNavigationItemSelectedListener() {
-            @Override
-            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-
-                switch (item.getItemId()) {
-                    case R.id.navigation_home:
-                        mViewPager.setCurrentItem(0);
-                        return true;
-                    case R.id.navigation_horoscope:
-                        mViewPager.setCurrentItem(1);
-                        return true;
-                    case R.id.navigation_biorythme:
-                        mViewPager.setCurrentItem(4);
-                        return true;
-                    case R.id.navigation_synthese:
-                        mViewPager.setCurrentItem(8);
-                        return true;
-                    case R.id.navigation_param:
-                        mViewPager.setCurrentItem(12);
-                        return true;
-                }
-                return false;
-            }
-
-        };
-        mNavigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
     }
 
-    public void initMenuHoroscope() {
-        BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
-                = new BottomNavigationView.OnNavigationItemSelectedListener() {
-            @Override
-            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-                switch (item.getItemId()) {
-                    case R.id.navigation_jour:
-                        mViewPager.setCurrentItem(1);
-                        return true;
-                    case R.id.navigation_mois:
-                        mViewPager.setCurrentItem(2);
-                        return true;
-                    case R.id.navigation_annee:
-                        mViewPager.setCurrentItem(3);
-                        return true;
 
-                }
-                return false;
-            }
-
-        };
-        mNavigationHoroscope.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
-    }
-
-    public void initMenuBiorythme() {
-        BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
-                = new BottomNavigationView.OnNavigationItemSelectedListener() {
-            @Override
-            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-                switch (item.getItemId()) {
-                    case R.id.navigation_switch:
-                        Intent intent = new Intent(mContext, SwitchBiorythmeActivity.class);
-                        startActivity(intent);
-                        return true;
-                    case R.id.navigation_binome_annee:
-                        mViewPager.setCurrentItem(4);
-                        return true;
-                    case R.id.navigation_binome_mois:
-                        mViewPager.setCurrentItem(5);
-                        return true;
-                    case R.id.navigation_binome_jour:
-                        mViewPager.setCurrentItem(6);
-                        return true;
-                    case R.id.navigation_binome_heure:
-                        mViewPager.setCurrentItem(7);
-                        return true;
-
-                }
-                return false;
-            }
-
-        };
-        mNavigationBiorythme.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
-    }
-
-    private void initMenuSynthese() {
-        BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
-                = new BottomNavigationView.OnNavigationItemSelectedListener() {
-            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-
-                switch (item.getItemId()) {
-                    case R.id.navigation_synthese_accueil:
-                        mViewPager.setCurrentItem(8);
-                        return true;
-                    case R.id.navigation_synthese_vide:
-                        mViewPager.setCurrentItem(9);
-                        return true;
-                    case R.id.navigation_synthese_neutre:
-                        mViewPager.setCurrentItem(10);
-                        return true;
-                    case R.id.navigation_synthese_dominant:
-                        mViewPager.setCurrentItem(11);
-                        return true;
-
-                }
-                return false;
-            }
-
-        };
-        mNavigationSynthese.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
-    }
 
     @Override
     protected void onResume() {
         super.onResume();
-  //      db.openDBs();
+        db.openDBs();
     }
 
     @Override
     protected void onPause() {
         super.onPause();
-    //    db.closeDBs();
+        db.closeDBs();
     }
 }

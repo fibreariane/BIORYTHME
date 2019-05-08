@@ -1,4 +1,5 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -7,130 +8,177 @@
     android:scrollbars="vertical"
     tools:context="com.fibredariane.horoscope.chinois.biorythmeETRES.Activities.AccueilFragment">
 
-    <LinearLayout
+    <android.support.constraint.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:gravity="center"
-        android:layout_gravity="center"
-        android:orientation="vertical">
+        android:layout_marginTop="50dp">
 
         <LinearLayout
-            android:id="@+id/linear_layout_horoscope"
-            android:layout_width="wrap_content"
+            android:id="@+id/layout_energie"
+            android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:orientation="vertical"
+            tools:layout_editor_absoluteY="16dp">
+
+            <ImageView
+                android:id="@+id/image_view_day"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingRight="@dimen/fab_margin"
+                android:src="@drawable/terre_bord_chemin"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/layout_day" />
 
             <TextView
-                android:id="@+id/section_label"
+                android:id="@+id/textView3"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-
-            <LinearLayout
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:layout_marginRight="@dimen/fab_margin"
+                android:layout_height="34dp"
+                android:layout_gravity="center"
                 android:gravity="center"
-                android:orientation="vertical">
+                android:text="Energie du jour"
+                android:textAllCaps="true"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/colorAccent"
+                android:textSize="14sp"
+                android:textStyle="normal|bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/image_view_day" />
+        </LinearLayout>
 
-                <TextView
-                    android:id="@+id/text_view_day_day"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="01"
-                    android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:textColor="@color/colorPrimaryDark"
-                    android:textStyle="bold" />
+        <LinearLayout
+            android:id="@+id/layout_day"
+            android:layout_width="0dp"
+            android:layout_height="62dp"
+            android:layout_marginTop="16dp"
+            android:background="@color/colorPrimaryDark"
+            android:gravity="center"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/layout_energie">
 
-                <TextView
-                    android:id="@+id/text_view_day_month"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="JANVIER"
-                    android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:textColor="@color/colorPrimaryDark"
-                    android:textStyle="bold" />
+            <TextView
+                android:id="@+id/text_view_day"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginEnd="32dp"
+                android:gravity="center"
+                android:text="14 Avril 2019"
+                android:textAllCaps="true"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/colorWhite"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView" />
+        </LinearLayout>
 
-                <TextView
-                    android:id="@+id/text_view_day_year"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="2010"
-                    android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:textColor="@color/colorPrimaryDark"
-                    android:textStyle="bold" />
-            </LinearLayout>
+        <LinearLayout
+            android:id="@+id/layout_synthese"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="50dp"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/layout_day">
 
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="100dp"
+                android:layout_height="101dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/layout_day">
+
+                <ImageView
+                    android:id="@+id/image_view_bio_annee"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@color/colorWhite"
+                    android:src="@drawable/bois_arbre_grande_foret_mini"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/image_view_bio_heure"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@color/colorWhite"
+                    android:src="@drawable/bois_arbre_grande_foret_mini"
+                    app:layout_constraintStart_toEndOf="@+id/image_view_bio_jour"
+                    app:layout_constraintTop_toBottomOf="@+id/image_view_bio_mois" />
+
+                <ImageView
+                    android:id="@+id/image_view_bio_jour"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@color/colorWhite"
+                    android:src="@drawable/bois_arbre_grande_foret_mini"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/image_view_bio_annee" />
+
+                <ImageView
+                    android:id="@+id/image_view_bio_mois"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@color/colorWhite"
+                    android:src="@drawable/bois_arbre_grande_foret_mini"
+                    app:layout_constraintStart_toEndOf="@+id/image_view_bio_annee"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </android.support.constraint.ConstraintLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Ma Synthèse"
+                android:textAllCaps="true"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/colorPrimary"
+                android:textSize="14sp"
+                android:textStyle="normal|bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/layout_synthese" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_horoscope"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="16dp"
+            android:orientation="vertical"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/layout_day">
 
             <ImageView
                 android:id="@+id/image_view_meteo_day"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/meteo_cc_accueil" />
-        </LinearLayout>
+                android:layout_gravity="center"
+                android:src="@drawable/meteo_cc_accueil"
+                tools:layout_editor_absoluteX="64dp"
+                tools:layout_editor_absoluteY="296dp" />
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/fab_margin"
-            android:layout_marginTop="@dimen/fab_margin"
-            android:background="@color/colorPrimaryDark"
-            android:orientation="horizontal"
-            android:paddingBottom="6dp"
-            android:paddingTop="6dp">
-
-            <LinearLayout
-                android:id="@+id/linear_layout_element"
-                android:layout_width="match_parent"
+            <TextView
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@color/colorWhite"
-                android:gravity="center"
-                android:orientation="horizontal">
-
-                <ImageView
-                    android:id="@+id/image_view_day"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:paddingRight="@dimen/fab_margin"
-                    android:src="@drawable/terre_bord_chemin_mini" />
-
-                <LinearLayout
-                    android:layout_width="150dp"
-                    android:layout_height="100dp"
-                    android:background="@color/colorPrimaryDark"
-                    android:gravity="center"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:id="@+id/text_view_element_day"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="EAU"
-                        android:textAppearance="?android:attr/textAppearanceLarge"
-                        android:textColor="@color/colorWhite"
-                        android:textStyle="bold" />
-
-                    <TextView
-                        android:id="@+id/text_view_element_polarite_day"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="YIN"
-                        android:textAppearance="?android:attr/textAppearanceLarge"
-                        android:textColor="@color/colorWhite"
-                        android:textStyle="bold" />
-
-                </LinearLayout>
-            </LinearLayout>
+                android:layout_gravity="center"
+                android:text="Mon Horoscope"
+                android:textAlignment="viewStart"
+                android:textAllCaps="true"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/colorPrimary"
+                android:textSize="14sp"
+                android:textStyle="normal|bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/image_view_meteo_day" />
         </LinearLayout>
 
-        <TextView
-            android:id="@+id/text_view_energy_day"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="CREATIVITE et CONSTRUCTION"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:textColor="@color/colorPrimaryDark"
-            android:textStyle="bold" />
-
-    </LinearLayout>
+    </android.support.constraint.ConstraintLayout>
 </ScrollView>
 

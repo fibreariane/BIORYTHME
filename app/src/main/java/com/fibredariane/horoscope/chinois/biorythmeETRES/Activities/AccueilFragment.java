@@ -23,15 +23,14 @@ import com.fibredariane.horoscope.chinois.biorythmeETRES.Utils.Preferences;
 import java.util.Calendar;
 
 public class AccueilFragment extends Fragment implements View.OnClickListener{
-   // private Biorythme mCurrentBiorythme;
-    private TextView mTextViewDayDay;
-    private TextView mTextViewDayMonth;
-    private TextView mTextViewDayYear;
-    private TextView mTextViewElementDay;
-    private TextView mTextViewElementPolariteDay;
-    private TextView mTextViewEnergyDay;
+    private Biorythme mCurrentBiorythme;
+    private TextView mTextViewDay;
     private ImageView mImageViewDay;
     private ImageView mImageViewMeteoDay;
+    private ImageView mImageViewUserAnnee;
+    private ImageView mImageViewUserMois;
+    private ImageView mImageViewUserJour;
+    private ImageView mImageViewUserHeure;
     private ViewPager mViewPager;
     private Context mContext;
     private Preferences mPreference;
@@ -41,9 +40,11 @@ public class AccueilFragment extends Fragment implements View.OnClickListener{
 
     private LinearLayout mLinearLayoutHoroscope;
     private LinearLayout mLinearLayoutElement;
+    private LinearLayout mLinearLayoutSynthese;
 
     private static final String ARG_SECTION_NUMBER = "section_number";
     private static final String ARG_BINOME = "binome";
+    private static final String ARG_BIORYTHME = "biorythme";
 
     public AccueilFragment() {
     }
@@ -53,11 +54,12 @@ public class AccueilFragment extends Fragment implements View.OnClickListener{
      * Returns a new instance of this fragment for the given section
      * number.
      */
-    public static AccueilFragment newInstance(int sectionNumber, Binome binome) {
+    public static AccueilFragment newInstance(int sectionNumber, Binome binomeJour, Biorythme biorythme) {
         AccueilFragment fragment = new AccueilFragment();
         Bundle args = new Bundle();
         args.putInt(ARG_SECTION_NUMBER, sectionNumber);
-        args.putSerializable(ARG_BINOME,binome);
+        args.putSerializable(ARG_BINOME,binomeJour);
+        args.putSerializable(ARG_BIORYTHME,biorythme);
         fragment.setArguments(args);
         return fragment;
     }
@@ -75,6 +77,7 @@ public class AccueilFragment extends Fragment implements View.OnClickListener{
 
             Bundle args = this.getArguments();
             mBinome = (Binome) args.getSerializable(ARG_BINOME);
+            mCurrentBiorythme = (Biorythme) args.getSerializable(ARG_BIORYTHME);
 
             if (date_biorythme == ""){
                 Intent intent = new Intent(mContext,SwitchBiorythmeActivity.class);
@@ -82,64 +85,54 @@ public class AccueilFragment extends Fragment implements View.OnClickListener{
             }else{
                 initMainLayout();
 
-                mLinearLayoutHoroscope = (LinearLayout) rootView.findViewById(R.id.linear_layout_horoscope);
-                mLinearLayoutElement = (LinearLayout) rootView.findViewById(R.id.linear_layout_element);
+               mLinearLayoutHoroscope = (LinearLayout) rootView.findViewById(R.id.layout_horoscope);
+               mLinearLayoutElement = (LinearLayout) rootView.findViewById(R.id.layout_energie);
+                mLinearLayoutSynthese = (LinearLayout) rootView.findViewById(R.id.layout_synthese);
 
                 mLinearLayoutHoroscope.setOnClickListener(this);
                 mLinearLayoutElement.setOnClickListener(this);
+                mLinearLayoutSynthese.setOnClickListener(this);
             }
+
         }
 
         return rootView;
     }
     public void initMainLayout(){
 
-    //    mCurrentBiorythme = CalculBinomes.getCurrentBiorythme(mContext,mPreference);
-
         mImageViewDay = (ImageView) rootView.findViewById(R.id.image_view_day);
         mImageViewMeteoDay = (ImageView) rootView.findViewById(R.id.image_view_meteo_day);
-        mTextViewDayDay = (TextView) rootView.findViewById(R.id.text_view_day_day);
-        mTextViewDayMonth = (TextView) rootView.findViewById(R.id.text_view_day_month);
-        mTextViewDayYear = (TextView) rootView.findViewById(R.id.text_view_day_year);
-        mTextViewElementDay = (TextView) rootView.findViewById(R.id.text_view_element_day);
-        mTextViewElementPolariteDay = (TextView) rootView.findViewById(R.id.text_view_element_polarite_day);
-        mTextViewEnergyDay = (TextView) rootView.findViewById(R.id.text_view_energy_day);
+        mTextViewDay = (TextView) rootView.findViewById(R.id.text_view_day);
+        mImageViewUserAnnee =(ImageView) rootView.findViewById(R.id.image_view_bio_annee);
+        mImageViewUserMois = (ImageView) rootView.findViewById(R.id.image_view_bio_mois);
+        mImageViewUserJour= (ImageView) rootView.findViewById(R.id.image_view_bio_jour);
+        mImageViewUserHeure=(ImageView) rootView.findViewById(R.id.image_view_bio_heure);
 
         setmImageViewDay();
         setmTextViewDay();
-        setmTextViewElementDay();
-        setmTextViewElementPolariteDay();
         setmImageViewMeteoDay();
-        setmTextViewEnergyDay();
+        setmImageViewBiorythme();
     }
 
     private void setmImageViewDay(){
         if (mBinome.getNom() != "") {
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-                mImageViewDay.setImageDrawable(getResources().getDrawable(mBinome.getIntIdMini(), mContext.getApplicationContext().getTheme()));
+                mImageViewDay.setImageDrawable(getResources().getDrawable(mBinome.getIntId(), mContext.getApplicationContext().getTheme()));
             } else {
-                mImageViewDay.setImageDrawable(getResources().getDrawable(mBinome.getIntIdMini()));
+                mImageViewDay.setImageDrawable(getResources().getDrawable(mBinome.getIntId()));
             }
         }
-    }
-    private void setmTextViewElementDay(){
-        if (mBinome.getNom() != "")
-            mTextViewElementDay.setText(mBinome.getElement().getNom());
-    }
-    private void setmTextViewElementPolariteDay(){
-        if (mBinome.getNom() != "")
-        mTextViewElementPolariteDay.setText(mBinome.getPolarite());
     }
 
     private void setmTextViewDay(){
         Calendar calendar = Calendar.getInstance();
-        mTextViewDayDay.setText(""+calendar.get(Calendar.DAY_OF_MONTH));
-        mTextViewDayMonth.setText(""+getResources().getString(getResources().getIdentifier(
+        mTextViewDay.setText(""+calendar.get(Calendar.DAY_OF_MONTH)+
+                " "+getResources().getString(getResources().getIdentifier(
                 "mois"+calendar.get(Calendar.MONTH),
                 "string",
-                mContext.getPackageName())).toUpperCase());
-        mTextViewDayYear.setText(""+calendar.get(Calendar.YEAR));
-    }
+                mContext.getPackageName())).toUpperCase()+
+                " "+calendar.get(Calendar.YEAR));
+        }
 
     private void setmImageViewMeteoDay(){
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
@@ -148,52 +141,30 @@ public class AccueilFragment extends Fragment implements View.OnClickListener{
             mImageViewMeteoDay.setImageDrawable(getResources().getDrawable(InfosBinomes.getIdTotInfluenceAccueil(mContext)));
         }
     }
-    private void setmTextViewEnergyDay(){
-        String txt_tendance = getString(R.string.influence_creation);
-        if(( mBinome.getElement().getNom().equals("BOIS") &&
-                mBinome.getPolarite().equals("YANG")) ||
-                ( mBinome.getElement().getNom().equals("TERRE") &&
-                        mBinome.getPolarite().equals("YIN")))
-            txt_tendance = getString(R.string.influence_creation);
 
-        if((mBinome.getElement().getNom().equals("FEU") &&
-                mBinome.getPolarite().equals("YANG")) ||
-                ( mBinome.getElement().getNom().equals("METAL") &&
-                        mBinome.getPolarite().equals("YIN")))
-            txt_tendance = getString(R.string.influence_communication);
+    private void setmImageViewBiorythme(){
+        if (mCurrentBiorythme.getBinomeAnnee().getNom() != "") {
+            mImageViewUserAnnee.setImageDrawable(getResources().getDrawable(mCurrentBiorythme.getBinomeAnnee().getIntIdMini(), mContext.getApplicationContext().getTheme()));
+            mImageViewUserMois.setImageDrawable(getResources().getDrawable(mCurrentBiorythme.getBinomeMois().getIntIdMini(), mContext.getApplicationContext().getTheme()));
+            mImageViewUserJour.setImageDrawable(getResources().getDrawable(mCurrentBiorythme.getBinomeJour().getIntIdMini(), mContext.getApplicationContext().getTheme()));
+            mImageViewUserHeure.setImageDrawable(getResources().getDrawable(mCurrentBiorythme.getBinomeHeure().getIntIdMini(), mContext.getApplicationContext().getTheme()));
 
-        if(( mBinome.getElement().getNom().equals("TERRE") &&
-                mBinome.getPolarite().equals("YANG")) ||
-                ( mBinome.getElement().getNom().equals("EAU") &&
-                        mBinome.getPolarite().equals("YIN")))
-            txt_tendance = getString(R.string.influence_realisation);
-
-        if(( mBinome.getElement().getNom().equals("METAL") &&
-                mBinome.getPolarite().equals("YANG")) ||
-                ( mBinome.getElement().getNom().equals("BOIS") &&
-                        mBinome.getPolarite().equals("YIN")))
-            txt_tendance = getString(R.string.influence_sensation);
-
-        if(( mBinome.getElement().getNom().equals("EAU") &&
-                mBinome.getPolarite().equals("YANG")) ||
-                ( mBinome.getElement().getNom().equals("FEU") &&
-                        mBinome.getPolarite().equals("YIN")))
-            txt_tendance = getString(R.string.influence_lucidite);
-
-        mTextViewEnergyDay.setText(txt_tendance);
+        }
     }
 
     @Override
     public void onClick(View v) {
         switch (v.getId()) {
-            case R.id.linear_layout_horoscope:
+            case R.id.layout_energie:
                 mViewPager.setCurrentItem(1);
                 break;
-            case R.id.linear_layout_element:
-                Intent intent = new Intent(mContext,ViewElementActivity.class);
-                intent.putExtra("ELEMENT",mBinome.getElement().getNom());
-                startActivity(intent);
+            case R.id.layout_horoscope:
+                mViewPager.setCurrentItem(2);
                 break;
+            case R.id.layout_synthese :
+                mViewPager.setCurrentItem(3);
+                break;
+
             default:
                 break;
         }
