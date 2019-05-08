@@ -44,6 +44,8 @@ public class SwitchBiorythmeActivity extends AppCompatActivity implements TimePi
     private Context mContext;
     private Button mButtonValider;
     private Preferences mPreferences;
+    private boolean mAsDateSaved;
+    private Date mDatePref;
 
     private int mHour;
     private int mMinute;
@@ -61,6 +63,19 @@ public class SwitchBiorythmeActivity extends AppCompatActivity implements TimePi
         mButtonValider = (Button) findViewById(R.id.button_valider_anniv);
         mButtonValider.setOnClickListener(this);
 
+        mEditTextDateJour = (EditText) findViewById(R.id.text_view_date_jour);
+        mEditTextDateMois = (EditText) findViewById(R.id.text_view_date_mois);
+        mEditTextDateAnnee = (EditText) findViewById(R.id.text_view_date_annee);
+
+        mLinearHeure = (LinearLayout) findViewById(R.id.linear_layout_heure);
+        mTextViewHour = (TextView) findViewById(R.id.text_view_hour);
+
+        if (mPreferences.getStringDatePref() != ""){
+            mDatePref = mPreferences.getDatePref();
+            mAsDateSaved = true;
+        }else{
+            mAsDateSaved = false;
+        }
         initDialog();
        // initTimezone();
 
@@ -97,8 +112,14 @@ public class SwitchBiorythmeActivity extends AppCompatActivity implements TimePi
 
         });
 
-        mMinute = new Date().getMinutes();
-        mHour = new Date().getHours();
+        if(mAsDateSaved){
+            mMinute = mDatePref.getMinutes();
+            mHour = mDatePref.getHours();
+        }
+        else {
+            mMinute = new Date().getMinutes();
+            mHour = new Date().getHours();
+        }
 
         // set current time into textview
         mTextViewHour.setText(
