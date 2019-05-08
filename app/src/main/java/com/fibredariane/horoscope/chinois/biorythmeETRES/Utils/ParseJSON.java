@@ -117,7 +117,6 @@ public class ParseJSON {
 
     static public Horoscope readHoroscope(JsonReader reader) throws IOException {
         int nbBinome = -1;
-        String typeHoro = null;
         String element= null;
         String polarite= null;
         String influence= null;
@@ -131,8 +130,6 @@ public class ParseJSON {
             String name = reader.nextName();
             if (name.equals("nb_binome")) {
                 nbBinome = reader.nextInt();
-            }else if (name.equals("type_horoscope")) {
-                typeHoro = reader.nextString();
             }else if (name.equals("element")) {
                 element = reader.nextString();
             }else if (name.equals("polarite")) {
@@ -154,17 +151,17 @@ public class ParseJSON {
         }
         reader.endObject();
         if (texteAnnee.isEmpty()){
-            texteAnnee = typeHoro+nbBinome+element.substring(0,1)+polarite.substring(0,2)+influence + " Texte Social test";
+            texteAnnee = nbBinome+element.substring(0,1)+polarite.substring(0,2)+influence + " Texte Social test";
         }
         if (texteMois.isEmpty()){
-            texteMois = typeHoro+nbBinome+element.substring(0,1)+polarite.substring(0,2)+influence + " Texte Affectif test";
+            texteMois = nbBinome+element.substring(0,1)+polarite.substring(0,2)+influence + " Texte Affectif test";
         }
         if (texteJour.isEmpty()){
-            texteJour = typeHoro+nbBinome+element.substring(0,1)+polarite.substring(0,2)+influence + " Texte Chance test";
+            texteJour = nbBinome+element.substring(0,1)+polarite.substring(0,2)+influence + " Texte Chance test";
         }
         if (texteHeure.isEmpty()){
-            texteHeure = typeHoro+nbBinome+element.substring(0,1)+polarite.substring(0,2)+influence + " Texte Santé test";
+            texteHeure = nbBinome+element.substring(0,1)+polarite.substring(0,2)+influence + " Texte Santé test";
         }
-        return new Horoscope(nbBinome,typeHoro, element, polarite, influence, texteAnnee,texteMois, texteJour,texteHeure);
+        return new Horoscope(nbBinome, element, polarite, influence, texteAnnee,texteMois, texteJour,texteHeure);
     }
 }

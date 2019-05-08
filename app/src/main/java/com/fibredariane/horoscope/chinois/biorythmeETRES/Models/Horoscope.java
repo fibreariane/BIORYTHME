@@ -33,11 +33,9 @@ public class Horoscope implements Serializable {
 
     private String mInfluence;
     private int  mNbBinome;
-    private String mTypeHoroscope;
 
-    public Horoscope(int nbBinome, String typeHoroscope, String element, String polarite, String influence, String texteAnnee, String texteMois, String texteJour, String texteHeure){
+    public Horoscope(int nbBinome, String element, String polarite, String influence, String texteAnnee, String texteMois, String texteJour, String texteHeure){
         mNbBinome=nbBinome;
-        mTypeHoroscope=typeHoroscope;
         mElement = element;
         mPolarite = polarite;
         mInfluence = influence;
@@ -119,7 +117,6 @@ public class Horoscope implements Serializable {
     }
 
     public int getNbBinome(){return mNbBinome;}
-    public String getTypeHoroscope(){return mTypeHoroscope;}
     public String getInfluence(){return mInfluence;}
     public String getTextInfluenceAnnee(){return mTextInfluenceAnnee;}
     public String getTextInfluenceMois(){return mTextInfluenceMois;}

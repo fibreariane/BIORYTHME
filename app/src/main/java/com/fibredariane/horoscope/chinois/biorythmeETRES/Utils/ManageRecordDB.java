@@ -27,6 +27,7 @@ public class ManageRecordDB {
         Context c = App.getContext();
         tableBinome = new TableBinome(c,TableBinome.Constants.DATABASE_NAME, null,
                 TableBinome.Constants.DATABASE_VERSION);
+
         dbBinome = tableBinome.openDB();
         if ( DatabaseUtils.queryNumEntries(dbBinome, TableBinome.Constants.MY_TABLE) == 0){
             tableBinome.initTable(dbBinome);
@@ -57,28 +58,24 @@ public class ManageRecordDB {
         return binome;
     }
 
-    public Horoscope getHoroscope(String typeHoroscope, Binome binomeHoroscope, Biorythme biorythmeUser){
+    public Horoscope getHoroscope(Binome binomeHoroscope, Biorythme biorythmeUser){
         Cursor cursorAnnee = tableHoroscope.getHoroscope(dbHoroscope,
                 binomeHoroscope.getNbBinome(),
-                typeHoroscope,
                 biorythmeUser.getBinomeAnnee().getElement().getNom(),
                 biorythmeUser.getBinomeAnnee().getPolarite());
 
         Cursor cursorMois = tableHoroscope.getHoroscope(dbHoroscope,
                 binomeHoroscope.getNbBinome(),
-                typeHoroscope,
                 biorythmeUser.getBinomeMois().getElement().getNom(),
                 biorythmeUser.getBinomeMois().getPolarite());
 
         Cursor cursorJour = tableHoroscope.getHoroscope(dbHoroscope,
                 binomeHoroscope.getNbBinome(),
-                typeHoroscope,
                 biorythmeUser.getBinomeJour().getElement().getNom(),
                 biorythmeUser.getBinomeJour().getPolarite());
 
         Cursor cursorHeure = tableHoroscope.getHoroscope(dbHoroscope,
                 binomeHoroscope.getNbBinome(),
-                typeHoroscope,
                 biorythmeUser.getBinomeHeure().getElement().getNom(),
                 biorythmeUser.getBinomeHeure().getPolarite());
 

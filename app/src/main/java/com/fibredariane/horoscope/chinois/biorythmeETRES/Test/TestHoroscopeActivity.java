@@ -119,7 +119,7 @@ public class TestHoroscopeActivity extends AppCompatActivity  implements TimePic
                 db.getBinome(""+CalculBinomes.calcIdBinomeJour(year, month, day,mHour, mMinute),""),
                 db.getBinome(""+CalculBinomes.calcIdBinomeHeure(year, month, day,mHour, mMinute),""));
 
-        Horoscope horo = db.getHoroscope("A",binome,biorythme);
+        Horoscope horo = db.getHoroscope(binome,biorythme);
 
         mTextViewBinomeAnnee.setText(biorythme.getBinomeAnnee().getNom());
         mTextViewBinomeMois.setText(biorythme.getBinomeMois().getNom());
@@ -179,7 +179,7 @@ public class TestHoroscopeActivity extends AppCompatActivity  implements TimePic
                         db.getBinome(""+CalculBinomes.calcIdBinomeJour(year, month, day,mHour, mMinute),""),
                         db.getBinome(""+CalculBinomes.calcIdBinomeHeure(year, month, day,mHour, mMinute),""));
 
-                Horoscope horo = db.getHoroscope("A",binome,biorythme);
+                Horoscope horo = db.getHoroscope(binome,biorythme);
 
                 mTextViewBinomeAnnee.setText(biorythme.getBinomeAnnee().getNom());
                 mTextViewBinomeMois.setText(biorythme.getBinomeMois().getNom());

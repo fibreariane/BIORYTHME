@@ -3,21 +3,13 @@ package com.fibredariane.horoscope.chinois.biorythmeETRES.Models;
         import android.content.ContentValues;
         import android.content.Context;
         import android.database.Cursor;
-        import android.database.CursorJoiner;
-        import android.database.DatabaseUtils;
         import android.database.sqlite.SQLiteDatabase;
         import android.database.sqlite.SQLiteException;
         import android.database.sqlite.SQLiteOpenHelper;
-        import android.database.sqlite.SQLiteQueryBuilder;
         import android.provider.BaseColumns;
         import android.util.Log;
-        import android.widget.Toast;
-
         import com.fibredariane.horoscope.chinois.biorythmeETRES.R;
         import com.fibredariane.horoscope.chinois.biorythmeETRES.Utils.ParseJSON;
-
-        import org.json.JSONObject;
-
         import java.io.IOException;
         import java.io.InputStream;
         import java.util.List;
@@ -29,7 +21,6 @@ public class TableHoroscope extends SQLiteOpenHelper {
             + Constants.MY_TABLE + "(" + Constants.KEY_COL_ID
             + " integer primary key autoincrement, "
             + Constants.KEY_COL_NB_BINOME + " INTEGER, "
-            + Constants.KEY_COL_TYPE_HOROSCOPE + " TEXT, "
             + Constants.KEY_COL_ELEMENT + " TEXT, "
             + Constants.KEY_COL_POLARITE + " TEXT, "
             + Constants.KEY_COL_INFLUENCE + " TEXT, "
@@ -72,25 +63,16 @@ public class TableHoroscope extends SQLiteOpenHelper {
         deleteDB(db);
         onCreate(db);
 
-        initHoroscope(db,"A");
-        initHoroscope(db,"M");
-        initHoroscope(db,"J");
+        initHoroscope(db);
     }
 
-    public void initHoroscope(SQLiteDatabase db, String typeHoroscope) {
+    public void initHoroscope(SQLiteDatabase db) {
         deleteDB(db);
         onCreate(db);
         Context c = App.getContext();
-        InputStream inputStream = null;
-        if(typeHoroscope == "A"){
-            inputStream = c.getResources().openRawResource(R.raw.horoscopes_annee);
-        }
-        if(typeHoroscope == "M"){
-            inputStream = c.getResources().openRawResource(R.raw.horoscopes_mois);
-        }
-        if(typeHoroscope == "J"){
-            inputStream = c.getResources().openRawResource(R.raw.horoscopes_journee);
-        }
+
+        InputStream inputStream = c.getResources().openRawResource(R.raw.horoscopes_journee);
+
         List<Horoscope> listHoroscope=null;
         try {
             listHoroscope = ParseJSON.readJsonStreamHoroscope(inputStream);
@@ -98,12 +80,10 @@ public class TableHoroscope extends SQLiteOpenHelper {
             e.printStackTrace();
         }
 
-
         for (int i = 0; i < listHoroscope.size(); i++) {
             Horoscope horoscope = listHoroscope.get(i);
             ContentValues contentValues = new ContentValues();
             contentValues.put(Constants.KEY_COL_NB_BINOME, horoscope.getNbBinome());
-            contentValues.put(Constants.KEY_COL_TYPE_HOROSCOPE, horoscope.getTypeHoroscope());
             contentValues.put(Constants.KEY_COL_ELEMENT, horoscope.getElement());
             contentValues.put(Constants.KEY_COL_POLARITE, horoscope.getPolarite());
             contentValues.put(Constants.KEY_COL_INFLUENCE, horoscope.getInfluence());
@@ -136,13 +116,12 @@ public class TableHoroscope extends SQLiteOpenHelper {
                 null);
     }
 
-    public Cursor getHoroscope(SQLiteDatabase db, int nbBinome, String typeHoroscope,String element, String polarite) {
+    public Cursor getHoroscope(SQLiteDatabase db, int nbBinome,String element, String polarite) {
 
         String selection = Constants.KEY_COL_NB_BINOME + "=?"
-                +" and " + Constants.KEY_COL_TYPE_HOROSCOPE + "=? "
                 +" and " +Constants.KEY_COL_ELEMENT + "=?"
                 +" and " +Constants.KEY_COL_POLARITE + "=?" ;
-        String[] selectionArg = new String[]{String.valueOf(nbBinome),typeHoroscope,element,polarite};
+        String[] selectionArg = new String[]{String.valueOf(nbBinome),element,polarite};
         String maxResultsListSize = "1";
 
         Cursor cursor = db.query(Constants.MY_TABLE, null, selection,
@@ -178,7 +157,6 @@ public class TableHoroscope extends SQLiteOpenHelper {
         // Noms de colonnes
         public static final String KEY_COL_ID = "_id";
         public static final String KEY_COL_NB_BINOME = "nbBinome";
-        public static final String KEY_COL_TYPE_HOROSCOPE = "typeBinome";
         public static final String KEY_COL_ELEMENT = "element";
         public static final String KEY_COL_POLARITE = "polarite";
         public static final String KEY_COL_INFLUENCE = "influence";
@@ -190,13 +168,12 @@ public class TableHoroscope extends SQLiteOpenHelper {
         // Index des colonnes
         public static final int ID_COLUMN = 0;
         public static final int NB_BINOME_COLUMN = 1;
-        public static final int TYPE_HOROSCOPE_COLUMN = 2;
-        public static final int ELEMENT_COLUMN = 3;
-        public static final int POLARITE_COLUMN = 4;
-        public static final int INFLUENCE_COLUMN = 5;
-        public static final int TEXTE_ANNEE_COLUMN = 6;
-        public static final int TEXTE_MOIS_COLUMN = 7;
-        public static final int TEXTE_JOUR_COLUMN = 8;
-        public static final int TEXTE_HEURE_COLUMN = 9;
+        public static final int ELEMENT_COLUMN = 2;
+        public static final int POLARITE_COLUMN = 3;
+        public static final int INFLUENCE_COLUMN = 4;
+        public static final int TEXTE_ANNEE_COLUMN = 5;
+        public static final int TEXTE_MOIS_COLUMN = 6;
+        public static final int TEXTE_JOUR_COLUMN = 7;
+        public static final int TEXTE_HEURE_COLUMN = 8;
     }
 }
