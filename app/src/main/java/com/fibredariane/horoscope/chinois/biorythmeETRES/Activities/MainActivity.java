@@ -30,6 +30,7 @@ import com.fibredariane.horoscope.chinois.biorythmeETRES.Utils.ManageRecordDB;
 import com.fibredariane.horoscope.chinois.biorythmeETRES.Utils.ZoomOutPageTransformer;
 
 import java.io.Serializable;
+import java.util.Calendar;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -116,8 +117,15 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     AccueilFragment accueilFragment = AccueilFragment.newInstance(position,mBiorythmeOfTheDay.getBinomeJour(),mBiorythmeUser);
                     accueilFragment.setViewPager(mViewPager);
                     return accueilFragment;
-                case 1: // Biorythme
-                    return ViewBiorythmeFragment.newInstance(position, mBiorythmeOfTheDay.getBinomeJour());
+                case 1: // Binome du jour
+                    Calendar calendar = Calendar.getInstance();
+                    String dateJour = calendar.get(Calendar.DAY_OF_MONTH)+
+                            " "+getResources().getString(getResources().getIdentifier(
+                            "mois"+calendar.get(Calendar.MONTH),
+                            "string",
+                            mContext.getPackageName())).toUpperCase()+
+                            " "+calendar.get(Calendar.YEAR);
+                    return ViewBinomeFragment.newInstance(position, mBiorythmeOfTheDay.getBinomeJour(),"Découvrez sous quelle énergie cette journée est placée","ENERGIE DU "+dateJour);
                 case 2: // Horoscope Jour
                     return ViewHoroscopeFragment.newInstance(position, mHoroscopeDay);
                 case 3: // Biorythme
