@@ -22,16 +22,34 @@ public class CalculBinomes {
     private static int mMonth;
 
 
-    public static Binome getBinome(Context c, int nbBinome, String type) {
+    public static String getStringDate(Date date){
+        String stringDate = "";
+        stringDate = date.getYear() +"."+
+                date.getMonth()+"."+
+                date.getDay()+"."+
+                date.getHours()+"."+
+                date.getMinutes();
+        return stringDate;
+    }
+    public static String getStringBinome(int year, int month, int day, int hour, int minute){
+        String stringBinome = "";
+        stringBinome = calcBinomeAnnee(year, month, day, hour, minute) +"."+
+                calcBinomeMois(year, month, day, hour, minute)+"."+
+                calcBinomeJour(year, month, day, hour, minute)+"."+
+                calcBinomeHeure(year, month, day, hour, minute);
+        return stringBinome;
+    }
+
+  /**  public static Binome getBinome(Context c, int nbBinome, String type) {
         String string_binome = c.getResources().getString(
                 c.getResources().getIdentifier(
                         "binome" + nbBinome,
                         "string",
                         c.getPackageName()));
         return new Binome(c, string_binome, type);
-    }
+    }*/
 
-    public static Biorythme calcBiorythme(Context c, int year, int month, int day, int hour, int minute) {
+    /*public static Biorythme calcBiorythme(Context c, int year, int month, int day, int hour, int minute) {
 
         return new Biorythme(year, month, day, hour, minute,
                 calcBinomeAnnee(c, year, month, day, hour, minute),
@@ -71,7 +89,7 @@ public class CalculBinomes {
             }
         }
 
-    }
+    }*/
 
     public static Binome getBinomeBiorythme(Biorythme biorythme, String typeBinome) {
         Binome binome = biorythme.getBinomeHeure();
@@ -107,262 +125,257 @@ public class CalculBinomes {
 
         return yearSwitch;
     }
-    public static Binome calcBinomeAnnee(Context c, int year, int month, int day, int mHour, int mMinute) {
+    public static String calcBinomeAnnee(int year, int month, int day, int mHour, int mMinute) {
         String mStringBinome = "";
         int yearSwitch = getDateAnneeNaissance( year,  month,  day,  mHour,  mMinute);
 
         switch (yearSwitch) {
             case 1924:
             case 1984:
-                mStringBinome = c.getResources().getString(R.string.binome1);
+                mStringBinome = "1";
                 break;
             case 1925:
             case 1985:
-                mStringBinome = c.getResources().getString(R.string.binome2);
+                mStringBinome = "2";
                 break;
             case 1926:
             case 1986:
-                mStringBinome = c.getResources().getString(R.string.binome3);
+                mStringBinome = "3";
                 break;
             case 1927:
             case 1987:
-                mStringBinome = c.getResources().getString(R.string.binome4);
+                mStringBinome = "4";
                 break;
             case 1928:
             case 1988:
-                mStringBinome = c.getResources().getString(R.string.binome5);
+                mStringBinome = "5";
                 break;
             case 1929:
             case 1989:
-                mStringBinome = c.getResources().getString(R.string.binome6);
+                mStringBinome = "6";
                 break;
             case 1930:
             case 1990:
-                mStringBinome = c.getResources().getString(R.string.binome7);
+                mStringBinome = "7";
                 break;
             case 1931:
             case 1991:
-                mStringBinome = c.getResources().getString(R.string.binome8);
+                mStringBinome = "8";
                 break;
             case 1932:
             case 1992:
-                mStringBinome = c.getResources().getString(R.string.binome9);
+                mStringBinome = "9";
                 break;
             case 1933:
             case 1993:
-                mStringBinome = c.getResources().getString(R.string.binome10);
+                mStringBinome = "10";
                 break;
             case 1934:
             case 1994:
-                mStringBinome = c.getResources().getString(R.string.binome11);
+                mStringBinome = "11";
                 break;
             case 1935:
             case 1995:
-                mStringBinome = c.getResources().getString(R.string.binome12);
+                mStringBinome = "12";
                 break;
             case 1936:
             case 1996:
-                mStringBinome = c.getResources().getString(R.string.binome13);
+                mStringBinome = "13";
                 break;
             case 1937:
             case 1997:
-                mStringBinome = c.getResources().getString(R.string.binome14);
+                mStringBinome = "14";
                 break;
             case 1938:
             case 1998:
-                mStringBinome = c.getResources().getString(R.string.binome15);
+                mStringBinome = "15";
                 break;
             case 1939:
             case 1999:
-                mStringBinome = c.getResources().getString(R.string.binome16);
+                mStringBinome = "16";
                 break;
             case 1940:
             case 2000:
-                mStringBinome = c.getResources().getString(R.string.binome17);
+                mStringBinome = "17";
                 break;
             case 1941:
             case 2001:
-                mStringBinome = c.getResources().getString(R.string.binome18);
+                mStringBinome = "18";
                 break;
             case 1942:
             case 2002:
-                mStringBinome = c.getResources().getString(R.string.binome19);
+                mStringBinome = "19";
                 break;
             case 1943:
             case 2003:
-                mStringBinome = c.getResources().getString(R.string.binome20);
+                mStringBinome = "20";
                 break;
             case 1944:
             case 2004:
-                mStringBinome = c.getResources().getString(R.string.binome21);
+                mStringBinome = "21";
                 break;
             case 1945:
             case 2005:
-                mStringBinome = c.getResources().getString(R.string.binome22);
+                mStringBinome = "22";
                 break;
             case 1946:
             case 2006:
-                mStringBinome = c.getResources().getString(R.string.binome23);
+                mStringBinome = "23";
                 break;
             case 1947:
             case 2007:
-                mStringBinome = c.getResources().getString(R.string.binome24);
+                mStringBinome = "24";
                 break;
             case 1948:
             case 2008:
-                mStringBinome = c.getResources().getString(R.string.binome25);
+                mStringBinome = "25";
                 break;
             case 1949:
             case 2009:
-                mStringBinome = c.getResources().getString(R.string.binome26);
+                mStringBinome = "26";
                 break;
             case 1950:
             case 2010:
-                mStringBinome = c.getResources().getString(R.string.binome27);
+                mStringBinome = "27";
                 break;
             case 1951:
             case 2011:
-                mStringBinome = c.getResources().getString(R.string.binome28);
+                mStringBinome = "28";
                 break;
             case 1952:
             case 2012:
-                mStringBinome = c.getResources().getString(R.string.binome29);
+                mStringBinome = "29";
                 break;
             case 1953:
             case 2013:
-                mStringBinome = c.getResources().getString(R.string.binome30);
+                mStringBinome = "30";
                 break;
             case 1954:
             case 2014:
-                mStringBinome = c.getResources().getString(R.string.binome31);
+                mStringBinome = "31";
                 break;
             case 1955:
             case 2015:
-                mStringBinome = c.getResources().getString(R.string.binome32);
+                mStringBinome = "32";
                 break;
             case 1956:
             case 2016:
-                mStringBinome = c.getResources().getString(R.string.binome33);
+                mStringBinome = "33";
                 break;
             case 1957:
             case 2017:
-                mStringBinome = c.getResources().getString(R.string.binome34);
+                mStringBinome = "34";
                 break;
             case 1958:
             case 2018:
-                mStringBinome = c.getResources().getString(R.string.binome35);
+                mStringBinome = "35";
                 break;
             case 1959:
             case 2019:
-                mStringBinome = c.getResources().getString(R.string.binome36);
+                mStringBinome = "36";
                 break;
             case 1960:
             case 2020:
-                mStringBinome = c.getResources().getString(R.string.binome37);
+                mStringBinome = "37";
                 break;
             case 1961:
             case 2021:
-                mStringBinome = c.getResources().getString(R.string.binome38);
+                mStringBinome = "38";
                 break;
             case 1962:
             case 2022:
-                mStringBinome = c.getResources().getString(R.string.binome39);
+                mStringBinome = "39";
                 break;
             case 1963:
             case 2023:
-                mStringBinome = c.getResources().getString(R.string.binome40);
+                mStringBinome = "40";
                 break;
             case 1964:
             case 2024:
-                mStringBinome = c.getResources().getString(R.string.binome41);
+                mStringBinome = "41";
                 break;
             case 1965:
             case 2025:
-                mStringBinome = c.getResources().getString(R.string.binome42);
+                mStringBinome = "42";
                 break;
             case 1966:
             case 2026:
-                mStringBinome = c.getResources().getString(R.string.binome43);
+                mStringBinome = "43";
                 break;
             case 1967:
             case 2027:
-                mStringBinome = c.getResources().getString(R.string.binome44);
+                mStringBinome = "44";
                 break;
             case 1968:
             case 2028:
-                mStringBinome = c.getResources().getString(R.string.binome45);
+                mStringBinome = "45";
                 break;
             case 1969:
             case 2029:
-                mStringBinome = c.getResources().getString(R.string.binome46);
+                mStringBinome = "46";
                 break;
             case 1970:
             case 2030:
-                mStringBinome = c.getResources().getString(R.string.binome47);
+                mStringBinome = "47";
                 break;
             case 1971:
             case 2031:
-                mStringBinome = c.getResources().getString(R.string.binome48);
+                mStringBinome = "48";
                 break;
             case 1972:
             case 2032:
-                mStringBinome = c.getResources().getString(R.string.binome49);
+                mStringBinome = "49";
                 break;
             case 1973:
             case 2033:
-                mStringBinome = c.getResources().getString(R.string.binome50);
+                mStringBinome = "50";
                 break;
             case 1974:
             case 2034:
-                mStringBinome = c.getResources().getString(R.string.binome51);
+                mStringBinome = "51";
                 break;
             case 1975:
             case 2035:
-                mStringBinome = c.getResources().getString(R.string.binome52);
+                mStringBinome = "52";
                 break;
             case 1976:
             case 2036:
-                mStringBinome = c.getResources().getString(R.string.binome53);
+                mStringBinome = "53";
                 break;
             case 1977:
             case 2037:
-                mStringBinome = c.getResources().getString(R.string.binome54);
+                mStringBinome = "54";
                 break;
             case 1978:
             case 2038:
-                mStringBinome = c.getResources().getString(R.string.binome55);
+                mStringBinome = "55";
                 break;
             case 1979:
             case 2039:
-                mStringBinome = c.getResources().getString(R.string.binome56);
+                mStringBinome = "56";
                 break;
             case 1980:
             case 2040:
-                mStringBinome = c.getResources().getString(R.string.binome57);
+                mStringBinome = "57";
                 break;
             case 1981:
             case 2041:
-                mStringBinome = c.getResources().getString(R.string.binome58);
+                mStringBinome = "58";
                 break;
             case 1982:
             case 2042:
-                mStringBinome = c.getResources().getString(R.string.binome59);
+                mStringBinome = "59";
                 break;
             case 1983:
             case 2043:
-                mStringBinome = c.getResources().getString(R.string.binome60);
+                mStringBinome = "60";
                 break;
         }
-        if (!mStringBinome.isEmpty()) {
-            return new Binome(c, mStringBinome, "A");
-        } else {
-            Log.v("TAG", "erreur_annee");
-            return null;
-        }
 
+        return mStringBinome;
     }
 
-    public static Binome calcBinomeMois(Context c, int year, int month, int day, int mHour, int mMinute) {
+    public static String calcBinomeMois(int year, int month, int day, int mHour, int mMinute) {
         String mStringBinome = "";
         int monthSwitch = getMoisSolaire(year, month, day, mHour, mMinute);
         int yearCalc = year;
@@ -374,355 +387,162 @@ public class CalculBinomes {
         switch (monthSwitch) {
             case 1:
                 if (lastDigitYear == 4 || lastDigitYear == 9)
-                    mStringBinome = c.getResources().getString(R.string.binome14);
+                    mStringBinome = "14";
                 if (lastDigitYear == 5 || lastDigitYear == 0)
-                    mStringBinome = c.getResources().getString(R.string.binome26);
+                    mStringBinome = "26";
                 if (lastDigitYear == 6 || lastDigitYear == 1)
-                    mStringBinome = c.getResources().getString(R.string.binome38);
+                    mStringBinome = "38";
                 if (lastDigitYear == 7 || lastDigitYear == 2)
-                    mStringBinome = c.getResources().getString(R.string.binome50);
+                    mStringBinome = "50";
                 if (lastDigitYear == 8 || lastDigitYear == 3)
-                    mStringBinome = c.getResources().getString(R.string.binome2);
+                    mStringBinome = "2";
                 break;
             case 2:
                 if (lastDigitYear == 4 || lastDigitYear == 9)
-                    mStringBinome = c.getResources().getString(R.string.binome3);
+                    mStringBinome = "3";
                 if (lastDigitYear == 5 || lastDigitYear == 0)
-                    mStringBinome = c.getResources().getString(R.string.binome15);
+                    mStringBinome = "15";
                 if (lastDigitYear == 6 || lastDigitYear == 1)
-                    mStringBinome = c.getResources().getString(R.string.binome27);
+                    mStringBinome = "27";
                 if (lastDigitYear == 7 || lastDigitYear == 2)
-                    mStringBinome = c.getResources().getString(R.string.binome39);
+                    mStringBinome = "39";
                 if (lastDigitYear == 8 || lastDigitYear == 3)
-                    mStringBinome = c.getResources().getString(R.string.binome51);
+                    mStringBinome = "51";
                 break;
             case 3:
                 if (lastDigitYear == 4 || lastDigitYear == 9)
-                    mStringBinome = c.getResources().getString(R.string.binome4);
+                    mStringBinome = "4";
                 if (lastDigitYear == 5 || lastDigitYear == 0)
-                    mStringBinome = c.getResources().getString(R.string.binome16);
+                    mStringBinome = "16";
                 if (lastDigitYear == 6 || lastDigitYear == 1)
-                    mStringBinome = c.getResources().getString(R.string.binome28);
+                    mStringBinome = "28";
                 if (lastDigitYear == 7 || lastDigitYear == 2)
-                    mStringBinome = c.getResources().getString(R.string.binome40);
+                    mStringBinome = "40";
                 if (lastDigitYear == 8 || lastDigitYear == 3)
-                    mStringBinome = c.getResources().getString(R.string.binome52);
+                    mStringBinome = "52";
                 break;
             case 4:
                 if (lastDigitYear == 4 || lastDigitYear == 9)
-                    mStringBinome = c.getResources().getString(R.string.binome5);
+                    mStringBinome = "5";
                 if (lastDigitYear == 5 || lastDigitYear == 0)
-                    mStringBinome = c.getResources().getString(R.string.binome17);
+                    mStringBinome = "17";
                 if (lastDigitYear == 6 || lastDigitYear == 1)
-                    mStringBinome = c.getResources().getString(R.string.binome29);
+                    mStringBinome = "29";
                 if (lastDigitYear == 7 || lastDigitYear == 2)
-                    mStringBinome = c.getResources().getString(R.string.binome41);
+                    mStringBinome = "41";
                 if (lastDigitYear == 8 || lastDigitYear == 3)
-                    mStringBinome = c.getResources().getString(R.string.binome53);
+                    mStringBinome = "53";
                 break;
             case 5:
                 if (lastDigitYear == 4 || lastDigitYear == 9)
-                    mStringBinome = c.getResources().getString(R.string.binome6);
+                    mStringBinome = "6";
                 if (lastDigitYear == 5 || lastDigitYear == 0)
-                    mStringBinome = c.getResources().getString(R.string.binome18);
+                    mStringBinome = "18";
                 if (lastDigitYear == 6 || lastDigitYear == 1)
-                    mStringBinome = c.getResources().getString(R.string.binome30);
+                    mStringBinome = "30";
                 if (lastDigitYear == 7 || lastDigitYear == 2)
-                    mStringBinome = c.getResources().getString(R.string.binome42);
+                    mStringBinome = "42";
                 if (lastDigitYear == 8 || lastDigitYear == 3)
-                    mStringBinome = c.getResources().getString(R.string.binome54);
+                    mStringBinome = "54";
                 break;
             case 6:
                 if (lastDigitYear == 4 || lastDigitYear == 9)
-                    mStringBinome = c.getResources().getString(R.string.binome7);
+                    mStringBinome = "7";
                 if (lastDigitYear == 5 || lastDigitYear == 0)
-                    mStringBinome = c.getResources().getString(R.string.binome19);
+                    mStringBinome = "19";
                 if (lastDigitYear == 6 || lastDigitYear == 1)
-                    mStringBinome = c.getResources().getString(R.string.binome31);
+                    mStringBinome = "31";
                 if (lastDigitYear == 7 || lastDigitYear == 2)
-                    mStringBinome = c.getResources().getString(R.string.binome43);
+                    mStringBinome = "43";
                 if (lastDigitYear == 8 || lastDigitYear == 3)
-                    mStringBinome = c.getResources().getString(R.string.binome55);
+                    mStringBinome = "55";
                 break;
             case 7:
                 if (lastDigitYear == 4 || lastDigitYear == 9)
-                    mStringBinome = c.getResources().getString(R.string.binome8);
+                    mStringBinome = "8";
                 if (lastDigitYear == 5 || lastDigitYear == 0)
-                    mStringBinome = c.getResources().getString(R.string.binome20);
+                    mStringBinome =  "20";
                 if (lastDigitYear == 6 || lastDigitYear == 1)
-                    mStringBinome = c.getResources().getString(R.string.binome32);
+                    mStringBinome = "32";
                 if (lastDigitYear == 7 || lastDigitYear == 2)
-                    mStringBinome = c.getResources().getString(R.string.binome44);
+                    mStringBinome = "44";
                 if (lastDigitYear == 8 || lastDigitYear == 3)
-                    mStringBinome = c.getResources().getString(R.string.binome56);
+                    mStringBinome = "56";
                 break;
             case 8:
                 if (lastDigitYear == 4 || lastDigitYear == 9)
-                    mStringBinome = c.getResources().getString(R.string.binome9);
+                    mStringBinome = "9";
                 if (lastDigitYear == 5 || lastDigitYear == 0)
-                    mStringBinome = c.getResources().getString(R.string.binome21);
+                    mStringBinome = "21";
                 if (lastDigitYear == 6 || lastDigitYear == 1)
-                    mStringBinome = c.getResources().getString(R.string.binome33);
+                    mStringBinome = "33";
                 if (lastDigitYear == 7 || lastDigitYear == 2)
-                    mStringBinome = c.getResources().getString(R.string.binome45);
+                    mStringBinome = "45";
                 if (lastDigitYear == 8 || lastDigitYear == 3)
-                    mStringBinome = c.getResources().getString(R.string.binome57);
+                    mStringBinome = "57";
                 break;
             case 9:
                 if (lastDigitYear == 4 || lastDigitYear == 9)
-                    mStringBinome = c.getResources().getString(R.string.binome10);
+                    mStringBinome = "10";
                 if (lastDigitYear == 5 || lastDigitYear == 0)
-                    mStringBinome = c.getResources().getString(R.string.binome22);
+                    mStringBinome = "22";
                 if (lastDigitYear == 6 || lastDigitYear == 1)
-                    mStringBinome = c.getResources().getString(R.string.binome34);
+                    mStringBinome = "34";
                 if (lastDigitYear == 7 || lastDigitYear == 2)
-                    mStringBinome = c.getResources().getString(R.string.binome46);
+                    mStringBinome = "46";
                 if (lastDigitYear == 8 || lastDigitYear == 3)
-                    mStringBinome = c.getResources().getString(R.string.binome58);
+                    mStringBinome = "58";
                 break;
             case 10:
                 if (lastDigitYear == 4 || lastDigitYear == 9)
-                    mStringBinome = c.getResources().getString(R.string.binome11);
+                    mStringBinome = "11";
                 if (lastDigitYear == 5 || lastDigitYear == 0)
-                    mStringBinome = c.getResources().getString(R.string.binome23);
+                    mStringBinome = "23";
                 if (lastDigitYear == 6 || lastDigitYear == 1)
-                    mStringBinome = c.getResources().getString(R.string.binome35);
+                    mStringBinome = "35";
                 if (lastDigitYear == 7 || lastDigitYear == 2)
-                    mStringBinome = c.getResources().getString(R.string.binome47);
+                    mStringBinome = "47";
                 if (lastDigitYear == 8 || lastDigitYear == 3)
-                    mStringBinome = c.getResources().getString(R.string.binome59);
+                    mStringBinome = "59";
                 break;
             case 11:
                 if (lastDigitYear == 4 || lastDigitYear == 9)
-                    mStringBinome = c.getResources().getString(R.string.binome12);
+                    mStringBinome = "12";
                 if (lastDigitYear == 5 || lastDigitYear == 0)
-                    mStringBinome = c.getResources().getString(R.string.binome24);
+                    mStringBinome = "24";
                 if (lastDigitYear == 6 || lastDigitYear == 1)
-                    mStringBinome = c.getResources().getString(R.string.binome36);
+                    mStringBinome = "36";
                 if (lastDigitYear == 7 || lastDigitYear == 2)
-                    mStringBinome = c.getResources().getString(R.string.binome48);
+                    mStringBinome = "48";
                 if (lastDigitYear == 8 || lastDigitYear == 3)
-                    mStringBinome = c.getResources().getString(R.string.binome60);
+                    mStringBinome = "60";
                 break;
             case 12:
                 if (lastDigitYear == 4 || lastDigitYear == 9)
-                    mStringBinome = c.getResources().getString(R.string.binome13);
+                    mStringBinome = "13";
                 if (lastDigitYear == 5 || lastDigitYear == 0)
-                    mStringBinome = c.getResources().getString(R.string.binome25);
+                    mStringBinome = "25";
                 if (lastDigitYear == 6 || lastDigitYear == 1)
-                    mStringBinome = c.getResources().getString(R.string.binome37);
+                    mStringBinome = "37";
                 if (lastDigitYear == 7 || lastDigitYear == 2)
-                    mStringBinome = c.getResources().getString(R.string.binome49);
+                    mStringBinome = "49";
                 if (lastDigitYear == 8 || lastDigitYear == 3)
-                    mStringBinome = c.getResources().getString(R.string.binome1);
+                    mStringBinome = "1";
                 break;
 
         }
-        if (!mStringBinome.isEmpty()) {
-            return new Binome(c, mStringBinome, "M");
-        } else {
-            Log.v("TAG", "erreur_mois");
-            return null;
-        }
+        return mStringBinome;
     }
 
-    public static Binome calcBinomeJour(Context c, int year, int month, int day, int mHour, int mMinute) {
+    public static String calcBinomeJour(int year, int month, int day, int mHour, int mMinute) {
         String mStringBinome = "";
         int dayBinome = (getEnergeticDay(year, month, day, mHour, mMinute) + getIntDay(year / 10, year % 10) + getIntMonthYear(month, year)) % 60;
 
-        switch (dayBinome) {
-            case 1:
-                mStringBinome = c.getResources().getString(R.string.binome1);
-                break;
-            case 2:
-                mStringBinome = c.getResources().getString(R.string.binome2);
-                break;
-            case 3:
-                mStringBinome = c.getResources().getString(R.string.binome3);
-                break;
-            case 4:
-                mStringBinome = c.getResources().getString(R.string.binome4);
-                break;
-            case 5:
-                mStringBinome = c.getResources().getString(R.string.binome5);
-                break;
-            case 6:
-                mStringBinome = c.getResources().getString(R.string.binome6);
-                break;
-            case 7:
-                mStringBinome = c.getResources().getString(R.string.binome7);
-                break;
-            case 8:
-                mStringBinome = c.getResources().getString(R.string.binome8);
-                break;
-            case 9:
-                mStringBinome = c.getResources().getString(R.string.binome9);
-                break;
-            case 10:
-                mStringBinome = c.getResources().getString(R.string.binome10);
-                break;
-            case 11:
-                mStringBinome = c.getResources().getString(R.string.binome11);
-                break;
-            case 12:
-                mStringBinome = c.getResources().getString(R.string.binome12);
-                break;
-            case 13:
-                mStringBinome = c.getResources().getString(R.string.binome13);
-                break;
-            case 14:
-                mStringBinome = c.getResources().getString(R.string.binome14);
-                break;
-            case 15:
-                mStringBinome = c.getResources().getString(R.string.binome15);
-                break;
-            case 16:
-                mStringBinome = c.getResources().getString(R.string.binome16);
-                break;
-            case 17:
-                mStringBinome = c.getResources().getString(R.string.binome17);
-                break;
-            case 18:
-                mStringBinome = c.getResources().getString(R.string.binome18);
-                break;
-            case 19:
-                mStringBinome = c.getResources().getString(R.string.binome19);
-                break;
-            case 20:
-                mStringBinome = c.getResources().getString(R.string.binome20);
-                break;
-            case 21:
-                mStringBinome = c.getResources().getString(R.string.binome21);
-                break;
-            case 22:
-                mStringBinome = c.getResources().getString(R.string.binome22);
-                break;
-            case 23:
-                mStringBinome = c.getResources().getString(R.string.binome23);
-                break;
-            case 24:
-                mStringBinome = c.getResources().getString(R.string.binome24);
-                break;
-            case 25:
-                mStringBinome = c.getResources().getString(R.string.binome25);
-                break;
-            case 26:
-                mStringBinome = c.getResources().getString(R.string.binome26);
-                break;
-            case 27:
-                mStringBinome = c.getResources().getString(R.string.binome27);
-                break;
-            case 28:
-                mStringBinome = c.getResources().getString(R.string.binome28);
-                break;
-            case 29:
-                mStringBinome = c.getResources().getString(R.string.binome29);
-                break;
-            case 30:
-                mStringBinome = c.getResources().getString(R.string.binome30);
-                break;
-            case 31:
-                mStringBinome = c.getResources().getString(R.string.binome31);
-                break;
-            case 32:
-                mStringBinome = c.getResources().getString(R.string.binome32);
-                break;
-            case 33:
-                mStringBinome = c.getResources().getString(R.string.binome33);
-                break;
-            case 34:
-                mStringBinome = c.getResources().getString(R.string.binome34);
-                break;
-            case 35:
-                mStringBinome = c.getResources().getString(R.string.binome35);
-                break;
-            case 36:
-                mStringBinome = c.getResources().getString(R.string.binome36);
-                break;
-            case 37:
-                mStringBinome = c.getResources().getString(R.string.binome37);
-                break;
-            case 38:
-                mStringBinome = c.getResources().getString(R.string.binome38);
-                break;
-            case 39:
-                mStringBinome = c.getResources().getString(R.string.binome39);
-                break;
-            case 40:
-                mStringBinome = c.getResources().getString(R.string.binome40);
-                break;
-            case 41:
-                mStringBinome = c.getResources().getString(R.string.binome41);
-                break;
-            case 42:
-                mStringBinome = c.getResources().getString(R.string.binome42);
-                break;
-            case 43:
-                mStringBinome = c.getResources().getString(R.string.binome43);
-                break;
-            case 44:
-                mStringBinome = c.getResources().getString(R.string.binome44);
-                break;
-            case 45:
-                mStringBinome = c.getResources().getString(R.string.binome45);
-                break;
-            case 46:
-                mStringBinome = c.getResources().getString(R.string.binome46);
-                break;
-            case 47:
-                mStringBinome = c.getResources().getString(R.string.binome47);
-                break;
-            case 48:
-                mStringBinome = c.getResources().getString(R.string.binome48);
-                break;
-            case 49:
-                mStringBinome = c.getResources().getString(R.string.binome49);
-                break;
-            case 50:
-                mStringBinome = c.getResources().getString(R.string.binome50);
-                break;
-            case 51:
-                mStringBinome = c.getResources().getString(R.string.binome51);
-                break;
-            case 52:
-                mStringBinome = c.getResources().getString(R.string.binome52);
-                break;
-            case 53:
-                mStringBinome = c.getResources().getString(R.string.binome53);
-                break;
-            case 54:
-                mStringBinome = c.getResources().getString(R.string.binome54);
-                break;
-            case 55:
-                mStringBinome = c.getResources().getString(R.string.binome55);
-                break;
-            case 56:
-                mStringBinome = c.getResources().getString(R.string.binome56);
-                break;
-            case 57:
-                mStringBinome = c.getResources().getString(R.string.binome57);
-                break;
-            case 58:
-                mStringBinome = c.getResources().getString(R.string.binome58);
-                break;
-            case 59:
-                mStringBinome = c.getResources().getString(R.string.binome59);
-                break;
-            case 60:
-            case 0:
-                mStringBinome = c.getResources().getString(R.string.binome60);
-                break;
-        }
+       return String.valueOf(dayBinome);
 
-        if (!mStringBinome.isEmpty()) {
-            return new Binome(c, mStringBinome, "D");
-        } else {
-            Log.v("TAG", "erreur_jour " + dayBinome);
-            return null;
-        }
     }
 
-    public static Binome calcBinomeHeure(Context c, int year, int month, int day, int mHour, int mMinute) {
+    public static String calcBinomeHeure(int year, int month, int day, int mHour, int mMinute) {
         String mStringBinome = "";
         int dayBinome = ((getEnergeticDay(year, month, day, mHour, mMinute) + getIntDay(year / 10, year % 10) + getIntMonthYear(month, year)) % 60) % 10;
 
@@ -731,146 +551,141 @@ public class CalculBinomes {
             case 1:
             case 6:
                 if (mHour >= 23 || mHour == 0)
-                    mStringBinome = c.getResources().getString(R.string.binome1);
+                    mStringBinome = "1";
                 if (mHour >= 1 && mHour < 3)
-                    mStringBinome = c.getResources().getString(R.string.binome2);
+                    mStringBinome = "2";
                 if (mHour >= 3 && mHour < 5)
-                    mStringBinome = c.getResources().getString(R.string.binome3);
+                    mStringBinome = "3";
                 if (mHour >= 5 && mHour < 7)
-                    mStringBinome = c.getResources().getString(R.string.binome4);
+                    mStringBinome = "4";
                 if (mHour >= 7 && mHour < 9)
-                    mStringBinome = c.getResources().getString(R.string.binome5);
+                    mStringBinome = "5";
                 if (mHour >= 9 && mHour < 11)
-                    mStringBinome = c.getResources().getString(R.string.binome6);
+                    mStringBinome = "6";
                 if (mHour >= 11 && mHour < 13)
-                    mStringBinome = c.getResources().getString(R.string.binome7);
+                    mStringBinome = "7";
                 if (mHour >= 13 && mHour < 15)
-                    mStringBinome = c.getResources().getString(R.string.binome8);
+                    mStringBinome = "8";
                 if (mHour >= 15 && mHour < 17)
-                    mStringBinome = c.getResources().getString(R.string.binome9);
+                    mStringBinome = "9";
                 if (mHour >= 17 && mHour < 19)
-                    mStringBinome = c.getResources().getString(R.string.binome10);
+                    mStringBinome = "10";
                 if (mHour >= 19 && mHour < 21)
-                    mStringBinome = c.getResources().getString(R.string.binome11);
+                    mStringBinome = "11";
                 if (mHour >= 21 && mHour < 23)
-                    mStringBinome = c.getResources().getString(R.string.binome12);
+                    mStringBinome = "12";
                 break;
             case 2:
             case 7:
                 if (mHour >= 23 || mHour == 0)
-                    mStringBinome = c.getResources().getString(R.string.binome13);
+                    mStringBinome = "13";
                 if (mHour >= 1 && mHour < 3)
-                    mStringBinome = c.getResources().getString(R.string.binome14);
+                    mStringBinome = "14";
                 if (mHour >= 3 && mHour < 5)
-                    mStringBinome = c.getResources().getString(R.string.binome15);
+                    mStringBinome = "15";
                 if (mHour >= 5 && mHour < 7)
-                    mStringBinome = c.getResources().getString(R.string.binome16);
+                    mStringBinome = "16";
                 if (mHour >= 7 && mHour < 9)
-                    mStringBinome = c.getResources().getString(R.string.binome17);
+                    mStringBinome = "17";
                 if (mHour >= 9 && mHour < 11)
-                    mStringBinome = c.getResources().getString(R.string.binome18);
+                    mStringBinome = "18";
                 if (mHour >= 11 && mHour < 13)
-                    mStringBinome = c.getResources().getString(R.string.binome19);
+                    mStringBinome = "19";
                 if (mHour >= 13 && mHour < 15)
-                    mStringBinome = c.getResources().getString(R.string.binome20);
+                    mStringBinome = "20";
                 if (mHour >= 15 && mHour < 17)
-                    mStringBinome = c.getResources().getString(R.string.binome21);
+                    mStringBinome = "21";
                 if (mHour >= 17 && mHour < 19)
-                    mStringBinome = c.getResources().getString(R.string.binome22);
+                    mStringBinome = "22";
                 if (mHour >= 19 && mHour < 21)
-                    mStringBinome = c.getResources().getString(R.string.binome23);
+                    mStringBinome = "23";
                 if (mHour >= 21 && mHour < 23)
-                    mStringBinome = c.getResources().getString(R.string.binome24);
+                    mStringBinome = "24";
                 break;
             case 3:
             case 8:
                 if (mHour >= 23 || mHour == 0)
-                    mStringBinome = c.getResources().getString(R.string.binome25);
+                    mStringBinome = "25";
                 if (mHour >= 1 && mHour < 3)
-                    mStringBinome = c.getResources().getString(R.string.binome26);
+                    mStringBinome = "26";
                 if (mHour >= 3 && mHour < 5)
-                    mStringBinome = c.getResources().getString(R.string.binome27);
+                    mStringBinome = "27";
                 if (mHour >= 5 && mHour < 7)
-                    mStringBinome = c.getResources().getString(R.string.binome28);
+                    mStringBinome = "28";
                 if (mHour >= 7 && mHour < 9)
-                    mStringBinome = c.getResources().getString(R.string.binome29);
+                    mStringBinome = "29";
                 if (mHour >= 9 && mHour < 11)
-                    mStringBinome = c.getResources().getString(R.string.binome30);
+                    mStringBinome = "30";
                 if (mHour >= 11 && mHour < 13)
-                    mStringBinome = c.getResources().getString(R.string.binome31);
+                    mStringBinome = "31";
                 if (mHour >= 13 && mHour < 15)
-                    mStringBinome = c.getResources().getString(R.string.binome32);
+                    mStringBinome = "32";
                 if (mHour >= 15 && mHour < 17)
-                    mStringBinome = c.getResources().getString(R.string.binome33);
+                    mStringBinome = "33";
                 if (mHour >= 17 && mHour < 19)
-                    mStringBinome = c.getResources().getString(R.string.binome34);
+                    mStringBinome = "34";
                 if (mHour >= 19 && mHour < 21)
-                    mStringBinome = c.getResources().getString(R.string.binome35);
+                    mStringBinome = "35";
                 if (mHour >= 21 && mHour < 23)
-                    mStringBinome = c.getResources().getString(R.string.binome36);
+                    mStringBinome = "36";
                 break;
             case 4:
             case 9:
                 if (mHour >= 23 || mHour == 0)
-                    mStringBinome = c.getResources().getString(R.string.binome37);
+                    mStringBinome = "37";
                 if (mHour >= 1 && mHour < 3)
-                    mStringBinome = c.getResources().getString(R.string.binome38);
+                    mStringBinome = "38";
                 if (mHour >= 3 && mHour < 5)
-                    mStringBinome = c.getResources().getString(R.string.binome39);
+                    mStringBinome = "39";
                 if (mHour >= 5 && mHour < 7)
-                    mStringBinome = c.getResources().getString(R.string.binome40);
+                    mStringBinome = "40";
                 if (mHour >= 7 && mHour < 9)
-                    mStringBinome = c.getResources().getString(R.string.binome41);
+                    mStringBinome = "41";
                 if (mHour >= 9 && mHour < 11)
-                    mStringBinome = c.getResources().getString(R.string.binome42);
+                    mStringBinome = "42";
                 if (mHour >= 11 && mHour < 13)
-                    mStringBinome = c.getResources().getString(R.string.binome43);
+                    mStringBinome = "43";
                 if (mHour >= 13 && mHour < 15)
-                    mStringBinome = c.getResources().getString(R.string.binome44);
+                    mStringBinome = "44";
                 if (mHour >= 15 && mHour < 17)
-                    mStringBinome = c.getResources().getString(R.string.binome45);
+                    mStringBinome = "45";
                 if (mHour >= 17 && mHour < 19)
-                    mStringBinome = c.getResources().getString(R.string.binome46);
+                    mStringBinome = "46";
                 if (mHour >= 19 && mHour < 21)
-                    mStringBinome = c.getResources().getString(R.string.binome47);
+                    mStringBinome = "47";
                 if (mHour >= 21 && mHour < 23)
-                    mStringBinome = c.getResources().getString(R.string.binome48);
+                    mStringBinome = "48";
                 break;
             case 5:
             case 0:
                 if (mHour >= 23 || mHour == 0)
-                    mStringBinome = c.getResources().getString(R.string.binome49);
+                    mStringBinome = "49";
                 if (mHour >= 1 && mHour < 3)
-                    mStringBinome = c.getResources().getString(R.string.binome50);
+                    mStringBinome = "50";
                 if (mHour >= 3 && mHour < 5)
-                    mStringBinome = c.getResources().getString(R.string.binome51);
+                    mStringBinome = "51";
                 if (mHour >= 5 && mHour < 7)
-                    mStringBinome = c.getResources().getString(R.string.binome52);
+                    mStringBinome = "52";
                 if (mHour >= 7 && mHour < 9)
-                    mStringBinome = c.getResources().getString(R.string.binome53);
+                    mStringBinome = "53";
                 if (mHour >= 9 && mHour < 11)
-                    mStringBinome = c.getResources().getString(R.string.binome54);
+                    mStringBinome = "54";
                 if (mHour >= 11 && mHour < 13)
-                    mStringBinome = c.getResources().getString(R.string.binome55);
+                    mStringBinome = "55";
                 if (mHour >= 13 && mHour < 15)
-                    mStringBinome = c.getResources().getString(R.string.binome56);
+                    mStringBinome = "56";
                 if (mHour >= 15 && mHour < 17)
-                    mStringBinome = c.getResources().getString(R.string.binome57);
+                    mStringBinome = "57";
                 if (mHour >= 17 && mHour < 19)
-                    mStringBinome = c.getResources().getString(R.string.binome58);
+                    mStringBinome = "58";
                 if (mHour >= 19 && mHour < 21)
-                    mStringBinome = c.getResources().getString(R.string.binome59);
+                    mStringBinome = "59";
                 if (mHour >= 21 && mHour < 23)
-                    mStringBinome = c.getResources().getString(R.string.binome60);
+                    mStringBinome = "60";
                 break;
 
         }
-        if (!mStringBinome.isEmpty()) {
-            return new Binome(c, mStringBinome, "H");
-        } else {
-            Log.v("TAG", "erreur_heure");
-            return null;
-        }
+        return mStringBinome;
     }
 
     private static int getMoisSolaire(int year, int month, int day, int mHour, int mMinute) {

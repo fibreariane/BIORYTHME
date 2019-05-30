@@ -35,14 +35,14 @@ public class ParseJSON {
     }
 
     static public Binome readBinome(JsonReader reader) throws IOException {
-        String idBinome= null;
-        int nbBinome=-1;
+        String idBinome = null;
+        int nbBinome = -1;
         String nom = null;
-        String description= null;
-        String element= null;
-        Organe troncCeleste= null;
-        Organe brancheTerrestre= null;
-        String polarite= null;
+        String description = null;
+        String element = null;
+        Organe troncCeleste = null;
+        Organe brancheTerrestre = null;
+        String polarite = null;
 
         reader.beginObject();
         while (reader.hasNext()) {
@@ -51,25 +51,24 @@ public class ParseJSON {
                 idBinome = reader.nextString();
             } else if (name.equals("nb_binome")) {
                 nbBinome = reader.nextInt();
-            }else if (name.equals("name")) {
+            } else if (name.equals("name")) {
                 nom = reader.nextString();
-            }else if (name.equals("description")) {
+            } else if (name.equals("description")) {
                 description = reader.nextString();
-            }else if (name.equals("element")) {
+            } else if (name.equals("element")) {
                 element = reader.nextString();
-            }else if (name.equals("polarite")) {
+            } else if (name.equals("polarite")) {
                 polarite = reader.nextString();
-            }else if (name.equals("tronc_celeste")) {
+            } else if (name.equals("tronc_celeste")) {
                 troncCeleste = readOrgane(reader);
-            }else if (name.equals("branche_terrestre")) {
+            } else if (name.equals("branche_terrestre")) {
                 brancheTerrestre = readOrgane(reader);
-            }
-            else {
+            } else {
                 reader.skipValue();
             }
         }
         reader.endObject();
-        return new Binome(idBinome,nbBinome, nom, description, element, troncCeleste,brancheTerrestre, polarite);
+        return new Binome(idBinome, nbBinome, nom, description, element, troncCeleste, brancheTerrestre, polarite);
     }
 
     static public Organe readOrgane(JsonReader reader) throws IOException {
@@ -86,12 +85,12 @@ public class ParseJSON {
                 polarite = reader.nextString();
             } else if (name.equals("element")) {
                 element = reader.nextString();
-            }else {
+            } else {
                 reader.skipValue();
             }
         }
         reader.endObject();
-        return new Organe(nom, polarite,element);
+        return new Organe(nom, polarite, element);
     }
 
     // Parse horoscopes.json
@@ -117,51 +116,50 @@ public class ParseJSON {
 
     static public Horoscope readHoroscope(JsonReader reader) throws IOException {
         int nbBinome = -1;
-        String element= null;
-        String polarite= null;
-        String influence= null;
-        String texteAnnee= null;
-        String texteMois= null;
-        String texteJour= null;
-        String texteHeure= null;
+        String element = null;
+        String polarite = null;
+        String influence = null;
+        String texteAnnee = null;
+        String texteMois = null;
+        String texteJour = null;
+        String texteHeure = null;
 
         reader.beginObject();
         while (reader.hasNext()) {
             String name = reader.nextName();
             if (name.equals("nb_binome")) {
                 nbBinome = reader.nextInt();
-            }else if (name.equals("element")) {
+            } else if (name.equals("element")) {
                 element = reader.nextString();
-            }else if (name.equals("polarite")) {
+            } else if (name.equals("polarite")) {
                 polarite = reader.nextString();
-            }else if (name.equals("influence")) {
+            } else if (name.equals("influence")) {
                 influence = reader.nextString();
-            }else if (name.equals("annee")) {
+            } else if (name.equals("annee")) {
                 texteAnnee = reader.nextString();
-            }else if (name.equals("mois")) {
+            } else if (name.equals("mois")) {
                 texteMois = reader.nextString();
-            }else if (name.equals("jour")) {
+            } else if (name.equals("jour")) {
                 texteJour = reader.nextString();
-            }else if (name.equals("heure")) {
+            } else if (name.equals("heure")) {
                 texteHeure = reader.nextString();
-            }
-            else {
+            } else {
                 reader.skipValue();
             }
         }
         reader.endObject();
-        if (texteAnnee.isEmpty()){
-            texteAnnee = nbBinome+element.substring(0,1)+polarite.substring(0,2)+influence + " Texte Social test";
+        if (texteAnnee.isEmpty()) {
+            texteAnnee = nbBinome + element.substring(0, 1) + polarite.substring(0, 2) + influence + " Texte Social test";
         }
-        if (texteMois.isEmpty()){
-            texteMois = nbBinome+element.substring(0,1)+polarite.substring(0,2)+influence + " Texte Affectif test";
+        if (texteMois.isEmpty()) {
+            texteMois = nbBinome + element.substring(0, 1) + polarite.substring(0, 2) + influence + " Texte Affectif test";
         }
-        if (texteJour.isEmpty()){
-            texteJour = nbBinome+element.substring(0,1)+polarite.substring(0,2)+influence + " Texte Chance test";
+        if (texteJour.isEmpty()) {
+            texteJour = nbBinome + element.substring(0, 1) + polarite.substring(0, 2) + influence + " Texte Chance test";
         }
-        if (texteHeure.isEmpty()){
-            texteHeure = nbBinome+element.substring(0,1)+polarite.substring(0,2)+influence + " Texte Santé test";
+        if (texteHeure.isEmpty()) {
+            texteHeure = nbBinome + element.substring(0, 1) + polarite.substring(0, 2) + influence + " Texte Santé test";
         }
-        return new Horoscope(nbBinome, element, polarite, influence, texteAnnee,texteMois, texteJour,texteHeure);
+        return new Horoscope(nbBinome, element, polarite, influence, texteAnnee, texteMois, texteJour, texteHeure);
     }
 }

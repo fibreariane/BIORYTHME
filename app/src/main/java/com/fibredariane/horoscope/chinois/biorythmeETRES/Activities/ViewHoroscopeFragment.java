@@ -24,46 +24,50 @@ import com.fibredariane.horoscope.chinois.biorythmeETRES.Utils.CalculBinomes;
 import com.fibredariane.horoscope.chinois.biorythmeETRES.Utils.InfosBinomes;
 import com.fibredariane.horoscope.chinois.biorythmeETRES.Utils.Preferences;
 
+import java.util.Calendar;
+
 
 public class ViewHoroscopeFragment extends Fragment implements View.OnClickListener {
 
     private static final String ARG_SECTION_NUMBER = "section_number";
     private static final String ARG_HOROSCOPE = "horoscope";
+    private static final String ARG_BIORYTHME = "biorythme";
+    private static final String ARG_BINOME = "binome";
 
-  //  private Biorythme mCurrentBiorythme;
-   // private Biorythme mPersoBiorythme;
-   // private Binome mCurrentBinome;
     private TextView mTextViewHoroscopeYear;
     private TextView mTextViewHoroscopeMonth;
     private TextView mTextViewHoroscopeDay;
     private TextView mTextViewHoroscopeHour;
-    private TextView mTextViewHoroscope;
-    private TextView mTextViewHoroscopePolarite;
     private ImageView mImageViewHoroscopeMeteoYear;
     private ImageView mImageViewHoroscopeMeteoMonth;
     private ImageView mImageViewHoroscopeMeteoDay;
     private ImageView mImageViewHoroscopeMeteoHour;
+    private ImageView mImageViewHoroscopeBioAnnee;
+    private ImageView mImageViewHoroscopeBioMois;
+    private ImageView mImageViewHoroscopeBioJour;
+    private ImageView mImageViewHoroscopeBioHeure;
+
+    private TextView mTextViewHoroscopeType;
+    private TextView mTextViewHoroscopeExpl;
     private ImageView mImageViewHoroscope;
+
     private Context mContext;
     private View rootView;
-    private String mStringTypeHoro;
-    private AdInterstitial mAdInterstitial;
     private Preferences mPreferences;
     private Horoscope mHoroscope;
-
-    private LinearLayout mLinearLayoutElement;
-    private LinearLayout mLinearLayoutHoroscope;
-    private LinearLayout mLinearLayoutPasCredit;
-    private Button mButtonAddCredit;
+    private Biorythme mBiorythmeUser;
+    private Binome mBinomeCurrent;
 
     public ViewHoroscopeFragment() {
     }
 
-    public static ViewHoroscopeFragment newInstance(int sectionNumber, Horoscope horoscope) {
+    public static ViewHoroscopeFragment newInstance(int sectionNumber, Horoscope horoscope,Biorythme biorythme,Binome binome) {
         ViewHoroscopeFragment fragment = new ViewHoroscopeFragment();
         Bundle args = new Bundle();
         args.putInt(ARG_SECTION_NUMBER, sectionNumber);
         args.putSerializable(ARG_HOROSCOPE,horoscope);
+        args.putSerializable(ARG_BIORYTHME,biorythme);
+        args.putSerializable(ARG_BINOME,binome);
         fragment.setArguments(args);
         return fragment;
     }
@@ -80,40 +84,20 @@ public class ViewHoroscopeFragment extends Fragment implements View.OnClickListe
             Bundle args = this.getArguments();
            // mStringTypeHoro = args.getString(ARG_TYPE_HORO);
             mHoroscope = (Horoscope) args.getSerializable(ARG_HOROSCOPE);
+            mBiorythmeUser = (Biorythme) args.getSerializable(ARG_BIORYTHME);
+            mBinomeCurrent = (Binome) args.getSerializable(ARG_BINOME);
 
             if (date_biorythme == "") {
                 Intent intent = new Intent(mContext, SwitchBiorythmeActivity.class);
                 startActivity(intent);
             } else {
-             //   mAdInterstitial = new AdInterstitial(this.getActivity(),mPreferences);
 
                 initDayLayout();
-                setVisibilityHoroscope();
             }
         }
         return rootView;
     }
-    public void setVisibilityHoroscope() {
 
-     if (!mPreferences.isDateSaved()) {
-
-            if (mPreferences.getCreditPref() > 0) {
-                mPreferences.removeCreditPref();
-                mPreferences.setDateSauv();
-                mLinearLayoutHoroscope.setVisibility(View.VISIBLE);
-                mLinearLayoutPasCredit.setVisibility(View.GONE);
-            } else {
-                 mLinearLayoutHoroscope.setVisibility(View.GONE);
-                mLinearLayoutPasCredit.setVisibility(View.VISIBLE);
-            }
-
-        }
-        else{
-
-         mLinearLayoutHoroscope.setVisibility(View.VISIBLE);
-         mLinearLayoutPasCredit.setVisibility(View.GONE);
-     }
-    }
 
     public void initDayLayout() {
 
@@ -130,67 +114,59 @@ public class ViewHoroscopeFragment extends Fragment implements View.OnClickListe
         mImageViewHoroscopeMeteoDay = (ImageView) rootView.findViewById(R.id.image_view_horoscope_meteo_jour);
         mImageViewHoroscopeMeteoHour = (ImageView) rootView.findViewById(R.id.image_view_horoscope_meteo_heure);
 
-        mTextViewHoroscope = (TextView) rootView.findViewById(R.id.text_view_horoscope_element);
-        mTextViewHoroscopePolarite = (TextView) rootView.findViewById(R.id.text_view_horoscope_element_polarite);
-        mImageViewHoroscope = (ImageView) rootView.findViewById(R.id.image_view_horoscope_element);
+        mImageViewHoroscopeBioAnnee= (ImageView) rootView.findViewById(R.id.image_view_horoscope_bio_annee);
+        mImageViewHoroscopeBioMois= (ImageView) rootView.findViewById(R.id.image_view_horoscope_bio_mois);
+        mImageViewHoroscopeBioJour= (ImageView) rootView.findViewById(R.id.image_view_horoscope_bio_jour);
+        mImageViewHoroscopeBioHeure= (ImageView) rootView.findViewById(R.id.image_view_horoscope_bio_heure);
 
-
-        mLinearLayoutPasCredit  = (LinearLayout) rootView.findViewById(R.id.linear_layout_pas_credit);
-        mLinearLayoutHoroscope = (LinearLayout) rootView.findViewById(R.id.linear_layout_horoscope);
-        mButtonAddCredit = (Button) rootView.findViewById(R.id.button_add_credit);
-        mButtonAddCredit.setOnClickListener(this);
-
-        mLinearLayoutElement = (LinearLayout) rootView.findViewById(R.id.linear_layout_element);
-        mLinearLayoutElement.setOnClickListener(this);
+        mTextViewHoroscopeType= (TextView) rootView.findViewById(R.id.text_view_horoscope_type);
+        mTextViewHoroscopeExpl= (TextView) rootView.findViewById(R.id.text_view_horoscope_expl);
+        mImageViewHoroscope= (ImageView) rootView.findViewById(R.id.image_view_meteo_day);;
 
         setHoroscope();
 
     }
 
     private void setHoroscope() {
-
+        Calendar calendar = Calendar.getInstance();
+        String dateJour = calendar.get(Calendar.DAY_OF_MONTH)+
+                " "+getResources().getString(getResources().getIdentifier(
+                "mois"+calendar.get(Calendar.MONTH),
+                "string",
+                mContext.getPackageName())).toUpperCase()+
+                " "+calendar.get(Calendar.YEAR);
      //   mCurrentBinome = CalculBinomes.getBinomeBiorythme(mCurrentBiorythme, typeHoro);
       //  Horoscope horo = new Horoscope(mContext,mPersoBiorythme,mCurrentBinome,typeHoro);
 
         if (mHoroscope.getIdImageInfluenceAnnee() == 0) {
             Log.v("TAG", "ViewHoroscopeFragment - JSON - erreur horoscope ");
         }else {
+            mTextViewHoroscopeType.setText("HOROSCOPE DU "+dateJour);
+            mTextViewHoroscopeExpl.setText("Découvrez votre horoscope du jour");
+            mImageViewHoroscope.setImageDrawable(getResources().getDrawable(InfosBinomes.getIdTotInfluence(mContext,mBinomeCurrent,mBiorythmeUser), mContext.getApplicationContext().getTheme()));
+
             mTextViewHoroscopeYear.setText(mHoroscope.getTextInfluenceAnnee());
             mTextViewHoroscopeMonth.setText(mHoroscope.getTextInfluenceMois());
             mTextViewHoroscopeDay.setText(mHoroscope.getTextInfluenceJour());
             mTextViewHoroscopeHour.setText(mHoroscope.getTextInfluenceHeure());
 
-            mTextViewHoroscope.setText(mHoroscope.getElement());
-            mTextViewHoroscopePolarite.setText(mHoroscope.getPolarite());
-
-          if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
             mImageViewHoroscopeMeteoYear.setImageDrawable(getResources().getDrawable(mHoroscope.getIdImageInfluenceAnnee(), mContext.getApplicationContext().getTheme()));
             mImageViewHoroscopeMeteoMonth.setImageDrawable(getResources().getDrawable(mHoroscope.getIdImageInfluenceMois(), mContext.getApplicationContext().getTheme()));
             mImageViewHoroscopeMeteoDay.setImageDrawable(getResources().getDrawable(mHoroscope.getIdImageInfluenceJour(), mContext.getApplicationContext().getTheme()));
             mImageViewHoroscopeMeteoHour.setImageDrawable(getResources().getDrawable(mHoroscope.getIdImageInfluenceHeure(), mContext.getApplicationContext().getTheme()));
-            mImageViewHoroscope.setImageDrawable(getResources().getDrawable(mHoroscope.getIdImageElement(), mContext.getApplicationContext().getTheme()));
-        } else {
-            mImageViewHoroscopeMeteoYear.setImageDrawable(getResources().getDrawable(mHoroscope.getIdImageInfluenceAnnee()));
-            mImageViewHoroscopeMeteoMonth.setImageDrawable(getResources().getDrawable(mHoroscope.getIdImageInfluenceMois()));
-            mImageViewHoroscopeMeteoDay.setImageDrawable(getResources().getDrawable(mHoroscope.getIdImageInfluenceJour()));
-            mImageViewHoroscopeMeteoHour.setImageDrawable(getResources().getDrawable(mHoroscope.getIdImageInfluenceHeure()));
-            mImageViewHoroscope.setImageDrawable(getResources().getDrawable(mHoroscope.getIdImageElement()));
-        }
-        }
+         }
+
+        mImageViewHoroscopeBioAnnee.setImageDrawable(getResources().getDrawable(mBiorythmeUser.getBinomeAnnee().getIntIdMini(), mContext.getApplicationContext().getTheme()));
+        mImageViewHoroscopeBioMois.setImageDrawable(getResources().getDrawable(mBiorythmeUser.getBinomeMois().getIntIdMini(), mContext.getApplicationContext().getTheme()));
+        mImageViewHoroscopeBioJour.setImageDrawable(getResources().getDrawable(mBiorythmeUser.getBinomeJour().getIntIdMini(), mContext.getApplicationContext().getTheme()));
+        mImageViewHoroscopeBioHeure.setImageDrawable(getResources().getDrawable(mBiorythmeUser.getBinomeHeure().getIntIdMini(), mContext.getApplicationContext().getTheme()));
 
     }
 
     @Override
     public void onClick(View v) {
         switch (v.getId()) {
-            case R.id.linear_layout_element:
-                Intent intent = new Intent(mContext,ViewElementActivity.class);
-                intent.putExtra("ELEMENT",mTextViewHoroscope.getText());
-                startActivity(intent);
-                break;
-            case R.id.button_add_credit:
-                mAdInterstitial.setAd();
-                break;
+
             default:
                 break;
         }

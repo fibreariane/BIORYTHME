@@ -16,25 +16,26 @@ import java.util.Date;
 
 public class InfosBinomes {
 
-    public static String getStringAnnee(Biorythme biorythme){
-        return "BINOME DE L'ANNEE "+CalculBinomes.getDateAnneeNaissance(biorythme.getYear(),biorythme.getMonth(),biorythme.getDay(),biorythme.getHour(),biorythme.getMinute());
+    public static String getStringAnnee(Biorythme biorythme) {
+        return "BINOME DE L'ANNEE " + CalculBinomes.getDateAnneeNaissance(biorythme.getYear(), biorythme.getMonth(), biorythme.getDay(), biorythme.getHour(), biorythme.getMinute());
     }
-    public static String getStringAnneeTotale(Context context,Biorythme biorythme){
-        int year = CalculBinomes.getDateAnneeNaissance(biorythme.getYear(),biorythme.getMonth(),biorythme.getDay(),biorythme.getHour(),biorythme.getMinute());
+
+    public static String getStringAnneeTotale(Context context, Biorythme biorythme) {
+        int year = CalculBinomes.getDateAnneeNaissance(biorythme.getYear(), biorythme.getMonth(), biorythme.getDay(), biorythme.getHour(), biorythme.getMinute());
         Date dateDeb = CalculBinomes.getAnneesLunaires(year);
-        Date dateFin = CalculBinomes.getAnneesLunaires(year+1);
-        int mDeb = dateDeb.getMonth()-1;
-        int mFin = dateFin.getMonth() -1;
+        Date dateFin = CalculBinomes.getAnneesLunaires(year + 1);
+        int mDeb = dateDeb.getMonth() - 1;
+        int mFin = dateFin.getMonth() - 1;
         String monthDeb = context.getResources().getString(context.getResources().getIdentifier(
-                "mois"+mDeb,
+                "mois" + mDeb,
                 "string",
                 context.getPackageName())).toUpperCase();
         String monthFin = context.getResources().getString(context.getResources().getIdentifier(
-                "mois"+mFin,
+                "mois" + mFin,
                 "string",
                 context.getPackageName())).toUpperCase();
-        return "Du "+dateDeb.getDate()+" "+monthDeb+ " "+dateDeb.getYear()
-                +" au "+dateFin.getDate()+" "+monthFin+ " "+dateFin.getYear();
+        return "Du " + dateDeb.getDate() + " " + monthDeb + " " + dateDeb.getYear()
+                + " au " + dateFin.getDate() + " " + monthFin + " " + dateFin.getYear();
     }
 
     public static int getNbElement(Biorythme biorythme, String element) {
@@ -59,12 +60,13 @@ public class InfosBinomes {
         return nbElement;
 
     }
-    public static int getIdTotInfluenceAccueil(Context context) {
-        int nbCC = getNbInfluence(context, "J", "cc");
-        int nbTF = getNbInfluence(context, "J", "tf");
-        int nbFC = getNbInfluence(context, "J", "fc");
-        int nbPC = getNbInfluence(context, "J", "pc");
-        int nbD = getNbInfluence(context, "J", "d");
+
+    public static int getIdTotInfluence(Context context,Binome currentBinome, Biorythme personalBiorythme) {
+        int nbCC = getNbInfluence(currentBinome,personalBiorythme, "cc");
+        int nbTF = getNbInfluence(currentBinome,personalBiorythme, "tf");
+        int nbFC = getNbInfluence(currentBinome,personalBiorythme, "fc");
+        int nbPC = getNbInfluence(currentBinome,personalBiorythme, "pc");
+        int nbD = getNbInfluence(currentBinome,personalBiorythme, "d");
         int nbPositif = nbTF + nbFC;
         int nbNegatif = nbPC + nbD;
         int nbNeutre = nbCC;
@@ -90,139 +92,36 @@ public class InfosBinomes {
                 context.getPackageName());
     }
 
-    public static int getIdTotInfluence(Context context) {
-        int nbCC = getNbInfluence(context, "J", "cc");
-        int nbTF = getNbInfluence(context, "J", "tf");
-        int nbFC = getNbInfluence(context, "J", "fc");
-        int nbPC = getNbInfluence(context, "J", "pc");
-        int nbD = getNbInfluence(context, "J", "d");
-        int nbPositif = nbTF + nbFC;
-        int nbNegatif = nbPC + nbD;
-        int nbNeutre = nbCC;
-
-        String influence = "cc";
-
-        if (nbTF == 4 || nbTF == 3)
-            influence = "tf";
-        if (nbFC == 4 || nbFC == 3)
-            influence = "fc";
-        if (nbPC == 4 || nbPC == 3)
-            influence = "pc";
-        if (nbD == 4 || nbD == 3)
-            influence = "d";
-        if (nbPositif == 4 || (nbPositif == 2 && nbNeutre == 2) || (nbPositif == 2 && nbNeutre == 1 && nbNegatif == 1))
-            influence = "fc";
-        if (nbNegatif == 4 || (nbNegatif == 2 && nbNeutre == 2) || (nbNegatif == 2 && nbNeutre == 1 && nbPositif == 1))
-            influence = "pc";
-
-        return context.getResources().getIdentifier(
-                "meteo_" + influence,
-                "drawable",
-                context.getPackageName());
-    }
-
-    public static int getNbInfluence(Context context, String typeCurrent, String typeInfluence) {
+    public static int getNbInfluence(Binome currentBinome, Biorythme personalBiorythme, String typeInfluence) {
         int nbInfluence = 0;
 
-        String influence = getInfluence(context, typeCurrent, "A");
+        String influence = getInfluence(currentBinome, personalBiorythme, "A");
         if (typeInfluence.equals(influence))
             nbInfluence = nbInfluence + 1;
 
-        influence = getInfluence(context, typeCurrent, "M");
+        influence = getInfluence(currentBinome, personalBiorythme, "M");
         if (typeInfluence.equals(influence))
             nbInfluence = nbInfluence + 1;
 
-        influence = getInfluence(context, typeCurrent, "J");
+        influence = getInfluence(currentBinome, personalBiorythme, "J");
         if (typeInfluence.equals(influence))
             nbInfluence = nbInfluence + 1;
 
-        influence = getInfluence(context, typeCurrent, "H");
+        influence = getInfluence(currentBinome, personalBiorythme, "H");
         if (typeInfluence.equals(influence))
             nbInfluence = nbInfluence + 1;
 
         return nbInfluence;
     }
 
-    public static int getIdInfluence(Context context, String typeCurrent, String typePersonal) {
-        String influence = getInfluence(context, typeCurrent, typePersonal);
-        return context.getResources().getIdentifier(
-                "meteo_" + influence,
-                "drawable",
-                context.getPackageName());
 
-    }
 
-    public static int getIdTextInfluence(Context context, String typeCurrent, String typePersonal) {
-        String temps = "influence_jour";
-        switch (typePersonal) {
-            case "A":
-                temps = "influence_annee_";
-                break;
-            case "M":
-                temps = "influence_mois_";
-                break;
-            case "J":
-                temps = "influence_jour_";
-                break;
-            case "H":
-                temps = "influence_heure_";
-                break;
-        }
-        String influence = getInfluence(context, typeCurrent, typePersonal);
-        return context.getResources().getIdentifier(
-                temps + influence,
-                "string",
-                context.getPackageName());
-    }
 
-    public static int getIdImageElement(Context context, String typeCurrent) {
-        Biorythme currentBiorythme = CalculBinomes.getCurrentBiorythme(context,new Preferences());
-        Binome currentBinome = currentBiorythme.getBinomeAnnee();
-
-        switch (typeCurrent) {
-            case "A":
-                currentBinome = currentBiorythme.getBinomeAnnee();
-                break;
-            case "M":
-                currentBinome = currentBiorythme.getBinomeMois();
-                break;
-            case "J":
-                currentBinome = currentBiorythme.getBinomeJour();
-                break;
-            case "H":
-                currentBinome = currentBiorythme.getBinomeHeure();
-                break;
-        }
-
-        return context.getResources().getIdentifier(
-                currentBinome.getElement().getNom().toLowerCase(),
-                "drawable",
-                context.getPackageName());
-    }
-
-    public static String getInfluence(Context context, String typeCurrent, String typePersonal) {
-        Preferences preferences = new Preferences();
-        String date_biorythme = preferences.getStringDatePref();
-
-        Biorythme currentBiorythme = CalculBinomes.getCurrentBiorythme(context,preferences);
-        Biorythme personalBiorythme = preferences.getBiorythmePref();
-
-        Binome currentBinome = currentBiorythme.getBinomeAnnee();
-        Binome personalBinome = personalBiorythme.getBinomeAnnee();
+    public static String getInfluence( Binome currentBinome, Biorythme personalBiorythme,String typePersonal) {
 
         String influence = "CC";
 
-        switch (typeCurrent) {
-            case "A":
-                currentBinome = currentBiorythme.getBinomeAnnee();
-                break;
-            case "M":
-                currentBinome = currentBiorythme.getBinomeMois();
-                break;
-            case "J":
-                currentBinome = currentBiorythme.getBinomeJour();
-                break;
-        }
+        Binome personalBinome=personalBiorythme.getBinomeAnnee();
         switch (typePersonal) {
             case "A":
                 personalBinome = personalBiorythme.getBinomeAnnee();

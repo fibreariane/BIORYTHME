@@ -31,9 +31,6 @@ public class AdInterstitial extends AdListener {
         mActivity = activity;
         mPreferences = preferences;
 
-        mTextViewCredit = (TextView) activity.findViewById(R.id.text_view_credit);
-
-        mTextViewCredit.setText("" + mPreferences.getCreditPref());
 
         mDialogErreur = new Dialog(mActivity);
         mDialogErreur.setContentView(R.layout.dialog_information);

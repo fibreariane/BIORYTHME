@@ -62,7 +62,7 @@ public class ViewBinomeActivity extends AppCompatActivity {
     public void onClickSauv(View view) {
         String date_biorythme = mPreferences.getStringDatePref();
        if (date_biorythme == "" || date_biorythme.equals(mBiorythme.getDateAnniversaire()) ) {
-           mPreferences.setBiorythmePref(mBiorythme);
+       //    mPreferences.setBiorythmePref(mBiorythme);
            Intent intent = new Intent(mContext, MainActivity.class);
            startActivity(intent);
        }else{
@@ -98,7 +98,7 @@ public class ViewBinomeActivity extends AppCompatActivity {
     private final class OkOnClickListener implements
             DialogInterface.OnClickListener {
         public void onClick(DialogInterface dialog, int which) {
-            mPreferences.setBiorythmePref(mBiorythme);
+          //  mPreferences.setBiorythmePref(mBiorythme);
             Intent intent = new Intent(mContext, MainActivity.class);
             startActivity(intent);
         }

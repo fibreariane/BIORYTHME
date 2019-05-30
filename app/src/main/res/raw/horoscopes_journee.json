@@ -1,7 +1,6 @@
 [
 	{
-		"nb_binome":1,
-		"type_horoscope":"A",
+		"nb_binome":1,		
 		"element":"BOIS",
 		"polarite":"YANG",
 		"influence":"TF",
@@ -11,8 +10,7 @@
 		"heure":""
 	},
 	{
-		"nb_binome":1,
-		"type_horoscope":"A",
+		"nb_binome":1,		
 		"element":"BOIS",
 		"polarite":"YIN",
 		"influence":"CC",
@@ -22,8 +20,7 @@
 		"heure":""
 	},
 	{
-		"nb_binome":1,
-		"type_horoscope":"A",
+		"nb_binome":1,		
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"PC",
@@ -33,8 +30,7 @@
 		"heure":""
 	},
 	{
-		"nb_binome":1,
-		"type_horoscope":"A",
+		"nb_binome":1,		
 		"element":"FEU",
 		"polarite":"YIN",
 		"influence":"FC",
@@ -44,8 +40,7 @@
 		"heure": ""  
 	},
 	{
-		"nb_binome":1,
-		"type_horoscope":"A",
+		"nb_binome":1,		
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"D",
@@ -55,8 +50,7 @@
 		"heure": ""  
 	},
 	{
-		"nb_binome":1,
-		"type_horoscope":"A",
+		"nb_binome":1,		
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"TF",
@@ -66,8 +60,7 @@
 		"heure": ""  
 	},
 	{
-		"nb_binome":1,
-		"type_horoscope":"A",
+		"nb_binome":1,		
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"CC",
@@ -77,8 +70,7 @@
 		"heure": "" 
 	},
 	{
-		"nb_binome":1,
-		"type_horoscope":"A",
+		"nb_binome":1,		
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"PC",
@@ -89,7 +81,7 @@
 	},
 	{
 		"nb_binome":1,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YANG",
 		"influence":"FC",
@@ -100,7 +92,7 @@
 	},
 	{
 		"nb_binome":1,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"D",
@@ -111,7 +103,7 @@
 	},
 		{
 		"nb_binome":2,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YANG",
 		"influence":"TF",
@@ -122,7 +114,7 @@
 	},
 	{
 		"nb_binome":2,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YIN",
 		"influence":"CC",
@@ -133,7 +125,7 @@
 	},
 	{
 		"nb_binome":2,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"PC",
@@ -144,7 +136,7 @@
 	},
 	{
 		"nb_binome":2,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YIN",
 		"influence":"FC",
@@ -155,7 +147,7 @@
 	},
 	{
 		"nb_binome":2,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"D",
@@ -166,7 +158,7 @@
 	},
 	{
 		"nb_binome":2,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"TF",
@@ -177,7 +169,7 @@
 	},
 	{
 		"nb_binome":2,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"CC",
@@ -188,7 +180,7 @@
 	},
 	{
 		"nb_binome":2,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"PC",
@@ -199,7 +191,7 @@
 	},
 	{
 		"nb_binome":2,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YANG",
 		"influence":"FC",
@@ -210,7 +202,7 @@
 	},
 	{
 		"nb_binome":2,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"D",
@@ -221,7 +213,7 @@
 	},
 	{
 		"nb_binome":9,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YANG",
 		"influence":"TF",
@@ -232,7 +224,7 @@
 	},
 	{
 		"nb_binome":9,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YIN",
 		"influence":"CC",
@@ -243,7 +235,7 @@
 	},
 	{
 		"nb_binome":9,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"PC",
@@ -254,7 +246,7 @@
 	},
 	{
 		"nb_binome":9,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YIN",
 		"influence":"FC",
@@ -265,7 +257,7 @@
 	},
 	{
 		"nb_binome":9,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"D",
@@ -276,7 +268,7 @@
 	},
 	{
 		"nb_binome":9,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"TF",
@@ -287,7 +279,7 @@
 	},
 	{
 		"nb_binome":9,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"CC",
@@ -298,7 +290,7 @@
 	},
 	{
 		"nb_binome":9,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"PC",
@@ -309,7 +301,7 @@
 	},
 	{
 		"nb_binome":9,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YANG",
 		"influence":"FC",
@@ -320,7 +312,7 @@
 	},
 	{
 		"nb_binome":9,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"D",
@@ -331,7 +323,7 @@
 	},
 		{
 		"nb_binome":10,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YANG",
 		"influence":"TF",
@@ -342,7 +334,7 @@
 	},
 	{
 		"nb_binome":10,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YIN",
 		"influence":"CC",
@@ -353,7 +345,7 @@
 	},
 	{
 		"nb_binome":10,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"PC",
@@ -364,7 +356,7 @@
 	},
 	{
 		"nb_binome":10,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YIN",
 		"influence":"FC",
@@ -375,7 +367,7 @@
 	},
 	{
 		"nb_binome":10,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"D",
@@ -386,7 +378,7 @@
 	},
 	{
 		"nb_binome":10,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"TF",
@@ -397,7 +389,7 @@
 	},
 	{
 		"nb_binome":10,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"CC",
@@ -408,7 +400,7 @@
 	},
 	{
 		"nb_binome":10,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"PC",
@@ -419,7 +411,7 @@
 	},
 	{
 		"nb_binome":10,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YANG",
 		"influence":"FC",
@@ -430,7 +422,7 @@
 	},
 	{
 		"nb_binome":10,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"D",
@@ -441,7 +433,7 @@
 	},
 	{
 		"nb_binome":17,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YANG",
 		"influence":"TF",
@@ -452,7 +444,7 @@
 	},
 	{
 		"nb_binome":17,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YIN",
 		"influence":"CC",
@@ -463,7 +455,7 @@
 	},
 	{
 		"nb_binome":17,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"PC",
@@ -474,7 +466,7 @@
 	},
 	{
 		"nb_binome":17,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YIN",
 		"influence":"FC",
@@ -485,7 +477,7 @@
 	},
 	{
 		"nb_binome":17,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"D",
@@ -496,7 +488,7 @@
 	},
 	{
 		"nb_binome":17,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"TF",
@@ -507,7 +499,7 @@
 	},
 	{
 		"nb_binome":17,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"CC",
@@ -518,7 +510,7 @@
 	},
 	{
 		"nb_binome":17,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"PC",
@@ -529,7 +521,7 @@
 	},
 	{
 		"nb_binome":17,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YANG",
 		"influence":"FC",
@@ -540,7 +532,7 @@
 	},
 	{
 		"nb_binome":17,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"D",
@@ -551,7 +543,7 @@
 	},
 		{
 		"nb_binome":18,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YANG",
 		"influence":"TF",
@@ -562,7 +554,7 @@
 	},
 	{
 		"nb_binome":18,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YIN",
 		"influence":"CC",
@@ -573,7 +565,7 @@
 	},
 	{
 		"nb_binome":18,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"PC",
@@ -584,7 +576,7 @@
 	},
 	{
 		"nb_binome":18,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YIN",
 		"influence":"FC",
@@ -595,7 +587,7 @@
 	},
 	{
 		"nb_binome":18,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"D",
@@ -606,7 +598,7 @@
 	},
 	{
 		"nb_binome":18,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"TF",
@@ -617,7 +609,7 @@
 	},
 	{
 		"nb_binome":18,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"CC",
@@ -628,7 +620,7 @@
 	},
 	{
 		"nb_binome":18,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"PC",
@@ -639,7 +631,7 @@
 	},
 	{
 		"nb_binome":18,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YANG",
 		"influence":"FC",
@@ -650,7 +642,7 @@
 	},
 	{
 		"nb_binome":18,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"D",
@@ -661,7 +653,7 @@
 	},
 		{
 		"nb_binome":31,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YANG",
 		"influence":"TF",
@@ -672,7 +664,7 @@
 	},
 	{
 		"nb_binome":31,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YIN",
 		"influence":"CC",
@@ -683,7 +675,7 @@
 	},
 	{
 		"nb_binome":31,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"PC",
@@ -694,7 +686,7 @@
 	},
 	{
 		"nb_binome":31,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YIN",
 		"influence":"FC",
@@ -705,7 +697,7 @@
 	},
 	{
 		"nb_binome":31,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"D",
@@ -716,7 +708,7 @@
 	},
 	{
 		"nb_binome":31,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"TF",
@@ -727,7 +719,7 @@
 	},
 	{
 		"nb_binome":31,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"CC",
@@ -738,7 +730,7 @@
 	},
 	{
 		"nb_binome":31,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"PC",
@@ -749,7 +741,7 @@
 	},
 	{
 		"nb_binome":31,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YANG",
 		"influence":"FC",
@@ -760,7 +752,7 @@
 	},
 	{
 		"nb_binome":31,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"D",
@@ -771,7 +763,7 @@
 	},
 		{
 		"nb_binome":32,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YANG",
 		"influence":"TF",
@@ -782,7 +774,7 @@
 	},
 	{
 		"nb_binome":32,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YIN",
 		"influence":"CC",
@@ -793,7 +785,7 @@
 	},
 	{
 		"nb_binome":32,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"PC",
@@ -804,7 +796,7 @@
 	},
 	{
 		"nb_binome":32,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YIN",
 		"influence":"FC",
@@ -815,7 +807,7 @@
 	},
 	{
 		"nb_binome":32,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"D",
@@ -826,7 +818,7 @@
 	},
 	{
 		"nb_binome":32,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"TF",
@@ -837,7 +829,7 @@
 	},
 	{
 		"nb_binome":32,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"CC",
@@ -848,7 +840,7 @@
 	},
 	{
 		"nb_binome":32,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"PC",
@@ -859,7 +851,7 @@
 	},
 	{
 		"nb_binome":32,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YANG",
 		"influence":"FC",
@@ -870,7 +862,7 @@
 	},
 	{
 		"nb_binome":32,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"D",
@@ -881,7 +873,7 @@
 	},
 		{
 		"nb_binome":39,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YANG",
 		"influence":"TF",
@@ -892,7 +884,7 @@
 	},
 	{
 		"nb_binome":39,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YIN",
 		"influence":"CC",
@@ -903,7 +895,7 @@
 	},
 	{
 		"nb_binome":39,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"PC",
@@ -914,7 +906,7 @@
 	},
 	{
 		"nb_binome":39,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YIN",
 		"influence":"FC",
@@ -925,7 +917,7 @@
 	},
 	{
 		"nb_binome":39,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"D",
@@ -936,7 +928,7 @@
 	},
 	{
 		"nb_binome":39,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"TF",
@@ -947,7 +939,7 @@
 	},
 	{
 		"nb_binome":39,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"CC",
@@ -958,7 +950,7 @@
 	},
 	{
 		"nb_binome":39,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"PC",
@@ -969,7 +961,7 @@
 	},
 	{
 		"nb_binome":39,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YANG",
 		"influence":"FC",
@@ -980,7 +972,7 @@
 	},
 	{
 		"nb_binome":39,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"D",
@@ -991,7 +983,7 @@
 	},
 		{
 		"nb_binome":40,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YANG",
 		"influence":"TF",
@@ -1002,7 +994,7 @@
 	},
 	{
 		"nb_binome":40,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YIN",
 		"influence":"CC",
@@ -1013,7 +1005,7 @@
 	},
 	{
 		"nb_binome":40,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"PC",
@@ -1024,7 +1016,7 @@
 	},
 	{
 		"nb_binome":40,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YIN",
 		"influence":"FC",
@@ -1035,7 +1027,7 @@
 	},
 	{
 		"nb_binome":40,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"D",
@@ -1046,7 +1038,7 @@
 	},
 	{
 		"nb_binome":40,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"TF",
@@ -1057,7 +1049,7 @@
 	},
 	{
 		"nb_binome":40,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"CC",
@@ -1068,7 +1060,7 @@
 	},
 	{
 		"nb_binome":40,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"PC",
@@ -1079,7 +1071,7 @@
 	},
 	{
 		"nb_binome":40,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YANG",
 		"influence":"FC",
@@ -1090,7 +1082,7 @@
 	},
 	{
 		"nb_binome":40,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"D",
@@ -1101,7 +1093,7 @@
 	},
 			{
 		"nb_binome":47,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YANG",
 		"influence":"TF",
@@ -1112,7 +1104,7 @@
 	},
 	{
 		"nb_binome":47,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YIN",
 		"influence":"CC",
@@ -1123,7 +1115,7 @@
 	},
 	{
 		"nb_binome":47,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"PC",
@@ -1134,7 +1126,7 @@
 	},
 	{
 		"nb_binome":47,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YIN",
 		"influence":"FC",
@@ -1145,7 +1137,7 @@
 	},
 	{
 		"nb_binome":47,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"D",
@@ -1156,7 +1148,7 @@
 	},
 	{
 		"nb_binome":47,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"TF",
@@ -1167,7 +1159,7 @@
 	},
 	{
 		"nb_binome":47,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"CC",
@@ -1178,7 +1170,7 @@
 	},
 	{
 		"nb_binome":47,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"PC",
@@ -1189,7 +1181,7 @@
 	},
 	{
 		"nb_binome":47,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YANG",
 		"influence":"FC",
@@ -1200,7 +1192,7 @@
 	},
 	{
 		"nb_binome":47,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"D",
@@ -1211,7 +1203,7 @@
 	},
 		{
 		"nb_binome":48,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YANG",
 		"influence":"TF",
@@ -1222,7 +1214,7 @@
 	},
 	{
 		"nb_binome":48,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YIN",
 		"influence":"CC",
@@ -1233,7 +1225,7 @@
 	},
 	{
 		"nb_binome":48,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"PC",
@@ -1244,7 +1236,7 @@
 	},
 	{
 		"nb_binome":48,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YIN",
 		"influence":"FC",
@@ -1255,7 +1247,7 @@
 	},
 	{
 		"nb_binome":48,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"D",
@@ -1266,7 +1258,7 @@
 	},
 	{
 		"nb_binome":48,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"TF",
@@ -1277,7 +1269,7 @@
 	},
 	{
 		"nb_binome":48,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"CC",
@@ -1288,7 +1280,7 @@
 	},
 	{
 		"nb_binome":48,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"PC",
@@ -1299,7 +1291,7 @@
 	},
 	{
 		"nb_binome":48,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YANG",
 		"influence":"FC",
@@ -1310,7 +1302,7 @@
 	},
 	{
 		"nb_binome":48,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"D",
@@ -1321,7 +1313,7 @@
 	},
 	{
 		"nb_binome":3,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YANG",
 		"influence":"D",
@@ -1332,7 +1324,7 @@
 	},
 	{
 		"nb_binome":3,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YIN",
 		"influence":"TF",
@@ -1343,7 +1335,7 @@
 	},
 	{
 		"nb_binome":3,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"CC",
@@ -1354,7 +1346,7 @@
 	},
 	{
 		"nb_binome":3,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YIN",
 		"influence":"PC",
@@ -1365,7 +1357,7 @@
 	},
 	{
 		"nb_binome":3,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"FC",
@@ -1376,7 +1368,7 @@
 	},
 	{
 		"nb_binome":3,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"D",
@@ -1387,7 +1379,7 @@
 	},
 	{
 		"nb_binome":3,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"TF",
@@ -1398,7 +1390,7 @@
 	},
 	{
 		"nb_binome":3,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"CC",
@@ -1409,7 +1401,7 @@
 	},
 	{
 		"nb_binome":3,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YANG",
 		"influence":"PC",
@@ -1420,7 +1412,7 @@
 	},
 	{
 		"nb_binome":3,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"FC",
@@ -1431,7 +1423,7 @@
 	},
 	{
 		"nb_binome":4,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YANG",
 		"influence":"D",
@@ -1442,7 +1434,7 @@
 	},
 	{
 		"nb_binome":4,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YIN",
 		"influence":"TF",
@@ -1453,7 +1445,7 @@
 	},
 	{
 		"nb_binome":4,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"CC",
@@ -1464,7 +1456,7 @@
 	},
 	{
 		"nb_binome":4,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YIN",
 		"influence":"PC",
@@ -1475,7 +1467,7 @@
 	},
 	{
 		"nb_binome":4,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"FC",
@@ -1486,7 +1478,7 @@
 	},
 	{
 		"nb_binome":4,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"D",
@@ -1497,7 +1489,7 @@
 	},
 	{
 		"nb_binome":4,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"TF",
@@ -1508,7 +1500,7 @@
 	},
 	{
 		"nb_binome":4,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"CC",
@@ -1519,7 +1511,7 @@
 	},
 	{
 		"nb_binome":4,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YANG",
 		"influence":"PC",
@@ -1530,7 +1522,7 @@
 	},
 	{
 		"nb_binome":4,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"FC",
@@ -1541,7 +1533,7 @@
 	},
 	{
 		"nb_binome":11,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YANG",
 		"influence":"D",
@@ -1552,7 +1544,7 @@
 	},
 	{
 		"nb_binome":11,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YIN",
 		"influence":"TF",
@@ -1563,7 +1555,7 @@
 	},
 	{
 		"nb_binome":11,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"CC",
@@ -1574,7 +1566,7 @@
 	},
 	{
 		"nb_binome":11,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YIN",
 		"influence":"PC",
@@ -1585,7 +1577,7 @@
 	},
 	{
 		"nb_binome":11,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"FC",
@@ -1596,7 +1588,7 @@
 	},
 	{
 		"nb_binome":11,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"D",
@@ -1607,7 +1599,7 @@
 	},
 	{
 		"nb_binome":11,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"TF",
@@ -1618,7 +1610,7 @@
 	},
 	{
 		"nb_binome":11,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"CC",
@@ -1629,7 +1621,7 @@
 	},
 	{
 		"nb_binome":11,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YANG",
 		"influence":"PC",
@@ -1640,7 +1632,7 @@
 	},
 	{
 		"nb_binome":11,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"FC",
@@ -1651,7 +1643,7 @@
 	},
 	{
 		"nb_binome":12,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YANG",
 		"influence":"D",
@@ -1662,7 +1654,7 @@
 	},
 	{
 		"nb_binome":12,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YIN",
 		"influence":"TF",
@@ -1673,7 +1665,7 @@
 	},
 	{
 		"nb_binome":12,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"CC",
@@ -1684,7 +1676,7 @@
 	},
 	{
 		"nb_binome":12,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YIN",
 		"influence":"PC",
@@ -1695,7 +1687,7 @@
 	},
 	{
 		"nb_binome":12,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"FC",
@@ -1706,7 +1698,7 @@
 	},
 	{
 		"nb_binome":12,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"D",
@@ -1717,7 +1709,7 @@
 	},
 	{
 		"nb_binome":12,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"TF",
@@ -1728,7 +1720,7 @@
 	},
 	{
 		"nb_binome":12,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"CC",
@@ -1739,7 +1731,7 @@
 	},
 	{
 		"nb_binome":12,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YANG",
 		"influence":"PC",
@@ -1750,7 +1742,7 @@
 	},
 	{
 		"nb_binome":12,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"FC",
@@ -1761,7 +1753,7 @@
 	},
 	{
 		"nb_binome":25,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YANG",
 		"influence":"D",
@@ -1772,7 +1764,7 @@
 	},
 	{
 		"nb_binome":25,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YIN",
 		"influence":"TF",
@@ -1783,7 +1775,7 @@
 	},
 	{
 		"nb_binome":25,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"CC",
@@ -1794,7 +1786,7 @@
 	},
 	{
 		"nb_binome":25,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YIN",
 		"influence":"PC",
@@ -1805,7 +1797,7 @@
 	},
 	{
 		"nb_binome":25,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"FC",
@@ -1816,7 +1808,7 @@
 	},
 	{
 		"nb_binome":25,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"D",
@@ -1827,7 +1819,7 @@
 	},
 	{
 		"nb_binome":25,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"TF",
@@ -1838,7 +1830,7 @@
 	},
 	{
 		"nb_binome":25,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"CC",
@@ -1849,7 +1841,7 @@
 	},
 	{
 		"nb_binome":25,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YANG",
 		"influence":"PC",
@@ -1860,7 +1852,7 @@
 	},
 	{
 		"nb_binome":25,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"FC",
@@ -1871,7 +1863,7 @@
 	},
 	{
 		"nb_binome":26,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YANG",
 		"influence":"D",
@@ -1882,7 +1874,7 @@
 	},
 	{
 		"nb_binome":26,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YIN",
 		"influence":"TF",
@@ -1893,7 +1885,7 @@
 	},
 	{
 		"nb_binome":26,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"CC",
@@ -1904,7 +1896,7 @@
 	},
 	{
 		"nb_binome":26,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YIN",
 		"influence":"PC",
@@ -1915,7 +1907,7 @@
 	},
 	{
 		"nb_binome":26,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"FC",
@@ -1926,7 +1918,7 @@
 	},
 	{
 		"nb_binome":26,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"D",
@@ -1937,7 +1929,7 @@
 	},
 	{
 		"nb_binome":26,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"TF",
@@ -1948,7 +1940,7 @@
 	},
 	{
 		"nb_binome":26,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"CC",
@@ -1959,7 +1951,7 @@
 	},
 	{
 		"nb_binome":26,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YANG",
 		"influence":"PC",
@@ -1970,7 +1962,7 @@
 	},
 	{
 		"nb_binome":26,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"FC",
@@ -1981,7 +1973,7 @@
 	},
 	{
 		"nb_binome":33,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YANG",
 		"influence":"D",
@@ -1992,7 +1984,7 @@
 	},
 	{
 		"nb_binome":33,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YIN",
 		"influence":"TF",
@@ -2003,7 +1995,7 @@
 	},
 	{
 		"nb_binome":33,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"CC",
@@ -2014,7 +2006,7 @@
 	},
 	{
 		"nb_binome":33,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YIN",
 		"influence":"PC",
@@ -2025,7 +2017,7 @@
 	},
 	{
 		"nb_binome":33,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"FC",
@@ -2036,7 +2028,7 @@
 	},
 	{
 		"nb_binome":33,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"D",
@@ -2047,7 +2039,7 @@
 	},
 	{
 		"nb_binome":33,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"TF",
@@ -2058,7 +2050,7 @@
 	},
 	{
 		"nb_binome":33,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"CC",
@@ -2069,7 +2061,7 @@
 	},
 	{
 		"nb_binome":33,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YANG",
 		"influence":"PC",
@@ -2080,7 +2072,7 @@
 	},
 	{
 		"nb_binome":33,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"FC",
@@ -2091,7 +2083,7 @@
 	},
 	{
 		"nb_binome":34,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YANG",
 		"influence":"D",
@@ -2102,7 +2094,7 @@
 	},
 	{
 		"nb_binome":34,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YIN",
 		"influence":"TF",
@@ -2113,7 +2105,7 @@
 	},
 	{
 		"nb_binome":34,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"CC",
@@ -2124,7 +2116,7 @@
 	},
 	{
 		"nb_binome":34,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YIN",
 		"influence":"PC",
@@ -2135,7 +2127,7 @@
 	},
 	{
 		"nb_binome":34,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"FC",
@@ -2146,7 +2138,7 @@
 	},
 	{
 		"nb_binome":34,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"D",
@@ -2157,7 +2149,7 @@
 	},
 	{
 		"nb_binome":34,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"TF",
@@ -2168,7 +2160,7 @@
 	},
 	{
 		"nb_binome":34,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"CC",
@@ -2179,7 +2171,7 @@
 	},
 	{
 		"nb_binome":34,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YANG",
 		"influence":"PC",
@@ -2190,7 +2182,7 @@
 	},
 	{
 		"nb_binome":34,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"FC",
@@ -2201,7 +2193,7 @@
 	},
 	{
 		"nb_binome":41,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YANG",
 		"influence":"D",
@@ -2212,7 +2204,7 @@
 	},
 	{
 		"nb_binome":41,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YIN",
 		"influence":"TF",
@@ -2223,7 +2215,7 @@
 	},
 	{
 		"nb_binome":41,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"CC",
@@ -2234,7 +2226,7 @@
 	},
 	{
 		"nb_binome":41,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YIN",
 		"influence":"PC",
@@ -2245,7 +2237,7 @@
 	},
 	{
 		"nb_binome":41,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"FC",
@@ -2256,7 +2248,7 @@
 	},
 	{
 		"nb_binome":41,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"D",
@@ -2267,7 +2259,7 @@
 	},
 	{
 		"nb_binome":41,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"TF",
@@ -2278,7 +2270,7 @@
 	},
 	{
 		"nb_binome":41,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"CC",
@@ -2289,7 +2281,7 @@
 	},
 	{
 		"nb_binome":41,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YANG",
 		"influence":"PC",
@@ -2300,7 +2292,7 @@
 	},
 	{
 		"nb_binome":41,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"FC",
@@ -2311,7 +2303,7 @@
 	},
 	{
 		"nb_binome":42,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YANG",
 		"influence":"D",
@@ -2322,7 +2314,7 @@
 	},
 	{
 		"nb_binome":42,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YIN",
 		"influence":"TF",
@@ -2333,7 +2325,7 @@
 	},
 	{
 		"nb_binome":42,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"CC",
@@ -2344,7 +2336,7 @@
 	},
 	{
 		"nb_binome":42,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YIN",
 		"influence":"PC",
@@ -2355,7 +2347,7 @@
 	},
 	{
 		"nb_binome":42,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"FC",
@@ -2366,7 +2358,7 @@
 	},
 	{
 		"nb_binome":42,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"D",
@@ -2377,7 +2369,7 @@
 	},
 	{
 		"nb_binome":42,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"TF",
@@ -2388,7 +2380,7 @@
 	},
 	{
 		"nb_binome":42,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"CC",
@@ -2399,7 +2391,7 @@
 	},
 	{
 		"nb_binome":42,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YANG",
 		"influence":"PC",
@@ -2410,7 +2402,7 @@
 	},
 	{
 		"nb_binome":42,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"FC",
@@ -2421,7 +2413,7 @@
 	},
 	{
 		"nb_binome":55,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YANG",
 		"influence":"D",
@@ -2432,7 +2424,7 @@
 	},
 	{
 		"nb_binome":55,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YIN",
 		"influence":"TF",
@@ -2443,7 +2435,7 @@
 	},
 	{
 		"nb_binome":55,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"CC",
@@ -2454,7 +2446,7 @@
 	},
 	{
 		"nb_binome":55,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YIN",
 		"influence":"PC",
@@ -2465,7 +2457,7 @@
 	},
 	{
 		"nb_binome":55,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"FC",
@@ -2476,7 +2468,7 @@
 	},
 	{
 		"nb_binome":55,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"D",
@@ -2487,7 +2479,7 @@
 	},
 	{
 		"nb_binome":55,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"TF",
@@ -2498,7 +2490,7 @@
 	},
 	{
 		"nb_binome":55,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"CC",
@@ -2509,7 +2501,7 @@
 	},
 	{
 		"nb_binome":55,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YANG",
 		"influence":"PC",
@@ -2520,7 +2512,7 @@
 	},
 	{
 		"nb_binome":55,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"FC",
@@ -2531,7 +2523,7 @@
 	},
 	{
 		"nb_binome":56,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YANG",
 		"influence":"D",
@@ -2542,7 +2534,7 @@
 	},
 	{
 		"nb_binome":56,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YIN",
 		"influence":"TF",
@@ -2553,7 +2545,7 @@
 	},
 	{
 		"nb_binome":56,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"CC",
@@ -2564,7 +2556,7 @@
 	},
 	{
 		"nb_binome":56,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YIN",
 		"influence":"PC",
@@ -2575,7 +2567,7 @@
 	},
 	{
 		"nb_binome":56,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"FC",
@@ -2586,7 +2578,7 @@
 	},
 	{
 		"nb_binome":56,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"D",
@@ -2597,7 +2589,7 @@
 	},
 	{
 		"nb_binome":56,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"TF",
@@ -2608,7 +2600,7 @@
 	},
 	{
 		"nb_binome":56,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"CC",
@@ -2619,7 +2611,7 @@
 	},
 	{
 		"nb_binome":56,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YANG",
 		"influence":"PC",
@@ -2630,7 +2622,7 @@
 	},
 	{
 		"nb_binome":56,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"FC",
@@ -2641,7 +2633,7 @@
 	},
 		{
 		"nb_binome":5,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YANG",
 		"influence":"CC",
@@ -2652,7 +2644,7 @@
 	},	
 	{
 		"nb_binome":5,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YIN",
 		"influence":"PC",
@@ -2663,7 +2655,7 @@
 	},
 	{
 		"nb_binome":5,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"FC",
@@ -2674,7 +2666,7 @@
 	},
 	{
 		"nb_binome":5,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YIN",
 		"influence":"D",
@@ -2685,7 +2677,7 @@
 	},
 	{
 		"nb_binome":5,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"TF",
@@ -2696,7 +2688,7 @@
 	},
 	{
 		"nb_binome":5,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"CC",
@@ -2707,7 +2699,7 @@
 	},
 	{
 		"nb_binome":5,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"PC",
@@ -2718,7 +2710,7 @@
 	},
 	{
 		"nb_binome":5,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"FC",
@@ -2729,7 +2721,7 @@
 	},
 	{
 		"nb_binome":5,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YANG",
 		"influence":"D",
@@ -2740,7 +2732,7 @@
 	},
 	{
 		"nb_binome":5,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"TF",
@@ -2751,7 +2743,7 @@
 	},
 		{
 		"nb_binome":6,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YANG",
 		"influence":"CC",
@@ -2762,7 +2754,7 @@
 	},	
 	{
 		"nb_binome":6,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YIN",
 		"influence":"PC",
@@ -2773,7 +2765,7 @@
 	},
 	{
 		"nb_binome":6,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"FC",
@@ -2784,7 +2776,7 @@
 	},
 	{
 		"nb_binome":6,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YIN",
 		"influence":"D",
@@ -2795,7 +2787,7 @@
 	},
 	{
 		"nb_binome":6,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"TF",
@@ -2806,7 +2798,7 @@
 	},
 	{
 		"nb_binome":6,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"CC",
@@ -2817,7 +2809,7 @@
 	},
 	{
 		"nb_binome":6,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"PC",
@@ -2828,7 +2820,7 @@
 	},
 	{
 		"nb_binome":6,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"FC",
@@ -2839,7 +2831,7 @@
 	},
 	{
 		"nb_binome":6,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YANG",
 		"influence":"D",
@@ -2850,7 +2842,7 @@
 	},
 	{
 		"nb_binome":6,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"TF",
@@ -2861,7 +2853,7 @@
 	},
 			{
 		"nb_binome":19,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YANG",
 		"influence":"CC",
@@ -2872,7 +2864,7 @@
 	},	
 	{
 		"nb_binome":19,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YIN",
 		"influence":"PC",
@@ -2883,7 +2875,7 @@
 	},
 	{
 		"nb_binome":19,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"FC",
@@ -2894,7 +2886,7 @@
 	},
 	{
 		"nb_binome":19,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YIN",
 		"influence":"D",
@@ -2905,7 +2897,7 @@
 	},
 	{
 		"nb_binome":19,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"TF",
@@ -2916,7 +2908,7 @@
 	},
 	{
 		"nb_binome":19,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"CC",
@@ -2927,7 +2919,7 @@
 	},
 	{
 		"nb_binome":19,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"PC",
@@ -2938,7 +2930,7 @@
 	},
 	{
 		"nb_binome":19,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"FC",
@@ -2949,7 +2941,7 @@
 	},
 	{
 		"nb_binome":19,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YANG",
 		"influence":"D",
@@ -2960,7 +2952,7 @@
 	},
 	{
 		"nb_binome":19,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"TF",
@@ -2971,7 +2963,7 @@
 	},
 			{
 		"nb_binome":20,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YANG",
 		"influence":"CC",
@@ -2982,7 +2974,7 @@
 	},	
 	{
 		"nb_binome":20,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YIN",
 		"influence":"PC",
@@ -2993,7 +2985,7 @@
 	},
 	{
 		"nb_binome":20,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"FC",
@@ -3004,7 +2996,7 @@
 	},
 	{
 		"nb_binome":20,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YIN",
 		"influence":"D",
@@ -3015,7 +3007,7 @@
 	},
 	{
 		"nb_binome":20,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"TF",
@@ -3026,7 +3018,7 @@
 	},
 	{
 		"nb_binome":20,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"CC",
@@ -3037,7 +3029,7 @@
 	},
 	{
 		"nb_binome":20,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"PC",
@@ -3048,7 +3040,7 @@
 	},
 	{
 		"nb_binome":20,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"FC",
@@ -3059,7 +3051,7 @@
 	},
 	{
 		"nb_binome":20,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YANG",
 		"influence":"D",
@@ -3070,7 +3062,7 @@
 	},
 	{
 		"nb_binome":20,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"TF",
@@ -3081,7 +3073,7 @@
 	},
 			{
 		"nb_binome":27,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YANG",
 		"influence":"CC",
@@ -3092,7 +3084,7 @@
 	},	
 	{
 		"nb_binome":27,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YIN",
 		"influence":"PC",
@@ -3103,7 +3095,7 @@
 	},
 	{
 		"nb_binome":27,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"FC",
@@ -3114,7 +3106,7 @@
 	},
 	{
 		"nb_binome":27,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YIN",
 		"influence":"D",
@@ -3125,7 +3117,7 @@
 	},
 	{
 		"nb_binome":27,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"TF",
@@ -3136,7 +3128,7 @@
 	},
 	{
 		"nb_binome":27,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"CC",
@@ -3147,7 +3139,7 @@
 	},
 	{
 		"nb_binome":27,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"PC",
@@ -3158,7 +3150,7 @@
 	},
 	{
 		"nb_binome":27,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"FC",
@@ -3169,7 +3161,7 @@
 	},
 	{
 		"nb_binome":27,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YANG",
 		"influence":"D",
@@ -3180,7 +3172,7 @@
 	},
 	{
 		"nb_binome":27,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"TF",
@@ -3191,7 +3183,7 @@
 	},
 			{
 		"nb_binome":28,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YANG",
 		"influence":"CC",
@@ -3202,7 +3194,7 @@
 	},	
 	{
 		"nb_binome":28,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YIN",
 		"influence":"PC",
@@ -3213,7 +3205,7 @@
 	},
 	{
 		"nb_binome":28,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"FC",
@@ -3224,7 +3216,7 @@
 	},
 	{
 		"nb_binome":28,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YIN",
 		"influence":"D",
@@ -3235,7 +3227,7 @@
 	},
 	{
 		"nb_binome":28,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"TF",
@@ -3246,7 +3238,7 @@
 	},
 	{
 		"nb_binome":28,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"CC",
@@ -3257,7 +3249,7 @@
 	},
 	{
 		"nb_binome":28,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"PC",
@@ -3268,7 +3260,7 @@
 	},
 	{
 		"nb_binome":28,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"FC",
@@ -3279,7 +3271,7 @@
 	},
 	{
 		"nb_binome":28,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YANG",
 		"influence":"D",
@@ -3290,7 +3282,7 @@
 	},
 	{
 		"nb_binome":28,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"TF",
@@ -3301,7 +3293,7 @@
 	},
 			{
 		"nb_binome":35,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YANG",
 		"influence":"CC",
@@ -3312,7 +3304,7 @@
 	},	
 	{
 		"nb_binome":35,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YIN",
 		"influence":"PC",
@@ -3323,7 +3315,7 @@
 	},
 	{
 		"nb_binome":35,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"FC",
@@ -3334,7 +3326,7 @@
 	},
 	{
 		"nb_binome":35,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YIN",
 		"influence":"D",
@@ -3345,7 +3337,7 @@
 	},
 	{
 		"nb_binome":35,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"TF",
@@ -3356,7 +3348,7 @@
 	},
 	{
 		"nb_binome":35,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"CC",
@@ -3367,7 +3359,7 @@
 	},
 	{
 		"nb_binome":35,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"PC",
@@ -3378,7 +3370,7 @@
 	},
 	{
 		"nb_binome":35,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"FC",
@@ -3389,7 +3381,7 @@
 	},
 	{
 		"nb_binome":35,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YANG",
 		"influence":"D",
@@ -3400,7 +3392,7 @@
 	},
 	{
 		"nb_binome":35,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"TF",
@@ -3411,7 +3403,7 @@
 	},
 			{
 		"nb_binome":36,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YANG",
 		"influence":"CC",
@@ -3422,7 +3414,7 @@
 	},	
 	{
 		"nb_binome":36,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YIN",
 		"influence":"PC",
@@ -3433,7 +3425,7 @@
 	},
 	{
 		"nb_binome":36,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"FC",
@@ -3444,7 +3436,7 @@
 	},
 	{
 		"nb_binome":36,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YIN",
 		"influence":"D",
@@ -3455,7 +3447,7 @@
 	},
 	{
 		"nb_binome":36,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"TF",
@@ -3466,7 +3458,7 @@
 	},
 	{
 		"nb_binome":36,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"CC",
@@ -3477,7 +3469,7 @@
 	},
 	{
 		"nb_binome":36,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"PC",
@@ -3488,7 +3480,7 @@
 	},
 	{
 		"nb_binome":36,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"FC",
@@ -3499,7 +3491,7 @@
 	},
 	{
 		"nb_binome":36,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YANG",
 		"influence":"D",
@@ -3510,7 +3502,7 @@
 	},
 	{
 		"nb_binome":36,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"TF",
@@ -3521,7 +3513,7 @@
 	},
 			{
 		"nb_binome":49,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YANG",
 		"influence":"CC",
@@ -3532,7 +3524,7 @@
 	},	
 	{
 		"nb_binome":49,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YIN",
 		"influence":"PC",
@@ -3543,7 +3535,7 @@
 	},
 	{
 		"nb_binome":49,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"FC",
@@ -3554,7 +3546,7 @@
 	},
 	{
 		"nb_binome":49,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YIN",
 		"influence":"D",
@@ -3565,7 +3557,7 @@
 	},
 	{
 		"nb_binome":49,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"TF",
@@ -3576,7 +3568,7 @@
 	},
 	{
 		"nb_binome":49,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"CC",
@@ -3587,7 +3579,7 @@
 	},
 	{
 		"nb_binome":49,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"PC",
@@ -3598,7 +3590,7 @@
 	},
 	{
 		"nb_binome":49,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"FC",
@@ -3609,7 +3601,7 @@
 	},
 	{
 		"nb_binome":49,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YANG",
 		"influence":"D",
@@ -3620,7 +3612,7 @@
 	},
 	{
 		"nb_binome":49,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"TF",
@@ -3631,7 +3623,7 @@
 	},
 			{
 		"nb_binome":50,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YANG",
 		"influence":"CC",
@@ -3642,7 +3634,7 @@
 	},	
 	{
 		"nb_binome":50,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YIN",
 		"influence":"PC",
@@ -3653,7 +3645,7 @@
 	},
 	{
 		"nb_binome":50,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"FC",
@@ -3664,7 +3656,7 @@
 	},
 	{
 		"nb_binome":50,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YIN",
 		"influence":"D",
@@ -3675,7 +3667,7 @@
 	},
 	{
 		"nb_binome":50,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"TF",
@@ -3686,7 +3678,7 @@
 	},
 	{
 		"nb_binome":50,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"CC",
@@ -3697,7 +3689,7 @@
 	},
 	{
 		"nb_binome":50,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"PC",
@@ -3708,7 +3700,7 @@
 	},
 	{
 		"nb_binome":50,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"FC",
@@ -3719,7 +3711,7 @@
 	},
 	{
 		"nb_binome":50,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YANG",
 		"influence":"D",
@@ -3730,7 +3722,7 @@
 	},
 	{
 		"nb_binome":50,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"TF",
@@ -3741,7 +3733,7 @@
 	},
 			{
 		"nb_binome":57,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YANG",
 		"influence":"CC",
@@ -3752,7 +3744,7 @@
 	},	
 	{
 		"nb_binome":57,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YIN",
 		"influence":"PC",
@@ -3763,7 +3755,7 @@
 	},
 	{
 		"nb_binome":57,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"FC",
@@ -3774,7 +3766,7 @@
 	},
 	{
 		"nb_binome":57,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YIN",
 		"influence":"D",
@@ -3785,7 +3777,7 @@
 	},
 	{
 		"nb_binome":57,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"TF",
@@ -3796,7 +3788,7 @@
 	},
 	{
 		"nb_binome":57,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"CC",
@@ -3807,7 +3799,7 @@
 	},
 	{
 		"nb_binome":57,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"PC",
@@ -3818,7 +3810,7 @@
 	},
 	{
 		"nb_binome":57,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"FC",
@@ -3829,7 +3821,7 @@
 	},
 	{
 		"nb_binome":57,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YANG",
 		"influence":"D",
@@ -3840,7 +3832,7 @@
 	},
 	{
 		"nb_binome":57,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"TF",
@@ -3851,7 +3843,7 @@
 	},
 			{
 		"nb_binome":58,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YANG",
 		"influence":"CC",
@@ -3862,7 +3854,7 @@
 	},	
 	{
 		"nb_binome":58,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YIN",
 		"influence":"PC",
@@ -3873,7 +3865,7 @@
 	},
 	{
 		"nb_binome":58,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"FC",
@@ -3884,7 +3876,7 @@
 	},
 	{
 		"nb_binome":58,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YIN",
 		"influence":"D",
@@ -3895,7 +3887,7 @@
 	},
 	{
 		"nb_binome":58,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"TF",
@@ -3906,7 +3898,7 @@
 	},
 	{
 		"nb_binome":58,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"CC",
@@ -3917,7 +3909,7 @@
 	},
 	{
 		"nb_binome":58,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"PC",
@@ -3928,7 +3920,7 @@
 	},
 	{
 		"nb_binome":58,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"FC",
@@ -3939,7 +3931,7 @@
 	},
 	{
 		"nb_binome":58,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YANG",
 		"influence":"D",
@@ -3950,7 +3942,7 @@
 	},
 	{
 		"nb_binome":58,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"TF",
@@ -3961,7 +3953,7 @@
 	},
 	{
 		"nb_binome":7,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YANG",
 		"influence":"PC",
@@ -3972,7 +3964,7 @@
 	},
 	{
 		"nb_binome":7,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YIN",
 		"influence":"FC",
@@ -3983,7 +3975,7 @@
 	},
 	{
 		"nb_binome":7,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"D",
@@ -3994,7 +3986,7 @@
 	},
 	{
 		"nb_binome":7,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YIN",
 		"influence":"TF",
@@ -4005,7 +3997,7 @@
 	},
 	{
 		"nb_binome":7,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"CC",
@@ -4016,7 +4008,7 @@
 	},
 	{
 		"nb_binome":7,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"PC",
@@ -4027,7 +4019,7 @@
 	},
 	{
 		"nb_binome":7,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"FC",
@@ -4038,7 +4030,7 @@
 	},
 	{
 		"nb_binome":7,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"D",
@@ -4049,7 +4041,7 @@
 	},
 	{
 		"nb_binome":7,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YANG",
 		"influence":"TF",
@@ -4060,7 +4052,7 @@
 	},
 	{
 		"nb_binome":7,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"CC",
@@ -4071,7 +4063,7 @@
 	},
 	{
 		"nb_binome":8,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YANG",
 		"influence":"PC",
@@ -4082,7 +4074,7 @@
 	},
 	{
 		"nb_binome":8,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YIN",
 		"influence":"FC",
@@ -4093,7 +4085,7 @@
 	},
 	{
 		"nb_binome":8,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"D",
@@ -4104,7 +4096,7 @@
 	},
 	{
 		"nb_binome":8,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YIN",
 		"influence":"TF",
@@ -4115,7 +4107,7 @@
 	},
 	{
 		"nb_binome":8,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"CC",
@@ -4126,7 +4118,7 @@
 	},
 	{
 		"nb_binome":8,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"PC",
@@ -4137,7 +4129,7 @@
 	},
 	{
 		"nb_binome":8,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"FC",
@@ -4148,7 +4140,7 @@
 	},
 	{
 		"nb_binome":8,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"D",
@@ -4159,7 +4151,7 @@
 	},
 	{
 		"nb_binome":8,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YANG",
 		"influence":"TF",
@@ -4170,7 +4162,7 @@
 	},
 	{
 		"nb_binome":8,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"CC",
@@ -4181,7 +4173,7 @@
 	},
 		{
 		"nb_binome":15,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YANG",
 		"influence":"PC",
@@ -4192,7 +4184,7 @@
 	},
 	{
 		"nb_binome":15,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YIN",
 		"influence":"FC",
@@ -4203,7 +4195,7 @@
 	},
 	{
 		"nb_binome":15,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"D",
@@ -4214,7 +4206,7 @@
 	},
 	{
 		"nb_binome":15,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YIN",
 		"influence":"TF",
@@ -4225,7 +4217,7 @@
 	},
 	{
 		"nb_binome":15,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"CC",
@@ -4236,7 +4228,7 @@
 	},
 	{
 		"nb_binome":15,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"PC",
@@ -4247,7 +4239,7 @@
 	},
 	{
 		"nb_binome":15,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"FC",
@@ -4258,7 +4250,7 @@
 	},
 	{
 		"nb_binome":15,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"D",
@@ -4269,7 +4261,7 @@
 	},
 	{
 		"nb_binome":15,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YANG",
 		"influence":"TF",
@@ -4280,7 +4272,7 @@
 	},
 	{
 		"nb_binome":15,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"CC",
@@ -4291,7 +4283,7 @@
 	},
 		{
 		"nb_binome":16,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YANG",
 		"influence":"PC",
@@ -4302,7 +4294,7 @@
 	},
 	{
 		"nb_binome":16,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YIN",
 		"influence":"FC",
@@ -4313,7 +4305,7 @@
 	},
 	{
 		"nb_binome":16,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"D",
@@ -4324,7 +4316,7 @@
 	},
 	{
 		"nb_binome":16,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YIN",
 		"influence":"TF",
@@ -4335,7 +4327,7 @@
 	},
 	{
 		"nb_binome":16,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"CC",
@@ -4346,7 +4338,7 @@
 	},
 	{
 		"nb_binome":16,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"PC",
@@ -4357,7 +4349,7 @@
 	},
 	{
 		"nb_binome":16,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"FC",
@@ -4368,7 +4360,7 @@
 	},
 	{
 		"nb_binome":16,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"D",
@@ -4379,7 +4371,7 @@
 	},
 	{
 		"nb_binome":16,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YANG",
 		"influence":"TF",
@@ -4390,7 +4382,7 @@
 	},
 	{
 		"nb_binome":16,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"CC",
@@ -4401,7 +4393,7 @@
 	},
 		{
 		"nb_binome":23,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YANG",
 		"influence":"PC",
@@ -4412,7 +4404,7 @@
 	},
 	{
 		"nb_binome":23,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YIN",
 		"influence":"FC",
@@ -4423,7 +4415,7 @@
 	},
 	{
 		"nb_binome":23,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"D",
@@ -4434,7 +4426,7 @@
 	},
 	{
 		"nb_binome":23,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YIN",
 		"influence":"TF",
@@ -4445,7 +4437,7 @@
 	},
 	{
 		"nb_binome":23,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"CC",
@@ -4456,7 +4448,7 @@
 	},
 	{
 		"nb_binome":23,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"PC",
@@ -4467,7 +4459,7 @@
 	},
 	{
 		"nb_binome":23,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"FC",
@@ -4478,7 +4470,7 @@
 	},
 	{
 		"nb_binome":23,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"D",
@@ -4489,7 +4481,7 @@
 	},
 	{
 		"nb_binome":23,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YANG",
 		"influence":"TF",
@@ -4500,7 +4492,7 @@
 	},
 	{
 		"nb_binome":23,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"CC",
@@ -4511,7 +4503,7 @@
 	},
 		{
 		"nb_binome":24,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YANG",
 		"influence":"PC",
@@ -4522,7 +4514,7 @@
 	},
 	{
 		"nb_binome":24,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YIN",
 		"influence":"FC",
@@ -4533,7 +4525,7 @@
 	},
 	{
 		"nb_binome":24,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"D",
@@ -4544,7 +4536,7 @@
 	},
 	{
 		"nb_binome":24,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YIN",
 		"influence":"TF",
@@ -4555,7 +4547,7 @@
 	},
 	{
 		"nb_binome":24,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"CC",
@@ -4566,7 +4558,7 @@
 	},
 	{
 		"nb_binome":24,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"PC",
@@ -4577,7 +4569,7 @@
 	},
 	{
 		"nb_binome":24,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"FC",
@@ -4588,7 +4580,7 @@
 	},
 	{
 		"nb_binome":24,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"D",
@@ -4599,7 +4591,7 @@
 	},
 	{
 		"nb_binome":24,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YANG",
 		"influence":"TF",
@@ -4610,7 +4602,7 @@
 	},
 	{
 		"nb_binome":24,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"CC",
@@ -4621,7 +4613,7 @@
 	},
 		{
 		"nb_binome":37,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YANG",
 		"influence":"PC",
@@ -4632,7 +4624,7 @@
 	},
 	{
 		"nb_binome":37,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YIN",
 		"influence":"FC",
@@ -4643,7 +4635,7 @@
 	},
 	{
 		"nb_binome":37,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"D",
@@ -4654,7 +4646,7 @@
 	},
 	{
 		"nb_binome":37,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YIN",
 		"influence":"TF",
@@ -4665,7 +4657,7 @@
 	},
 	{
 		"nb_binome":37,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"CC",
@@ -4676,7 +4668,7 @@
 	},
 	{
 		"nb_binome":37,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"PC",
@@ -4687,7 +4679,7 @@
 	},
 	{
 		"nb_binome":37,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"FC",
@@ -4698,7 +4690,7 @@
 	},
 	{
 		"nb_binome":37,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"D",
@@ -4709,7 +4701,7 @@
 	},
 	{
 		"nb_binome":37,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YANG",
 		"influence":"TF",
@@ -4720,7 +4712,7 @@
 	},
 	{
 		"nb_binome":37,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"CC",
@@ -4731,7 +4723,7 @@
 	},
 		{
 		"nb_binome":38,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YANG",
 		"influence":"PC",
@@ -4742,7 +4734,7 @@
 	},
 	{
 		"nb_binome":38,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YIN",
 		"influence":"FC",
@@ -4753,7 +4745,7 @@
 	},
 	{
 		"nb_binome":38,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"D",
@@ -4764,7 +4756,7 @@
 	},
 	{
 		"nb_binome":38,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YIN",
 		"influence":"TF",
@@ -4775,7 +4767,7 @@
 	},
 	{
 		"nb_binome":38,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"CC",
@@ -4786,7 +4778,7 @@
 	},
 	{
 		"nb_binome":38,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"PC",
@@ -4797,7 +4789,7 @@
 	},
 	{
 		"nb_binome":38,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"FC",
@@ -4808,7 +4800,7 @@
 	},
 	{
 		"nb_binome":38,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"D",
@@ -4819,7 +4811,7 @@
 	},
 	{
 		"nb_binome":38,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YANG",
 		"influence":"TF",
@@ -4830,7 +4822,7 @@
 	},
 	{
 		"nb_binome":38,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"CC",
@@ -4841,7 +4833,7 @@
 	},
 		{
 		"nb_binome":45,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YANG",
 		"influence":"PC",
@@ -4852,7 +4844,7 @@
 	},
 	{
 		"nb_binome":45,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YIN",
 		"influence":"FC",
@@ -4863,7 +4855,7 @@
 	},
 	{
 		"nb_binome":45,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"D",
@@ -4874,7 +4866,7 @@
 	},
 	{
 		"nb_binome":45,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YIN",
 		"influence":"TF",
@@ -4885,7 +4877,7 @@
 	},
 	{
 		"nb_binome":45,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"CC",
@@ -4896,7 +4888,7 @@
 	},
 	{
 		"nb_binome":45,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"PC",
@@ -4907,7 +4899,7 @@
 	},
 	{
 		"nb_binome":45,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"FC",
@@ -4918,7 +4910,7 @@
 	},
 	{
 		"nb_binome":45,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"D",
@@ -4929,7 +4921,7 @@
 	},
 	{
 		"nb_binome":45,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YANG",
 		"influence":"TF",
@@ -4940,7 +4932,7 @@
 	},
 	{
 		"nb_binome":45,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"CC",
@@ -4951,7 +4943,7 @@
 	},
 		{
 		"nb_binome":46,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YANG",
 		"influence":"PC",
@@ -4962,7 +4954,7 @@
 	},
 	{
 		"nb_binome":46,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YIN",
 		"influence":"FC",
@@ -4973,7 +4965,7 @@
 	},
 	{
 		"nb_binome":46,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"D",
@@ -4984,7 +4976,7 @@
 	},
 	{
 		"nb_binome":46,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YIN",
 		"influence":"TF",
@@ -4995,7 +4987,7 @@
 	},
 	{
 		"nb_binome":46,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"CC",
@@ -5006,7 +4998,7 @@
 	},
 	{
 		"nb_binome":46,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"PC",
@@ -5017,7 +5009,7 @@
 	},
 	{
 		"nb_binome":46,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"FC",
@@ -5028,7 +5020,7 @@
 	},
 	{
 		"nb_binome":46,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"D",
@@ -5039,7 +5031,7 @@
 	},
 	{
 		"nb_binome":46,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YANG",
 		"influence":"TF",
@@ -5050,7 +5042,7 @@
 	},
 	{
 		"nb_binome":46,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"CC",
@@ -5061,7 +5053,7 @@
 	},
 		{
 		"nb_binome":53,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YANG",
 		"influence":"PC",
@@ -5072,7 +5064,7 @@
 	},
 	{
 		"nb_binome":53,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YIN",
 		"influence":"FC",
@@ -5083,7 +5075,7 @@
 	},
 	{
 		"nb_binome":53,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"D",
@@ -5094,7 +5086,7 @@
 	},
 	{
 		"nb_binome":53,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YIN",
 		"influence":"TF",
@@ -5105,7 +5097,7 @@
 	},
 	{
 		"nb_binome":53,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"CC",
@@ -5116,7 +5108,7 @@
 	},
 	{
 		"nb_binome":53,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"PC",
@@ -5127,7 +5119,7 @@
 	},
 	{
 		"nb_binome":53,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"FC",
@@ -5138,7 +5130,7 @@
 	},
 	{
 		"nb_binome":53,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"D",
@@ -5149,7 +5141,7 @@
 	},
 	{
 		"nb_binome":53,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YANG",
 		"influence":"TF",
@@ -5160,7 +5152,7 @@
 	},
 	{
 		"nb_binome":53,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"CC",
@@ -5171,7 +5163,7 @@
 	},
 		{
 		"nb_binome":54,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YANG",
 		"influence":"PC",
@@ -5182,7 +5174,7 @@
 	},
 	{
 		"nb_binome":54,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YIN",
 		"influence":"FC",
@@ -5193,7 +5185,7 @@
 	},
 	{
 		"nb_binome":54,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"D",
@@ -5204,7 +5196,7 @@
 	},
 	{
 		"nb_binome":54,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YIN",
 		"influence":"TF",
@@ -5215,7 +5207,7 @@
 	},
 	{
 		"nb_binome":54,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"CC",
@@ -5226,7 +5218,7 @@
 	},
 	{
 		"nb_binome":54,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"PC",
@@ -5237,7 +5229,7 @@
 	},
 	{
 		"nb_binome":54,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"FC",
@@ -5248,7 +5240,7 @@
 	},
 	{
 		"nb_binome":54,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"D",
@@ -5259,7 +5251,7 @@
 	},
 	{
 		"nb_binome":54,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YANG",
 		"influence":"TF",
@@ -5270,7 +5262,7 @@
 	},
 	{
 		"nb_binome":54,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"CC",
@@ -5281,7 +5273,7 @@
 	},
 	{
 		"nb_binome":13,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YANG",
 		"influence":"FC",
@@ -5292,7 +5284,7 @@
 	},
 	{
 		"nb_binome":13,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YIN",
 		"influence":"D",
@@ -5303,7 +5295,7 @@
 	},
 	{
 		"nb_binome":13,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"TF",
@@ -5314,7 +5306,7 @@
 	},
 	{
 		"nb_binome":13,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YIN",
 		"influence":"CC",
@@ -5325,7 +5317,7 @@
 	},
 	{
 		"nb_binome":13,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"PC",
@@ -5336,7 +5328,7 @@
 	},
 	{
 		"nb_binome":13,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"FC",
@@ -5347,7 +5339,7 @@
 	},
 	{
 		"nb_binome":13,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"D",
@@ -5358,7 +5350,7 @@
 	},
 	{
 		"nb_binome":13,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"TF",
@@ -5369,7 +5361,7 @@
 	},
 	{
 		"nb_binome":13,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YANG",
 		"influence":"CC",
@@ -5380,7 +5372,7 @@
 	},
 	{
 		"nb_binome":13,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"PC",
@@ -5391,7 +5383,7 @@
 	},
 	{
 		"nb_binome":14,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YANG",
 		"influence":"FC",
@@ -5402,7 +5394,7 @@
 	},
 	{
 		"nb_binome":14,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YIN",
 		"influence":"D",
@@ -5413,7 +5405,7 @@
 	},
 	{
 		"nb_binome":14,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"TF",
@@ -5424,7 +5416,7 @@
 	},
 	{
 		"nb_binome":14,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YIN",
 		"influence":"CC",
@@ -5435,7 +5427,7 @@
 	},
 	{
 		"nb_binome":14,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"PC",
@@ -5446,7 +5438,7 @@
 	},
 	{
 		"nb_binome":14,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"FC",
@@ -5457,7 +5449,7 @@
 	},
 	{
 		"nb_binome":14,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"D",
@@ -5468,7 +5460,7 @@
 	},
 	{
 		"nb_binome":14,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"TF",
@@ -5479,7 +5471,7 @@
 	},
 	{
 		"nb_binome":14,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YANG",
 		"influence":"CC",
@@ -5490,7 +5482,7 @@
 	},
 	{
 		"nb_binome":14,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"PC",
@@ -5501,7 +5493,7 @@
 	},
 	{
 		"nb_binome":21,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YANG",
 		"influence":"FC",
@@ -5512,7 +5504,7 @@
 	},
 	{
 		"nb_binome":21,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YIN",
 		"influence":"D",
@@ -5523,7 +5515,7 @@
 	},
 	{
 		"nb_binome":21,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"TF",
@@ -5534,7 +5526,7 @@
 	},
 	{
 		"nb_binome":21,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YIN",
 		"influence":"CC",
@@ -5545,7 +5537,7 @@
 	},
 	{
 		"nb_binome":21,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"PC",
@@ -5556,7 +5548,7 @@
 	},
 	{
 		"nb_binome":21,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"FC",
@@ -5567,7 +5559,7 @@
 	},
 	{
 		"nb_binome":21,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"D",
@@ -5578,7 +5570,7 @@
 	},
 	{
 		"nb_binome":21,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"TF",
@@ -5589,7 +5581,7 @@
 	},
 	{
 		"nb_binome":21,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YANG",
 		"influence":"CC",
@@ -5600,7 +5592,7 @@
 	},
 	{
 		"nb_binome":21,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"PC",
@@ -5611,7 +5603,7 @@
 	},
 	{
 		"nb_binome":22,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YANG",
 		"influence":"FC",
@@ -5622,7 +5614,7 @@
 	},
 	{
 		"nb_binome":22,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YIN",
 		"influence":"D",
@@ -5633,7 +5625,7 @@
 	},
 	{
 		"nb_binome":22,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"TF",
@@ -5644,7 +5636,7 @@
 	},
 	{
 		"nb_binome":22,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YIN",
 		"influence":"CC",
@@ -5655,7 +5647,7 @@
 	},
 	{
 		"nb_binome":22,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"PC",
@@ -5666,7 +5658,7 @@
 	},
 	{
 		"nb_binome":22,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"FC",
@@ -5677,7 +5669,7 @@
 	},
 	{
 		"nb_binome":22,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"D",
@@ -5688,7 +5680,7 @@
 	},
 	{
 		"nb_binome":22,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"TF",
@@ -5699,7 +5691,7 @@
 	},
 	{
 		"nb_binome":22,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YANG",
 		"influence":"CC",
@@ -5710,7 +5702,7 @@
 	},
 	{
 		"nb_binome":22,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"PC",
@@ -5721,7 +5713,7 @@
 	},
 	{
 		"nb_binome":29,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YANG",
 		"influence":"FC",
@@ -5732,7 +5724,7 @@
 	},
 	{
 		"nb_binome":29,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YIN",
 		"influence":"D",
@@ -5743,7 +5735,7 @@
 	},
 	{
 		"nb_binome":29,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"TF",
@@ -5754,7 +5746,7 @@
 	},
 	{
 		"nb_binome":29,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YIN",
 		"influence":"CC",
@@ -5765,7 +5757,7 @@
 	},
 	{
 		"nb_binome":29,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"PC",
@@ -5776,7 +5768,7 @@
 	},
 	{
 		"nb_binome":29,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"FC",
@@ -5787,7 +5779,7 @@
 	},
 	{
 		"nb_binome":29,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"D",
@@ -5798,7 +5790,7 @@
 	},
 	{
 		"nb_binome":29,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"TF",
@@ -5809,7 +5801,7 @@
 	},
 	{
 		"nb_binome":29,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YANG",
 		"influence":"CC",
@@ -5820,7 +5812,7 @@
 	},
 	{
 		"nb_binome":29,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"PC",
@@ -5831,7 +5823,7 @@
 	},
 	{
 		"nb_binome":30,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YANG",
 		"influence":"FC",
@@ -5842,7 +5834,7 @@
 	},
 	{
 		"nb_binome":30,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YIN",
 		"influence":"D",
@@ -5853,7 +5845,7 @@
 	},
 	{
 		"nb_binome":30,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"TF",
@@ -5864,7 +5856,7 @@
 	},
 	{
 		"nb_binome":30,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YIN",
 		"influence":"CC",
@@ -5875,7 +5867,7 @@
 	},
 	{
 		"nb_binome":30,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"PC",
@@ -5886,7 +5878,7 @@
 	},
 	{
 		"nb_binome":30,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"FC",
@@ -5897,7 +5889,7 @@
 	},
 	{
 		"nb_binome":30,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"D",
@@ -5908,7 +5900,7 @@
 	},
 	{
 		"nb_binome":30,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"TF",
@@ -5919,7 +5911,7 @@
 	},
 	{
 		"nb_binome":30,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YANG",
 		"influence":"CC",
@@ -5930,7 +5922,7 @@
 	},
 	{
 		"nb_binome":30,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"PC",
@@ -5941,7 +5933,7 @@
 	},
 	{
 		"nb_binome":43,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YANG",
 		"influence":"FC",
@@ -5952,7 +5944,7 @@
 	},
 	{
 		"nb_binome":43,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YIN",
 		"influence":"D",
@@ -5963,7 +5955,7 @@
 	},
 	{
 		"nb_binome":43,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"TF",
@@ -5974,7 +5966,7 @@
 	},
 	{
 		"nb_binome":43,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YIN",
 		"influence":"CC",
@@ -5985,7 +5977,7 @@
 	},
 	{
 		"nb_binome":43,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"PC",
@@ -5996,7 +5988,7 @@
 	},
 	{
 		"nb_binome":43,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"FC",
@@ -6007,7 +5999,7 @@
 	},
 	{
 		"nb_binome":43,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"D",
@@ -6018,7 +6010,7 @@
 	},
 	{
 		"nb_binome":43,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"TF",
@@ -6029,7 +6021,7 @@
 	},
 	{
 		"nb_binome":43,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YANG",
 		"influence":"CC",
@@ -6040,7 +6032,7 @@
 	},
 	{
 		"nb_binome":43,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"PC",
@@ -6051,7 +6043,7 @@
 	},
 	{
 		"nb_binome":44,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YANG",
 		"influence":"FC",
@@ -6062,7 +6054,7 @@
 	},
 	{
 		"nb_binome":44,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YIN",
 		"influence":"D",
@@ -6073,7 +6065,7 @@
 	},
 	{
 		"nb_binome":44,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"TF",
@@ -6084,7 +6076,7 @@
 	},
 	{
 		"nb_binome":44,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YIN",
 		"influence":"CC",
@@ -6095,7 +6087,7 @@
 	},
 	{
 		"nb_binome":44,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"PC",
@@ -6106,7 +6098,7 @@
 	},
 	{
 		"nb_binome":44,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"FC",
@@ -6117,7 +6109,7 @@
 	},
 	{
 		"nb_binome":44,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"D",
@@ -6128,7 +6120,7 @@
 	},
 	{
 		"nb_binome":44,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"TF",
@@ -6139,7 +6131,7 @@
 	},
 	{
 		"nb_binome":44,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YANG",
 		"influence":"CC",
@@ -6150,7 +6142,7 @@
 	},
 	{
 		"nb_binome":44,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"PC",
@@ -6161,7 +6153,7 @@
 	},
 	{
 		"nb_binome":51,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YANG",
 		"influence":"FC",
@@ -6172,7 +6164,7 @@
 	},
 	{
 		"nb_binome":51,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YIN",
 		"influence":"D",
@@ -6183,7 +6175,7 @@
 	},
 	{
 		"nb_binome":51,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"TF",
@@ -6194,7 +6186,7 @@
 	},
 	{
 		"nb_binome":51,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YIN",
 		"influence":"CC",
@@ -6205,7 +6197,7 @@
 	},
 	{
 		"nb_binome":51,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"PC",
@@ -6216,7 +6208,7 @@
 	},
 	{
 		"nb_binome":51,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"FC",
@@ -6227,7 +6219,7 @@
 	},
 	{
 		"nb_binome":51,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"D",
@@ -6238,7 +6230,7 @@
 	},
 	{
 		"nb_binome":51,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"TF",
@@ -6249,7 +6241,7 @@
 	},
 	{
 		"nb_binome":51,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YANG",
 		"influence":"CC",
@@ -6260,7 +6252,7 @@
 	},
 	{
 		"nb_binome":51,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"PC",
@@ -6271,7 +6263,7 @@
 	},
 	{
 		"nb_binome":52,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YANG",
 		"influence":"FC",
@@ -6282,7 +6274,7 @@
 	},
 	{
 		"nb_binome":52,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YIN",
 		"influence":"D",
@@ -6293,7 +6285,7 @@
 	},
 	{
 		"nb_binome":52,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"TF",
@@ -6304,7 +6296,7 @@
 	},
 	{
 		"nb_binome":52,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YIN",
 		"influence":"CC",
@@ -6315,7 +6307,7 @@
 	},
 	{
 		"nb_binome":52,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"PC",
@@ -6326,7 +6318,7 @@
 	},
 	{
 		"nb_binome":52,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"FC",
@@ -6337,7 +6329,7 @@
 	},
 	{
 		"nb_binome":52,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"D",
@@ -6348,7 +6340,7 @@
 	},
 	{
 		"nb_binome":52,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"TF",
@@ -6359,7 +6351,7 @@
 	},
 	{
 		"nb_binome":52,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YANG",
 		"influence":"CC",
@@ -6370,7 +6362,7 @@
 	},
 	{
 		"nb_binome":52,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"PC",
@@ -6381,7 +6373,7 @@
 	},
 	{
 		"nb_binome":59,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YANG",
 		"influence":"FC",
@@ -6392,7 +6384,7 @@
 	},
 	{
 		"nb_binome":59,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YIN",
 		"influence":"D",
@@ -6403,7 +6395,7 @@
 	},
 	{
 		"nb_binome":59,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"TF",
@@ -6414,7 +6406,7 @@
 	},
 	{
 		"nb_binome":59,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YIN",
 		"influence":"CC",
@@ -6425,7 +6417,7 @@
 	},
 	{
 		"nb_binome":59,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"PC",
@@ -6436,7 +6428,7 @@
 	},
 	{
 		"nb_binome":59,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"FC",
@@ -6447,7 +6439,7 @@
 	},
 	{
 		"nb_binome":59,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"D",
@@ -6458,7 +6450,7 @@
 	},
 	{
 		"nb_binome":59,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"TF",
@@ -6469,7 +6461,7 @@
 	},
 	{
 		"nb_binome":59,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YANG",
 		"influence":"CC",
@@ -6480,7 +6472,7 @@
 	},
 	{
 		"nb_binome":59,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"PC",
@@ -6491,7 +6483,7 @@
 	},
 	{
 		"nb_binome":60,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YANG",
 		"influence":"FC",
@@ -6502,7 +6494,7 @@
 	},
 	{
 		"nb_binome":60,
-		"type_horoscope":"A",
+		
 		"element":"BOIS",
 		"polarite":"YIN",
 		"influence":"D",
@@ -6513,7 +6505,7 @@
 	},
 	{
 		"nb_binome":60,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"TF",
@@ -6524,7 +6516,7 @@
 	},
 	{
 		"nb_binome":60,
-		"type_horoscope":"A",
+		
 		"element":"FEU",
 		"polarite":"YIN",
 		"influence":"CC",
@@ -6535,7 +6527,7 @@
 	},
 	{
 		"nb_binome":60,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"PC",
@@ -6546,7 +6538,7 @@
 	},
 	{
 		"nb_binome":60,
-		"type_horoscope":"A",
+		
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"FC",
@@ -6557,7 +6549,7 @@
 	},
 	{
 		"nb_binome":60,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"D",
@@ -6568,7 +6560,7 @@
 	},
 	{
 		"nb_binome":60,
-		"type_horoscope":"A",
+		
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"TF",
@@ -6579,7 +6571,7 @@
 	},
 	{
 		"nb_binome":60,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YANG",
 		"influence":"CC",
@@ -6590,7 +6582,7 @@
 	},
 	{
 		"nb_binome":60,
-		"type_horoscope":"A",
+		
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"PC",

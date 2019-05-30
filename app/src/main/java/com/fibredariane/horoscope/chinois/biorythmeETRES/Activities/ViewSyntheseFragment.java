@@ -65,7 +65,7 @@ public class ViewSyntheseFragment extends Fragment implements View.OnClickListen
                 Intent intent = new Intent(mContext,SwitchBiorythmeActivity.class);
                 startActivity(intent);
             }else{
-                mBiorythme = mPreferences.getBiorythmePref();
+              //  mBiorythme = mPreferences.getBiorythmePref();
                 mSynthese = new Synthese(mBiorythme);
                 initSyntheseLayout();
             }

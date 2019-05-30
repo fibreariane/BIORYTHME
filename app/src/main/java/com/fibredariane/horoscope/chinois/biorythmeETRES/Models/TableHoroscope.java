@@ -1,18 +1,20 @@
 package com.fibredariane.horoscope.chinois.biorythmeETRES.Models;
 
-        import android.content.ContentValues;
-        import android.content.Context;
-        import android.database.Cursor;
-        import android.database.sqlite.SQLiteDatabase;
-        import android.database.sqlite.SQLiteException;
-        import android.database.sqlite.SQLiteOpenHelper;
-        import android.provider.BaseColumns;
-        import android.util.Log;
-        import com.fibredariane.horoscope.chinois.biorythmeETRES.R;
-        import com.fibredariane.horoscope.chinois.biorythmeETRES.Utils.ParseJSON;
-        import java.io.IOException;
-        import java.io.InputStream;
-        import java.util.List;
+import android.content.ContentValues;
+import android.content.Context;
+import android.database.Cursor;
+import android.database.sqlite.SQLiteDatabase;
+import android.database.sqlite.SQLiteException;
+import android.database.sqlite.SQLiteOpenHelper;
+import android.provider.BaseColumns;
+import android.util.Log;
+
+import com.fibredariane.horoscope.chinois.biorythmeETRES.R;
+import com.fibredariane.horoscope.chinois.biorythmeETRES.Utils.ParseJSON;
+
+import java.io.IOException;
+import java.io.InputStream;
+import java.util.List;
 
 
 public class TableHoroscope extends SQLiteOpenHelper {
@@ -36,7 +38,7 @@ public class TableHoroscope extends SQLiteOpenHelper {
      * @param version
      */
     public TableHoroscope(Context context, String name, SQLiteDatabase.CursorFactory factory,
-                       int version) {
+                          int version) {
         super(context, name, factory, version);
     }
 
@@ -73,7 +75,7 @@ public class TableHoroscope extends SQLiteOpenHelper {
 
         InputStream inputStream = c.getResources().openRawResource(R.raw.horoscopes_journee);
 
-        List<Horoscope> listHoroscope=null;
+        List<Horoscope> listHoroscope = null;
         try {
             listHoroscope = ParseJSON.readJsonStreamHoroscope(inputStream);
         } catch (IOException e) {
@@ -96,7 +98,7 @@ public class TableHoroscope extends SQLiteOpenHelper {
         }
     }
 
-     public long insertRecord(SQLiteDatabase db, ContentValues contentValues) {
+    public long insertRecord(SQLiteDatabase db, ContentValues contentValues) {
         long rowId = db.insert(Constants.MY_TABLE, null, contentValues);
         return rowId;
     }
@@ -116,12 +118,12 @@ public class TableHoroscope extends SQLiteOpenHelper {
                 null);
     }
 
-    public Cursor getHoroscope(SQLiteDatabase db, int nbBinome,String element, String polarite) {
+    public Cursor getHoroscope(SQLiteDatabase db, int nbBinome, String element, String polarite) {
 
         String selection = Constants.KEY_COL_NB_BINOME + "=?"
-                +" and " +Constants.KEY_COL_ELEMENT + "=?"
-                +" and " +Constants.KEY_COL_POLARITE + "=?" ;
-        String[] selectionArg = new String[]{String.valueOf(nbBinome),element,polarite};
+                + " and " + Constants.KEY_COL_ELEMENT + "=?"
+                + " and " + Constants.KEY_COL_POLARITE + "=?";
+        String[] selectionArg = new String[]{String.valueOf(nbBinome), element, polarite};
         String maxResultsListSize = "1";
 
         Cursor cursor = db.query(Constants.MY_TABLE, null, selection,

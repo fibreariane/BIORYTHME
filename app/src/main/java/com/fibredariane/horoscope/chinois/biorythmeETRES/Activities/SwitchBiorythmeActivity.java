@@ -70,14 +70,14 @@ public class SwitchBiorythmeActivity extends AppCompatActivity implements TimePi
         mLinearHeure = (LinearLayout) findViewById(R.id.linear_layout_heure);
         mTextViewHour = (TextView) findViewById(R.id.text_view_hour);
 
-        if (mPreferences.getStringDatePref() != ""){
+        if (mPreferences.getStringDatePref() != "") {
             mDatePref = mPreferences.getDatePref();
             mAsDateSaved = true;
-        }else{
+        } else {
             mAsDateSaved = false;
         }
         initDialog();
-       // initTimezone();
+        // initTimezone();
 
         setCurrentTimeOnView();
         setCurrentDateOnView();
@@ -88,7 +88,7 @@ public class SwitchBiorythmeActivity extends AppCompatActivity implements TimePi
         mEditTextDateMois = (EditText) findViewById(R.id.text_view_date_mois);
         mEditTextDateAnnee = (EditText) findViewById(R.id.text_view_date_annee);
 
-        if(mPreferences.getStringDatePref() != "" ){
+        if (mPreferences.getStringDatePref() != "") {
             Date date = mPreferences.getDatePref();
 
             mEditTextDateJour.setText(Integer.toString(date.getDate()));
@@ -112,11 +112,10 @@ public class SwitchBiorythmeActivity extends AppCompatActivity implements TimePi
 
         });
 
-        if(mAsDateSaved){
+        if (mAsDateSaved) {
             mMinute = mDatePref.getMinutes();
             mHour = mDatePref.getHours();
-        }
-        else {
+        } else {
             mMinute = new Date().getMinutes();
             mHour = new Date().getHours();
         }
@@ -134,7 +133,7 @@ public class SwitchBiorythmeActivity extends AppCompatActivity implements TimePi
             case TIME_DIALOG_ID:
                 // set time picker as current time
                 return new TimePickerDialog(this,
-                        R.style.DialogTheme,SwitchBiorythmeActivity.this, mHour, mMinute,true);
+                        R.style.DialogTheme, SwitchBiorythmeActivity.this, mHour, mMinute, true);
 
         }
         return null;
@@ -166,17 +165,17 @@ public class SwitchBiorythmeActivity extends AppCompatActivity implements TimePi
         int year = Integer.parseInt(mEditTextDateAnnee.getText().toString());
         int month = Integer.parseInt(mEditTextDateMois.getText().toString());
         int day = Integer.parseInt(mEditTextDateJour.getText().toString());
-        if(year < 1924 || year > 2020) {
+        if (year < 1924 || year > 2020) {
             ok = false;
             mEditTextDateAnnee.setTextColor(Color.RED);
         }
 
-        if (month < 1 || month > 12){
+        if (month < 1 || month > 12) {
             ok = false;
             mEditTextDateMois.setTextColor(Color.RED);
         }
 
-        if(day < 1 || day > 31){
+        if (day < 1 || day > 31) {
             ok = false;
             mEditTextDateJour.setTextColor(Color.RED);
         }
@@ -188,28 +187,29 @@ public class SwitchBiorythmeActivity extends AppCompatActivity implements TimePi
             GregorianCalendar gcal = new GregorianCalendar(); //import java.util.GregorianCalendar;
             boolean b = gcal.isLeapYear(year);  // annee bissextile = true
             if (b) {
-                if ( day > 29) {
+                if (day > 29) {
                     ok = false;
                     mEditTextDateJour.setTextColor(Color.RED);
                 }
             } else {
-                if ( day > 28) {
+                if (day > 28) {
                     ok = false;
                     mEditTextDateJour.setTextColor(Color.RED);
                 }
             }
         }
-        if(ok){
-            Biorythme biorythme = CalculBinomes.calcBiorythme(this, year, month, day, mHour, mMinute);
-            mPreferences.setBiorythmePref(biorythme);
+        if (ok) {
+            String date = year + "." + month + "." + day + "." + mHour + "." + mMinute;
+            mPreferences.setBiorythmePref(date, CalculBinomes.getStringBinome(year, month, day, mHour, mMinute));
             Intent intent = new Intent(mContext, MainActivity.class);
             startActivity(intent);
-        }else{
+        } else {
             mDialog.show();
         }
 
     }
-    private void initDialog(){
+
+    private void initDialog() {
         mDialog = new Dialog(mContext);
         mDialog.setContentView(R.layout.dialog_information);
         TextView titre = (TextView) mDialog.findViewById(R.id.text_view_titre);

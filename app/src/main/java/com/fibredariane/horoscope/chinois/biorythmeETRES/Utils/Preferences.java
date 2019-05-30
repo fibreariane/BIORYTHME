@@ -22,7 +22,11 @@ public class Preferences {
 
     }
 
-    public Biorythme getBiorythmePref() {
+    public String getStringBiorythmePref(){
+       return mSharedPreferences.getString(mContext.getString(R.string.pref_biorythme_perso), "");
+    }
+
+    /*public Biorythme getBiorythmePref() {
         String stringBiorythme = mSharedPreferences.getString(mContext.getString(R.string.pref_biorythme_perso), "");
         String[] binomes = stringBiorythme.split("\\.");
         Date date_annif = getDatePref();
@@ -36,8 +40,8 @@ public class Preferences {
                 CalculBinomes.getBinome(mContext, Integer.parseInt(binomes[2]), "J"),
                 CalculBinomes.getBinome(mContext, Integer.parseInt(binomes[3]), "H"));
     }
-
-    public Biorythme getBiorythmeCurrentPref() {
+*/
+  /*  public Biorythme getBiorythmeCurrentPref() {
         String stringBiorythme = mSharedPreferences.getString(mContext.getString(R.string.pref_biorythme_current), "");
         String[] binomes = stringBiorythme.split("\\.");
 
@@ -53,7 +57,7 @@ public class Preferences {
                 CalculBinomes.getBinome(mContext, Integer.parseInt(binomes[2]), "J"),
                 CalculBinomes.getBinome(mContext, Integer.parseInt(binomes[3]), "H"));
     }
-
+*/
     public  String getStringDatePref() {
         return mSharedPreferences.getString(mContext.getString(R.string.pref_date_perso), "");
     }
@@ -112,10 +116,17 @@ public class Preferences {
         }
     }
 
-    public void setBiorythmePref(Biorythme biorythme) {
+    /* public void setBiorythmePref(Biorythme biorythme) {
         SharedPreferences.Editor edit = mSharedPreferences.edit();
         edit.putString(mContext.getString(R.string.pref_date_perso), biorythme.getDateAnniversaire());
         edit.putString(mContext.getString(R.string.pref_biorythme_perso), biorythme.getStringBiorythme());
+        edit.commit();
+    }*/
+
+    public void setBiorythmePref(String date,String biorythme) {
+        SharedPreferences.Editor edit = mSharedPreferences.edit();
+        edit.putString(mContext.getString(R.string.pref_date_perso),date);
+        edit.putString(mContext.getString(R.string.pref_biorythme_perso), biorythme);
         edit.commit();
     }
 

@@ -98,7 +98,7 @@ public class ViewSyntheseDetailleFragment extends Fragment {
                 Intent intent = new Intent(mContext,SwitchBiorythmeActivity.class);
                 startActivity(intent);
             }else{
-                mBiorythme = mPreferences.getBiorythmePref();
+            //    mBiorythme = mPreferences.getBiorythmePref();
                 mSynthese = new Synthese(mBiorythme);
                 initSyntheseDetailleLayout();
                 SetSyntheseDetail(mTypeDetail);

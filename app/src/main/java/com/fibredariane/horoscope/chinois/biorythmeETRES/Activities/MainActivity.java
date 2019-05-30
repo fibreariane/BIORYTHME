@@ -16,6 +16,7 @@ import android.view.View;
 import android.widget.ImageButton;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+
 import com.crashlytics.android.Crashlytics;
 
 import com.fibredariane.horoscope.chinois.biorythmeETRES.Models.Binome;
@@ -24,6 +25,7 @@ import com.fibredariane.horoscope.chinois.biorythmeETRES.Models.Horoscope;
 import com.fibredariane.horoscope.chinois.biorythmeETRES.R;
 import com.fibredariane.horoscope.chinois.biorythmeETRES.Utils.CalculBinomes;
 import com.fibredariane.horoscope.chinois.biorythmeETRES.Utils.Preferences;
+
 import io.fabric.sdk.android.Fabric;
 
 import com.fibredariane.horoscope.chinois.biorythmeETRES.Utils.ManageRecordDB;
@@ -31,6 +33,7 @@ import com.fibredariane.horoscope.chinois.biorythmeETRES.Utils.ZoomOutPageTransf
 
 import java.io.Serializable;
 import java.util.Calendar;
+import java.util.Date;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -66,22 +69,23 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         db.initTables();
 
         String date_biorythme = mPreferences.getStringDatePref();
-        if (date_biorythme == ""){
-            Intent intent = new Intent(mContext,SwitchBiorythmeActivity.class);
+        if (date_biorythme == "") {
+            Intent intent = new Intent(mContext, SwitchBiorythmeActivity.class);
             startActivity(intent);
-        }else {
+        } else {
             mSectionsPagerAdapter = new SectionsPagerAdapter(getSupportFragmentManager());
 
             mViewPager = (ViewPager) findViewById(R.id.container);
             mViewPager.setAdapter(mSectionsPagerAdapter);
             mViewPager.setPageTransformer(true, new ZoomOutPageTransformer());
 
-             mBtnAccueil = (ImageButton) findViewById(R.id.btn_accueil);
+            mBtnAccueil = (ImageButton) findViewById(R.id.btn_accueil);
 
             // Initialisation des variables globales
-            mBiorythmeOfTheDay = CalculBinomes.getCurrentBiorythme(mContext, mPreferences);
-            mBiorythmeUser = mPreferences.getBiorythmePref();
-            mHoroscopeDay = new Horoscope(mBiorythmeUser, mBiorythmeOfTheDay.getBinomeJour(), "J");
+            Date date = new Date();
+            mBiorythmeOfTheDay = getBiorythme(date, CalculBinomes.getStringBinome(date.getYear(), date.getMonth(), date.getDay(), date.getHours(), date.getMinutes()));
+            mBiorythmeUser = getBiorythme(mPreferences.getDatePref(), mPreferences.getStringBiorythmePref());
+            mHoroscopeDay = db.getHoroscope(mBiorythmeOfTheDay.getBinomeJour(), mBiorythmeUser);
             mViewPager.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
                 @Override
                 public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
@@ -101,8 +105,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
             });
 
-         }
+        }
     }
+
     public class SectionsPagerAdapter extends FragmentStatePagerAdapter {
 
         public SectionsPagerAdapter(FragmentManager fm) {
@@ -114,27 +119,27 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
             switch (position) {
                 case 0:
-                    AccueilFragment accueilFragment = AccueilFragment.newInstance(position,mBiorythmeOfTheDay.getBinomeJour(),mBiorythmeUser);
+                    AccueilFragment accueilFragment = AccueilFragment.newInstance(position, mBiorythmeOfTheDay.getBinomeJour(), mBiorythmeUser);
                     accueilFragment.setViewPager(mViewPager);
                     return accueilFragment;
                 case 1: // Binome du jour
                     Calendar calendar = Calendar.getInstance();
-                    String dateJour = calendar.get(Calendar.DAY_OF_MONTH)+
-                            " "+getResources().getString(getResources().getIdentifier(
-                            "mois"+calendar.get(Calendar.MONTH),
+                    String dateJour = calendar.get(Calendar.DAY_OF_MONTH) +
+                            " " + getResources().getString(getResources().getIdentifier(
+                            "mois" + calendar.get(Calendar.MONTH),
                             "string",
-                            mContext.getPackageName())).toUpperCase()+
-                            " "+calendar.get(Calendar.YEAR);
-                    return ViewBinomeFragment.newInstance(position, mBiorythmeOfTheDay.getBinomeJour(),"Découvrez sous quelle énergie cette journée est placée","ENERGIE DU "+dateJour);
+                            mContext.getPackageName())).toUpperCase() +
+                            " " + calendar.get(Calendar.YEAR);
+                    return ViewBinomeFragment.newInstance(position, mBiorythmeOfTheDay.getBinomeJour(), "Découvrez sous quelle énergie cette journée est placée", "ENERGIE DU " + dateJour);
                 case 2: // Horoscope Jour
-                    return ViewHoroscopeFragment.newInstance(position, mHoroscopeDay);
+                    return ViewHoroscopeFragment.newInstance(position, mHoroscopeDay, mBiorythmeUser,mBiorythmeOfTheDay.getBinomeJour());
                 case 3: // Biorythme
                     return ViewBiorythmeFragment.newInstance(position, mBiorythmeUser.getBinomeAnnee());
                 case 4:
                     return ParameterFragment.newInstance(position);
             }
 
-            return AccueilFragment.newInstance(position,mBiorythmeOfTheDay.getBinomeJour(),mBiorythmeUser);
+            return AccueilFragment.newInstance(position, mBiorythmeOfTheDay.getBinomeJour(), mBiorythmeUser);
         }
 
         @Override
@@ -142,6 +147,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             return 5;
         }
     }
+
     @Override
     public void onClick(View v) {
 
@@ -158,7 +164,22 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     }
 
-
+    private Biorythme getBiorythme(Date date, String stringBiorythme) {
+        String[] binomes = stringBiorythme.split("\\.");
+        Binome binomeAnnee = db.getBinome(binomes[0], "A");
+        Binome binomeMois = db.getBinome(binomes[1], "M");
+        Binome binomeJour = db.getBinome(binomes[2], "J");
+        Binome binomeHeure = db.getBinome(binomes[3], "H");
+        return new Biorythme(date.getYear(),
+                date.getMonth(),
+                date.getDate(),
+                date.getHours(),
+                date.getMinutes(),
+                binomeAnnee,
+                binomeMois,
+                binomeJour,
+                binomeHeure);
+    }
 
     @Override
     protected void onResume() {
