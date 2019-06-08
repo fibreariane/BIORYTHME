@@ -126,7 +126,7 @@ public class CalculBinomes {
         return yearSwitch;
     }
     public static String calcBinomeAnnee(int year, int month, int day, int mHour, int mMinute) {
-        String mStringBinome = "";
+        String mStringBinome = "1";
         int yearSwitch = getDateAnneeNaissance( year,  month,  day,  mHour,  mMinute);
 
         switch (yearSwitch) {
@@ -376,7 +376,7 @@ public class CalculBinomes {
     }
 
     public static String calcBinomeMois(int year, int month, int day, int mHour, int mMinute) {
-        String mStringBinome = "";
+        String mStringBinome = "1";
         int monthSwitch = getMoisSolaire(year, month, day, mHour, mMinute);
         int yearCalc = year;
         if (month == 1 && monthSwitch == 12) {
@@ -535,7 +535,7 @@ public class CalculBinomes {
     }
 
     public static String calcBinomeJour(int year, int month, int day, int mHour, int mMinute) {
-        String mStringBinome = "";
+
         int dayBinome = (getEnergeticDay(year, month, day, mHour, mMinute) + getIntDay(year / 10, year % 10) + getIntMonthYear(month, year)) % 60;
 
        return String.valueOf(dayBinome);
@@ -543,7 +543,7 @@ public class CalculBinomes {
     }
 
     public static String calcBinomeHeure(int year, int month, int day, int mHour, int mMinute) {
-        String mStringBinome = "";
+        String mStringBinome = "1";
         int dayBinome = ((getEnergeticDay(year, month, day, mHour, mMinute) + getIntDay(year / 10, year % 10) + getIntMonthYear(month, year)) % 60) % 10;
 
         mHour = mHour - 1;

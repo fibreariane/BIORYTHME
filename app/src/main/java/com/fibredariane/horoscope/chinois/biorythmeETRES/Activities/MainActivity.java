@@ -84,7 +84,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
             // Initialisation des variables globales
             Date date = new Date();
-            mBiorythmeOfTheDay = getBiorythme(date, CalculBinomes.getStringBinome(date.getYear(), date.getMonth(), date.getDay(), date.getHours(), date.getMinutes()));
+            mBiorythmeOfTheDay = getBiorythme(date, CalculBinomes.getStringBinome(date.getYear(), date.getMonth(), date.getDate(), date.getHours(), date.getMinutes()));
             mBiorythmeUser = getBiorythme(mPreferences.getDatePref(), mPreferences.getStringBiorythmePref());
             mHoroscopeDay = db.getHoroscope(mBiorythmeOfTheDay.getBinomeJour(), mBiorythmeUser);
             mViewPager.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
@@ -135,7 +135,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 case 2: // Horoscope Jour
                     return ViewHoroscopeFragment.newInstance(position, mHoroscopeDay, mBiorythmeUser,mBiorythmeOfTheDay.getBinomeJour());
                 case 3: // Biorythme
-                    return ViewBiorythmeFragment.newInstance(position, mBiorythmeUser.getBinomeAnnee());
+                    return ViewBiorythmeFragment.newInstance(position, mBiorythmeUser);
                 case 4:
                     return ParameterFragment.newInstance(position);
             }

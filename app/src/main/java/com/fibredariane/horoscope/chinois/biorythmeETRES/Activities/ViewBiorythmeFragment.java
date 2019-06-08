@@ -13,6 +13,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.fibredariane.horoscope.chinois.biorythmeETRES.Models.Binome;
+import com.fibredariane.horoscope.chinois.biorythmeETRES.Models.Biorythme;
 import com.fibredariane.horoscope.chinois.biorythmeETRES.R;
 import com.fibredariane.horoscope.chinois.biorythmeETRES.Utils.Preferences;
 
@@ -20,25 +21,35 @@ import com.fibredariane.horoscope.chinois.biorythmeETRES.Utils.Preferences;
 public class ViewBiorythmeFragment extends Fragment implements View.OnClickListener {
 
     private static final String ARG_SECTION_NUMBER = "section_number";
-    private static final String ARG_BINOME = "binome";
+    private static final String ARG_BIORYTHME = "biorythme";
 
 
-    private Binome mBinome;
-    private TextView mTextViewNomBinome;
-    private TextView mTextViewElementBinome;
-    private TextView mTextViewElementPolariteBinome;
-    private TextView mTextViewElementMotCle1Binome;
-    private TextView mTextViewElementMotCle2Binome;
-    private TextView mTextViewDescBinome;
-    private ImageView mImageViewBinome;
-    private ImageView mImageViewElementBinome;
+    private Biorythme mBiorythme;
+
+    private TextView mTextViewNomBinomeA;
+    private TextView mTextViewPolariteBinomeA;
+    private TextView mTextViewDescBinomeA;
+    private ImageView mImageViewBinomeA;
+
+    private TextView mTextViewNomBinomeM;
+    private TextView mTextViewPolariteBinomeM;
+    private TextView mTextViewDescBinomeM;
+    private ImageView mImageViewBinomeM;
+
+    private TextView mTextViewNomBinomeJ;
+    private TextView mTextViewPolariteBinomeJ;
+    private TextView mTextViewDescBinomeJ;
+    private ImageView mImageViewBinomeJ;
+
+    private TextView mTextViewNomBinomeH;
+    private TextView mTextViewPolariteBinomeH;
+    private TextView mTextViewDescBinomeH;
+    private ImageView mImageViewBinomeH;
+
     private Context mContext;
     private Preferences mPreferences;
 
     private View rootView;
-
-    private LinearLayout mLinearLayoutElement;
-
 
     public ViewBiorythmeFragment() {
     }
@@ -47,11 +58,11 @@ public class ViewBiorythmeFragment extends Fragment implements View.OnClickListe
      * Returns a new instance of this fragment for the given section
      * number.
      */
-    public static ViewBiorythmeFragment newInstance(int sectionNumber, Binome binome) {
+    public static ViewBiorythmeFragment newInstance(int sectionNumber, Biorythme biorythme) {
         ViewBiorythmeFragment fragment = new ViewBiorythmeFragment();
         Bundle args = new Bundle();
         args.putInt(ARG_SECTION_NUMBER, sectionNumber);
-        args.putSerializable(ARG_BINOME, binome);
+        args.putSerializable(ARG_BIORYTHME, biorythme);
         fragment.setArguments(args);
         return fragment;
     }
@@ -65,67 +76,85 @@ public class ViewBiorythmeFragment extends Fragment implements View.OnClickListe
             mPreferences = new Preferences();
             String date_biorythme = mPreferences.getStringDatePref();
             Bundle args = this.getArguments();
-           // mStringTypeBio = args.getString(ARG_TYPE_BIO);
-            mBinome = (Binome) args.getSerializable(ARG_BINOME);
+            mBiorythme = (Biorythme) args.getSerializable(ARG_BIORYTHME);
 
-            if (date_biorythme == ""){
-                Intent intent = new Intent(mContext,SwitchBiorythmeActivity.class);
+            if (date_biorythme == "") {
+                Intent intent = new Intent(mContext, SwitchBiorythmeActivity.class);
                 startActivity(intent);
-            }else{
-               // mBiorythme = mPreferences.getBiorythmePref();
+            } else {
                 initBiorythmeLayout();
-                mLinearLayoutElement = (LinearLayout) rootView.findViewById(R.id.linear_layout_element);
-                mLinearLayoutElement.setOnClickListener(this);
             }
         }
         return rootView;
     }
 
 
-    public void initBiorythmeLayout(){
+    public void initBiorythmeLayout() {
+        // Année
+        mTextViewNomBinomeA = (TextView) rootView.findViewById(R.id.text_view_nom_binomeA);
+        mTextViewPolariteBinomeA = (TextView) rootView.findViewById(R.id.text_view_polarite_binomeA);
+        mTextViewDescBinomeA = (TextView) rootView.findViewById(R.id.text_view_desc_binomeA);
+        mImageViewBinomeA = (ImageView) rootView.findViewById(R.id.image_view_binomeA);
 
-        mTextViewNomBinome = (TextView) rootView.findViewById(R.id.text_view_nom_binome);
-        mTextViewElementBinome = (TextView) rootView.findViewById(R.id.text_view_element_binome);
-        mTextViewElementPolariteBinome = (TextView) rootView.findViewById(R.id.text_view_element_polarite_binome);
-        mTextViewElementMotCle1Binome = (TextView) rootView.findViewById(R.id.text_view_element_mot_cle1_binome);
-        mTextViewElementMotCle2Binome = (TextView) rootView.findViewById(R.id.text_view_element_mot_cle2_binome);
-        mTextViewDescBinome = (TextView) rootView.findViewById(R.id.text_view_desc_binome);
+        setBinome(mBiorythme.getBinomeAnnee(),
+                mTextViewNomBinomeA,
+                mTextViewPolariteBinomeA,
+                mTextViewDescBinomeA,
+                mImageViewBinomeA);
 
-        mImageViewBinome = (ImageView) rootView.findViewById(R.id.image_view_binome);
-        mImageViewElementBinome = (ImageView) rootView.findViewById(R.id.image_view_element_binome);
+        // Mois
+        mTextViewNomBinomeM = (TextView) rootView.findViewById(R.id.text_view_nom_binomeM);
+        mTextViewPolariteBinomeM = (TextView) rootView.findViewById(R.id.text_view_polarite_binomeM);
+        mTextViewDescBinomeM = (TextView) rootView.findViewById(R.id.text_view_desc_binomeM);
+        mImageViewBinomeM = (ImageView) rootView.findViewById(R.id.image_view_binomeM);
 
-        setBinome();
+        setBinome(mBiorythme.getBinomeMois(),
+                mTextViewNomBinomeM,
+                mTextViewPolariteBinomeM,
+                mTextViewDescBinomeM,
+                mImageViewBinomeM);
+
+        // Jour
+        mTextViewNomBinomeJ = (TextView) rootView.findViewById(R.id.text_view_nom_binomeJ);
+        mTextViewPolariteBinomeJ = (TextView) rootView.findViewById(R.id.text_view_polarite_binomeJ);
+        mTextViewDescBinomeJ = (TextView) rootView.findViewById(R.id.text_view_desc_binomeJ);
+        mImageViewBinomeJ = (ImageView) rootView.findViewById(R.id.image_view_binomeJ);
+
+        setBinome(mBiorythme.getBinomeJour(),
+                mTextViewNomBinomeJ,
+                mTextViewPolariteBinomeJ,
+                mTextViewDescBinomeJ,
+                mImageViewBinomeJ);
+
+        // Heure
+        mTextViewNomBinomeH = (TextView) rootView.findViewById(R.id.text_view_nom_binomeH);
+        mTextViewPolariteBinomeH = (TextView) rootView.findViewById(R.id.text_view_polarite_binomeH);
+        mTextViewDescBinomeH = (TextView) rootView.findViewById(R.id.text_view_desc_binomeH);
+        mImageViewBinomeH = (ImageView) rootView.findViewById(R.id.image_view_binomeH);
+
+        setBinome(mBiorythme.getBinomeHeure(),
+                mTextViewNomBinomeH,
+                mTextViewPolariteBinomeH,
+                mTextViewDescBinomeH,
+                mImageViewBinomeH);
+
     }
 
-    private void setBinome() {
-       // Binome binome = CalculBinomes.getBinomeBiorythme(mBiorythme, typeBinome);
-        if(mBinome.getNom() != "") {
-            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-                mImageViewBinome.setImageDrawable(getResources().getDrawable(mBinome.getIntIdMini(), mContext.getApplicationContext().getTheme()));
-                mImageViewElementBinome.setImageDrawable(getResources().getDrawable(mBinome.getElement().getIntIdMini(), mContext.getApplicationContext().getTheme()));
-
-            } else {
-                mImageViewBinome.setImageDrawable(getResources().getDrawable(mBinome.getIntIdMini()));
-                mImageViewElementBinome.setImageDrawable(getResources().getDrawable(mBinome.getElement().getIntIdMini()));
-
-            }
-            mTextViewNomBinome.setText(mBinome.getNom());
-            mTextViewElementBinome.setText(mBinome.getElement().getNom());
-            mTextViewElementPolariteBinome.setText(mBinome.getPolarite());
-            mTextViewDescBinome.setText(mBinome.getDescription());
-            mTextViewElementMotCle1Binome.setText(mBinome.getKey1());
-            mTextViewElementMotCle2Binome.setText(mBinome.getKey2());
-            mTextViewNomBinome.setTextColor(getResources().getColor(mBinome.getElement().getIdColor()));
+    private void setBinome(Binome binome,TextView nomBinome,TextView polariteBinome, TextView texteBinome, ImageView imageBinome) {
+        if (binome.getNom() != "") {
+            imageBinome.setImageDrawable(getResources().getDrawable(binome.getIntId()));
+            nomBinome.setText(binome.getNom());
+            polariteBinome.setText(binome.getPolarite());
+            texteBinome.setText(binome.getDescription());
+            nomBinome.setTextColor(getResources().getColor(binome.getElement().getIdColor()));
+            polariteBinome.setTextColor(getResources().getColor(binome.getElement().getIdColor()));
         }
     }
+
     @Override
     public void onClick(View v) {
         switch (v.getId()) {
-            case R.id.linear_layout_element:
-                Intent intent = new Intent(mContext,ViewElementActivity.class);
-                intent.putExtra("ELEMENT",mTextViewElementBinome.getText());
-                startActivity(intent);
-                break;
+
             default:
                 break;
         }
