@@ -55,18 +55,19 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-
         super.onCreate(savedInstanceState);
         Fabric.with(this, new Crashlytics());
         setContentView(R.layout.activity_main);
+
+        db = new ManageRecordDB();
+        db.initTables();
         mContext = this;
 
         mPreferences = new Preferences();
 
         mPreferences.isFirstTimeApplication();
 
-        db = new ManageRecordDB();
-        db.initTables();
+
 
         String date_biorythme = mPreferences.getStringDatePref();
         if (date_biorythme == "") {

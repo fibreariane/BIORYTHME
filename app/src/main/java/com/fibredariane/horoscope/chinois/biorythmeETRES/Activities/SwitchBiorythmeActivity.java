@@ -208,7 +208,10 @@ public class SwitchBiorythmeActivity extends AppCompatActivity implements TimePi
         }
 
     }
+    @Override
+    public void onBackPressed() {
 
+    }
     private void initDialog() {
         mDialog = new Dialog(mContext);
         mDialog.setContentView(R.layout.dialog_information);
