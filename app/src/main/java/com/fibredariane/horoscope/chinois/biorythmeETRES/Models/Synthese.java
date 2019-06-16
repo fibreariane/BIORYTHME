@@ -2,6 +2,8 @@ package com.fibredariane.horoscope.chinois.biorythmeETRES.Models;
 
 import com.fibredariane.horoscope.chinois.biorythmeETRES.Utils.InfosBinomes;
 
+import java.util.List;
+
 /**
  * Created by Carlotina on 19/05/2017.
  */
@@ -17,7 +19,6 @@ public class Synthese {
     private int mNbDominant;
     private int mNbNeutre;
     private int mNbVide;
-
     public  Synthese(Biorythme biorythme) {
         mNbDominant = 0;
         mNbNeutre = 0;
@@ -83,5 +84,6 @@ public class Synthese {
     public int getNbVide(){
         return mNbVide;
     }
+
 }
 

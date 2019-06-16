@@ -135,7 +135,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 case 2: // Horoscope Jour
                     return ViewHoroscopeFragment.newInstance(position, mHoroscopeDay, mBiorythmeUser,mBiorythmeOfTheDay.getBinomeJour());
                 case 3: // Biorythme
-                    return ViewBiorythmeFragment.newInstance(position, mBiorythmeUser);
+                    return ViewSyntheseFragment.newInstance(position, mBiorythmeUser);
                 case 4:
                     return ParameterFragment.newInstance(position);
             }
@@ -151,7 +151,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public void onClick(View v) {
-
         switch (v.getId()) {
             case R.id.btn_accueil:
                 mViewPager.setCurrentItem(0);
@@ -159,7 +158,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.btn_parametre:
                 mViewPager.setCurrentItem(4);
                 break;
-            default:
+             default:
                 break;
         }
 

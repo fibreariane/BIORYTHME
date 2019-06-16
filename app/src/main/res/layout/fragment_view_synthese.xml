@@ -1,26 +1,205 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.fibredariane.horoscope.chinois.biorythmeETRES.Activities.ViewSyntheseFragment"
-    android:orientation="vertical">
+    android:layout_weight="2"
+    android:isScrollContainer="true"
+    android:orientation="vertical"
+    android:overScrollMode="always"
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+    android:scrollbarStyle="outsideInset"
+    android:scrollbars="vertical"
+    tools:context="com.fibredariane.horoscope.chinois.biorythmeETRES.Activities.ViewSyntheseFragment">
 
-    <ScrollView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_weight="2"
-        android:isScrollContainer="true"
-        android:overScrollMode="always"
-        android:scrollbarAlwaysDrawVerticalTrack="true"
-        android:scrollbarStyle="outsideInset"
-        android:scrollbars="vertical">
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingBottom="60dp">
+
+        <LinearLayout
+            android:id="@+id/linear_layout_synthese_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/text_view_synthese_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SYNTHESE DU 09 DECEMBRE 1989"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/image_view_switch_biorythme"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/fab_margin"
+                android:src="@drawable/menu_switch" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/text_view_horoscope_expl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Découvrez sous l'influence de quelles énergies est placée votre naissance"
+            android:textAlignment="center"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/activity_vertical_margin"
+            android:text="ENERGIES"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/image_view_synthese_bio_annee"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginRight="@dimen/activity_vertical_margin"
+                android:background="@color/colorWhite"
+                android:src="@drawable/bois_arbre_grande_foret_mini" />
+
+            <ImageView
+                android:id="@+id/image_view_synthese_bio_mois"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginRight="@dimen/activity_vertical_margin"
+                android:background="@color/colorWhite"
+                android:src="@drawable/bois_arbre_grande_foret_mini" />
+
+            <ImageView
+                android:id="@+id/image_view_synthese_bio_jour"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginRight="@dimen/activity_vertical_margin"
+                android:background="@color/colorWhite"
+                android:src="@drawable/bois_arbre_grande_foret_mini" />
+
+            <ImageView
+                android:id="@+id/image_view_synthese_bio_heure"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@color/colorWhite"
+                android:src="@drawable/bois_arbre_grande_foret_mini" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/activity_vertical_margin">
+
+            <TextView
+                android:id="@+id/text_view_nom_binomeA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text="Année: Arbre dans la grande forêt"
+                android:textAllCaps="true"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:text="Votre profil social, comment les autres vous perçoivent au premier abord…."
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/text_view_nom_binomeM"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text="Mois : Arbre dans la grande forêt"
+                android:textAllCaps="true"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:text="Votre profil affectif, votre «  moi » réel, L’approche émotionnelle de votre entourage"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/text_view_nom_binomeJ"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text="Jour : Arbre dans la grande forêt"
+                android:textAllCaps="true"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:text="Votre capital chance, phase de réalisation psychique et physique depuis l'enfance"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/text_view_nom_binomeH"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text="Heure : Arbre dans la grande forêt"
+                android:textAllCaps="true"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text="Votre moi intime, l’énergie dans laquelle vous allez puiser vos forces les plus profondes (santé, émotion)"
+                android:textStyle="italic" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/text_view_en_savoir_plus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="En savoir plus"
+            android:textAllCaps="true"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:padding="@dimen/activity_vertical_margin"
+            android:text="ELEMENTS"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold" />
+
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:gravity="center"
-            android:orientation="vertical">
+            android:orientation="horizontal">
 
             <ImageView
                 android:id="@+id/image_view_feu"
@@ -28,131 +207,38 @@
                 android:layout_height="wrap_content"
                 android:src="@drawable/feu" />
 
-            <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:gravity="center"
-                    android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/image_view_bois"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/bois" />
 
-                    <ImageView
-                        android:id="@+id/image_view_bois"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="5dp"
-                        android:src="@drawable/bois" />
+            <ImageView
+                android:id="@+id/image_view_terre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/terre" />
 
-                    <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:src="@drawable/map_element" />
+            <ImageView
+                android:id="@+id/image_view_eau"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/eau" />
 
-                <ImageView
-                    android:id="@+id/image_view_terre"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+            <ImageView
+                android:id="@+id/image_view_metal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/metal" />
 
-                    android:layout_marginBottom="5dp"
-                    android:src="@drawable/terre" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:gravity="center"
-                android:orientation="horizontal">
-
-                <ImageView
-                    android:id="@+id/image_view_eau"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/eau" />
-
-                <ImageView
-                    android:id="@+id/image_view_metal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/metal" />
-            </LinearLayout>
-
-            <LinearLayout
-            android:id="@+id/linear_layout_lire_synthese"
+        </LinearLayout>
+        <TextView
+            android:id="@+id/text_view_synthese_element"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
-                android:layout_gravity="center">
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:padding="@dimen/fab_margin"
-                    android:text="@string/comment_lire_synthese"
-                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
-                <ImageView
-                    android:id="@+id/image_view_chevron_synthese"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:src="@drawable/chevron_down"/>
-            </LinearLayout>
-            <LinearLayout
-                android:id="@+id/linear_layout_synthese"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:visibility="gone"
-                android:orientation="vertical">
-                <LinearLayout     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:paddingLeft="@dimen/fab_margin"
-                    android:paddingRight="@dimen/fab_margin"
-                    android:layout_marginBottom="@dimen/fab_margin">
-                    <ImageView
-                        android:layout_width="60dp"
-                        android:layout_height="wrap_content"
-                        android:src="@drawable/feu_vide"
-                        android:layout_marginRight="@dimen/fab_margin"/>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:gravity="center_vertical"
-                        android:text=" C'est un élément vide que vous devrez travailler pour être en équilibre" />
-                </LinearLayout>
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:paddingLeft="@dimen/fab_margin"
-                    android:paddingRight="@dimen/fab_margin"
-                    android:layout_marginBottom="@dimen/fab_margin">
-                    <ImageView
-                        android:layout_width="60dp"
-                        android:layout_height="wrap_content"
-                        android:src="@drawable/feu_mini"
-                        android:layout_marginRight="@dimen/fab_margin"/>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:gravity="center_vertical"
-                        android:text=" C'est un élément équilibré, ni en excès ni en manque" />
-                </LinearLayout>
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:paddingLeft="@dimen/fab_margin"
-                    android:paddingRight="@dimen/fab_margin">
-                    <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:src="@drawable/feu"
-                        android:layout_marginRight="@dimen/fab_margin"/>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="match_parent"
-                        android:gravity="center_vertical"
-                        android:text=" C'est un élément dominant, attention a ne pas tomber dans l'excès" />
-                </LinearLayout>
-                </LinearLayout>
-        </LinearLayout>
-    </ScrollView>
-
-</LinearLayout>
+            android:layout_gravity="left"
+            android:text="Synthèse élément"
+            android:textStyle="italic"
+            android:padding="@dimen/activity_vertical_margin"/>
+    </LinearLayout>
+</ScrollView>

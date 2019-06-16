@@ -101,9 +101,6 @@ public class ViewHoroscopeFragment extends Fragment implements View.OnClickListe
 
     public void initDayLayout() {
 
-      //  mCurrentBiorythme = CalculBinomes.getCurrentBiorythme(mContext,mPreferences);
-     //   mPersoBiorythme = mPreferences.getBiorythmePref();
-
         mTextViewHoroscopeYear = (TextView) rootView.findViewById(R.id.text_view_horoscope_annee);
         mTextViewHoroscopeMonth = (TextView) rootView.findViewById(R.id.text_view_horoscope_mois);
         mTextViewHoroscopeDay = (TextView) rootView.findViewById(R.id.text_view_horoscope_jour);
@@ -135,8 +132,6 @@ public class ViewHoroscopeFragment extends Fragment implements View.OnClickListe
                 "string",
                 mContext.getPackageName())).toUpperCase()+
                 " "+calendar.get(Calendar.YEAR);
-     //   mCurrentBinome = CalculBinomes.getBinomeBiorythme(mCurrentBiorythme, typeHoro);
-      //  Horoscope horo = new Horoscope(mContext,mPersoBiorythme,mCurrentBinome,typeHoro);
 
         if (mHoroscope.getIdImageInfluenceAnnee() == 0) {
             Log.v("TAG", "ViewHoroscopeFragment - JSON - erreur horoscope ");

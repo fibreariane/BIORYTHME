@@ -32,7 +32,7 @@
             android:name="com.fibredariane.horoscope.chinois.biorythmeETRES.Activities.SwitchBiorythmeActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.fibredariane.horoscope.chinois.biorythmeETRES.Activities.ViewBinomeActivity"
+            android:name="com.fibredariane.horoscope.chinois.biorythmeETRES.Activities.ViewBiorythmeActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name="com.fibredariane.horoscope.chinois.biorythmeETRES.Activities.ViewElementActivity"
