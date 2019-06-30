@@ -4,7 +4,7 @@
 		"element":"BOIS",
 		"polarite":"YANG",
 		"influence":"TF",
-		"annee":"",
+		"annee":"Vous aurez l’impression de ramer un peu aujourd’hui pour vous faire comprendre, mais ténacité et endurance vaincront à la fin.",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -14,7 +14,7 @@
 		"element":"BOIS",
 		"polarite":"YIN",
 		"influence":"CC",
-		"annee":"",
+		"annee":"Vous vous sentirez moins fluides dans vos idées, mais continuez vos créations c’est un conseil…",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -24,7 +24,7 @@
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"PC",
-		"annee":"",
+		"annee":"Comme à chaque fois, cette journée vous demandera des efforts supplémentaires dans vos projets. Ayez confiance en votre force et votre charisme et tout ira bien…",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -34,7 +34,7 @@
 		"element":"FEU",
 		"polarite":"YIN",
 		"influence":"FC",
-		"annee": "",
+		"annee": "Aujourd’hui journée un peu difficile pour vous faire comprendre, mais ténacité et endurance vaincront à la fin.",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -44,7 +44,7 @@
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"D",
-		"annee": "",
+		"annee": "Une journée qui demandera beaucoup de ténacité et fera appel à tout ce qu’il y a de plus profond en vous si vous avez besoin de convaincre. Ne survolez pas le sujet !",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -54,7 +54,7 @@
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"TF",
-		"annee": "",
+		"annee": "Vous aurez l’impression de ramer un peu aujourd’hui pour vous faire comprendre, mais ténacité et endurance vaincront à la fin.",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -64,7 +64,7 @@
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"CC",
-		"annee": "",
+		"annee": "Journée un peu compliquée avec dynamisme et obstacle. Restez tenace çà va passer !",
 		"mois": "",
 		"jour": "",
 		"heure": "" 
@@ -74,7 +74,7 @@
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"PC",
-		"annee": "",
+		"annee": "Comme à chaque fois, cette journée vous demandera des efforts supplémentaires dans vos projets. Suivez votre instinct et tout ira bien…",
 		"mois": "",
 		"jour": "",
 		"heure": ""
@@ -96,7 +96,7 @@
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"D",
-		"annee": "",
+		"annee": "Une journée qui demandera beaucoup de ténacité et fera appel à tout ce qu’il y a de plus profond en vous pour convaincre si vous avez besoin de convaincre. Soyez attentif !",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -107,7 +107,7 @@
 		"element":"BOIS",
 		"polarite":"YANG",
 		"influence":"TF",
-		"annee":"",
+		"annee":"Une douce dynamique et une belle endurance vont vous guider vers la réussite de votre projet aujourd’hui.",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -118,7 +118,7 @@
 		"element":"BOIS",
 		"polarite":"YIN",
 		"influence":"CC",
-		"annee":"",
+		"annee":"Ne cédez pas à la colère et l’impatience si tout ne va pas comme vous voulez, demain est un autre jour.",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -129,7 +129,7 @@
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"PC",
-		"annee":"",
+		"annee":"Une journée où votre endurance sera mise à rude épreuve. Ne vous laissez pas surprendre et anticipez l’effort à fournir. Cela vous semblera ainsi plus simple.",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -140,7 +140,7 @@
 		"element":"FEU",
 		"polarite":"YIN",
 		"influence":"FC",
-		"annee": "",
+		"annee": "Une forte endurance et ténacité peuvent vous guider vers la réussite aujourd’hui.",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -151,7 +151,7 @@
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"D",
-		"annee": "",
+		"annee": "N’hésitez pas à partager vos difficultés , sinon armez vous de patience et de courage …",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -162,7 +162,7 @@
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"TF",
-		"annee": "",
+		"annee": "Une douce dynamique et une belle endurance vont vous guider vers la réussite de votre projet aujourd’hui.",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -173,7 +173,7 @@
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"CC",
-		"annee": "",
+		"annee": "Servez vous de la ténacité ambiante pour aller de l’avant, sinon la colère vous guette !",
 		"mois": "",
 		"jour": "",
 		"heure": "" 
@@ -184,7 +184,7 @@
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"PC",
-		"annee": "",
+		"annee": "Une journée où votre endurance sera mise à rude épreuve. Ne vous laissez pas surprendre et anticipez l’effort à fournir. Cela vous semblera ainsi plus simple.",
 		"mois": "",
 		"jour": "",
 		"heure": ""
@@ -206,7 +206,7 @@
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"D",
-		"annee": "",
+		"annee": "Soyez prêt à être endurant aujourd’hui, sinon le désordre peut s’installer durablement… Soyez prudent !",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -217,7 +217,7 @@
 		"element":"BOIS",
 		"polarite":"YANG",
 		"influence":"TF",
-		"annee":"",
+		"annee":"Un grand sens de la décision et de la conviction devraient vous accompagner aujourd’hui… Journée idéale pour convaincre.",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -228,7 +228,7 @@
 		"element":"BOIS",
 		"polarite":"YIN",
 		"influence":"CC",
-		"annee":"",
+		"annee":"La grande énergie décisionnaire du jour risque de vous faire passer pour autoritaire, restez prudent.",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -239,7 +239,7 @@
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"PC",
-		"annee":"",
+		"annee":"Une journée propice aux décisions importantes. Sachez convaincre avec votre conviction et vos arguments imparables !",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -250,7 +250,7 @@
 		"element":"FEU",
 		"polarite":"YIN",
 		"influence":"FC",
-		"annee": "",
+		"annee": "Un grand sens de la décision et de la conviction devraient vous accompagner aujourd’hui… Ne soyez pas maladroit dans vos paroles",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -261,7 +261,7 @@
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"D",
-		"annee": "",
+		"annee": "N’imposez pas vos idées même si vous ressentez le besoin d’avancer vite et bien. Attention au retour de baton.",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -272,7 +272,7 @@
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"TF",
-		"annee": "",
+		"annee": "Un grand sens de la décision et de la conviction devraient vous accompagner aujourd’hui… Journée idéale pour convaincre.",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -283,7 +283,7 @@
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"CC",
-		"annee": "",
+		"annee": "Une grande énergie d’action aujourd’hui mais gare aux excès ! Restez cool devant l’opposition éventuelle !",
 		"mois": "",
 		"jour": "",
 		"heure": "" 
@@ -294,7 +294,7 @@
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"PC",
-		"annee": "",
+		"annee": "Une journée propice aux décisions importantes. Mais évitez votre côté tranchant , avancer vite ne veut pas dire avancer bien !",
 		"mois": "",
 		"jour": "",
 		"heure": ""
@@ -316,7 +316,7 @@
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"D",
-		"annee": "",
+		"annee": "L’énergie du jour peut vous jouer des tours, n’imposez pas vos idées même si vous ressentez le besoin d’avancer vite et bien.",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -327,7 +327,7 @@
 		"element":"BOIS",
 		"polarite":"YANG",
 		"influence":"TF",
-		"annee":"",
+		"annee":"Ne vous bloquez pas si vous sentez de l’opposition… Appuyez vous sur l’énergie volontaire et décisionnaire de cette journée.",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -338,7 +338,7 @@
 		"element":"BOIS",
 		"polarite":"YIN",
 		"influence":"CC",
-		"annee":"",
+		"annee":"Tout peut arriver aujourd’hui, le pire comme le meilleur, restez créatif, sensible mais volontaire !",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -349,7 +349,7 @@
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"PC",
-		"annee":"",
+		"annee":"Attention à ne pas vous laisser embarquer dans des décisions que vous regretterez.. Ayez le courage de remettre tout ceci à demain.",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -360,7 +360,7 @@
 		"element":"FEU",
 		"polarite":"YIN",
 		"influence":"FC",
-		"annee": "",
+		"annee": "Appuyez vous sur l’énergie volontaire et décisionnaire de cette journée, ne vous renfermez pas si vous ne sentez pas d’adhésion.",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -371,7 +371,7 @@
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"D",
-		"annee": "",
+		"annee": "Si vous ne communiquez pas avec clarté et logique, vous n’allez pas aboutir aujourd’hui. Soyez prêt au partage.",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -382,7 +382,7 @@
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"TF",
-		"annee": "",
+		"annee": "Ne vous bloquez pas si vous sentez de l’opposition… Appuyez vous sur l’énergie volontaire et décisionnaire de cette journée.",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -393,7 +393,7 @@
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"CC",
-		"annee": "",
+		"annee": "Vous allez être freiné durablement dans votre projet si vous laissez l’inaction vous envahir aujourd’hui.",
 		"mois": "",
 		"jour": "",
 		"heure": "" 
@@ -404,7 +404,7 @@
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"PC",
-		"annee": "",
+		"annee": "Ce n’est pas la journée pour prendre des décisions importantes, car l’énergie du jour manque de souplesse et de compréhension… Attendez un petit peu…",
 		"mois": "",
 		"jour": "",
 		"heure": ""
@@ -426,7 +426,7 @@
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"D",
-		"annee": "",
+		"annee": "L’énergie du jour n’est pas très souple et peu ouverte au dialogue. Faites attention à ne pas prendre de décisions radicales !",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -437,7 +437,7 @@
 		"element":"BOIS",
 		"polarite":"YANG",
 		"influence":"TF",
-		"annee":"",
+		"annee":"Journée riche en synthèse et charisme, vous devriez avoir la bonne idée et en convaincre votre entourage !",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -448,7 +448,7 @@
 		"element":"BOIS",
 		"polarite":"YIN",
 		"influence":"CC",
-		"annee":"",
+		"annee":"Journée propice pour convaincre du bien-fondé de vos idées si vous savez y mettre les formes.",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -459,7 +459,7 @@
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"PC",
-		"annee":"",
+		"annee":"Journée porteuse d’énergie et de charisme , profitez en pour exprimer votre côté chaleureux et désintéressé.",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -470,7 +470,7 @@
 		"element":"FEU",
 		"polarite":"YIN",
 		"influence":"FC",
-		"annee": "",
+		"annee": "Journée charismatique, cela devrait vous porter, profitez en pour bien communiquer et convaincre votre entourage !",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -481,7 +481,7 @@
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"D",
-		"annee": "",
+		"annee": "Journée porteuse d’énergie et de charisme mais à double tranchant ; on vous écoutera mais cela ne veut pas dire qu’on adhérera. Un peu de souplesse.",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -492,7 +492,7 @@
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"TF",
-		"annee": "",
+		"annee": "Journée riche en synthèse et charisme, vous devriez avoir la bonne idée et en convaincre votre entourage !",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -503,7 +503,7 @@
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"CC",
-		"annee": "",
+		"annee": "Journée propice pour séduire et convaincre. Attention à ne pas être trop directif !",
 		"mois": "",
 		"jour": "",
 		"heure": "" 
@@ -514,7 +514,7 @@
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"PC",
-		"annee": "",
+		"annee": "Journée porteuse d’énergie et de charisme si et seulement si votre sensibilité accepte que vous ne soyez pas mis en lumière ! Laissez aller !",
 		"mois": "",
 		"jour": "",
 		"heure": ""
@@ -536,7 +536,7 @@
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"D",
-		"annee": "",
+		"annee": "Journée porteuse d’énergie et de charisme mais à double tranchant ; on écoutera votre projet mais on ne suivra pas forcément…Laissez aller !",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -547,7 +547,7 @@
 		"element":"BOIS",
 		"polarite":"YANG",
 		"influence":"TF",
-		"annee":"",
+		"annee":"Vous devriez remporter une belle adhésion sur tout ce que vous proposez aujourd’hui.",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -558,7 +558,7 @@
 		"element":"BOIS",
 		"polarite":"YIN",
 		"influence":"CC",
-		"annee":"",
+		"annee":"Vous allez réussir à convaincre si vous restez réceptif et bienveillant.",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -569,7 +569,7 @@
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"PC",
-		"annee":"",
+		"annee":"Journée dédiée à la transmission désintéressée…Très important pour l’estime de soi et la construction du futur… Prenez plaisir au partage.",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -580,7 +580,7 @@
 		"element":"FEU",
 		"polarite":"YIN",
 		"influence":"FC",
-		"annee": "",
+		"annee": "Vous pouvez remporter une belle adhésion sur tout ce que vous proposez aujourd’hui si vous restez modeste.",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -591,7 +591,7 @@
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"D",
-		"annee": "",
+		"annee": "Montrez le chemin tant que vous voulez mais ne recherchez pas à ce que l’on vous encense à tout prix. Cela sera mal vécu !",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -602,7 +602,7 @@
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"TF",
-		"annee": "",
+		"annee": "Vous devriez remporter une belle adhésion sur tout ce que vous proposez aujourd’hui.",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -613,7 +613,7 @@
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"CC",
-		"annee": "",
+		"annee": "Inspiration, réalisme et  sagesse vous accompagnent aujourd’hui. Ecoutez les !",
 		"mois": "",
 		"jour": "",
 		"heure": "" 
@@ -624,7 +624,7 @@
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"PC",
-		"annee": "",
+		"annee": "Journée dédiée à la transmission désintéressée… Très important pour l’estime de soi et la construction du futur… Prenez plaisir au partage.",
 		"mois": "",
 		"jour": "",
 		"heure": ""
@@ -646,7 +646,7 @@
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"D",
-		"annee": "",
+		"annee": "Ce n’est pas une journée dédiée à la reconnaissance aujourd’hui. Sachez donner sans recevoir, c’est ainsi !",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -657,7 +657,7 @@
 		"element":"BOIS",
 		"polarite":"YANG",
 		"influence":"TF",
-		"annee":"",
+		"annee":"Ecoutez vraiment votre intuition, elle vous portera chance aujourd’hui.",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -668,7 +668,7 @@
 		"element":"BOIS",
 		"polarite":"YIN",
 		"influence":"CC",
-		"annee":"",
+		"annee":"Aujourd’hui tout vous semblera facile sur le plan professionnel, ne faites pas de gaffe !",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -679,7 +679,7 @@
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"PC",
-		"annee":"",
+		"annee":"Aujourd’hui les signes de réussite peuvent paraitre évidents…Mais restez prudent et attentif, on ne sait jamais !",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -690,7 +690,7 @@
 		"element":"FEU",
 		"polarite":"YIN",
 		"influence":"FC",
-		"annee": "",
+		"annee": "Si vous écoutez vraiment votre intuition, elle vous portera chance aujourd’hui.",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -701,7 +701,7 @@
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"D",
-		"annee": "",
+		"annee": "Tout semble aller de soi et vous avez le vent en poupe, mais ne fermez pas les yeux, écoutez votre instinct, l’échec est possible.",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -712,7 +712,7 @@
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"TF",
-		"annee": "",
+		"annee": "Ecoutez vraiment votre intuition, elle vous portera chance aujourd’hui.",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -723,7 +723,7 @@
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"CC",
-		"annee": "",
+		"annee": "Journée parfaite pour conclure un projet, mais restez en éveil on ne sait jamais !",
 		"mois": "",
 		"jour": "",
 		"heure": "" 
@@ -734,7 +734,7 @@
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"PC",
-		"annee": "",
+		"annee": "Aujourd’hui les signes de réussite peuvent paraitre évidents… Mais restez prudent et attentif, on ne sait jamais !",
 		"mois": "",
 		"jour": "",
 		"heure": ""
@@ -756,7 +756,7 @@
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"D",
-		"annee": "",
+		"annee": "Attention aux signes trop évidents de réussite,  ne fermez pas les yeux, écoutez votre instinct, l’échec est possible.",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -767,7 +767,7 @@
 		"element":"BOIS",
 		"polarite":"YANG",
 		"influence":"TF",
-		"annee":"",
+		"annee":"Laissez votre intuition guider votre journée… C’est favorable.",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -778,7 +778,7 @@
 		"element":"BOIS",
 		"polarite":"YIN",
 		"influence":"CC",
-		"annee":"",
+		"annee":"Encore une journée favorable pour vos projets, profitez en pour faire le plein d’énergies positives !",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -789,7 +789,7 @@
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"PC",
-		"annee":"",
+		"annee":"Journée propice aux opportunités, surtout dans les affaires. Soyez encore plus persuasif que d’ordinaire, les portes sont en train de s’ouvrir.",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -800,7 +800,7 @@
 		"element":"FEU",
 		"polarite":"YIN",
 		"influence":"FC",
-		"annee": "",
+		"annee": "Si vous avez des doutes, laissez votre intuition guider votre journée.",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -811,7 +811,7 @@
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"D",
-		"annee": "",
+		"annee": "Tout redeviendra plus facile si vous communiquez votre projet avec votre réalisme habituel… Il faut semer et partager pour récolter…",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -822,7 +822,7 @@
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"TF",
-		"annee": "",
+		"annee": "Laissez votre intuition guider votre journée… C’est favorable.",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -833,7 +833,7 @@
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"CC",
-		"annee": "",
+		"annee": "Encore une journée favorable pour vos projets, si vous restez attentif , bienveillant et modeste !",
 		"mois": "",
 		"jour": "",
 		"heure": "" 
@@ -844,7 +844,7 @@
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"PC",
-		"annee": "",
+		"annee": "Journée propice aux opportunités, surtout dans les affaires. Soyez encore plus sensitif que d’ordinaire, les portes sont en train de s’ouvrir.",
 		"mois": "",
 		"jour": "",
 		"heure": ""
@@ -866,7 +866,7 @@
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"D",
-		"annee": "",
+		"annee": "Cela pourrait bien se passer aujourd’hui si vous saisissez les opportunités. Ne vous renfermez pas !",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -877,7 +877,7 @@
 		"element":"BOIS",
 		"polarite":"YANG",
 		"influence":"TF",
-		"annee":"",
+		"annee":"Du réalisme et du concret assorti d’un bon feeling aujourd’hui… Exposez vos idées avec franchise.",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -888,7 +888,7 @@
 		"element":"BOIS",
 		"polarite":"YIN",
 		"influence":"CC",
-		"annee":"",
+		"annee":"Vous ressentez beaucoup les choses aujourd’hui mais cela peut freiner votre créativité... Décrispez vous !",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -899,7 +899,7 @@
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"PC",
-		"annee":"",
+		"annee":"Laissez parler vos émotions et votre expérience aujourd’hui, vous saurez être persuasif si vous faites fondre les défenses.",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -910,7 +910,7 @@
 		"element":"FEU",
 		"polarite":"YIN",
 		"influence":"FC",
-		"annee": "",
+		"annee": "Du réalisme et du concret assorti d’un bon feeling aujourd’hui… Communiquez vos idées sans détour !",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -921,7 +921,7 @@
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"D",
-		"annee": "",
+		"annee": "Réalisme et rigueur risquent de provoquer une journée statique et peu enthousiasmante ; Laissez parler vos émotions, prenez plaisir à la mise en œuvre de votre projet.",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -932,7 +932,7 @@
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"TF",
-		"annee": "",
+		"annee": "Du réalisme et du concret assorti d’un bon feeling aujourd’hui… Exposez vos idées avec franchise.",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -943,7 +943,7 @@
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"CC",
-		"annee": "",
+		"annee": "Vous allez ressentir beaucoup de force aujourd’hui, mais tentez de ne pas être trop cassant et direct.",
 		"mois": "",
 		"jour": "",
 		"heure": "" 
@@ -954,7 +954,7 @@
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"PC",
-		"annee": "",
+		"annee": "Laissez parler vos émotions et votre expérience aujourd’hui, soyez créatif si vous ne voulez pas tomber dans la morosité.",
 		"mois": "",
 		"jour": "",
 		"heure": ""
@@ -976,7 +976,7 @@
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"D",
-		"annee": "",
+		"annee": "Journée statique et peu enthousiasmante qui va hésiter entre moments d’angoisse et désir de bien faire; laissez parler vos émotions et votre expérience, prenez plaisir à la mise en œuvre de votre projet.",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -987,7 +987,7 @@
 		"element":"BOIS",
 		"polarite":"YANG",
 		"influence":"TF",
-		"annee":"",
+		"annee":"Beaucoup de sensibilité et de rigueur devraient vous aider à faire passer vos idées.",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -998,7 +998,7 @@
 		"element":"BOIS",
 		"polarite":"YIN",
 		"influence":"CC",
-		"annee":"",
+		"annee":"Ne vous laissez pas décourager par ce que vous ressentez, restez rigoureux et créatif.",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -1009,7 +1009,7 @@
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"PC",
-		"annee":"",
+		"annee":"Vous verrez les choses clairement aujourd’hui…Partagez simplement et clairement , on va vous suivre.",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -1020,7 +1020,7 @@
 		"element":"FEU",
 		"polarite":"YIN",
 		"influence":"FC",
-		"annee": "",
+		"annee": "Votre communication aujourd’hui devra allier rigueur et sensibilité pour être crédible.",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -1031,7 +1031,7 @@
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"D",
-		"annee": "",
+		"annee": "Vous voyez les choses avec réalisme et tout est bien cadré… N’oubliez pas de partager vos idées. L’isolement vous guette.",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -1042,7 +1042,7 @@
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"TF",
-		"annee": "",
+		"annee": "Beaucoup de sensibilité et de rigueur devraient vous aider à faire passer vos idées.",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -1053,7 +1053,7 @@
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"CC",
-		"annee": "",
+		"annee": "Vous serez tiraillé aujourd’hui entre  la lucidité et l’envie de passer à l’action. Ecouter votre environnement avent de vous décider.",
 		"mois": "",
 		"jour": "",
 		"heure": "" 
@@ -1064,7 +1064,7 @@
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"PC",
-		"annee": "",
+		"annee": "Vous verrez les choses clairement aujourd’hui… Ne restez pas isolé dans vos certitudes , partagez cela évitera les ennuis…",
 		"mois": "",
 		"jour": "",
 		"heure": ""
@@ -1086,7 +1086,7 @@
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"D",
-		"annee": "",
+		"annee": "N’oubliez pas de partager vos idées aujourd’hui. Les choses bien cadrées et trop bien huilées pourraient vous emmener vers l’isolement.",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -1097,7 +1097,7 @@
 		"element":"BOIS",
 		"polarite":"YANG",
 		"influence":"TF",
-		"annee":"",
+		"annee":"Vous pouvez vous appuyer sur cette journée pour présenter vos projets même les plus sophistiqués ou difficiles…",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -1108,7 +1108,7 @@
 		"element":"BOIS",
 		"polarite":"YIN",
 		"influence":"CC",
-		"annee":"",
+		"annee":"Journée idéale pour présenter des idées osées et originales mais gare à l’approximation.",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -1119,7 +1119,7 @@
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"PC",
-		"annee":"",
+		"annee":"Journée pleine de principes et de rituels si vous savez observer… Communiquez dans le même sens et cela passera !",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -1130,7 +1130,7 @@
 		"element":"FEU",
 		"polarite":"YIN",
 		"influence":"FC",
-		"annee": "",
+		"annee": "Cette journée est propice pour présenter vos projets même les plus sophistiqués ou difficiles… Etes vous prêt ?",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -1141,7 +1141,7 @@
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"D",
-		"annee": "",
+		"annee": "A vouloir trop édicter de règles et protocoles vous risquez aujourd’hui de ne pas être à l’écoute de vos sensations ! Débordement d’émotion en vue !",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -1152,7 +1152,7 @@
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"TF",
-		"annee": "",
+		"annee": "Vous pouvez vous appuyer sur cette journée pour présenter vos projets même les plus sophistiqués ou difficiles…",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -1163,7 +1163,7 @@
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"CC",
-		"annee": "",
+		"annee": "Beaucoup de force aujourd’hui vous accompagne dans la séduction mais attention aux émotions !",
 		"mois": "",
 		"jour": "",
 		"heure": "" 
@@ -1174,7 +1174,7 @@
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"PC",
-		"annee": "",
+		"annee": "Ne soyez pas trop rigide ! Cela vous empêche d’être à l’écoute de vos sensations , quelle perte d’énergie !",
 		"mois": "",
 		"jour": "",
 		"heure": ""
@@ -1196,7 +1196,7 @@
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"D",
-		"annee": "",
+		"annee": "Vous risquez de ne pas être à l’écoute de vos sensations si vous vous retranchez derrière des règles trop strictes ! Débordement d’émotion possible !",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -1207,7 +1207,7 @@
 		"element":"BOIS",
 		"polarite":"YANG",
 		"influence":"TF",
-		"annee":"",
+		"annee":"Une séduction certaine et beaucoup de générosité dans vos créations aujourd’hui.",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -1218,7 +1218,7 @@
 		"element":"BOIS",
 		"polarite":"YIN",
 		"influence":"CC",
-		"annee":"",
+		"annee":"Une once de douceur et de créativité aujourd’hui, cela fait du bien mais ne vous emballez pas sur toute chose !",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -1229,7 +1229,7 @@
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"PC",
-		"annee":"",
+		"annee":"Vous devrez suivre un shéma clair et précis pour vous faire comprendre aujourd’hui… Ne passez pas à côté des détails.",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -1240,7 +1240,7 @@
 		"element":"FEU",
 		"polarite":"YIN",
 		"influence":"FC",
-		"annee": "",
+		"annee": "Une séduction certaine et beaucoup de générosité dans vos paroles aujourd’hui.",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -1251,7 +1251,7 @@
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"D",
-		"annee": "",
+		"annee": "Tout le monde peut être à fleur de peau aujourd’hui. Restez ouverts et l’hésitez pas à partager les émotions pour désamorcer les conflits.",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -1262,7 +1262,7 @@
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"TF",
-		"annee": "",
+		"annee": "Une séduction certaine et beaucoup de générosité dans vos créations aujourd’hui.",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -1273,7 +1273,7 @@
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"CC",
-		"annee": "",
+		"annee": "Beaucoup de sensibilité et d’émotivité aujourd’hui. Servez vous en pour faire de belles choses, tout dépend de vous !",
 		"mois": "",
 		"jour": "",
 		"heure": "" 
@@ -1284,7 +1284,7 @@
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"PC",
-		"annee": "",
+		"annee": "Des difficultés à énoncer les véritables émotions aujourd’hui. Cela partir en vrille si vous ne faites pas attention !",
 		"mois": "",
 		"jour": "",
 		"heure": ""
@@ -1306,7 +1306,7 @@
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"D",
-		"annee": "",
+		"annee": "Soyez plus que jamais à l’écoute aujourd’hui pour désamorcer les conflits… Il peut y avoir des émotions exacerbées et des dialogues de sourds… Attention !",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -1317,7 +1317,7 @@
 		"element":"BOIS",
 		"polarite":"YANG",
 		"influence":"D",
-		"annee": "",
+		"annee": "Vous aurez beaucoup d’atouts pour convaincre ; la séduction, la convivialité sont avec vous, mais n’en faites pas trop !",
 		"mois": "",
 		"jour": "",
 		"heure": ""
@@ -1328,7 +1328,7 @@
 		"element":"BOIS",
 		"polarite":"YIN",
 		"influence":"TF",
-		"annee":"",
+		"annee":"Vos idées vont germer positivement dans l’esprit de ceux qui vous entourent… Soyez décisif !",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -1339,7 +1339,7 @@
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"CC",
-		"annee":"",
+		"annee":"C’est la journée des complicités et des confidences. Cela ne vous plait pas toujours, restez discret sur ce que vous entendez…",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -1350,7 +1350,7 @@
 		"element":"FEU",
 		"polarite":"YIN",
 		"influence":"PC",
-		"annee": "",
+		"annee": "Journée dédiée à la conviction : la séduction, la convivialité sont avec vous, mais n’en faites pas trop !",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -1361,7 +1361,7 @@
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"FC",
-		"annee": "",
+		"annee": "Vous allez créer des complicités et de l’empathie autour de vous et de vos projets…Si vous n’allez pas trop loin dans les confidences et indiscrétions…",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -1372,7 +1372,7 @@
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"D",
-		"annee": "",
+		"annee": "Vous aurez beaucoup d’atouts pour convaincre ; la séduction, la convivialité sont avec vous, mais n’en faites pas trop !",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -1383,7 +1383,7 @@
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"TF",
-		"annee": "",
+		"annee": "Vos idées vont germer positivement dans l’esprit de ceux qui vous entourent…Soyez décisif !",
 		"mois": "",
 		"jour": "",
 		"heure": "" 
@@ -1394,7 +1394,7 @@
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"CC",
-		"annee": "",
+		"annee": "C’est la journée des complicités et des confidences. Cela ne vous plait pas toujours, restez magnanime…",
 		"mois": "",
 		"jour": "",
 		"heure": ""
@@ -1416,7 +1416,7 @@
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"FC",
-		"annee": "",
+		"annee": "Grâce à votre sens de l’écoute et votre sagesse, vous allez déclencher des complicités et des confidences. Attention aux indiscrétions…",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -1427,7 +1427,7 @@
 		"element":"BOIS",
 		"polarite":"YANG",
 		"influence":"D",
-		"annee": "",
+		"annee": "Vos conseils peuvent être bons, il faut de la bienveillance pour les faire comprendre.",
 		"mois": "",
 		"jour": "",
 		"heure": ""
@@ -1438,7 +1438,7 @@
 		"element":"BOIS",
 		"polarite":"YIN",
 		"influence":"TF",
-		"annee":"",
+		"annee":"Si vous restez attentif, vous serez très efficace, ni trop, ni trop peu.",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -1449,7 +1449,7 @@
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"CC",
-		"annee":"",
+		"annee":"Profitez de l’instant présent et recevez tous les témoignages de sympathie qui vous sont faits, RESTEZ COOL!",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -1460,7 +1460,7 @@
 		"element":"FEU",
 		"polarite":"YIN",
 		"influence":"PC",
-		"annee": "",
+		"annee": "Vous aurez sans doute de bons  conseils aujourd’hui, ajoutez y un zest de bienveillance !",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -1471,7 +1471,7 @@
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"FC",
-		"annee": "",
+		"annee": "Une journée douce et riche en confidences vous attend si vous n’en profitez pas pour ( trop) tirer les vers du nez.",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -1482,7 +1482,7 @@
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"D",
-		"annee": "",
+		"annee": "Vos conseils peuvent être bons, il faut de la bienveillance pour les faire comprendre.",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -1493,7 +1493,7 @@
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"TF",
-		"annee": "",
+		"annee": "Beaucoup de sensibilité et de chaleur dans cette journée qui devrait renforcer positivement votre aptitude à convaincre.",
 		"mois": "",
 		"jour": "",
 		"heure": "" 
@@ -1504,7 +1504,7 @@
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"CC",
-		"annee": "",
+		"annee": "Profitez de l’instant présent et recevez tous les témoignages de sympathie qui vous sont faits, ne jugez pas !",
 		"mois": "",
 		"jour": "",
 		"heure": ""
@@ -1526,7 +1526,7 @@
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"FC",
-		"annee": "",
+		"annee": "Une journée douce et riche en confidences vous attend . Profitez de l’instant présent sans faire de plan sur la comète.",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -1537,7 +1537,7 @@
 		"element":"BOIS",
 		"polarite":"YANG",
 		"influence":"D",
-		"annee": "",
+		"annee": "Une excellente journée pour communiquer vos idées et vos créations…calmement…",
 		"mois": "",
 		"jour": "",
 		"heure": ""
@@ -1548,7 +1548,7 @@
 		"element":"BOIS",
 		"polarite":"YIN",
 		"influence":"TF",
-		"annee":"",
+		"annee":"Encore une excellente journée pour communiquer vos idées et vos créations…",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -1559,7 +1559,7 @@
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"CC",
-		"annee":"",
+		"annee":"Communiquez avec rigueur et sagesse, vous savez faire… Cela dépend vraiment de vous aujourd’hui, il y a tant d’émotions autour de vous !",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -1570,7 +1570,7 @@
 		"element":"FEU",
 		"polarite":"YIN",
 		"influence":"PC",
-		"annee": "",
+		"annee": "Vous pourrez très facilement communiquer aujourd’hui mais restez modéré dans vos propos, un malentendu est toujours possible.",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -1581,7 +1581,7 @@
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"FC",
-		"annee": "",
+		"annee": "Aujourd’hui vous êtes en mesure de convaincre même les plus réticents. Mais ne vous énervez pas si vous ne semblez pas retenir toute l’adhésion voulue.",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -1592,7 +1592,7 @@
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"D",
-		"annee": "",
+		"annee": "Une excellente journée pour communiquer vos idées et vos créations… calmement…",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -1603,7 +1603,7 @@
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"TF",
-		"annee": "",
+		"annee": "Encore une excellente journée pour rendre efficaces vos idées et vos créations…",
 		"mois": "",
 		"jour": "",
 		"heure": "" 
@@ -1614,7 +1614,7 @@
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"CC",
-		"annee": "",
+		"annee": "Communiquez avec rigueur et sagesse, vous savez faire…Cela dépend vraiment de vous aujourd’hui, il y a tant d’émotions autour de vous !",
 		"mois": "",
 		"jour": "",
 		"heure": ""
@@ -1636,7 +1636,7 @@
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"FC",
-		"annee": "",
+		"annee": "Ne vous renfermez pas si vous ne semblez pas convaincre les plus réticents. Communiquez avec modération même si la passion veut l’emporter.",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -1647,7 +1647,7 @@
 		"element":"BOIS",
 		"polarite":"YANG",
 		"influence":"D",
-		"annee": "",
+		"annee": "Une journée propice pour faire passer vos idées en douceur mais mettez de l’ordre dans la façon de les communiquer.",
 		"mois": "",
 		"jour": "",
 		"heure": ""
@@ -1658,7 +1658,7 @@
 		"element":"BOIS",
 		"polarite":"YIN",
 		"influence":"TF",
-		"annee":"",
+		"annee":"Une journée propice pour faire passer vos idées en douceur avec clarté car bien réfléchies…",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -1669,7 +1669,7 @@
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"CC",
-		"annee":"",
+		"annee":"Communiquer avec sagesse peut créer une bonne synergie entre passion et raison, servez vous en !",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -1680,7 +1680,7 @@
 		"element":"FEU",
 		"polarite":"YIN",
 		"influence":"PC",
-		"annee": "",
+		"annee": "Une belle journée pour faire passer vos idées en douceur mais ne vous impatientez pas.",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -1691,7 +1691,7 @@
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"FC",
-		"annee": "",
+		"annee": "Parler et communiquer c’est bien, créer de la sympathie c’est mieux, la journée s’y prête, pensez y !",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -1702,7 +1702,7 @@
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"D",
-		"annee": "",
+		"annee": "Une journée propice pour faire passer vos idées en douceur mais mettez de l’ordre dans la façon de les communiquer.",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -1713,7 +1713,7 @@
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"TF",
-		"annee": "",
+		"annee": "Une journée propice pour faire passer vos idées avec précision, force et clarté.",
 		"mois": "",
 		"jour": "",
 		"heure": "" 
@@ -1724,7 +1724,7 @@
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"CC",
-		"annee": "",
+		"annee": "Communiquer avec votre sagesse reconnue peut créer une bonne synergie entre passion et raison, servez vous en !",
 		"mois": "",
 		"jour": "",
 		"heure": ""
@@ -1746,7 +1746,7 @@
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"FC",
-		"annee": "",
+		"annee": "Parler et communiquer aujourd’hui sera votre fer de lance. Votre sagesse reconnue peut créer de la sympathie, servez vous en !",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -1757,7 +1757,7 @@
 		"element":"BOIS",
 		"polarite":"YANG",
 		"influence":"D",
-		"annee": "",
+		"annee": "Passion et conviction vous accompagne aujourd’hui mais attention aux excès !",
 		"mois": "",
 		"jour": "",
 		"heure": ""
@@ -1768,7 +1768,7 @@
 		"element":"BOIS",
 		"polarite":"YIN",
 		"influence":"TF",
-		"annee":"",
+		"annee":"Si vous cherchiez le jour pour vous donner la force de convaincre , c’est le moment !",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -1779,7 +1779,7 @@
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"CC",
-		"annee":"",
+		"annee":"Beaucoup de passion et d’enthousiasme aujourd’hui . Transformez tout ceci en réussite avec chaleur et empathie.",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -1790,7 +1790,7 @@
 		"element":"FEU",
 		"polarite":"YIN",
 		"influence":"PC",
-		"annee": "",
+		"annee": "Beaucoup de passion et d’énergie dans cette journée, mais attention rien n’est acquis !",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -1801,7 +1801,7 @@
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"FC",
-		"annee": "",
+		"annee": "Si votre projet fait appel à la passion et l’enthousiasme c’est la journée indispensable pour le partage…Mais attention aux excès !",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -1812,7 +1812,7 @@
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"D",
-		"annee": "",
+		"annee": "Passion et conviction vous accompagne aujourd’hui mais attention aux excès !",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -1823,7 +1823,7 @@
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"TF",
-		"annee": "",
+		"annee": "Si vous cherchiez le jour pour vous donner la force de convaincre , c’est le moment !",
 		"mois": "",
 		"jour": "",
 		"heure": "" 
@@ -1834,7 +1834,7 @@
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"CC",
-		"annee": "",
+		"annee": "Beaucoup de passion et d’enthousiasme aujourd’hui . Transformez tout ceci en réussite.",
 		"mois": "",
 		"jour": "",
 		"heure": ""
@@ -1856,7 +1856,7 @@
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"FC",
-		"annee": "",
+		"annee": "C’est la journée indispensable pour le partage de la passion et de l’enthousiasme . Ne vous laissez pas déborder et restez à l’écoute!",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -1867,7 +1867,7 @@
 		"element":"BOIS",
 		"polarite":"YANG",
 		"influence":"D",
-		"annee": "",
+		"annee": "Aujourd’hui vous serez très convaincant(e), profitez-en avec modestie.",
 		"mois": "",
 		"jour": "",
 		"heure": ""
@@ -1878,7 +1878,7 @@
 		"element":"BOIS",
 		"polarite":"YIN",
 		"influence":"TF",
-		"annee":"",
+		"annee":"La passion modérée du jour va vous apporter une touche de dynamisme tout à fait à propos !",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -1889,7 +1889,7 @@
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"CC",
-		"annee":"",
+		"annee":"Journée toujours dédiée à la passion et l’enthousiasme. Ne montrez pas de signes d’impatience, Cela va aller !",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -1911,7 +1911,7 @@
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"FC",
-		"annee": "",
+		"annee": "Journée toujours dédiée à la passion et l’enthousiasme. Ne transformez pas cette grande énergie créatrice en colère.",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -1922,7 +1922,7 @@
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"D",
-		"annee": "",
+		"annee": "Aujourd’hui vous serez très convaincant(e), profitez-en avec modestie.",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -1933,7 +1933,7 @@
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"TF",
-		"annee": "",
+		"annee": "Journée idéale pour que votre projet s’entoure d’une passion modérée et dynamique très efficace.",
 		"mois": "",
 		"jour": "",
 		"heure": "" 
@@ -1944,7 +1944,7 @@
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"CC",
-		"annee": "",
+		"annee": "Journée toujours dédiée à la passion et l’enthousiasme. Ne montrez pas de signes d’impatience, Cela va aller !",
 		"mois": "",
 		"jour": "",
 		"heure": ""
@@ -1966,7 +1966,7 @@
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"FC",
-		"annee": "",
+		"annee": "Journée toujours dédiée à la passion et l’enthousiasme. Ne vous renfermez pas si l’énergie qui vous entoure vous dépasse un peu… Cela va aller !",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -1977,7 +1977,7 @@
 		"element":"BOIS",
 		"polarite":"YANG",
 		"influence":"D",
-		"annee": "",
+		"annee": "Transformez cette angoisse et ce découragement qui vous entoure en courage et volonté…Tout dépend de vous !",
 		"mois": "",
 		"jour": "",
 		"heure": ""
@@ -1988,7 +1988,7 @@
 		"element":"BOIS",
 		"polarite":"YIN",
 		"influence":"TF",
-		"annee":"",
+		"annee":"C’est le jour des amis et de la convivialité, votre dynamisme créatif sera bien perçu !",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -1999,7 +1999,7 @@
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"CC",
-		"annee":"",
+		"annee":"Savoir s’entourer est une bonne chose qui peut être accomplie aujourd’hui…Tant qu’on vous laisse vous exprimer…Restez zen !",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -2021,7 +2021,7 @@
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"FC",
-		"annee": "",
+		"annee": "Trouver les mots qui font mouche, créer la sympathie…Aujourd’hui c’est le moment idéal pour la cohésion mais gardez votre indépendance.",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -2032,7 +2032,7 @@
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"D",
-		"annee": "",
+		"annee": "Transformez cette angoisse et ce découragement qui vous entoure en courage et volonté…Tout dépend de vous !",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -2043,7 +2043,7 @@
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"TF",
-		"annee": "",
+		"annee": "C’est le jour des amis et de la convivialité, votre sensibilité créatrice sera bien perçue !",
 		"mois": "",
 		"jour": "",
 		"heure": "" 
@@ -2054,7 +2054,7 @@
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"CC",
-		"annee": "",
+		"annee": "Savoir s’entourer est une bonne chose qui peut être accomplie aujourd’hui…Tant qu’on vous laisse un peu respirer…Restez zen !",
 		"mois": "",
 		"jour": "",
 		"heure": ""
@@ -2076,7 +2076,7 @@
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"FC",
-		"annee": "",
+		"annee": "Aujourd’hui c’est le moment idéal pour récolter de la sympathie autour de vos idées mais gardez votre indépendance.",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -2087,7 +2087,7 @@
 		"element":"BOIS",
 		"polarite":"YANG",
 		"influence":"D",
-		"annee": "",
+		"annee": "La peur de mal agir peut empêcher la réalisation de vos projets aujourd’hui.",
 		"mois": "",
 		"jour": "",
 		"heure": ""
@@ -2098,7 +2098,7 @@
 		"element":"BOIS",
 		"polarite":"YIN",
 		"influence":"TF",
-		"annee":"",
+		"annee":"Les amis qui recherchent votre compagnie aujourd’hui sont ceux qui ont le plus besoin de vous, soyez à votre maximum pour eux !",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -2109,7 +2109,7 @@
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"CC",
-		"annee":"",
+		"annee":"Journée spéciale pour consolider les marques d’attention autour de votre projet ou de vous même.Restez modeste.",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -2131,7 +2131,7 @@
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"FC",
-		"annee": "",
+		"annee": "Journée particulière pour renforcer les sympathies autour de votre projet mais restez cool pour ne pas rebuter vos fans !",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -2142,7 +2142,7 @@
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"D",
-		"annee": "",
+		"annee": "La peur de mal agir peut empêcher la réalisation de vos projets aujourd’hui.",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -2153,7 +2153,7 @@
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"TF",
-		"annee": "",
+		"annee": "C’est une journée de convivialité et de complicité, sachez être sincère et ce sera parfait.",
 		"mois": "",
 		"jour": "",
 		"heure": "" 
@@ -2164,7 +2164,7 @@
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"CC",
-		"annee": "",
+		"annee": "Journée spéciale pour consolider les marques d’attention autour de votre projet ou de vous même. Soyez cool, cela va plaire.",
 		"mois": "",
 		"jour": "",
 		"heure": ""
@@ -2186,7 +2186,7 @@
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"FC",
-		"annee": "",
+		"annee": "Journée spéciale pour renforcer les sympathies autour de votre projet ou vos idées. Soyez cool, cela va plaire.",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -2197,7 +2197,7 @@
 		"element":"BOIS",
 		"polarite":"YANG",
 		"influence":"D",
-		"annee": "",
+		"annee": "Excellente journée pour présenter vos projets, à la fois dynamique et pédagogique, soyez clair !",
 		"mois": "",
 		"jour": "",
 		"heure": ""
@@ -2208,7 +2208,7 @@
 		"element":"BOIS",
 		"polarite":"YIN",
 		"influence":"TF",
-		"annee":"",
+		"annee":"Journée au summum de la pédagogie et de la communication ..Parfaite pour présenter un projet.",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -2219,7 +2219,7 @@
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"CC",
-		"annee":"",
+		"annee":"Vous devriez vous sentir à l’aise aujourd’hui…Beaucoup de personnes semblent avoir envie de vous écouter et de vous suivre. Ne gâchez rien !",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -2241,7 +2241,7 @@
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"FC",
-		"annee": "",
+		"annee": "Vous avez la fibre pédagogique aujourd’hui. Beaucoup de bon sens et de réflexion. Mais ne soyez pas rigide.",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -2252,7 +2252,7 @@
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"D",
-		"annee": "",
+		"annee": "Excellente journée pour présenter vos projets, à la fois dynamique et pédagogique, soyez clair !",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -2263,7 +2263,7 @@
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"TF",
-		"annee": "",
+		"annee": "Journée au summum de la pédagogie et de la communication ..Parfaite pour présenter un projet.",
 		"mois": "",
 		"jour": "",
 		"heure": "" 
@@ -2274,7 +2274,7 @@
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"CC",
-		"annee": "",
+		"annee": "Vous devriez vous sentir à l’aise aujourd’hui…Il y a beaucoup de bon sens et d’écoute dans l’air…Ne vous braquez pas !",
 		"mois": "",
 		"jour": "",
 		"heure": ""
@@ -2296,7 +2296,7 @@
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"FC",
-		"annee": "",
+		"annee": "Beaucoup de bon sens et de pédagogie aujourd’hui. Restez à l’écoute et communiquez sans vous braquer.",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -2307,7 +2307,7 @@
 		"element":"BOIS",
 		"polarite":"YANG",
 		"influence":"D",
-		"annee": "",
+		"annee": "Un excès d’énergie risque de rendre vos idées moins claires à comprendre et à mettre en oeuvre.",
 		"mois": "",
 		"jour": "",
 		"heure": ""
@@ -2318,7 +2318,7 @@
 		"element":"BOIS",
 		"polarite":"YIN",
 		"influence":"TF",
-		"annee":"",
+		"annee":"Juste ce qu’il faudra aujourd’hui pour vous faire comprendre efficacement.",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -2329,7 +2329,7 @@
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"CC",
-		"annee":"",
+		"annee":"Si vous attendiez un jour propice pour exposer vos arguments avec rigueur et clarté, c’est aujourd’hui. Soyez attentif aux réactions.",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -2351,7 +2351,7 @@
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"FC",
-		"annee": "",
+		"annee": "Vous serez compris aujourd’hui si vous restez clair et concis. N’imposez pas vos idées !",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -2362,7 +2362,7 @@
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"D",
-		"annee": "",
+		"annee": "Un excès d’énergie risque de rendre vos idées moins claires à comprendre et à mettre en oeuvre.",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -2373,7 +2373,7 @@
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"TF",
-		"annee": "",
+		"annee": "Journée propice à la pédagogie si vous restez clair dans vos explications et objectifs.",
 		"mois": "",
 		"jour": "",
 		"heure": "" 
@@ -2384,7 +2384,7 @@
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"CC",
-		"annee": "",
+		"annee": "Si vous attendiez un jour propice pour exposer vos arguments avec rigueur et clarté, c’est aujourd’hui. Soyez attentif à votre ressenti.",
 		"mois": "",
 		"jour": "",
 		"heure": ""
@@ -2406,7 +2406,7 @@
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"FC",
-		"annee": "",
+		"annee": " Votre réserve naturelle sera boostée aujourd’hui par une énergie qui vous aidera à transmettre vos opinions si vous restez clair et concis.",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -2417,7 +2417,7 @@
 		"element":"BOIS",
 		"polarite":"YANG",
 		"influence":"D",
-		"annee": "",
+		"annee": "Vous pouvez briller avec vos idées mais gare à ne froisser personne !",
 		"mois": "",
 		"jour": "",
 		"heure": ""
@@ -2428,7 +2428,7 @@
 		"element":"BOIS",
 		"polarite":"YIN",
 		"influence":"TF",
-		"annee":"",
+		"annee":"C’est la journée idéale pour faire briller vos idées de mille feux sans remords…On vous suit !",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -2439,7 +2439,7 @@
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"CC",
-		"annee":"",
+		"annee":"C’est la journée pour pouvoir communiquer et partager vos projets. …Si vous n’avez pas trop de concurrence dans la partie !",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -2461,7 +2461,7 @@
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"FC",
-		"annee": "",
+		"annee": "Une belle journée propice à la communication et au partage de vos projets. N’en faites pas trop quand même !",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -2472,7 +2472,7 @@
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"D",
-		"annee": "",
+		"annee": "Vous pouvez briller avec vos idées mais gare à ne froisser personne !",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -2483,7 +2483,7 @@
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"TF",
-		"annee": "",
+		"annee": "C’est la journée idéale pour développer vos idées avec méthode… On vous suit !",
 		"mois": "",
 		"jour": "",
 		"heure": "" 
@@ -2494,7 +2494,7 @@
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"CC",
-		"annee": "",
+		"annee": "C’est la journée pour pouvoir communiquer et partager vos projets. Soit cela sera une grande journée, soit vous vous renfermerez dans votre coquille…Trop de lumière vous gêne parfois !",
 		"mois": "",
 		"jour": "",
 		"heure": ""
@@ -2516,7 +2516,7 @@
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"FC",
-		"annee": "",
+		"annee": "Une fois n’est pas coutume, vous allez pouvoir communiquer et partager vos projets. Cela va peut-être étonner votre entourage. C’est l’énergie du jour, profitez !",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -2527,7 +2527,7 @@
 		"element":"BOIS",
 		"polarite":"YANG",
 		"influence":"D",
-		"annee": "",
+		"annee": "Ne restez pas sur vos positions même si vos idées semblent les meilleures : communiquez avec bienveillance !",
 		"mois": "",
 		"jour": "",
 		"heure": ""
@@ -2538,7 +2538,7 @@
 		"element":"BOIS",
 		"polarite":"YIN",
 		"influence":"TF",
-		"annee":"",
+		"annee":"Vous saurez communiquer vos projets avec bienveillance, journée idéale.",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -2549,7 +2549,7 @@
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"CC",
-		"annee":"",
+		"annee":"Une journée parfaite pour communiquer avec calme et clarté…Si vous maitrisez votre extraversion naturelle !",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -2571,7 +2571,7 @@
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"FC",
-		"annee": "",
+		"annee": "Cette journée est parfaite pour briller et exposer vos idées si vous ne vous posez pas trop de questions.",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -2582,7 +2582,7 @@
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"D",
-		"annee": "",
+		"annee": "Ne restez pas sur vos positions même si vos idées semblent les meilleures : communiquez avec bienveillance !",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -2593,7 +2593,7 @@
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"TF",
-		"annee": "",
+		"annee": "Vous saurez communiquer vos projets même difficiles avec charisme, conviction et bienveillance.",
 		"mois": "",
 		"jour": "",
 		"heure": "" 
@@ -2604,7 +2604,7 @@
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"CC",
-		"annee": "",
+		"annee": "Une journée parfaite pour communiquer avec calme et clarté…Si vous sortez de votre réserve naturelle !",
 		"mois": "",
 		"jour": "",
 		"heure": ""
@@ -2626,7 +2626,7 @@
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"FC",
-		"annee": "",
+		"annee": "Cette journée est parfaite pour échanger et exposer vos idées avec clarté …Energie charismatique qui va vous aider à être bien.",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -2637,7 +2637,7 @@
 		"element":"BOIS",
 		"polarite":"YANG",
 		"influence":"CC",
-		"annee":"",
+		"annee":"Oui, rigueur et création peuvent aller ensemble, mais détendez-vous !",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -2648,7 +2648,7 @@
 		"element":"BOIS",
 		"polarite":"YIN",
 		"influence":"PC",
-		"annee":"",
+		"annee":"Un fort besoin de réfléchir s’impose pour vos créations et vos projets, profitez en.",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -2659,7 +2659,7 @@
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"FC",
-		"annee":"",
+		"annee":"Même si cette journée ne semble pas correspondre à ce que vous attendiez, faites confiance à sa bonne énergie qui va porter ses fruits.",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -2681,7 +2681,7 @@
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"TF",
-		"annee": "",
+		"annee": "Ne ruminez pas si cette journée ne ressemble pas exactement à ce que vous attendiez. De bonnes choses sont en cours.",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -2692,7 +2692,7 @@
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"CC",
-		"annee": "",
+		"annee": "Oui, rigueur et création peuvent aller ensemble, mais détendez-vous !",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -2703,7 +2703,7 @@
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"PC",
-		"annee": "",
+		"annee": "Un fort besoin de calme s’impose pour vous recentrer, profitez en.",
 		"mois": "",
 		"jour": "",
 		"heure": "" 
@@ -2714,7 +2714,7 @@
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"FC",
-		"annee": "",
+		"annee": "Si cette journée ne semble pas correspondre à ce que vous attendiez, faites confiance à sa bonne énergie qui va porter ses fruits.",
 		"mois": "",
 		"jour": "",
 		"heure": ""
@@ -2736,7 +2736,7 @@
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"TF",
-		"annee": "",
+		"annee": "Vous avez de grandes chances d’entendre de bonnes choses aujourd’hui…Ne restez pas à ruminer !",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -2747,7 +2747,7 @@
 		"element":"BOIS",
 		"polarite":"YANG",
 		"influence":"CC",
-		"annee":"",
+		"annee":"Journée nécessaire à la réflexion pour mieux créer et avancer. Faites-le comprendre à votre entourage.",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -2758,7 +2758,7 @@
 		"element":"BOIS",
 		"polarite":"YIN",
 		"influence":"PC",
-		"annee":"",
+		"annee":"Ne vous enfermez pas dans votre réflexion, cela vous isole de la réalité.",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -2769,7 +2769,7 @@
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"FC",
-		"annee":"",
+		"annee":"L’intense réflexion du jour ne doit pas empêcher votre volonté d’aller de l’avant…Restez calme néanmoins, c’est bien de se poser un peu…",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -2791,7 +2791,7 @@
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"TF",
-		"annee": "",
+		"annee": "Une journée riche en échange et réflexion…à la fois créative et concrète. Profitez en et laissez venir l’inspiration.",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -2802,7 +2802,7 @@
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"CC",
-		"annee": "",
+		"annee": "Journée nécessaire à la réflexion pour mieux créer et avancer. Faites-le comprendre à votre entourage.",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -2813,7 +2813,7 @@
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"PC",
-		"annee": "",
+		"annee": "Ne vous enfermez pas dans votre sensibilité, cela vous isole de la réalité.",
 		"mois": "",
 		"jour": "",
 		"heure": "" 
@@ -2824,7 +2824,7 @@
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"FC",
-		"annee": "",
+		"annee": "L’intense réflexion du jour ne doit pas empêcher votre volonté d’organiser et d’aller de l’avant…Restez calme néanmoins, c’est bien de se poser un peu…",
 		"mois": "",
 		"jour": "",
 		"heure": ""
@@ -2846,7 +2846,7 @@
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"TF",
-		"annee": "",
+		"annee": "Une journée propice à la réflexion, à la discussion et l’observation. De belles choses devraient sortir de ces énergies positives.",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -2857,7 +2857,7 @@
 		"element":"BOIS",
 		"polarite":"YANG",
 		"influence":"CC",
-		"annee":"",
+		"annee":"Beaucoup d’émotions et d’énergie qui risquent de vous angoisser.",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -2868,7 +2868,7 @@
 		"element":"BOIS",
 		"polarite":"YIN",
 		"influence":"PC",
-		"annee":"",
+		"annee":"Vous saurez séduire et convaincre si vous jouez la carte de la chaleur humaine.",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -2879,7 +2879,7 @@
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"FC",
-		"annee":"",
+		"annee":"Une journée intéressante et porteuse de créations qu’il va falloir aborder avec charme et empathie, si vous êtes prêt bien sûr !",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -2901,7 +2901,7 @@
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"TF",
-		"annee": "",
+		"annee": "Une journée favorable sur tous les plans : création, réalisation, partage. Laissez aller vos émotions !",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -2912,7 +2912,7 @@
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"CC",
-		"annee": "",
+		"annee": "Beaucoup d’émotions et d’énergie qui risquent de vous angoisser.",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -2923,7 +2923,7 @@
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"PC",
-		"annee": "",
+		"annee": "Vous saurez séduire et convaincre si vous jouez la carte de la sensibilité et de l’efficacité.",
 		"mois": "",
 		"jour": "",
 		"heure": "" 
@@ -2934,7 +2934,7 @@
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"FC",
-		"annee": "",
+		"annee": "Une journée intéressante et porteuse de créations qu’il va falloir organiser avec rigueur, si vous êtes prêt bien sûr !",
 		"mois": "",
 		"jour": "",
 		"heure": ""
@@ -2956,7 +2956,7 @@
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"TF",
-		"annee": "",
+		"annee": "Empathie, sensibilité et idées sont au rendez vous en cette journée favorable ! c’est le moment d’exprimer un peu plus votre feeling !",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -2967,7 +2967,7 @@
 		"element":"BOIS",
 		"polarite":"YANG",
 		"influence":"CC",
-		"annee":"",
+		"annee":"Si vous n’arrivez pas à faire passer vos idées, cela peut vous rendre irritable, agissez !",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -2978,7 +2978,7 @@
 		"element":"BOIS",
 		"polarite":"YIN",
 		"influence":"PC",
-		"annee":"",
+		"annee":"La peur de ne pas réussir votre projet peut vous rendre instable émotionnellement.",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -2989,7 +2989,7 @@
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"FC",
-		"annee":"",
+		"annee":"La journée est propice à la communication et à la compréhension. Restez en éveil !",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -3011,7 +3011,7 @@
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"TF",
-		"annee": "",
+		"annee": "Beaucoup d’empathie dans cette journée créatrice, subtile et charmante…",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -3022,7 +3022,7 @@
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"CC",
-		"annee": "",
+		"annee": "Si vous n’arrivez pas à faire passer vos idées, cela peut vous rendre irritable, agissez !",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -3033,7 +3033,7 @@
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"PC",
-		"annee": "",
+		"annee": "La pensée de ne pas réussir votre projet peut vous atteindre émotionnellement aujourd’hui, soyez constructif.",
 		"mois": "",
 		"jour": "",
 		"heure": "" 
@@ -3044,7 +3044,7 @@
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"FC",
-		"annee": "",
+		"annee": "La journée est propice à la communication et à la compréhension. Restez en éveil et baissez votre garde pour ne pas gâcher la magie.",
 		"mois": "",
 		"jour": "",
 		"heure": ""
@@ -3066,7 +3066,7 @@
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"TF",
-		"annee": "",
+		"annee": "Vous savez écouter, servez vous en pour transformer cette journée en création subtile et en séduction.",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -3077,7 +3077,7 @@
 		"element":"BOIS",
 		"polarite":"YANG",
 		"influence":"CC",
-		"annee":"",
+		"annee":"Votre intuition est à son maximum dans votre création. Pensez à respirer !",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -3088,7 +3088,7 @@
 		"element":"BOIS",
 		"polarite":"YIN",
 		"influence":"PC",
-		"annee":"",
+		"annee":"De belles opportunités s’offrent à vous pour mener à bien vos projets aujourd’hui.",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -3099,7 +3099,7 @@
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"FC",
-		"annee":"",
+		"annee":"Votre sens de la communication et votre empathie naturelle vont être comprises et seront vous créer des appuis aujourd’hui.",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -3121,7 +3121,7 @@
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"TF",
-		"annee": "",
+		"annee": "Votre rigueur et besoin de concrétiser vont être soutenus pour une bonne énergie et intuition.",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -3132,7 +3132,7 @@
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"CC",
-		"annee": "",
+		"annee": "Votre intuition est à son maximum dans votre création. Pensez à respirer !",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -3143,7 +3143,7 @@
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"PC",
-		"annee": "",
+		"annee": "De belles opportunités s’offrent à vous pour mener à bien vos projets aujourd’hui, respirez !",
 		"mois": "",
 		"jour": "",
 		"heure": "" 
@@ -3154,7 +3154,7 @@
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"FC",
-		"annee": "",
+		"annee": "Votre rigueur et votre sensibilité vont être comprises et seront vous créer des appuis aujourd’hui.",
 		"mois": "",
 		"jour": "",
 		"heure": ""
@@ -3176,7 +3176,7 @@
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"TF",
-		"annee": "",
+		"annee": "Vous aurez besoin de l’énergie et de la rigueur de cette journée pour concrétiser vos idées…Cela devrait aller.",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -3187,7 +3187,7 @@
 		"element":"BOIS",
 		"polarite":"YANG",
 		"influence":"CC",
-		"annee":"",
+		"annee":"Un bon feeling et de belles opportunités pour mener à bien vos projets aujourd’hui.",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -3198,7 +3198,7 @@
 		"element":"BOIS",
 		"polarite":"YIN",
 		"influence":"PC",
-		"annee":"",
+		"annee":"Une sensibilité à fleur de peau mais quelques difficultés à exprimer vos idées aujourd’hui, c’est pas si grave…",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -3209,7 +3209,7 @@
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"FC",
-		"annee":"",
+		"annee":"Laissez vous guider par l’intuition aujourd’hui. Elle est porteuse de bonne direction pour votre projet.",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -3231,7 +3231,7 @@
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"TF",
-		"annee": "",
+		"annee": "Intuition, rigueur et sensibilité sont au rendez vous pour une journée réussie si vous restez attentif.",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -3242,7 +3242,7 @@
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"CC",
-		"annee": "",
+		"annee": "Un bon feeling et de belles opportunités pour mener à bien vos projets aujourd’hui.",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -3253,7 +3253,7 @@
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"PC",
-		"annee": "",
+		"annee": "Une sensibilité à fleur de peau mais quelques difficultés à exprimer vos idées aujourd’hui, c’est pas si grave…",
 		"mois": "",
 		"jour": "",
 		"heure": "" 
@@ -3264,7 +3264,7 @@
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"FC",
-		"annee": "",
+		"annee": "En plus de votre ressenti et votre perspicacité, laissez vous guider par l’intuition aujourd’hui. Elle est porteuse de bonne direction pour votre projet.",
 		"mois": "",
 		"jour": "",
 		"heure": ""
@@ -3286,238 +3286,238 @@
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"TF",
+		"annee": "Intuition, rigueur et sensibilité sont au rendez vous pour une journée réussie si vous restez lucide et à l’écoute.",
+		"mois": "",
+		"jour": "",
+		"heure": ""  
+	},
+	{
+		"nb_binome":35,
+		
+		"element":"BOIS",
+		"polarite":"YANG",
+		"influence":"CC",
+		"annee":"Modérez vos ardeurs, vous risquez l’épuisement ...ou de vous fâcher.",
+		"mois":"",
+		"jour":"",
+		"heure":""
+	},	
+	{
+		"nb_binome":35,
+		
+		"element":"BOIS",
+		"polarite":"YIN",
+		"influence":"PC",
+		"annee":"Votre enthousiasme et votre créativité peuvent vous rendre nerveux, prudence !",
+		"mois":"",
+		"jour":"",
+		"heure":""
+	},
+	{
+		"nb_binome":35,
+		
+		"element":"FEU",
+		"polarite":"YANG",
+		"influence":"FC",
+		"annee":"Attention à ne pas vous laisser déborder par l’excès d’émotions aujourd’hui, ne communiquez pas si vous vous sentez irritable…",
+		"mois":"",
+		"jour":"",
+		"heure":""
+	},
+	{
+		"nb_binome":35,
+		
+		"element":"FEU",
+		"polarite":"YIN",
+		"influence":"D",
 		"annee": "",
+		"mois": "",
+		"jour": "",
+		"heure": ""  
+	},
+	{
+		"nb_binome":35,
+		
+		"element":"TERRE",
+		"polarite":"YANG",
+		"influence":"TF",
+		"annee": "L’énergie débordante de ce jour va emmener votre projet jusqu’au bout. Laissez vous porter par la vague…",
+		"mois": "",
+		"jour": "",
+		"heure": ""  
+	},
+	{
+		"nb_binome":35,
+		
+		"element":"TERRE",
+		"polarite":"YIN",
+		"influence":"CC",
+		"annee": "Modérez vos ardeurs, vous risquez l’épuisement ...ou de vous fâcher.",
+		"mois": "",
+		"jour": "",
+		"heure": ""  
+	},
+	{
+		"nb_binome":35,
+		
+		"element":"METAL",
+		"polarite":"YANG",
+		"influence":"PC",
+		"annee": "Votre enthousiasme et votre envie de réussir peuvent vous rendre tranchant, soyez magnanime!",
+		"mois": "",
+		"jour": "",
+		"heure": "" 
+	},
+	{
+		"nb_binome":35,
+		
+		"element":"METAL",
+		"polarite":"YIN",
+		"influence":"FC",
+		"annee": "Attention à ne pas vous laisser déborder par l’excès d’émotions aujourd’hui, ne tombez pas dans l’irritabilité…",
+		"mois": "",
+		"jour": "",
+		"heure": ""
+	},
+	{
+		"nb_binome":35,
+		
+		"element":"EAU",
+		"polarite":"YANG",
+		"influence":"D",
+		"annee": "",
+		"mois": "",
+		"jour": "",
+		"heure": ""  
+	},
+	{
+		"nb_binome":35,
+		
+		"element":"EAU",
+		"polarite":"YIN",
+		"influence":"TF",
+		"annee": "L’énergie débordante d’aujourd’hui va faire aboutir vos idées. Laissez vous porter par la vague…",
+		"mois": "",
+		"jour": "",
+		"heure": ""  
+	},
+	{
+		"nb_binome":36,
+		
+		"element":"BOIS",
+		"polarite":"YANG",
+		"influence":"CC",
+		"annee":"Journée porteuse et pleine d’empathie, dynamisme et réflexion positives si vous restez calme…",
+		"mois":"",
+		"jour":"",
+		"heure":""
+	},	
+	{
+		"nb_binome":36,
+		
+		"element":"BOIS",
+		"polarite":"YIN",
+		"influence":"PC",
+		"annee":"Une journée riche en émotions créatrices si vous ne remettez pas tout en question.",
+		"mois":"",
+		"jour":"",
+		"heure":""
+	},
+	{
+		"nb_binome":36,
+		
+		"element":"FEU",
+		"polarite":"YANG",
+		"influence":"FC",
+		"annee":"Emotion et empathie sont au rendez vous, mais ne vous laissez pas entraver dans votre ressenti et faites confiance à votre chaleur humaine.",
+		"mois":"",
+		"jour":"",
+		"heure":""
+	},
+	{
+		"nb_binome":36,
+		
+		"element":"FEU",
+		"polarite":"YIN",
+		"influence":"D",
+		"annee": "",
+		"mois": "",
+		"jour": "",
+		"heure": ""  
+	},
+	{
+		"nb_binome":36,
+		
+		"element":"TERRE",
+		"polarite":"YANG",
+		"influence":"TF",
+		"annee": "On va penser que vous êtes efficace, humain et très concret aujourd’hui. Restez ouvert aux propositions.",
+		"mois": "",
+		"jour": "",
+		"heure": ""  
+	},
+	{
+		"nb_binome":36,
+		
+		"element":"TERRE",
+		"polarite":"YIN",
+		"influence":"CC",
+		"annee": "Journée porteuse et pleine d’empathie, dynamisme et réflexion positives si vous restez calme…",
+		"mois": "",
+		"jour": "",
+		"heure": ""  
+	},
+	{
+		"nb_binome":36,
+		
+		"element":"METAL",
+		"polarite":"YANG",
+		"influence":"PC",
+		"annee": "Une journée riche en émotions créatrices mais ne vous laissez pas déborder par elles.",
+		"mois": "",
+		"jour": "",
+		"heure": "" 
+	},
+	{
+		"nb_binome":36,
+		
+		"element":"METAL",
+		"polarite":"YIN",
+		"influence":"FC",
+		"annee": "Emotion et empathie sont au rendez vous, mais ne vous laissez pas entraver dans votre sensibilité et faites confiance à votre ressenti.",
+		"mois": "",
+		"jour": "",
+		"heure": ""
+	},
+	{
+		"nb_binome":36,
+		
+		"element":"EAU",
+		"polarite":"YANG",
+		"influence":"D",
+		"annee": "",
+		"mois": "",
+		"jour": "",
+		"heure": ""  
+	},
+	{
+		"nb_binome":36,
+		
+		"element":"EAU",
+		"polarite":"YIN",
+		"influence":"TF",
+		"annee": "Journée efficace et dynamique, toute en émotions. Restez à l’écoute des propositions.",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
 	},
 			{
-		"nb_binome":35,
-		
-		"element":"BOIS",
-		"polarite":"YANG",
-		"influence":"CC",
-		"annee":"",
-		"mois":"",
-		"jour":"",
-		"heure":""
-	},	
-	{
-		"nb_binome":35,
-		
-		"element":"BOIS",
-		"polarite":"YIN",
-		"influence":"PC",
-		"annee":"",
-		"mois":"",
-		"jour":"",
-		"heure":""
-	},
-	{
-		"nb_binome":35,
-		
-		"element":"FEU",
-		"polarite":"YANG",
-		"influence":"FC",
-		"annee":"",
-		"mois":"",
-		"jour":"",
-		"heure":""
-	},
-	{
-		"nb_binome":35,
-		
-		"element":"FEU",
-		"polarite":"YIN",
-		"influence":"D",
-		"annee": "",
-		"mois": "",
-		"jour": "",
-		"heure": ""  
-	},
-	{
-		"nb_binome":35,
-		
-		"element":"TERRE",
-		"polarite":"YANG",
-		"influence":"TF",
-		"annee": "",
-		"mois": "",
-		"jour": "",
-		"heure": ""  
-	},
-	{
-		"nb_binome":35,
-		
-		"element":"TERRE",
-		"polarite":"YIN",
-		"influence":"CC",
-		"annee": "",
-		"mois": "",
-		"jour": "",
-		"heure": ""  
-	},
-	{
-		"nb_binome":35,
-		
-		"element":"METAL",
-		"polarite":"YANG",
-		"influence":"PC",
-		"annee": "",
-		"mois": "",
-		"jour": "",
-		"heure": "" 
-	},
-	{
-		"nb_binome":35,
-		
-		"element":"METAL",
-		"polarite":"YIN",
-		"influence":"FC",
-		"annee": "",
-		"mois": "",
-		"jour": "",
-		"heure": ""
-	},
-	{
-		"nb_binome":35,
-		
-		"element":"EAU",
-		"polarite":"YANG",
-		"influence":"D",
-		"annee": "",
-		"mois": "",
-		"jour": "",
-		"heure": ""  
-	},
-	{
-		"nb_binome":35,
-		
-		"element":"EAU",
-		"polarite":"YIN",
-		"influence":"TF",
-		"annee": "",
-		"mois": "",
-		"jour": "",
-		"heure": ""  
-	},
-			{
-		"nb_binome":36,
-		
-		"element":"BOIS",
-		"polarite":"YANG",
-		"influence":"CC",
-		"annee":"",
-		"mois":"",
-		"jour":"",
-		"heure":""
-	},	
-	{
-		"nb_binome":36,
-		
-		"element":"BOIS",
-		"polarite":"YIN",
-		"influence":"PC",
-		"annee":"",
-		"mois":"",
-		"jour":"",
-		"heure":""
-	},
-	{
-		"nb_binome":36,
-		
-		"element":"FEU",
-		"polarite":"YANG",
-		"influence":"FC",
-		"annee":"",
-		"mois":"",
-		"jour":"",
-		"heure":""
-	},
-	{
-		"nb_binome":36,
-		
-		"element":"FEU",
-		"polarite":"YIN",
-		"influence":"D",
-		"annee": "",
-		"mois": "",
-		"jour": "",
-		"heure": ""  
-	},
-	{
-		"nb_binome":36,
-		
-		"element":"TERRE",
-		"polarite":"YANG",
-		"influence":"TF",
-		"annee": "",
-		"mois": "",
-		"jour": "",
-		"heure": ""  
-	},
-	{
-		"nb_binome":36,
-		
-		"element":"TERRE",
-		"polarite":"YIN",
-		"influence":"CC",
-		"annee": "",
-		"mois": "",
-		"jour": "",
-		"heure": ""  
-	},
-	{
-		"nb_binome":36,
-		
-		"element":"METAL",
-		"polarite":"YANG",
-		"influence":"PC",
-		"annee": "",
-		"mois": "",
-		"jour": "",
-		"heure": "" 
-	},
-	{
-		"nb_binome":36,
-		
-		"element":"METAL",
-		"polarite":"YIN",
-		"influence":"FC",
-		"annee": "",
-		"mois": "",
-		"jour": "",
-		"heure": ""
-	},
-	{
-		"nb_binome":36,
-		
-		"element":"EAU",
-		"polarite":"YANG",
-		"influence":"D",
-		"annee": "",
-		"mois": "",
-		"jour": "",
-		"heure": ""  
-	},
-	{
-		"nb_binome":36,
-		
-		"element":"EAU",
-		"polarite":"YIN",
-		"influence":"TF",
-		"annee": "",
-		"mois": "",
-		"jour": "",
-		"heure": ""  
-	},
-			{
 		"nb_binome":49,
 		
 		"element":"BOIS",
 		"polarite":"YANG",
 		"influence":"CC",
-		"annee":"",
+		"annee":"Attention à un débordement d’énergie, restez cool.",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -3528,7 +3528,7 @@
 		"element":"BOIS",
 		"polarite":"YIN",
 		"influence":"PC",
-		"annee":"",
+		"annee":"Juste ce qu’il faut de dynamisme et de volonté pour être créatif aujourd’hui, à vous de voir !",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -3539,7 +3539,7 @@
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"FC",
-		"annee":"",
+		"annee":"Une belle dynamique aujourd’hui qui va vous aider à communiquer et partager dans la bonne direction. Faites-vous confiance.",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -3561,7 +3561,7 @@
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"TF",
-		"annee": "",
+		"annee": "Une grande énergie aujourd’hui pour concrétiser ce qui vous tient à cœur. C’est le moment !",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -3572,7 +3572,7 @@
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"CC",
-		"annee": "",
+		"annee": "Attention à un débordement d’énergie, restez cool.",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -3583,7 +3583,7 @@
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"PC",
-		"annee": "",
+		"annee": "Juste ce qu’il faut de dynamisme et de rigueur pour réussir aujourd’hui, à vous de voir !",
 		"mois": "",
 		"jour": "",
 		"heure": "" 
@@ -3594,7 +3594,7 @@
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"FC",
-		"annee": "",
+		"annee": "Une belle dynamique aujourd’hui qui va vous aider à ressentir et aller dans la bonne direction. Faites-vous confiance.",
 		"mois": "",
 		"jour": "",
 		"heure": ""
@@ -3616,7 +3616,7 @@
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"TF",
-		"annee": "",
+		"annee": "Des idées et une belle énergie aujourd’hui, sans doute issues d’une belle volonté et intuition, cela devrait payer !",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -3627,7 +3627,7 @@
 		"element":"BOIS",
 		"polarite":"YANG",
 		"influence":"CC",
-		"annee":"",
+		"annee":"Vous voyez mieux ce qu’il y a à faire aujourd’hui…Si non, attention à la colère !",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -3638,7 +3638,7 @@
 		"element":"BOIS",
 		"polarite":"YIN",
 		"influence":"PC",
-		"annee":"",
+		"annee":"Si vous pensez que vos idées ne passent pas aujourd’hui, ne cédez pas à la colère.",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -3649,7 +3649,7 @@
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"FC",
-		"annee":"",
+		"annee":"Juste un zest de créativité dans un environnement chaleureux , c’est votre cadre idéal pour avancer, profitez en !",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -3671,7 +3671,7 @@
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"TF",
-		"annee": "",
+		"annee": "Très inspiré aujourd’hui, avec douceur et efficacité, c’est parfait !",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -3682,7 +3682,7 @@
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"CC",
-		"annee": "",
+		"annee": "Vous voyez mieux ce qu’il y a à faire aujourd’hui…Si non, attention à la colère !",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -3693,7 +3693,7 @@
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"PC",
-		"annee": "",
+		"annee": "Si vous pensez que vos idées ne passent pas aujourd’hui, ne vous braquez pas !",
 		"mois": "",
 		"jour": "",
 		"heure": "" 
@@ -3704,7 +3704,7 @@
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"FC",
-		"annee": "",
+		"annee": "Juste un zest de créativité dans un environnement plus doux que d’habitude, c’est votre cadre idéal pour avancer !",
 		"mois": "",
 		"jour": "",
 		"heure": ""
@@ -3726,18 +3726,18 @@
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"TF",
-		"annee": "",
+		"annee": "Journée inspiratrice et dynamique qui devrait vous faire sortir de votre réserve…Profitez de cette bonne énergie !",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
 	},
-			{
+	{
 		"nb_binome":57,
 		
 		"element":"BOIS",
 		"polarite":"YANG",
 		"influence":"CC",
-		"annee":"",
+		"annee":"Une journée idéale pour concrétiser de belles idées, si vous y mettez les formes.",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -3748,7 +3748,7 @@
 		"element":"BOIS",
 		"polarite":"YIN",
 		"influence":"PC",
-		"annee":"",
+		"annee":"Un zest de pragmatisme nécessaire aujourd’hui pour vous aider à concrétiser votre projet.",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -3759,7 +3759,7 @@
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"FC",
-		"annee":"",
+		"annee":"C’est la journée idéale pour construire votre projet et le mener à terme. Ne soyez pas trop bavard, cela nuit à l’action !",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -3781,7 +3781,7 @@
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"TF",
-		"annee": "",
+		"annee": "Construire et encore construire, avancer et créer, voilà le mot d’ordre de la journée. Les feux sont au vert.",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -3792,7 +3792,7 @@
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"CC",
-		"annee": "",
+		"annee": "Une journée idéale pour concrétiser de belles idées, si vous y mettez les formes.",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -3803,7 +3803,7 @@
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"PC",
-		"annee": "",
+		"annee": "Un zest de pragmatisme nécessaire aujourd’hui pour vous aider à concrétiser votre idée.",
 		"mois": "",
 		"jour": "",
 		"heure": "" 
@@ -3814,7 +3814,7 @@
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"FC",
-		"annee": "",
+		"annee": "C’est la journée idéale pour construire votre projet et le mener à terme. Ne soyez pas susceptible, cela ne vaut pas le coup !",
 		"mois": "",
 		"jour": "",
 		"heure": ""
@@ -3836,18 +3836,18 @@
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"TF",
-		"annee": "",
+		"annee": "La volonté aura le pas sur l’hésitation aujourd’hui. Profitez en pour consolider vos projets.",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
 	},
-			{
+	{
 		"nb_binome":58,
 		
 		"element":"BOIS",
 		"polarite":"YANG",
 		"influence":"CC",
-		"annee":"",
+		"annee":"Un peu difficile pour concrétiser aujourd’hui, agissez avec méthode si vous voulez réussir.",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -3858,7 +3858,7 @@
 		"element":"BOIS",
 		"polarite":"YIN",
 		"influence":"PC",
-		"annee":"",
+		"annee":"Agissez avec prudence mais ne stoppez pas vos réalisations, ce serait dommage !",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -3869,7 +3869,7 @@
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"FC",
-		"annee":"",
+		"annee":"C’est une journée idéale pour avoir une vision d’ensemble constructive avec une communication bien maitrisée.",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -3891,7 +3891,7 @@
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"TF",
-		"annee": "",
+		"annee": "Construire, enrichir votre projet, rebondir sur de nouvelles idées et aller de l’avant…toujours. Journée idéale pour vous dépasser.",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -3902,7 +3902,7 @@
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"CC",
-		"annee": "",
+		"annee": "Un peu difficile pour concrétiser aujourd’hui, agissez avec méthode si vous voulez réussir.",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -3913,7 +3913,7 @@
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"PC",
-		"annee": "",
+		"annee": "Agissez avec votre rigueur habituelle et surtout n’abandonnez pas !",
 		"mois": "",
 		"jour": "",
 		"heure": "" 
@@ -3924,7 +3924,7 @@
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"FC",
-		"annee": "",
+		"annee": "C’est une journée idéale pour avoir une vision d’ensemble constructive. Laissez de côté tout ce qui entrave votre ressenti.",
 		"mois": "",
 		"jour": "",
 		"heure": ""
@@ -3946,7 +3946,7 @@
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"TF",
-		"annee": "",
+		"annee": "Journée idéale pour construire, rebondir sur de nouvelles idées et aller de l’avant…si vous sortez de votre réserve.",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -3957,7 +3957,7 @@
 		"element":"BOIS",
 		"polarite":"YANG",
 		"influence":"PC",
-		"annee":"",
+		"annee":"Il peut y avoir un retard dans la concrétisation du projet mais c’est pour mieux le concevoir.",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -3968,7 +3968,7 @@
 		"element":"BOIS",
 		"polarite":"YIN",
 		"influence":"FC",
-		"annee":"",
+		"annee":"Il est possible que la concrétisation de vos idées prenne un peu de retard, étudiez tous les aspects avec calme.",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -3979,7 +3979,7 @@
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"D",
-		"annee":"",
+		"annee":"C’est une journée idéale pour prendre du recul. Ne sombrez pas dans le mutisme, cette étape de calme peut être nécessaire !",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -4001,7 +4001,7 @@
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"CC",
-		"annee": "",
+		"annee": "Journée nécessaire pour se poser, réfléchir et vérifier les axes de votre projet.",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -4012,7 +4012,7 @@
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"PC",
-		"annee": "",
+		"annee": "Il peut y avoir un retard dans la concrétisation du projet mais c’est pour mieux le concevoir.",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -4023,7 +4023,7 @@
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"FC",
-		"annee": "",
+		"annee": "Journée idéale pour revoir posément et concrètement tous les aspects du projet.. Laissez-vous un peu de temps aujourd’hui, respirez !",
 		"mois": "",
 		"jour": "",
 		"heure": "" 
@@ -4034,7 +4034,7 @@
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"D",
-		"annee": "",
+		"annee": "C’est une journée idéale pour prendre du recul. Ne sombrez pas dans la mélancolie, cette étape de calme peut être nécessaire !",
 		"mois": "",
 		"jour": "",
 		"heure": ""
@@ -4056,7 +4056,7 @@
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"CC",
-		"annee": "",
+		"annee": "Journée nécessaire pour réfléchir et vérifier avec lucidité les axes de votre projet.",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -4067,7 +4067,7 @@
 		"element":"BOIS",
 		"polarite":"YANG",
 		"influence":"PC",
-		"annee":"",
+		"annee":"Une journée propice à la réflexion de vos projets pour les faire aboutir avec sérénité et pérennité.",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -4078,7 +4078,7 @@
 		"element":"BOIS",
 		"polarite":"YIN",
 		"influence":"FC",
-		"annee":"",
+		"annee":"Un ralentissement certain pour la concrétisation de votre projet aujourd’hui. Un peu de patience…",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -4089,7 +4089,7 @@
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"D",
-		"annee":"",
+		"annee":"Quelques instants de réflexion et de calme devraient suffire pour vous mettre dans la bonne direction. Saurez vous les prendre ?",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -4111,7 +4111,7 @@
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"CC",
-		"annee": "",
+		"annee": "Si vous frôlez l’énervement, osez encore prendre du recul aujourd’hui, vous avez une meilleure vision générale.",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -4122,7 +4122,7 @@
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"PC",
-		"annee": "",
+		"annee": "Une journée propice à la réflexion de vos projets pour les faire aboutir avec sérénité et pérennité.",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -4133,7 +4133,7 @@
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"FC",
-		"annee": "",
+		"annee": "Une parenthèse de douceur et de recentrage aujourd’hui encore…Cela fait du bien de souffler.",
 		"mois": "",
 		"jour": "",
 		"heure": "" 
@@ -4144,7 +4144,7 @@
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"D",
-		"annee": "",
+		"annee": "Quelques instants de réflexion et de calme devraient suffire pour vous mettre dans la bonne direction. Saurez vous les prendre ?",
 		"mois": "",
 		"jour": "",
 		"heure": ""
@@ -4166,7 +4166,7 @@
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"CC",
-		"annee": "",
+		"annee": "L’angoisse vous guette… osez encore prendre du recul aujourd’hui, vous aurez une meilleure perception des choses.",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -4177,7 +4177,7 @@
 		"element":"BOIS",
 		"polarite":"YANG",
 		"influence":"PC",
-		"annee":"",
+		"annee":"Vos idées ont l’air de séduire, mais méfiez vous qu’elles ne soient pas à l’encontre des intérêts de vos partenaires.",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -4188,7 +4188,7 @@
 		"element":"BOIS",
 		"polarite":"YIN",
 		"influence":"FC",
-		"annee":"",
+		"annee":"Journée décisive pour se faire des alliés et des supporters de vos idées.",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -4199,7 +4199,7 @@
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"D",
-		"annee":"",
+		"annee":"Votre enthousiasme pourrait vous emmener à une insuffisance de prudence …Ne gâchez pas vos chances et privilégiez la sagesse.",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -4221,7 +4221,7 @@
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"CC",
-		"annee": "",
+		"annee": "Si vous pensez plus élan constructif que défense absolue vous réussirez aujourd’hui.",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -4232,7 +4232,7 @@
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"PC",
-		"annee": "",
+		"annee": "Vos idées ont l’air de séduire, mais méfiez vous qu’elles ne soient pas à l’encontre des intérêts de vos partenaires.",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -4243,7 +4243,7 @@
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"FC",
-		"annee": "",
+		"annee": "Journée importante pour emporter l’adhésion des plus réticents…Préparez vos arguments !",
 		"mois": "",
 		"jour": "",
 		"heure": "" 
@@ -4254,7 +4254,7 @@
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"D",
-		"annee": "",
+		"annee": "Votre sensibilité pourrait vous emmener à un excès de prudence et d’esprit défensif…Ne gâchez pas vos chances et privilégiez les ouvertures à la sécurité.",
 		"mois": "",
 		"jour": "",
 		"heure": ""
@@ -4276,7 +4276,7 @@
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"CC",
-		"annee": "",
+		"annee": "Votre lucidité devrait vous emmener vers un élan constructif. Ne restez pas sur vos positions ,l’excès de prudence peut vous faire échouer.",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -4287,7 +4287,7 @@
 		"element":"BOIS",
 		"polarite":"YANG",
 		"influence":"PC",
-		"annee":"",
+		"annee":"Tant que votre projet n’est pas signé , ne vous fiez pas aux belles apparences.",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -4298,7 +4298,7 @@
 		"element":"BOIS",
 		"polarite":"YIN",
 		"influence":"FC",
-		"annee":"",
+		"annee":"Vous arriverez à faire baisser les défenses si votre projet si vos idées sont bien conçues.",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -4309,7 +4309,7 @@
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"D",
-		"annee":"",
+		"annee":"Si vous pensez ne pas aboutir dans votre communication aujourd’hui, laissez tomber…L’énergie n’est pas à l’ouverture !",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -4331,7 +4331,7 @@
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"CC",
-		"annee": "",
+		"annee": "Rester campé sur vos positions vous rendra statique par rapport à votre projet. Bougez !",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -4342,7 +4342,7 @@
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"PC",
-		"annee": "",
+		"annee": "Tant que votre projet n’est pas signé , ne vous fiez pas aux belles apparences.",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -4353,7 +4353,7 @@
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"FC",
-		"annee": "",
+		"annee": "Ecoutez bien les oppositions à vos idées aujourd’hui, elles peuvent vous faire avancer.",
 		"mois": "",
 		"jour": "",
 		"heure": "" 
@@ -4364,7 +4364,7 @@
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"D",
-		"annee": "",
+		"annee": "Ne restez pas campé sur vos positions aujourd’hui. Laissez entrer de nouvelles idées et énergies…En un mot, soyez stratège !",
 		"mois": "",
 		"jour": "",
 		"heure": ""
@@ -4386,128 +4386,128 @@
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"CC",
+		"annee": "Journée pour être un peu plus confiant et entreprenant pour éviter de stagner sur votre projet. Restez stratège et bougez !",
+		"mois": "",
+		"jour": "",
+		"heure": ""  
+	},
+	{
+		"nb_binome":23,
+		
+		"element":"BOIS",
+		"polarite":"YANG",
+		"influence":"PC",
+		"annee":"Vous risquez de vous heurter à un excès de prudence face à vos projets…Attention au conflit !",
+		"mois":"",
+		"jour":"",
+		"heure":""
+	},
+	{
+		"nb_binome":23,
+		
+		"element":"BOIS",
+		"polarite":"YIN",
+		"influence":"FC",
+		"annee":"Vous devriez avoir toutes les garanties et assurances pour votre projet mais tenez bon si vous rencontrez des réticences !",
+		"mois":"",
+		"jour":"",
+		"heure":""
+	},
+	{
+		"nb_binome":23,
+		
+		"element":"FEU",
+		"polarite":"YANG",
+		"influence":"D",
+		"annee":"Trop de sécurité et de garanties pourraient nuire à l’expression de vos idées. Restez souple et convaincant !",
+		"mois":"",
+		"jour":"",
+		"heure":""
+	},
+	{
+		"nb_binome":23,
+		
+		"element":"FEU",
+		"polarite":"YIN",
+		"influence":"TF",
 		"annee": "",
+		"mois": "",
+		"jour": "",
+		"heure": ""  
+	},
+	{
+		"nb_binome":23,
+		
+		"element":"TERRE",
+		"polarite":"YANG",
+		"influence":"CC",
+		"annee": "Ne cherchez pas toutes les garanties et assurances pour votre projet. La perfection n’existe pas.",
+		"mois": "",
+		"jour": "",
+		"heure": ""  
+	},
+	{
+		"nb_binome":23,
+		
+		"element":"TERRE",
+		"polarite":"YIN",
+		"influence":"PC",
+		"annee": "Vous risquez de vous heurter à un excès de prudence face à vos projets… Attention au conflit !",
+		"mois": "",
+		"jour": "",
+		"heure": ""  
+	},
+	{
+		"nb_binome":23,
+		
+		"element":"METAL",
+		"polarite":"YANG",
+		"influence":"FC",
+		"annee": "Mettez en valeur toutes les garanties de succès pour rassurer autour de vous et aller dans le bon sens !",
+		"mois": "",
+		"jour": "",
+		"heure": "" 
+	},
+	{
+		"nb_binome":23,
+		
+		"element":"METAL",
+		"polarite":"YIN",
+		"influence":"D",
+		"annee": "Trop de sécurité et de garanties pourraient nuire à l’élan de vos idées. Restez souple !",
+		"mois": "",
+		"jour": "",
+		"heure": ""
+	},
+	{
+		"nb_binome":23,
+		
+		"element":"EAU",
+		"polarite":"YANG",
+		"influence":"TF",
+		"annee": "",
+		"mois": "",
+		"jour": "",
+		"heure": ""  
+	},
+	{
+		"nb_binome":23,
+		
+		"element":"EAU",
+		"polarite":"YIN",
+		"influence":"CC",
+		"annee": "Vous voudrez toutes les garanties pour votre projet. Mais cela ne doit pas nuire à l’action !",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
 	},
 		{
-		"nb_binome":23,
-		
-		"element":"BOIS",
-		"polarite":"YANG",
-		"influence":"PC",
-		"annee":"",
-		"mois":"",
-		"jour":"",
-		"heure":""
-	},
-	{
-		"nb_binome":23,
-		
-		"element":"BOIS",
-		"polarite":"YIN",
-		"influence":"FC",
-		"annee":"",
-		"mois":"",
-		"jour":"",
-		"heure":""
-	},
-	{
-		"nb_binome":23,
-		
-		"element":"FEU",
-		"polarite":"YANG",
-		"influence":"D",
-		"annee":"",
-		"mois":"",
-		"jour":"",
-		"heure":""
-	},
-	{
-		"nb_binome":23,
-		
-		"element":"FEU",
-		"polarite":"YIN",
-		"influence":"TF",
-		"annee": "",
-		"mois": "",
-		"jour": "",
-		"heure": ""  
-	},
-	{
-		"nb_binome":23,
-		
-		"element":"TERRE",
-		"polarite":"YANG",
-		"influence":"CC",
-		"annee": "",
-		"mois": "",
-		"jour": "",
-		"heure": ""  
-	},
-	{
-		"nb_binome":23,
-		
-		"element":"TERRE",
-		"polarite":"YIN",
-		"influence":"PC",
-		"annee": "",
-		"mois": "",
-		"jour": "",
-		"heure": ""  
-	},
-	{
-		"nb_binome":23,
-		
-		"element":"METAL",
-		"polarite":"YANG",
-		"influence":"FC",
-		"annee": "",
-		"mois": "",
-		"jour": "",
-		"heure": "" 
-	},
-	{
-		"nb_binome":23,
-		
-		"element":"METAL",
-		"polarite":"YIN",
-		"influence":"D",
-		"annee": "",
-		"mois": "",
-		"jour": "",
-		"heure": ""
-	},
-	{
-		"nb_binome":23,
-		
-		"element":"EAU",
-		"polarite":"YANG",
-		"influence":"TF",
-		"annee": "",
-		"mois": "",
-		"jour": "",
-		"heure": ""  
-	},
-	{
-		"nb_binome":23,
-		
-		"element":"EAU",
-		"polarite":"YIN",
-		"influence":"CC",
-		"annee": "",
-		"mois": "",
-		"jour": "",
-		"heure": ""  
-	},
-		{
 		"nb_binome":24,
 		
 		"element":"BOIS",
 		"polarite":"YANG",
 		"influence":"PC",
-		"annee":"",
+		"annee":"Une grande énergie constructive aujourd’hui, mais zéro place à l’à peu près !",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -4518,7 +4518,7 @@
 		"element":"BOIS",
 		"polarite":"YIN",
 		"influence":"FC",
-		"annee":"",
+		"annee":"Restez rassurant sur les tenants et aboutissants de vos projets et vous gagnerez la partie !",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -4529,7 +4529,7 @@
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"D",
-		"annee":"",
+		"annee":"C’est une journée qui aura besoin d’arguments très convaincants car l’entourage peut être méfiant sur de nouveaux projets.",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -4551,7 +4551,7 @@
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"CC",
-		"annee": "",
+		"annee": "Prenez des risques aujourd’hui si vous l’osez. Baissez un peu votre garde !",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -4562,7 +4562,7 @@
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"PC",
-		"annee": "",
+		"annee": "Une grande énergie constructive aujourd’hui, mais zéro place à l’à peu près !",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -4573,7 +4573,7 @@
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"FC",
-		"annee": "",
+		"annee": "Encore une petite touche de sécurité aujourd’hui sur les tenants et aboutissants de vos projets et vous gagnerez la partie !",
 		"mois": "",
 		"jour": "",
 		"heure": "" 
@@ -4584,7 +4584,7 @@
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"D",
-		"annee": "",
+		"annee": "Juste ce qu’il faut de prudence aujourd’hui pour mener à bien vos projets . Soyez pragmatique mais restez actif sinon rien ne va aboutir !",
 		"mois": "",
 		"jour": "",
 		"heure": ""
@@ -4606,18 +4606,18 @@
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"CC",
-		"annee": "",
+		"annee": "Une énergie protectrice aujourd’hui va vous aider à prendre des risques. Si vous l’osez cela va faire avancer vos projets.",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
 	},
-		{
+	{
 		"nb_binome":37,
 		
 		"element":"BOIS",
 		"polarite":"YANG",
 		"influence":"PC",
-		"annee":"",
+		"annee":"Les projets doivent être parfaitement bien ficelés pour aboutir aujourd’hui.",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -4628,7 +4628,7 @@
 		"element":"BOIS",
 		"polarite":"YIN",
 		"influence":"FC",
-		"annee":"",
+		"annee":"Un peu d’effort aujourd’hui pour forcer les barrières et obstacles à votre projet.",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -4639,7 +4639,7 @@
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"D",
-		"annee":"",
+		"annee":"Cette journée risque d’être compliquée et les positions tranchées de votre entourage peuvent heurter votre sensibilité… Faites appel à vos meilleurs arguments.",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -4661,7 +4661,7 @@
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"CC",
-		"annee": "",
+		"annee": "Vous arriverez à être très constructif aujourd’hui si vous ne vous entêtez pas. Cela dépend vraiment de vous.",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -4672,7 +4672,7 @@
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"PC",
-		"annee": "",
+		"annee": "Les projets doivent être parfaitement bien ficelés pour aboutir aujourd’hui.",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -4683,7 +4683,7 @@
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"FC",
-		"annee": "",
+		"annee": "Servez- vous de l’énergie « carrée » du jour pour construire un projet durable.",
 		"mois": "",
 		"jour": "",
 		"heure": "" 
@@ -4694,7 +4694,7 @@
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"D",
-		"annee": "",
+		"annee": "Cette journée risque d’être compliquée et les positions tranchées de votre entourage peuvent heurter votre sensibilité… Respirez, cela va passer.",
 		"mois": "",
 		"jour": "",
 		"heure": ""
@@ -4716,7 +4716,7 @@
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"CC",
-		"annee": "",
+		"annee": "Vous arriverez à être très constructif aujourd’hui si vous réagissez avec un bon timing et de la pertinence. Cela dépend vraiment de vous.",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -4727,7 +4727,7 @@
 		"element":"BOIS",
 		"polarite":"YANG",
 		"influence":"PC",
-		"annee":"",
+		"annee":"Si vos idées ne passent pas aujourd’hui, ne restez pas bloqué(e), retravaillez la forme !",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -4738,7 +4738,7 @@
 		"element":"BOIS",
 		"polarite":"YIN",
 		"influence":"FC",
-		"annee":"",
+		"annee":"Vos idées peuvent être bienvenues, mais il faut qu’elles le restent, soyez concret !",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -4749,7 +4749,7 @@
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"D",
-		"annee":"",
+		"annee":"C’est une journée de construction qui doit s’effectuer dans la sérénité…S    i vous sentez des tensions, n’argumentez pas ou le désordre va régner !",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -4771,7 +4771,7 @@
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"CC",
-		"annee": "",
+		"annee": "La réalisation se fait pas à pas, ne vous trompez pas, cela peut vous nuire.",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -4782,7 +4782,7 @@
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"PC",
-		"annee": "",
+		"annee": "Si vos idées ne passent pas aujourd’hui, ne restez pas bloqué(e) , retravaillez la forme !",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -4793,7 +4793,7 @@
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"FC",
-		"annee": "",
+		"annee": "Restez bien rigoureux et concret aujourd’hui…Sensitif mais réaliste !",
 		"mois": "",
 		"jour": "",
 		"heure": "" 
@@ -4804,7 +4804,7 @@
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"D",
-		"annee": "",
+		"annee": "Laisser cette journée de réalisation se faire pas à pas, ne précipitez pas les choses, cela doit aller tranquillement aujourd’hui.",
 		"mois": "",
 		"jour": "",
 		"heure": ""
@@ -4826,7 +4826,7 @@
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"CC",
-		"annee": "",
+		"annee": "Laisser cette journée de réalisation se faire pas à pas, ne précipitez pas les choses, cela doit aller tranquillement aujourd’hui.",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -4837,7 +4837,7 @@
 		"element":"BOIS",
 		"polarite":"YANG",
 		"influence":"PC",
-		"annee":"",
+		"annee":"Vous allez sans doute rencontrer de l’enthousiasme face à vos idées, veillez à ce que cela ne parte pas dans tous les sens !",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -4848,7 +4848,7 @@
 		"element":"BOIS",
 		"polarite":"YIN",
 		"influence":"FC",
-		"annee":"",
+		"annee":"Une journée qui pourrait vous ouvrir de nouveaux horizons et de nouvelles idées si vous restez attentif.",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -4859,7 +4859,7 @@
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"D",
-		"annee":"",
+		"annee":"Votre sens de la communication vous guide aujourd’hui vers de belles opportunités. Ne vous trompez pas de route !",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -4881,7 +4881,7 @@
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"CC",
-		"annee": "",
+		"annee": "Si vous restez ouverts et à l’écoute, cette journée peut vous ouvrir de nouveaux horizons pour votre projet.",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -4892,7 +4892,7 @@
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"PC",
-		"annee": "",
+		"annee": "Vous allez sans doute rencontrer de l’enthousiasme face à vos idées, veillez à ce que cela ne parte pas dans tous les sens !",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -4903,7 +4903,7 @@
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"FC",
-		"annee": "",
+		"annee": "Une journée d’éveil pour écouter votre environnement, vos ressentis et vous faire confiance.",
 		"mois": "",
 		"jour": "",
 		"heure": "" 
@@ -4914,7 +4914,7 @@
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"D",
-		"annee": "",
+		"annee": "Votre perceptivité vous guide aujourd’hui vers de belles opportunités. Ne vous trompez pas de route !",
 		"mois": "",
 		"jour": "",
 		"heure": ""
@@ -4936,7 +4936,7 @@
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"CC",
-		"annee": "",
+		"annee": "Cette journée peut vous ouvrir de nouveaux horizons pour votre projet, si vous restez ouverts et à l’écoute.",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -4947,7 +4947,7 @@
 		"element":"BOIS",
 		"polarite":"YANG",
 		"influence":"PC",
-		"annee":"",
+		"annee":"C’est la journée pour tenter de nouvelles idées et expériences…Avec sérieux !",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -4969,7 +4969,7 @@
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"D",
-		"annee":"",
+		"annee":"Une belle journée dédiée à l’esprit d’ouverture vous attend. Ne passez pas à côté de cette chance !",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -4991,7 +4991,7 @@
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"CC",
-		"annee": "",
+		"annee": "Soit les projets vont venir à vous, soit vous devez aller à eux…Montrez votre esprit d’ouverture ou passez votre tour !",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -5002,7 +5002,7 @@
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"PC",
-		"annee": "",
+		"annee": "C’est la journée pour tenter de nouvelles idées et expériences…",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -5013,7 +5013,7 @@
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"FC",
-		"annee": "",
+		"annee": "Laissez la petite voie de la curiosité et de la découverte vous montrer le chemin…",
 		"mois": "",
 		"jour": "",
 		"heure": "" 
@@ -5024,7 +5024,7 @@
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"D",
-		"annee": "",
+		"annee": "Une belle journée dédiée à l’esprit d’ouverture vous attend. Ne passez pas à côté de cette chance !",
 		"mois": "",
 		"jour": "",
 		"heure": ""
@@ -5046,7 +5046,7 @@
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"CC",
-		"annee": "",
+		"annee": "Montrez votre esprit d’ouverture et votre attention aujourd’hui. L’écoute est la meilleure alliée.",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -5057,7 +5057,7 @@
 		"element":"BOIS",
 		"polarite":"YANG",
 		"influence":"PC",
-		"annee":"",
+		"annee":"Ne vous laissez pas décourager par un trop plein d’idées, agissez méthodiquement.",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -5068,7 +5068,7 @@
 		"element":"BOIS",
 		"polarite":"YIN",
 		"influence":"FC",
-		"annee":"",
+		"annee":"Si vos idées n’aboutissent pas aujourd’hui c’est pas excès de pensée !",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -5079,7 +5079,7 @@
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"D",
-		"annee":"",
+		"annee":"Ne vous embarquez  pas dans les détails aujourd’hui, cela n’emmènera que des conflits et des malentendus.",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -5101,7 +5101,7 @@
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"CC",
-		"annee": "",
+		"annee": "Ne pas s’enliser dans des problèmes annexes et sans conséquences, voici votre mission du jour.",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -5112,7 +5112,7 @@
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"PC",
-		"annee": "",
+		"annee": "Ne vous laissez pas décourager par un trop plein d’idées, agissez méthodiquement.",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -5123,7 +5123,7 @@
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"FC",
-		"annee": "",
+		"annee": "Ne laissez pas votre sensibilité s’encombrer de problèmes imaginaires aujourd’hui !",
 		"mois": "",
 		"jour": "",
 		"heure": "" 
@@ -5134,7 +5134,7 @@
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"D",
-		"annee": "",
+		"annee": "Ne vous noyez pas dans les détails aujourd’hui, cela n’emmènera que des conflits et des malentendus.",
 		"mois": "",
 		"jour": "",
 		"heure": ""
@@ -5156,7 +5156,7 @@
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"CC",
-		"annee": "",
+		"annee": "Chercher midi à quatorze heures peut vous entrainer dans des moments d’angoisse et paralyser votre action… Détendez vous !",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -5167,7 +5167,7 @@
 		"element":"BOIS",
 		"polarite":"YANG",
 		"influence":"PC",
-		"annee":"",
+		"annee":"Journée difficile pour la concrétisation de vos idées… Beaucoup de petits grains de sable.",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -5178,7 +5178,7 @@
 		"element":"BOIS",
 		"polarite":"YIN",
 		"influence":"FC",
-		"annee":"",
+		"annee":"Ne mettez pas de difficultés là où il n’y en a pas, restez positif et confiant sur l’issue de votre projet.",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -5189,7 +5189,7 @@
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"D",
-		"annee":"",
+		"annee":"Ne vous laissez pas engluer dans de petits problèmes qui peuvent devenir grand. Utilisez votre sens de la conviction !",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -5211,7 +5211,7 @@
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"CC",
-		"annee": "",
+		"annee": "Résistez à la tentation de vous noyer dans un verre d’eau aujourd’hui. Cela risque de porter atteinte à votre projet.",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -5222,7 +5222,7 @@
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"PC",
-		"annee": "",
+		"annee": "Journée difficile pour la concrétisation de vos idées…Beaucoup de petits grains de sable.",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -5233,7 +5233,7 @@
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"FC",
-		"annee": "",
+		"annee": "Restez positif et confiant sur ce que vous ressentez et non ce que vous entendez aujourd’hui.",
 		"mois": "",
 		"jour": "",
 		"heure": "" 
@@ -5244,7 +5244,7 @@
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"D",
-		"annee": "",
+		"annee": "Ne cherchez pas la petite bête. Trop de rigueur tue la rigueur. Voyez loin !",
 		"mois": "",
 		"jour": "",
 		"heure": ""
@@ -5266,7 +5266,7 @@
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"CC",
-		"annee": "",
+		"annee": "Ne cherchez pas des problèmes où il n’y en a pas. Un excès de zèle risque de porter atteinte à votre projet.",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -5277,7 +5277,7 @@
 		"element":"BOIS",
 		"polarite":"YANG",
 		"influence":"FC",
-		"annee":"",
+		"annee":"Les idées que vous aurez aujourd’hui seront ambitieuses et pour le bien de tous.",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -5288,7 +5288,7 @@
 		"element":"BOIS",
 		"polarite":"YIN",
 		"influence":"D",
-		"annee":"",
+		"annee":"Il est possible que l’on vous reproche de ne pas avoir pensé à tout dans votre projet…",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -5299,7 +5299,7 @@
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"TF",
-		"annee":"",
+		"annee":"Les idées que vous aurez aujourd’hui seront ambitieuses et pour le bien de tous. Bravo !",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -5321,7 +5321,7 @@
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"PC",
-		"annee": "",
+		"annee": "La lucidité face à des éléments de réalisation ne doit pas apporter trop d’angoisse. Rétablissez le tir quitte à diminuer les ambitions du projet.",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -5332,7 +5332,7 @@
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"FC",
-		"annee": "",
+		"annee": "Les idées que vous aurez aujourd’hui seront ambitieuses et pour le bien de tous.",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -5343,7 +5343,7 @@
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"D",
-		"annee": "",
+		"annee": "Une journée qui laisse libre cours à l’ambition…Mais restez raisonnable et écoutez votre propre ressenti.",
 		"mois": "",
 		"jour": "",
 		"heure": "" 
@@ -5354,7 +5354,7 @@
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"TF",
-		"annee": "",
+		"annee": "Les idées que vous aurez aujourd’hui seront ambitieuses et pour le bien de tous. Bravo !",
 		"mois": "",
 		"jour": "",
 		"heure": ""
@@ -5376,7 +5376,7 @@
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"PC",
-		"annee": "",
+		"annee": "Vous y voyez clair aujourd’hui, restez clair dans vos paroles et vos idées, recevez bien les conseils des autres et souvenez-vous en. Et restez zen !",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -5387,7 +5387,7 @@
 		"element":"BOIS",
 		"polarite":"YANG",
 		"influence":"FC",
-		"annee":"",
+		"annee":"Des projets généreux peuvent éclairer votre journée.",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -5398,7 +5398,7 @@
 		"element":"BOIS",
 		"polarite":"YIN",
 		"influence":"D",
-		"annee":"",
+		"annee":"L’ambition et l’altruisme de vos projets risquent de ne pas être compris aujourd’hui.",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -5409,7 +5409,7 @@
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"TF",
-		"annee":"",
+		"annee":"Des projets généreux peuvent éclairer votre journée.Soyez le porte parole de ces idées, on vous en sera reconnaissant.",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -5431,7 +5431,7 @@
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"PC",
-		"annee": "",
+		"annee": "Un soupçon d’ambition devrait être porteur pour votre réalisation du jour…Ecoutez quand même votre entourage qui peut être de bon conseil !",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -5442,7 +5442,7 @@
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"FC",
-		"annee": "",
+		"annee": "Des projets généreux peuvent éclairer votre journée.",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -5453,7 +5453,7 @@
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"D",
-		"annee": "",
+		"annee": "Journée d’altruisme ambitieux que vous allez modérer avec humanité mais rigueur si tout se passe bien.",
 		"mois": "",
 		"jour": "",
 		"heure": "" 
@@ -5464,7 +5464,7 @@
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"TF",
-		"annee": "",
+		"annee": "Des projets généreux , beaucoup de sensibilité et d’ambition peuvent éclairer votre journée.",
 		"mois": "",
 		"jour": "",
 		"heure": ""
@@ -5486,7 +5486,7 @@
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"PC",
-		"annee": "",
+		"annee": "Un soupçon d’ambition devrait être porteur pour votre projet aujourd’hui…Ecoutez quand même votre entourage qui peut être de bon conseil !",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -5497,7 +5497,7 @@
 		"element":"BOIS",
 		"polarite":"YANG",
 		"influence":"FC",
-		"annee":"",
+		"annee":"Votre imagination fertile restera confidentielle aujourd’hui…Vous n’avez pas envie de partager, si ?",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -5508,7 +5508,7 @@
 		"element":"BOIS",
 		"polarite":"YIN",
 		"influence":"D",
-		"annee":"",
+		"annee":"Une grande sagesse dans vos idées alors que l’on attend de l’originalité… Le timing n’est pas optimum.",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -5519,7 +5519,7 @@
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"TF",
-		"annee":"",
+		"annee":"La sagesse va prendre le pas sur votre enthousiasme? Ecoutez vous ! C’est le bon moment !",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -5541,7 +5541,7 @@
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"PC",
-		"annee": "",
+		"annee": "Si vous vous refermez aujourd’hui et ne tenez compte des avis de votre entourage ,cela peut être une source de malentendus.",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -5552,7 +5552,7 @@
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"FC",
-		"annee": "",
+		"annee": "Votre imagination fertile restera confidentielle aujourd’hui…Vous n’avez pas envie de partager, si ?",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -5563,7 +5563,7 @@
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"D",
-		"annee": "",
+		"annee": "Puisez dans l’énergie sage de cette journée de la profondeur et du corps à votre projet. Ne vous laissez pas déborder !",
 		"mois": "",
 		"jour": "",
 		"heure": "" 
@@ -5574,7 +5574,7 @@
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"TF",
-		"annee": "",
+		"annee": "Vous avez de bons ressentis aujourd’hui ? Ecoutez vous ! c’est le bon moment !",
 		"mois": "",
 		"jour": "",
 		"heure": ""
@@ -5596,7 +5596,7 @@
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"PC",
-		"annee": "",
+		"annee": "Si vous vous refermez aujourd’hui et ne tenez pas compte des avis de votre entourage ,l’échec est assuré !",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -5618,7 +5618,7 @@
 		"element":"BOIS",
 		"polarite":"YIN",
 		"influence":"D",
-		"annee":"",
+		"annee":"Votre volonté profonde de vouloir enrichir votre projet risque d’être prise pour de l’indifférence…",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -5629,7 +5629,7 @@
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"TF",
-		"annee":"",
+		"annee":"Journée dédiée à la sagesse et la justesse, idéale pour exposer vos idées en beauté !",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -5651,7 +5651,7 @@
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"PC",
-		"annee": "",
+		"annee": "Faites appel à toute votre sagesse et votre volonté aujourd’hui, cela peut remettre votre projet sur les rails.",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -5662,7 +5662,7 @@
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"FC",
-		"annee": "",
+		"annee": "Journée dédiée à la sagesse et la justesse, idéale pour exposer vos idées sans risques.",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -5673,7 +5673,7 @@
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"D",
-		"annee": "",
+		"annee": "Ne confondez pas réorganisation et inaction, restez directif et clair dans vos projets.",
 		"mois": "",
 		"jour": "",
 		"heure": "" 
@@ -5684,7 +5684,7 @@
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"TF",
-		"annee": "",
+		"annee": "Journée idéale pour exposer vos idées sans risques, la sagesse et la raison vous accompagnent…",
 		"mois": "",
 		"jour": "",
 		"heure": ""
@@ -5706,7 +5706,7 @@
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"PC",
-		"annee": "",
+		"annee": "Faites appel à toute votre sagesse et votre volonté aujourd’hui, les idées peuvent jaillir des profondeurs, doucement mais sûrement.",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -5717,7 +5717,7 @@
 		"element":"BOIS",
 		"polarite":"YANG",
 		"influence":"FC",
-		"annee":"",
+		"annee":"Une bonne dose de volonté et de réalisme va vous aider à concrétiser votre projet aujour’hui.",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -5728,7 +5728,7 @@
 		"element":"BOIS",
 		"polarite":"YIN",
 		"influence":"D",
-		"annee":"",
+		"annee":"Ecoutez bien avant d’agir, cela évitera les erreurs dans vos projets et de vous énerver.",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -5739,7 +5739,7 @@
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"TF",
-		"annee":"",
+		"annee":"Une belle journée chargée de lucidité et de chaleur humaine qui vous aider à concrétiser votre projet durablement.",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -5761,7 +5761,7 @@
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"PC",
-		"annee": "",
+		"annee": "Soyez à l’écoute aujourd’hui…Certaines informations pourraient contrarier la réalisation de votre projet, restez cool, ce n’est qu’un passage.",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -5772,7 +5772,7 @@
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"FC",
-		"annee": "",
+		"annee": "Une bonne dose de volonté et de réalisme va vous aider à concrétiser votre projet aujourd’hui.",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -5783,7 +5783,7 @@
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"D",
-		"annee": "",
+		"annee": "Antagonisme aujourd’hui entre la volonté du jour et votre ressenti personne. lEcoutez bien avant d’agir, ou attendez d’agir.",
 		"mois": "",
 		"jour": "",
 		"heure": "" 
@@ -5794,7 +5794,7 @@
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"TF",
-		"annee": "",
+		"annee": "Une belle journée chargée de bon sens et de lucidité qui vous aider à concrétiser votre projet durablement.",
 		"mois": "",
 		"jour": "",
 		"heure": ""
@@ -5816,7 +5816,7 @@
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"PC",
-		"annee": "",
+		"annee": "Restez attentif  aujourd’hui…Des éléments externes pourraient contrarier la réalisation de votre projet, restez cool, ce n’est qu’un passage.",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -5827,7 +5827,7 @@
 		"element":"BOIS",
 		"polarite":"YANG",
 		"influence":"FC",
-		"annee":"",
+		"annee":"Ne réfléchissez pas trop au tenants et aboutissants de vos idées, cela risque de les bloquer !",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -5838,7 +5838,7 @@
 		"element":"BOIS",
 		"polarite":"YIN",
 		"influence":"D",
-		"annee":"",
+		"annee":"Une journée où la réflexion et l’écoute d’autrui sont à l’honneur, faites le plein !",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -5849,7 +5849,7 @@
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"TF",
-		"annee":"",
+		"annee":"Vous ne manquerez pas d’influence dans votre communication aujourd’hui…Servez vous du calme de cette énergie du jour !",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -5871,7 +5871,7 @@
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"PC",
-		"annee": "",
+		"annee": "Vous risquez de ne rien laisser passer aujourd’hui et d’être plus axé sur une réalisation coûte que coûte. Soyez attentif aux réactions spontanées.",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -5882,7 +5882,7 @@
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"FC",
-		"annee": "",
+		"annee": "Ne réfléchissez pas trop au tenants et aboutissants de vos idées, cela risque de les bloquer !",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -5893,7 +5893,7 @@
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"D",
-		"annee": "",
+		"annee": "Une journée propice au réalisme et à la réflexion qui devrait tempérer votre sensibilité si vous écoutez !",
 		"mois": "",
 		"jour": "",
 		"heure": "" 
@@ -5904,7 +5904,7 @@
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"TF",
-		"annee": "",
+		"annee": "Réfléchissez calmement aux tenants et aboutissants de vos idées, cela va booster vos projets !",
 		"mois": "",
 		"jour": "",
 		"heure": ""
@@ -5926,7 +5926,7 @@
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"PC",
-		"annee": "",
+		"annee": "Aujourd’hui risque d’être plutôt une journée statique, peu énergique en terme d’actions concrètes. Profitez-en pour vous ressourcer.",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -5937,7 +5937,7 @@
 		"element":"BOIS",
 		"polarite":"YANG",
 		"influence":"FC",
-		"annee":"",
+		"annee":"De la passion, du courage mais aussi beaucoup de rigueur aujourd’hui. Attention à l’intransigeance.",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -5948,7 +5948,7 @@
 		"element":"BOIS",
 		"polarite":"YIN",
 		"influence":"D",
-		"annee":"",
+		"annee":"Attention à la raideur de vos jugements dans votre façon d’appréhender les projets.",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -5959,7 +5959,7 @@
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"TF",
-		"annee":"",
+		"annee":"Tous les feux verts sont allumés aujourd’hui : sensibilité, passion, courage ! Imposez un peu de rigueur et d’ordre !",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -5981,7 +5981,7 @@
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"PC",
-		"annee": "",
+		"annee": "C’est un jour idéal pour montrer votre détermination, restez flexible et chaleureux. Tenez compte des avis.",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -5992,7 +5992,7 @@
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"FC",
-		"annee": "",
+		"annee": "De la passion, du courage mais aussi beaucoup de rigueur aujourd’hui. Attention à l’intransigeance.",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -6003,7 +6003,7 @@
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"D",
-		"annee": "",
+		"annee": "Vous serez tenté de juger rapidement les choses aujourd’hui…Soyez plus magnanime et écoutez votre ressenti.",
 		"mois": "",
 		"jour": "",
 		"heure": "" 
@@ -6014,7 +6014,7 @@
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"TF",
-		"annee": "",
+		"annee": "Tous les feux verts sont allumés aujourd’hui : sensibilité, passion, courage mais aussi beaucoup de rigueur pour concrétiser tout cela !",
 		"mois": "",
 		"jour": "",
 		"heure": ""
@@ -6036,7 +6036,7 @@
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"PC",
-		"annee": "",
+		"annee": "Si vous avez un projet ambitieux c’est le jour idéal pour en parler…Restez clair et concis, c’est vital aujourd’hui !",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -6047,7 +6047,7 @@
 		"element":"BOIS",
 		"polarite":"YANG",
 		"influence":"FC",
-		"annee":"",
+		"annee":"Vous avez le sens aigu de la droiture, cela se ressent dans vos projets.",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -6058,7 +6058,7 @@
 		"element":"BOIS",
 		"polarite":"YIN",
 		"influence":"D",
-		"annee":"",
+		"annee":"Vous pouvez vous laisser porter par la loyauté et la droiture de cette journée, mais n’en abusez pas.",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -6069,7 +6069,7 @@
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"TF",
-		"annee":"",
+		"annee":"Vous avez le sens aigu de la droiture, assorti à du bon sens et de la rigueur, cela paye aujourd’hui !",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -6091,7 +6091,7 @@
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"PC",
-		"annee": "",
+		"annee": "Agir et réaliser, c’est bien dans l’instant, mais restez loyal et chaleureux envers ceux qui vous font confiance, car c’est l’avenir qui se prépare aujourd’hui.",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -6102,7 +6102,7 @@
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"FC",
-		"annee": "",
+		"annee": "Vous avez le sens aigu de la droiture, cela se ressent dans vos projets.",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -6113,7 +6113,7 @@
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"D",
-		"annee": "",
+		"annee": "Une journée qui peut vous amener à de grandes choses si vous restez loyal et droit, sans susceptibilité !",
 		"mois": "",
 		"jour": "",
 		"heure": "" 
@@ -6124,7 +6124,7 @@
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"TF",
-		"annee": "",
+		"annee": "Vous avez le sens aigu de la droiture, assorti à du bon sens et de la rigueur, cela paye aujourd’hui !",
 		"mois": "",
 		"jour": "",
 		"heure": ""
@@ -6146,7 +6146,7 @@
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"PC",
-		"annee": "",
+		"annee": "C’est l’avenir qui se prépare aujourd’hui, avec calme et profondeur. Restez fidèles envers ceux qui vous font confiance.",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -6157,7 +6157,7 @@
 		"element":"BOIS",
 		"polarite":"YANG",
 		"influence":"FC",
-		"annee":"",
+		"annee":"Des obstacles pour la mise en place de vos projets ? Pas de soucis c’est la journée pour trouver une solution.",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -6168,7 +6168,7 @@
 		"element":"BOIS",
 		"polarite":"YIN",
 		"influence":"D",
-		"annee":"",
+		"annee":"Votre volonté de trouver des solutions à tout risque de vous rendre moins clair aujourd’hui sur l’objectif de votre projet.",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -6179,7 +6179,7 @@
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"TF",
-		"annee":"",
+		"annee":"Des obstacles pour la mise en place de vos projets ? Pas de soucis c’est la journée pour trouver une solution, vous saurez convaincre sans mal.",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -6201,7 +6201,7 @@
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"PC",
-		"annee": "",
+		"annee": "Dix mille idées peuvent aboutir à un seul projet. Pensez y et tout ira bien sinon l’insatisfaction vous guette. Ecoutez bien ce que les gens disent aujourd’hui…",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -6212,7 +6212,7 @@
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"FC",
-		"annee": "",
+		"annee": "Des milliers d’idées, beaucoup d’agitation mais une grande difficulté à y voir clair… Récoltez calmement votre moisson.",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -6223,7 +6223,7 @@
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"D",
-		"annee": "",
+		"annee": "Une journée dynamique avec la sensation de trouver des solutions à tout ! Ne perdez pas de vue votre ressenti !",
 		"mois": "",
 		"jour": "",
 		"heure": "" 
@@ -6234,7 +6234,7 @@
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"TF",
-		"annee": "",
+		"annee": "Des obstacles pour la mise en place de vos projets ? Pas de soucis c’est la journée pour trouver une solution.",
 		"mois": "",
 		"jour": "",
 		"heure": ""
@@ -6256,7 +6256,7 @@
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"PC",
-		"annee": "",
+		"annee": "Tout va dépendre aujourd’hui de votre faculté à vous adapter et rebondir… C’est le jour J pour trouver des solutions originales !",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -6267,7 +6267,7 @@
 		"element":"BOIS",
 		"polarite":"YANG",
 		"influence":"FC",
-		"annee":"",
+		"annee":"Des idées futées et intéressantes peuvent voir le jour aujourd’hui !",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -6278,7 +6278,7 @@
 		"element":"BOIS",
 		"polarite":"YIN",
 		"influence":"D",
-		"annee":"",
+		"annee":"Journée parfaite pour trouver des solutions mais ne cherchez pas midi à 14 h !",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -6289,7 +6289,7 @@
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"TF",
-		"annee":"",
+		"annee":"Des idées futées et intéressantes peuvent voir le jour aujourd’hui ! Boostez les avec votre sens de la conviction !",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -6311,7 +6311,7 @@
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"PC",
-		"annee": "",
+		"annee": "Même si cette journée ne se déroule pas comme vous le souhaitez faites confiance à l’énergie du jour… Vous allez trouver des solutions aujourd’hui !",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -6322,7 +6322,7 @@
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"FC",
-		"annee": "",
+		"annee": "Des idées futées et intéressantes peuvent voir le jour aujourd’hui !",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -6333,7 +6333,7 @@
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"D",
-		"annee": "",
+		"annee": "L’énergie du jour va vous aider à trouver des solutions mais restez modeste quant aux résultats.",
 		"mois": "",
 		"jour": "",
 		"heure": "" 
@@ -6344,7 +6344,7 @@
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"TF",
-		"annee": "",
+		"annee": "Des idées futées et inédites peuvent voir le jour aujourd’hui ! Vous risquez d’étonner votre entourage !",
 		"mois": "",
 		"jour": "",
 		"heure": ""
@@ -6366,7 +6366,7 @@
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"PC",
-		"annee": "",
+		"annee": "Faites confiance à l’énergie du jour… Vous allez trouver des solutions aujourd’hui si vous restez ouvert au monde!",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -6377,7 +6377,7 @@
 		"element":"BOIS",
 		"polarite":"YANG",
 		"influence":"FC",
-		"annee":"",
+		"annee":"Des milliers d’idées, beaucoup d’agitation mais une grande difficulté à y voir clair… Récoltez calmement votre moisson.",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -6388,7 +6388,7 @@
 		"element":"BOIS",
 		"polarite":"YIN",
 		"influence":"D",
-		"annee":"",
+		"annee":"On ne vous écoute pas comme vous le voudriez et cela vous rend irritable ? Ecoutez à votre tour !",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -6399,7 +6399,7 @@
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"TF",
-		"annee":"",
+		"annee":"Beaucoup d’agitation et de passion aujourd’hui, cela fuse de toute part, ne soyez pas étourdi et redonnez un sens pour avancer.",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -6421,7 +6421,7 @@
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"PC",
-		"annee": "",
+		"annee": "Tout va dépendre aujourd’hui de votre faculté à vous adapter et rebondir …C’est le jour J pour trouver des solutions inédites pour concrétiser votre idée.",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -6432,7 +6432,7 @@
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"FC",
-		"annee": "",
+		"annee": "Des obstacles pour la mise en place de vos projets ? Pas de soucis c’est la journée pour trouver une solution.",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -6443,7 +6443,7 @@
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"D",
-		"annee": "",
+		"annee": "Vous allez vouloir tout aborder, tout faire aujourd’hui tant l’énergie de découverte est puissante ! Attention de ne pas vous laissez disperser !",
 		"mois": "",
 		"jour": "",
 		"heure": "" 
@@ -6454,7 +6454,7 @@
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"TF",
-		"annee": "",
+		"annee": "Des milliers d’idées, beaucoup d’agitation mais beaucoup d’ordre pour organiser tout ceci… C’est rare ! Récoltez calmement votre moisson.",
 		"mois": "",
 		"jour": "",
 		"heure": ""
@@ -6476,7 +6476,7 @@
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"PC",
-		"annee": "",
+		"annee": "Pensez à exposer une seule et bonne idée et tout ira bien sinon l’insatisfaction vous guette. Ecoutez bien ce que les gens disent aujourd’hui…",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -6487,7 +6487,7 @@
 		"element":"BOIS",
 		"polarite":"YANG",
 		"influence":"FC",
-		"annee":"",
+		"annee":"Cette journée risque d’être propice aux idées géniales… Il faut juste rester un peu raisonnable !",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -6498,7 +6498,7 @@
 		"element":"BOIS",
 		"polarite":"YIN",
 		"influence":"D",
-		"annee":"",
+		"annee":"Trop d’idées à la fois tuent l’idée…Organisez le flux de vos projets !",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -6509,7 +6509,7 @@
 		"element":"FEU",
 		"polarite":"YANG",
 		"influence":"TF",
-		"annee":"",
+		"annee":"Cette journée risque d’être propice aux idées géniales…Organisez tout ceci avec calme, bon sens et précision et le tour est joué !",
 		"mois":"",
 		"jour":"",
 		"heure":""
@@ -6531,7 +6531,7 @@
 		"element":"TERRE",
 		"polarite":"YANG",
 		"influence":"PC",
-		"annee": "",
+		"annee": "Beaucoup d’idées vont germer aujourd’hui, restez clair et réaliste, vous en serez que plus crédible !",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -6542,7 +6542,7 @@
 		"element":"TERRE",
 		"polarite":"YIN",
 		"influence":"FC",
-		"annee": "",
+		"annee": "Cette journée risque d’être propice aux idées géniales… Il faut juste rester un peu raisonnable !",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
@@ -6553,7 +6553,7 @@
 		"element":"METAL",
 		"polarite":"YANG",
 		"influence":"D",
-		"annee": "",
+		"annee": "Des idées et des envies à la pelle, mais il va falloir trier avec rigueur. Faites vous confiance !",
 		"mois": "",
 		"jour": "",
 		"heure": "" 
@@ -6564,7 +6564,7 @@
 		"element":"METAL",
 		"polarite":"YIN",
 		"influence":"TF",
-		"annee": "",
+		"annee": "Cette journée risque d’être propice aux idées géniales…Organisez tout ceci avec calme, bon sens et précision et le tour est joué !",
 		"mois": "",
 		"jour": "",
 		"heure": ""
@@ -6586,7 +6586,7 @@
 		"element":"EAU",
 		"polarite":"YIN",
 		"influence":"PC",
-		"annee": "",
+		"annee": "Beaucoup d’idées vont germer aujourd’hui, restez clair et ouvert d’esprit, cela sera constructif!",
 		"mois": "",
 		"jour": "",
 		"heure": ""  
