@@ -536,18 +536,24 @@ public class CalculBinomes {
 
     public static String calcBinomeJour(int year, int month, int day, int mHour, int mMinute) {
 
-        int dayBinome = (getEnergeticDay(year, month, day, mHour, mMinute) + getIntDay(year / 10, year % 10) + getIntMonthYear(month, year)) % 60;
-
+        int dayBinome = getEnergeticDay(year, month, day, mHour, mMinute) + getIntDay(year / 10, year % 10) + getIntMonthYear(month, year) ;
+        if (dayBinome != 60) {
+            dayBinome = dayBinome %60;
+        }
        return String.valueOf(dayBinome);
 
     }
 
     public static String calcBinomeHeure(int year, int month, int day, int mHour, int mMinute) {
         String mStringBinome = "1";
-        int dayBinome = ((getEnergeticDay(year, month, day, mHour, mMinute) + getIntDay(year / 10, year % 10) + getIntMonthYear(month, year)) % 60) % 10;
 
+        int dayBinome = getEnergeticDay(year, month, day, mHour, mMinute) + getIntDay(year / 10, year % 10) + getIntMonthYear(month, year);
+        if (dayBinome != 60) {
+            dayBinome = dayBinome %60;
+        }
+        int dayBinomeModulo = dayBinome %10;
         mHour = mHour - 1;
-        switch (dayBinome) {
+        switch (dayBinomeModulo) {
             case 1:
             case 6:
                 if (mHour >= 23 || mHour == 0)

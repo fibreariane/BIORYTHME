@@ -67,10 +67,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         mPreferences.isFirstTimeApplication();
 
-
-
         String date_biorythme = mPreferences.getStringDatePref();
-        if (date_biorythme == "") {
+        if ((date_biorythme == "") || !(biorythmeCorrect(mPreferences.getStringBiorythmePref()))) {
+            mPreferences.resetBiorythmePref();
             Intent intent = new Intent(mContext, SwitchBiorythmeActivity.class);
             startActivity(intent);
         } else {
@@ -179,6 +178,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 binomeMois,
                 binomeJour,
                 binomeHeure);
+    }
+    private Boolean biorythmeCorrect(String stringBiorythme) {
+        String[] binomes = stringBiorythme.split("\\.");
+
+        return (binomes[0] != "0") &&
+                (binomes[1] != "0") &&
+                (binomes[2] != "0") &&
+                (binomes[3] != "0") ;
     }
 
     @Override
