@@ -378,7 +378,8 @@ public class CalculBinomes {
     public static String calcBinomeMois(int year, int month, int day, int mHour, int mMinute) {
         String mStringBinome = "1";
         int monthSwitch = getMoisSolaire(year, month, day, mHour, mMinute);
-        int yearCalc = year;
+   //    int yearCalc = year;
+        int yearCalc = getDateAnneeNaissance(year, month, day, mHour, mMinute);
         if (month == 1 && monthSwitch == 12) {
             yearCalc = year - 1;
         }
