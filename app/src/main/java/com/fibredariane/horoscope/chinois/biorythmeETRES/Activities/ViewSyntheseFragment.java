@@ -118,12 +118,17 @@ public class ViewSyntheseFragment extends Fragment implements View.OnClickListen
     private void setSynthese() {
 
         mSyntheseType.setText("SYNTHESE DU " + mBiorythme.getDateString());
-
-        mImageViewSyntheseBioAnnee.setImageDrawable(getResources().getDrawable(mBiorythme.getBinomeAnnee().getIntIdMini(), mContext.getApplicationContext().getTheme()));
-        mImageViewSyntheseBioMois.setImageDrawable(getResources().getDrawable(mBiorythme.getBinomeMois().getIntIdMini(), mContext.getApplicationContext().getTheme()));
-        mImageViewSyntheseBioJour.setImageDrawable(getResources().getDrawable(mBiorythme.getBinomeJour().getIntIdMini(), mContext.getApplicationContext().getTheme()));
-        mImageViewSyntheseBioHeure.setImageDrawable(getResources().getDrawable(mBiorythme.getBinomeHeure().getIntIdMini(), mContext.getApplicationContext().getTheme()));
-
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+            mImageViewSyntheseBioAnnee.setImageDrawable(getResources().getDrawable(mBiorythme.getBinomeAnnee().getIntIdMini(), mContext.getApplicationContext().getTheme()));
+            mImageViewSyntheseBioMois.setImageDrawable(getResources().getDrawable(mBiorythme.getBinomeMois().getIntIdMini(), mContext.getApplicationContext().getTheme()));
+            mImageViewSyntheseBioJour.setImageDrawable(getResources().getDrawable(mBiorythme.getBinomeJour().getIntIdMini(), mContext.getApplicationContext().getTheme()));
+            mImageViewSyntheseBioHeure.setImageDrawable(getResources().getDrawable(mBiorythme.getBinomeHeure().getIntIdMini(), mContext.getApplicationContext().getTheme()));
+        }else{
+            mImageViewSyntheseBioAnnee.setImageDrawable(getResources().getDrawable(mBiorythme.getBinomeAnnee().getIntIdMini()));
+            mImageViewSyntheseBioMois.setImageDrawable(getResources().getDrawable(mBiorythme.getBinomeMois().getIntIdMini()));
+            mImageViewSyntheseBioJour.setImageDrawable(getResources().getDrawable(mBiorythme.getBinomeJour().getIntIdMini()));
+            mImageViewSyntheseBioHeure.setImageDrawable(getResources().getDrawable(mBiorythme.getBinomeHeure().getIntIdMini()));
+        }
         mTextViewNomBinomeA.setText(mBiorythme.getBinomeAnnee().getNom());
         mTextViewNomBinomeM.setText(mBiorythme.getBinomeMois().getNom());
         mTextViewNomBinomeJ.setText(mBiorythme.getBinomeJour().getNom());
@@ -160,7 +165,6 @@ public class ViewSyntheseFragment extends Fragment implements View.OnClickListen
             imageView.setPadding(0, 0, 0, 0);
         }
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-
             imageView.setImageDrawable(getResources().getDrawable(idImage, mContext.getApplicationContext().getTheme()));
         } else {
             imageView.setImageDrawable(getResources().getDrawable(idImage));

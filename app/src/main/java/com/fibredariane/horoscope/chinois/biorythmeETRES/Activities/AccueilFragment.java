@@ -138,16 +138,26 @@ public class AccueilFragment extends Fragment implements View.OnClickListener {
     }
 
     private void setmImageViewMeteoDay() {
-        mImageViewMeteoDay.setImageDrawable(getResources().getDrawable(InfosBinomes.getIdTotInfluence(mContext, mBinome, mCurrentBiorythme), mContext.getApplicationContext().getTheme()));
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+            mImageViewMeteoDay.setImageDrawable(getResources().getDrawable(InfosBinomes.getIdTotInfluence(mContext, mBinome, mCurrentBiorythme), mContext.getApplicationContext().getTheme()));
+        }else{
+            mImageViewMeteoDay.setImageDrawable(getResources().getDrawable(InfosBinomes.getIdTotInfluence(mContext, mBinome, mCurrentBiorythme)));
+        }
     }
 
     private void setmImageViewBiorythme() {
         if (mCurrentBiorythme.getBinomeAnnee().getNom() != "") {
-            mImageViewUserAnnee.setImageDrawable(getResources().getDrawable(mCurrentBiorythme.getBinomeAnnee().getIntIdMini(), mContext.getApplicationContext().getTheme()));
-            mImageViewUserMois.setImageDrawable(getResources().getDrawable(mCurrentBiorythme.getBinomeMois().getIntIdMini(), mContext.getApplicationContext().getTheme()));
-            mImageViewUserJour.setImageDrawable(getResources().getDrawable(mCurrentBiorythme.getBinomeJour().getIntIdMini(), mContext.getApplicationContext().getTheme()));
-            mImageViewUserHeure.setImageDrawable(getResources().getDrawable(mCurrentBiorythme.getBinomeHeure().getIntIdMini(), mContext.getApplicationContext().getTheme()));
-
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+                mImageViewUserAnnee.setImageDrawable(getResources().getDrawable(mCurrentBiorythme.getBinomeAnnee().getIntIdMini(), mContext.getApplicationContext().getTheme()));
+                mImageViewUserMois.setImageDrawable(getResources().getDrawable(mCurrentBiorythme.getBinomeMois().getIntIdMini(), mContext.getApplicationContext().getTheme()));
+                mImageViewUserJour.setImageDrawable(getResources().getDrawable(mCurrentBiorythme.getBinomeJour().getIntIdMini(), mContext.getApplicationContext().getTheme()));
+                mImageViewUserHeure.setImageDrawable(getResources().getDrawable(mCurrentBiorythme.getBinomeHeure().getIntIdMini(), mContext.getApplicationContext().getTheme()));
+            }else{
+                mImageViewUserAnnee.setImageDrawable(getResources().getDrawable(mCurrentBiorythme.getBinomeAnnee().getIntIdMini()));
+                mImageViewUserMois.setImageDrawable(getResources().getDrawable(mCurrentBiorythme.getBinomeMois().getIntIdMini()));
+                mImageViewUserJour.setImageDrawable(getResources().getDrawable(mCurrentBiorythme.getBinomeJour().getIntIdMini()));
+                mImageViewUserHeure.setImageDrawable(getResources().getDrawable(mCurrentBiorythme.getBinomeHeure().getIntIdMini()));
+            }
         }
     }
 

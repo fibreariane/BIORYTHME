@@ -98,8 +98,11 @@ public class ViewBinomeFragment extends Fragment  {
 
     private void setBinome() {
         if(mBinome.getNom() != "") {
-            mImageViewBinome.setImageDrawable(getResources().getDrawable(mBinome.getIntId(), mContext.getApplicationContext().getTheme()));
-
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+                mImageViewBinome.setImageDrawable(getResources().getDrawable(mBinome.getIntId(), mContext.getApplicationContext().getTheme()));
+            }else{
+                mImageViewBinome.setImageDrawable(getResources().getDrawable(mBinome.getIntId()));
+            }
             mTextViewNomBinome.setText(mBinome.getNom());
             mTextViewPolariteBinome.setText(mBinome.getPolarite());
             mTextViewDescBinome.setText(mBinome.getDescription());

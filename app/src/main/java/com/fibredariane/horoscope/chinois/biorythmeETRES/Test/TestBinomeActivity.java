@@ -79,9 +79,13 @@ public class TestBinomeActivity extends AppCompatActivity  implements View.OnCli
 
         mTextViewNomBinome.setText(binome.getNom());
         mTextViewDescBinome.setText(binome.getDescription());
-        mImageViewBinome.setImageDrawable(getResources().getDrawable(binome.getIntId(), getApplicationContext().getTheme()));
-        mImageViewBinomeMini.setImageDrawable(getResources().getDrawable(binome.getIntIdMini(), getApplicationContext().getTheme()));
-
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+            mImageViewBinome.setImageDrawable(getResources().getDrawable(binome.getIntId(), getApplicationContext().getTheme()));
+            mImageViewBinomeMini.setImageDrawable(getResources().getDrawable(binome.getIntIdMini(), getApplicationContext().getTheme()));
+        }else{
+            mImageViewBinome.setImageDrawable(getResources().getDrawable(binome.getIntId()));
+            mImageViewBinomeMini.setImageDrawable(getResources().getDrawable(binome.getIntIdMini()));
+        }
 
         mTextViewBrancheOrgane.setText(binome.getOrganeTroncCeleste().getNom());
         mTextViewBranchePolarite.setText(binome.getOrganeTroncCeleste().getPolarite());
@@ -100,8 +104,13 @@ public class TestBinomeActivity extends AppCompatActivity  implements View.OnCli
 
                 mTextViewNomBinome.setText(binome.getNom());
                 mTextViewDescBinome.setText(binome.getDescription());
-                mImageViewBinome.setImageDrawable(getResources().getDrawable(binome.getIntId(), getApplicationContext().getTheme()));
-                mImageViewBinomeMini.setImageDrawable(getResources().getDrawable(binome.getIntIdMini(), getApplicationContext().getTheme()));
+                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+                    mImageViewBinome.setImageDrawable(getResources().getDrawable(binome.getIntId(), getApplicationContext().getTheme()));
+                    mImageViewBinomeMini.setImageDrawable(getResources().getDrawable(binome.getIntIdMini(), getApplicationContext().getTheme()));
+                }else{
+                    mImageViewBinome.setImageDrawable(getResources().getDrawable(binome.getIntId()));
+                    mImageViewBinomeMini.setImageDrawable(getResources().getDrawable(binome.getIntIdMini()));
+                }
                 mTextViewBrancheOrgane.setText(binome.getOrganeTroncCeleste().getNom());
                 mTextViewBranchePolarite.setText(binome.getOrganeTroncCeleste().getPolarite());
                 mTextViewBrancheElement.setText(binome.getOrganeTroncCeleste().getElement().getNom());
