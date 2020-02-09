@@ -1,5 +1,21 @@
 [
 	{
+		"id_binome": "metal_or_fond_mer",
+		"nb_binome":0,
+		"name": "Binome 0",
+		"description": "Erreur de calcul.",
+		"element": "METAL",
+		"polarite": "YANG",
+		"tronc_celeste": {
+			"organe": "Vésicule Biliaire",
+			"polarite": "YANG",
+			"element": "BOIS"},
+		"branche_terrestre": {
+			"organe": "Vésicule Biliaire",
+			"polarite": "YANG",
+			"element": "BOIS"}
+	}
+,{
 	"id_binome": "metal_or_fond_mer",
 	"nb_binome":1,
 	"name": "Métal Or du fond de la mer",

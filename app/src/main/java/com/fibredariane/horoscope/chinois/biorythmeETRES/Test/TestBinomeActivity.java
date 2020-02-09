@@ -68,7 +68,7 @@ public class TestBinomeActivity extends AppCompatActivity  implements View.OnCli
 
         spinnerBinome = (Spinner) findViewById(R.id.spinner);
         List<String> list = new ArrayList<String>();
-        for (int i = 1; i <= 60; i++) {
+        for (int i = 0; i <= 60; i++) {
             list.add(Integer.toString(i));
         }
         ArrayAdapter<String> dataAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item,list);

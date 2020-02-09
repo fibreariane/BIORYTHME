@@ -153,7 +153,7 @@ public class TableBinome extends SQLiteOpenHelper {
         public static final String DATABASE_NAME = "Binome.db";
 
         // The database version
-        public static final int DATABASE_VERSION = 1;
+        public static final int DATABASE_VERSION = 2;
 
         // The table Name
         public static final String MY_TABLE = "Binome";
