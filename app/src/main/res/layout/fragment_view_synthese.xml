@@ -16,7 +16,7 @@
         android:layout_height="match_parent"
         android:gravity="center"
         android:orientation="vertical"
-        android:paddingBottom="60dp">
+        android:paddingBottom="90dp">
 
         <LinearLayout
             android:id="@+id/linear_layout_synthese_type"
@@ -29,10 +29,12 @@
                 android:id="@+id/text_view_synthese_type"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:gravity="center"
                 android:text="SYNTHESE DU 09 DECEMBRE 1989"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:textColor="@color/colorPrimary"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:padding="@dimen/activity_horizontal_margin"/>
 
             <ImageView
                 android:id="@+id/image_view_switch_biorythme"

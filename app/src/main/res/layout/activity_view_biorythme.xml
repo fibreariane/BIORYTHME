@@ -17,7 +17,7 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:orientation="vertical"
-        android:paddingBottom="60dp">
+        android:paddingBottom="90dp">
 
         <TextView
             android:id="@+id/text_view_binome_type"

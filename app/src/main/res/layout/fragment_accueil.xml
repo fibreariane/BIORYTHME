@@ -8,10 +8,11 @@
     android:scrollbars="vertical"
     tools:context="com.fibredariane.horoscope.chinois.biorythmeETRES.Activities.AccueilFragment">
 
-    <android.support.constraint.ConstraintLayout
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="50dp">
+        android:orientation="vertical"
+        android:paddingBottom="90dp">
 
         <LinearLayout
             android:id="@+id/layout_energie"
@@ -48,15 +49,12 @@
 
         <LinearLayout
             android:id="@+id/layout_day"
-            android:layout_width="0dp"
+            android:layout_width="match_parent"
             android:layout_height="62dp"
             android:layout_marginTop="16dp"
             android:background="@color/colorPrimaryDark"
             android:gravity="center"
-            android:orientation="vertical"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/layout_energie">
+            android:orientation="vertical">
 
             <TextView
                 android:id="@+id/text_view_day"
@@ -70,115 +68,104 @@
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:textColor="@color/colorWhite"
                 android:textSize="24sp"
-                android:textStyle="bold"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="1.0"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView" />
+                android:textStyle="bold" />
         </LinearLayout>
 
         <LinearLayout
-            android:id="@+id/layout_synthese"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:layout_marginEnd="50dp"
-            android:orientation="vertical"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/layout_day">
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:gravity="center"
+            android:paddingBottom="30dp">
 
-            <android.support.constraint.ConstraintLayout
-                android:layout_width="100dp"
-                android:layout_height="101dp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/layout_day">
-
-                <ImageView
-                    android:id="@+id/image_view_bio_annee"
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
-                    android:background="@color/colorWhite"
-                    android:src="@drawable/bois_arbre_grande_foret_mini"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
-
-                <ImageView
-                    android:id="@+id/image_view_bio_heure"
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
-                    android:background="@color/colorWhite"
-                    android:src="@drawable/bois_arbre_grande_foret_mini"
-                    app:layout_constraintStart_toEndOf="@+id/image_view_bio_jour"
-                    app:layout_constraintTop_toBottomOf="@+id/image_view_bio_mois" />
-
-                <ImageView
-                    android:id="@+id/image_view_bio_jour"
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
-                    android:background="@color/colorWhite"
-                    android:src="@drawable/bois_arbre_grande_foret_mini"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/image_view_bio_annee" />
-
-                <ImageView
-                    android:id="@+id/image_view_bio_mois"
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
-                    android:background="@color/colorWhite"
-                    android:src="@drawable/bois_arbre_grande_foret_mini"
-                    app:layout_constraintStart_toEndOf="@+id/image_view_bio_annee"
-                    app:layout_constraintTop_toTopOf="parent" />
-            </android.support.constraint.ConstraintLayout>
-
-            <TextView
+            <LinearLayout
+                android:id="@+id/layout_synthese"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:gravity="center"
-                android:text="Ma Synthèse"
-                android:textAllCaps="true"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:textColor="@color/colorPrimary"
-                android:textSize="14sp"
-                android:textStyle="normal|bold"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/layout_synthese" />
+                android:orientation="vertical">
+
+                <android.support.constraint.ConstraintLayout
+                    android:layout_width="100dp"
+                    android:layout_height="101dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/layout_day">
+
+                    <ImageView
+                        android:id="@+id/image_view_bio_annee"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:background="@color/colorWhite"
+                        android:src="@drawable/bois_arbre_grande_foret_mini"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <ImageView
+                        android:id="@+id/image_view_bio_heure"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:background="@color/colorWhite"
+                        android:src="@drawable/bois_arbre_grande_foret_mini"
+                        app:layout_constraintStart_toEndOf="@+id/image_view_bio_jour"
+                        app:layout_constraintTop_toBottomOf="@+id/image_view_bio_mois" />
+
+                    <ImageView
+                        android:id="@+id/image_view_bio_jour"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:background="@color/colorWhite"
+                        android:src="@drawable/bois_arbre_grande_foret_mini"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/image_view_bio_annee" />
+
+                    <ImageView
+                        android:id="@+id/image_view_bio_mois"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:background="@color/colorWhite"
+                        android:src="@drawable/bois_arbre_grande_foret_mini"
+                        app:layout_constraintStart_toEndOf="@+id/image_view_bio_annee"
+                        app:layout_constraintTop_toTopOf="parent" />
+                </android.support.constraint.ConstraintLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Ma Synthèse"
+                    android:textAllCaps="true"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="14sp"
+                    android:textStyle="normal|bold"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_horoscope"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="40dp">
+
+                <ImageView
+                    android:id="@+id/image_view_meteo_day"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/meteo_cc_accueil" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Mon Horoscope"
+                    android:textAllCaps="true"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="14sp"
+                    android:textStyle="normal|bold" />
+            </LinearLayout>
         </LinearLayout>
-
-        <LinearLayout
-            android:id="@+id/layout_horoscope"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="50dp"
-            android:layout_marginTop="16dp"
-            android:orientation="vertical"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/layout_day">
-
-            <ImageView
-                android:id="@+id/image_view_meteo_day"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:src="@drawable/meteo_cc_accueil"
-                tools:layout_editor_absoluteX="64dp"
-                tools:layout_editor_absoluteY="296dp" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:text="Mon Horoscope"
-                android:textAlignment="viewStart"
-                android:textAllCaps="true"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:textColor="@color/colorPrimary"
-                android:textSize="14sp"
-                android:textStyle="normal|bold"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/image_view_meteo_day" />
-        </LinearLayout>
-
-    </android.support.constraint.ConstraintLayout>
+    </LinearLayout>
 </ScrollView>
 
