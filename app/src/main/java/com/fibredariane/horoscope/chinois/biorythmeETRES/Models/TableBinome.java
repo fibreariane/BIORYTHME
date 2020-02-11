@@ -11,8 +11,6 @@ import android.util.Log;
 
 import com.fibredariane.horoscope.chinois.biorythmeETRES.R;
 
-import org.json.JSONObject;
-
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.List;
@@ -153,7 +151,7 @@ public class TableBinome extends SQLiteOpenHelper {
         public static final String DATABASE_NAME = "Binome.db";
 
         // The database version
-        public static final int DATABASE_VERSION = 2;
+        public static final int DATABASE_VERSION = 3;
 
         // The table Name
         public static final String MY_TABLE = "Binome";
