@@ -21,6 +21,7 @@ import com.fibredariane.horoscope.chinois.biorythmeETRES.Utils.InfosBinomes;
 import com.fibredariane.horoscope.chinois.biorythmeETRES.Utils.Preferences;
 
 import java.util.Calendar;
+import java.util.Date;
 
 public class AccueilFragment extends Fragment implements View.OnClickListener {
     private Biorythme mCurrentBiorythme;
@@ -94,6 +95,14 @@ public class AccueilFragment extends Fragment implements View.OnClickListener {
                 mLinearLayoutHoroscope.setOnClickListener(this);
                 mLinearLayoutElement.setOnClickListener(this);
                 mLinearLayoutSynthese.setOnClickListener(this);
+
+                Calendar c = Calendar.getInstance();
+                Date d = mPreference.getDatePref();
+                if (d.getMonth() == (c.get(Calendar.MONTH) + 1) &&
+                        d.getDate() == (c.get(Calendar.DAY_OF_MONTH))){
+                    rootView.findViewById(R.id.layout_birthday).setVisibility(View.VISIBLE);
+                }
+
             }
 
         }
