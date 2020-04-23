@@ -162,48 +162,52 @@ public class SwitchBiorythmeActivity extends AppCompatActivity implements TimePi
         mEditTextDateMois.setTextColor(Color.BLACK);
         mEditTextDateAnnee.setTextColor(Color.BLACK);
 
-        int year = Integer.parseInt(mEditTextDateAnnee.getText().toString());
-        int month = Integer.parseInt(mEditTextDateMois.getText().toString());
-        int day = Integer.parseInt(mEditTextDateJour.getText().toString());
-        if (year < 1924 || year > 2020) {
-            ok = false;
-            mEditTextDateAnnee.setTextColor(Color.RED);
-        }
+        try {
+            int year = Integer.parseInt(mEditTextDateAnnee.getText().toString());
+            int month = Integer.parseInt(mEditTextDateMois.getText().toString());
+            int day = Integer.parseInt(mEditTextDateJour.getText().toString());
+            if (year < 1924 || year > 2020) {
+                ok = false;
+                mEditTextDateAnnee.setTextColor(Color.RED);
+            }
 
-        if (month < 1 || month > 12) {
-            ok = false;
-            mEditTextDateMois.setTextColor(Color.RED);
-        }
+            if (month < 1 || month > 12) {
+                ok = false;
+                mEditTextDateMois.setTextColor(Color.RED);
+            }
 
-        if (day < 1 || day > 31) {
-            ok = false;
-            mEditTextDateJour.setTextColor(Color.RED);
-        }
-        if ((month == 4 || month == 6 || month == 9 || month == 11) && day > 30) {
-            ok = false;
-            mEditTextDateJour.setTextColor(Color.RED);
-        }
-        if (month == 2) {
-            GregorianCalendar gcal = new GregorianCalendar(); //import java.util.GregorianCalendar;
-            boolean b = gcal.isLeapYear(year);  // annee bissextile = true
-            if (b) {
-                if (day > 29) {
-                    ok = false;
-                    mEditTextDateJour.setTextColor(Color.RED);
-                }
-            } else {
-                if (day > 28) {
-                    ok = false;
-                    mEditTextDateJour.setTextColor(Color.RED);
+            if (day < 1 || day > 31) {
+                ok = false;
+                mEditTextDateJour.setTextColor(Color.RED);
+            }
+            if ((month == 4 || month == 6 || month == 9 || month == 11) && day > 30) {
+                ok = false;
+                mEditTextDateJour.setTextColor(Color.RED);
+            }
+            if (month == 2) {
+                GregorianCalendar gcal = new GregorianCalendar(); //import java.util.GregorianCalendar;
+                boolean b = gcal.isLeapYear(year);  // annee bissextile = true
+                if (b) {
+                    if (day > 29) {
+                        ok = false;
+                        mEditTextDateJour.setTextColor(Color.RED);
+                    }
+                } else {
+                    if (day > 28) {
+                        ok = false;
+                        mEditTextDateJour.setTextColor(Color.RED);
+                    }
                 }
             }
-        }
-        if (ok) {
-            String date = year + "." + month + "." + day + "." + mHour + "." + mMinute;
-            mPreferences.setBiorythmePref(date, CalculBinomes.getStringBinome(year, month, day, mHour, mMinute));
-            Intent intent = new Intent(mContext, MainActivity.class);
-            startActivity(intent);
-        } else {
+            if (ok) {
+                String date = year + "." + month + "." + day + "." + mHour + "." + mMinute;
+                mPreferences.setBiorythmePref(date, CalculBinomes.getStringBinome(year, month, day, mHour, mMinute));
+                Intent intent = new Intent(mContext, MainActivity.class);
+                startActivity(intent);
+            } else {
+                mDialog.show();
+            }
+        }catch (NumberFormatException e){
             mDialog.show();
         }
 
