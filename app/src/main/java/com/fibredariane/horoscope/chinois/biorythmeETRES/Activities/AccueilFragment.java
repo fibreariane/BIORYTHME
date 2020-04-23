@@ -172,21 +172,25 @@ public class AccueilFragment extends Fragment implements View.OnClickListener {
 
     @Override
     public void onClick(View v) {
-        switch (v.getId()) {
-            case R.id.layout_energie:
-                mViewPager.setCurrentItem(1);
-                break;
-            case R.id.layout_horoscope:
-                mViewPager.setCurrentItem(2);
-                break;
-            case R.id.layout_synthese:
-                mViewPager.setCurrentItem(3);
-                break;
+        if(mViewPager != null) {
+            switch (v.getId()) {
+                case R.id.layout_energie:
+                    mViewPager.setCurrentItem(1);
+                    break;
+                case R.id.layout_horoscope:
+                    mViewPager.setCurrentItem(2);
+                    break;
+                case R.id.layout_synthese:
+                    mViewPager.setCurrentItem(3);
+                    break;
 
-            default:
-                break;
+                default:
+                    break;
+            }
+        }else{
+            Intent intent = new Intent(mContext, MainActivity.class);
+            startActivity(intent);
         }
-
 
     }
 }
