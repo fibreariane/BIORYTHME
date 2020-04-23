@@ -89,11 +89,12 @@ public class SwitchBiorythmeActivity extends AppCompatActivity implements TimePi
         mEditTextDateAnnee = (EditText) findViewById(R.id.text_view_date_annee);
 
         if (mPreferences.getStringDatePref() != "") {
-            Date date = mPreferences.getDatePref();
+            String dateString = mPreferences.getStringDatePref();
+            String[] dates = dateString.split("\\.");
 
-            mEditTextDateJour.setText(Integer.toString(date.getDate()));
-            mEditTextDateMois.setText(Integer.toString(date.getMonth()));
-            mEditTextDateAnnee.setText(Integer.toString(date.getYear()));
+            mEditTextDateJour.setText(dates[2]);
+            mEditTextDateMois.setText(dates[1]);
+            mEditTextDateAnnee.setText(dates[0]);
         }
     }
 

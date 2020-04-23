@@ -84,7 +84,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             // Initialisation des variables globales
             Date date = new Date();
             mBiorythmeOfTheDay = getBiorythme(date, CalculBinomes.getStringBinome(date.getYear(), date.getMonth(), date.getDate(), date.getHours(), date.getMinutes()));
-            mBiorythmeUser = getBiorythme(mPreferences.getDatePref(), mPreferences.getStringBiorythmePref());
+            mBiorythmeUser = getBiorythme(date_biorythme, mPreferences.getStringBiorythmePref());
             mHoroscopeDay = db.getHoroscope(mBiorythmeOfTheDay.getBinomeJour(), mBiorythmeUser);
             mViewPager.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
                 @Override
@@ -174,6 +174,23 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 date.getDate(),
                 date.getHours(),
                 date.getMinutes(),
+                binomeAnnee,
+                binomeMois,
+                binomeJour,
+                binomeHeure);
+    }
+    private Biorythme getBiorythme(String dateString, String stringBiorythme) {
+        String[] dates = dateString.split("\\.");
+        String[] binomes = stringBiorythme.split("\\.");
+        Binome binomeAnnee = db.getBinome(binomes[0], "A");
+        Binome binomeMois = db.getBinome(binomes[1], "M");
+        Binome binomeJour = db.getBinome(binomes[2], "J");
+        Binome binomeHeure = db.getBinome(binomes[3], "H");
+        return new Biorythme(Integer.parseInt(dates[0]),
+                Integer.parseInt(dates[1]),
+                Integer.parseInt(dates[2]),
+                Integer.parseInt(dates[3]),
+                Integer.parseInt(dates[4]),
                 binomeAnnee,
                 binomeMois,
                 binomeJour,
