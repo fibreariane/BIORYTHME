@@ -3,8 +3,8 @@ package com.fibredariane.horoscope.chinois.biorythmeETRES.Activities;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -14,11 +14,9 @@ import android.widget.TextView;
 
 import com.fibredariane.horoscope.chinois.biorythmeETRES.BuildConfig;
 import com.fibredariane.horoscope.chinois.biorythmeETRES.R;
-import com.fibredariane.horoscope.chinois.biorythmeETRES.Test.TestBinomeActivity;
 import com.fibredariane.horoscope.chinois.biorythmeETRES.Test.TestMain;
 import com.fibredariane.horoscope.chinois.biorythmeETRES.Utils.Preferences;
 
-import java.util.Date;
 import java.util.TimeZone;
 
 public class ParameterFragment extends Fragment implements View.OnClickListener {

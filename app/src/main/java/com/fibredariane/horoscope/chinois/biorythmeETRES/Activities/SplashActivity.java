@@ -1,11 +1,8 @@
 package com.fibredariane.horoscope.chinois.biorythmeETRES.Activities;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
-
-import com.fibredariane.horoscope.chinois.biorythmeETRES.Activities.MainActivity;
+import androidx.appcompat.app.AppCompatActivity;
 
 public class SplashActivity extends AppCompatActivity    {
 

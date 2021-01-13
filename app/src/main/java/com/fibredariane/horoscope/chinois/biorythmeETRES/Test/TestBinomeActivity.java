@@ -1,27 +1,19 @@
 package com.fibredariane.horoscope.chinois.biorythmeETRES.Test;
 
-import android.app.Dialog;
 import android.content.Context;
-import android.content.DialogInterface;
-import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
-import android.support.v7.app.AlertDialog;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AlertDialog;
+import androidx.appcompat.app.AppCompatActivity;
 import android.view.View;
 import android.widget.ArrayAdapter;
-import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.Spinner;
 import android.widget.TextView;
 
-import com.fibredariane.horoscope.chinois.biorythmeETRES.Activities.MainActivity;
 import com.fibredariane.horoscope.chinois.biorythmeETRES.Models.Binome;
-import com.fibredariane.horoscope.chinois.biorythmeETRES.Models.Biorythme;
 import com.fibredariane.horoscope.chinois.biorythmeETRES.R;
-import com.fibredariane.horoscope.chinois.biorythmeETRES.Utils.InfosBinomes;
 import com.fibredariane.horoscope.chinois.biorythmeETRES.Utils.ManageRecordDB;
-import com.fibredariane.horoscope.chinois.biorythmeETRES.Utils.Preferences;
 
 import java.util.ArrayList;
 import java.util.List;

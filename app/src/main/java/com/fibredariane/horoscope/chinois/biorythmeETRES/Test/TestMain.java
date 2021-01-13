@@ -3,22 +3,19 @@ package com.fibredariane.horoscope.chinois.biorythmeETRES.Test;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.design.widget.BottomNavigationView;
-import android.support.v4.view.ViewPager;
-import android.support.v7.app.AppCompatActivity;
+import com.google.android.material.bottomnavigation.BottomNavigationView;
+import androidx.viewpager.widget.ViewPager;
+import androidx.appcompat.app.AppCompatActivity;
 import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.crashlytics.android.Crashlytics;
 import com.fibredariane.horoscope.chinois.biorythmeETRES.Models.App;
 import com.fibredariane.horoscope.chinois.biorythmeETRES.Models.Biorythme;
 import com.fibredariane.horoscope.chinois.biorythmeETRES.Models.Horoscope;
 import com.fibredariane.horoscope.chinois.biorythmeETRES.R;
 import com.fibredariane.horoscope.chinois.biorythmeETRES.Utils.ManageRecordDB;
 import com.fibredariane.horoscope.chinois.biorythmeETRES.Utils.Preferences;
-
-import io.fabric.sdk.android.Fabric;
 
 /**
  * Created by Carlotina on 16/12/2018.
@@ -50,7 +47,6 @@ public class TestMain  extends AppCompatActivity implements View.OnClickListener
     protected void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
-        Fabric.with(this, new Crashlytics());
         setContentView(R.layout.test_activity_main);
      }
 
