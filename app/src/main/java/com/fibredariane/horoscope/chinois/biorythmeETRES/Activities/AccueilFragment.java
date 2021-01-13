@@ -19,8 +19,7 @@ import com.fibredariane.horoscope.chinois.biorythmeETRES.R;
 import com.fibredariane.horoscope.chinois.biorythmeETRES.Utils.InfosBinomes;
 import com.fibredariane.horoscope.chinois.biorythmeETRES.Utils.Preferences;
 
-import java.util.Calendar;
-import java.util.Date;
+import java.time.*;
 
 public class AccueilFragment extends Fragment implements View.OnClickListener {
     private Biorythme mCurrentBiorythme;
@@ -95,10 +94,10 @@ public class AccueilFragment extends Fragment implements View.OnClickListener {
                 mLinearLayoutElement.setOnClickListener(this);
                 mLinearLayoutSynthese.setOnClickListener(this);
 
-                Calendar c = Calendar.getInstance();
-                Date d = mPreference.getDatePref();
-                if (d.getMonth() == (c.get(Calendar.MONTH) + 1) &&
-                        d.getDate() == (c.get(Calendar.DAY_OF_MONTH))){
+                LocalDate dateNow = LocalDate.now();
+                LocalDateTime datePref = mPreference.getDatePref();
+                if (datePref.getMonthValue() == dateNow.getMonthValue() &&
+                        datePref.getDayOfMonth() == dateNow.getDayOfMonth()){
                     rootView.findViewById(R.id.layout_birthday).setVisibility(View.VISIBLE);
                 }
 
@@ -136,13 +135,13 @@ public class AccueilFragment extends Fragment implements View.OnClickListener {
     }
 
     private void setmTextViewDay() {
-        Calendar calendar = Calendar.getInstance();
-        mTextViewDay.setText("" + calendar.get(Calendar.DAY_OF_MONTH) +
+        LocalDate localDate = LocalDate.now();
+        mTextViewDay.setText(localDate.getDayOfMonth()+
                 " " + getResources().getString(getResources().getIdentifier(
-                "mois" + calendar.get(Calendar.MONTH),
+                "mois" + localDate.getMonthValue(),
                 "string",
                 mContext.getPackageName())).toUpperCase() +
-                " " + calendar.get(Calendar.YEAR));
+                " " + localDate.getYear());
     }
 
     private void setmImageViewMeteoDay() {

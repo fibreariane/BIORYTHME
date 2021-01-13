@@ -1,12 +1,7 @@
 package com.fibredariane.horoscope.chinois.biorythmeETRES.Models;
 
 import android.content.Context;
-
-import com.fibredariane.horoscope.chinois.biorythmeETRES.R;
-
 import java.io.Serializable;
-import java.util.Calendar;
-
 /**
  * Created by Carlotina on 12/04/2017.
  */
@@ -70,12 +65,12 @@ public class Biorythme implements Serializable {
     }
     public String getDateString(){
         Context context = App.getContext();
-        String dateJour = String.valueOf(mDay) +" "
+        String dateJour = mDay +" "
                 +context.getResources().getString(context.getResources().getIdentifier(
                 "mois" + (mMonth-1),
                 "string",
                 context.getPackageName())).toUpperCase() +" "
-                + String.valueOf(mYear);
+                + mYear;
             return dateJour;
     }
 }

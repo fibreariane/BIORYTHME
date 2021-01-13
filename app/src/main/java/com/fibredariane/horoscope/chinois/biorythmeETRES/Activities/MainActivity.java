@@ -2,7 +2,6 @@ package com.fibredariane.horoscope.chinois.biorythmeETRES.Activities;
 
 import android.content.Context;
 import android.content.Intent;
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import androidx.fragment.app.Fragment;
@@ -23,8 +22,7 @@ import com.fibredariane.horoscope.chinois.biorythmeETRES.Utils.Preferences;
 import com.fibredariane.horoscope.chinois.biorythmeETRES.Utils.ManageRecordDB;
 import com.fibredariane.horoscope.chinois.biorythmeETRES.Utils.ZoomOutPageTransformer;
 
-import java.util.Calendar;
-import java.util.Date;
+import java.time.*;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -72,8 +70,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             mBtnAccueil = (ImageButton) findViewById(R.id.btn_accueil);
 
             // Initialisation des variables globales
-            Date date = new Date();
-            mBiorythmeOfTheDay = getBiorythme(date, CalculBinomes.getStringBinome(date.getYear(), date.getMonth(), date.getDate(), date.getHours(), date.getMinutes()));
+            LocalDateTime date = LocalDateTime.now();
+            mBiorythmeOfTheDay = getBiorythme(date, CalculBinomes.getStringBinome(date.getYear(), date.getMonthValue(), date.getDayOfMonth(), date.getHour(), date.getMinute()));
             mBiorythmeUser = getBiorythme(date_biorythme, mPreferences.getStringBiorythmePref());
             mHoroscopeDay = db.getHoroscope(mBiorythmeOfTheDay.getBinomeJour(), mBiorythmeUser);
             mViewPager.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
@@ -113,13 +111,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     accueilFragment.setViewPager(mViewPager);
                     return accueilFragment;
                 case 1: // Binome du jour
-                    Calendar calendar = Calendar.getInstance();
-                    String dateJour = calendar.get(Calendar.DAY_OF_MONTH) +
+                    LocalDate localDate = LocalDate.now();
+                    String dateJour = localDate.getDayOfMonth() +
                             " " + getResources().getString(getResources().getIdentifier(
-                            "mois" + calendar.get(Calendar.MONTH),
+                            "mois" + localDate.getMonthValue(),
                             "string",
                             mContext.getPackageName())).toUpperCase() +
-                            " " + calendar.get(Calendar.YEAR);
+                            " " + localDate.getYear();
                     return ViewBinomeFragment.newInstance(position, mBiorythmeOfTheDay.getBinomeJour(), "Découvrez sous quelle énergie cette journée est placée", "ENERGIE DU " + dateJour);
                 case 2: // Horoscope Jour
                     return ViewHoroscopeFragment.newInstance(position, mHoroscopeDay, mBiorythmeUser,mBiorythmeOfTheDay.getBinomeJour());
@@ -153,17 +151,17 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     }
 
-    private Biorythme getBiorythme(Date date, String stringBiorythme) {
+    private Biorythme getBiorythme(LocalDateTime date, String stringBiorythme) {
         String[] binomes = stringBiorythme.split("\\.");
         Binome binomeAnnee = db.getBinome(binomes[0], "A");
         Binome binomeMois = db.getBinome(binomes[1], "M");
         Binome binomeJour = db.getBinome(binomes[2], "J");
         Binome binomeHeure = db.getBinome(binomes[3], "H");
         return new Biorythme(date.getYear(),
-                date.getMonth(),
-                date.getDate(),
-                date.getHours(),
-                date.getMinutes(),
+                date.getMonthValue(),
+                date.getDayOfMonth(),
+                date.getHour(),
+                date.getMinute(),
                 binomeAnnee,
                 binomeMois,
                 binomeJour,

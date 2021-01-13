@@ -1,16 +1,8 @@
 package com.fibredariane.horoscope.chinois.biorythmeETRES.Utils;
 
-import android.content.Context;
-import android.util.Log;
-
 import com.fibredariane.horoscope.chinois.biorythmeETRES.Models.Binome;
 import com.fibredariane.horoscope.chinois.biorythmeETRES.Models.Biorythme;
-import com.fibredariane.horoscope.chinois.biorythmeETRES.R;
 
-import java.util.Calendar;
-import java.util.Date;
-import java.util.GregorianCalendar;
-import java.util.TimeZone;
 import java.time.*;
 
 /**
@@ -23,32 +15,35 @@ public class CalculBinomes {
     private static int mMonth;
 
 
-    public static String getStringDate(Date date){
+    public static String getStringDate(LocalDateTime date) {
         String stringDate = "";
-        stringDate = date.getYear() +"."+
-                date.getMonth()+"."+
-                date.getDay()+"."+
-                date.getHours()+"."+
-                date.getMinutes();
+        stringDate = date.getYear() + "." +
+                date.getMonth() + "." +
+                date.getDayOfMonth() + "." +
+                date.getHour() + "." +
+                date.getMinute();
         return stringDate;
     }
-    public static String getStringBinome(int year, int month, int day, int hour, int minute){
+
+    public static String getStringBinome(int year, int month, int day, int hour, int minute) {
         String stringBinome = "";
-        stringBinome = calcBinomeAnnee(year, month, day, hour, minute) +"."+
-                calcBinomeMois(year, month, day, hour, minute)+"."+
-                calcBinomeJour(year, month, day, hour, minute)+"."+
+        stringBinome = calcBinomeAnnee(year, month, day, hour, minute) + "." +
+                calcBinomeMois(year, month, day, hour, minute) + "." +
+                calcBinomeJour(year, month, day, hour, minute) + "." +
                 calcBinomeHeure(year, month, day, hour, minute);
         return stringBinome;
     }
 
-  /**  public static Binome getBinome(Context c, int nbBinome, String type) {
-        String string_binome = c.getResources().getString(
-                c.getResources().getIdentifier(
-                        "binome" + nbBinome,
-                        "string",
-                        c.getPackageName()));
-        return new Binome(c, string_binome, type);
-    }*/
+    /**
+     * public static Binome getBinome(Context c, int nbBinome, String type) {
+     * String string_binome = c.getResources().getString(
+     * c.getResources().getIdentifier(
+     * "binome" + nbBinome,
+     * "string",
+     * c.getPackageName()));
+     * return new Binome(c, string_binome, type);
+     * }
+     */
 
     /*public static Biorythme calcBiorythme(Context c, int year, int month, int day, int hour, int minute) {
 
@@ -91,7 +86,6 @@ public class CalculBinomes {
         }
 
     }*/
-
     public static Binome getBinomeBiorythme(Biorythme biorythme, String typeBinome) {
         Binome binome = biorythme.getBinomeHeure();
         switch (typeBinome) {
@@ -111,7 +105,8 @@ public class CalculBinomes {
 
         return binome;
     }
-    public static int getDateAnneeNaissance( int year, int month, int day, int mHour, int mMinute){
+
+    public static int getDateAnneeNaissance(int year, int month, int day, int mHour, int mMinute) {
         int yearSwitch = year;
         int dayCalc = day;
         mMonth = month;
@@ -119,16 +114,17 @@ public class CalculBinomes {
         if (month == 1 || month == 2)
             dayCalc = getEnergeticDay(year, month, day, mHour, mMinute);
 
-        Date dateNewYear = getAnneesLunaires(year);
+        LocalDate dateNewYear = getAnneesLunaires(year);
 
-        if ((dateNewYear.getMonth() > mMonth) || (dateNewYear.getMonth() == mMonth && dateNewYear.getDate() > dayCalc))
+        if ((dateNewYear.getMonthValue() > mMonth) || (dateNewYear.getMonthValue() == mMonth && dateNewYear.getDayOfMonth() > dayCalc))
             yearSwitch = yearSwitch - 1;
 
         return yearSwitch;
     }
+
     public static String calcBinomeAnnee(int year, int month, int day, int mHour, int mMinute) {
         String mStringBinome = "1";
-        int yearSwitch = getDateAnneeNaissance( year,  month,  day,  mHour,  mMinute);
+        int yearSwitch = getDateAnneeNaissance(year, month, day, mHour, mMinute);
 
         switch (yearSwitch) {
             case 1924:
@@ -379,7 +375,7 @@ public class CalculBinomes {
     public static String calcBinomeMois(int year, int month, int day, int mHour, int mMinute) {
         String mStringBinome = "1";
         int monthSwitch = getMoisSolaire(year, month, day, mHour, mMinute);
-   //    int yearCalc = year;
+        //    int yearCalc = year;
         int yearCalc = getDateAnneeNaissance(year, month, day, mHour, mMinute);
         if (month == 1 && monthSwitch == 12) {
             yearCalc = year - 1;
@@ -463,7 +459,7 @@ public class CalculBinomes {
                 if (lastDigitYear == 4 || lastDigitYear == 9)
                     mStringBinome = "8";
                 if (lastDigitYear == 5 || lastDigitYear == 0)
-                    mStringBinome =  "20";
+                    mStringBinome = "20";
                 if (lastDigitYear == 6 || lastDigitYear == 1)
                     mStringBinome = "32";
                 if (lastDigitYear == 7 || lastDigitYear == 2)
@@ -538,11 +534,11 @@ public class CalculBinomes {
 
     public static String calcBinomeJour(int year, int month, int day, int mHour, int mMinute) {
 
-        int dayBinome = getEnergeticDay(year, month, day, mHour, mMinute) + getIntDay(year / 10, year % 10) + getIntMonthYear(month, year) ;
+        int dayBinome = getEnergeticDay(year, month, day, mHour, mMinute) + getIntDay(year / 10, year % 10) + getIntMonthYear(month, year);
         if (dayBinome != 60) {
-            dayBinome = dayBinome %60;
+            dayBinome = dayBinome % 60;
         }
-       return String.valueOf(dayBinome);
+        return String.valueOf(dayBinome);
 
     }
 
@@ -551,9 +547,9 @@ public class CalculBinomes {
 
         int dayBinome = getEnergeticDay(year, month, day, mHour, mMinute) + getIntDay(year / 10, year % 10) + getIntMonthYear(month, year);
         if (dayBinome != 60) {
-            dayBinome = dayBinome %60;
+            dayBinome = dayBinome % 60;
         }
-        int dayBinomeModulo = dayBinome %10;
+        int dayBinomeModulo = dayBinome % 10;
         mHour = mHour - 1;
         switch (dayBinomeModulo) {
             case 1:
@@ -1163,7 +1159,7 @@ public class CalculBinomes {
 
         }
 
-        return mIdBinome ;
+        return mIdBinome;
     }
 
     public static int calcIdBinomeJour(int year, int month, int day, int mHour, int mMinute) {
@@ -1503,312 +1499,217 @@ public class CalculBinomes {
         return mIdBinome;
     }
 
-    public static Date getAnneesLunaires(int year) {
-        Date date = new Date();
+    public static LocalDate getAnneesLunaires(int year) {
+        int month = 0;
+        int dayOfMonth = 0;
         switch (year) {
-            case 1924:
-                date = new Date(year, 2, 5);
-                break;
-            case 1925:
-                date = new Date(year, 1, 25);
-                break;
-            case 1926:
-                date = new Date(year, 2, 13);
-                break;
-            case 1927:
-                date = new Date(year, 2, 2);
-                break;
-            case 1928:
-                date = new Date(year, 1, 23);
-                break;
-            case 1929:
-                date = new Date(year, 2, 10);
-                break;
-            case 1930:
-                date = new Date(year, 1, 30);
-                break;
-            case 1931:
-                date = new Date(year, 2, 17);
-                break;
-            case 1932:
-                date = new Date(year, 2, 6);
-                break;
-            case 1933:
-                date = new Date(year, 1, 26);
-                break;
-            case 1934:
-                date = new Date(year, 2, 14);
-                break;
-            case 1935:
-                date = new Date(year, 2, 4);
-                break;
-            case 1936:
-                date = new Date(year, 1, 24);
-                break;
-            case 1937:
-                date = new Date(year, 2, 11);
-                break;
-            case 1938:
-                date = new Date(year, 1, 31);
-                break;
-            case 1939:
-                date = new Date(year, 2, 19);
-                break;
-            case 1940:
-                date = new Date(year, 2, 8);
-                break;
-            case 1941:
-                date = new Date(year, 1, 27);
-                break;
-            case 1942:
-                date = new Date(year, 2, 15);
-                break;
-            case 1943:
-                date = new Date(year, 2, 5);
-                break;
-            case 1944:
-                date = new Date(year, 1, 25);
-                break;
-            case 1945:
-                date = new Date(year, 2, 13);
-                break;
-            case 1946:
-                date = new Date(year, 2, 2);
-                break;
-            case 1947:
-                date = new Date(year, 1, 22);
-                break;
-            case 1948:
-                date = new Date(year, 2, 10);
-                break;
-            case 1949:
-                date = new Date(year, 1, 29);
-                break;
-            case 1950:
-                date = new Date(year, 2, 17);
-                break;
-            case 1951:
-                date = new Date(year, 2, 6);
-                break;
-            case 1952:
-                date = new Date(year, 1, 27);
-                break;
-            case 1953:
-                date = new Date(year, 2, 14);
-                break;
-            case 1954:
-                date = new Date(year, 2, 3);
-                break;
-            case 1955:
-                date = new Date(year, 1, 24);
-                break;
-            case 1956:
-                date = new Date(year, 2, 12);
-                break;
-            case 1957:
-                date = new Date(year, 1, 31);
-                break;
-            case 1958:
-                date = new Date(year, 2, 18);
-                break;
-            case 1959:
-                date = new Date(year, 2, 8);
-                break;
-            case 1960:
-                date = new Date(year, 1, 28);
-                break;
-            case 1961:
-                date = new Date(year, 2, 15);
-                break;
-            case 1962:
-                date = new Date(year, 2, 05);
-                break;
-            case 1963:
-                date = new Date(year, 1, 25);
-                break;
-            case 1964:
-                date = new Date(year, 2, 13);
-                break;
-            case 1965:
-                date = new Date(year, 2, 2);
+            case 1972:
+                month = 1;
+                dayOfMonth = 16;
                 break;
             case 1966:
-                date = new Date(year, 1, 21);
+                month = 1;
+                dayOfMonth = 21;
                 break;
-            case 1967:
-                date = new Date(year, 2, 9);
-                break;
-            case 1968:
-                date = new Date(year, 1, 30);
-                break;
-            case 1969:
-                date = new Date(year, 2, 17);
-                break;
-            case 1970:
-                date = new Date(year, 2, 6);
-                break;
-            case 1971:
-                date = new Date(year, 1, 27);
-                break;
-            case 1972:
-                date = new Date(year, 1, 16);
-                break;
-            case 1973:
-                date = new Date(year, 2, 3);
+            case 1947:
+            case 2004:
+                month = 1;
+                dayOfMonth = 22;
                 break;
             case 1974:
-                date = new Date(year, 1, 23);
-                break;
-            case 1975:
-                date = new Date(year, 2, 11);
-                break;
-            case 1976:
-                date = new Date(year, 1, 31);
-                break;
-            case 1977:
-                date = new Date(year, 2, 18);
-                break;
-            case 1978:
-                date = new Date(year, 2, 7);
-                break;
-            case 1979:
-                date = new Date(year, 1, 27);
-                break;
-            case 1980:
-                date = new Date(year, 2, 16);
-                break;
-            case 1981:
-                date = new Date(year, 2, 5);
-                break;
-            case 1982:
-                date = new Date(year, 1, 25);
-                break;
-            case 1983:
-                date = new Date(year, 2, 13);
-                break;
-            case 1984:
-                date = new Date(year, 2, 2);
-                break;
-            case 1985:
-                date = new Date(year, 2, 20);
-                break;
-            case 1986:
-                date = new Date(year, 2, 9);
-                break;
-            case 1987:
-                date = new Date(year, 1, 29);
-                break;
-            case 1988:
-                date = new Date(year, 2, 17);
-                break;
-            case 1989:
-                date = new Date(year, 2, 6);
-                break;
-            case 1990:
-                date = new Date(year, 1, 27);
-                break;
-            case 1991:
-                date = new Date(year, 2, 15);
-                break;
-            case 1992:
-                date = new Date(year, 2, 4);
-                break;
             case 1993:
-                date = new Date(year, 1, 23);
+            case 2012:
+                month = 1;
+                dayOfMonth = 23;
                 break;
-            case 1994:
-                date = new Date(year, 2, 10);
-                break;
-            case 1995:
-                date = new Date(year, 1, 31);
-                break;
-            case 1996:
-                date = new Date(year, 2, 19);
-                break;
-            case 1997:
-                date = new Date(year, 2, 7);
-                break;
-            case 1998:
-                date = new Date(year, 1, 28);
-                break;
-            case 1999:
-                date = new Date(year, 2, 16);
-                break;
-            case 2000:
-                date = new Date(year, 2, 5);
-                break;
+            case 1955:
             case 2001:
-                date = new Date(year, 1, 24);
+            case 1936:
+                month = 1;
+                dayOfMonth = 24;
                 break;
-            case 2002:
-                date = new Date(year, 2, 12);
-                break;
-            case 2003:
-                date = new Date(year, 2, 1);
-                break;
-            case 2004:
-                date = new Date(year, 1, 22);
-                break;
-            case 2005:
-                date = new Date(year, 2, 9);
-                break;
-            case 2006:
-                date = new Date(year, 1, 29);
-                break;
-            case 2007:
-                date = new Date(year, 2, 18);
-                break;
-            case 2008:
-                date = new Date(year, 2, 7);
+            case 1925:
+            case 1944:
+            case 1963:
+            case 1982:
+            case 2020:
+                month = 1;
+                dayOfMonth = 25;
                 break;
             case 2009:
-                date = new Date(year, 1, 26);
+            case 1933:
+                month = 1;
+                dayOfMonth = 26;
                 break;
-            case 2010:
-                date = new Date(year, 2, 14);
+            case 1941:
+            case 1952:
+            case 1971:
+            case 1990:
+            case 1979:
+                month = 1;
+                dayOfMonth = 27;
                 break;
-            case 2011:
-                date = new Date(year, 2, 3);
-                break;
-            case 2012:
-                date = new Date(year, 1, 23);
-                break;
-            case 2013:
-                date = new Date(year, 2, 10);
-                break;
-            case 2014:
-                date = new Date(year, 1, 31);
-                break;
-            case 2015:
-                date = new Date(year, 2, 19);
-                break;
-            case 2016:
-                date = new Date(year, 2, 8);
-                break;
+            case 1960:
+            case 1998:
             case 2017:
-                date = new Date(year, 1, 28);
+                month = 1;
+                dayOfMonth = 28;
                 break;
-            case 2018:
-                date = new Date(year, 2, 16);
+            case 1949:
+            case 1987:
+            case 2006:
+                month = 1;
+                dayOfMonth = 29;
                 break;
+            case 1930:
+            case 1968:
+                month = 1;
+                dayOfMonth = 30;
+                break;
+            case 1938:
+            case 1957:
+            case 1976:
+            case 1995:
+            case 2014:
+                month = 1;
+                dayOfMonth = 31;
+                break;
+            case 2003:
+                month = 2;
+                dayOfMonth = 1;
+                break;
+            case 1927:
+            case 1946:
+            case 1965:
+            case 1984:
+                month = 2;
+                dayOfMonth = 2;
+                break;
+            case 1954:
+            case 1973:
+            case 2011:
+                month = 2;
+                dayOfMonth = 3;
+                break;
+            case 1935:
+            case 1992:
+                month = 2;
+                dayOfMonth = 4;
+                break;
+            case 1924:
+            case 1943:
+            case 1962:
+            case 1981:
+            case 2000:
             case 2019:
-                date = new Date(year, 2, 5);
+                month = 2;
+                dayOfMonth = 5;
                 break;
-            case 2020:
-                date = new Date(year, 1, 25);
+            case 1932:
+            case 1951:
+            case 1970:
+            case 1989:
+                month = 2;
+                dayOfMonth = 6;
                 break;
+            case 1978:
+            case 1997:
+            case 2008:
+                month = 2;
+                dayOfMonth = 7;
+                break;
+            case 1940:
+            case 1959:
+            case 2016:
+                month = 2;
+                dayOfMonth = 8;
+                break;
+            case 1967:
+            case 1986:
+            case 2005:
+                month = 2;
+                dayOfMonth = 9;
+                break;
+            case 1929:
+            case 1948:
+            case 1994:
+            case 2013:
+                month = 2;
+                dayOfMonth = 10;
+                break;
+            case 1937:
+            case 1975:
+                month = 2;
+                dayOfMonth = 11;
+                break;
+            case 1956:
+            case 2002:
+                month = 2;
+                dayOfMonth = 12;
+                break;
+            case 1926:
+            case 1945:
+            case 1964:
+            case 1983:
+                month = 2;
+                dayOfMonth = 13;
+                break;
+            case 1934:
+            case 1953:
+            case 2010:
+                month = 2;
+                dayOfMonth = 14;
+                break;
+            case 1942:
+            case 1961:
+            case 1991:
+                month = 2;
+                dayOfMonth = 15;
+                break;
+            case 1980:
+            case 1999:
+            case 2018:
+                month = 2;
+                dayOfMonth = 16;
+                break;
+            case 1931:
+            case 1950:
+            case 1969:
+            case 1988:
+                month = 2;
+                dayOfMonth = 17;
+                break;
+            case 1958:
+            case 1977:
+            case 2007:
+                month = 2;
+                dayOfMonth = 18;
+                break;
+            case 1939:
+            case 1996:
+            case 2015:
+                month = 2;
+                dayOfMonth = 19;
+                break;
+            case 1985:
+            case 2021: //ABA To change
+                month = 2;
+                dayOfMonth = 20;
+                break;
+            default:
+                throw new IllegalStateException("Unexpected value: " + year);
         }
 
-        return date;
+        return LocalDate.of(year, month, dayOfMonth);
     }
 
     private static void getFuseauHoraire() {
-        Date curDate = new Date();
-        Calendar c = Calendar.getInstance(TimeZone.getTimeZone("GMT+0800"));
-        mNbHour = c.get(Calendar.HOUR_OF_DAY) - curDate.getHours();
+        LocalDateTime dateNow = LocalDateTime.now();
+        LocalDateTime dateRef = LocalDateTime.now(ZoneId.of("+08:00"));
+        mNbHour = dateNow.getHour() - dateRef.getHour();
         if (mNbHour < 0)
             mNbHour = 24 + mNbHour;
-        mNbMinute = c.get(Calendar.MINUTE) - curDate.getMinutes();
+        mNbMinute = dateNow.getMinute() - dateRef.getMinute();
     }
 
     private static int getEnergeticDay(int year, int month, int day, int mHour, int mMinute) {
@@ -2215,10 +2116,7 @@ public class CalculBinomes {
 
     private static int getIntMonthYear(int month, int year) {
         int intCalc = 0;
-
-        GregorianCalendar gcal = new GregorianCalendar(); //import java.util.GregorianCalendar;
-        boolean b = gcal.isLeapYear(year);  // annee bissextile = true
-        if (b) {
+        if (LocalDate.of(year, month, 1).isLeapYear()) { // annee bissextile = true
             switch (month) {
                 case 1:
                     intCalc = 0;
@@ -2313,9 +2211,7 @@ public class CalculBinomes {
             dayReturn = 1;
         }
         if (month == 2 && day == 28) {
-            GregorianCalendar gcal = new GregorianCalendar(); //import java.util.GregorianCalendar;
-            boolean b = gcal.isLeapYear(year);  // annee bissextile = true
-            if (!b) {
+            if (!LocalDate.of(year, month, day).isLeapYear()) { // annee bissextile = true
                 dayReturn = 1;
             }
         }
@@ -2344,9 +2240,7 @@ public class CalculBinomes {
                 mMonth = month - 1;
             }
             if (month == 3) {
-                GregorianCalendar gcal = new GregorianCalendar(); //import java.util.GregorianCalendar;
-                boolean b = gcal.isLeapYear(year);  // annee bissextile = true
-                if (b) {
+                if (LocalDate.of(year, month, day).isLeapYear()) { // annee bissextile = true) {
                     dayReturn = 29;
                     mMonth = month - 1;
                 } else {

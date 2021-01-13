@@ -21,8 +21,8 @@ import com.fibredariane.horoscope.chinois.biorythmeETRES.Utils.CalculBinomes;
 import com.fibredariane.horoscope.chinois.biorythmeETRES.Utils.ManageRecordDB;
 
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
+import java.time.*;
 
 
 public class TestHoroscopeActivity extends AppCompatActivity  implements TimePickerDialog.OnTimeSetListener,View.OnClickListener  {
@@ -95,8 +95,8 @@ public class TestHoroscopeActivity extends AppCompatActivity  implements TimePic
         spinnerBinome.setAdapter(dataAdapter);
         Binome binome = db.getBinome("59","");
 
-        mMinute = new Date().getMinutes();
-        mHour = new Date().getHours();
+        mMinute = LocalDateTime.now().getMinute();
+        mHour = LocalDateTime.now().getHour();
         // set current time into textview
         mTextViewHour.setText(
                 new StringBuilder().append(pad(mHour))

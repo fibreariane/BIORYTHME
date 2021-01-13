@@ -7,7 +7,7 @@ import com.fibredariane.horoscope.chinois.biorythmeETRES.Models.App;
 import com.fibredariane.horoscope.chinois.biorythmeETRES.Models.Biorythme;
 import com.fibredariane.horoscope.chinois.biorythmeETRES.R;
 
-import java.util.Date;
+import java.time.*;
 
 /**
  * Created by Carlotina on 25/05/2017.
@@ -81,25 +81,24 @@ public class Preferences {
             return false;
     }
 
-    public Date getDatePref() {
+    public LocalDateTime getDatePref() {
         String date_biorythme = getStringDatePref();
         String[] date_annif = date_biorythme.split("\\.");
-        return new Date(Integer.parseInt(date_annif[0]),
+        return LocalDateTime.of(Integer.parseInt(date_annif[0]),
                 Integer.parseInt(date_annif[1]),
                 Integer.parseInt(date_annif[2]),
                 Integer.parseInt(date_annif[3]),
                 Integer.parseInt(date_annif[4]));
     }
 
-    public Date getDateCurrentPref() {
+    public LocalDateTime getDateCurrentPref() {
         String date_biorythme = getStringDateCurrentPref();
         String[] date = date_biorythme.split("\\.");
-        Date d = new Date(Integer.parseInt(date[0]),
+        return LocalDateTime.of(Integer.parseInt(date[0]),
                 Integer.parseInt(date[1]),
                 Integer.parseInt(date[2]),
                 Integer.parseInt(date[3]),
                 Integer.parseInt(date[4]));
-        return d;
     }
 
     public String getStringDateCurrentPrefMin() {

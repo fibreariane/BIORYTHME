@@ -19,7 +19,7 @@ import com.fibredariane.horoscope.chinois.biorythmeETRES.R;
 import com.fibredariane.horoscope.chinois.biorythmeETRES.Utils.InfosBinomes;
 import com.fibredariane.horoscope.chinois.biorythmeETRES.Utils.Preferences;
 
-import java.util.Calendar;
+import java.time.*;
 
 
 public class ViewHoroscopeFragment extends Fragment implements View.OnClickListener {
@@ -121,13 +121,13 @@ public class ViewHoroscopeFragment extends Fragment implements View.OnClickListe
     }
 
     private void setHoroscope() {
-        Calendar calendar = Calendar.getInstance();
-        String dateJour = calendar.get(Calendar.DAY_OF_MONTH) +
+        LocalDate localDate = LocalDate.now();
+        String dateJour = localDate.getDayOfMonth() +
                 " " + getResources().getString(getResources().getIdentifier(
-                "mois" + calendar.get(Calendar.MONTH),
+                "mois" + localDate.getMonthValue(),
                 "string",
                 mContext.getPackageName())).toUpperCase() +
-                " " + calendar.get(Calendar.YEAR);
+                " " + localDate.getYear();
 
         if (mHoroscope.getIdImageInfluenceAnnee() == 0) {
             Log.v("TAG", "ViewHoroscopeFragment - JSON - erreur horoscope ");

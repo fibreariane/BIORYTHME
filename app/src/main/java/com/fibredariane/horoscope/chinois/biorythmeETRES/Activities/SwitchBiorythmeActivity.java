@@ -19,8 +19,7 @@ import com.fibredariane.horoscope.chinois.biorythmeETRES.R;
 import com.fibredariane.horoscope.chinois.biorythmeETRES.Utils.CalculBinomes;
 import com.fibredariane.horoscope.chinois.biorythmeETRES.Utils.Preferences;
 
-import java.util.Date;
-import java.util.GregorianCalendar;
+import java.time.*;
 
 public class SwitchBiorythmeActivity extends AppCompatActivity implements TimePickerDialog.OnTimeSetListener, View.OnClickListener {
 
@@ -33,7 +32,7 @@ public class SwitchBiorythmeActivity extends AppCompatActivity implements TimePi
     private Button mButtonValider;
     private Preferences mPreferences;
     private boolean mAsDateSaved;
-    private Date mDatePref;
+    private LocalDateTime mDatePref;
 
     private int mHour;
     private int mMinute;
@@ -102,11 +101,11 @@ public class SwitchBiorythmeActivity extends AppCompatActivity implements TimePi
         });
 
         if (mAsDateSaved) {
-            mMinute = mDatePref.getMinutes();
-            mHour = mDatePref.getHours();
+            mMinute = mDatePref.getMinute();
+            mHour = mDatePref.getHour();
         } else {
-            mMinute = new Date().getMinutes();
-            mHour = new Date().getHours();
+            mMinute = LocalDateTime.now().getMinute();
+            mHour = LocalDateTime.now().getHour();
         }
 
         // set current time into textview
@@ -174,9 +173,7 @@ public class SwitchBiorythmeActivity extends AppCompatActivity implements TimePi
                 mEditTextDateJour.setTextColor(Color.RED);
             }
             if (month == 2) {
-                GregorianCalendar gcal = new GregorianCalendar(); //import java.util.GregorianCalendar;
-                boolean b = gcal.isLeapYear(year);  // annee bissextile = true
-                if (b) {
+                if (LocalDate.of(year,month,day).isLeapYear()) {
                     if (day > 29) {
                         ok = false;
                         mEditTextDateJour.setTextColor(Color.RED);

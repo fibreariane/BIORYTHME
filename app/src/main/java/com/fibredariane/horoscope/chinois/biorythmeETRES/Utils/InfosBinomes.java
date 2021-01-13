@@ -1,14 +1,9 @@
 package com.fibredariane.horoscope.chinois.biorythmeETRES.Utils;
 
 import android.content.Context;
-import android.content.SharedPreferences;
-
 import com.fibredariane.horoscope.chinois.biorythmeETRES.Models.Binome;
 import com.fibredariane.horoscope.chinois.biorythmeETRES.Models.Biorythme;
-import com.fibredariane.horoscope.chinois.biorythmeETRES.R;
-
-import java.util.Calendar;
-import java.util.Date;
+import java.time.LocalDate;
 
 /**
  * Created by Carlotina on 25/05/2017.
@@ -22,10 +17,10 @@ public class InfosBinomes {
 
     public static String getStringAnneeTotale(Context context, Biorythme biorythme) {
         int year = CalculBinomes.getDateAnneeNaissance(biorythme.getYear(), biorythme.getMonth(), biorythme.getDay(), biorythme.getHour(), biorythme.getMinute());
-        Date dateDeb = CalculBinomes.getAnneesLunaires(year);
-        Date dateFin = CalculBinomes.getAnneesLunaires(year + 1);
-        int mDeb = dateDeb.getMonth() - 1;
-        int mFin = dateFin.getMonth() - 1;
+        LocalDate dateDeb = CalculBinomes.getAnneesLunaires(year);
+        LocalDate dateFin = CalculBinomes.getAnneesLunaires(year + 1);
+        int mDeb = dateDeb.getMonthValue();
+        int mFin = dateFin.getMonthValue();
         String monthDeb = context.getResources().getString(context.getResources().getIdentifier(
                 "mois" + mDeb,
                 "string",
@@ -34,8 +29,8 @@ public class InfosBinomes {
                 "mois" + mFin,
                 "string",
                 context.getPackageName())).toUpperCase();
-        return "Du " + dateDeb.getDate() + " " + monthDeb + " " + dateDeb.getYear()
-                + " au " + dateFin.getDate() + " " + monthFin + " " + dateFin.getYear();
+        return "Du " + dateDeb.getDayOfMonth() + " " + monthDeb + " " + dateDeb.getYear()
+                + " au " + dateFin.getDayOfMonth() + " " + monthFin + " " + dateFin.getYear();
     }
 
     public static int getNbElement(Biorythme biorythme, String element) {
