@@ -67,7 +67,7 @@ public class Biorythme implements Serializable {
         Context context = App.getContext();
         String dateJour = mDay +" "
                 +context.getResources().getString(context.getResources().getIdentifier(
-                "mois" + (mMonth-1),
+                "mois" + mMonth,
                 "string",
                 context.getPackageName())).toUpperCase() +" "
                 + mYear;

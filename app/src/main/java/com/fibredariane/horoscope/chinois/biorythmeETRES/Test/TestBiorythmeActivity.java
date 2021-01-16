@@ -100,10 +100,10 @@ public class TestBiorythmeActivity extends AppCompatActivity  implements TimePic
                 day,
                 mHour,
                 mMinute,
-                db.getBinome(""+CalculBinomes.calcIdBinomeAnnee(year, month, day,mHour, mMinute),""),
-                db.getBinome(""+CalculBinomes.calcIdBinomeMois(year, month, day,mHour, mMinute),""),
-                db.getBinome(""+CalculBinomes.calcIdBinomeJour(year, month, day,mHour, mMinute),""),
-                db.getBinome(""+CalculBinomes.calcIdBinomeHeure(year, month, day,mHour, mMinute),""));
+                db.getBinome(CalculBinomes.calcBinomeAnnee(year, month, day,mHour, mMinute),""),
+                db.getBinome(CalculBinomes.calcBinomeMois(year, month, day,mHour, mMinute),""),
+                db.getBinome(CalculBinomes.calcBinomeJour(year, month, day,mHour, mMinute),""),
+                db.getBinome(CalculBinomes.calcBinomeHeure(year, month, day,mHour, mMinute),""));
 
         mTextViewBinomeAnnee.setText(biorythme.getBinomeAnnee().getNom());
         mTextViewBinomeMois.setText(biorythme.getBinomeMois().getNom());
@@ -151,10 +151,10 @@ public class TestBiorythmeActivity extends AppCompatActivity  implements TimePic
                         day,
                         mHour,
                         mMinute,
-                        db.getBinome(""+CalculBinomes.calcIdBinomeAnnee(year, month, day,mHour, mMinute),""),
-                        db.getBinome(""+CalculBinomes.calcIdBinomeMois(year, month, day,mHour, mMinute),""),
-                        db.getBinome(""+CalculBinomes.calcIdBinomeJour(year, month, day,mHour, mMinute),""),
-                        db.getBinome(""+CalculBinomes.calcIdBinomeHeure(year, month, day,mHour, mMinute),""));
+                        db.getBinome(CalculBinomes.calcBinomeAnnee(year, month, day,mHour, mMinute),""),
+                        db.getBinome(CalculBinomes.calcBinomeMois(year, month, day,mHour, mMinute),""),
+                        db.getBinome(CalculBinomes.calcBinomeJour(year, month, day,mHour, mMinute),""),
+                        db.getBinome(CalculBinomes.calcBinomeHeure(year, month, day,mHour, mMinute),""));
 
                 mTextViewBinomeAnnee.setText(biorythme.getBinomeAnnee().getNom());
                 mTextViewBinomeMois.setText(biorythme.getBinomeMois().getNom());

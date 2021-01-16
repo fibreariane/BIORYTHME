@@ -15,15 +15,6 @@ public class CalculBinomes {
     private static int mMonth;
 
 
-    public static String getStringDate(LocalDateTime date) {
-        String stringDate = "";
-        stringDate = date.getYear() + "." +
-                date.getMonth() + "." +
-                date.getDayOfMonth() + "." +
-                date.getHour() + "." +
-                date.getMinute();
-        return stringDate;
-    }
 
     public static String getStringBinome(int year, int month, int day, int hour, int minute) {
         String stringBinome = "";
@@ -34,77 +25,6 @@ public class CalculBinomes {
         return stringBinome;
     }
 
-    /**
-     * public static Binome getBinome(Context c, int nbBinome, String type) {
-     * String string_binome = c.getResources().getString(
-     * c.getResources().getIdentifier(
-     * "binome" + nbBinome,
-     * "string",
-     * c.getPackageName()));
-     * return new Binome(c, string_binome, type);
-     * }
-     */
-
-    /*public static Biorythme calcBiorythme(Context c, int year, int month, int day, int hour, int minute) {
-
-        return new Biorythme(year, month, day, hour, minute,
-                calcBinomeAnnee(c, year, month, day, hour, minute),
-                calcBinomeMois(c, year, month, day, hour, minute),
-                calcBinomeJour(c, year, month, day, hour, minute),
-                calcBinomeHeure(c, year, month, day, hour, minute));
-    }
-
-    public static Biorythme getCurrentBiorythme(Context context,Preferences preferences) {
-        Calendar c = Calendar.getInstance();
-        String string_date = preferences.getStringDateCurrentPref();
-        if (string_date == "") {
-            Biorythme biorythme = CalculBinomes.calcBiorythme(context,
-                    c.get(Calendar.YEAR),
-                    c.get(Calendar.MONTH) + 1,
-                    c.get(Calendar.DAY_OF_MONTH),
-                    12,
-                    0);
-            preferences.setBiorythmeCurrentPref( biorythme);
-            return biorythme;
-        } else {
-            Date date = preferences.getDateCurrentPref();
-
-            if (date.getYear() == (c.get(Calendar.YEAR)) &&
-                    date.getMonth() == (c.get(Calendar.MONTH) + 1) &&
-                    date.getDate() == (c.get(Calendar.DAY_OF_MONTH))) {
-                return preferences.getBiorythmeCurrentPref();
-            } else {
-                Biorythme biorythme = CalculBinomes.calcBiorythme(context,
-                        c.get(Calendar.YEAR),
-                        c.get(Calendar.MONTH) + 1,
-                        c.get(Calendar.DAY_OF_MONTH),
-                        12,
-                        0);
-                preferences.setBiorythmeCurrentPref( biorythme);
-                return biorythme;
-            }
-        }
-
-    }*/
-    public static Binome getBinomeBiorythme(Biorythme biorythme, String typeBinome) {
-        Binome binome = biorythme.getBinomeHeure();
-        switch (typeBinome) {
-            case "A":
-                binome = biorythme.getBinomeAnnee();
-                break;
-            case "M":
-                binome = biorythme.getBinomeMois();
-                break;
-            case "J":
-                binome = biorythme.getBinomeJour();
-                break;
-            case "H":
-                binome = biorythme.getBinomeHeure();
-                break;
-        }
-
-        return binome;
-    }
 
     public static int getDateAnneeNaissance(int year, int month, int day, int mHour, int mMinute) {
         int yearSwitch = year;
@@ -1002,502 +922,6 @@ public class CalculBinomes {
         return mIdBinome;
     }
 
-    public static int calcIdBinomeMois(int year, int month, int day, int mHour, int mMinute) {
-        Integer mIdBinome = 1;
-        int monthSwitch = getMoisSolaire(year, month, day, mHour, mMinute);
-        int yearCalc = year;
-        if (month == 1 && monthSwitch == 12) {
-            yearCalc = year - 1;
-        }
-        int lastDigitYear = yearCalc % 10;
-
-        switch (monthSwitch) {
-            case 1:
-                if (lastDigitYear == 4 || lastDigitYear == 9)
-                    mIdBinome = 14;
-                if (lastDigitYear == 5 || lastDigitYear == 0)
-                    mIdBinome = 26;
-                if (lastDigitYear == 6 || lastDigitYear == 1)
-                    mIdBinome = 38;
-                if (lastDigitYear == 7 || lastDigitYear == 2)
-                    mIdBinome = 50;
-                if (lastDigitYear == 8 || lastDigitYear == 3)
-                    mIdBinome = 2;
-                break;
-            case 2:
-                if (lastDigitYear == 4 || lastDigitYear == 9)
-                    mIdBinome = 3;
-                if (lastDigitYear == 5 || lastDigitYear == 0)
-                    mIdBinome = 15;
-                if (lastDigitYear == 6 || lastDigitYear == 1)
-                    mIdBinome = 27;
-                if (lastDigitYear == 7 || lastDigitYear == 2)
-                    mIdBinome = 39;
-                if (lastDigitYear == 8 || lastDigitYear == 3)
-                    mIdBinome = 51;
-                break;
-            case 3:
-                if (lastDigitYear == 4 || lastDigitYear == 9)
-                    mIdBinome = 4;
-                if (lastDigitYear == 5 || lastDigitYear == 0)
-                    mIdBinome = 16;
-                if (lastDigitYear == 6 || lastDigitYear == 1)
-                    mIdBinome = 28;
-                if (lastDigitYear == 7 || lastDigitYear == 2)
-                    mIdBinome = 40;
-                if (lastDigitYear == 8 || lastDigitYear == 3)
-                    mIdBinome = 52;
-                break;
-            case 4:
-                if (lastDigitYear == 4 || lastDigitYear == 9)
-                    mIdBinome = 5;
-                if (lastDigitYear == 5 || lastDigitYear == 0)
-                    mIdBinome = 17;
-                if (lastDigitYear == 6 || lastDigitYear == 1)
-                    mIdBinome = 29;
-                if (lastDigitYear == 7 || lastDigitYear == 2)
-                    mIdBinome = 41;
-                if (lastDigitYear == 8 || lastDigitYear == 3)
-                    mIdBinome = 53;
-                break;
-            case 5:
-                if (lastDigitYear == 4 || lastDigitYear == 9)
-                    mIdBinome = 6;
-                if (lastDigitYear == 5 || lastDigitYear == 0)
-                    mIdBinome = 18;
-                if (lastDigitYear == 6 || lastDigitYear == 1)
-                    mIdBinome = 30;
-                if (lastDigitYear == 7 || lastDigitYear == 2)
-                    mIdBinome = 42;
-                if (lastDigitYear == 8 || lastDigitYear == 3)
-                    mIdBinome = 54;
-                break;
-            case 6:
-                if (lastDigitYear == 4 || lastDigitYear == 9)
-                    mIdBinome = 7;
-                if (lastDigitYear == 5 || lastDigitYear == 0)
-                    mIdBinome = 19;
-                if (lastDigitYear == 6 || lastDigitYear == 1)
-                    mIdBinome = 31;
-                if (lastDigitYear == 7 || lastDigitYear == 2)
-                    mIdBinome = 43;
-                if (lastDigitYear == 8 || lastDigitYear == 3)
-                    mIdBinome = 55;
-                break;
-            case 7:
-                if (lastDigitYear == 4 || lastDigitYear == 9)
-                    mIdBinome = 8;
-                if (lastDigitYear == 5 || lastDigitYear == 0)
-                    mIdBinome = 20;
-                if (lastDigitYear == 6 || lastDigitYear == 1)
-                    mIdBinome = 32;
-                if (lastDigitYear == 7 || lastDigitYear == 2)
-                    mIdBinome = 44;
-                if (lastDigitYear == 8 || lastDigitYear == 3)
-                    mIdBinome = 56;
-                break;
-            case 8:
-                if (lastDigitYear == 4 || lastDigitYear == 9)
-                    mIdBinome = 9;
-                if (lastDigitYear == 5 || lastDigitYear == 0)
-                    mIdBinome = 21;
-                if (lastDigitYear == 6 || lastDigitYear == 1)
-                    mIdBinome = 33;
-                if (lastDigitYear == 7 || lastDigitYear == 2)
-                    mIdBinome = 45;
-                if (lastDigitYear == 8 || lastDigitYear == 3)
-                    mIdBinome = 57;
-                break;
-            case 9:
-                if (lastDigitYear == 4 || lastDigitYear == 9)
-                    mIdBinome = 10;
-                if (lastDigitYear == 5 || lastDigitYear == 0)
-                    mIdBinome = 22;
-                if (lastDigitYear == 6 || lastDigitYear == 1)
-                    mIdBinome = 34;
-                if (lastDigitYear == 7 || lastDigitYear == 2)
-                    mIdBinome = 46;
-                if (lastDigitYear == 8 || lastDigitYear == 3)
-                    mIdBinome = 58;
-                break;
-            case 10:
-                if (lastDigitYear == 4 || lastDigitYear == 9)
-                    mIdBinome = 11;
-                if (lastDigitYear == 5 || lastDigitYear == 0)
-                    mIdBinome = 23;
-                if (lastDigitYear == 6 || lastDigitYear == 1)
-                    mIdBinome = 35;
-                if (lastDigitYear == 7 || lastDigitYear == 2)
-                    mIdBinome = 47;
-                if (lastDigitYear == 8 || lastDigitYear == 3)
-                    mIdBinome = 59;
-                break;
-            case 11:
-                if (lastDigitYear == 4 || lastDigitYear == 9)
-                    mIdBinome = 12;
-                if (lastDigitYear == 5 || lastDigitYear == 0)
-                    mIdBinome = 24;
-                if (lastDigitYear == 6 || lastDigitYear == 1)
-                    mIdBinome = 36;
-                if (lastDigitYear == 7 || lastDigitYear == 2)
-                    mIdBinome = 48;
-                if (lastDigitYear == 8 || lastDigitYear == 3)
-                    mIdBinome = 60;
-                break;
-            case 12:
-                if (lastDigitYear == 4 || lastDigitYear == 9)
-                    mIdBinome = 13;
-                if (lastDigitYear == 5 || lastDigitYear == 0)
-                    mIdBinome = 25;
-                if (lastDigitYear == 6 || lastDigitYear == 1)
-                    mIdBinome = 37;
-                if (lastDigitYear == 7 || lastDigitYear == 2)
-                    mIdBinome = 49;
-                if (lastDigitYear == 8 || lastDigitYear == 3)
-                    mIdBinome = 1;
-                break;
-
-        }
-
-        return mIdBinome;
-    }
-
-    public static int calcIdBinomeJour(int year, int month, int day, int mHour, int mMinute) {
-        Integer mIdBinome = 1;
-        int dayBinome = (getEnergeticDay(year, month, day, mHour, mMinute) + getIntDay(year / 10, year % 10) + getIntMonthYear(month, year)) % 60;
-
-        switch (dayBinome) {
-            case 1:
-                mIdBinome = 1;
-                break;
-            case 2:
-                mIdBinome = 2;
-                break;
-            case 3:
-                mIdBinome = 3;
-                break;
-            case 4:
-                mIdBinome = 4;
-                break;
-            case 5:
-                mIdBinome = 5;
-                break;
-            case 6:
-                mIdBinome = 6;
-                break;
-            case 7:
-                mIdBinome = 7;
-                break;
-            case 8:
-                mIdBinome = 8;
-                break;
-            case 9:
-                mIdBinome = 9;
-                break;
-            case 10:
-                mIdBinome = 10;
-                break;
-            case 11:
-                mIdBinome = 11;
-                break;
-            case 12:
-                mIdBinome = 12;
-                break;
-            case 13:
-                mIdBinome = 13;
-                break;
-            case 14:
-                mIdBinome = 14;
-                break;
-            case 15:
-                mIdBinome = 15;
-                break;
-            case 16:
-                mIdBinome = 16;
-                break;
-            case 17:
-                mIdBinome = 17;
-                break;
-            case 18:
-                mIdBinome = 18;
-                break;
-            case 19:
-                mIdBinome = 19;
-                break;
-            case 20:
-                mIdBinome = 20;
-                break;
-            case 21:
-                mIdBinome = 21;
-                break;
-            case 22:
-                mIdBinome = 22;
-                break;
-            case 23:
-                mIdBinome = 23;
-                break;
-            case 24:
-                mIdBinome = 24;
-                break;
-            case 25:
-                mIdBinome = 25;
-                break;
-            case 26:
-                mIdBinome = 26;
-                break;
-            case 27:
-                mIdBinome = 27;
-                break;
-            case 28:
-                mIdBinome = 28;
-                break;
-            case 29:
-                mIdBinome = 29;
-                break;
-            case 30:
-                mIdBinome = 30;
-                break;
-            case 31:
-                mIdBinome = 31;
-                break;
-            case 32:
-                mIdBinome = 32;
-                break;
-            case 33:
-                mIdBinome = 33;
-                break;
-            case 34:
-                mIdBinome = 34;
-                break;
-            case 35:
-                mIdBinome = 35;
-                break;
-            case 36:
-                mIdBinome = 36;
-                break;
-            case 37:
-                mIdBinome = 37;
-                break;
-            case 38:
-                mIdBinome = 38;
-                break;
-            case 39:
-                mIdBinome = 39;
-                break;
-            case 40:
-                mIdBinome = 40;
-                break;
-            case 41:
-                mIdBinome = 41;
-                break;
-            case 42:
-                mIdBinome = 42;
-                break;
-            case 43:
-                mIdBinome = 43;
-                break;
-            case 44:
-                mIdBinome = 44;
-                break;
-            case 45:
-                mIdBinome = 45;
-                break;
-            case 46:
-                mIdBinome = 46;
-                break;
-            case 47:
-                mIdBinome = 47;
-                break;
-            case 48:
-                mIdBinome = 48;
-                break;
-            case 49:
-                mIdBinome = 49;
-                break;
-            case 50:
-                mIdBinome = 50;
-                break;
-            case 51:
-                mIdBinome = 51;
-                break;
-            case 52:
-                mIdBinome = 52;
-                break;
-            case 53:
-                mIdBinome = 53;
-                break;
-            case 54:
-                mIdBinome = 54;
-                break;
-            case 55:
-                mIdBinome = 55;
-                break;
-            case 56:
-                mIdBinome = 56;
-                break;
-            case 57:
-                mIdBinome = 57;
-                break;
-            case 58:
-                mIdBinome = 58;
-                break;
-            case 59:
-                mIdBinome = 59;
-                break;
-            case 60:
-                mIdBinome = 60;
-                break;
-        }
-
-        return mIdBinome;
-    }
-
-    public static int calcIdBinomeHeure(int year, int month, int day, int mHour, int mMinute) {
-        Integer mIdBinome = 1;
-        int dayBinome = ((getEnergeticDay(year, month, day, mHour, mMinute) + getIntDay(year / 10, year % 10) + getIntMonthYear(month, year)) % 60) % 10;
-
-        mHour = mHour - 1;
-        switch (dayBinome) {
-            case 1:
-            case 6:
-                if (mHour >= 23 || mHour == 0)
-                    mIdBinome = 1;
-                if (mHour >= 1 && mHour < 3)
-                    mIdBinome = 2;
-                if (mHour >= 3 && mHour < 5)
-                    mIdBinome = 3;
-                if (mHour >= 5 && mHour < 7)
-                    mIdBinome = 4;
-                if (mHour >= 7 && mHour < 9)
-                    mIdBinome = 5;
-                if (mHour >= 9 && mHour < 11)
-                    mIdBinome = 6;
-                if (mHour >= 11 && mHour < 13)
-                    mIdBinome = 7;
-                if (mHour >= 13 && mHour < 15)
-                    mIdBinome = 8;
-                if (mHour >= 15 && mHour < 17)
-                    mIdBinome = 9;
-                if (mHour >= 17 && mHour < 19)
-                    mIdBinome = 10;
-                if (mHour >= 19 && mHour < 21)
-                    mIdBinome = 11;
-                if (mHour >= 21 && mHour < 23)
-                    mIdBinome = 12;
-                break;
-            case 2:
-            case 7:
-                if (mHour >= 23 || mHour == 0)
-                    mIdBinome = 13;
-                if (mHour >= 1 && mHour < 3)
-                    mIdBinome = 14;
-                if (mHour >= 3 && mHour < 5)
-                    mIdBinome = 15;
-                if (mHour >= 5 && mHour < 7)
-                    mIdBinome = 16;
-                if (mHour >= 7 && mHour < 9)
-                    mIdBinome = 17;
-                if (mHour >= 9 && mHour < 11)
-                    mIdBinome = 18;
-                if (mHour >= 11 && mHour < 13)
-                    mIdBinome = 19;
-                if (mHour >= 13 && mHour < 15)
-                    mIdBinome = 20;
-                if (mHour >= 15 && mHour < 17)
-                    mIdBinome = 21;
-                if (mHour >= 17 && mHour < 19)
-                    mIdBinome = 22;
-                if (mHour >= 19 && mHour < 21)
-                    mIdBinome = 23;
-                if (mHour >= 21 && mHour < 23)
-                    mIdBinome = 24;
-                break;
-            case 3:
-            case 8:
-                if (mHour >= 23 || mHour == 0)
-                    mIdBinome = 25;
-                if (mHour >= 1 && mHour < 3)
-                    mIdBinome = 26;
-                if (mHour >= 3 && mHour < 5)
-                    mIdBinome = 27;
-                if (mHour >= 5 && mHour < 7)
-                    mIdBinome = 28;
-                if (mHour >= 7 && mHour < 9)
-                    mIdBinome = 29;
-                if (mHour >= 9 && mHour < 11)
-                    mIdBinome = 30;
-                if (mHour >= 11 && mHour < 13)
-                    mIdBinome = 31;
-                if (mHour >= 13 && mHour < 15)
-                    mIdBinome = 32;
-                if (mHour >= 15 && mHour < 17)
-                    mIdBinome = 33;
-                if (mHour >= 17 && mHour < 19)
-                    mIdBinome = 34;
-                if (mHour >= 19 && mHour < 21)
-                    mIdBinome = 35;
-                if (mHour >= 21 && mHour < 23)
-                    mIdBinome = 36;
-                break;
-            case 4:
-            case 9:
-                if (mHour >= 23 || mHour == 0)
-                    mIdBinome = 37;
-                if (mHour >= 1 && mHour < 3)
-                    mIdBinome = 38;
-                if (mHour >= 3 && mHour < 5)
-                    mIdBinome = 39;
-                if (mHour >= 5 && mHour < 7)
-                    mIdBinome = 40;
-                if (mHour >= 7 && mHour < 9)
-                    mIdBinome = 41;
-                if (mHour >= 9 && mHour < 11)
-                    mIdBinome = 42;
-                if (mHour >= 11 && mHour < 13)
-                    mIdBinome = 43;
-                if (mHour >= 13 && mHour < 15)
-                    mIdBinome = 44;
-                if (mHour >= 15 && mHour < 17)
-                    mIdBinome = 45;
-                if (mHour >= 17 && mHour < 19)
-                    mIdBinome = 46;
-                if (mHour >= 19 && mHour < 21)
-                    mIdBinome = 47;
-                if (mHour >= 21 && mHour < 23)
-                    mIdBinome = 48;
-                break;
-            case 5:
-            case 0:
-                if (mHour >= 23 || mHour == 0)
-                    mIdBinome = 49;
-                if (mHour >= 1 && mHour < 3)
-                    mIdBinome = 50;
-                if (mHour >= 3 && mHour < 5)
-                    mIdBinome = 51;
-                if (mHour >= 5 && mHour < 7)
-                    mIdBinome = 52;
-                if (mHour >= 7 && mHour < 9)
-                    mIdBinome = 53;
-                if (mHour >= 9 && mHour < 11)
-                    mIdBinome = 54;
-                if (mHour >= 11 && mHour < 13)
-                    mIdBinome = 55;
-                if (mHour >= 13 && mHour < 15)
-                    mIdBinome = 56;
-                if (mHour >= 15 && mHour < 17)
-                    mIdBinome = 57;
-                if (mHour >= 17 && mHour < 19)
-                    mIdBinome = 58;
-                if (mHour >= 19 && mHour < 21)
-                    mIdBinome = 59;
-                if (mHour >= 21 && mHour < 23)
-                    mIdBinome = 60;
-                break;
-
-        }
-
-        return mIdBinome;
-    }
 
     public static LocalDate getAnneesLunaires(int year) {
         int month = 0;
@@ -1519,6 +943,7 @@ public class CalculBinomes {
             case 1974:
             case 1993:
             case 2012:
+            case 2023:
                 month = 1;
                 dayOfMonth = 23;
                 break;
@@ -1575,6 +1000,7 @@ public class CalculBinomes {
                 dayOfMonth = 31;
                 break;
             case 2003:
+            case 2022:
                 month = 2;
                 dayOfMonth = 1;
                 break;
@@ -1644,6 +1070,7 @@ public class CalculBinomes {
                 break;
             case 1956:
             case 2002:
+            case 2021:
                 month = 2;
                 dayOfMonth = 12;
                 break;
@@ -1692,7 +1119,6 @@ public class CalculBinomes {
                 dayOfMonth = 19;
                 break;
             case 1985:
-            case 2021: //ABA To change
                 month = 2;
                 dayOfMonth = 20;
                 break;
@@ -1706,10 +1132,12 @@ public class CalculBinomes {
     private static void getFuseauHoraire() {
         LocalDateTime dateNow = LocalDateTime.now();
         LocalDateTime dateRef = LocalDateTime.now(ZoneId.of("+08:00"));
-        mNbHour = dateNow.getHour() - dateRef.getHour();
+        mNbHour = dateRef.getHour() - dateNow.getHour();
         if (mNbHour < 0)
             mNbHour = 24 + mNbHour;
-        mNbMinute = dateNow.getMinute() - dateRef.getMinute();
+        mNbMinute = dateRef.getMinute() - dateNow.getMinute();
+        if (mNbMinute < 0)
+            mNbMinute = 60 + mNbMinute;
     }
 
     private static int getEnergeticDay(int year, int month, int day, int mHour, int mMinute) {
