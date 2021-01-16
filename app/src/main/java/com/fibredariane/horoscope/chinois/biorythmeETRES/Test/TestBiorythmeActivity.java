@@ -94,7 +94,7 @@ public class TestBiorythmeActivity extends AppCompatActivity  implements TimePic
         int month = 2;//Integer.parseInt(mEditTextDateMois.getText().toString());
         int day =3;// Integer.parseInt(mEditTextDateJour.getText().toString());
 
-        Biorythme biorythme = new Biorythme(
+      /**  Biorythme biorythme = new Biorythme(
                 year,
                 month,
                 day,
@@ -109,7 +109,7 @@ public class TestBiorythmeActivity extends AppCompatActivity  implements TimePic
         mTextViewBinomeMois.setText(biorythme.getBinomeMois().getNom());
         mTextViewBinomeJour.setText(biorythme.getBinomeJour().getNom());
         mTextViewBinomeHeure.setText(biorythme.getBinomeHeure().getNom());
-
+*/
     }
 
     public void onTimeSet(TimePicker view, int hourOfDay, int minute) {
@@ -145,7 +145,7 @@ public class TestBiorythmeActivity extends AppCompatActivity  implements TimePic
                 int month =Integer.parseInt(mEditTextDateMois.getText().toString());
                 int day =Integer.parseInt(mEditTextDateJour.getText().toString());
 
-                Biorythme biorythme = new Biorythme(
+             /**   Biorythme biorythme = new Biorythme(
                         year,
                         month,
                         day,
@@ -160,7 +160,7 @@ public class TestBiorythmeActivity extends AppCompatActivity  implements TimePic
                 mTextViewBinomeMois.setText(biorythme.getBinomeMois().getNom());
                 mTextViewBinomeJour.setText(biorythme.getBinomeJour().getNom());
                 mTextViewBinomeHeure.setText(biorythme.getBinomeHeure().getNom());
-
+*/
                 break;
             default:
                 break;

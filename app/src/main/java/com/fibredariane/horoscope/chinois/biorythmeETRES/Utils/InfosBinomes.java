@@ -11,28 +11,6 @@ import java.time.LocalDate;
 
 public class InfosBinomes {
 
-    public static String getStringAnnee(Biorythme biorythme) {
-        return "BINOME DE L'ANNEE " + CalculBinomes.getDateAnneeNaissance(biorythme.getYear(), biorythme.getMonth(), biorythme.getDay(), biorythme.getHour(), biorythme.getMinute());
-    }
-
-    public static String getStringAnneeTotale(Context context, Biorythme biorythme) {
-        int year = CalculBinomes.getDateAnneeNaissance(biorythme.getYear(), biorythme.getMonth(), biorythme.getDay(), biorythme.getHour(), biorythme.getMinute());
-        LocalDate dateDeb = CalculBinomes.getAnneesLunaires(year);
-        LocalDate dateFin = CalculBinomes.getAnneesLunaires(year + 1);
-        int mDeb = dateDeb.getMonthValue();
-        int mFin = dateFin.getMonthValue();
-        String monthDeb = context.getResources().getString(context.getResources().getIdentifier(
-                "mois" + mDeb,
-                "string",
-                context.getPackageName())).toUpperCase();
-        String monthFin = context.getResources().getString(context.getResources().getIdentifier(
-                "mois" + mFin,
-                "string",
-                context.getPackageName())).toUpperCase();
-        return "Du " + dateDeb.getDayOfMonth() + " " + monthDeb + " " + dateDeb.getYear()
-                + " au " + dateFin.getDayOfMonth() + " " + monthFin + " " + dateFin.getYear();
-    }
-
     public static int getNbElement(Biorythme biorythme, String element) {
         int nbElement = 0;
 

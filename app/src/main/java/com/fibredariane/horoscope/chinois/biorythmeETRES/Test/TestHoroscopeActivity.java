@@ -107,7 +107,7 @@ public class TestHoroscopeActivity extends AppCompatActivity  implements TimePic
         int year = 2019;// Integer.parseInt(mEditTextDateAnnee.getText().toString());
         int month = 2;//Integer.parseInt(mEditTextDateMois.getText().toString());
         int day =3;// Integer.parseInt(mEditTextDateJour.getText().toString());
-
+/**
         Biorythme biorythme = new Biorythme(
                 year,
                 month,
@@ -130,7 +130,7 @@ public class TestHoroscopeActivity extends AppCompatActivity  implements TimePic
         mTextViewBinomeMoisTexte.setText(horo.getTextInfluenceMois());
         mTextViewBinomeJourTexte.setText(horo.getTextInfluenceJour());
         mTextViewBinomeHeureTexte.setText(horo.getTextInfluenceHeure());
-
+*/
     }
 
     public void onTimeSet(TimePicker view, int hourOfDay, int minute) {
@@ -168,7 +168,7 @@ public class TestHoroscopeActivity extends AppCompatActivity  implements TimePic
 
                 Binome binome = db.getBinome(String.valueOf(spinnerBinome.getSelectedItem()),"");
 
-                Biorythme biorythme = new Biorythme(
+              /**  Biorythme biorythme = new Biorythme(
                         year,
                         month,
                         day,
@@ -190,7 +190,7 @@ public class TestHoroscopeActivity extends AppCompatActivity  implements TimePic
                 mTextViewBinomeMoisTexte.setText(horo.getTextInfluenceMois());
                 mTextViewBinomeJourTexte.setText(horo.getTextInfluenceJour());
                 mTextViewBinomeHeureTexte.setText(horo.getTextInfluenceHeure());
-
+*/
                 break;
             default:
                 break;
