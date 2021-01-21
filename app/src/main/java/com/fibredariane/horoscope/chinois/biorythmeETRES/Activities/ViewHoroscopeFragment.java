@@ -4,7 +4,9 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
+
 import androidx.fragment.app.Fragment;
+
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -96,24 +98,24 @@ public class ViewHoroscopeFragment extends Fragment implements View.OnClickListe
 
     public void initDayLayout() {
 
-        mTextViewHoroscopeYear = (TextView) rootView.findViewById(R.id.text_view_horoscope_annee);
-        mTextViewHoroscopeMonth = (TextView) rootView.findViewById(R.id.text_view_horoscope_mois);
-        mTextViewHoroscopeDay = (TextView) rootView.findViewById(R.id.text_view_horoscope_jour);
-        mTextViewHoroscopeHour = (TextView) rootView.findViewById(R.id.text_view_horoscope_heure);
+        mTextViewHoroscopeYear = rootView.findViewById(R.id.text_view_horoscope_annee);
+        mTextViewHoroscopeMonth = rootView.findViewById(R.id.text_view_horoscope_mois);
+        mTextViewHoroscopeDay = rootView.findViewById(R.id.text_view_horoscope_jour);
+        mTextViewHoroscopeHour = rootView.findViewById(R.id.text_view_horoscope_heure);
 
-        mImageViewHoroscopeMeteoYear = (ImageView) rootView.findViewById(R.id.image_view_horoscope_meteo_annee);
-        mImageViewHoroscopeMeteoMonth = (ImageView) rootView.findViewById(R.id.image_view_horoscope_meteo_mois);
-        mImageViewHoroscopeMeteoDay = (ImageView) rootView.findViewById(R.id.image_view_horoscope_meteo_jour);
-        mImageViewHoroscopeMeteoHour = (ImageView) rootView.findViewById(R.id.image_view_horoscope_meteo_heure);
+        mImageViewHoroscopeMeteoYear = rootView.findViewById(R.id.image_view_horoscope_meteo_annee);
+        mImageViewHoroscopeMeteoMonth = rootView.findViewById(R.id.image_view_horoscope_meteo_mois);
+        mImageViewHoroscopeMeteoDay = rootView.findViewById(R.id.image_view_horoscope_meteo_jour);
+        mImageViewHoroscopeMeteoHour = rootView.findViewById(R.id.image_view_horoscope_meteo_heure);
 
-        mImageViewHoroscopeBioAnnee = (ImageView) rootView.findViewById(R.id.image_view_horoscope_bio_annee);
-        mImageViewHoroscopeBioMois = (ImageView) rootView.findViewById(R.id.image_view_horoscope_bio_mois);
-        mImageViewHoroscopeBioJour = (ImageView) rootView.findViewById(R.id.image_view_horoscope_bio_jour);
-        mImageViewHoroscopeBioHeure = (ImageView) rootView.findViewById(R.id.image_view_horoscope_bio_heure);
+        mImageViewHoroscopeBioAnnee = rootView.findViewById(R.id.image_view_horoscope_bio_annee);
+        mImageViewHoroscopeBioMois = rootView.findViewById(R.id.image_view_horoscope_bio_mois);
+        mImageViewHoroscopeBioJour = rootView.findViewById(R.id.image_view_horoscope_bio_jour);
+        mImageViewHoroscopeBioHeure = rootView.findViewById(R.id.image_view_horoscope_bio_heure);
 
-        mTextViewHoroscopeType = (TextView) rootView.findViewById(R.id.text_view_horoscope_type);
-        mTextViewHoroscopeExpl = (TextView) rootView.findViewById(R.id.text_view_horoscope_expl);
-        mImageViewHoroscope = (ImageView) rootView.findViewById(R.id.image_view_meteo_day);
+        mTextViewHoroscopeType = rootView.findViewById(R.id.text_view_horoscope_type);
+        mTextViewHoroscopeExpl = rootView.findViewById(R.id.text_view_horoscope_expl);
+        mImageViewHoroscope = rootView.findViewById(R.id.image_view_meteo_day);
         ;
 
         setHoroscope();
@@ -139,34 +141,17 @@ public class ViewHoroscopeFragment extends Fragment implements View.OnClickListe
             mTextViewHoroscopeMonth.setText(mHoroscope.getTextInfluenceMois());
             mTextViewHoroscopeDay.setText(mHoroscope.getTextInfluenceJour());
             mTextViewHoroscopeHour.setText(mHoroscope.getTextInfluenceHeure());
-
-            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-                mImageViewHoroscope.setImageDrawable(getResources().getDrawable(InfosBinomes.getIdTotInfluence(mContext, mBinomeCurrent, mBiorythmeUser), mContext.getApplicationContext().getTheme()));
-                mImageViewHoroscopeMeteoYear.setImageDrawable(getResources().getDrawable(mHoroscope.getIdImageInfluenceAnnee(), mContext.getApplicationContext().getTheme()));
-                mImageViewHoroscopeMeteoMonth.setImageDrawable(getResources().getDrawable(mHoroscope.getIdImageInfluenceMois(), mContext.getApplicationContext().getTheme()));
-                mImageViewHoroscopeMeteoDay.setImageDrawable(getResources().getDrawable(mHoroscope.getIdImageInfluenceJour(), mContext.getApplicationContext().getTheme()));
-                mImageViewHoroscopeMeteoHour.setImageDrawable(getResources().getDrawable(mHoroscope.getIdImageInfluenceHeure(), mContext.getApplicationContext().getTheme()));
-            }else{
-                mImageViewHoroscope.setImageDrawable(getResources().getDrawable(InfosBinomes.getIdTotInfluence(mContext, mBinomeCurrent, mBiorythmeUser)));
-                mImageViewHoroscopeMeteoYear.setImageDrawable(getResources().getDrawable(mHoroscope.getIdImageInfluenceAnnee()));
-                mImageViewHoroscopeMeteoMonth.setImageDrawable(getResources().getDrawable(mHoroscope.getIdImageInfluenceMois()));
-                mImageViewHoroscopeMeteoDay.setImageDrawable(getResources().getDrawable(mHoroscope.getIdImageInfluenceJour()));
-                mImageViewHoroscopeMeteoHour.setImageDrawable(getResources().getDrawable(mHoroscope.getIdImageInfluenceHeure()));
-            }
+            mImageViewHoroscope.setImageDrawable(getResources().getDrawable(InfosBinomes.getIdTotInfluence(mContext, mBinomeCurrent, mBiorythmeUser), mContext.getApplicationContext().getTheme()));
+            mImageViewHoroscopeMeteoYear.setImageDrawable(getResources().getDrawable(mHoroscope.getIdImageInfluenceAnnee(), mContext.getApplicationContext().getTheme()));
+            mImageViewHoroscopeMeteoMonth.setImageDrawable(getResources().getDrawable(mHoroscope.getIdImageInfluenceMois(), mContext.getApplicationContext().getTheme()));
+            mImageViewHoroscopeMeteoDay.setImageDrawable(getResources().getDrawable(mHoroscope.getIdImageInfluenceJour(), mContext.getApplicationContext().getTheme()));
+            mImageViewHoroscopeMeteoHour.setImageDrawable(getResources().getDrawable(mHoroscope.getIdImageInfluenceHeure(), mContext.getApplicationContext().getTheme()));
         }
+        mImageViewHoroscopeBioAnnee.setImageDrawable(getResources().getDrawable(mBiorythmeUser.getBinomeAnnee().getIntIdMini(), mContext.getApplicationContext().getTheme()));
+        mImageViewHoroscopeBioMois.setImageDrawable(getResources().getDrawable(mBiorythmeUser.getBinomeMois().getIntIdMini(), mContext.getApplicationContext().getTheme()));
+        mImageViewHoroscopeBioJour.setImageDrawable(getResources().getDrawable(mBiorythmeUser.getBinomeJour().getIntIdMini(), mContext.getApplicationContext().getTheme()));
+        mImageViewHoroscopeBioHeure.setImageDrawable(getResources().getDrawable(mBiorythmeUser.getBinomeHeure().getIntIdMini(), mContext.getApplicationContext().getTheme()));
 
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-            mImageViewHoroscopeBioAnnee.setImageDrawable(getResources().getDrawable(mBiorythmeUser.getBinomeAnnee().getIntIdMini(), mContext.getApplicationContext().getTheme()));
-            mImageViewHoroscopeBioMois.setImageDrawable(getResources().getDrawable(mBiorythmeUser.getBinomeMois().getIntIdMini(), mContext.getApplicationContext().getTheme()));
-            mImageViewHoroscopeBioJour.setImageDrawable(getResources().getDrawable(mBiorythmeUser.getBinomeJour().getIntIdMini(), mContext.getApplicationContext().getTheme()));
-            mImageViewHoroscopeBioHeure.setImageDrawable(getResources().getDrawable(mBiorythmeUser.getBinomeHeure().getIntIdMini(), mContext.getApplicationContext().getTheme()));
-        }else{
-            mImageViewHoroscopeBioAnnee.setImageDrawable(getResources().getDrawable(mBiorythmeUser.getBinomeAnnee().getIntIdMini()));
-            mImageViewHoroscopeBioMois.setImageDrawable(getResources().getDrawable(mBiorythmeUser.getBinomeMois().getIntIdMini()));
-            mImageViewHoroscopeBioJour.setImageDrawable(getResources().getDrawable(mBiorythmeUser.getBinomeJour().getIntIdMini()));
-            mImageViewHoroscopeBioHeure.setImageDrawable(getResources().getDrawable(mBiorythmeUser.getBinomeHeure().getIntIdMini()));
-
-        }
     }
 
     @Override

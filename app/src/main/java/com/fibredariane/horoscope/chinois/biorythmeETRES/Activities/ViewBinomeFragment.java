@@ -4,7 +4,9 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
+
 import androidx.fragment.app.Fragment;
+
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -17,7 +19,7 @@ import com.fibredariane.horoscope.chinois.biorythmeETRES.R;
 import com.fibredariane.horoscope.chinois.biorythmeETRES.Utils.Preferences;
 
 
-public class ViewBinomeFragment extends Fragment  {
+public class ViewBinomeFragment extends Fragment {
 
     private static final String ARG_SECTION_NUMBER = "section_number";
     private static final String ARG_BINOME = "binome";
@@ -49,13 +51,13 @@ public class ViewBinomeFragment extends Fragment  {
      * Returns a new instance of this fragment for the given section
      * number.
      */
-    public static ViewBinomeFragment newInstance(int sectionNumber, Binome binome, String binomeExpl,String binomeType) {
+    public static ViewBinomeFragment newInstance(int sectionNumber, Binome binome, String binomeExpl, String binomeType) {
         ViewBinomeFragment fragment = new ViewBinomeFragment();
         Bundle args = new Bundle();
         args.putInt(ARG_SECTION_NUMBER, sectionNumber);
         args.putSerializable(ARG_BINOME, binome);
-        args.putString(ARG_BINOME_EXPL,binomeExpl);
-        args.putString(ARG_BINOME_TYPE,binomeType);
+        args.putString(ARG_BINOME_EXPL, binomeExpl);
+        args.putString(ARG_BINOME_TYPE, binomeType);
         fragment.setArguments(args);
         return fragment;
     }
@@ -72,10 +74,10 @@ public class ViewBinomeFragment extends Fragment  {
             mBinome = (Binome) args.getSerializable(ARG_BINOME);
             mBinomeExpl = args.getString(ARG_BINOME_EXPL);
             mBinomeType = args.getString(ARG_BINOME_TYPE);
-            if (date_biorythme == ""){
-                Intent intent = new Intent(mContext,SwitchBiorythmeActivity.class);
+            if (date_biorythme == "") {
+                Intent intent = new Intent(mContext, SwitchBiorythmeActivity.class);
                 startActivity(intent);
-            }else{
+            } else {
                 initBinomeLayout();
             }
         }
@@ -83,26 +85,24 @@ public class ViewBinomeFragment extends Fragment  {
     }
 
 
-    public void initBinomeLayout(){
+    public void initBinomeLayout() {
 
-        mTextViewNomBinome = (TextView) rootView.findViewById(R.id.text_view_nom_binome);
-        mTextViewPolariteBinome = (TextView) rootView.findViewById(R.id.text_view_polarite_binome);
-        mTextViewDescBinome = (TextView) rootView.findViewById(R.id.text_view_desc_binome);
-        mTextViewBinomeType = (TextView) rootView.findViewById(R.id.text_view_binome_type);;
-        mTextViewBinomeExpl = (TextView) rootView.findViewById(R.id.text_view_binome_expl);;
+        mTextViewNomBinome = rootView.findViewById(R.id.text_view_nom_binome);
+        mTextViewPolariteBinome = rootView.findViewById(R.id.text_view_polarite_binome);
+        mTextViewDescBinome = rootView.findViewById(R.id.text_view_desc_binome);
+        mTextViewBinomeType = rootView.findViewById(R.id.text_view_binome_type);
+        ;
+        mTextViewBinomeExpl = rootView.findViewById(R.id.text_view_binome_expl);
+        ;
 
-        mImageViewBinome = (ImageView) rootView.findViewById(R.id.image_view_binome);
+        mImageViewBinome = rootView.findViewById(R.id.image_view_binome);
 
         setBinome();
     }
 
     private void setBinome() {
-        if(mBinome.getNom() != "") {
-            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-                mImageViewBinome.setImageDrawable(getResources().getDrawable(mBinome.getIntId(), mContext.getApplicationContext().getTheme()));
-            }else{
-                mImageViewBinome.setImageDrawable(getResources().getDrawable(mBinome.getIntId()));
-            }
+        if (mBinome.getNom() != "") {
+            mImageViewBinome.setImageDrawable(getResources().getDrawable(mBinome.getIntId(), mContext.getApplicationContext().getTheme()));
             mTextViewNomBinome.setText(mBinome.getNom());
             mTextViewPolariteBinome.setText(mBinome.getPolarite());
             mTextViewDescBinome.setText(mBinome.getDescription());

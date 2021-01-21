@@ -4,8 +4,10 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
+
 import androidx.fragment.app.Fragment;
 import androidx.viewpager.widget.ViewPager;
+
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -86,9 +88,9 @@ public class AccueilFragment extends Fragment implements View.OnClickListener {
             } else {
                 initMainLayout();
 
-                mLinearLayoutHoroscope = (LinearLayout) rootView.findViewById(R.id.layout_horoscope);
-                mLinearLayoutElement = (LinearLayout) rootView.findViewById(R.id.layout_energie);
-                mLinearLayoutSynthese = (LinearLayout) rootView.findViewById(R.id.layout_synthese);
+                mLinearLayoutHoroscope = rootView.findViewById(R.id.layout_horoscope);
+                mLinearLayoutElement = rootView.findViewById(R.id.layout_energie);
+                mLinearLayoutSynthese = rootView.findViewById(R.id.layout_synthese);
 
                 mLinearLayoutHoroscope.setOnClickListener(this);
                 mLinearLayoutElement.setOnClickListener(this);
@@ -97,7 +99,7 @@ public class AccueilFragment extends Fragment implements View.OnClickListener {
                 LocalDate dateNow = LocalDate.now();
                 LocalDateTime datePref = mPreference.getDatePref();
                 if (datePref.getMonthValue() == dateNow.getMonthValue() &&
-                        datePref.getDayOfMonth() == dateNow.getDayOfMonth()){
+                        datePref.getDayOfMonth() == dateNow.getDayOfMonth()) {
                     rootView.findViewById(R.id.layout_birthday).setVisibility(View.VISIBLE);
                 }
 
@@ -110,13 +112,13 @@ public class AccueilFragment extends Fragment implements View.OnClickListener {
 
     public void initMainLayout() {
 
-        mImageViewDay = (ImageView) rootView.findViewById(R.id.image_view_day);
-        mImageViewMeteoDay = (ImageView) rootView.findViewById(R.id.image_view_meteo_day);
-        mTextViewDay = (TextView) rootView.findViewById(R.id.text_view_day);
-        mImageViewUserAnnee = (ImageView) rootView.findViewById(R.id.image_view_bio_annee);
-        mImageViewUserMois = (ImageView) rootView.findViewById(R.id.image_view_bio_mois);
-        mImageViewUserJour = (ImageView) rootView.findViewById(R.id.image_view_bio_jour);
-        mImageViewUserHeure = (ImageView) rootView.findViewById(R.id.image_view_bio_heure);
+        mImageViewDay = rootView.findViewById(R.id.image_view_day);
+        mImageViewMeteoDay = rootView.findViewById(R.id.image_view_meteo_day);
+        mTextViewDay = rootView.findViewById(R.id.text_view_day);
+        mImageViewUserAnnee = rootView.findViewById(R.id.image_view_bio_annee);
+        mImageViewUserMois = rootView.findViewById(R.id.image_view_bio_mois);
+        mImageViewUserJour = rootView.findViewById(R.id.image_view_bio_jour);
+        mImageViewUserHeure = rootView.findViewById(R.id.image_view_bio_heure);
 
         setmImageViewDay();
         setmTextViewDay();
@@ -126,17 +128,13 @@ public class AccueilFragment extends Fragment implements View.OnClickListener {
 
     private void setmImageViewDay() {
         if (mBinome.getNom() != "") {
-            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-                mImageViewDay.setImageDrawable(getResources().getDrawable(mBinome.getIntId(), mContext.getApplicationContext().getTheme()));
-            } else {
-                mImageViewDay.setImageDrawable(getResources().getDrawable(mBinome.getIntId()));
-            }
+            mImageViewDay.setImageDrawable(getResources().getDrawable(mBinome.getIntId(), mContext.getApplicationContext().getTheme()));
         }
     }
 
     private void setmTextViewDay() {
         LocalDate localDate = LocalDate.now();
-        mTextViewDay.setText(localDate.getDayOfMonth()+
+        mTextViewDay.setText(localDate.getDayOfMonth() +
                 " " + getResources().getString(getResources().getIdentifier(
                 "mois" + localDate.getMonthValue(),
                 "string",
@@ -145,32 +143,21 @@ public class AccueilFragment extends Fragment implements View.OnClickListener {
     }
 
     private void setmImageViewMeteoDay() {
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-            mImageViewMeteoDay.setImageDrawable(getResources().getDrawable(InfosBinomes.getIdTotInfluence(mContext, mBinome, mCurrentBiorythme), mContext.getApplicationContext().getTheme()));
-        }else{
-            mImageViewMeteoDay.setImageDrawable(getResources().getDrawable(InfosBinomes.getIdTotInfluence(mContext, mBinome, mCurrentBiorythme)));
-        }
+        mImageViewMeteoDay.setImageDrawable(getResources().getDrawable(InfosBinomes.getIdTotInfluence(mContext, mBinome, mCurrentBiorythme), mContext.getApplicationContext().getTheme()));
     }
 
     private void setmImageViewBiorythme() {
         if (mCurrentBiorythme.getBinomeAnnee().getNom() != "") {
-            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-                mImageViewUserAnnee.setImageDrawable(getResources().getDrawable(mCurrentBiorythme.getBinomeAnnee().getIntIdMini(), mContext.getApplicationContext().getTheme()));
-                mImageViewUserMois.setImageDrawable(getResources().getDrawable(mCurrentBiorythme.getBinomeMois().getIntIdMini(), mContext.getApplicationContext().getTheme()));
-                mImageViewUserJour.setImageDrawable(getResources().getDrawable(mCurrentBiorythme.getBinomeJour().getIntIdMini(), mContext.getApplicationContext().getTheme()));
-                mImageViewUserHeure.setImageDrawable(getResources().getDrawable(mCurrentBiorythme.getBinomeHeure().getIntIdMini(), mContext.getApplicationContext().getTheme()));
-            }else{
-                mImageViewUserAnnee.setImageDrawable(getResources().getDrawable(mCurrentBiorythme.getBinomeAnnee().getIntIdMini()));
-                mImageViewUserMois.setImageDrawable(getResources().getDrawable(mCurrentBiorythme.getBinomeMois().getIntIdMini()));
-                mImageViewUserJour.setImageDrawable(getResources().getDrawable(mCurrentBiorythme.getBinomeJour().getIntIdMini()));
-                mImageViewUserHeure.setImageDrawable(getResources().getDrawable(mCurrentBiorythme.getBinomeHeure().getIntIdMini()));
-            }
+            mImageViewUserAnnee.setImageDrawable(getResources().getDrawable(mCurrentBiorythme.getBinomeAnnee().getIntIdMini(), mContext.getApplicationContext().getTheme()));
+            mImageViewUserMois.setImageDrawable(getResources().getDrawable(mCurrentBiorythme.getBinomeMois().getIntIdMini(), mContext.getApplicationContext().getTheme()));
+            mImageViewUserJour.setImageDrawable(getResources().getDrawable(mCurrentBiorythme.getBinomeJour().getIntIdMini(), mContext.getApplicationContext().getTheme()));
+            mImageViewUserHeure.setImageDrawable(getResources().getDrawable(mCurrentBiorythme.getBinomeHeure().getIntIdMini(), mContext.getApplicationContext().getTheme()));
         }
     }
 
     @Override
     public void onClick(View v) {
-        if(mViewPager != null) {
+        if (mViewPager != null) {
             switch (v.getId()) {
                 case R.id.layout_energie:
                     mViewPager.setCurrentItem(1);
@@ -185,7 +172,7 @@ public class AccueilFragment extends Fragment implements View.OnClickListener {
                 default:
                     break;
             }
-        }else{
+        } else {
             Intent intent = new Intent(mContext, MainActivity.class);
             startActivity(intent);
         }

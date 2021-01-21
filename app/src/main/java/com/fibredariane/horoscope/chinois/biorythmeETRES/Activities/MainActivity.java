@@ -63,11 +63,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         } else {
             mSectionsPagerAdapter = new SectionsPagerAdapter(getSupportFragmentManager());
 
-            mViewPager = (ViewPager) findViewById(R.id.container);
+            mViewPager = findViewById(R.id.container);
             mViewPager.setAdapter(mSectionsPagerAdapter);
             mViewPager.setPageTransformer(true, new ZoomOutPageTransformer());
 
-            mBtnAccueil = (ImageButton) findViewById(R.id.btn_accueil);
+            mBtnAccueil = findViewById(R.id.btn_accueil);
 
             // Initialisation des variables globales
             LocalDateTime date = LocalDateTime.now();

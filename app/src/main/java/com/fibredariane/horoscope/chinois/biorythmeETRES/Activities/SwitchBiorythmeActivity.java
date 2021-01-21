@@ -47,15 +47,15 @@ public class SwitchBiorythmeActivity extends AppCompatActivity implements TimePi
         mContext = this;
         mPreferences = new Preferences();
 
-        mButtonValider = (Button) findViewById(R.id.button_valider_anniv);
+        mButtonValider = findViewById(R.id.button_valider_anniv);
         mButtonValider.setOnClickListener(this);
 
-        mEditTextDateJour = (EditText) findViewById(R.id.text_view_date_jour);
-        mEditTextDateMois = (EditText) findViewById(R.id.text_view_date_mois);
-        mEditTextDateAnnee = (EditText) findViewById(R.id.text_view_date_annee);
+        mEditTextDateJour = findViewById(R.id.text_view_date_jour);
+        mEditTextDateMois = findViewById(R.id.text_view_date_mois);
+        mEditTextDateAnnee = findViewById(R.id.text_view_date_annee);
 
-        mLinearHeure = (LinearLayout) findViewById(R.id.linear_layout_heure);
-        mTextViewHour = (TextView) findViewById(R.id.text_view_hour);
+        mLinearHeure = findViewById(R.id.linear_layout_heure);
+        mTextViewHour = findViewById(R.id.text_view_hour);
 
         if (mPreferences.getStringDatePref() != "") {
             mDatePref = mPreferences.getDatePref();
@@ -71,9 +71,9 @@ public class SwitchBiorythmeActivity extends AppCompatActivity implements TimePi
     }
 
     private void setCurrentDateOnView() {
-        mEditTextDateJour = (EditText) findViewById(R.id.text_view_date_jour);
-        mEditTextDateMois = (EditText) findViewById(R.id.text_view_date_mois);
-        mEditTextDateAnnee = (EditText) findViewById(R.id.text_view_date_annee);
+        mEditTextDateJour = findViewById(R.id.text_view_date_jour);
+        mEditTextDateMois = findViewById(R.id.text_view_date_mois);
+        mEditTextDateAnnee = findViewById(R.id.text_view_date_annee);
 
         if (mPreferences.getStringDatePref() != "") {
             String dateString = mPreferences.getStringDatePref();
@@ -87,8 +87,8 @@ public class SwitchBiorythmeActivity extends AppCompatActivity implements TimePi
 
     public void setCurrentTimeOnView() {
 
-        mLinearHeure = (LinearLayout) findViewById(R.id.linear_layout_heure);
-        mTextViewHour = (TextView) findViewById(R.id.text_view_hour);
+        mLinearHeure = findViewById(R.id.linear_layout_heure);
+        mTextViewHour = findViewById(R.id.text_view_hour);
         mLinearHeure.setOnClickListener(new View.OnClickListener() {
 
             @Override
@@ -131,7 +131,7 @@ public class SwitchBiorythmeActivity extends AppCompatActivity implements TimePi
         if (c >= 10)
             return String.valueOf(c);
         else
-            return "0" + String.valueOf(c);
+            return "0" + c;
     }
 
     public void onTimeSet(TimePicker view, int hourOfDay, int minute) {
@@ -205,8 +205,8 @@ public class SwitchBiorythmeActivity extends AppCompatActivity implements TimePi
     private void initDialog() {
         mDialog = new Dialog(mContext);
         mDialog.setContentView(R.layout.dialog_information);
-        TextView titre = (TextView) mDialog.findViewById(R.id.text_view_titre);
-        TextView text = (TextView) mDialog.findViewById(R.id.text_view_text);
+        TextView titre = mDialog.findViewById(R.id.text_view_titre);
+        TextView text = mDialog.findViewById(R.id.text_view_text);
         titre.setText(R.string.erreur);
         text.setText(R.string.date_hors_limite);
     }

@@ -4,7 +4,9 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
+
 import androidx.fragment.app.Fragment;
+
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -74,7 +76,7 @@ public class ViewSyntheseDetailleFragment extends Fragment {
      * Returns a new instance of this fragment for the given section
      * number.
      */
-    public static ViewSyntheseDetailleFragment newInstance(int sectionNumber,String typeDetail) {
+    public static ViewSyntheseDetailleFragment newInstance(int sectionNumber, String typeDetail) {
         ViewSyntheseDetailleFragment fragment = new ViewSyntheseDetailleFragment();
         Bundle args = new Bundle();
         args.putInt(ARG_SECTION_NUMBER, sectionNumber);
@@ -94,11 +96,11 @@ public class ViewSyntheseDetailleFragment extends Fragment {
             Bundle args = this.getArguments();
             mTypeDetail = args.getString(ARG_TYPE_DETAIL);
 
-            if (date_biorythme == ""){
-                Intent intent = new Intent(mContext,SwitchBiorythmeActivity.class);
+            if (date_biorythme == "") {
+                Intent intent = new Intent(mContext, SwitchBiorythmeActivity.class);
                 startActivity(intent);
-            }else{
-            //    mBiorythme = mPreferences.getBiorythmePref();
+            } else {
+                //    mBiorythme = mPreferences.getBiorythmePref();
                 mSynthese = new Synthese(mBiorythme);
                 initSyntheseDetailleLayout();
                 SetSyntheseDetail(mTypeDetail);
@@ -106,136 +108,102 @@ public class ViewSyntheseDetailleFragment extends Fragment {
         }
         return rootView;
     }
+
     private void initSyntheseDetailleLayout() {
 
-        mTextViewTitreSynthese = (TextView) rootView.findViewById(R.id.text_view_titre_synthese);
+        mTextViewTitreSynthese = rootView.findViewById(R.id.text_view_titre_synthese);
 
-        mImageViewElement1 = (ImageView) rootView.findViewById(R.id.image_view_element1);
-        mImageViewChevron1 = (ImageView) rootView.findViewById(R.id.image_view_chevron_element1);
+        mImageViewElement1 = rootView.findViewById(R.id.image_view_element1);
+        mImageViewChevron1 = rootView.findViewById(R.id.image_view_chevron_element1);
         mImageViewChevron1.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 if (mTextViewDescDetailElement1.getVisibility() == View.GONE) {
                     mTextViewDescDetailElement1.setVisibility(View.VISIBLE);
-                    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP)
-                        mImageViewChevron1.setImageDrawable(mContext.getResources().getDrawable(R.drawable.chevron_up, mContext.getApplicationContext().getTheme()));
-                    else
-                        mImageViewChevron1.setImageDrawable(mContext.getResources().getDrawable(R.drawable.chevron_up));
+                    mImageViewChevron1.setImageDrawable(mContext.getResources().getDrawable(R.drawable.chevron_up, mContext.getApplicationContext().getTheme()));
                 } else {
                     mTextViewDescDetailElement1.setVisibility(View.GONE);
-
-                    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP)
-                        mImageViewChevron1.setImageDrawable(mContext.getResources().getDrawable(R.drawable.chevron_down, mContext.getApplicationContext().getTheme()));
-                    else
-                        mImageViewChevron1.setImageDrawable(mContext.getResources().getDrawable(R.drawable.chevron_down));
+                    mImageViewChevron1.setImageDrawable(mContext.getResources().getDrawable(R.drawable.chevron_down, mContext.getApplicationContext().getTheme()));
                 }
             }
         });
-        mTextViewNomElement1 = (TextView) rootView.findViewById(R.id.text_view_nom_element1);
-        mTextViewDescElement1 = (TextView) rootView.findViewById(R.id.text_view_desc_element1);
-        mTextViewDescDetailElement1 = (TextView) rootView.findViewById(R.id.text_view_desc_detail_element1);
-        mLinearLayoutElement1 = (LinearLayout) rootView.findViewById(R.id.linear_layout_element1);
+        mTextViewNomElement1 = rootView.findViewById(R.id.text_view_nom_element1);
+        mTextViewDescElement1 = rootView.findViewById(R.id.text_view_desc_element1);
+        mTextViewDescDetailElement1 = rootView.findViewById(R.id.text_view_desc_detail_element1);
+        mLinearLayoutElement1 = rootView.findViewById(R.id.linear_layout_element1);
 
-        mImageViewElement2 = (ImageView) rootView.findViewById(R.id.image_view_element2);
-        mImageViewChevron2 = (ImageView) rootView.findViewById(R.id.image_view_chevron_element2);
+        mImageViewElement2 = rootView.findViewById(R.id.image_view_element2);
+        mImageViewChevron2 = rootView.findViewById(R.id.image_view_chevron_element2);
         mImageViewChevron2.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 if (mTextViewDescDetailElement2.getVisibility() == View.GONE) {
                     mTextViewDescDetailElement2.setVisibility(View.VISIBLE);
-                    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP)
-                        mImageViewChevron2.setImageDrawable(mContext.getResources().getDrawable(R.drawable.chevron_up, mContext.getApplicationContext().getTheme()));
-                    else
-                        mImageViewChevron2.setImageDrawable(mContext.getResources().getDrawable(R.drawable.chevron_up));
+                    mImageViewChevron2.setImageDrawable(mContext.getResources().getDrawable(R.drawable.chevron_up, mContext.getApplicationContext().getTheme()));
                 } else {
                     mTextViewDescDetailElement2.setVisibility(View.GONE);
-
-                    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP)
-                        mImageViewChevron2.setImageDrawable(mContext.getResources().getDrawable(R.drawable.chevron_down, mContext.getApplicationContext().getTheme()));
-                    else
-                        mImageViewChevron2.setImageDrawable(mContext.getResources().getDrawable(R.drawable.chevron_down));
+                    mImageViewChevron2.setImageDrawable(mContext.getResources().getDrawable(R.drawable.chevron_down, mContext.getApplicationContext().getTheme()));
                 }
             }
         });
-        mTextViewNomElement2 = (TextView) rootView.findViewById(R.id.text_view_nom_element2);
-        mTextViewDescElement2 = (TextView) rootView.findViewById(R.id.text_view_desc_element2);
-        mTextViewDescDetailElement2 = (TextView) rootView.findViewById(R.id.text_view_desc_detail_element2);
-        mLinearLayoutElement2 = (LinearLayout) rootView.findViewById(R.id.linear_layout_element2);
+        mTextViewNomElement2 = rootView.findViewById(R.id.text_view_nom_element2);
+        mTextViewDescElement2 = rootView.findViewById(R.id.text_view_desc_element2);
+        mTextViewDescDetailElement2 = rootView.findViewById(R.id.text_view_desc_detail_element2);
+        mLinearLayoutElement2 = rootView.findViewById(R.id.linear_layout_element2);
 
-        mImageViewElement3 = (ImageView) rootView.findViewById(R.id.image_view_element3);
-        mImageViewChevron3 = (ImageView) rootView.findViewById(R.id.image_view_chevron_element3);
+        mImageViewElement3 = rootView.findViewById(R.id.image_view_element3);
+        mImageViewChevron3 = rootView.findViewById(R.id.image_view_chevron_element3);
         mImageViewChevron3.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 if (mTextViewDescDetailElement3.getVisibility() == View.GONE) {
                     mTextViewDescDetailElement3.setVisibility(View.VISIBLE);
-                    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP)
-                        mImageViewChevron3.setImageDrawable(mContext.getResources().getDrawable(R.drawable.chevron_up, mContext.getApplicationContext().getTheme()));
-                    else
-                        mImageViewChevron3.setImageDrawable(mContext.getResources().getDrawable(R.drawable.chevron_up));
+                    mImageViewChevron3.setImageDrawable(mContext.getResources().getDrawable(R.drawable.chevron_up, mContext.getApplicationContext().getTheme()));
                 } else {
                     mTextViewDescDetailElement3.setVisibility(View.GONE);
-
-                    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP)
-                        mImageViewChevron3.setImageDrawable(mContext.getResources().getDrawable(R.drawable.chevron_down, mContext.getApplicationContext().getTheme()));
-                    else
-                        mImageViewChevron3.setImageDrawable(mContext.getResources().getDrawable(R.drawable.chevron_down));
+                    mImageViewChevron3.setImageDrawable(mContext.getResources().getDrawable(R.drawable.chevron_down, mContext.getApplicationContext().getTheme()));
                 }
             }
         });
-        mTextViewNomElement3 = (TextView) rootView.findViewById(R.id.text_view_nom_element3);
-        mTextViewDescElement3 = (TextView) rootView.findViewById(R.id.text_view_desc_element3);
-        mTextViewDescDetailElement3 = (TextView) rootView.findViewById(R.id.text_view_desc_detail_element3);
-        mLinearLayoutElement3 = (LinearLayout) rootView.findViewById(R.id.linear_layout_element3);
+        mTextViewNomElement3 = rootView.findViewById(R.id.text_view_nom_element3);
+        mTextViewDescElement3 = rootView.findViewById(R.id.text_view_desc_element3);
+        mTextViewDescDetailElement3 = rootView.findViewById(R.id.text_view_desc_detail_element3);
+        mLinearLayoutElement3 = rootView.findViewById(R.id.linear_layout_element3);
 
-        mImageViewElement4 = (ImageView) rootView.findViewById(R.id.image_view_element4);
-        mImageViewChevron4 = (ImageView) rootView.findViewById(R.id.image_view_chevron_element4);
+        mImageViewElement4 = rootView.findViewById(R.id.image_view_element4);
+        mImageViewChevron4 = rootView.findViewById(R.id.image_view_chevron_element4);
         mImageViewChevron4.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 if (mTextViewDescDetailElement4.getVisibility() == View.GONE) {
                     mTextViewDescDetailElement4.setVisibility(View.VISIBLE);
-                    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP)
-                        mImageViewChevron4.setImageDrawable(mContext.getResources().getDrawable(R.drawable.chevron_up, mContext.getApplicationContext().getTheme()));
-                    else
-                        mImageViewChevron4.setImageDrawable(mContext.getResources().getDrawable(R.drawable.chevron_up));
+                    mImageViewChevron4.setImageDrawable(mContext.getResources().getDrawable(R.drawable.chevron_up, mContext.getApplicationContext().getTheme()));
                 } else {
                     mTextViewDescDetailElement4.setVisibility(View.GONE);
-
-                    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP)
-                        mImageViewChevron4.setImageDrawable(mContext.getResources().getDrawable(R.drawable.chevron_down, mContext.getApplicationContext().getTheme()));
-                    else
-                        mImageViewChevron4.setImageDrawable(mContext.getResources().getDrawable(R.drawable.chevron_down));
+                    mImageViewChevron4.setImageDrawable(mContext.getResources().getDrawable(R.drawable.chevron_down, mContext.getApplicationContext().getTheme()));
                 }
             }
         });
-        mTextViewNomElement4 = (TextView) rootView.findViewById(R.id.text_view_nom_element4);
-        mTextViewDescElement4 = (TextView) rootView.findViewById(R.id.text_view_desc_element4);
-        mTextViewDescDetailElement4 = (TextView) rootView.findViewById(R.id.text_view_desc_detail_element4);
-        mLinearLayoutElement4 = (LinearLayout) rootView.findViewById(R.id.linear_layout_element4);
+        mTextViewNomElement4 = rootView.findViewById(R.id.text_view_nom_element4);
+        mTextViewDescElement4 = rootView.findViewById(R.id.text_view_desc_element4);
+        mTextViewDescDetailElement4 = rootView.findViewById(R.id.text_view_desc_detail_element4);
+        mLinearLayoutElement4 = rootView.findViewById(R.id.linear_layout_element4);
 
-        mImageViewElement5 = (ImageView) rootView.findViewById(R.id.image_view_element5);
-        mImageViewChevron5 = (ImageView) rootView.findViewById(R.id.image_view_chevron_element5);
+        mImageViewElement5 = rootView.findViewById(R.id.image_view_element5);
+        mImageViewChevron5 = rootView.findViewById(R.id.image_view_chevron_element5);
         mImageViewChevron5.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 if (mTextViewDescDetailElement5.getVisibility() == View.GONE) {
                     mTextViewDescDetailElement5.setVisibility(View.VISIBLE);
-                    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP)
-                        mImageViewChevron5.setImageDrawable(rootView.getResources().getDrawable(R.drawable.chevron_up, mContext.getApplicationContext().getTheme()));
-                    else
-                        mImageViewChevron5.setImageDrawable(rootView.getResources().getDrawable(R.drawable.chevron_up));
+                    mImageViewChevron5.setImageDrawable(rootView.getResources().getDrawable(R.drawable.chevron_up, mContext.getApplicationContext().getTheme()));
                 } else {
                     mTextViewDescDetailElement5.setVisibility(View.GONE);
-
-                    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP)
-                        mImageViewChevron5.setImageDrawable(rootView.getResources().getDrawable(R.drawable.chevron_down, mContext.getApplicationContext().getTheme()));
-                    else
-                        mImageViewChevron5.setImageDrawable(rootView.getResources().getDrawable(R.drawable.chevron_down));
+                    mImageViewChevron5.setImageDrawable(rootView.getResources().getDrawable(R.drawable.chevron_down, mContext.getApplicationContext().getTheme()));
                 }
             }
         });
-        mTextViewNomElement5 = (TextView) rootView.findViewById(R.id.text_view_nom_element5);
-        mTextViewDescElement5 = (TextView) rootView.findViewById(R.id.text_view_desc_element5);
-        mTextViewDescDetailElement5 = (TextView) rootView.findViewById(R.id.text_view_desc_detail_element5);
-        mLinearLayoutElement5 = (LinearLayout) rootView.findViewById(R.id.linear_layout_element5);
+        mTextViewNomElement5 = rootView.findViewById(R.id.text_view_nom_element5);
+        mTextViewDescElement5 = rootView.findViewById(R.id.text_view_desc_element5);
+        mTextViewDescDetailElement5 = rootView.findViewById(R.id.text_view_desc_detail_element5);
+        mLinearLayoutElement5 = rootView.findViewById(R.id.linear_layout_element5);
 
-        mTextViewPasElement = (TextView) rootView.findViewById(R.id.text_view_pas_element_synthese);
+        mTextViewPasElement = rootView.findViewById(R.id.text_view_pas_element_synthese);
     }
 
 
@@ -248,11 +216,11 @@ public class ViewSyntheseDetailleFragment extends Fragment {
                     mTextViewPasElement.setText(R.string.pas_element_dominant);
                 else
                     mTextViewPasElement.setText("");
-                setDetailElement("FEU","DOMINANT", mImageViewElement1, mTextViewNomElement1, mTextViewDescElement1, mTextViewDescDetailElement1,mLinearLayoutElement1);
-                setDetailElement("TERRE","DOMINANT", mImageViewElement2, mTextViewNomElement2, mTextViewDescElement2, mTextViewDescDetailElement2,mLinearLayoutElement2);
-                setDetailElement("METAL","DOMINANT", mImageViewElement3, mTextViewNomElement3, mTextViewDescElement3, mTextViewDescDetailElement3,mLinearLayoutElement3);
-                setDetailElement("EAU","DOMINANT", mImageViewElement4, mTextViewNomElement4, mTextViewDescElement4, mTextViewDescDetailElement4,mLinearLayoutElement4);
-                setDetailElement("BOIS","DOMINANT", mImageViewElement5, mTextViewNomElement5, mTextViewDescElement5, mTextViewDescDetailElement5,mLinearLayoutElement5);
+                setDetailElement("FEU", "DOMINANT", mImageViewElement1, mTextViewNomElement1, mTextViewDescElement1, mTextViewDescDetailElement1, mLinearLayoutElement1);
+                setDetailElement("TERRE", "DOMINANT", mImageViewElement2, mTextViewNomElement2, mTextViewDescElement2, mTextViewDescDetailElement2, mLinearLayoutElement2);
+                setDetailElement("METAL", "DOMINANT", mImageViewElement3, mTextViewNomElement3, mTextViewDescElement3, mTextViewDescDetailElement3, mLinearLayoutElement3);
+                setDetailElement("EAU", "DOMINANT", mImageViewElement4, mTextViewNomElement4, mTextViewDescElement4, mTextViewDescDetailElement4, mLinearLayoutElement4);
+                setDetailElement("BOIS", "DOMINANT", mImageViewElement5, mTextViewNomElement5, mTextViewDescElement5, mTextViewDescDetailElement5, mLinearLayoutElement5);
                 break;
             case "VIDE":
 
@@ -261,11 +229,11 @@ public class ViewSyntheseDetailleFragment extends Fragment {
                     mTextViewPasElement.setText(R.string.pas_element_vide);
                 else
                     mTextViewPasElement.setText("");
-                setDetailElement("FEU","VIDE", mImageViewElement1, mTextViewNomElement1, mTextViewDescElement1, mTextViewDescDetailElement1,mLinearLayoutElement1);
-                setDetailElement("TERRE","VIDE", mImageViewElement2, mTextViewNomElement2, mTextViewDescElement2, mTextViewDescDetailElement2,mLinearLayoutElement2);
-                setDetailElement("METAL","VIDE", mImageViewElement3, mTextViewNomElement3, mTextViewDescElement3, mTextViewDescDetailElement3,mLinearLayoutElement3);
-                setDetailElement("EAU","VIDE", mImageViewElement4, mTextViewNomElement4, mTextViewDescElement4, mTextViewDescDetailElement4,mLinearLayoutElement4);
-                setDetailElement("BOIS","VIDE", mImageViewElement5, mTextViewNomElement5, mTextViewDescElement5, mTextViewDescDetailElement5,mLinearLayoutElement5);
+                setDetailElement("FEU", "VIDE", mImageViewElement1, mTextViewNomElement1, mTextViewDescElement1, mTextViewDescDetailElement1, mLinearLayoutElement1);
+                setDetailElement("TERRE", "VIDE", mImageViewElement2, mTextViewNomElement2, mTextViewDescElement2, mTextViewDescDetailElement2, mLinearLayoutElement2);
+                setDetailElement("METAL", "VIDE", mImageViewElement3, mTextViewNomElement3, mTextViewDescElement3, mTextViewDescDetailElement3, mLinearLayoutElement3);
+                setDetailElement("EAU", "VIDE", mImageViewElement4, mTextViewNomElement4, mTextViewDescElement4, mTextViewDescDetailElement4, mLinearLayoutElement4);
+                setDetailElement("BOIS", "VIDE", mImageViewElement5, mTextViewNomElement5, mTextViewDescElement5, mTextViewDescDetailElement5, mLinearLayoutElement5);
 
                 break;
             case "NEUTRE":
@@ -275,29 +243,25 @@ public class ViewSyntheseDetailleFragment extends Fragment {
                     mTextViewPasElement.setText(R.string.pas_element_neutre);
                 else
                     mTextViewPasElement.setText("");
-                setDetailElement("FEU","NEUTRE", mImageViewElement1, mTextViewNomElement1, mTextViewDescElement1, mTextViewDescDetailElement1,mLinearLayoutElement1);
-                setDetailElement("TERRE","NEUTRE", mImageViewElement2, mTextViewNomElement2, mTextViewDescElement2, mTextViewDescDetailElement2,mLinearLayoutElement2);
-                setDetailElement("METAL","NEUTRE", mImageViewElement3, mTextViewNomElement3, mTextViewDescElement3, mTextViewDescDetailElement3,mLinearLayoutElement3);
-                setDetailElement("EAU","NEUTRE", mImageViewElement4, mTextViewNomElement4, mTextViewDescElement4, mTextViewDescDetailElement4,mLinearLayoutElement4);
-                setDetailElement("BOIS","NEUTRE", mImageViewElement5, mTextViewNomElement5, mTextViewDescElement5, mTextViewDescDetailElement5,mLinearLayoutElement5);
+                setDetailElement("FEU", "NEUTRE", mImageViewElement1, mTextViewNomElement1, mTextViewDescElement1, mTextViewDescDetailElement1, mLinearLayoutElement1);
+                setDetailElement("TERRE", "NEUTRE", mImageViewElement2, mTextViewNomElement2, mTextViewDescElement2, mTextViewDescDetailElement2, mLinearLayoutElement2);
+                setDetailElement("METAL", "NEUTRE", mImageViewElement3, mTextViewNomElement3, mTextViewDescElement3, mTextViewDescDetailElement3, mLinearLayoutElement3);
+                setDetailElement("EAU", "NEUTRE", mImageViewElement4, mTextViewNomElement4, mTextViewDescElement4, mTextViewDescDetailElement4, mLinearLayoutElement4);
+                setDetailElement("BOIS", "NEUTRE", mImageViewElement5, mTextViewNomElement5, mTextViewDescElement5, mTextViewDescDetailElement5, mLinearLayoutElement5);
 
                 break;
         }
     }
 
-    private void setDetailElement(String stringElement,String type, ImageView imageView, TextView textViewNom, TextView textViewDesc, TextView textViewDescDetail,LinearLayout linearLayout) {
+    private void setDetailElement(String stringElement, String type, ImageView imageView, TextView textViewNom, TextView textViewDesc, TextView textViewDescDetail, LinearLayout linearLayout) {
         Element element = new Element(stringElement);
         int nbElement = mSynthese.getNbElement(stringElement);
 
         int idImage = element.getIntId();
 
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-            imageView.setImageDrawable(mContext.getResources().getDrawable(idImage, mContext.getApplicationContext().getTheme()));
-        } else {
-            imageView.setImageDrawable(mContext.getResources().getDrawable(idImage));
-        }
+        imageView.setImageDrawable(mContext.getResources().getDrawable(idImage, mContext.getApplicationContext().getTheme()));
 
-        switch (type){
+        switch (type) {
             case "DOMINANT":
                 textViewDescDetail.setText(element.getTextDominant());
                 if (mSynthese.isDominant(stringElement))

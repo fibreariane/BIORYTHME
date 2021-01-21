@@ -58,19 +58,19 @@ public class ParameterFragment extends Fragment implements View.OnClickListener 
         rootView = inflater.inflate(R.layout.fragment_parameter, container, false);
         mContext = this.getActivity();
         if (mContext != null) {
-            mLinearLayoutReset = (LinearLayout) rootView.findViewById(R.id.linear_layout_reset);
+            mLinearLayoutReset = rootView.findViewById(R.id.linear_layout_reset);
             mLinearLayoutReset.setOnClickListener(this);
-            mLinearLayoutSwitch = (LinearLayout) rootView.findViewById(R.id.linear_layout_switch);
+            mLinearLayoutSwitch = rootView.findViewById(R.id.linear_layout_switch);
             mLinearLayoutSwitch.setOnClickListener(this);
-            mLinearLayoutLangue = (LinearLayout) rootView.findViewById(R.id.linear_layout_langue);
+            mLinearLayoutLangue = rootView.findViewById(R.id.linear_layout_langue);
             mLinearLayoutLangue.setOnClickListener(this);
-            mLinearLayoutAchat = (LinearLayout) rootView.findViewById(R.id.linear_layout_achat);
+            mLinearLayoutAchat = rootView.findViewById(R.id.linear_layout_achat);
             mLinearLayoutAchat.setOnClickListener(this);
-            mLinearLayoutGlossaire = (LinearLayout) rootView.findViewById(R.id.linear_layout_glossaire);
+            mLinearLayoutGlossaire = rootView.findViewById(R.id.linear_layout_glossaire);
             mLinearLayoutGlossaire.setOnClickListener(this);
-            mLinearLayoutEvaluation = (LinearLayout) rootView.findViewById(R.id.linear_layout_evaluation);
+            mLinearLayoutEvaluation = rootView.findViewById(R.id.linear_layout_evaluation);
             mLinearLayoutEvaluation.setOnClickListener(this);
-            mButtonTest = (Button) rootView.findViewById(R.id.btn_test);
+            mButtonTest = rootView.findViewById(R.id.btn_test);
             if (BuildConfig.DEBUG) {
                 mButtonTest.setVisibility(View.VISIBLE);
                 mButtonTest.setOnClickListener(this);

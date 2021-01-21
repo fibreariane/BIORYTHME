@@ -16,8 +16,8 @@ public class DialogInformationFragment extends DialogFragment implements View.On
         @Override
         public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
             View rootView = inflater.inflate(R.layout.fragment_dialog_information, container, false);
-            mButtonOK = (Button) rootView.findViewById(R.id.button_ok);
-            mTextViewTittle = (TextView) rootView.findViewById(R.id.text_view_title);
+            mButtonOK = rootView.findViewById(R.id.button_ok);
+            mTextViewTittle = rootView.findViewById(R.id.text_view_title);
             mTextViewTittle.setText(mTitle);
 
             mButtonOK.setOnClickListener(this);

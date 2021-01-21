@@ -59,10 +59,10 @@ public class ViewBiorythmeActivity extends AppCompatActivity  implements View.On
     }
     public void initBiorythmeLayout() {
         // Année
-        mTextViewNomBinomeA = (TextView) findViewById(R.id.text_view_nom_binomeA);
-        mTextViewPolariteBinomeA = (TextView) findViewById(R.id.text_view_polarite_binomeA);
-        mTextViewDescBinomeA = (TextView) findViewById(R.id.text_view_desc_binomeA);
-        mImageViewBinomeA = (ImageView) findViewById(R.id.image_view_binomeA);
+        mTextViewNomBinomeA = findViewById(R.id.text_view_nom_binomeA);
+        mTextViewPolariteBinomeA = findViewById(R.id.text_view_polarite_binomeA);
+        mTextViewDescBinomeA = findViewById(R.id.text_view_desc_binomeA);
+        mImageViewBinomeA = findViewById(R.id.image_view_binomeA);
 
         setBinome(mBiorythme.getBinomeAnnee(),
                 mTextViewNomBinomeA,
@@ -71,10 +71,10 @@ public class ViewBiorythmeActivity extends AppCompatActivity  implements View.On
                 mImageViewBinomeA);
 
         // Mois
-        mTextViewNomBinomeM = (TextView) findViewById(R.id.text_view_nom_binomeM);
-        mTextViewPolariteBinomeM = (TextView) findViewById(R.id.text_view_polarite_binomeM);
-        mTextViewDescBinomeM = (TextView) findViewById(R.id.text_view_desc_binomeM);
-        mImageViewBinomeM = (ImageView) findViewById(R.id.image_view_binomeM);
+        mTextViewNomBinomeM = findViewById(R.id.text_view_nom_binomeM);
+        mTextViewPolariteBinomeM = findViewById(R.id.text_view_polarite_binomeM);
+        mTextViewDescBinomeM = findViewById(R.id.text_view_desc_binomeM);
+        mImageViewBinomeM = findViewById(R.id.image_view_binomeM);
 
         setBinome(mBiorythme.getBinomeMois(),
                 mTextViewNomBinomeM,
@@ -83,10 +83,10 @@ public class ViewBiorythmeActivity extends AppCompatActivity  implements View.On
                 mImageViewBinomeM);
 
         // Jour
-        mTextViewNomBinomeJ = (TextView) findViewById(R.id.text_view_nom_binomeJ);
-        mTextViewPolariteBinomeJ = (TextView) findViewById(R.id.text_view_polarite_binomeJ);
-        mTextViewDescBinomeJ = (TextView) findViewById(R.id.text_view_desc_binomeJ);
-        mImageViewBinomeJ = (ImageView) findViewById(R.id.image_view_binomeJ);
+        mTextViewNomBinomeJ = findViewById(R.id.text_view_nom_binomeJ);
+        mTextViewPolariteBinomeJ = findViewById(R.id.text_view_polarite_binomeJ);
+        mTextViewDescBinomeJ = findViewById(R.id.text_view_desc_binomeJ);
+        mImageViewBinomeJ = findViewById(R.id.image_view_binomeJ);
 
         setBinome(mBiorythme.getBinomeJour(),
                 mTextViewNomBinomeJ,
@@ -95,10 +95,10 @@ public class ViewBiorythmeActivity extends AppCompatActivity  implements View.On
                 mImageViewBinomeJ);
 
         // Heure
-        mTextViewNomBinomeH = (TextView) findViewById(R.id.text_view_nom_binomeH);
-        mTextViewPolariteBinomeH = (TextView) findViewById(R.id.text_view_polarite_binomeH);
-        mTextViewDescBinomeH = (TextView) findViewById(R.id.text_view_desc_binomeH);
-        mImageViewBinomeH = (ImageView) findViewById(R.id.image_view_binomeH);
+        mTextViewNomBinomeH = findViewById(R.id.text_view_nom_binomeH);
+        mTextViewPolariteBinomeH = findViewById(R.id.text_view_polarite_binomeH);
+        mTextViewDescBinomeH = findViewById(R.id.text_view_desc_binomeH);
+        mImageViewBinomeH = findViewById(R.id.image_view_binomeH);
 
         setBinome(mBiorythme.getBinomeHeure(),
                 mTextViewNomBinomeH,

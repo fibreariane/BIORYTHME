@@ -25,9 +25,9 @@ public class DialogOuiNonFragment extends DialogFragment implements View.OnClick
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.fragment_dialog_oui_non, container, false);
         mContext = this.getActivity();
-        mButtonOK = (Button) rootView.findViewById(R.id.button_ok);
-        mButtonCancel = (Button) rootView.findViewById(R.id.button_cancel);
-        mTextViewTittle = (TextView) rootView.findViewById(R.id.text_view_title);
+        mButtonOK = rootView.findViewById(R.id.button_ok);
+        mButtonCancel = rootView.findViewById(R.id.button_cancel);
+        mTextViewTittle = rootView.findViewById(R.id.text_view_title);
 
         mButtonOK.setText(mTextButtonOK);
         mButtonCancel.setText(mTextButtonCancel);

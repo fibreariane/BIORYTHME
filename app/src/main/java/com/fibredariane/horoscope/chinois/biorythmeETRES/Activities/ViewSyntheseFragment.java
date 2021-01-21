@@ -4,7 +4,9 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
+
 import androidx.fragment.app.Fragment;
+
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -80,10 +82,10 @@ public class ViewSyntheseFragment extends Fragment implements View.OnClickListen
                 mSynthese = new Synthese(mBiorythme);
                 initSyntheseLayout();
 
-                TextView textViewEnSavoirPlus = (TextView) rootView.findViewById(R.id.text_view_en_savoir_plus);
+                TextView textViewEnSavoirPlus = rootView.findViewById(R.id.text_view_en_savoir_plus);
                 textViewEnSavoirPlus.setOnClickListener(this);
 
-                ImageView imageViewSwitchBiorythme = (ImageView) rootView.findViewById(R.id.image_view_switch_biorythme);
+                ImageView imageViewSwitchBiorythme = rootView.findViewById(R.id.image_view_switch_biorythme);
                 imageViewSwitchBiorythme.setOnClickListener(this);
             }
         }
@@ -92,24 +94,24 @@ public class ViewSyntheseFragment extends Fragment implements View.OnClickListen
 
 
     private void initSyntheseLayout() {
-        mImageViewFeu = (ImageView) rootView.findViewById(R.id.image_view_feu);
-        mImageViewEau = (ImageView) rootView.findViewById(R.id.image_view_eau);
-        mImageViewTerre = (ImageView) rootView.findViewById(R.id.image_view_terre);
-        mImageViewMetal = (ImageView) rootView.findViewById(R.id.image_view_metal);
-        mImageViewBois = (ImageView) rootView.findViewById(R.id.image_view_bois);
+        mImageViewFeu = rootView.findViewById(R.id.image_view_feu);
+        mImageViewEau = rootView.findViewById(R.id.image_view_eau);
+        mImageViewTerre = rootView.findViewById(R.id.image_view_terre);
+        mImageViewMetal = rootView.findViewById(R.id.image_view_metal);
+        mImageViewBois = rootView.findViewById(R.id.image_view_bois);
 
-        mImageViewSyntheseBioAnnee = (ImageView) rootView.findViewById(R.id.image_view_synthese_bio_annee);
-        mImageViewSyntheseBioMois = (ImageView) rootView.findViewById(R.id.image_view_synthese_bio_mois);
-        mImageViewSyntheseBioJour = (ImageView) rootView.findViewById(R.id.image_view_synthese_bio_jour);
-        mImageViewSyntheseBioHeure = (ImageView) rootView.findViewById(R.id.image_view_synthese_bio_heure);
+        mImageViewSyntheseBioAnnee = rootView.findViewById(R.id.image_view_synthese_bio_annee);
+        mImageViewSyntheseBioMois = rootView.findViewById(R.id.image_view_synthese_bio_mois);
+        mImageViewSyntheseBioJour = rootView.findViewById(R.id.image_view_synthese_bio_jour);
+        mImageViewSyntheseBioHeure = rootView.findViewById(R.id.image_view_synthese_bio_heure);
 
-        mTextViewNomBinomeA = (TextView) rootView.findViewById(R.id.text_view_nom_binomeA);
-        mTextViewNomBinomeM = (TextView) rootView.findViewById(R.id.text_view_nom_binomeM);
-        mTextViewNomBinomeJ = (TextView) rootView.findViewById(R.id.text_view_nom_binomeJ);
-        mTextViewNomBinomeH = (TextView) rootView.findViewById(R.id.text_view_nom_binomeH);
+        mTextViewNomBinomeA = rootView.findViewById(R.id.text_view_nom_binomeA);
+        mTextViewNomBinomeM = rootView.findViewById(R.id.text_view_nom_binomeM);
+        mTextViewNomBinomeJ = rootView.findViewById(R.id.text_view_nom_binomeJ);
+        mTextViewNomBinomeH = rootView.findViewById(R.id.text_view_nom_binomeH);
 
-        mSyntheseType = (TextView) rootView.findViewById(R.id.text_view_synthese_type);
-        mTextViewSyntheseElement= (TextView) rootView.findViewById(R.id.text_view_synthese_element);
+        mSyntheseType = rootView.findViewById(R.id.text_view_synthese_type);
+        mTextViewSyntheseElement = rootView.findViewById(R.id.text_view_synthese_element);
         setSynthese();
     }
 
@@ -117,17 +119,11 @@ public class ViewSyntheseFragment extends Fragment implements View.OnClickListen
     private void setSynthese() {
 
         mSyntheseType.setText("SYNTHESE DU " + mBiorythme.getDateString());
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-            mImageViewSyntheseBioAnnee.setImageDrawable(getResources().getDrawable(mBiorythme.getBinomeAnnee().getIntIdMini(), mContext.getApplicationContext().getTheme()));
-            mImageViewSyntheseBioMois.setImageDrawable(getResources().getDrawable(mBiorythme.getBinomeMois().getIntIdMini(), mContext.getApplicationContext().getTheme()));
-            mImageViewSyntheseBioJour.setImageDrawable(getResources().getDrawable(mBiorythme.getBinomeJour().getIntIdMini(), mContext.getApplicationContext().getTheme()));
-            mImageViewSyntheseBioHeure.setImageDrawable(getResources().getDrawable(mBiorythme.getBinomeHeure().getIntIdMini(), mContext.getApplicationContext().getTheme()));
-        }else{
-            mImageViewSyntheseBioAnnee.setImageDrawable(getResources().getDrawable(mBiorythme.getBinomeAnnee().getIntIdMini()));
-            mImageViewSyntheseBioMois.setImageDrawable(getResources().getDrawable(mBiorythme.getBinomeMois().getIntIdMini()));
-            mImageViewSyntheseBioJour.setImageDrawable(getResources().getDrawable(mBiorythme.getBinomeJour().getIntIdMini()));
-            mImageViewSyntheseBioHeure.setImageDrawable(getResources().getDrawable(mBiorythme.getBinomeHeure().getIntIdMini()));
-        }
+        mImageViewSyntheseBioAnnee.setImageDrawable(getResources().getDrawable(mBiorythme.getBinomeAnnee().getIntIdMini(), mContext.getApplicationContext().getTheme()));
+        mImageViewSyntheseBioMois.setImageDrawable(getResources().getDrawable(mBiorythme.getBinomeMois().getIntIdMini(), mContext.getApplicationContext().getTheme()));
+        mImageViewSyntheseBioJour.setImageDrawable(getResources().getDrawable(mBiorythme.getBinomeJour().getIntIdMini(), mContext.getApplicationContext().getTheme()));
+        mImageViewSyntheseBioHeure.setImageDrawable(getResources().getDrawable(mBiorythme.getBinomeHeure().getIntIdMini(), mContext.getApplicationContext().getTheme()));
+
         mTextViewNomBinomeA.setText(mBiorythme.getBinomeAnnee().getNom());
         mTextViewNomBinomeM.setText(mBiorythme.getBinomeMois().getNom());
         mTextViewNomBinomeJ.setText(mBiorythme.getBinomeJour().getNom());
@@ -139,10 +135,10 @@ public class ViewSyntheseFragment extends Fragment implements View.OnClickListen
         setElement("METAL", mImageViewMetal);
         setElement("BOIS", mImageViewBois);
 
-        if ((mSynthese.getNbDominant() == 0) && (mSynthese.getNbVide() == 0)){
+        if ((mSynthese.getNbDominant() == 0) && (mSynthese.getNbVide() == 0)) {
             mTextViewSyntheseElement.setText("Mes éléments sont équilibrés.");
-        }else{
-            mTextViewSyntheseElement.setText("Il y a "+mSynthese.getNbDominant()+" élément(s) dominant(s) et "+mSynthese.getNbVide()+" élément(s) vide(s).");
+        } else {
+            mTextViewSyntheseElement.setText("Il y a " + mSynthese.getNbDominant() + " élément(s) dominant(s) et " + mSynthese.getNbVide() + " élément(s) vide(s).");
         }
 
     }
@@ -163,12 +159,7 @@ public class ViewSyntheseFragment extends Fragment implements View.OnClickListen
             idImage = element.getIntId();
             imageView.setPadding(0, 0, 0, 0);
         }
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-            imageView.setImageDrawable(getResources().getDrawable(idImage, mContext.getApplicationContext().getTheme()));
-        } else {
-            imageView.setImageDrawable(getResources().getDrawable(idImage));
-        }
-
+        imageView.setImageDrawable(getResources().getDrawable(idImage, mContext.getApplicationContext().getTheme()));
     }
 
     @Override
