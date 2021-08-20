@@ -25,11 +25,6 @@ public class ViewSyntheseFragment extends Fragment implements View.OnClickListen
     private static final String ARG_SECTION_NUMBER = "section_number";
     private static final String ARG_BIORYTHME = "biorythme";
 
-    private ImageView mImageViewFeu;
-    private ImageView mImageViewEau;
-    private ImageView mImageViewTerre;
-    private ImageView mImageViewMetal;
-    private ImageView mImageViewBois;
     private ImageView mImageViewSyntheseBioAnnee;
     private ImageView mImageViewSyntheseBioMois;
     private ImageView mImageViewSyntheseBioJour;
@@ -39,7 +34,6 @@ public class ViewSyntheseFragment extends Fragment implements View.OnClickListen
     private TextView mTextViewNomBinomeJ;
     private TextView mTextViewNomBinomeH;
     private TextView mSyntheseType;
-    private TextView mTextViewSyntheseElement;
     private Biorythme mBiorythme;
     private Synthese mSynthese;
     private Context mContext;
@@ -94,12 +88,6 @@ public class ViewSyntheseFragment extends Fragment implements View.OnClickListen
 
 
     private void initSyntheseLayout() {
-        mImageViewFeu = rootView.findViewById(R.id.image_view_feu);
-        mImageViewEau = rootView.findViewById(R.id.image_view_eau);
-        mImageViewTerre = rootView.findViewById(R.id.image_view_terre);
-        mImageViewMetal = rootView.findViewById(R.id.image_view_metal);
-        mImageViewBois = rootView.findViewById(R.id.image_view_bois);
-
         mImageViewSyntheseBioAnnee = rootView.findViewById(R.id.image_view_synthese_bio_annee);
         mImageViewSyntheseBioMois = rootView.findViewById(R.id.image_view_synthese_bio_mois);
         mImageViewSyntheseBioJour = rootView.findViewById(R.id.image_view_synthese_bio_jour);
@@ -111,7 +99,6 @@ public class ViewSyntheseFragment extends Fragment implements View.OnClickListen
         mTextViewNomBinomeH = rootView.findViewById(R.id.text_view_nom_binomeH);
 
         mSyntheseType = rootView.findViewById(R.id.text_view_synthese_type);
-        mTextViewSyntheseElement = rootView.findViewById(R.id.text_view_synthese_element);
         setSynthese();
     }
 
@@ -128,38 +115,6 @@ public class ViewSyntheseFragment extends Fragment implements View.OnClickListen
         mTextViewNomBinomeM.setText(mBiorythme.getBinomeMois().getNom());
         mTextViewNomBinomeJ.setText(mBiorythme.getBinomeJour().getNom());
         mTextViewNomBinomeH.setText(mBiorythme.getBinomeHeure().getNom());
-
-        setElement("FEU", mImageViewFeu);
-        setElement("EAU", mImageViewEau);
-        setElement("TERRE", mImageViewTerre);
-        setElement("METAL", mImageViewMetal);
-        setElement("BOIS", mImageViewBois);
-
-        if ((mSynthese.getNbDominant() == 0) && (mSynthese.getNbVide() == 0)) {
-            mTextViewSyntheseElement.setText("Mes éléments sont équilibrés.");
-        } else {
-            mTextViewSyntheseElement.setText("Il y a " + mSynthese.getNbDominant() + " élément(s) dominant(s) et " + mSynthese.getNbVide() + " élément(s) vide(s).");
-        }
-
-    }
-
-    private void setElement(String stringElement, ImageView imageView) {
-        Element element = new Element(stringElement);
-        int nbElement = mSynthese.getNbElement(stringElement);
-        int idImage = element.getIntId();
-        if (nbElement <= 1) {
-            idImage = element.getIntIdVide();
-            imageView.setPadding(15, 15, 15, 15);
-        }
-        if (nbElement == 2 || nbElement == 3) {
-            idImage = element.getIntIdMini();
-            imageView.setPadding(15, 15, 15, 15);
-        }
-        if (nbElement > 3) {
-            idImage = element.getIntId();
-            imageView.setPadding(0, 0, 0, 0);
-        }
-        imageView.setImageDrawable(getResources().getDrawable(idImage, mContext.getApplicationContext().getTheme()));
     }
 
     @Override
