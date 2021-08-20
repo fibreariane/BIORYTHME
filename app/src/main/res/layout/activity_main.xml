@@ -47,35 +47,69 @@
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/menu_accueil" />
 
-        <com.google.android.material.bottomnavigation.BottomNavigationView
-            android:id="@+id/menu_horoscope"
+        <LinearLayout
+            android:id="@+id/layout_menu_secondaire"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="70dp"
-            android:visibility="invisible"
-            app:layout_constraintTop_toTopOf="parent"
-            app:menu="@menu/menu_horoscope" />
+            android:background="@color/colorWhite"
+            android:gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
 
-        <com.google.android.material.bottomnavigation.BottomNavigationView
-            android:id="@+id/menu_biorythme"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="70dp"
-            android:visibility="gone"
-            app:layout_constraintTop_toTopOf="parent"
-            app:menu="@menu/menu_biorythme" />
+            <ImageView
+                android:id="@+id/btn_etres_produit"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@color/colorWhite"
+                android:layout_marginTop="6dp"
+                android:layout_marginRight="@dimen/activity_vertical_margin"
+                android:clickable="true"
+                android:contentDescription="Produits ETRES"
+                android:focusable="true"
+                android:onClick="onClick"
+                android:visibility="visible"
+                app:srcCompat="@drawable/produits_beaute" />
+
+            <ImageView
+                android:id="@+id/btn_etres"
+                android:layout_width="160dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="@dimen/activity_vertical_margin_double"
+                android:layout_marginRight="@dimen/activity_vertical_margin_double"
+                android:background="@color/colorWhite"
+                android:clickable="true"
+                android:contentDescription="Présentation ETRES"
+                android:focusable="true"
+                android:onClick="onClick"
+                android:visibility="visible"
+                app:srcCompat="@drawable/menu_etres" />
+
+            <ImageView
+                android:id="@+id/btn_etres_pros"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginLeft="@dimen/activity_vertical_margin"
+                android:background="@color/colorWhite"
+                android:clickable="true"
+                android:contentDescription="Professionnels ETRES"
+                android:focusable="true"
+                android:onClick="onClick"
+                android:visibility="visible"
+                app:srcCompat="@drawable/menu_carte" />
+        </LinearLayout>
 
         <androidx.viewpager.widget.ViewPager
             android:id="@+id/container"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:layout_weight="3"
+            android:paddingBottom="110dp"
             app:layout_behavior="@string/appbar_scrolling_view_behavior"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/btn_parametre" />
+            app:layout_constraintTop_toBottomOf="@+id/btn_parametre">
+
+        </androidx.viewpager.widget.ViewPager>
     </androidx.constraintlayout.widget.ConstraintLayout>
-
-
 </LinearLayout>

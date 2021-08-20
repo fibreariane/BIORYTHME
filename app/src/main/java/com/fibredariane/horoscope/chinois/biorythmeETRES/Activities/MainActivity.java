@@ -2,12 +2,15 @@ package com.fibredariane.horoscope.chinois.biorythmeETRES.Activities;
 
 import android.content.Context;
 import android.content.Intent;
+
 import androidx.appcompat.app.AppCompatActivity;
 
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentStatePagerAdapter;
 import androidx.viewpager.widget.ViewPager;
+
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
@@ -68,6 +71,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             mViewPager.setPageTransformer(true, new ZoomOutPageTransformer());
 
             mBtnAccueil = findViewById(R.id.btn_accueil);
+            findViewById(R.id.layout_menu_secondaire).bringToFront();
+
 
             // Initialisation des variables globales
             LocalDateTime date = LocalDateTime.now();
@@ -120,7 +125,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                             " " + localDate.getYear();
                     return ViewBinomeFragment.newInstance(position, mBiorythmeOfTheDay.getBinomeJour(), "Découvrez sous quelle énergie cette journée est placée", "ENERGIE DU " + dateJour);
                 case 2: // Horoscope Jour
-                    return ViewHoroscopeFragment.newInstance(position, mHoroscopeDay, mBiorythmeUser,mBiorythmeOfTheDay.getBinomeJour());
+                    return ViewHoroscopeFragment.newInstance(position, mHoroscopeDay, mBiorythmeUser, mBiorythmeOfTheDay.getBinomeJour());
                 case 3: // Biorythme
                     return ViewSyntheseFragment.newInstance(position, mBiorythmeUser);
                 case 4:
@@ -138,6 +143,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public void onClick(View v) {
+        String url;
+        Intent i;
         switch (v.getId()) {
             case R.id.btn_accueil:
                 mViewPager.setCurrentItem(0);
@@ -145,7 +152,25 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.btn_parametre:
                 mViewPager.setCurrentItem(4);
                 break;
-             default:
+            case R.id.btn_etres:
+                url = "https://www.etrescosmetique.com/cosmetique-presentation";
+                i = new Intent(Intent.ACTION_VIEW);
+                i.setData(Uri.parse(url));
+                startActivity(i);
+                break;
+            case R.id.btn_etres_produit:
+                url = "https://www.etrescosmetique.com/la-gamme-des-produits-naturels";
+                i = new Intent(Intent.ACTION_VIEW);
+                i.setData(Uri.parse(url));
+                startActivity(i);
+                break;
+            case R.id.btn_etres_pros:
+                url = "https://www.etrescosmetique.com/la-carte-geographique-des-membres";
+                i = new Intent(Intent.ACTION_VIEW);
+                i.setData(Uri.parse(url));
+                startActivity(i);
+                break;
+            default:
                 break;
         }
 
@@ -167,6 +192,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 binomeJour,
                 binomeHeure);
     }
+
     private Biorythme getBiorythme(String dateString, String stringBiorythme) {
         String[] dates = dateString.split("\\.");
         String[] binomes = stringBiorythme.split("\\.");
@@ -184,13 +210,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 binomeJour,
                 binomeHeure);
     }
+
     private Boolean biorythmeCorrect(String stringBiorythme) {
         String[] binomes = stringBiorythme.split("\\.");
 
         return (binomes[0] != "0") &&
                 (binomes[1] != "0") &&
                 (binomes[2] != "0") &&
-                (binomes[3] != "0") ;
+                (binomes[3] != "0");
     }
 
     @Override
