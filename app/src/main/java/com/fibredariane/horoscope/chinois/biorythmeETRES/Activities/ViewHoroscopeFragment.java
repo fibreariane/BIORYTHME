@@ -32,9 +32,6 @@ public class ViewHoroscopeFragment extends Fragment implements View.OnClickListe
     private static final String ARG_BINOME = "binome";
 
     private TextView mTextViewHoroscopeYear;
-    private TextView mTextViewHoroscopeMonth;
-    private TextView mTextViewHoroscopeDay;
-    private TextView mTextViewHoroscopeHour;
     private ImageView mImageViewHoroscopeMeteoYear;
     private ImageView mImageViewHoroscopeMeteoMonth;
     private ImageView mImageViewHoroscopeMeteoDay;
@@ -99,9 +96,6 @@ public class ViewHoroscopeFragment extends Fragment implements View.OnClickListe
     public void initDayLayout() {
 
         mTextViewHoroscopeYear = rootView.findViewById(R.id.text_view_horoscope_annee);
-        mTextViewHoroscopeMonth = rootView.findViewById(R.id.text_view_horoscope_mois);
-        mTextViewHoroscopeDay = rootView.findViewById(R.id.text_view_horoscope_jour);
-        mTextViewHoroscopeHour = rootView.findViewById(R.id.text_view_horoscope_heure);
 
         mImageViewHoroscopeMeteoYear = rootView.findViewById(R.id.image_view_horoscope_meteo_annee);
         mImageViewHoroscopeMeteoMonth = rootView.findViewById(R.id.image_view_horoscope_meteo_mois);
@@ -138,9 +132,6 @@ public class ViewHoroscopeFragment extends Fragment implements View.OnClickListe
             mTextViewHoroscopeExpl.setText("Découvrez votre horoscope du jour");
 
             mTextViewHoroscopeYear.setText(mHoroscope.getTextInfluenceAnnee());
-            mTextViewHoroscopeMonth.setText(mHoroscope.getTextInfluenceMois());
-            mTextViewHoroscopeDay.setText(mHoroscope.getTextInfluenceJour());
-            mTextViewHoroscopeHour.setText(mHoroscope.getTextInfluenceHeure());
             mImageViewHoroscope.setImageDrawable(getResources().getDrawable(InfosBinomes.getIdTotInfluence(mContext, mBinomeCurrent, mBiorythmeUser), mContext.getApplicationContext().getTheme()));
             mImageViewHoroscopeMeteoYear.setImageDrawable(getResources().getDrawable(mHoroscope.getIdImageInfluenceAnnee(), mContext.getApplicationContext().getTheme()));
             mImageViewHoroscopeMeteoMonth.setImageDrawable(getResources().getDrawable(mHoroscope.getIdImageInfluenceMois(), mContext.getApplicationContext().getTheme()));

@@ -35,7 +35,7 @@
     <string name="day">HoroJour</string>
     <string name="month">HoroMois</string>
     <string name="year">HoroAnnée</string>
-    <string name="correspondance_annee">SOCIAL</string>
+    <string name="correspondance_annee">HUMEUR</string>
     <string name="correspondance_mois">AMOUR</string>
     <string name="correspondance_jour">CHANCE</string>
     <string name="correspondance_heure">SANTE</string>

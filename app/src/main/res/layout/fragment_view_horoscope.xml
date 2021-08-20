@@ -45,98 +45,78 @@
             android:layout_height="wrap_content"
             android:src="@drawable/meteo_fc_accueil" />
 
-        <LinearLayout
-            android:layout_width="match_parent"
+        <TextView
+            android:id="@+id/text_view_horoscope_annee"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
             android:layout_marginTop="@dimen/activity_horizontal_margin"
-            android:gravity="left"
+            android:text="Energie très favorable pour vos projets." />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/activity_vertical_margin_double"
             android:orientation="horizontal">
 
             <LinearLayout
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/activity_vertical_margin"
                 android:orientation="vertical">
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:paddingLeft="80dp">
-
-                    <ImageView
-                        android:id="@+id/image_view_horoscope_bio_annee"
-                        android:layout_width="30dp"
-                        android:layout_height="30dp"
-                        android:background="@color/colorWhite"
-                        android:src="@drawable/bois_arbre_grande_foret_mini" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="@dimen/activity_horizontal_margin"
-                        android:text="@string/correspondance_annee"
-                        android:textAppearance="?android:attr/textAppearanceMedium"
-                        android:textColor="@color/colorPrimaryDark"
-                        android:textStyle="normal|bold" />
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal">
-
-                    <ImageView
-                        android:id="@+id/image_view_horoscope_meteo_annee"
-                        android:layout_width="70dp"
-                        android:layout_height="70dp"
-                        android:layout_gravity="center"
-                        android:src="@drawable/meteo_fc" />
-
-                    <TextView
-                        android:id="@+id/text_view_horoscope_annee"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="@dimen/activity_horizontal_margin"
-                        android:layout_marginTop="@dimen/activity_horizontal_margin"
-                        android:text="Energie très favorable pour vos projets." />
-                </LinearLayout>
-            </LinearLayout>
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="left"
-            android:orientation="vertical">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:paddingLeft="80dp">
-
                 <ImageView
-                    android:id="@+id/image_view_horoscope_bio_mois"
-                    android:layout_width="30dp"
-                    android:layout_height="30dp"
+                    android:id="@+id/image_view_horoscope_bio_annee"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
                     android:background="@color/colorWhite"
                     android:src="@drawable/bois_arbre_grande_foret_mini" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/activity_vertical_margin"
+                    android:text="@string/correspondance_annee"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textStyle="normal|bold" />
+
+                <ImageView
+                    android:id="@+id/image_view_horoscope_meteo_annee"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/meteo_fc" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/activity_vertical_margin"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/image_view_horoscope_bio_mois"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:background="@color/colorWhite"
+                    android:src="@drawable/bois_arbre_grande_foret_mini" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/activity_vertical_margin"
                     android:text="@string/correspondance_mois"
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:textColor="@color/colorPrimaryDark"
                     android:textStyle="normal|bold" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
 
                 <ImageView
                     android:id="@+id/image_view_horoscope_meteo_mois"
@@ -144,50 +124,31 @@
                     android:layout_height="70dp"
                     android:layout_gravity="center"
                     android:src="@drawable/meteo_fc" />
-
-                <TextView
-                    android:id="@+id/text_view_horoscope_mois"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="@dimen/activity_horizontal_margin"
-                    android:layout_marginTop="@dimen/activity_horizontal_margin"
-                    android:text="Energie très favorable pour vos projets." />
             </LinearLayout>
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="left"
-            android:orientation="vertical">
 
             <LinearLayout
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:paddingLeft="80dp">
+                android:layout_marginRight="@dimen/activity_vertical_margin"
+                android:orientation="vertical">
 
                 <ImageView
                     android:id="@+id/image_view_horoscope_bio_jour"
-                    android:layout_width="30dp"
-                    android:layout_height="30dp"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
                     android:background="@color/colorWhite"
                     android:src="@drawable/bois_arbre_grande_foret_mini" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/activity_vertical_margin"
                     android:text="@string/correspondance_jour"
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:textColor="@color/colorPrimaryDark"
                     android:textStyle="normal|bold" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
 
                 <ImageView
                     android:id="@+id/image_view_horoscope_meteo_jour"
@@ -195,51 +156,30 @@
                     android:layout_height="70dp"
                     android:layout_gravity="center"
                     android:src="@drawable/meteo_fc" />
-
-                <TextView
-                    android:id="@+id/text_view_horoscope_jour"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="@dimen/activity_horizontal_margin"
-                    android:layout_marginTop="@dimen/activity_horizontal_margin"
-                    android:text="Energie très favorable pour vos projets." />
             </LinearLayout>
-        </LinearLayout>
-
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="left"
-            android:orientation="vertical">
 
             <LinearLayout
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:paddingLeft="80dp">
+                android:orientation="vertical">
 
                 <ImageView
                     android:id="@+id/image_view_horoscope_bio_heure"
-                    android:layout_width="30dp"
-                    android:layout_height="30dp"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
                     android:background="@color/colorWhite"
                     android:src="@drawable/bois_arbre_grande_foret_mini" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/activity_vertical_margin"
                     android:text="@string/correspondance_heure"
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:textColor="@color/colorPrimaryDark"
                     android:textStyle="normal|bold" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
 
                 <ImageView
                     android:id="@+id/image_view_horoscope_meteo_heure"
@@ -247,14 +187,6 @@
                     android:layout_height="70dp"
                     android:layout_gravity="center"
                     android:src="@drawable/meteo_tf" />
-
-                <TextView
-                    android:id="@+id/text_view_horoscope_heure"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:layout_marginLeft="@dimen/activity_horizontal_margin"
-                    android:layout_marginTop="@dimen/activity_horizontal_margin"
-                    android:text="Energie très favorable pour vos projets." />
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>
