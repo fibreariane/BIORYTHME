@@ -123,7 +123,7 @@ public class CalculBinomes {
             case 1981:
             case 1987:
             case 1992:
-                if (date.isAfter(LocalDate.of(year, 28, 3))
+                if (date.isAfter(LocalDate.of(year, 3, 28))
                         && date.isBefore(LocalDate.of(year, 9, 28))) {
                     decalage = -2;
                 }
