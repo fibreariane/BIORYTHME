@@ -4,9 +4,6 @@ import android.app.Dialog;
 import android.app.TimePickerDialog;
 import android.content.Context;
 import android.os.Bundle;
-
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.EditText;
@@ -14,16 +11,17 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.TimePicker;
 
-import com.fibredariane.horoscope.chinois.biorythmeETRES.Activities.MainActivity;
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.fibredariane.horoscope.chinois.biorythmeETRES.Models.Binome;
 import com.fibredariane.horoscope.chinois.biorythmeETRES.Models.Biorythme;
 import com.fibredariane.horoscope.chinois.biorythmeETRES.R;
 import com.fibredariane.horoscope.chinois.biorythmeETRES.Utils.CalculBinomes;
 import com.fibredariane.horoscope.chinois.biorythmeETRES.Utils.ManageRecordDB;
 
+import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
-import java.time.*;
 
 
 public class TestBiorythmeActivity extends AppCompatActivity implements TimePickerDialog.OnTimeSetListener, View.OnClickListener {

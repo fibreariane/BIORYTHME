@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/colorWhite"
+    android:orientation="vertical"
+    tools:context="com.fibredariane.horoscope.chinois.biorythmeETRES.Activities.MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:id="@+id/btn_parametre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/activity_vertical_margin"
+            android:layout_marginTop="16dp"
+            android:background="@color/colorWhite"
+            android:clickable="true"
+            android:contentDescription="@string/parametre"
+            android:focusable="true"
+            android:onClick="onClick"
+            android:visibility="visible"
+            app:layout_constraintStart_toEndOf="@+id/btn_accueil"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/menu_parametre" />
+
+        <ImageButton
+            android:id="@+id/btn_accueil"
+            style="@android:style/Widget.Material.Light.ImageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="16dp"
+            android:background="@color/colorWhite"
+            android:clickable="true"
+            android:contentDescription="@string/accueil"
+            android:focusable="true"
+            android:onClick="onClick"
+            android:visibility="visible"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/menu_accueil" />
+
+        <LinearLayout
+            android:id="@+id/layout_menu_secondaire"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorWhite"
+            android:gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <ImageView
+                android:id="@+id/btn_etres_produit"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@color/colorWhite"
+                android:layout_marginTop="6dp"
+                android:layout_marginRight="@dimen/activity_vertical_margin"
+                android:clickable="true"
+                android:contentDescription="Produits ETRES"
+                android:focusable="true"
+                android:onClick="onClick"
+                android:visibility="visible"
+                app:srcCompat="@drawable/produits_beaute" />
+
+            <ImageView
+                android:id="@+id/btn_etres"
+                android:layout_width="160dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="@dimen/activity_vertical_margin_double"
+                android:layout_marginRight="@dimen/activity_vertical_margin_double"
+                android:background="@color/colorWhite"
+                android:clickable="true"
+                android:contentDescription="Présentation ETRES"
+                android:focusable="true"
+                android:onClick="onClick"
+                android:visibility="visible"
+                app:srcCompat="@drawable/menu_etres" />
+
+            <ImageView
+                android:id="@+id/btn_etres_pros"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginLeft="@dimen/activity_vertical_margin"
+                android:background="@color/colorWhite"
+                android:clickable="true"
+                android:contentDescription="Professionnels ETRES"
+                android:focusable="true"
+                android:onClick="onClick"
+                android:visibility="visible"
+                app:srcCompat="@drawable/menu_carte" />
+        </LinearLayout>
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:paddingBottom="110dp"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_parametre">
+
+        </androidx.viewpager.widget.ViewPager>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

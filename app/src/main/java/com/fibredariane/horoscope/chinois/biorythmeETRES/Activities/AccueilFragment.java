@@ -173,7 +173,7 @@ public class AccueilFragment extends Fragment implements View.OnClickListener {
                     break;
             }
         } else {
-            Intent intent = new Intent(mContext, MainActivity.class);
+            Intent intent = new Intent(mContext, MenuActivity.class);
             startActivity(intent);
         }
 

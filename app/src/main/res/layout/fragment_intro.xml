@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".IntroFragment"
+    android:layout_margin="@dimen/activity_vertical_margin"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_vertical_margin"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:layout_marginBottom="@dimen/activity_vertical_margin_double"
+        android:text="E.T.R.E.S. vous offre votre profil psychologique et votre horoscope issus de la tradition chinoise." />
+
+    <ImageView
+        android:id="@+id/btn_etres_main"
+        android:layout_width="160dp"
+        android:layout_height="100dp"
+        android:background="@color/colorWhite"
+        android:clickable="true"
+        android:contentDescription="ETRES"
+        android:focusable="true"
+        android:visibility="visible"
+        app:srcCompat="@drawable/menu_etres" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginBottom="@dimen/activity_vertical_margin_double"
+        android:text="E.T.R.E.S. - Cosmétique énergétique et sensorielle" />
+
+
+    <TextView
+        android:id="@+id/text_view_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="Suivant"
+        android:textAllCaps="true"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

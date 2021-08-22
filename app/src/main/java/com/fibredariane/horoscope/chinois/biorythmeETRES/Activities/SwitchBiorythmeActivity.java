@@ -188,7 +188,7 @@ public class SwitchBiorythmeActivity extends AppCompatActivity implements TimePi
             if (ok) {
                 String date = year + "." + month + "." + day + "." + mHour + "." + mMinute;
                 mPreferences.setBiorythmePref(date, CalculBinomes.getStringBinome(year, month, day, mHour, mMinute));
-                Intent intent = new Intent(mContext, MainActivity.class);
+                Intent intent = new Intent(mContext, MenuActivity.class);
                 startActivity(intent);
             } else {
                 mDialog.show();
