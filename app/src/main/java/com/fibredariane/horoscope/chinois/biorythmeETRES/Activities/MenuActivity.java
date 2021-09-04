@@ -159,7 +159,7 @@ public class MenuActivity extends AppCompatActivity implements View.OnClickListe
                 startActivity(i);
                 break;
             case R.id.btn_etres_produit:
-                url = "https://www.etrescosmetique.com/la-gamme-des-produits-naturels";
+                url = "https://www.etrescosmetique.com/zoom-sur-les-produits";
                 i = new Intent(Intent.ACTION_VIEW);
                 i.setData(Uri.parse(url));
                 startActivity(i);
