@@ -28,10 +28,10 @@ public class CalculBinomes {
         Log.d("CALCULBIORYTHME", "  Jour énergétique :" + jourEnergetique.toString());
         Log.d("CALCULBIORYTHME", "  Année lunaire :" + anneeLunaire);
         Log.d("CALCULBIORYTHME", "  Année lunaire :" + anneeSolaire);
-        String binomeJour = getBinomeJour(jourEnergetiquePekin, anneeLunaire,anneeSolaire);
+        String binomeJour = getBinomeJour(jourEnergetiquePekin, anneeLunaire, anneeSolaire);
         stringBinome = getBinomeAnnee(anneeLunaire) + "." +
                 getBinomeMois(jourEnergetiquePekin, anneeSolaire) + "." +
-                getBinomeJour(jourEnergetiquePekin, anneeLunaire,anneeSolaire) + "." +
+                getBinomeJour(jourEnergetiquePekin, anneeLunaire, anneeSolaire) + "." +
                 getBinomeHeure(jourEnergetique, binomeJour);
 
         Log.d("CALCULBIORYTHMECOMPLET", "Biorythme :" + stringBinome);
@@ -40,7 +40,7 @@ public class CalculBinomes {
             String calcul = "";
             calcul = getBinomeAnnee(anneeLunaire, true);
             calcul += "\n" + getBinomeMois(jourEnergetiquePekin, anneeSolaire, true);
-            calcul += "\n" + getBinomeJour(jourEnergetiquePekin, anneeLunaire,anneeSolaire, true);
+            calcul += "\n" + getBinomeJour(jourEnergetiquePekin, anneeLunaire, anneeSolaire, true);
             calcul += "\n" + getBinomeHeure(jourEnergetique, binomeJour, true);
             return calcul;
         } else
@@ -1011,26 +1011,28 @@ public class CalculBinomes {
      * @param anneeEnergetique
      * @return
      */
-    public static String getBinomeJour(LocalDateTime dateEnergetique, int anneeEnergetique,int anneeSolaire) {
-        return getBinomeJour(dateEnergetique, anneeEnergetique, anneeSolaire,false);
+    public static String getBinomeJour(LocalDateTime dateEnergetique, int anneeEnergetique, int anneeSolaire) {
+        return getBinomeJour(dateEnergetique, anneeEnergetique, anneeSolaire, false);
     }
 
-    public static String getBinomeJour(LocalDateTime dateEnergetique, int anneeEnergetique,int anneeSolaire, boolean modeCalcul) {
+    public static String getBinomeJour(LocalDateTime dateEnergetique, int anneeEnergetique, int anneeSolaire, boolean modeCalcul) {
         int binomeJour = dateEnergetique.getDayOfYear() + getCorrespondanceNumAnneeLunaire(anneeEnergetique);
         Log.d("CALCULBIORYTHME", "  Biorythme Jour :");
         Log.d("CALCULBIORYTHME", "    Jour année :" + dateEnergetique.getDayOfYear());
         Log.d("CALCULBIORYTHME", "    Correspondance année lunaire :" + getCorrespondanceNumAnneeLunaire(anneeEnergetique));
         Log.d("CALCULBIORYTHME", "    Année bissextile : " + LocalDate.of(anneeSolaire, 1, 1).isLeapYear());
 
-        if (binomeJour != 60) {
+        if ((binomeJour % 60) > 0)
             binomeJour = binomeJour % 60;
-        }
+        else
+            binomeJour = 60;
+
         String mStringBinome = String.valueOf(binomeJour);
 
         if (modeCalcul) {
             String calcul = "Binome Jour";
             calcul += "\n  Jour énergétique : " + dateEnergetique.getDayOfMonth() + "/" + dateEnergetique.getMonthValue();
-            calcul += "\n  Jour de l'année "+anneeSolaire+" : " + dateEnergetique.getDayOfYear();
+            calcul += "\n  Jour de l'année " + anneeSolaire + " : " + dateEnergetique.getDayOfYear();
             calcul += "\n  Année lunaire :" + anneeEnergetique;
             calcul += "\n  Correspondance année lunaire :" + getCorrespondanceNumAnneeLunaire(anneeEnergetique);
             calcul += "\n  Année bissextile :" + LocalDate.of(anneeSolaire, 1, 1).isLeapYear();
