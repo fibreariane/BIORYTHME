@@ -7,7 +7,8 @@
     android:orientation="vertical"
     tools:context=".IntroFragment"
     android:layout_margin="@dimen/activity_vertical_margin"
-    android:gravity="center">
+    android:gravity="center"
+    android:background="@color/colorWhite">
 
     <TextView
         android:layout_width="match_parent"

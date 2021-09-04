@@ -50,6 +50,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:layout_margin="@dimen/activity_vertical_margin"
+             android:layout_marginTop="0dp"
             android:text="Découvrez sous l'influence de quelles énergies est placée votre naissance"
             android:textAlignment="center"
             android:textAppearance="?android:attr/textAppearanceMedium" />
@@ -58,8 +60,8 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:padding="@dimen/activity_vertical_margin"
             android:text="ENERGIES"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:textColor="@color/colorPrimary"
             android:textStyle="bold" />
