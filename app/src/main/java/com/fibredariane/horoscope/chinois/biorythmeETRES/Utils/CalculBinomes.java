@@ -1017,11 +1017,17 @@ public class CalculBinomes {
 
     public static String getBinomeJour(LocalDateTime dateEnergetique, int anneeEnergetique, int anneeSolaire, boolean modeCalcul) {
         int binomeJour = dateEnergetique.getDayOfYear() + getCorrespondanceNumAnneeLunaire(anneeEnergetique);
+        boolean isLeapYear = LocalDate.of(anneeEnergetique, 1, 1).isLeapYear();
         Log.d("CALCULBIORYTHME", "  Biorythme Jour :");
         Log.d("CALCULBIORYTHME", "    Jour année :" + dateEnergetique.getDayOfYear());
         Log.d("CALCULBIORYTHME", "    Correspondance année lunaire :" + getCorrespondanceNumAnneeLunaire(anneeEnergetique));
-        Log.d("CALCULBIORYTHME", "    Année bissextile : " + LocalDate.of(anneeSolaire, 1, 1).isLeapYear());
-
+        Log.d("CALCULBIORYTHME", "    Année bissextile : " + isLeapYear);
+        // Cas particulier Année lunaire bissextile et jour < 29/02
+        if ((dateEnergetique.getMonthValue() == 1
+                || (dateEnergetique.getMonthValue() == 2 && dateEnergetique.getDayOfMonth() < 29))
+                && isLeapYear) {
+            binomeJour += 1;
+        }
         if ((binomeJour % 60) > 0)
             binomeJour = binomeJour % 60;
         else
@@ -1035,7 +1041,7 @@ public class CalculBinomes {
             calcul += "\n  Jour de l'année " + anneeSolaire + " : " + dateEnergetique.getDayOfYear();
             calcul += "\n  Année lunaire :" + anneeEnergetique;
             calcul += "\n  Correspondance année lunaire :" + getCorrespondanceNumAnneeLunaire(anneeEnergetique);
-            calcul += "\n  Année bissextile :" + LocalDate.of(anneeSolaire, 1, 1).isLeapYear();
+            calcul += "\n  Année bissextile :" + isLeapYear;
             calcul += "\n  Binome :" + mStringBinome;
             return calcul;
         } else
