@@ -377,11 +377,11 @@ public class CalculBinomes {
             case 2026:
                 numAnneeLunaire = 11;
                 break;
-            case 1935:
             case 1969:
             case 1992:
                 numAnneeLunaire = 12;
                 break;
+            case 1935:
             case 2015:
                 numAnneeLunaire = 13;
                 break;
@@ -454,6 +454,7 @@ public class CalculBinomes {
             case 2030:
                 numAnneeLunaire = 32;
                 break;
+            case 1973:
             case 1996:
                 numAnneeLunaire = 33;
                 break;
