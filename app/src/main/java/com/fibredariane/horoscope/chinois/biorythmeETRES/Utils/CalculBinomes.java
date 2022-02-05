@@ -364,6 +364,7 @@ public class CalculBinomes {
                 numAnneeLunaire = 7;
                 break;
             case 1934:
+            case 2014:
                 numAnneeLunaire = 8;
                 break;
             case 1957:
@@ -439,11 +440,15 @@ public class CalculBinomes {
             case 2029:
                 numAnneeLunaire = 27;
                 break;
+            case 1995:
+                numAnneeLunaire = 28;
+                break;
             case 1938:
             case 2018:
                 numAnneeLunaire = 29;
                 break;
             case 1961:
+            case 1984:
                 numAnneeLunaire = 30;
                 break;
             case 1927:
@@ -711,7 +716,6 @@ public class CalculBinomes {
                 mStringBinome = "33";
                 break;
             case 1957:
-            case 2017:
                 mStringBinome = "34";
                 break;
             case 1958:
@@ -1282,6 +1286,7 @@ public class CalculBinomes {
             case 1949:
             case 1987:
             case 2006:
+            case 2025:
                 month = 1;
                 dayOfMonth = 29;
                 break;
@@ -1359,6 +1364,7 @@ public class CalculBinomes {
             case 1948:
             case 1994:
             case 2013:
+            case 2024:
                 month = 2;
                 dayOfMonth = 10;
                 break;
