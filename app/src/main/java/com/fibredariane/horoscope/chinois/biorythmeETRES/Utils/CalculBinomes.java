@@ -21,13 +21,13 @@ public class CalculBinomes {
         LocalDateTime jourEnergetiquePekin = getEnergeticDay(jourSaisi, decalageGMT, 8);
         LocalDateTime jourEnergetique = getEnergeticDay(jourSaisi, decalageGMT, 0);
         int anneeLunaire = getAnneeNaissanceLunaire(jourEnergetiquePekin);
-        int anneeSolaire = jourEnergetiquePekin.getYear();
+        int anneeSolaire = getAnneeNaissanceSolaire(jourSaisi);
         Log.d("CALCULBIORYTHME", "Date :" + jourSaisi.toString());
         Log.d("CALCULBIORYTHME", "  GMT :" + decalageGMT);
         Log.d("CALCULBIORYTHME", "  Jour énergétique + 8 :" + jourEnergetiquePekin.toString());
         Log.d("CALCULBIORYTHME", "  Jour énergétique :" + jourEnergetique.toString());
         Log.d("CALCULBIORYTHME", "  Année lunaire :" + anneeLunaire);
-        Log.d("CALCULBIORYTHME", "  Année lunaire :" + anneeSolaire);
+        Log.d("CALCULBIORYTHME", "  Année solaire :" + anneeSolaire);
         String binomeJour = getBinomeJour(jourEnergetiquePekin, anneeLunaire, anneeSolaire);
         stringBinome = getBinomeAnnee(anneeLunaire) + "." +
                 getBinomeMois(jourEnergetiquePekin, anneeSolaire) + "." +
@@ -262,6 +262,17 @@ public class CalculBinomes {
             yearSwitch = yearSwitch - 1;
 
         return yearSwitch;
+    }
+
+    /**
+     * Récupérer l'année solaire
+     */
+    public static int getAnneeNaissanceSolaire(LocalDateTime dateNaissance) {
+        int year = dateNaissance.getYear();
+        if ((dateNaissance.getMonthValue() == 1) && (dateNaissance.getDayOfMonth() < 6))
+            return year - 1;
+        else
+            return year;
     }
 
     /**
